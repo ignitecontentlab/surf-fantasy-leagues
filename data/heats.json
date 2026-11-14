@@ -9171,45 +9171,47 @@
    {
     "name": "Sol Aguirre",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 8.24,
+    "place": 3,
     "waves": [
-     3.5,
-     2.0
+     3.57,
+     4.67
     ],
     "best_waves": [
-     3.5,
-     2.0
+     4.67,
+     3.57
     ]
    },
    {
     "name": "Leihani Zoric",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 13.83,
+    "place": 1,
     "waves": [
-     2.5
+     6.5,
+     7.33
     ],
     "best_waves": [
-     2.5,
-     0.0
+     7.33,
+     6.5
     ]
    },
    {
     "name": "Leilani McGonagle",
     "country": "CRC",
-    "total": null,
-    "place": null,
+    "total": 9.76,
+    "place": 2,
     "waves": [
-     4.83
+     4.83,
+     4.93
     ],
     "best_waves": [
-     4.83,
-     0.0
+     4.93,
+     4.83
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -9343,6 +9345,12 @@
     "country": "BRA",
     "total": null,
     "place": null
+   },
+   {
+    "name": "Leilani McGonagle",
+    "country": "CRC",
+    "total": null,
+    "place": null
    }
   ],
   "complete": false
@@ -9355,6 +9363,12 @@
    {
     "name": "Anon Matsuoka",
     "country": "JPN",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leihani Zoric",
+    "country": "AUS",
     "total": null,
     "place": null
    },
