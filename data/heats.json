@@ -8603,8 +8603,8 @@
    {
     "name": "Ethan Ewing",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 15.2,
+    "place": 2,
     "waves": [
      6.33,
      0.5
@@ -8617,8 +8617,8 @@
    {
     "name": "Conor Donegan",
     "country": "ESP",
-    "total": null,
-    "place": null,
+    "total": 5.33,
+    "place": 4,
     "waves": [
      5.33
     ],
@@ -8630,8 +8630,8 @@
    {
     "name": "Kanoa Igarashi",
     "country": "JPN",
-    "total": null,
-    "place": null,
+    "total": 16.0,
+    "place": 1,
     "waves": [
      6.83,
      9.17
@@ -8644,8 +8644,8 @@
    {
     "name": "Griffin Colapinto",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 14.67,
+    "place": 3,
     "waves": [
      5.67,
      8.5
@@ -8656,7 +8656,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -8666,29 +8666,29 @@
    {
     "name": "Yago Dora",
     "country": "BRA",
-    "total": null,
-    "place": null
+    "total": 12.43,
+    "place": 1
    },
    {
     "name": "Franco Radziunas",
     "country": "ARG",
-    "total": null,
-    "place": null
+    "total": 11.5,
+    "place": 2
    },
    {
     "name": "Dhany Widianto",
     "country": "INA",
-    "total": null,
-    "place": null
+    "total": 9.1,
+    "place": 4
    },
    {
     "name": "Kai Odriozola",
     "country": "GER",
-    "total": null,
-    "place": null
+    "total": 11.5,
+    "place": 3
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -8699,25 +8699,47 @@
     "name": "Liam O´Brien",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Alonso Correa",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     2.0
+    ],
+    "best_waves": [
+     2.0,
+     0.0
+    ]
    },
    {
     "name": "Kauli Vaast",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Jorgan Couzinet",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -8916,6 +8938,46 @@
    {
     "name": "Janire González-Etxabarri",
     "country": "ESP",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B16",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Kanoa Igarashi",
+    "country": "JPN",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Franco Radziunas",
+    "country": "ARG",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B16",
+  "heat": 2,
+  "surfers": [
+   {
+    "name": "Ethan Ewing",
+    "country": "AUS",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Yago Dora",
+    "country": "BRA",
     "total": null,
     "place": null
    }

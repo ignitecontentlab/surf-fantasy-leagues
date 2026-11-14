@@ -973,5 +973,37 @@
     0.0
    ]
   }
+ },
+ "men|alonsocorrea|jorgancouzinet|kaulivaast|liamobrien": {
+  "alonsocorrea": {
+   "waves": [
+    2.0
+   ],
+   "best_waves": [
+    2.0,
+    0.0
+   ]
+  },
+  "liamobrien": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "kaulivaast": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "jorgancouzinet": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }

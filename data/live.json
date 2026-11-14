@@ -1,150 +1,78 @@
 {
  "division": "men",
  "round": "REPECHAGE 8",
- "heat": 1,
- "heat_id": "140",
+ "heat": 3,
+ "heat_id": "142",
  "status": "RUNNING",
- "minleft": 4,
- "secleft": 10,
+ "minleft": 15,
+ "secleft": 43,
  "end": "",
  "surfers": [
   {
-   "name": "Kanoa Igarashi",
-   "country": "JPN",
+   "name": "Alonso Correa",
+   "country": "PER",
    "place": 1,
-   "total": 16.0,
+   "total": 2.0,
    "best_waves": [
-    9.17,
-    6.83
-   ],
-   "priority": null,
-   "waves": [
-    6.83,
-    9.17
-   ],
-   "wave_detail": [
-    {
-     "score": 6.83,
-     "judges": [
-      7.0,
-      6.5,
-      6.2,
-      7.0,
-      7.0
-     ]
-    },
-    {
-     "score": 9.17,
-     "judges": [
-      9.0,
-      9.0,
-      8.5,
-      9.5,
-      9.5
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Griffin Colapinto",
-   "country": "USA",
-   "place": 2,
-   "total": 14.17,
-   "best_waves": [
-    8.5,
-    5.67
-   ],
-   "priority": null,
-   "waves": [
-    5.67,
-    8.5
-   ],
-   "wave_detail": [
-    {
-     "score": 5.67,
-     "judges": [
-      5.5,
-      5.5,
-      6.0,
-      5.5,
-      6.0
-     ]
-    },
-    {
-     "score": 8.5,
-     "judges": [
-      8.0,
-      9.2,
-      8.0,
-      8.5,
-      9.0
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Ethan Ewing",
-   "country": "AUS",
-   "place": 3,
-   "total": 6.83,
-   "best_waves": [
-    6.33,
-    0.5
-   ],
-   "priority": "P1",
-   "waves": [
-    6.33,
-    0.5
-   ],
-   "wave_detail": [
-    {
-     "score": 6.33,
-     "judges": [
-      6.5,
-      6.0,
-      5.7,
-      6.5,
-      6.5
-     ]
-    },
-    {
-     "score": 0.5,
-     "judges": [
-      0.5,
-      0.7,
-      0.5,
-      0.5,
-      0.5
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Conor Donegan",
-   "country": "ESP",
-   "place": 4,
-   "total": 5.33,
-   "best_waves": [
-    5.33,
+    2.0,
     0.0
    ],
-   "priority": "P2",
+   "priority": null,
    "waves": [
-    5.33
+    2.0
    ],
    "wave_detail": [
     {
-     "score": 5.33,
+     "score": 2.0,
      "judges": [
-      5.3,
-      5.7,
-      4.0,
-      5.7,
-      5.0
+      2.5,
+      2.0,
+      2.0,
+      2.0,
+      1.5
      ]
     }
    ]
+  },
+  {
+   "name": "Liam O´Brien",
+   "country": "AUS",
+   "place": 2,
+   "total": 0.0,
+   "best_waves": [
+    0.0,
+    0.0
+   ],
+   "priority": "P1",
+   "waves": [],
+   "wave_detail": []
+  },
+  {
+   "name": "Kauli Vaast",
+   "country": "FRA",
+   "place": 3,
+   "total": 0.0,
+   "best_waves": [
+    0.0,
+    0.0
+   ],
+   "priority": null,
+   "waves": [],
+   "wave_detail": []
+  },
+  {
+   "name": "Jorgan Couzinet",
+   "country": "FRA",
+   "place": 4,
+   "total": 0.0,
+   "best_waves": [
+    0.0,
+    0.0
+   ],
+   "priority": null,
+   "waves": [],
+   "wave_detail": []
   }
  ],
- "fetched_utc": "2026-11-14T16:44:42.188210Z"
+ "fetched_utc": "2026-11-14T17:18:10.403851Z"
 }
