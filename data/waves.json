@@ -715,5 +715,35 @@
     0.0
    ]
   }
+ },
+ "women|aelanvaast|carissamoore|estelalopez|leihanizoric": {
+  "leihanizoric": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "aelanvaast": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "estelalopez": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "carissamoore": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }

@@ -8351,25 +8351,45 @@
     "name": "Leihani Zoric",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Aelan Vaast",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Estela López",
     "country": "CHI",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Carissa Moore",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    }
   ],
   "complete": false

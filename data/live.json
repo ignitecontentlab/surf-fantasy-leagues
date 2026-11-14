@@ -1,139 +1,65 @@
 {
- "division": "men",
+ "division": "women",
  "round": "REPECHAGE 7",
- "heat": 3,
- "heat_id": "139",
+ "heat": 1,
+ "heat_id": "137",
  "status": "RUNNING",
- "minleft": 8,
- "secleft": 31,
+ "minleft": 18,
+ "secleft": 28,
  "end": "",
  "surfers": [
   {
-   "name": "Jorgan Couzinet",
-   "country": "FRA",
+   "name": "Leihani Zoric",
+   "country": "AUS",
    "place": 1,
-   "total": 8.37,
+   "total": 0.0,
    "best_waves": [
-    5.87,
-    2.5
+    0.0,
+    0.0
    ],
    "priority": null,
-   "waves": [
-    2.5,
-    5.87
-   ],
-   "wave_detail": [
-    {
-     "score": 2.5,
-     "judges": [
-      2.5,
-      2.5,
-      2.5,
-      2.0,
-      2.5
-     ]
-    },
-    {
-     "score": 5.87,
-     "judges": [
-      5.8,
-      6.0,
-      5.8,
-      5.5,
-      6.5
-     ]
-    }
-   ]
+   "waves": [],
+   "wave_detail": []
   },
   {
-   "name": "Dhany Widianto",
-   "country": "INA",
+   "name": "Aelan Vaast",
+   "country": "FRA",
    "place": 2,
-   "total": 6.0,
+   "total": 0.0,
    "best_waves": [
-    6.0,
+    0.0,
     0.0
    ],
    "priority": null,
-   "waves": [
-    6.0
-   ],
-   "wave_detail": [
-    {
-     "score": 6.0,
-     "judges": [
-      6.0,
-      6.5,
-      6.0,
-      6.0,
-      6.0
-     ]
-    }
-   ]
+   "waves": [],
+   "wave_detail": []
   },
   {
-   "name": "Cole Houshmand",
-   "country": "USA",
+   "name": "Estela López",
+   "country": "CHI",
    "place": 3,
-   "total": 5.37,
+   "total": 0.0,
    "best_waves": [
-    5.0,
-    0.37
-   ],
-   "priority": null,
-   "waves": [
-    5.0,
-    0.37
-   ],
-   "wave_detail": [
-    {
-     "score": 5.0,
-     "judges": [
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0
-     ]
-    },
-    {
-     "score": 0.37,
-     "judges": [
-      0.5,
-      0.3,
-      0.3,
-      0.2,
-      0.5
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Italo Ferreira",
-   "country": "BRA",
-   "place": 4,
-   "total": 4.5,
-   "best_waves": [
-    4.5,
+    0.0,
     0.0
    ],
    "priority": null,
-   "waves": [
-    4.5
+   "waves": [],
+   "wave_detail": []
+  },
+  {
+   "name": "Carissa Moore",
+   "country": "USA",
+   "place": 4,
+   "total": 0.0,
+   "best_waves": [
+    0.0,
+    0.0
    ],
-   "wave_detail": [
-    {
-     "score": 4.5,
-     "judges": [
-      4.0,
-      4.5,
-      4.5,
-      4.5,
-      4.5
-     ]
-    }
-   ]
+   "priority": null,
+   "waves": [],
+   "wave_detail": []
   }
  ],
- "fetched_utc": "2026-11-14T12:59:08.059421Z"
+ "fetched_utc": "2026-11-14T13:10:23.337385Z"
 }
