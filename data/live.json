@@ -1,91 +1,113 @@
 {
  "division": "men",
  "round": "REPECHAGE 9",
- "heat": 1,
- "heat_id": "143",
+ "heat": 2,
+ "heat_id": "144",
  "status": "RUNNING",
- "minleft": 13,
- "secleft": 55,
+ "minleft": 1,
+ "secleft": 16,
  "end": "",
  "surfers": [
   {
-   "name": "Kanoa Igarashi",
-   "country": "JPN",
+   "name": "Yago Dora",
+   "country": "BRA",
    "place": 1,
-   "total": 7.83,
+   "total": 11.93,
    "best_waves": [
-    7.83,
-    0.0
+    7.43,
+    4.5
    ],
-   "priority": "P2",
+   "priority": null,
    "waves": [
-    7.83
+    4.5,
+    7.43
    ],
    "wave_detail": [
     {
-     "score": 7.83,
+     "score": 4.5,
      "judges": [
-      7.5,
-      7.5,
+      4.0,
+      4.0,
+      5.0,
+      5.0,
+      4.5
+     ]
+    },
+    {
+     "score": 7.43,
+     "judges": [
       8.0,
-      8.0,
-      8.0
+      6.7,
+      7.5,
+      6.8,
+      8.5
      ]
     }
    ]
   },
   {
-   "name": "Franco Radziunas",
-   "country": "ARG",
+   "name": "Ethan Ewing",
+   "country": "AUS",
    "place": 2,
-   "total": 6.83,
+   "total": 7.83,
    "best_waves": [
     6.83,
-    0.0
+    1.0
    ],
    "priority": null,
    "waves": [
+    1.0,
     6.83
    ],
    "wave_detail": [
     {
+     "score": 1.0,
+     "judges": [
+      0.7,
+      1.0,
+      1.0,
+      1.2,
+      1.0
+     ]
+    },
+    {
      "score": 6.83,
      "judges": [
+      6.0,
       6.5,
       7.0,
       7.0,
-      7.0,
-      6.5
+      7.5
      ]
     }
    ]
   },
   {
-   "name": "Jorgan Couzinet",
+   "name": "Kauli Vaast",
    "country": "FRA",
    "place": 3,
-   "total": 0.5,
+   "total": 5.33,
    "best_waves": [
-    0.5,
+    5.33,
     0.0
    ],
    "priority": "P1",
    "waves": [
-    0.5
+    5.33
    ],
    "wave_detail": [
     {
-     "score": 0.5,
+     "score": 5.33,
      "judges": [
-      0.5,
-      0.5,
-      0.5,
-      0.5,
-      1.0
+      5.5,
+      5.5,
+      4.8,
+      5.5,
+      5.0
      ]
     }
    ]
   }
  ],
- "fetched_utc": "2026-11-14T20:16:23.805479Z"
+ "fetched_utc": "2026-11-14T20:51:11.479568Z"
 }

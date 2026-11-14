@@ -9049,8 +9049,8 @@
    {
     "name": "Kanoa Igarashi",
     "country": "JPN",
-    "total": null,
-    "place": null,
+    "total": 17.6,
+    "place": 1,
     "waves": [
      7.83
     ],
@@ -9062,8 +9062,8 @@
    {
     "name": "Franco Radziunas",
     "country": "ARG",
-    "total": null,
-    "place": null,
+    "total": 13.5,
+    "place": 2,
     "waves": [
      6.83
     ],
@@ -9075,8 +9075,8 @@
    {
     "name": "Jorgan Couzinet",
     "country": "FRA",
-    "total": null,
-    "place": null,
+    "total": 8.17,
+    "place": 3,
     "waves": [
      0.5
     ],
@@ -9086,7 +9086,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -9097,19 +9097,42 @@
     "name": "Ethan Ewing",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     1.0,
+     6.83
+    ],
+    "best_waves": [
+     6.83,
+     1.0
+    ]
    },
    {
     "name": "Yago Dora",
     "country": "BRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     4.5,
+     7.43
+    ],
+    "best_waves": [
+     7.43,
+     4.5
+    ]
    },
    {
     "name": "Kauli Vaast",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.33
+    ],
+    "best_waves": [
+     5.33,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -9208,6 +9231,12 @@
     "country": "COL",
     "total": null,
     "place": null
+   },
+   {
+    "name": "Kanoa Igarashi",
+    "country": "JPN",
+    "total": null,
+    "place": null
    }
   ],
   "complete": false
@@ -9220,6 +9249,12 @@
    {
     "name": "Crosby Colapinto",
     "country": "USA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Franco Radziunas",
+    "country": "ARG",
     "total": null,
     "place": null
    }

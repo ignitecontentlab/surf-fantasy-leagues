@@ -1167,5 +1167,36 @@
     0.0
    ]
   }
+ },
+ "men|ethanewing|kaulivaast|yagodora": {
+  "yagodora": {
+   "waves": [
+    4.5,
+    7.43
+   ],
+   "best_waves": [
+    7.43,
+    4.5
+   ]
+  },
+  "ethanewing": {
+   "waves": [
+    1.0,
+    6.83
+   ],
+   "best_waves": [
+    6.83,
+    1.0
+   ]
+  },
+  "kaulivaast": {
+   "waves": [
+    5.33
+   ],
+   "best_waves": [
+    5.33,
+    0.0
+   ]
+  }
  }
 }
