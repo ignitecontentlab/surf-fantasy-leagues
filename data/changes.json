@@ -1,1 +1,28 @@
-{"changes": []}
+{
+ "changes": [
+  {
+   "at": "2026-11-14T20:01:13+00:00",
+   "event": "isa-wpsc-2026",
+   "text": "New event added: **ISA World Para Surfing Championship** (2026-11-19 to 2026-11-22)",
+   "important": false
+  },
+  {
+   "at": "2026-11-14T20:01:13+00:00",
+   "event": "isa-wlc-2027",
+   "text": "New event added: **ISA World Longboard Championship 2027** (dates TBA to TBA)",
+   "important": false
+  },
+  {
+   "at": "2026-11-14T20:01:13+00:00",
+   "event": "isa-wjsc-2026",
+   "text": "New event added: **ISA World Junior Surfing Championship** (2026-09-04 to 2026-09-13)",
+   "important": false
+  },
+  {
+   "at": "2026-11-14T20:01:13+00:00",
+   "event": "isa-wlc-2026",
+   "text": "New event added: **ISA World Longboard Championship** (2026-10-16 to 2026-10-22)",
+   "important": false
+  }
+ ]
+}

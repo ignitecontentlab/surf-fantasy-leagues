@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-14T19:55:38+00:00",
- "content_hash": "8aa8162f4f83",
+ "updated_at": "2026-11-14T20:01:13+00:00",
+ "content_hash": "b5bd6a508a78",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -25,7 +25,7 @@
    "id": "isa-wsg-2026",
    "name": "ISA World Surfing Games",
    "org": "ISA",
-   "series": "ISA",
+   "series": "ISA World Championships",
    "start": "2026-11-06",
    "end": "2026-11-15",
    "location": "Punta Rocas, Peru",
@@ -34,6 +34,8 @@
    "pool": "Running now on this site",
    "official": "https://isasurf.org/",
    "news": "ISA World Surfing Games",
+   "host": "ISA",
+   "partner": "Peruvian Surfing Federation (FENTA) and the Peruvian Institute of Sport (IPD)",
    "status": "live",
    "headlines": [
     {
@@ -61,7 +63,7 @@
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMF9qSkQ3TGlMMWRxVG5Ucm1aZ2VBOTFubmxTWjlTQzVuSmdjby0xQnRjUXZDeU9KQVp5elpGWTA5R2VldVhaamxvckh3a0VLVlprb0Z3UGRaQ2tvaURMbWZ2bFc4LUZMTU05eHZxVjFIVXFpZWJaTVZzbUk3TEpSdHlmVjZqekFORi1OZ3BzZkRWLXA4S19XVjA2UFFFQUZnT0ZMUG5WcWt5elFEVzV2U3BzWTIxSVE?oc=5"
     }
    ],
-   "news_at": "2026-11-14T19:55:38+00:00"
+   "news_at": "2026-11-14T20:01:13+00:00"
   },
   {
    "id": "vans-triple-crown-2026",
@@ -77,9 +79,11 @@
    "official": "https://www.worldsurfleague.com/",
    "watch": "https://www.youtube.com/@wsl/streams",
    "news": "Vans Triple Crown surfing",
+   "host": "WSL",
+   "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-14T19:55:38+00:00"
+   "news_at": "2026-11-14T20:01:13+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -94,6 +98,7 @@
    "pool": "",
    "official": "https://www.worldsurfleague.com/",
    "news": "Taiwan Open of Surfing",
+   "host": "WSL",
    "status": "live",
    "headlines": [
     {
@@ -121,7 +126,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-14T19:55:38+00:00"
+   "news_at": "2026-11-14T20:01:13+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -139,6 +144,8 @@
    "news": "Nazaré Big Wave Challenge",
    "watcher": "nazare",
    "facts": "One-day tow-in event on a 25 ft+ swell. Yellow alert up to 72 hours ahead, green alert 24 hours ahead.",
+   "host": "WSL",
+   "partner": "Municipality of Nazaré",
    "alert_text": "Waiting Period Open",
    "watch_note": "Waiting Period Open",
    "status": "window",
@@ -169,6 +176,41 @@
     }
    ],
    "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "isa-wpsc-2026",
+   "name": "ISA World Para Surfing Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "DSRT Surf",
+   "series": "ISA World Championships",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "location": "DSRT Surf, Palm Desert, California",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
+   "watch": "https://isasurf.org/",
+   "news": "ISA World Para Surfing Championship",
+   "facts": "Opening ceremony Nov 19 at DSRT Surf. Competition Nov 20-22. Live stream on isasurf.org.",
+   "source": "https://isasurf.org/info-for-event-participants-2026-wpsc/",
+   "status": "upcoming",
+   "headlines": [
+    {
+     "title": "He lost his legs as a baby, but SA’s para surfing champ now flies our flag in the US",
+     "date": "2026-11-07",
+     "source": "News24",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
+    },
+    {
+     "title": "World champion para surfer trains at Edinburgh’s Lost Shore ahead of California title defence",
+     "date": "2026-11-02",
+     "source": "Midlothian View",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSHFTazVfWGxFMXVIT0k3a05WZ25QcmRXTHFmdG5RVVZ5MDBONDVET0JtZ2ZUM3N6QXYyanZvNGtRWFl0MXVzMEtzWER1ZlFDTDFBUEYyc0M5cDRJOG5lcWNTTHU1YWt3ZTVvcENYUjJSRUdJbEVrdDh5a3pKSHRJVjJ6RExoY1ptZUQ5cEMxTWM2TFVxMlBhdGRYSHRWb3dLdTdlUk40bFB2MUdrSWpwdURJa2V4ZmNSeUVZcTRwRXF4UQ?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T20:01:13+00:00"
   },
   {
    "id": "eddie-2026-27",
@@ -476,6 +518,8 @@
     }
    ],
    "roster_source": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational",
+   "host": "Rip Curl",
+   "partner": "Eddie Aikau Foundation",
    "official_news": [
     {
      "title": "Invitees Announced for 2026/27 Rip Curl Eddie Aikau Big Wave Invitational",
@@ -518,6 +562,7 @@
    "id": "wsl-ct-2026-lexuspipemasters",
    "name": "Lexus Pipe Masters",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "13",
    "start": "2026-12-08",
@@ -556,6 +601,7 @@
    "official": "https://www.worldsurfleague.com/",
    "news": "QS Pipeline 2027",
    "facts": "Tentative permit window.",
+   "host": "WSL",
    "status": "upcoming",
    "headlines": [],
    "news_at": "2026-11-14T18:23:41+00:00"
@@ -573,6 +619,7 @@
    "pool": "Decides who qualifies for the 2027 Championship Tour",
    "official": "https://www.worldsurfleague.com/",
    "news": "Challenger Series Newcastle surf",
+   "host": "WSL",
    "status": "upcoming",
    "headlines": [],
    "news_at": "2026-11-14T18:23:41+00:00"
@@ -591,6 +638,8 @@
    "official": "https://la28.org/",
    "news": "LA28 Olympic surfing Trestles",
    "facts": "Competition days July 15-18, contingency days through July 23.",
+   "host": "LA28 / IOC",
+   "partner": "ISA runs the surfing competition",
    "status": "upcoming",
    "headlines": [
     {
@@ -624,7 +673,7 @@
    "id": "isa-wsg-2027",
    "name": "ISA World Surfing Games 2027",
    "org": "ISA",
-   "series": "ISA",
+   "series": "ISA World Championships",
    "start": "",
    "end": "",
    "year": 2027,
@@ -634,6 +683,29 @@
    "pool": "Same format as Peru, with live scores",
    "official": "https://isasurf.org/",
    "news": "2027 ISA World Surfing Games",
+   "host": "ISA",
+   "status": "tba",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "isa-wlc-2027",
+   "name": "ISA World Longboard Championship 2027",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "Surf City El Salvador",
+   "series": "ISA World Championships",
+   "start": "",
+   "end": "",
+   "year": 2027,
+   "location": "El Salvador (expected)",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/",
+   "news": "2027 ISA World Longboard Championship",
+   "facts": "Surf City El Salvador's ISA partnership includes the Longboard Championship every year through 2027. Dates not announced yet.",
+   "source": "https://isasurf.org/isa-and-surf-city-el-salvador-confirm-historic-partnership-through-2027/",
    "status": "tba",
    "headlines": [],
    "news_at": "2000-01-01T00:00:00+00:00"
@@ -642,6 +714,7 @@
    "id": "wsl-ct-2026-ripcurlprobellsbeach",
    "name": "Rip Curl Pro Bells Beach",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "1",
    "start": "2026-04-01",
@@ -681,6 +754,7 @@
    "id": "wsl-ct-2026-westernaustraliamargaret",
    "name": "Western Australia Margaret River Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "2",
    "start": "2026-04-16",
@@ -720,6 +794,7 @@
    "id": "wsl-ct-2026-bonsoygoldcoastpro",
    "name": "Bonsoy Gold Coast Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "3",
    "start": "2026-05-02",
@@ -759,6 +834,7 @@
    "id": "wsl-ct-2026-coronaceronewzealandpro",
    "name": "Corona Cero New Zealand Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "4",
    "start": "2026-05-15",
@@ -798,6 +874,7 @@
    "id": "wsl-ct-2026-surfcityelsalvadorpro",
    "name": "Surf City El Salvador Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "5",
    "start": "2026-06-05",
@@ -837,6 +914,7 @@
    "id": "wsl-ct-2026-vivoriopro",
    "name": "VIVO Rio Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "6",
    "start": "2026-06-19",
@@ -876,6 +954,7 @@
    "id": "wsl-ct-2026-outerknowntahitipro",
    "name": "Outerknown Tahiti Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "7",
    "start": "2026-08-08",
@@ -915,6 +994,7 @@
    "id": "wsl-ct-2026-fijipro",
    "name": "Fiji Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "8",
    "start": "2026-08-25",
@@ -951,9 +1031,32 @@
    "news_at": "2000-01-01T00:00:00+00:00"
   },
   {
+   "id": "isa-wjsc-2026",
+   "name": "ISA World Junior Surfing Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "Surf City El Salvador",
+   "series": "ISA World Championships",
+   "start": "2026-09-04",
+   "end": "2026-09-13",
+   "location": "La Bocana and El Sunzal, El Salvador",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/",
+   "news": "ISA World Junior Surfing Championship",
+   "status_override": "completed",
+   "facts": "Team USA won the team silver medal.",
+   "source": "https://www.usasurfing.org/usa-surfing-news/team-usa-earns-silver-at-2026-surf-city-el-salvador-at-isa-world-junior-surfing-championships",
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
    "id": "wsl-ct-2026-lexustrestlespro",
    "name": "Lexus Trestles Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "9",
    "start": "2026-09-11",
@@ -993,6 +1096,7 @@
    "id": "wsl-ct-2026-meoripcurlproportugal",
    "name": "MEO Rip Curl Pro Portugal",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "10",
    "start": "2026-10-16",
@@ -1029,9 +1133,42 @@
    "news_at": "2026-11-14T18:23:41+00:00"
   },
   {
+   "id": "isa-wlc-2026",
+   "name": "ISA World Longboard Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "Surf City El Salvador",
+   "series": "ISA World Championships",
+   "start": "2026-10-16",
+   "end": "2026-10-22",
+   "location": "El Sunzal, El Salvador",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/event/2026-isa-world-longboard-championship/",
+   "news": "ISA World Longboard Championship",
+   "status_override": "completed",
+   "results": {
+    "men_champ": {
+     "name": "Benoit Clemente",
+     "country": "FRA"
+    },
+    "women_champ": {
+     "name": "Alice Lemoigne",
+     "country": "FRA"
+    }
+   },
+   "facts": "France won the team title for a fifth time; USA took team silver and Peru bronze.",
+   "source": "https://isasurf.org/category/events/world-longboard-surfing-championship/",
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
    "id": "wsl-ct-2026-philippinespro",
    "name": "Philippines Pro",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "11",
    "start": "2026-10-31",
@@ -1096,6 +1233,7 @@
    "id": "wsl-ct-2026-surfabudhabi",
    "name": "Surf Abu Dhabi",
    "org": "WSL",
+   "host": "WSL",
    "series": "2026 Championship Tour",
    "round": "12",
    "start": "2026-11-25",
@@ -1116,5 +1254,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-14T19:55:38+00:00"
+ "checked_at": "2026-11-14T20:01:13+00:00"
 }
