@@ -1138,5 +1138,34 @@
     3.83
    ]
   }
+ },
+ "men|francoradziunas|jorgancouzinet|kanoaigarashi": {
+  "kanoaigarashi": {
+   "waves": [
+    7.83
+   ],
+   "best_waves": [
+    7.83,
+    0.0
+   ]
+  },
+  "francoradziunas": {
+   "waves": [
+    6.83
+   ],
+   "best_waves": [
+    6.83,
+    0.0
+   ]
+  },
+  "jorgancouzinet": {
+   "waves": [
+    0.5
+   ],
+   "best_waves": [
+    0.5,
+    0.0
+   ]
+  }
  }
 }

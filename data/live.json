@@ -1,124 +1,91 @@
 {
- "division": "women",
- "round": "ROUND 6",
+ "division": "men",
+ "round": "REPECHAGE 9",
  "heat": 1,
- "heat_id": "70",
+ "heat_id": "143",
  "status": "RUNNING",
- "minleft": 2,
- "secleft": 15,
+ "minleft": 13,
+ "secleft": 55,
  "end": "",
  "surfers": [
   {
-   "name": "Sawyer Lindblad",
-   "country": "USA",
+   "name": "Kanoa Igarashi",
+   "country": "JPN",
    "place": 1,
-   "total": 11.93,
+   "total": 7.83,
    "best_waves": [
-    6.43,
-    5.5
+    7.83,
+    0.0
    ],
-   "priority": null,
+   "priority": "P2",
    "waves": [
-    5.5,
-    6.43
+    7.83
    ],
    "wave_detail": [
     {
-     "score": 5.5,
+     "score": 7.83,
      "judges": [
-      5.0,
-      6.0,
-      5.5,
-      5.5,
-      5.5
+      7.5,
+      7.5,
+      8.0,
+      8.0,
+      8.0
      ]
-    },
+    }
+   ]
+  },
+  {
+   "name": "Franco Radziunas",
+   "country": "ARG",
+   "place": 2,
+   "total": 6.83,
+   "best_waves": [
+    6.83,
+    0.0
+   ],
+   "priority": null,
+   "waves": [
+    6.83
+   ],
+   "wave_detail": [
     {
-     "score": 6.43,
+     "score": 6.83,
      "judges": [
       6.5,
-      6.5,
-      6.3,
-      6.0,
+      7.0,
+      7.0,
+      7.0,
       6.5
      ]
     }
    ]
   },
   {
-   "name": "Johanne Defay",
+   "name": "Jorgan Couzinet",
    "country": "FRA",
-   "place": 2,
-   "total": 11.67,
+   "place": 3,
+   "total": 0.5,
    "best_waves": [
-    7.67,
-    4.0
+    0.5,
+    0.0
    ],
    "priority": "P1",
    "waves": [
-    7.67,
-    4.0
+    0.5
    ],
    "wave_detail": [
     {
-     "score": 7.67,
+     "score": 0.5,
      "judges": [
-      8.0,
-      8.0,
-      7.5,
-      7.5,
-      7.5
-     ]
-    },
-    {
-     "score": 4.0,
-     "judges": [
-      4.0,
-      4.3,
-      4.0,
-      3.5,
-      4.0
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Catalina Zariquiey",
-   "country": "PER",
-   "place": 3,
-   "total": 10.1,
-   "best_waves": [
-    6.27,
-    3.83
-   ],
-   "priority": null,
-   "waves": [
-    3.83,
-    6.27
-   ],
-   "wave_detail": [
-    {
-     "score": 3.83,
-     "judges": [
-      3.5,
-      3.5,
-      4.0,
-      4.0,
-      4.0
-     ]
-    },
-    {
-     "score": 6.27,
-     "judges": [
-      5.5,
-      5.8,
-      6.5,
-      6.5,
-      7.0
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.0
      ]
     }
    ]
   }
  ],
- "fetched_utc": "2026-11-14T19:44:40.176738Z"
+ "fetched_utc": "2026-11-14T20:16:23.805479Z"
 }

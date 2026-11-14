@@ -8973,8 +8973,8 @@
    {
     "name": "Catalina Zariquiey",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 13.37,
+    "place": 3,
     "waves": [
      3.83,
      6.27
@@ -8987,8 +8987,8 @@
    {
     "name": "Johanne Defay",
     "country": "FRA",
-    "total": null,
-    "place": null,
+    "total": 13.87,
+    "place": 2,
     "waves": [
      7.67,
      4.0
@@ -9001,8 +9001,8 @@
    {
     "name": "Sawyer Lindblad",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 13.96,
+    "place": 1,
     "waves": [
      5.5,
      6.43
@@ -9013,7 +9013,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -9023,23 +9023,23 @@
    {
     "name": "Anon Matsuoka",
     "country": "JPN",
-    "total": null,
-    "place": null
+    "total": 7.4,
+    "place": 3
    },
    {
     "name": "Gabriela Bryan",
     "country": "USA",
-    "total": null,
-    "place": null
+    "total": 12.97,
+    "place": 1
    },
    {
     "name": "Janire González-Etxabarri",
     "country": "ESP",
-    "total": null,
-    "place": null
+    "total": 9.34,
+    "place": 2
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -9050,19 +9050,40 @@
     "name": "Kanoa Igarashi",
     "country": "JPN",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     7.83
+    ],
+    "best_waves": [
+     7.83,
+     0.0
+    ]
    },
    {
     "name": "Franco Radziunas",
     "country": "ARG",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.83
+    ],
+    "best_waves": [
+     6.83,
+     0.0
+    ]
    },
    {
     "name": "Jorgan Couzinet",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     0.5
+    ],
+    "best_waves": [
+     0.5,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -9199,6 +9220,66 @@
    {
     "name": "Crosby Colapinto",
     "country": "USA",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B07",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Sawyer Lindblad",
+    "country": "USA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Janire González-Etxabarri",
+    "country": "ESP",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Gabriela Bryan",
+    "country": "USA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Johanne Defay",
+    "country": "FRA",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B17",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Catalina Zariquiey",
+    "country": "PER",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B17",
+  "heat": 2,
+  "surfers": [
+   {
+    "name": "Anon Matsuoka",
+    "country": "JPN",
     "total": null,
     "place": null
    }
