@@ -1,78 +1,161 @@
 {
  "division": "men",
  "round": "ROUND 5",
- "heat": 1,
- "heat_id": "67",
- "status": "RUNNING",
- "minleft": 14,
- "secleft": 24,
- "end": "",
+ "heat": 2,
+ "heat_id": "68",
+ "status": "UNOFFICIAL",
+ "minleft": 0,
+ "secleft": 0,
+ "end": "00:00",
  "surfers": [
   {
-   "name": "Lucca Mesinas",
-   "country": "PER",
+   "name": "Leonardo Fioravanti",
+   "country": "ITA",
    "place": 1,
-   "total": 9.5,
+   "total": 14.2,
    "best_waves": [
-    9.5,
-    0.0
+    7.33,
+    6.87
    ],
    "priority": null,
    "waves": [
-    9.5
+    7.33,
+    6.87
    ],
    "wave_detail": [
     {
-     "score": 9.5,
+     "score": 7.33,
      "judges": [
-      9.5,
-      9.5,
-      9.5,
-      9.5,
-      9.0
+      6.5,
+      7.0,
+      7.5,
+      7.5,
+      7.5
+     ]
+    },
+    {
+     "score": 6.87,
+     "judges": [
+      6.8,
+      6.5,
+      6.8,
+      7.0,
+      7.0
      ]
     }
    ]
   },
   {
-   "name": "Crosby Colapinto",
-   "country": "USA",
+   "name": "Romeo Chavez",
+   "country": "COL",
    "place": 2,
-   "total": 0.0,
+   "total": 12.93,
    "best_waves": [
-    0.0,
-    0.0
+    6.5,
+    6.43
    ],
    "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    6.5,
+    6.43
+   ],
+   "wave_detail": [
+    {
+     "score": 6.5,
+     "judges": [
+      7.0,
+      6.0,
+      7.0,
+      6.0,
+      6.5
+     ]
+    },
+    {
+     "score": 6.43,
+     "judges": [
+      6.3,
+      6.2,
+      7.2,
+      6.3,
+      6.7
+     ]
+    }
+   ]
   },
   {
-   "name": "Ethan Ewing",
+   "name": "Liam O´Brien",
    "country": "AUS",
    "place": 3,
-   "total": 0.0,
+   "total": 12.83,
    "best_waves": [
-    0.0,
-    0.0
+    7.83,
+    5.0
    ],
    "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    5.0,
+    7.83
+   ],
+   "wave_detail": [
+    {
+     "score": 5.0,
+     "judges": [
+      5.3,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+     ]
+    },
+    {
+     "score": 7.83,
+     "judges": [
+      8.0,
+      7.8,
+      7.3,
+      8.0,
+      7.7
+     ]
+    }
+   ]
   },
   {
-   "name": "Franco Radziunas",
-   "country": "ARG",
+   "name": "Conor Donegan",
+   "country": "ESP",
    "place": 4,
-   "total": 0.0,
+   "total": 10.73,
    "best_waves": [
-    0.0,
-    0.0
+    5.53,
+    5.2
    ],
    "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    5.2,
+    5.53
+   ],
+   "wave_detail": [
+    {
+     "score": 5.2,
+     "judges": [
+      5.4,
+      5.2,
+      5.2,
+      4.5,
+      5.2
+     ]
+    },
+    {
+     "score": 5.53,
+     "judges": [
+      5.0,
+      5.8,
+      5.5,
+      5.3,
+      5.8
+     ]
+    }
+   ]
   }
  ],
- "fetched_utc": "2026-11-14T14:25:00.328149Z"
+ "fetched_utc": "2026-11-14T15:01:00.919436Z"
 }

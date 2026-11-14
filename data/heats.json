@@ -7453,8 +7453,8 @@
    {
     "name": "Lucca Mesinas",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 16.83,
+    "place": 1,
     "waves": [
      9.5
     ],
@@ -7466,8 +7466,8 @@
    {
     "name": "Crosby Colapinto",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 13.66,
+    "place": 2,
     "waves": [],
     "best_waves": [
      0.0,
@@ -7477,8 +7477,8 @@
    {
     "name": "Ethan Ewing",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 12.6,
+    "place": 3,
     "waves": [],
     "best_waves": [
      0.0,
@@ -7488,8 +7488,8 @@
    {
     "name": "Franco Radziunas",
     "country": "ARG",
-    "total": null,
-    "place": null,
+    "total": 7.6,
+    "place": 4,
     "waves": [],
     "best_waves": [
      0.0,
@@ -7497,7 +7497,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -7508,25 +7508,57 @@
     "name": "Liam O´Brien",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.0,
+     7.83
+    ],
+    "best_waves": [
+     7.83,
+     5.0
+    ]
    },
    {
     "name": "Leonardo Fioravanti",
     "country": "ITA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     7.33,
+     6.87
+    ],
+    "best_waves": [
+     7.33,
+     6.87
+    ]
    },
    {
     "name": "Romeo Chavez",
     "country": "COL",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.5,
+     6.43
+    ],
+    "best_waves": [
+     6.5,
+     6.43
+    ]
    },
    {
     "name": "Conor Donegan",
     "country": "ESP",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.2,
+     5.53
+    ],
+    "best_waves": [
+     5.53,
+     5.2
+    ]
    }
   ],
   "complete": false
@@ -8517,6 +8549,12 @@
   "heat": 1,
   "surfers": [
    {
+    "name": "Ethan Ewing",
+    "country": "AUS",
+    "total": null,
+    "place": null
+   },
+   {
     "name": "Kanoa Igarashi",
     "country": "JPN",
     "total": null,
@@ -8536,6 +8574,12 @@
   "round": "B15",
   "heat": 2,
   "surfers": [
+   {
+    "name": "Franco Radziunas",
+    "country": "ARG",
+    "total": null,
+    "place": null
+   },
    {
     "name": "Dhany Widianto",
     "country": "INA",
@@ -8625,6 +8669,34 @@
    {
     "name": "Francisca Veselko",
     "country": "POR",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B06",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Lucca Mesinas",
+    "country": "PER",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B06",
+  "heat": 2,
+  "surfers": [
+   {
+    "name": "Crosby Colapinto",
+    "country": "USA",
     "total": null,
     "place": null
    }

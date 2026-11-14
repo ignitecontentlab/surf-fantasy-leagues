@@ -818,5 +818,47 @@
     0.0
    ]
   }
+ },
+ "men|conordonegan|leonardofioravanti|liamobrien|romeochavez": {
+  "leonardofioravanti": {
+   "waves": [
+    7.33,
+    6.87
+   ],
+   "best_waves": [
+    7.33,
+    6.87
+   ]
+  },
+  "romeochavez": {
+   "waves": [
+    6.5,
+    6.43
+   ],
+   "best_waves": [
+    6.5,
+    6.43
+   ]
+  },
+  "liamobrien": {
+   "waves": [
+    5.0,
+    7.83
+   ],
+   "best_waves": [
+    7.83,
+    5.0
+   ]
+  },
+  "conordonegan": {
+   "waves": [
+    5.2,
+    5.53
+   ],
+   "best_waves": [
+    5.53,
+    5.2
+   ]
+  }
  }
 }
