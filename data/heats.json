@@ -8195,25 +8195,55 @@
     "name": "Kai Odriozola",
     "country": "GER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.83,
+     1.27
+    ],
+    "best_waves": [
+     6.83,
+     1.27
+    ]
    },
    {
     "name": "Thiago Passeri",
     "country": "ARG",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     1.5
+    ],
+    "best_waves": [
+     1.5,
+     0.0
+    ]
    },
    {
     "name": "Kanoa Igarashi",
     "country": "JPN",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     7.5
+    ],
+    "best_waves": [
+     7.5,
+     0.0
+    ]
    },
    {
     "name": "Guilherme Ribeiro",
     "country": "POR",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.33,
+     3.5
+    ],
+    "best_waves": [
+     5.33,
+     3.5
+    ]
    }
   ],
   "complete": false

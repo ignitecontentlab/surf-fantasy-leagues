@@ -1,161 +1,139 @@
 {
- "division": "women",
- "round": "REPECHAGE 6",
- "heat": 6,
- "heat_id": "136",
- "status": "UNOFFICIAL",
- "minleft": 0,
- "secleft": 0,
- "end": "00:00",
+ "division": "men",
+ "round": "REPECHAGE 7",
+ "heat": 1,
+ "heat_id": "137",
+ "status": "RUNNING",
+ "minleft": 6,
+ "secleft": 38,
+ "end": "",
  "surfers": [
   {
-   "name": "Luana Silva",
-   "country": "BRA",
+   "name": "Guilherme Ribeiro",
+   "country": "POR",
    "place": 1,
-   "total": 11.7,
+   "total": 8.83,
    "best_waves": [
-    6.2,
-    5.5
+    5.33,
+    3.5
    ],
-   "priority": null,
+   "priority": "P2",
    "waves": [
-    5.5,
-    6.2
+    5.33,
+    3.5
    ],
    "wave_detail": [
     {
-     "score": 5.5,
-     "judges": [
-      5.0,
-      5.7,
-      5.5,
-      5.8,
-      5.3
-     ]
-    },
-    {
-     "score": 6.2,
-     "judges": [
-      6.2,
-      6.2,
-      6.2,
-      7.0,
-      5.8
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Rachael Aguero",
-   "country": "CRC",
-   "place": 2,
-   "total": 10.6,
-   "best_waves": [
-    5.7,
-    4.9
-   ],
-   "priority": null,
-   "waves": [
-    4.9,
-    5.7
-   ],
-   "wave_detail": [
-    {
-     "score": 4.9,
+     "score": 5.33,
      "judges": [
       5.5,
-      4.7,
-      4.7,
+      5.5,
       5.0,
+      5.5,
       5.0
      ]
     },
     {
-     "score": 5.7,
+     "score": 3.5,
      "judges": [
-      5.2,
-      5.8,
-      5.7,
-      5.7,
-      5.7
+      3.5,
+      3.5,
+      3.5,
+      4.0,
+      3.5
      ]
     }
    ]
   },
   {
-   "name": "Candelaria Resano",
-   "country": "NCA",
-   "place": 3,
-   "total": 10.5,
+   "name": "Kai Odriozola",
+   "country": "GER",
+   "place": 2,
+   "total": 8.1,
    "best_waves": [
-    6.0,
-    4.5
+    6.83,
+    1.27
    ],
    "priority": null,
    "waves": [
-    4.5,
-    6.0
+    6.83,
+    1.27
    ],
    "wave_detail": [
     {
-     "score": 4.5,
-     "judges": [
-      4.5,
-      4.5,
-      4.5,
-      5.0,
-      4.2
-     ]
-    },
-    {
-     "score": 6.0,
+     "score": 6.83,
      "judges": [
       6.5,
-      6.0,
-      6.0,
-      5.5,
-      6.0
+      6.5,
+      7.0,
+      7.0,
+      7.0
+     ]
+    },
+    {
+     "score": 1.27,
+     "judges": [
+      1.5,
+      1.3,
+      1.3,
+      0.8,
+      1.2
      ]
     }
    ]
   },
   {
-   "name": "Vera Jarisz",
-   "country": "ARG",
-   "place": 4,
-   "total": 8.36,
+   "name": "Kanoa Igarashi",
+   "country": "JPN",
+   "place": 3,
+   "total": 7.5,
    "best_waves": [
-    5.53,
-    2.83
+    7.5,
+    0.0
    ],
-   "priority": null,
+   "priority": "P1",
    "waves": [
-    2.83,
-    5.53
+    7.5
    ],
    "wave_detail": [
     {
-     "score": 2.83,
+     "score": 7.5,
      "judges": [
-      2.5,
-      3.0,
-      3.0,
-      3.5,
-      2.5
+      7.5,
+      7.5,
+      7.5,
+      8.0,
+      7.5
      ]
-    },
+    }
+   ]
+  },
+  {
+   "name": "Thiago Passeri",
+   "country": "ARG",
+   "place": 4,
+   "total": 1.5,
+   "best_waves": [
+    1.5,
+    0.0
+   ],
+   "priority": "P3",
+   "waves": [
+    1.5
+   ],
+   "wave_detail": [
     {
-     "score": 5.53,
+     "score": 1.5,
      "judges": [
-      6.0,
-      5.0,
-      5.8,
-      5.3,
-      5.5
+      1.3,
+      1.5,
+      1.5,
+      1.5,
+      1.7
      ]
     }
    ]
   }
  ],
- "fetched_utc": "2026-11-14T11:36:46.482581Z"
+ "fetched_utc": "2026-11-14T12:13:52.910052Z"
 }

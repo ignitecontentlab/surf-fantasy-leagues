@@ -635,5 +635,45 @@
     5.5
    ]
   }
+ },
+ "men|guilhermeribeiro|kaiodriozola|kanoaigarashi|thiagopasseri": {
+  "guilhermeribeiro": {
+   "waves": [
+    5.33,
+    3.5
+   ],
+   "best_waves": [
+    5.33,
+    3.5
+   ]
+  },
+  "kaiodriozola": {
+   "waves": [
+    6.83,
+    1.27
+   ],
+   "best_waves": [
+    6.83,
+    1.27
+   ]
+  },
+  "kanoaigarashi": {
+   "waves": [
+    7.5
+   ],
+   "best_waves": [
+    7.5,
+    0.0
+   ]
+  },
+  "thiagopasseri": {
+   "waves": [
+    1.5
+   ],
+   "best_waves": [
+    1.5,
+    0.0
+   ]
+  }
  }
 }
