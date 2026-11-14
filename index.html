@@ -273,6 +273,19 @@ footer{border-top:1px solid var(--line);padding:22px 0 max(26px,env(safe-area-in
 .strengths{margin:0;padding-left:18px;font-size:14px;line-height:1.6}
 .sheet{position:fixed;inset:0;z-index:200;background:#000a;display:flex;align-items:flex-end;justify-content:center}
 .sheet[hidden]{display:none}
+.acctbtn{margin-left:8px;min-height:38px;padding:7px 14px;border-radius:999px;font-size:13px;background:linear-gradient(100deg,var(--pink),var(--cyan));color:#080d29;border:0;font-weight:900;white-space:nowrap;max-width:150px;overflow:hidden;text-overflow:ellipsis}
+.acctbtn.in{background:#141a45;color:var(--text);border:1px solid var(--cyan)}
+.af{display:grid;gap:10px;margin:8px 0 0}.af label{display:grid;gap:4px;font-size:12px;font-weight:800;color:var(--muted)}
+.af input{font:15px Arial,sans-serif;background:#0b1130;color:var(--text);border:1px solid #5b529b;border-radius:9px;padding:10px 12px;min-height:44px;width:100%}
+.af input:focus{outline:2px solid var(--cyan);outline-offset:1px}
+.af .go{justify-content:center;min-height:46px;background:linear-gradient(90deg,var(--pink),var(--cyan));color:#08102a;border:0;font-size:15px}
+.atabs{display:flex;gap:6px;margin:4px 0 6px;flex-wrap:wrap}.atabs button{border-radius:999px;font-size:12px;min-height:34px}.atabs button.on{background:var(--cyan);color:#080d29;border-color:var(--cyan)}
+.aerr{color:#ff9fd6;font-size:13px;font-weight:800;min-height:1em}.aok{color:var(--cyan);font-size:13px;font-weight:800}
+.reccode{font:900 22px ui-monospace,Menlo,monospace;letter-spacing:2px;background:#0b1130;border:1px dashed var(--gold);color:var(--gold);border-radius:12px;padding:14px;text-align:center;margin:10px 0;word-break:break-all}
+.plist{display:grid;gap:10px}.pitem{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:#141a45;border:1px solid var(--line);border-radius:12px;padding:12px 14px}.pitem b{color:var(--gold)}.pitem small{display:block;color:var(--muted);font-size:12px}
+.invrow{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;border-bottom:1px solid var(--line);padding:8px 0;font-size:13px}.invrow code{font:900 15px ui-monospace,Menlo,monospace;color:var(--cyan);letter-spacing:1px}
+@media(max-width:420px){.acctbtn{padding:7px 11px;font-size:12px;max-width:110px}.btxt small{display:none}}
+
 .sheetin{background:var(--panel);border:1px solid var(--line);border-radius:18px 18px 0 0;max-width:720px;width:100%;max-height:88vh;overflow:auto;padding:18px 18px 26px;box-shadow:0 -10px 40px #000a}
 @media(min-width:760px){.sheet{align-items:center}.sheetin{border-radius:18px}}
 .sheetin img.big{width:100%;max-height:300px;object-fit:cover;border-radius:12px;margin:0 0 12px}
@@ -288,6 +301,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 max(26px,env(safe-area-in
   <a href="#live" class="brand" aria-label="Surf Fantasy Leagues home"><span class="bmark">SFL</span><span class="btxt"><small>Surf</small><b>Fantasy Leagues</b></span></a>
   <nav id="nav" class="navinline" aria-label="Sections"></nav>
   <button id="menuBtn" class="menubtn" type="button" aria-expanded="false" aria-controls="menu"><span class="burger" aria-hidden="true"><i></i><i></i><i></i></span><span id="menuLabel">Menu</span></button>
+  <button id="acctBtn" class="acctbtn" type="button">Sign in</button>
  </div>
  <div id="menu" class="menu" hidden></div>
  <div id="evSwitch" class="evswitch" role="tablist" aria-label="Live events" hidden></div>
@@ -304,7 +318,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 max(26px,env(safe-area-in
   <div>
    <div style="font-weight:900;color:var(--text);margin-bottom:4px">Private pools</div>
    <a class="poollink" href="pool/"><b>Peru Fantasy 2026 →</b><small>Our friends' pool: draft, live team scores, payouts</small></a>
-   <p class="note" style="margin:8px 0 0">Logins for private pools are coming. Open fantasy leagues for everyone are on the way.</p>
+   <p class="note" style="margin:8px 0 0"><a href="#account">Sign in</a> to see all your pools in one place. Open fantasy leagues for everyone are on the way.</p>
   </div>
   <div style="max-width:520px">
    <p style="margin:0 0 6px">Data: Championship Tour schedules, results and standings from <a href="https://en.wikipedia.org/wiki/2026_World_Surf_League" target="_blank" rel="noopener">Wikipedia</a> (CC BY-SA). ISA heats and waves from <a href="https://surfscores.com/" target="_blank" rel="noopener">SurfScores</a>. Eddie roster from <a href="https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational" target="_blank" rel="noopener">Rip Curl</a>. Headlines link to their publishers. Not affiliated with the WSL or ISA.</p>
@@ -315,7 +329,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 max(26px,env(safe-area-in
 </div>
 <div id="sheet" class="sheet" hidden></div>
 <script>
-const VERSION='2.3.0';
+const VERSION='2.4.0';
 const WORKER='https://isa-proxy.ignitecontentlab.workers.dev/';
 const ISO={USA:'US',AUS:'AU',BRA:'BR',PER:'PE',JPN:'JP',FRA:'FR',ESP:'ES',POR:'PT',ARG:'AR',GER:'DE',ITA:'IT',INA:'ID',ESA:'SV',RSA:'ZA',CRC:'CR',MEX:'MX',VEN:'VE',CHI:'CL',CAN:'CA',NZL:'NZ',GBR:'GB',PUR:'PR',PHI:'PH',CHN:'CN',TPE:'TW',NED:'NL',GUA:'GT',PAN:'PA',ECU:'EC',ISR:'IL',MAR:'MA',GRE:'GR',LAT:'LV',NOR:'NO',AUT:'AT',POL:'PL',SVK:'SK',ROU:'RO',CZE:'CZ',SWE:'SE',UZB:'UZ',JAM:'JM',NCA:'NI',DOM:'DO',BAR:'BB',PYF:'PF',IRL:'IE',URU:'UY',FIN:'FI',ASA:'AS',IVB:'VG',UKR:'UA',COL:'CO',HAW:'US-HI',FIJ:'FJ',UAE:'AE',ENG:'GB-ENG',IND:'IN',KOR:'KR',THA:'TH',SEN:'SN',BEL:'BE',SUI:'CH',DEN:'DK',HKG:'HK',SGP:'SG',SRI:'LK',TAH:'PF',MDV:'MV',PNG:'PG'};
 const $=id=>document.getElementById(id);
@@ -334,15 +348,15 @@ function isRunning(){return LIVE&&LIVE.status==='RUNNING'&&Date.now()-liveAt<600
 function paintPill(){}
 
 /* ---------- router ---------- */
-function readHash(){let h=decodeURIComponent(location.hash.slice(1)),[t,...rest]=h.split('/');route={tab:TABS.some(x=>x[0]===t)||t==='surfer'||t==='heat'||t==='spot'?t:'live',id:rest.join('/')}}
+function readHash(){let h=decodeURIComponent(location.hash.slice(1)),[t,...rest]=h.split('/');route={tab:TABS.some(x=>x[0]===t)||t==='surfer'||t==='heat'||t==='spot'||t==='account'?t:'live',id:rest.join('/')}}
 function go(h){location.hash=h}
 window.addEventListener('hashchange',()=>{readHash();render();window.scrollTo({top:0})});
 const TABDESC={live:'Bug, video, heats',news:'Surf headlines from every outlet',viral:'Clips going viral right now',events:'Every contest, by host',surfers:'All surfers and stats',rankings:'CT and ISA standings',records:'Top waves and heats'};
-function nav(){let on=k=>route.tab===k||route.tab==='surfer'&&k==='surfers'||route.tab==='heat'&&k==='live'||route.tab==='spot'&&k==='events';$('nav').innerHTML=TABS.map(([k,l])=>`<a href="#${k}" class="${on(k)?'on':''}">${l}</a>`).join('')+'<a href="pool/" class="pool">Peru pool</a>';
- $('menu').innerHTML=TABS.map(([k,l])=>`<a href="#${k}" class="${on(k)?'on':''}">${l}<small>${TABDESC[k]}</small></a>`).join('')+'<a href="pool/" class="pool"><b>Peru Fantasy 2026 →</b><small>Our friends’ pool: draft, live team scores, payouts</small></a>';
+function nav(){let on=k=>route.tab===k||route.tab==='surfer'&&k==='surfers'||route.tab==='heat'&&k==='live'||route.tab==='spot'&&k==='events';$('nav').innerHTML=TABS.map(([k,l])=>`<a href="#${k}" class="${on(k)?'on':''}">${l}</a>`).join('')+'<a href="#account" class="pool'+(route.tab==='account'?' on':'')+'">My pools</a>';
+ $('menu').innerHTML=TABS.map(([k,l])=>`<a href="#${k}" class="${on(k)?'on':''}">${l}<small>${TABDESC[k]}</small></a>`).join('')+'<a href="#account" class="pool"><b>My pools →</b><small>'+(ME?'Signed in as '+esc(ME.username)+'. Your pools and account':'Sign in to see your private pools')+'</small></a>';
  let cur=TABS.find(([k])=>on(k));$('menuLabel').textContent=cur?cur[1]:'Menu';menuOpen(false)}
-async function render(){nav();let v=$('view');try{let f={live:pageLive,events:pageEvents,surfers:pageSurfers,surfer:pageSurfer,heat:pageHeat,news:pageNews,viral:pageViral,spot:pageSpot,rankings:pageRankings,records:pageRecords}[route.tab];v.innerHTML=await f();bind(v);if(route.tab==='live')paintHeat()}catch(e){v.innerHTML=`<div class="notice">This section could not load (${esc(e.message)}). The site will keep trying; saved data shows as soon as it is available.</div>`}}
-function bind(v){v.querySelectorAll('a[data-hl]').forEach(a=>a.onclick=e=>e.stopPropagation());v.querySelectorAll('[data-go]').forEach(b=>b.onclick=e=>{e.preventDefault();if(b.dataset.setf){sfFilter=b.dataset.setf;sfQuery=''}go(b.dataset.go)});v.querySelectorAll('[data-evf]').forEach(b=>b.onclick=()=>{evFilter=b.dataset.evf;render()});v.querySelectorAll('[data-evh]').forEach(b=>b.onclick=()=>{evHost=b.dataset.evh;render()});let eq=$('evq');if(eq)eq.oninput=()=>{evQ=eq.value;let pos=eq.selectionStart;render().then(()=>{let n=$('evq');if(n){n.focus();n.setSelectionRange(pos,pos)}})};v.querySelectorAll('[data-sff]').forEach(b=>b.onclick=()=>{sfFilter=b.dataset.sff;sfLimit=80;render()});v.querySelectorAll('[data-sort]').forEach(b=>b.onclick=()=>{let k=b.dataset.sort;if(sfSort===k)sfDir*=-1;else{sfSort=k;sfDir=1}render()});v.querySelectorAll('[data-rkg]').forEach(b=>b.onclick=()=>{rkG=b.dataset.rkg;render()});v.querySelectorAll('[data-recg]').forEach(b=>b.onclick=()=>{recG=b.dataset.recg;render()});let q=$('sfq');if(q){q.oninput=()=>{sfQuery=q.value;sfLimit=80;let pos=q.selectionStart;render().then(()=>{let n=$('sfq');if(n){n.focus();n.setSelectionRange(pos,pos)}})}}let m=$('sfmore');if(m)m.onclick=()=>{sfLimit+=120;render()};bindMedia(v)}
+async function render(){nav();let v=$('view');try{let f={live:pageLive,events:pageEvents,surfers:pageSurfers,surfer:pageSurfer,heat:pageHeat,news:pageNews,viral:pageViral,spot:pageSpot,account:pageAccount,rankings:pageRankings,records:pageRecords}[route.tab];v.innerHTML=await f();bind(v);if(route.tab==='live')paintHeat()}catch(e){v.innerHTML=`<div class="notice">This section could not load (${esc(e.message)}). The site will keep trying; saved data shows as soon as it is available.</div>`}}
+function bind(v){if(route.tab==='account')bindAccount(v);v.querySelectorAll('a[data-hl]').forEach(a=>a.onclick=e=>e.stopPropagation());v.querySelectorAll('[data-go]').forEach(b=>b.onclick=e=>{e.preventDefault();if(b.dataset.setf){sfFilter=b.dataset.setf;sfQuery=''}go(b.dataset.go)});v.querySelectorAll('[data-evf]').forEach(b=>b.onclick=()=>{evFilter=b.dataset.evf;render()});v.querySelectorAll('[data-evh]').forEach(b=>b.onclick=()=>{evHost=b.dataset.evh;render()});let eq=$('evq');if(eq)eq.oninput=()=>{evQ=eq.value;let pos=eq.selectionStart;render().then(()=>{let n=$('evq');if(n){n.focus();n.setSelectionRange(pos,pos)}})};v.querySelectorAll('[data-sff]').forEach(b=>b.onclick=()=>{sfFilter=b.dataset.sff;sfLimit=80;render()});v.querySelectorAll('[data-sort]').forEach(b=>b.onclick=()=>{let k=b.dataset.sort;if(sfSort===k)sfDir*=-1;else{sfSort=k;sfDir=1}render()});v.querySelectorAll('[data-rkg]').forEach(b=>b.onclick=()=>{rkG=b.dataset.rkg;render()});v.querySelectorAll('[data-recg]').forEach(b=>b.onclick=()=>{recG=b.dataset.recg;render()});let q=$('sfq');if(q){q.oninput=()=>{sfQuery=q.value;sfLimit=80;let pos=q.selectionStart;render().then(()=>{let n=$('sfq');if(n){n.focus();n.setSelectionRange(pos,pos)}})}}let m=$('sfmore');if(m)m.onclick=()=>{sfLimit+=120;render()};bindMedia(v)}
 function heatKey(h){return h.g+h.ev+'-'+h.id}
 function heatLink(h){return '#heat/'+encodeURIComponent(heatKey(h))}
 function rnd(r){return String(r||'').replace('ROUND','Round').replace('REPECHAGE','Repechage').replace('QUARTERFINAL','Quarterfinal').replace('SEMIFINAL','Semifinal').replace('FINAL','Final')}
@@ -486,6 +500,46 @@ document.addEventListener('click',e=>{let el=e.target.closest('[data-story],[dat
 document.addEventListener('click',e=>{if(e.target.id==='sheet')closeSheet()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('sheet').hidden)closeSheet()});
 new MutationObserver(m=>{for(const r of m)for(const n of r.addedNodes)if(n.nodeType===1)fixLinks(n)}).observe(document.documentElement,{childList:true,subtree:true});
+/* ---------- accounts (shared with the Surf Pools app) ---------- */
+const APP='https://surf-pools-app.ignitecontentlab.workers.dev';
+let ME=null,meChecked=false;
+const tok=()=>{try{return localStorage.getItem('sfl-token')||''}catch{return ''}};
+function setTok(t){try{t?localStorage.setItem('sfl-token',t):localStorage.removeItem('sfl-token')}catch{}}
+async function api(path,body){let h={},t=tok();if(t)h.Authorization='Bearer '+t;if(body)h['Content-Type']='application/json';let c=new AbortController(),tm=setTimeout(()=>c.abort(),15000);try{let r=await fetch(APP+path,{method:body?'POST':'GET',headers:h,body:body?JSON.stringify(body):undefined,signal:c.signal,cache:'no-store'});let d=await r.json().catch(()=>({}));return {ok:r.ok,status:r.status,d}}catch(e){return {ok:false,status:0,d:{error:'Could not reach the account server. Check your connection and try again.'}}}finally{clearTimeout(tm)}}
+async function loadMe(){if(!tok()){ME=null;meChecked=true;paintAcct();if($('menu').hidden)nav();return}let r=await api('/api/me');if(r.ok){ME=r.d.user||null;if(!ME)setTok('')}else if(r.status===401)setTok('');meChecked=true;paintAcct();if($('menu').hidden)nav()}
+function paintAcct(){let b=$('acctBtn');if(!b)return;b.textContent=ME?ME.username:'Sign in';b.classList.toggle('in',!!ME);b.setAttribute('aria-label',ME?'My account: '+ME.username:'Sign in')}
+function authSheet(mode='in',msg=''){let sh=$('sheet'),T={in:'Sign in',up:'Create account',rec:'Forgot password'};
+ let f={in:`<label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" required></label><label>Password<input id="ap" type="password" autocomplete="current-password" required></label>`,
+ up:`<label>Invite code<input id="ac" autocapitalize="characters" spellcheck="false" placeholder="From the pool admin" required></label><label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="3-24 letters, numbers or _" required></label><label>Password<input id="ap" type="password" autocomplete="new-password" placeholder="At least 10 characters" required></label><label>Email<input id="ae" type="email" autocomplete="email" required></label><label>Phone<input id="aph" type="tel" autocomplete="tel" placeholder="+15551234567" required></label>`,
+ rec:`<p class="note" style="margin:0">Use the recovery code you saved when you made your account.</p><label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" required></label><label>Recovery code<input id="arc" autocapitalize="characters" spellcheck="false" placeholder="XXXX-XXXX-XXXX-XXXX" required></label><label>New password<input id="ap" type="password" autocomplete="new-password" placeholder="At least 10 characters" required></label>`}[mode];
+ sh.innerHTML=`<div class="sheetin" role="dialog" aria-modal="true" aria-label="${T[mode]}" style="max-width:460px"><button class="x" data-close>Close</button><h2>${T[mode]}</h2><div class="atabs">${Object.entries(T).map(([k,l])=>`<button type="button" data-am="${k}" class="${k===mode?'on':''}">${l}</button>`).join('')}</div><p class="note" style="margin:0">One account for this site and every Surf Pools pool.</p><form class="af" id="authf" novalidate>${f}<div class="aerr" id="aerr" role="alert">${esc(msg)}</div><button class="go" type="submit">${T[mode]}</button></form></div>`;
+ sh.hidden=false;document.body.style.overflow='hidden';
+ sh.querySelectorAll('[data-am]').forEach(b=>b.onclick=()=>authSheet(b.dataset.am));
+ setTimeout(()=>sh.querySelector('input')?.focus(),30);
+ $('authf').onsubmit=async e=>{e.preventDefault();let v=id=>($(id)?.value||'').trim(),btn=e.target.querySelector('.go'),err=$('aerr');btn.disabled=true;btn.textContent='Working…';err.textContent='';
+  let r=mode==='in'?await api('/api/login',{username:v('au'),password:$('ap').value}):mode==='up'?await api('/api/register',{username:v('au'),password:$('ap').value,email:v('ae'),phone:v('aph'),code:v('ac').toUpperCase()}):await api('/api/recover',{username:v('au'),recoveryCode:v('arc'),password:$('ap').value});
+  btn.disabled=false;btn.textContent=T[mode];
+  if(!r.ok||!r.d.token){err.textContent=r.d.error||'That did not work. Try again.';return}
+  setTok(r.d.token);await loadMe();
+  if(r.d.recoveryCode)recSheet(r.d.recoveryCode,mode==='rec');else{closeSheet();if(route.tab==='account')render();else go('account')}}}
+function recSheet(code,reset){let sh=$('sheet');sh.innerHTML=`<div class="sheetin" role="dialog" aria-modal="true" aria-label="Recovery code" style="max-width:460px"><h2>Save your recovery code</h2><p class="note">${reset?'Your password is changed and you are signed in. Your old recovery code no longer works; here is the new one.':'Your account is ready.'} This code is the only way to reset a forgotten password, and it is shown just this once.</p><div class="reccode" id="rcode">${esc(code)}</div><div class="chips"><button type="button" id="rcopy">Copy code</button></div><button class="readfull" type="button" id="rdone" style="border:0">I saved it</button></div>`;sh.hidden=false;document.body.style.overflow='hidden';
+ $('rcopy').onclick=async()=>{try{await navigator.clipboard.writeText(code);$('rcopy').textContent='Copied'}catch{$('rcopy').textContent='Select and copy the code'}};
+ $('rdone').onclick=()=>{closeSheet();go('account');if(route.tab==='account')render()}}
+async function pageAccount(){if(!meChecked)await loadMe();
+ const peru=`<div class="pitem"><div><b>Peru Fantasy 2026</b><small>ISA World Surfing Games · our friends’ pool · draft, live team scores, payouts</small></div><a class="btn" href="pool/">Open pool →</a></div>`;
+ if(!ME)return `<h2>My pools</h2><div class="card" style="max-width:560px"><p style="margin:0 0 10px;font-weight:800">Sign in to see your private pools, your teams and your account.</p><p class="note">New here? You need an invite code from a pool admin to make an account.</p><div class="chips" style="margin:12px 0 0"><button type="button" data-auth="in" class="readfull" style="border:0;margin:0">Sign in</button><button type="button" data-auth="up">Create account</button><button type="button" data-auth="rec">Forgot password</button></div></div>`;
+ let P=await api('/api/pools'),pools=P.ok?P.d.pools||[]:[];
+ let inv=ME.admin?await api('/api/invites'):null;
+ return `<h2>My pools</h2><div class="grid2" style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))">
+ <div class="card"><h3 class="grouph" style="margin-top:0">Your pools</h3><div class="plist">${peru}${pools.map(p=>`<div class="pitem"><div><b>${esc(p.name)}</b><small>${esc(p.contest)} · ${p.members}/${p.max_members} teams · you are ${esc(p.role)}${p.team_name?' as '+esc(p.team_name):''}</small></div><a class="btn" href="${APP}/">Open ↗</a></div>`).join('')}</div>${P.ok?'':`<p class="aerr">${esc(P.d.error||'Pools could not load.')}</p>`}<p class="note" style="margin:12px 0 0">Make a new pool or join one with a code in the <a href="${APP}/">Surf Pools app</a>. It opens in a new tab and uses this same account.</p></div>
+ <div class="card"><h3 class="grouph" style="margin-top:0">Account</h3><div class="acctfacts" style="display:grid;gap:6px;font-size:14px"><div><span class="faint">Username</span> <b>${esc(ME.username)}</b>${ME.admin?' <span class="tag" style="color:var(--gold);font-weight:900">· site admin</span>':''}</div><div><span class="faint">Email</span> ${esc(ME.email||'–')}</div><div><span class="faint">Phone</span> ${esc(ME.phone||'–')}</div></div><div class="chips" style="margin:14px 0 0"><button type="button" id="signout">Sign out</button></div></div>
+ ${ME.admin?`<div class="card"><h3 class="grouph" style="margin-top:0">Invite friends</h3>${inv&&inv.ok?`<p class="note" style="margin:0 0 8px">${inv.d.users} of ${inv.d.maxUsers} accounts used. Each code lets new people create an account here or in Surf Pools.</p>`:''}<form class="af" id="invf" style="grid-template-columns:1fr 1fr auto;align-items:end"><label>People<input id="iu" type="number" min="1" max="20" value="1"></label><label>Days valid<input id="idays" type="number" min="1" max="60" value="14"></label><button class="go" type="submit" style="min-height:44px">Make code</button></form><div class="aok" id="inew"></div><div id="ilist" style="margin-top:8px">${inv&&inv.ok?(inv.d.invites||[]).map(i=>{let left=(i.max_uses||0)-(i.uses||0),exp=i.expires_at&&i.expires_at<Date.now();return `<div class="invrow"><code>${esc(i.code)}</code><span class="faint">${i.disabled?'turned off':exp?'expired':left>0?left+' of '+i.max_uses+' left':'used up'}${i.expires_at&&!exp?' · until '+new Date(i.expires_at).toLocaleDateString():''}</span><button type="button" data-copy="${esc(i.code)}">Copy</button></div>`}).join('')||'<p class="note">No codes yet.</p>':`<p class="aerr">${esc(inv?.d?.error||'')}</p>`}</div></div>`:''}
+ </div>`}
+function bindAccount(v){v.querySelectorAll('[data-auth]').forEach(b=>b.onclick=()=>authSheet(b.dataset.auth));
+ let so=$('signout');if(so)so.onclick=async()=>{so.disabled=true;await api('/api/logout',{});setTok('');ME=null;paintAcct();render()};
+ v.querySelectorAll('[data-copy]').forEach(b=>b.onclick=async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent='Copied'}catch{b.textContent=b.dataset.copy}});
+ let f=$('invf');if(f)f.onsubmit=async e=>{e.preventDefault();let btn=f.querySelector('.go');btn.disabled=true;let r=await api('/api/invites/create',{uses:+$('iu').value||1,days:+$('idays').value||14});btn.disabled=false;if(!r.ok){$('inew').innerHTML=`<span class="aerr">${esc(r.d.error||'Could not make a code.')}</span>`;return}await render();let n=$('inew');if(n)n.textContent='New code '+r.d.code+' is ready. Copy it and send it to your friends.'}}
+$('acctBtn').onclick=()=>{if(ME)go('account');else authSheet('in')};
 /* ---------- rankings ---------- */
 async function pageRankings(){let S=await getJSON('surfers',600000),ct=S.ct;if(!ct)return '<p class="note">Rankings are loading.</p>';let rows=(ct.standings[rkG]||[]),E=ct.events;
  let short=n=>n.replace(/^(Lexus|Rip Curl|Western Australia|Bonsoy|Corona Cero|Surf City|VIVO|Outerknown|MEO Rip Curl|Billabong)\s+/,'').replace(/ Pro.*| Masters/,'');
@@ -557,7 +611,7 @@ setInterval(()=>{let c=$('bugclock'),p=activePod();if(c&&p&&p.run)c.textContent=
 async function topData(){await Promise.all([getJSON('events',300000).catch(()=>null),getJSON('youtube',600000).catch(()=>null),getJSON('scores',90000).catch(()=>null),getJSON('news',600000).catch(()=>null),getJSON('surfers',600000).catch(()=>null)]);paintTop()}
 
 $('ver').textContent='v'+VERSION;
-readHash();render();topData();pollLive();pollLive2();setInterval(()=>{pollLive();pollLive2()},10000);setInterval(()=>{if(!document.hidden)topData()},120000);
+readHash();render();loadMe();topData();pollLive();pollLive2();setInterval(()=>{pollLive();pollLive2()},10000);setInterval(()=>{if(!document.hidden)topData()},120000);
 setInterval(()=>{if(!document.hidden&&['events','live'].includes(route.tab)){DATA.events&&(DATA.events._at=0);if(route.tab==='events')render()}},300000);
 </script>
 </body>
