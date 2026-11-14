@@ -8698,8 +8698,8 @@
    {
     "name": "Liam O´Brien",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 11.9,
+    "place": 3,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8709,8 +8709,8 @@
    {
     "name": "Alonso Correa",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 8.27,
+    "place": 4,
     "waves": [
      2.0
     ],
@@ -8722,8 +8722,8 @@
    {
     "name": "Kauli Vaast",
     "country": "FRA",
-    "total": null,
-    "place": null,
+    "total": 13.83,
+    "place": 2,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8733,8 +8733,8 @@
    {
     "name": "Jorgan Couzinet",
     "country": "FRA",
-    "total": null,
-    "place": null,
+    "total": 14.37,
+    "place": 1,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8742,7 +8742,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -8753,25 +8753,57 @@
     "name": "Yolanda Hopkins",
     "country": "POR",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     8.5,
+     5.93
+    ],
+    "best_waves": [
+     8.5,
+     5.93
+    ]
    },
    {
     "name": "Nadia Erostarbe",
     "country": "ESP",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.67,
+     5.17
+    ],
+    "best_waves": [
+     6.67,
+     5.17
+    ]
    },
    {
     "name": "Carissa Moore",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.17,
+     6.2
+    ],
+    "best_waves": [
+     6.2,
+     6.17
+    ]
    },
    {
     "name": "Sol Aguirre",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     3.5,
+     9.0
+    ],
+    "best_waves": [
+     9.0,
+     3.5
+    ]
    }
   ],
   "complete": false
@@ -8960,6 +8992,12 @@
     "country": "ARG",
     "total": null,
     "place": null
+   },
+   {
+    "name": "Jorgan Couzinet",
+    "country": "FRA",
+    "total": null,
+    "place": null
    }
   ],
   "complete": false
@@ -8978,6 +9016,12 @@
    {
     "name": "Yago Dora",
     "country": "BRA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Kauli Vaast",
+    "country": "FRA",
     "total": null,
     "place": null
    }
