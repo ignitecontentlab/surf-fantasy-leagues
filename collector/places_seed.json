@@ -1,0 +1,300 @@
+{
+ "_note": "Contest spot -> wiki titles. spot = Wikipedia article for the wave/beach, town = Wikipedia + Wikivoyage destination, region optional, country = Wikipedia country article. Events are matched by id or by a location keyword. New events not listed here are guessed automatically from their location text.",
+ "places": {
+  "punta-rocas": {
+   "name": "Punta Rocas",
+   "spot": null,
+   "town": "Punta Negra District",
+   "voyage": "Lima",
+   "country": "Peru",
+   "match": [
+    "Punta Rocas"
+   ],
+   "lat": -12.3529,
+   "lon": -76.8179,
+   "spot_text": {
+    "summary": "Punta Rocas is an exposed reef break in Punta Negra, about 45 km south of Lima, and one of Peru's best-known contest venues. It is mainly a right-hander, with a left on some swells, and it handles serious size, from about 3 ft up to 15 ft. The best waves come on south-southwest groundswells, usually from April to October, with offshore winds from the east. It is often crowded, and surfers need to watch for rips and rocks.",
+    "sources": [
+     [
+      "Surf-Forecast",
+      "https://www.surf-forecast.com/breaks/Punta-Rocas"
+     ],
+     [
+      "Surf Scout",
+      "https://surfscout.co/spots/punta-rocas"
+     ],
+     [
+      "International Surf Properties",
+      "https://internationalsurfproperties.com/surf-breaks/punta-rocas"
+     ]
+    ]
+   }
+  },
+  "north-shore-oahu": {
+   "name": "North Shore of Oahu",
+   "spot": "Banzai Pipeline",
+   "town": "North Shore (Oahu)",
+   "voyage": "North Shore (Oahu)",
+   "region": "Hawaii",
+   "country": "United States",
+   "match": [
+    "Pipeline",
+    "Haleiwa",
+    "Sunset Beach"
+   ]
+  },
+  "waimea-bay": {
+   "name": "Waimea Bay",
+   "spot": "Waimea Bay, Hawaii",
+   "town": "North Shore (Oahu)",
+   "voyage": "North Shore (Oahu)",
+   "region": "Hawaii",
+   "country": "United States",
+   "match": [
+    "Waimea Bay"
+   ]
+  },
+  "jinzun": {
+   "name": "Jinzun Harbor, Taitung",
+   "spot": "Donghe, Taitung",
+   "town": "Taitung City",
+   "voyage": "Taitung",
+   "country": "Taiwan",
+   "match": [
+    "Jinzun"
+   ]
+  },
+  "nazare": {
+   "name": "Praia do Norte, Nazaré",
+   "spot": "Praia do Norte",
+   "town": "Nazaré, Portugal",
+   "voyage": "Nazaré",
+   "country": "Portugal",
+   "match": [
+    "Nazaré"
+   ]
+  },
+  "dsrt-surf": {
+   "name": "DSRT Surf, Palm Desert",
+   "spot": null,
+   "town": "Palm Desert, California",
+   "voyage": "Palm Desert",
+   "region": "California",
+   "country": "United States",
+   "match": [
+    "DSRT"
+   ],
+   "spot_text": {
+    "summary": "DSRT Surf is California's first Wavegarden surf park, built between the fairways of the Desert Willow Golf Resort in Palm Desert. Its Wavegarden Cove lagoon can make up to 1,000 waves an hour in more than 60 wave types, from beginner rollers to pro barrels, with room for up to 28 surfers on each side. It opened to the public in September 2026 after more than a decade in development.",
+    "sources": [
+     [
+      "Surfer",
+      "https://www.surfer.com/news/california-first-wavegarden-dsrt-surf-video"
+     ],
+     [
+      "Daily Breeze",
+      "https://www.dailybreeze.com/2026/09/24/dsrt-surf-in-the-makings-for-a-decade-officially-opens-to-public/"
+     ]
+    ]
+   }
+  },
+  "newcastle": {
+   "name": "Merewether Beach, Newcastle",
+   "spot": "Merewether Beach",
+   "town": "Newcastle, New South Wales",
+   "voyage": "Newcastle (New South Wales)",
+   "country": "Australia",
+   "match": [
+    "Newcastle"
+   ]
+  },
+  "trestles": {
+   "name": "Lower Trestles",
+   "spot": "Trestles",
+   "town": "San Clemente, California",
+   "voyage": "San Clemente",
+   "region": "California",
+   "country": "United States",
+   "match": [
+    "Trestles"
+   ]
+  },
+  "bells-beach": {
+   "name": "Bells Beach",
+   "spot": "Bells Beach, Victoria",
+   "town": "Torquay, Victoria",
+   "voyage": "Torquay (Victoria)",
+   "country": "Australia",
+   "match": [
+    "Bells Beach"
+   ]
+  },
+  "margaret-river": {
+   "name": "Margaret River Main Break",
+   "spot": "Margaret River, Western Australia",
+   "town": "Margaret River, Western Australia",
+   "voyage": "Margaret River",
+   "country": "Australia",
+   "match": [
+    "Margaret River"
+   ]
+  },
+  "snapper-rocks": {
+   "name": "Snapper Rocks, Gold Coast",
+   "spot": "Snapper Rocks",
+   "town": "Coolangatta",
+   "voyage": "Gold Coast",
+   "country": "Australia",
+   "match": [
+    "Gold Coast"
+   ]
+  },
+  "raglan": {
+   "name": "Manu Bay, Raglan",
+   "spot": "Manu Bay",
+   "town": "Raglan, New Zealand",
+   "voyage": "Raglan",
+   "country": "New Zealand",
+   "match": [
+    "Raglan"
+   ]
+  },
+  "punta-roca-sv": {
+   "name": "Punta Roca, La Libertad",
+   "spot": null,
+   "town": "La Libertad, El Salvador",
+   "voyage": "El Tunco",
+   "country": "El Salvador",
+   "match": [
+    "Punta Roca, La Libertad"
+   ],
+   "spot_text": {
+    "summary": "Punta Roca is El Salvador's most famous wave: a fast, hollow right-hand point break that runs over cobblestones and black boulders under the headland at La Libertad, about 20 minutes from San Salvador airport. Long-period south swells wrap around the point and can link sections for up to several hundred metres. The takeoff at the top (La Punta) is steep and shallow, and the wave is best suited to experienced surfers. Surfertoday compares it to South Africa's Jeffreys Bay.",
+    "sources": [
+     [
+      "Surfertoday",
+      "https://www.surfertoday.com/surfing/punta-roca-the-crown-jewel-point-break-of-el-salvador"
+     ],
+     [
+      "Surf Scout",
+      "https://surfscout.co/spots/punta-roca"
+     ],
+     [
+      "Wikipedia: La Libertad",
+      "https://en.wikipedia.org/wiki/La_Libertad,_El_Salvador"
+     ]
+    ]
+   }
+  },
+  "el-sunzal": {
+   "name": "El Sunzal and La Bocana",
+   "spot": null,
+   "town": "La Libertad, El Salvador",
+   "voyage": "El Tunco",
+   "country": "El Salvador",
+   "match": [
+    "El Sunzal",
+    "La Bocana"
+   ],
+   "spot_text": {
+    "summary": "El Sunzal is a long, consistent right-hand point break next to Playa El Tunco on El Salvador's coast. It breaks in deep water, picks up almost every swell, and peels for around 250 yards with open carving walls rather than barrels. That makes it one of the most consistent waves in the country, with gentler waves for learning from November to February and long, powerful rides on bigger southwest swells.",
+    "sources": [
+     [
+      "Sunzal Surf Company",
+      "https://www.sunzal.com/waves/sunzal/"
+     ],
+     [
+      "El Salvador Surfing",
+      "https://elsalvadorsurfing.com/surfing/where-to-go"
+     ]
+    ]
+   }
+  },
+  "saquarema": {
+   "name": "Itaúna, Saquarema",
+   "spot": "Saquarema",
+   "town": "Saquarema",
+   "voyage": "Saquarema",
+   "country": "Brazil",
+   "match": [
+    "Saquarema"
+   ]
+  },
+  "teahupoo": {
+   "name": "Teahupo'o",
+   "spot": "Teahupo'o",
+   "town": "Teahupo'o",
+   "voyage": "Tahiti",
+   "country": "French Polynesia",
+   "match": [
+    "Teahupo"
+   ]
+  },
+  "cloudbreak": {
+   "name": "Cloudbreak, Tavarua",
+   "spot": "Cloudbreak",
+   "town": "Tavarua",
+   "voyage": "Mamanuca Islands",
+   "country": "Fiji",
+   "match": [
+    "Cloudbreak"
+   ]
+  },
+  "supertubos": {
+   "name": "Supertubos, Peniche",
+   "spot": "Supertubos",
+   "town": "Peniche, Portugal",
+   "voyage": "Peniche",
+   "country": "Portugal",
+   "match": [
+    "Supertubos",
+    "Peniche"
+   ]
+  },
+  "cloud-9": {
+   "name": "Cloud 9, Siargao",
+   "spot": "Cloud 9 (Siargao)",
+   "town": "General Luna, Surigao del Norte",
+   "voyage": "Siargao",
+   "country": "Philippines",
+   "match": [
+    "Cloud 9"
+   ]
+  },
+  "hudayriat": {
+   "name": "Hudayriat Island, Abu Dhabi",
+   "spot": null,
+   "town": "Abu Dhabi",
+   "voyage": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "match": [
+    "Hudayriat"
+   ],
+   "spot_text": {
+    "summary": "Surf Abu Dhabi on Hudayriyat Island is one of the world's largest wave pools, built with the Kelly Slater Wave Company. The 75,000 square metre basin is three metres deep, holds up to 30 surfers at a time, and offers several wave levels, from first waves to fast, high-performance barrels. The island around it is Abu Dhabi's outdoor sports hub, with beaches, cycle lanes, a skate park and restaurants.",
+    "sources": [
+     [
+      "Hudayriyat Island",
+      "https://www.hudayriyatisland.ae/en/play/surf-abu-dhabi"
+     ],
+     [
+      "BDP",
+      "https://www.bdp.com/us/news/bdp-completes-design-of-surf-abu-dhabi-home-to-the-world-s-largest-wave-pool"
+     ],
+     [
+      "Condé Nast Traveller Middle East",
+      "https://www.cntravellerme.com/story/hudayriyat-island-abu-dhabi-guide"
+     ]
+    ]
+   }
+  }
+ },
+ "country_facts": {
+  "United States": {
+   "languages": "English (most spoken), Spanish"
+  },
+  "El Salvador": {
+   "currency": "United States dollar"
+  }
+ }
+}

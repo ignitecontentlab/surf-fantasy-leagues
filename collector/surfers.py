@@ -23,7 +23,7 @@ ALIASES = {"italo ferreira": "italo ferreira", "caity simmers": "caitlin simmers
 
 
 def key(name):
-    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    s = unicodedata.normalize("NFKD", re.sub(r"[´’'`]", "", name)).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z ]", "", s.replace("-", " "))
     s = re.sub(r"\s+", " ", s).strip()
     return ALIASES.get(s, s)
@@ -69,7 +69,12 @@ def standings(page, section_idx, n_events):
     out = []
     for chunk in table.split("\n|-")[1:]:
         cells = []
-        for line in chunk.strip().split("\n"):
+        merged, buf = [], ""
+        for ln in chunk.strip().split("\n"):  # join lines where a {{template}} wraps onto the next line
+            buf = buf + ln if buf else ln
+            if buf.count("{{") <= buf.count("}}"): merged.append(buf); buf = ""
+        if buf: merged.append(buf)
+        for line in merged:
             line = line.strip()
             if line.startswith(("!", "|")) and not line.startswith(("|+", "|}")):
                 cells += re.split(r"\|\||!!", line[1:])
@@ -78,6 +83,8 @@ def standings(page, section_idx, n_events):
         pos = plain(cell_value(cells[0]))
         who = next(c for c in cells if "flagathlete" in c)
         nm = re.search(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", who)
+        if not nm:
+            nm = re.search(r"flagathlete\s*\|\s*([^|{}\[\]]+?)\s*\|", who)
         cc = re.search(r"\|\s*([A-Z]{3})\s*\}\}", who)
         i = cells.index(who)
         ev_cells = cells[i + 1:i + 1 + n_events]

@@ -1,0 +1,30 @@
+name: media
+on:
+  schedule:
+    - cron: "41 */2 * * *"   # news + viral videos every 2 hours
+    - cron: "7 9 * * *"      # surfer socials and photos once a day
+  workflow_dispatch:
+permissions: {contents: write, actions: write}
+concurrency: media
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - name: Surfer socials and photos (daily)
+        if: github.event.schedule == '7 9 * * *' || github.event_name == 'workflow_dispatch'
+        run: python collector/socials.py
+      - run: python collector/media.py
+      - name: Save and publish
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          git config user.name "collector"; git config user.email "bot@users.noreply.github.com"
+          git add data/news.json data/videos.json data/profiles.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "news and videos update"
+            for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+            gh workflow run pages -R "$GITHUB_REPOSITORY" || true
+          fi

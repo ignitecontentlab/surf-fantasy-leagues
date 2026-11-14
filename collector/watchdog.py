@@ -121,6 +121,14 @@ def check_collectors():
         checks["events"] = {"ok": ok or not ls, "detail": f"last success {int(mins)} min ago" if ls else "first run pending"}
         if not ok and not (info["last"] and info["last"]["status"] in ("queued", "in_progress")):
             dispatch("events", f"events were last refreshed {int(mins)} minutes ago")
+    info, err = last_run("media")
+    if info is not None:
+        ls = info["last_success"]
+        mins = ago(ls["createdAt"]) if ls else 1e9
+        ok = mins < 6 * 60
+        checks["media"] = {"ok": ok or not ls, "detail": f"news and videos last refreshed {int(mins)} min ago" if ls else "first run pending"}
+        if not ok and ls and not (info["last"] and info["last"]["status"] in ("queued", "in_progress")):
+            dispatch("media", f"news and videos were last refreshed {int(mins)} minutes ago")
     info, _ = last_run("pages")
     if info and info["last"]:
         checks["pages"] = {"ok": info["recent_failures"] < 2, "detail": f"{info['recent_failures']} of last 3 deploys failed"}
