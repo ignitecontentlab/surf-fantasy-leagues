@@ -1198,5 +1198,35 @@
     0.0
    ]
   }
+ },
+ "women|leihanizoric|leilanimcgonagle|solaguirre": {
+  "solaguirre": {
+   "waves": [
+    3.5,
+    2.0
+   ],
+   "best_waves": [
+    3.5,
+    2.0
+   ]
+  },
+  "leilanimcgonagle": {
+   "waves": [
+    4.83
+   ],
+   "best_waves": [
+    4.83,
+    0.0
+   ]
+  },
+  "leihanizoric": {
+   "waves": [
+    2.5
+   ],
+   "best_waves": [
+    2.5,
+    0.0
+   ]
+  }
  }
 }
