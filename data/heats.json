@@ -8930,8 +8930,8 @@
    {
     "name": "Crosby Colapinto",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 10.06,
+    "place": 3,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8941,8 +8941,8 @@
    {
     "name": "Leonardo Fioravanti",
     "country": "ITA",
-    "total": null,
-    "place": null,
+    "total": 14.93,
+    "place": 1,
     "waves": [
      5.83
     ],
@@ -8954,8 +8954,8 @@
    {
     "name": "Hans Odriozola",
     "country": "GER",
-    "total": null,
-    "place": null,
+    "total": 12.96,
+    "place": 2,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8963,7 +8963,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -8974,19 +8974,43 @@
     "name": "Catalina Zariquiey",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     3.83,
+     6.27
+    ],
+    "best_waves": [
+     6.27,
+     3.83
+    ]
    },
    {
     "name": "Johanne Defay",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     7.67,
+     4.0
+    ],
+    "best_waves": [
+     7.67,
+     4.0
+    ]
    },
    {
     "name": "Sawyer Lindblad",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.5,
+     6.43
+    ],
+    "best_waves": [
+     6.43,
+     5.5
+    ]
    }
   ],
   "complete": false
@@ -9133,6 +9157,18 @@
     "place": null
    },
    {
+    "name": "Hans Odriozola",
+    "country": "GER",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leonardo Fioravanti",
+    "country": "ITA",
+    "total": null,
+    "place": null
+   },
+   {
     "name": "Lucca Mesinas",
     "country": "PER",
     "total": null,
@@ -9149,6 +9185,20 @@
    {
     "name": "Romeo Chavez",
     "country": "COL",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B17",
+  "heat": 2,
+  "surfers": [
+   {
+    "name": "Crosby Colapinto",
+    "country": "USA",
     "total": null,
     "place": null
    }

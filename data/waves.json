@@ -1106,5 +1106,37 @@
     0.0
    ]
   }
+ },
+ "women|catalinazariquiey|johannedefay|sawyerlindblad": {
+  "sawyerlindblad": {
+   "waves": [
+    5.5,
+    6.43
+   ],
+   "best_waves": [
+    6.43,
+    5.5
+   ]
+  },
+  "johannedefay": {
+   "waves": [
+    7.67,
+    4.0
+   ],
+   "best_waves": [
+    7.67,
+    4.0
+   ]
+  },
+  "catalinazariquiey": {
+   "waves": [
+    3.83,
+    6.27
+   ],
+   "best_waves": [
+    6.27,
+    3.83
+   ]
+  }
  }
 }

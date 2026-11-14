@@ -1,65 +1,124 @@
 {
- "division": "men",
+ "division": "women",
  "round": "ROUND 6",
- "heat": 2,
- "heat_id": "71",
+ "heat": 1,
+ "heat_id": "70",
  "status": "RUNNING",
- "minleft": 16,
- "secleft": 19,
+ "minleft": 2,
+ "secleft": 15,
  "end": "",
  "surfers": [
   {
-   "name": "Leonardo Fioravanti",
-   "country": "ITA",
+   "name": "Sawyer Lindblad",
+   "country": "USA",
    "place": 1,
-   "total": 5.83,
+   "total": 11.93,
    "best_waves": [
-    5.83,
-    0.0
+    6.43,
+    5.5
    ],
    "priority": null,
    "waves": [
-    5.83
+    5.5,
+    6.43
    ],
    "wave_detail": [
     {
-     "score": 5.83,
+     "score": 5.5,
      "judges": [
+      5.0,
+      6.0,
       5.5,
       5.5,
+      5.5
+     ]
+    },
+    {
+     "score": 6.43,
+     "judges": [
+      6.5,
+      6.5,
+      6.3,
       6.0,
-      6.0,
-      6.0
+      6.5
      ]
     }
    ]
   },
   {
-   "name": "Crosby Colapinto",
-   "country": "USA",
+   "name": "Johanne Defay",
+   "country": "FRA",
    "place": 2,
-   "total": 0.0,
+   "total": 11.67,
    "best_waves": [
-    0.0,
-    0.0
+    7.67,
+    4.0
    ],
    "priority": "P1",
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    7.67,
+    4.0
+   ],
+   "wave_detail": [
+    {
+     "score": 7.67,
+     "judges": [
+      8.0,
+      8.0,
+      7.5,
+      7.5,
+      7.5
+     ]
+    },
+    {
+     "score": 4.0,
+     "judges": [
+      4.0,
+      4.3,
+      4.0,
+      3.5,
+      4.0
+     ]
+    }
+   ]
   },
   {
-   "name": "Hans Odriozola",
-   "country": "GER",
+   "name": "Catalina Zariquiey",
+   "country": "PER",
    "place": 3,
-   "total": 0.0,
+   "total": 10.1,
    "best_waves": [
-    0.0,
-    0.0
+    6.27,
+    3.83
    ],
    "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    3.83,
+    6.27
+   ],
+   "wave_detail": [
+    {
+     "score": 3.83,
+     "judges": [
+      3.5,
+      3.5,
+      4.0,
+      4.0,
+      4.0
+     ]
+    },
+    {
+     "score": 6.27,
+     "judges": [
+      5.5,
+      5.8,
+      6.5,
+      6.5,
+      7.0
+     ]
+    }
+   ]
   }
  ],
- "fetched_utc": "2026-11-14T19:07:24.458708Z"
+ "fetched_utc": "2026-11-14T19:44:40.176738Z"
 }
