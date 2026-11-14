@@ -1,150 +1,78 @@
 {
- "division": "women",
- "round": "REPECHAGE 7",
- "heat": 2,
- "heat_id": "138",
+ "division": "men",
+ "round": "ROUND 5",
+ "heat": 1,
+ "heat_id": "67",
  "status": "RUNNING",
- "minleft": 7,
- "secleft": 45,
+ "minleft": 14,
+ "secleft": 24,
  "end": "",
  "surfers": [
   {
-   "name": "Isidora Bulto",
-   "country": "CHI",
-   "place": 1,
-   "total": 10.4,
-   "best_waves": [
-    7.5,
-    2.9
-   ],
-   "priority": "P2",
-   "waves": [
-    7.5,
-    2.9
-   ],
-   "wave_detail": [
-    {
-     "score": 7.5,
-     "judges": [
-      8.0,
-      8.0,
-      7.0,
-      7.5,
-      7.0
-     ]
-    },
-    {
-     "score": 2.9,
-     "judges": [
-      2.0,
-      3.5,
-      3.0,
-      3.0,
-      2.7
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Naia Monte",
-   "country": "FRA",
-   "place": 2,
-   "total": 8.33,
-   "best_waves": [
-    5.5,
-    2.83
-   ],
-   "priority": null,
-   "waves": [
-    5.5,
-    2.83
-   ],
-   "wave_detail": [
-    {
-     "score": 5.5,
-     "judges": [
-      5.7,
-      5.5,
-      5.5,
-      5.5,
-      5.5
-     ]
-    },
-    {
-     "score": 2.83,
-     "judges": [
-      2.8,
-      2.8,
-      3.2,
-      2.5,
-      2.9
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Sol Aguirre",
+   "name": "Lucca Mesinas",
    "country": "PER",
-   "place": 3,
-   "total": 7.7,
+   "place": 1,
+   "total": 9.5,
    "best_waves": [
-    4.93,
-    2.77
-   ],
-   "priority": "P1",
-   "waves": [
-    4.93,
-    2.77
-   ],
-   "wave_detail": [
-    {
-     "score": 4.93,
-     "judges": [
-      5.5,
-      5.3,
-      5.0,
-      4.3,
-      4.5
-     ]
-    },
-    {
-     "score": 2.77,
-     "judges": [
-      2.5,
-      3.0,
-      2.8,
-      3.5,
-      2.5
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Rachael Aguero",
-   "country": "CRC",
-   "place": 4,
-   "total": 5.0,
-   "best_waves": [
-    5.0,
+    9.5,
     0.0
    ],
    "priority": null,
    "waves": [
-    5.0
+    9.5
    ],
    "wave_detail": [
     {
-     "score": 5.0,
+     "score": 9.5,
      "judges": [
-      5.0,
-      5.0,
-      4.8,
-      5.0,
-      5.0
+      9.5,
+      9.5,
+      9.5,
+      9.5,
+      9.0
      ]
     }
    ]
+  },
+  {
+   "name": "Crosby Colapinto",
+   "country": "USA",
+   "place": 2,
+   "total": 0.0,
+   "best_waves": [
+    0.0,
+    0.0
+   ],
+   "priority": null,
+   "waves": [],
+   "wave_detail": []
+  },
+  {
+   "name": "Ethan Ewing",
+   "country": "AUS",
+   "place": 3,
+   "total": 0.0,
+   "best_waves": [
+    0.0,
+    0.0
+   ],
+   "priority": null,
+   "waves": [],
+   "wave_detail": []
+  },
+  {
+   "name": "Franco Radziunas",
+   "country": "ARG",
+   "place": 4,
+   "total": 0.0,
+   "best_waves": [
+    0.0,
+    0.0
+   ],
+   "priority": null,
+   "waves": [],
+   "wave_detail": []
   }
  ],
- "fetched_utc": "2026-11-14T13:43:18.559299Z"
+ "fetched_utc": "2026-11-14T14:25:00.328149Z"
 }

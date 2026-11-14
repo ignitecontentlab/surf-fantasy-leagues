@@ -786,5 +786,37 @@
     0.0
    ]
   }
+ },
+ "men|crosbycolapinto|ethanewing|francoradziunas|luccamesinas": {
+  "luccamesinas": {
+   "waves": [
+    9.5
+   ],
+   "best_waves": [
+    9.5,
+    0.0
+   ]
+  },
+  "crosbycolapinto": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "ethanewing": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "francoradziunas": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }
