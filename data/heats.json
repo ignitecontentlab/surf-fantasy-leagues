@@ -8848,8 +8848,8 @@
    {
     "name": "Leilani McGonagle",
     "country": "CRC",
-    "total": null,
-    "place": null,
+    "total": 8.6,
+    "place": 2,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8859,8 +8859,8 @@
    {
     "name": "Havanna Cabrero",
     "country": "PUR",
-    "total": null,
-    "place": null,
+    "total": 4.5,
+    "place": 4,
     "waves": [
      1.0
     ],
@@ -8872,8 +8872,8 @@
    {
     "name": "Isidora Bulto",
     "country": "CHI",
-    "total": null,
-    "place": null,
+    "total": 7.2,
+    "place": 3,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8883,8 +8883,8 @@
    {
     "name": "Francisca Veselko",
     "country": "POR",
-    "total": null,
-    "place": null,
+    "total": 10.3,
+    "place": 1,
     "waves": [
      0.5
     ],
@@ -8894,7 +8894,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -8904,23 +8904,23 @@
    {
     "name": "Lucca Mesinas",
     "country": "PER",
-    "total": null,
-    "place": null
+    "total": 14.0,
+    "place": 2
    },
    {
     "name": "Romeo Chavez",
     "country": "COL",
-    "total": null,
-    "place": null
+    "total": 12.44,
+    "place": 3
    },
    {
     "name": "Miguel Tudela",
     "country": "PER",
-    "total": null,
-    "place": null
+    "total": 16.64,
+    "place": 1
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -8931,19 +8931,36 @@
     "name": "Crosby Colapinto",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Leonardo Fioravanti",
     "country": "ITA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.83
+    ],
+    "best_waves": [
+     5.83,
+     0.0
+    ]
    },
    {
     "name": "Hans Odriozola",
     "country": "GER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -9068,6 +9085,12 @@
     "country": "BRA",
     "total": null,
     "place": null
+   },
+   {
+    "name": "Francisca Veselko",
+    "country": "POR",
+    "total": null,
+    "place": null
    }
   ],
   "complete": false
@@ -9086,6 +9109,46 @@
    {
     "name": "Leihani Zoric",
     "country": "AUS",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leilani McGonagle",
+    "country": "CRC",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B07",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Miguel Tudela",
+    "country": "PER",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Lucca Mesinas",
+    "country": "PER",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B17",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Romeo Chavez",
+    "country": "COL",
     "total": null,
     "place": null
    }

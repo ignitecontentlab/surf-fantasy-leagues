@@ -1,82 +1,56 @@
 {
- "division": "women",
- "round": "REPECHAGE 8",
- "heat": 3,
- "heat_id": "142",
+ "division": "men",
+ "round": "ROUND 6",
+ "heat": 2,
+ "heat_id": "71",
  "status": "RUNNING",
- "minleft": 18,
- "secleft": 32,
+ "minleft": 16,
+ "secleft": 19,
  "end": "",
  "surfers": [
   {
-   "name": "Havanna Cabrero",
-   "country": "PUR",
+   "name": "Leonardo Fioravanti",
+   "country": "ITA",
    "place": 1,
-   "total": 1.0,
+   "total": 5.83,
    "best_waves": [
-    1.0,
+    5.83,
     0.0
    ],
    "priority": null,
    "waves": [
-    1.0
+    5.83
    ],
    "wave_detail": [
     {
-     "score": 1.0,
+     "score": 5.83,
      "judges": [
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0
+      5.5,
+      5.5,
+      6.0,
+      6.0,
+      6.0
      ]
     }
    ]
   },
   {
-   "name": "Francisca Veselko",
-   "country": "POR",
+   "name": "Crosby Colapinto",
+   "country": "USA",
    "place": 2,
-   "total": 0.5,
-   "best_waves": [
-    0.5,
-    0.0
-   ],
-   "priority": null,
-   "waves": [
-    0.5
-   ],
-   "wave_detail": [
-    {
-     "score": 0.5,
-     "judges": [
-      0.5,
-      0.5,
-      0.5,
-      0.5,
-      0.5
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Leilani McGonagle",
-   "country": "CRC",
-   "place": 3,
    "total": 0.0,
    "best_waves": [
     0.0,
     0.0
    ],
-   "priority": null,
+   "priority": "P1",
    "waves": [],
    "wave_detail": []
   },
   {
-   "name": "Isidora Bulto",
-   "country": "CHI",
-   "place": 4,
+   "name": "Hans Odriozola",
+   "country": "GER",
+   "place": 3,
    "total": 0.0,
    "best_waves": [
     0.0,
@@ -87,5 +61,5 @@
    "wave_detail": []
   }
  ],
- "fetched_utc": "2026-11-14T18:20:34.989658Z"
+ "fetched_utc": "2026-11-14T19:07:24.458708Z"
 }

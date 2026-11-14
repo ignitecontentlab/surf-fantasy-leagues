@@ -1081,5 +1081,30 @@
     0.0
    ]
   }
+ },
+ "men|crosbycolapinto|hansodriozola|leonardofioravanti": {
+  "leonardofioravanti": {
+   "waves": [
+    5.83
+   ],
+   "best_waves": [
+    5.83,
+    0.0
+   ]
+  },
+  "crosbycolapinto": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "hansodriozola": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }
