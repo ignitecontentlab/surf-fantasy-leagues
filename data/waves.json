@@ -675,5 +675,45 @@
     0.0
    ]
   }
+ },
+ "men|colehoushmand|dhanywidianto|italoferreira|jorgancouzinet": {
+  "jorgancouzinet": {
+   "waves": [
+    2.5,
+    5.87
+   ],
+   "best_waves": [
+    5.87,
+    2.5
+   ]
+  },
+  "dhanywidianto": {
+   "waves": [
+    6.0
+   ],
+   "best_waves": [
+    6.0,
+    0.0
+   ]
+  },
+  "colehoushmand": {
+   "waves": [
+    5.0,
+    0.37
+   ],
+   "best_waves": [
+    5.0,
+    0.37
+   ]
+  },
+  "italoferreira": {
+   "waves": [
+    4.5
+   ],
+   "best_waves": [
+    4.5,
+    0.0
+   ]
+  }
  }
 }

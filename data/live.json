@@ -1,139 +1,139 @@
 {
  "division": "men",
  "round": "REPECHAGE 7",
- "heat": 1,
- "heat_id": "137",
+ "heat": 3,
+ "heat_id": "139",
  "status": "RUNNING",
- "minleft": 6,
- "secleft": 38,
+ "minleft": 8,
+ "secleft": 31,
  "end": "",
  "surfers": [
   {
-   "name": "Guilherme Ribeiro",
-   "country": "POR",
+   "name": "Jorgan Couzinet",
+   "country": "FRA",
    "place": 1,
-   "total": 8.83,
+   "total": 8.37,
    "best_waves": [
-    5.33,
-    3.5
+    5.87,
+    2.5
    ],
-   "priority": "P2",
+   "priority": null,
    "waves": [
-    5.33,
-    3.5
+    2.5,
+    5.87
    ],
    "wave_detail": [
     {
-     "score": 5.33,
+     "score": 2.5,
      "judges": [
+      2.5,
+      2.5,
+      2.5,
+      2.0,
+      2.5
+     ]
+    },
+    {
+     "score": 5.87,
+     "judges": [
+      5.8,
+      6.0,
+      5.8,
       5.5,
-      5.5,
+      6.5
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Dhany Widianto",
+   "country": "INA",
+   "place": 2,
+   "total": 6.0,
+   "best_waves": [
+    6.0,
+    0.0
+   ],
+   "priority": null,
+   "waves": [
+    6.0
+   ],
+   "wave_detail": [
+    {
+     "score": 6.0,
+     "judges": [
+      6.0,
+      6.5,
+      6.0,
+      6.0,
+      6.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cole Houshmand",
+   "country": "USA",
+   "place": 3,
+   "total": 5.37,
+   "best_waves": [
+    5.0,
+    0.37
+   ],
+   "priority": null,
+   "waves": [
+    5.0,
+    0.37
+   ],
+   "wave_detail": [
+    {
+     "score": 5.0,
+     "judges": [
       5.0,
-      5.5,
+      5.0,
+      5.0,
+      5.0,
       5.0
      ]
     },
     {
-     "score": 3.5,
+     "score": 0.37,
      "judges": [
-      3.5,
-      3.5,
-      3.5,
-      4.0,
-      3.5
+      0.5,
+      0.3,
+      0.3,
+      0.2,
+      0.5
      ]
     }
    ]
   },
   {
-   "name": "Kai Odriozola",
-   "country": "GER",
-   "place": 2,
-   "total": 8.1,
+   "name": "Italo Ferreira",
+   "country": "BRA",
+   "place": 4,
+   "total": 4.5,
    "best_waves": [
-    6.83,
-    1.27
+    4.5,
+    0.0
    ],
    "priority": null,
    "waves": [
-    6.83,
-    1.27
+    4.5
    ],
    "wave_detail": [
     {
-     "score": 6.83,
+     "score": 4.5,
      "judges": [
-      6.5,
-      6.5,
-      7.0,
-      7.0,
-      7.0
-     ]
-    },
-    {
-     "score": 1.27,
-     "judges": [
-      1.5,
-      1.3,
-      1.3,
-      0.8,
-      1.2
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Kanoa Igarashi",
-   "country": "JPN",
-   "place": 3,
-   "total": 7.5,
-   "best_waves": [
-    7.5,
-    0.0
-   ],
-   "priority": "P1",
-   "waves": [
-    7.5
-   ],
-   "wave_detail": [
-    {
-     "score": 7.5,
-     "judges": [
-      7.5,
-      7.5,
-      7.5,
-      8.0,
-      7.5
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Thiago Passeri",
-   "country": "ARG",
-   "place": 4,
-   "total": 1.5,
-   "best_waves": [
-    1.5,
-    0.0
-   ],
-   "priority": "P3",
-   "waves": [
-    1.5
-   ],
-   "wave_detail": [
-    {
-     "score": 1.5,
-     "judges": [
-      1.3,
-      1.5,
-      1.5,
-      1.5,
-      1.7
+      4.0,
+      4.5,
+      4.5,
+      4.5,
+      4.5
      ]
     }
    ]
   }
  ],
- "fetched_utc": "2026-11-14T12:13:52.910052Z"
+ "fetched_utc": "2026-11-14T12:59:08.059421Z"
 }
