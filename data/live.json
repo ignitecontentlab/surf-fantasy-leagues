@@ -1,161 +1,104 @@
 {
- "division": "men",
+ "division": "women",
  "round": "ROUND 5",
- "heat": 2,
- "heat_id": "68",
- "status": "UNOFFICIAL",
- "minleft": 0,
- "secleft": 0,
- "end": "00:00",
+ "heat": 1,
+ "heat_id": "67",
+ "status": "RUNNING",
+ "minleft": 11,
+ "secleft": 19,
+ "end": "",
  "surfers": [
   {
-   "name": "Leonardo Fioravanti",
-   "country": "ITA",
+   "name": "Yolanda Hopkins",
+   "country": "POR",
    "place": 1,
-   "total": 14.2,
+   "total": 5.67,
    "best_waves": [
-    7.33,
-    6.87
+    5.67,
+    0.0
    ],
    "priority": null,
    "waves": [
-    7.33,
-    6.87
+    5.67
    ],
    "wave_detail": [
     {
-     "score": 7.33,
+     "score": 5.67,
      "judges": [
-      6.5,
-      7.0,
-      7.5,
-      7.5,
-      7.5
-     ]
-    },
-    {
-     "score": 6.87,
-     "judges": [
-      6.8,
-      6.5,
-      6.8,
-      7.0,
-      7.0
+      5.5,
+      6.0,
+      5.5,
+      6.0,
+      5.5
      ]
     }
    ]
   },
   {
-   "name": "Romeo Chavez",
-   "country": "COL",
+   "name": "Anon Matsuoka",
+   "country": "JPN",
    "place": 2,
-   "total": 12.93,
+   "total": 4.5,
    "best_waves": [
-    6.5,
-    6.43
+    4.5,
+    0.0
    ],
-   "priority": null,
+   "priority": "P2",
    "waves": [
-    6.5,
-    6.43
+    4.5
    ],
    "wave_detail": [
     {
-     "score": 6.5,
+     "score": 4.5,
      "judges": [
-      7.0,
-      6.0,
-      7.0,
-      6.0,
-      6.5
-     ]
-    },
-    {
-     "score": 6.43,
-     "judges": [
-      6.3,
-      6.2,
-      7.2,
-      6.3,
-      6.7
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Liam O´Brien",
-   "country": "AUS",
-   "place": 3,
-   "total": 12.83,
-   "best_waves": [
-    7.83,
-    5.0
-   ],
-   "priority": null,
-   "waves": [
-    5.0,
-    7.83
-   ],
-   "wave_detail": [
-    {
-     "score": 5.0,
-     "judges": [
-      5.3,
-      5.0,
-      5.0,
-      5.0,
+      4.5,
+      4.5,
+      4.5,
+      4.5,
       5.0
      ]
-    },
+    }
+   ]
+  },
+  {
+   "name": "Catalina Zariquiey",
+   "country": "PER",
+   "place": 3,
+   "total": 3.17,
+   "best_waves": [
+    3.17,
+    0.0
+   ],
+   "priority": "P1",
+   "waves": [
+    3.17
+   ],
+   "wave_detail": [
     {
-     "score": 7.83,
+     "score": 3.17,
      "judges": [
-      8.0,
-      7.8,
-      7.3,
-      8.0,
-      7.7
+      3.0,
+      3.5,
+      3.0,
+      3.0,
+      3.5
      ]
     }
    ]
   },
   {
-   "name": "Conor Donegan",
-   "country": "ESP",
+   "name": "Tyler Wright",
+   "country": "AUS",
    "place": 4,
-   "total": 10.73,
+   "total": 0.0,
    "best_waves": [
-    5.53,
-    5.2
+    0.0,
+    0.0
    ],
    "priority": null,
-   "waves": [
-    5.2,
-    5.53
-   ],
-   "wave_detail": [
-    {
-     "score": 5.2,
-     "judges": [
-      5.4,
-      5.2,
-      5.2,
-      4.5,
-      5.2
-     ]
-    },
-    {
-     "score": 5.53,
-     "judges": [
-      5.0,
-      5.8,
-      5.5,
-      5.3,
-      5.8
-     ]
-    }
-   ]
+   "waves": [],
+   "wave_detail": []
   }
  ],
- "fetched_utc": "2026-11-14T15:01:00.919436Z"
+ "fetched_utc": "2026-11-14T15:30:40.535990Z"
 }

@@ -860,5 +860,41 @@
     5.2
    ]
   }
+ },
+ "women|anonmatsuoka|catalinazariquiey|tylerwright|yolandahopkins": {
+  "yolandahopkins": {
+   "waves": [
+    5.67
+   ],
+   "best_waves": [
+    5.67,
+    0.0
+   ]
+  },
+  "anonmatsuoka": {
+   "waves": [
+    4.5
+   ],
+   "best_waves": [
+    4.5,
+    0.0
+   ]
+  },
+  "catalinazariquiey": {
+   "waves": [
+    3.17
+   ],
+   "best_waves": [
+    3.17,
+    0.0
+   ]
+  },
+  "tylerwright": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }

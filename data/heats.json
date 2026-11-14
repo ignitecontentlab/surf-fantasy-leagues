@@ -7507,8 +7507,8 @@
    {
     "name": "Liam O´Brien",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 12.83,
+    "place": 3,
     "waves": [
      5.0,
      7.83
@@ -7521,8 +7521,8 @@
    {
     "name": "Leonardo Fioravanti",
     "country": "ITA",
-    "total": null,
-    "place": null,
+    "total": 14.2,
+    "place": 1,
     "waves": [
      7.33,
      6.87
@@ -7535,8 +7535,8 @@
    {
     "name": "Romeo Chavez",
     "country": "COL",
-    "total": null,
-    "place": null,
+    "total": 12.93,
+    "place": 2,
     "waves": [
      6.5,
      6.43
@@ -7549,8 +7549,8 @@
    {
     "name": "Conor Donegan",
     "country": "ESP",
-    "total": null,
-    "place": null,
+    "total": 10.73,
+    "place": 4,
     "waves": [
      5.2,
      5.53
@@ -7561,7 +7561,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -7657,29 +7657,29 @@
    {
     "name": "Yago Dora",
     "country": "BRA",
-    "total": null,
-    "place": null
+    "total": 10.84,
+    "place": 3
    },
    {
     "name": "Miguel Tudela",
     "country": "PER",
-    "total": null,
-    "place": null
+    "total": 14.07,
+    "place": 1
    },
    {
     "name": "Alonso Correa",
     "country": "PER",
-    "total": null,
-    "place": null
+    "total": 7.33,
+    "place": 4
    },
    {
     "name": "Hans Odriozola",
     "country": "GER",
-    "total": null,
-    "place": null
+    "total": 11.44,
+    "place": 2
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -7880,25 +7880,51 @@
     "name": "Anon Matsuoka",
     "country": "JPN",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     4.5
+    ],
+    "best_waves": [
+     4.5,
+     0.0
+    ]
    },
    {
     "name": "Yolanda Hopkins",
     "country": "POR",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.67
+    ],
+    "best_waves": [
+     5.67,
+     0.0
+    ]
    },
    {
     "name": "Tyler Wright",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Catalina Zariquiey",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     3.17
+    ],
+    "best_waves": [
+     3.17,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -8555,6 +8581,12 @@
     "place": null
    },
    {
+    "name": "Conor Donegan",
+    "country": "ESP",
+    "total": null,
+    "place": null
+   },
+   {
     "name": "Kanoa Igarashi",
     "country": "JPN",
     "total": null,
@@ -8574,6 +8606,12 @@
   "round": "B15",
   "heat": 2,
   "surfers": [
+   {
+    "name": "Yago Dora",
+    "country": "BRA",
+    "total": null,
+    "place": null
+   },
    {
     "name": "Franco Radziunas",
     "country": "ARG",
@@ -8600,6 +8638,18 @@
   "round": "B15",
   "heat": 3,
   "surfers": [
+   {
+    "name": "Liam O´Brien",
+    "country": "AUS",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Alonso Correa",
+    "country": "PER",
+    "total": null,
+    "place": null
+   },
    {
     "name": "Kauli Vaast",
     "country": "FRA",
@@ -8685,6 +8735,18 @@
     "country": "PER",
     "total": null,
     "place": null
+   },
+   {
+    "name": "Romeo Chavez",
+    "country": "COL",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Miguel Tudela",
+    "country": "PER",
+    "total": null,
+    "place": null
    }
   ],
   "complete": false
@@ -8697,6 +8759,18 @@
    {
     "name": "Crosby Colapinto",
     "country": "USA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leonardo Fioravanti",
+    "country": "ITA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Hans Odriozola",
+    "country": "GER",
     "total": null,
     "place": null
    }
