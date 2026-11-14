@@ -1,431 +1,531 @@
 {
-  "_note": "Events that Wikipedia does not list. WSL Championship Tour stops are added automatically from Wikipedia season pages. Edit this file to add or fix an event; the collector keeps everything else up to date.",
-  "events": [
+ "_note": "Events that Wikipedia does not list. WSL Championship Tour stops are added automatically from Wikipedia season pages. Edit this file to add or fix an event; the collector keeps everything else up to date.",
+ "events": [
+  {
+   "id": "isa-wsg-2026",
+   "name": "ISA World Surfing Games",
+   "org": "ISA",
+   "series": "ISA World Championships",
+   "start": "2026-11-06",
+   "end": "2026-11-15",
+   "location": "Punta Rocas, Peru",
+   "kind": "contest",
+   "live": "auto",
+   "pool": "Running now on this site",
+   "official": "https://isasurf.org/",
+   "news": "ISA World Surfing Games",
+   "host": "ISA",
+   "partner": "Peruvian Surfing Federation (FENTA) and the Peruvian Institute of Sport (IPD)"
+  },
+  {
+   "id": "vans-triple-crown-2026",
+   "name": "Vans Triple Crown of Surfing",
+   "org": "WSL / Vans",
+   "series": "North Shore",
+   "start": "2026-11-13",
+   "end": "2026-12-20",
+   "location": "Haleiwa, Sunset Beach and Pipeline, Oahu",
+   "kind": "series",
+   "live": "link",
+   "pool": "Season pool across 3 North Shore events",
+   "official": "https://www.worldsurfleague.com/",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Vans Triple Crown surfing",
+   "host": "WSL",
+   "partner": "Vans"
+  },
+  {
+   "id": "eddie-2026-27",
+   "name": "The Eddie (Eddie Aikau Big Wave Invitational)",
+   "org": "Rip Curl",
+   "series": "Big wave",
+   "start": "2026-12-06",
+   "end": "2027-03-04",
+   "location": "Waimea Bay, Oahu",
+   "kind": "window",
+   "live": "link",
+   "pool": "One-day pick'em: draft 3 of the 32 invitees",
+   "official": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational",
+   "watch": "https://www.theeddieaikau.com/",
+   "news": "Eddie Aikau Waimea",
+   "watcher": "eddie",
+   "facts": "Runs on one day only if wave faces reach 40 ft. Opening ceremony Dec 3, 2026. 32 invitees, 25 alternates.",
+   "invitees": [
     {
-      "id": "isa-wsg-2026",
-      "name": "ISA World Surfing Games",
-      "org": "ISA",
-      "series": "ISA",
-      "start": "2026-11-06",
-      "end": "2026-11-15",
-      "location": "Punta Rocas, Peru",
-      "kind": "contest",
-      "live": "auto",
-      "pool": "Running now on this site",
-      "official": "https://isasurf.org/",
-      "news": "ISA World Surfing Games"
+     "name": "Aaron Gold",
+     "country": "HAW",
+     "g": "M"
     },
     {
-      "id": "vans-triple-crown-2026",
-      "name": "Vans Triple Crown of Surfing",
-      "org": "WSL / Vans",
-      "series": "North Shore",
-      "start": "2026-11-13",
-      "end": "2026-12-20",
-      "location": "Haleiwa, Sunset Beach and Pipeline, Oahu",
-      "kind": "series",
-      "live": "link",
-      "pool": "Season pool across 3 North Shore events",
-      "official": "https://www.worldsurfleague.com/",
-      "watch": "https://www.youtube.com/@wsl/streams",
-      "news": "Vans Triple Crown surfing"
+     "name": "Annie Reickert",
+     "country": "HAW",
+     "g": "W"
     },
     {
-      "id": "eddie-2026-27",
-      "name": "The Eddie (Eddie Aikau Big Wave Invitational)",
-      "org": "Rip Curl",
-      "series": "Big wave",
-      "start": "2026-12-06",
-      "end": "2027-03-04",
-      "location": "Waimea Bay, Oahu",
-      "kind": "window",
-      "live": "link",
-      "pool": "One-day pick'em: draft 3 of the 32 invitees",
-      "official": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational",
-      "watch": "https://www.theeddieaikau.com/",
-      "news": "Eddie Aikau Waimea",
-      "watcher": "eddie",
-      "facts": "Runs on one day only if wave faces reach 40 ft. Opening ceremony Dec 3, 2026. 32 invitees, 25 alternates.",
-      "invitees": [
-        {
-          "name": "Aaron Gold",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Annie Reickert",
-          "country": "HAW",
-          "g": "W"
-        },
-        {
-          "name": "Ben Wilkinson",
-          "country": "AUS",
-          "g": "M"
-        },
-        {
-          "name": "Billy Kemper",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Bruce Irons",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Chad Keaulana",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Eala Stewart",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Eli Olson",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Emily Erickson",
-          "country": "HAW",
-          "g": "W"
-        },
-        {
-          "name": "Ezekiel Lau",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Felicity Palmateer",
-          "country": "AUS",
-          "g": "W"
-        },
-        {
-          "name": "Grant Twiggy Baker",
-          "country": "RSA",
-          "g": "M"
-        },
-        {
-          "name": "Ha'a Aikau",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Ian Walsh",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Jake Maki",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Jamie Mitchell",
-          "country": "AUS",
-          "g": "M"
-        },
-        {
-          "name": "Jamie O'Brien",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Joey Cadiz",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "John John Florence",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Kai Lenny",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Koa Rothman",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Landon McNamara",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Luke Shepardson",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Makua Rothman",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Mark Healey",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Mason Ho",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Matahi Drollet",
-          "country": "PYF",
-          "g": "M"
-        },
-        {
-          "name": "Nathan Florence",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Paige Alms",
-          "country": "HAW",
-          "g": "W"
-        },
-        {
-          "name": "Ross Clarke-Jones",
-          "country": "AUS",
-          "g": "M"
-        },
-        {
-          "name": "Seth Moniz",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Tom Lowe",
-          "country": "GBR",
-          "g": "M"
-        }
-      ],
-      "alternates": [
-        {
-          "name": "Torrey Meister",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Kala Grace",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Cliff Kapono",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Kaiwi Berry",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Russell Bierke",
-          "country": "AUS",
-          "g": "M"
-        },
-        {
-          "name": "Josh Moniz",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Tyler Larronde",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Ivan Florence",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Lucas Chianca",
-          "country": "BRA",
-          "g": "M"
-        },
-        {
-          "name": "Tiger Doerner",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Mikey O'Shaughnessy",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Barron Mamiya",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Nic von Rupp",
-          "country": "POR",
-          "g": "M"
-        },
-        {
-          "name": "Francisco Porcella",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Mitch Sanborn",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Steve Roberson",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Kipp Caddy",
-          "country": "AUS",
-          "g": "M"
-        },
-        {
-          "name": "Koa Smith",
-          "country": "HAW",
-          "g": "M"
-        },
-        {
-          "name": "Isamu Sumi",
-          "country": "JPN",
-          "g": "M"
-        },
-        {
-          "name": "Jojo Roper",
-          "country": "USA",
-          "g": "M"
-        },
-        {
-          "name": "Laura Enever",
-          "country": "AUS",
-          "g": "W"
-        },
-        {
-          "name": "Bianca Valenti",
-          "country": "USA",
-          "g": "W"
-        },
-        {
-          "name": "Tiare Lawrence",
-          "country": "HAW",
-          "g": "W"
-        },
-        {
-          "name": "Makani Adric",
-          "country": "HAW",
-          "g": "W"
-        },
-        {
-          "name": "Justine Dupont",
-          "country": "FRA",
-          "g": "W"
-        }
-      ],
-      "roster_source": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational"
+     "name": "Ben Wilkinson",
+     "country": "AUS",
+     "g": "M"
     },
     {
-      "id": "nazare-2026-27",
-      "name": "TUDOR Nazaré Big Wave Challenge",
-      "org": "WSL",
-      "series": "Big wave",
-      "start": "2026-11-01",
-      "end": "2027-03-31",
-      "location": "Praia do Norte, Nazaré, Portugal",
-      "kind": "window",
-      "live": "link",
-      "pool": "One-day pick'em on tow teams",
-      "official": "https://nazarewaves.com/en/news",
-      "watch": "https://www.youtube.com/@wsl/streams",
-      "news": "Nazaré Big Wave Challenge",
-      "watcher": "nazare",
-      "facts": "One-day tow-in event on a 25 ft+ swell. Yellow alert up to 72 hours ahead, green alert 24 hours ahead."
+     "name": "Billy Kemper",
+     "country": "HAW",
+     "g": "M"
     },
     {
-      "id": "qs-taiwan-2026",
-      "name": "QS 6,000 Taiwan",
-      "org": "WSL",
-      "series": "Qualifying Series",
-      "start": "2026-11-14",
-      "end": "2026-11-22",
-      "location": "Jinzun Harbor, Taitung, Taiwan",
-      "kind": "contest",
-      "live": "link",
-      "pool": "",
-      "official": "https://www.worldsurfleague.com/",
-      "news": "Taiwan Open of Surfing"
+     "name": "Bruce Irons",
+     "country": "HAW",
+     "g": "M"
     },
     {
-      "id": "qs-pipe-2027",
-      "name": "QS 6,000 Pipeline",
-      "org": "WSL",
-      "series": "Qualifying Series",
-      "start": "2027-01-29",
-      "end": "2027-02-08",
-      "location": "Pipeline, Oahu",
-      "kind": "contest",
-      "live": "link",
-      "pool": "",
-      "official": "https://www.worldsurfleague.com/",
-      "news": "QS Pipeline 2027",
-      "facts": "Tentative permit window."
+     "name": "Chad Keaulana",
+     "country": "HAW",
+     "g": "M"
     },
     {
-      "id": "cs-newcastle-2027",
-      "name": "Challenger Series Newcastle",
-      "org": "WSL",
-      "series": "Challenger Series",
-      "start": "2027-03-01",
-      "end": "2027-03-07",
-      "location": "Newcastle, NSW, Australia",
-      "kind": "contest",
-      "live": "link",
-      "pool": "Decides who qualifies for the 2027 Championship Tour",
-      "official": "https://www.worldsurfleague.com/",
-      "news": "Challenger Series Newcastle surf"
+     "name": "Eala Stewart",
+     "country": "HAW",
+     "g": "M"
     },
     {
-      "id": "isa-wsg-2027",
-      "name": "ISA World Surfing Games 2027",
-      "org": "ISA",
-      "series": "ISA",
-      "start": "",
-      "end": "",
-      "year": 2027,
-      "location": "To be announced",
-      "kind": "contest",
-      "live": "auto",
-      "pool": "Same format as Peru, with live scores",
-      "official": "https://isasurf.org/",
-      "news": "2027 ISA World Surfing Games"
+     "name": "Eli Olson",
+     "country": "HAW",
+     "g": "M"
     },
     {
-      "id": "la28-surfing",
-      "name": "LA28 Olympic Surfing",
-      "org": "IOC / ISA",
-      "series": "Olympics",
-      "start": "2028-07-15",
-      "end": "2028-07-23",
-      "location": "Lower Trestles, California",
-      "kind": "contest",
-      "live": "link",
-      "pool": "Men's and women's draft, 48 surfers",
-      "official": "https://la28.org/",
-      "news": "LA28 Olympic surfing Trestles",
-      "facts": "Competition days July 15-18, contingency days through July 23."
+     "name": "Emily Erickson",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Ezekiel Lau",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Felicity Palmateer",
+     "country": "AUS",
+     "g": "W"
+    },
+    {
+     "name": "Grant Twiggy Baker",
+     "country": "RSA",
+     "g": "M"
+    },
+    {
+     "name": "Ha'a Aikau",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Ian Walsh",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Jake Maki",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Jamie Mitchell",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Jamie O'Brien",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Joey Cadiz",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "John John Florence",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kai Lenny",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Koa Rothman",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Landon McNamara",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Luke Shepardson",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Makua Rothman",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mark Healey",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mason Ho",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Matahi Drollet",
+     "country": "PYF",
+     "g": "M"
+    },
+    {
+     "name": "Nathan Florence",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Paige Alms",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Ross Clarke-Jones",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Seth Moniz",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Tom Lowe",
+     "country": "GBR",
+     "g": "M"
     }
-  ]
+   ],
+   "alternates": [
+    {
+     "name": "Torrey Meister",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kala Grace",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Cliff Kapono",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kaiwi Berry",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Russell Bierke",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Josh Moniz",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Tyler Larronde",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Ivan Florence",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Lucas Chianca",
+     "country": "BRA",
+     "g": "M"
+    },
+    {
+     "name": "Tiger Doerner",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mikey O'Shaughnessy",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Barron Mamiya",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Nic von Rupp",
+     "country": "POR",
+     "g": "M"
+    },
+    {
+     "name": "Francisco Porcella",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mitch Sanborn",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Steve Roberson",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kipp Caddy",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Koa Smith",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Isamu Sumi",
+     "country": "JPN",
+     "g": "M"
+    },
+    {
+     "name": "Jojo Roper",
+     "country": "USA",
+     "g": "M"
+    },
+    {
+     "name": "Laura Enever",
+     "country": "AUS",
+     "g": "W"
+    },
+    {
+     "name": "Bianca Valenti",
+     "country": "USA",
+     "g": "W"
+    },
+    {
+     "name": "Tiare Lawrence",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Makani Adric",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Justine Dupont",
+     "country": "FRA",
+     "g": "W"
+    }
+   ],
+   "roster_source": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational",
+   "host": "Rip Curl",
+   "partner": "Eddie Aikau Foundation"
+  },
+  {
+   "id": "nazare-2026-27",
+   "name": "TUDOR Nazaré Big Wave Challenge",
+   "org": "WSL",
+   "series": "Big wave",
+   "start": "2026-11-01",
+   "end": "2027-03-31",
+   "location": "Praia do Norte, Nazaré, Portugal",
+   "kind": "window",
+   "live": "link",
+   "pool": "One-day pick'em on tow teams",
+   "official": "https://nazarewaves.com/en/news",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Nazaré Big Wave Challenge",
+   "watcher": "nazare",
+   "facts": "One-day tow-in event on a 25 ft+ swell. Yellow alert up to 72 hours ahead, green alert 24 hours ahead.",
+   "host": "WSL",
+   "partner": "Municipality of Nazaré"
+  },
+  {
+   "id": "qs-taiwan-2026",
+   "name": "QS 6,000 Taiwan",
+   "org": "WSL",
+   "series": "Qualifying Series",
+   "start": "2026-11-14",
+   "end": "2026-11-22",
+   "location": "Jinzun Harbor, Taitung, Taiwan",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://www.worldsurfleague.com/",
+   "news": "Taiwan Open of Surfing",
+   "host": "WSL"
+  },
+  {
+   "id": "qs-pipe-2027",
+   "name": "QS 6,000 Pipeline",
+   "org": "WSL",
+   "series": "Qualifying Series",
+   "start": "2027-01-29",
+   "end": "2027-02-08",
+   "location": "Pipeline, Oahu",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://www.worldsurfleague.com/",
+   "news": "QS Pipeline 2027",
+   "facts": "Tentative permit window.",
+   "host": "WSL"
+  },
+  {
+   "id": "cs-newcastle-2027",
+   "name": "Challenger Series Newcastle",
+   "org": "WSL",
+   "series": "Challenger Series",
+   "start": "2027-03-01",
+   "end": "2027-03-07",
+   "location": "Newcastle, NSW, Australia",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Decides who qualifies for the 2027 Championship Tour",
+   "official": "https://www.worldsurfleague.com/",
+   "news": "Challenger Series Newcastle surf",
+   "host": "WSL"
+  },
+  {
+   "id": "isa-wsg-2027",
+   "name": "ISA World Surfing Games 2027",
+   "org": "ISA",
+   "series": "ISA World Championships",
+   "start": "",
+   "end": "",
+   "year": 2027,
+   "location": "To be announced",
+   "kind": "contest",
+   "live": "auto",
+   "pool": "Same format as Peru, with live scores",
+   "official": "https://isasurf.org/",
+   "news": "2027 ISA World Surfing Games",
+   "host": "ISA"
+  },
+  {
+   "id": "la28-surfing",
+   "name": "LA28 Olympic Surfing",
+   "org": "IOC / ISA",
+   "series": "Olympics",
+   "start": "2028-07-15",
+   "end": "2028-07-23",
+   "location": "Lower Trestles, California",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Men's and women's draft, 48 surfers",
+   "official": "https://la28.org/",
+   "news": "LA28 Olympic surfing Trestles",
+   "facts": "Competition days July 15-18, contingency days through July 23.",
+   "host": "LA28 / IOC",
+   "partner": "ISA runs the surfing competition"
+  },
+  {
+   "id": "isa-wpsc-2026",
+   "name": "ISA World Para Surfing Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "DSRT Surf",
+   "series": "ISA World Championships",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "location": "DSRT Surf, Palm Desert, California",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
+   "watch": "https://isasurf.org/",
+   "news": "ISA World Para Surfing Championship",
+   "facts": "Opening ceremony Nov 19 at DSRT Surf. Competition Nov 20-22. Live stream on isasurf.org.",
+   "source": "https://isasurf.org/info-for-event-participants-2026-wpsc/"
+  },
+  {
+   "id": "isa-wlc-2026",
+   "name": "ISA World Longboard Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "Surf City El Salvador",
+   "series": "ISA World Championships",
+   "start": "2026-10-16",
+   "end": "2026-10-22",
+   "location": "El Sunzal, El Salvador",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/event/2026-isa-world-longboard-championship/",
+   "news": "ISA World Longboard Championship",
+   "status_override": "completed",
+   "results": {
+    "men_champ": {
+     "name": "Benoit Clemente",
+     "country": "FRA"
+    },
+    "women_champ": {
+     "name": "Alice Lemoigne",
+     "country": "FRA"
+    }
+   },
+   "facts": "France won the team title for a fifth time; USA took team silver and Peru bronze.",
+   "source": "https://isasurf.org/category/events/world-longboard-surfing-championship/"
+  },
+  {
+   "id": "isa-wjsc-2026",
+   "name": "ISA World Junior Surfing Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "Surf City El Salvador",
+   "series": "ISA World Championships",
+   "start": "2026-09-04",
+   "end": "2026-09-13",
+   "location": "La Bocana and El Sunzal, El Salvador",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/",
+   "news": "ISA World Junior Surfing Championship",
+   "status_override": "completed",
+   "facts": "Team USA won the team silver medal.",
+   "source": "https://www.usasurfing.org/usa-surfing-news/team-usa-earns-silver-at-2026-surf-city-el-salvador-at-isa-world-junior-surfing-championships"
+  },
+  {
+   "id": "isa-wlc-2027",
+   "name": "ISA World Longboard Championship 2027",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "Surf City El Salvador",
+   "series": "ISA World Championships",
+   "start": "",
+   "end": "",
+   "year": 2027,
+   "location": "El Salvador (expected)",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/",
+   "news": "2027 ISA World Longboard Championship",
+   "facts": "Surf City El Salvador's ISA partnership includes the Longboard Championship every year through 2027. Dates not announced yet.",
+   "source": "https://isasurf.org/isa-and-surf-city-el-salvador-confirm-historic-partnership-through-2027/"
+  }
+ ]
 }

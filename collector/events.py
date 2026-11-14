@@ -130,7 +130,7 @@ def wsl_season(year):
         start, end = parse_dates(clean(r[1])[0], year)
         if not name:
             continue
-        ev = {"id": f"wsl-ct-{year}-{norm(name)[:24]}", "name": name, "org": "WSL",
+        ev = {"id": f"wsl-ct-{year}-{norm(name)[:24]}", "name": name, "org": "WSL", "host": "WSL",
               "series": f"{year} Championship Tour", "round": rnd, "start": start, "end": end,
               "location": loc, "country": country, "kind": "contest", "live": "link",
               "pool": "Draft pool: 3 men, 2 women" if not cancelled else "",
