@@ -1,5 +1,5 @@
 {
-"updated_at": "2026-11-14T20:39:06+00:00",
+"updated_at": "2026-11-14T20:49:31+00:00",
 "sources": {
 "Surfer": 32,
 "ISA": 7,
@@ -10,7 +10,7 @@
 "Tracks": 2,
 "World Surf League": 47,
 "Surfertoday": 6,
-"In the news": 33
+"In the news": 32
 },
 "items": [
 {
@@ -820,6 +820,16 @@
 "kind": "outlet"
 },
 {
+"title": "Prizes & Placing - HTA Haleʻiwa Pro 2026",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVLVJUNlF3MnNaQ2ZVSHo1V0UtaHdGcDZuQlhRQjBzeDBJTGUtQnZyZEV1TmRwVDdvbXlDbWlPcEp3UmwtVEZ6Mm41c3Z0R0tnSEMwdWpXM1pCcmpIVkpuanlpc3hiMmt5ZlRIaTVmR0dFaC1nQTlhX09TUFV2UQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T02:33+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Girlfriend of slain ex-Santa Cruz surfing great among those arrested in murder investigation",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeG1TZ0gyTFpXWWU4bUVPQkJPa0lJbjBpVVdtU2cwYkMyQ1k0T1lqRjJXTVJiS2FCNFlabUdHR1Q4djFqVEh3X2FEZ0JrTHNtQk1pbHAxY3lpNFFJQlZSLUE4NzFjdlFXVDhyaUxsaE00WkM1djJ2MC1ZNHFNNHdzLUNwVHU2bHhkSzlQdlVZRDhSVFpuWkllTnI0VFFObWs?oc=5",
 "source": "San Francisco Chronicle",
@@ -1214,18 +1224,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "John John Florence Chooses Life at Sea Over WSL Championship Tour and LA 2028 Olympics",
-"link": "https://www.surfer.com/news/john-john-florence-skips-2027-olympics-sailing",
-"source": "Surfer",
-"at": "2026-11-12T13:14+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyMzk4/john-john-florence-boat.png?profile=rss&x=50&y=43",
-"desc": "The three-time world champion is skipping the 2027 Championship Tour, effectively ending his hopes of competing at the 2028 Los Angeles Olympics.",
-"surfers": [
-"john-john-florence"
-],
-"kind": "outlet"
 }
 ]
 }
