@@ -745,5 +745,46 @@
     0.0
    ]
   }
+ },
+ "women|isidorabulto|naiamonte|rachaelaguero|solaguirre": {
+  "isidorabulto": {
+   "waves": [
+    7.5,
+    2.9
+   ],
+   "best_waves": [
+    7.5,
+    2.9
+   ]
+  },
+  "naiamonte": {
+   "waves": [
+    5.5,
+    2.83
+   ],
+   "best_waves": [
+    5.5,
+    2.83
+   ]
+  },
+  "solaguirre": {
+   "waves": [
+    4.93,
+    2.77
+   ],
+   "best_waves": [
+    4.93,
+    2.77
+   ]
+  },
+  "rachaelaguero": {
+   "waves": [
+    5.0
+   ],
+   "best_waves": [
+    5.0,
+    0.0
+   ]
+  }
  }
 }

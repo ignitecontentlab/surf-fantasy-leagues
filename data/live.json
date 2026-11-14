@@ -1,65 +1,150 @@
 {
  "division": "women",
  "round": "REPECHAGE 7",
- "heat": 1,
- "heat_id": "137",
+ "heat": 2,
+ "heat_id": "138",
  "status": "RUNNING",
- "minleft": 18,
- "secleft": 28,
+ "minleft": 7,
+ "secleft": 45,
  "end": "",
  "surfers": [
   {
-   "name": "Leihani Zoric",
-   "country": "AUS",
+   "name": "Isidora Bulto",
+   "country": "CHI",
    "place": 1,
-   "total": 0.0,
+   "total": 10.4,
    "best_waves": [
-    0.0,
-    0.0
+    7.5,
+    2.9
    ],
-   "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "priority": "P2",
+   "waves": [
+    7.5,
+    2.9
+   ],
+   "wave_detail": [
+    {
+     "score": 7.5,
+     "judges": [
+      8.0,
+      8.0,
+      7.0,
+      7.5,
+      7.0
+     ]
+    },
+    {
+     "score": 2.9,
+     "judges": [
+      2.0,
+      3.5,
+      3.0,
+      3.0,
+      2.7
+     ]
+    }
+   ]
   },
   {
-   "name": "Aelan Vaast",
+   "name": "Naia Monte",
    "country": "FRA",
    "place": 2,
-   "total": 0.0,
+   "total": 8.33,
    "best_waves": [
-    0.0,
-    0.0
+    5.5,
+    2.83
    ],
    "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    5.5,
+    2.83
+   ],
+   "wave_detail": [
+    {
+     "score": 5.5,
+     "judges": [
+      5.7,
+      5.5,
+      5.5,
+      5.5,
+      5.5
+     ]
+    },
+    {
+     "score": 2.83,
+     "judges": [
+      2.8,
+      2.8,
+      3.2,
+      2.5,
+      2.9
+     ]
+    }
+   ]
   },
   {
-   "name": "Estela López",
-   "country": "CHI",
+   "name": "Sol Aguirre",
+   "country": "PER",
    "place": 3,
-   "total": 0.0,
+   "total": 7.7,
    "best_waves": [
-    0.0,
-    0.0
+    4.93,
+    2.77
    ],
-   "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "priority": "P1",
+   "waves": [
+    4.93,
+    2.77
+   ],
+   "wave_detail": [
+    {
+     "score": 4.93,
+     "judges": [
+      5.5,
+      5.3,
+      5.0,
+      4.3,
+      4.5
+     ]
+    },
+    {
+     "score": 2.77,
+     "judges": [
+      2.5,
+      3.0,
+      2.8,
+      3.5,
+      2.5
+     ]
+    }
+   ]
   },
   {
-   "name": "Carissa Moore",
-   "country": "USA",
+   "name": "Rachael Aguero",
+   "country": "CRC",
    "place": 4,
-   "total": 0.0,
+   "total": 5.0,
    "best_waves": [
-    0.0,
+    5.0,
     0.0
    ],
    "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    5.0
+   ],
+   "wave_detail": [
+    {
+     "score": 5.0,
+     "judges": [
+      5.0,
+      5.0,
+      4.8,
+      5.0,
+      5.0
+     ]
+    }
+   ]
   }
  ],
- "fetched_utc": "2026-11-14T13:10:23.337385Z"
+ "fetched_utc": "2026-11-14T13:43:18.559299Z"
 }
