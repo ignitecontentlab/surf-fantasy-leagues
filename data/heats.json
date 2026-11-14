@@ -8752,8 +8752,8 @@
    {
     "name": "Yolanda Hopkins",
     "country": "POR",
-    "total": null,
-    "place": null,
+    "total": 14.43,
+    "place": 1,
     "waves": [
      8.5,
      5.93
@@ -8766,8 +8766,8 @@
    {
     "name": "Nadia Erostarbe",
     "country": "ESP",
-    "total": null,
-    "place": null,
+    "total": 11.84,
+    "place": 4,
     "waves": [
      6.67,
      5.17
@@ -8780,8 +8780,8 @@
    {
     "name": "Carissa Moore",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 12.37,
+    "place": 3,
     "waves": [
      6.17,
      6.2
@@ -8794,8 +8794,8 @@
    {
     "name": "Sol Aguirre",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 13.27,
+    "place": 2,
     "waves": [
      3.5,
      9.0
@@ -8806,7 +8806,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -8816,29 +8816,29 @@
    {
     "name": "Daniella Rosas",
     "country": "PER",
-    "total": null,
-    "place": null
+    "total": 10.36,
+    "place": 4
    },
    {
     "name": "Tyler Wright",
     "country": "AUS",
-    "total": null,
-    "place": null
+    "total": 11.0,
+    "place": 3
    },
    {
     "name": "Luana Silva",
     "country": "BRA",
-    "total": null,
-    "place": null
+    "total": 14.07,
+    "place": 2
    },
    {
     "name": "Leihani Zoric",
     "country": "AUS",
-    "total": null,
-    "place": null
+    "total": 14.4,
+    "place": 1
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -8849,25 +8849,49 @@
     "name": "Leilani McGonagle",
     "country": "CRC",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Havanna Cabrero",
     "country": "PUR",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     1.0
+    ],
+    "best_waves": [
+     1.0,
+     0.0
+    ]
    },
    {
     "name": "Isidora Bulto",
     "country": "CHI",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Francisca Veselko",
     "country": "POR",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     0.5
+    ],
+    "best_waves": [
+     0.5,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -9022,6 +9046,46 @@
    {
     "name": "Kauli Vaast",
     "country": "FRA",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B16",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Yolanda Hopkins",
+    "country": "POR",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Luana Silva",
+    "country": "BRA",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B16",
+  "heat": 2,
+  "surfers": [
+   {
+    "name": "Sol Aguirre",
+    "country": "PER",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leihani Zoric",
+    "country": "AUS",
     "total": null,
     "place": null
    }
