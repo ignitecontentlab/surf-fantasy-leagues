@@ -1,94 +1,94 @@
 {
  "division": "women",
  "round": "ROUND 5",
- "heat": 1,
- "heat_id": "67",
+ "heat": 3,
+ "heat_id": "69",
  "status": "RUNNING",
- "minleft": 11,
- "secleft": 19,
+ "minleft": 15,
+ "secleft": 33,
  "end": "",
  "surfers": [
   {
-   "name": "Yolanda Hopkins",
-   "country": "POR",
+   "name": "Daniella Rosas",
+   "country": "PER",
    "place": 1,
-   "total": 5.67,
+   "total": 5.0,
    "best_waves": [
-    5.67,
+    5.0,
     0.0
    ],
    "priority": null,
    "waves": [
-    5.67
+    5.0
    ],
    "wave_detail": [
     {
-     "score": 5.67,
+     "score": 5.0,
      "judges": [
+      5.0,
+      5.0,
+      5.0,
       5.5,
-      6.0,
-      5.5,
-      6.0,
-      5.5
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Anon Matsuoka",
-   "country": "JPN",
-   "place": 2,
-   "total": 4.5,
-   "best_waves": [
-    4.5,
-    0.0
-   ],
-   "priority": "P2",
-   "waves": [
-    4.5
-   ],
-   "wave_detail": [
-    {
-     "score": 4.5,
-     "judges": [
-      4.5,
-      4.5,
-      4.5,
-      4.5,
       5.0
      ]
     }
    ]
   },
   {
-   "name": "Catalina Zariquiey",
-   "country": "PER",
-   "place": 3,
-   "total": 3.17,
+   "name": "Janire González-Etxabarri",
+   "country": "ESP",
+   "place": 2,
+   "total": 2.0,
    "best_waves": [
-    3.17,
+    2.0,
     0.0
    ],
-   "priority": "P1",
+   "priority": "P2",
    "waves": [
-    3.17
+    2.0
    ],
    "wave_detail": [
     {
-     "score": 3.17,
+     "score": 2.0,
      "judges": [
-      3.0,
-      3.5,
-      3.0,
-      3.0,
-      3.5
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      1.5
      ]
     }
    ]
   },
   {
-   "name": "Tyler Wright",
-   "country": "AUS",
+   "name": "Havanna Cabrero",
+   "country": "PUR",
+   "place": 3,
+   "total": 0.5,
+   "best_waves": [
+    0.5,
+    0.0
+   ],
+   "priority": "P1",
+   "waves": [
+    0.5
+   ],
+   "wave_detail": [
+    {
+     "score": 0.5,
+     "judges": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sawyer Lindblad",
+   "country": "USA",
    "place": 4,
    "total": 0.0,
    "best_waves": [
@@ -100,5 +100,5 @@
    "wave_detail": []
   }
  ],
- "fetched_utc": "2026-11-14T15:30:40.535990Z"
+ "fetched_utc": "2026-11-14T16:10:20.631485Z"
 }

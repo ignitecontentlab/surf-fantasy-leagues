@@ -896,5 +896,41 @@
     0.0
    ]
   }
+ },
+ "women|daniellarosas|havannacabrero|janiregonzalezetxabarri|sawyerlindblad": {
+  "daniellarosas": {
+   "waves": [
+    5.0
+   ],
+   "best_waves": [
+    5.0,
+    0.0
+   ]
+  },
+  "janiregonzalezetxabarri": {
+   "waves": [
+    2.0
+   ],
+   "best_waves": [
+    2.0,
+    0.0
+   ]
+  },
+  "havannacabrero": {
+   "waves": [
+    0.5
+   ],
+   "best_waves": [
+    0.5,
+    0.0
+   ]
+  },
+  "sawyerlindblad": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }
