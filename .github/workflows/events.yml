@@ -1,0 +1,38 @@
+name: events
+on:
+  schedule: [{cron: "17 * * * *"}]
+  workflow_dispatch:
+permissions: {contents: write, issues: write, actions: write}
+concurrency: events
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests
+      - run: python collector/events.py
+        env: {NOTIFY_FILE: /tmp/notify.md}
+      - run: python collector/surfers.py || true
+      - name: Save and publish
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          git config user.name "collector"; git config user.email "bot@users.noreply.github.com"
+          git add data/events.json data/changes.json data/surfers.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "events update"
+            for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+            gh workflow run pages -R "$GITHUB_REPOSITORY" || true
+          fi
+      - name: Email what changed
+        if: always()
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          [ -s /tmp/notify.md ] || exit 0
+          gh label create events-update -R "$GITHUB_REPOSITORY" --color 0e8a16 -f >/dev/null
+          printf '\n\n@%s\n' "$GITHUB_REPOSITORY_OWNER" >> /tmp/notify.md
+          gh issue create -R "$GITHUB_REPOSITORY" --label events-update \
+            --title "Events updated $(date -u +'%b %d %H:%M') UTC" --body-file /tmp/notify.md
+          # keep the inbox tidy: close older update issues (you still have the emails)
+          gh issue list -R "$GITHUB_REPOSITORY" --label events-update --state open --json number -q '.[1:][].number' | xargs -r -n1 gh issue close -R "$GITHUB_REPOSITORY"

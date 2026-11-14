@@ -15,6 +15,7 @@ jobs:
       - run: python collector/collect_isa.py
       - run: python collector/youtube.py || true
       - run: python collector/scores.py || true
+      - run: python collector/surfers.py || true
       - run: |
           git config user.name "collector"; git config user.email "bot@users.noreply.github.com"
-          git add -A data; git diff --cached --quiet || (git commit -m "data update" && git push)
+          git add -A data; git diff --cached --quiet || (git commit -m "data update" && for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done)

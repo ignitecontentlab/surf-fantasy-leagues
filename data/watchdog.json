@@ -1,0 +1,47 @@
+{
+ "checked_at": "2026-11-14T18:26:45+00:00",
+ "ok": true,
+ "checks": {
+  "site": {
+   "ok": true,
+   "detail": "HTTP 200"
+  },
+  "data_worker": {
+   "ok": true,
+   "detail": "live data worker: HTTP 200"
+  },
+  "video_worker": {
+   "ok": true,
+   "detail": "video worker: HTTP 200"
+  },
+  "data_files": {
+   "ok": true,
+   "detail": "all valid"
+  },
+  "collector": {
+   "ok": true,
+   "detail": "last success 6 min ago, 0 of last 3 failed"
+  },
+  "pages": {
+   "ok": true,
+   "detail": "1 of last 3 deploys failed"
+  },
+  "event_sources": {
+   "ok": true,
+   "detail": "all sources answering"
+  }
+ },
+ "open_issues": {},
+ "fail_counts": {
+  "site": 0,
+  "data_worker": 0,
+  "video_worker": 0,
+  "data_files": 0,
+  "collector": 0,
+  "pages": 0,
+  "event_sources": 0
+ },
+ "last_actions": [],
+ "last_action_at": "",
+ "heartbeat": ""
+}

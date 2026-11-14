@@ -1,0 +1,1120 @@
+{
+ "updated_at": "2026-11-14T18:54:41+00:00",
+ "content_hash": "5e0f6dfe5e34",
+ "sources": {
+  "wikipedia_2026": {
+   "ok": true,
+   "events": 13
+  },
+  "wikipedia_2027": {
+   "ok": true,
+   "note": "season page not published yet"
+  },
+  "news": {
+   "ok": true
+  },
+  "eddie": {
+   "ok": true
+  },
+  "nazare": {
+   "ok": true
+  }
+ },
+ "events": [
+  {
+   "id": "isa-wsg-2026",
+   "name": "ISA World Surfing Games",
+   "org": "ISA",
+   "series": "ISA",
+   "start": "2026-11-06",
+   "end": "2026-11-15",
+   "location": "Punta Rocas, Peru",
+   "kind": "contest",
+   "live": "auto",
+   "pool": "Running now on this site",
+   "official": "https://isasurf.org/",
+   "news": "ISA World Surfing Games",
+   "status": "live",
+   "headlines": [
+    {
+     "title": "LIVE HERE: Day 5 of the ISA World Surfing Games",
+     "date": "2026-11-11",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMUnFWVVNPQ0F4cVZVWm1CRmNPNzU4NXFKY0pwY2c3T1kwWVJmZ184Y2JBTEw0MHktSTdiZkY2d05LMUZLdFAybjRXZGV6OVBNRVBNTE9sV2s4T0VEVzBYaEtwd284WHZCNWRJZnJ0SVNhaGRQMFdIR0d2SjhnaTQ?oc=5"
+    },
+    {
+     "title": "How U.S. Surfers Can Qualify for the 2028 Olympics",
+     "date": "2026-11-09",
+     "source": "SURFER Magazine",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRDFDNEFWMUt5eWxlbFFKLVhaTFNpbVJ2akdxMDlQNF9PbkhVNXdTYkR2dHZabHpaLWdJNnFyV202NXlPaXVabjdvNFhQUFh1SkV1Y1ByQWxrdlZOMVdmZHBXUWZXZ25PS0FONHZPSElQLXNjb3cyVjF6djg1MlpZMU1IWQ?oc=5"
+    },
+    {
+     "title": "PUNTA ROCAS WILL HOST THE 2026 ISA WORLD SURFING GAMES, AND YOU CAN WATCH IT ON THE PANAM SPORTS CHANNEL",
+     "date": "2026-11-03",
+     "source": "Panam Sports",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQXlETHNOT2VIT2FMLXFaTjIySjd0RFRWVmdTLU9GSEhkb0MwWGpTNUhZUkFWNlFZTEptOW5zc0QzQ3kxX3gxMjFtbmtnUEdzMW12VnZnUG51cWhtTHFmeVE5TEZSVndyaWtZVVR0dFlNRnlwc29NZXhBMlAwTlczVmJTb0VtUnJOLTJUTm9xOTNaeHhnTjVPOGZ6bUtuQ2VLTnREM3gzSV9QZk8tRjR6WEMyb2NzTFFiajlYWG00LTFocnlMR0NMYUxDZENUNnhBcWdNVm4wZEs0Z09vRko4?oc=5"
+    },
+    {
+     "title": "Olympic champions Carissa Moore, Ítalo Ferreira and Kauli Vaast headline 2026 ISA World Surfing Games: Full schedule and how to watch LA28 qualifier live",
+     "date": "2026-11-02",
+     "source": "Olympics",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMF9qSkQ3TGlMMWRxVG5Ucm1aZ2VBOTFubmxTWjlTQzVuSmdjby0xQnRjUXZDeU9KQVp5elpGWTA5R2VldVhaamxvckh3a0VLVlprb0Z3UGRaQ2tvaURMbWZ2bFc4LUZMTU05eHZxVjFIVXFpZWJaTVZzbUk3TEpSdHlmVjZqekFORi1OZ3BzZkRWLXA4S19XVjA2UFFFQUZnT0ZMUG5WcWt5elFEVzV2U3BzWTIxSVE?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T18:54:41+00:00"
+  },
+  {
+   "id": "vans-triple-crown-2026",
+   "name": "Vans Triple Crown of Surfing",
+   "org": "WSL / Vans",
+   "series": "North Shore",
+   "start": "2026-11-13",
+   "end": "2026-12-20",
+   "location": "Haleiwa, Sunset Beach and Pipeline, Oahu",
+   "kind": "series",
+   "live": "link",
+   "pool": "Season pool across 3 North Shore events",
+   "official": "https://www.worldsurfleague.com/",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Vans Triple Crown surfing",
+   "status": "live",
+   "headlines": [],
+   "news_at": "2026-11-14T18:54:41+00:00"
+  },
+  {
+   "id": "qs-taiwan-2026",
+   "name": "QS 6,000 Taiwan",
+   "org": "WSL",
+   "series": "Qualifying Series",
+   "start": "2026-11-14",
+   "end": "2026-11-22",
+   "location": "Jinzun Harbor, Taitung, Taiwan",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://www.worldsurfleague.com/",
+   "news": "Taiwan Open of Surfing",
+   "status": "live",
+   "headlines": [
+    {
+     "title": "Results for Sol Aguirre at Taiwan Open of Surfing Women's 2026",
+     "date": "2026-11-14",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT3Z6NG5JLTNUY0tIcHNDckJHZFhrMG1KbmZvd2JuU3k4R01iQ3lUVjdZTVVScDFTTGRlWXppbXBXWVJwbVQyM2RvMXdwQ2YzVGFOaHFHaFVGakZFa2h5a21nazRpQ25MeUxkRUtFakZCeGtfUG9vZnlBdnA1YUZYQk44SXFrWE1WSk8zdw?oc=5"
+    },
+    {
+     "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
+     "date": "2026-11-13",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYk1CZldlS2FpQ2JocGt0RXpEMlFiZ3ZXbl9IS2h1aks0RS1jY0NLblpJeHNFMk5Gems4VzBrc25obDVZWXVUc3YzVjhTd3FkQmFiaFhHVmZlZ3ZsU1lIN21LR1NzS1pLLTBSV3pVWmRoUGI1WVJMSFRpQXI2NndfUVZFamZscWxUdDBHR21iX3NiSVN2Ukw3YzNBemQ5SHZPeFVtZXhRSmxnUzlGZkZKYmlmV05mQQ?oc=5"
+    },
+    {
+     "title": "Results for Moana Jones Wong at Taiwan Open of Surfing Women's 2026",
+     "date": "2026-11-13",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX25OMEU4ZDZYZC04OElTTGRHdDBHN1VLa2Vyd2VUOEhSdHJBN2FLZTNKX1RTYjRkMTVwX1ZVRFI2Q19qOE0wdlRsM2Zpei1RdVRXaVZPZUM4S0JWS0stQTNHZVhkYXBBdV9ra0hPUWpYWkJDenNXaGdVbHpDZGVWa1AtZGdQMFVGQVVsY3dUWjUxdw?oc=5"
+    },
+    {
+     "title": "Australians Chase WorldTour Qualification as Taiwan Open Draws Record Field",
+     "date": "2026-11-13",
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T18:54:41+00:00"
+  },
+  {
+   "id": "nazare-2026-27",
+   "name": "TUDOR Nazaré Big Wave Challenge",
+   "org": "WSL",
+   "series": "Big wave",
+   "start": "2026-11-01",
+   "end": "2027-03-31",
+   "location": "Praia do Norte, Nazaré, Portugal",
+   "kind": "window",
+   "live": "link",
+   "pool": "One-day pick'em on tow teams",
+   "official": "https://nazarewaves.com/en/news",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Nazaré Big Wave Challenge",
+   "watcher": "nazare",
+   "facts": "One-day tow-in event on a 25 ft+ swell. Yellow alert up to 72 hours ahead, green alert 24 hours ahead.",
+   "alert_text": "Waiting Period Open",
+   "watch_note": "Waiting Period Open",
+   "status": "window",
+   "headlines": [
+    {
+     "title": "The world of Big Wave is ever-evolving, and Team Von Rupp/Roseyro remains at the forefront",
+     "date": "2026-11-13",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHp5UmlIWjE4RG5vOFp1M0Q5TWZXV3RVOURNSHNya1RvSWl1ZjJtY21sbnJMakhFd3BVSElNZzl4cWZJd09UY18wb21uS0NfNjVwOGl1NU1jZ2lHdXJPbEpGQzBKc0RWOEZock4zMjg4RURvWUpYZ3lRd0lnUXBEcldCNER0bF9MOUg2XzJ1bkxOM19maWptZkRNcGlrTEVoWGVUUjNwX1RfX3lLTEhVNDJxb3dRQQ?oc=5"
+    },
+    {
+     "title": "Inside the Science of Surviving the World's Biggest Waves",
+     "date": "2026-11-13",
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFNMUXNwQVdUMjVTQ2R3V2ktWER4el8tLVN6cGRxTVlKUzF1dnd3YkpKeXpFZHFwNXpJNVVDVS1QVEZZVGdsbzBJUUtXM0wtT1F3cnFZVUVLVUtZeWIwbDNXYVZDbkNoS1R0VnB2RUZxbllncWtPaGxoQkJsTUFBSkJxRHJ3NTVfS0RIOE5LYjZLR0RxbGZ6cl9EVQ?oc=5"
+    },
+    {
+     "title": "What it takes to survive the world's biggest waves",
+     "date": "2026-11-12",
+     "source": "Surfertoday",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LQUZUaDhzaEN2V05UT3FTZWtyd1VEQ2NhVU5QRnp1Q1Z2aHNUcWw5TlozS3hDZ3lfaE5XZF9tUTAtNElKME1UdVBidENwMTNPejI2MTdmajNXcS1SajlaaHQxYWhaUi10dy1hbkdn?oc=5"
+    },
+    {
+     "title": "The Tudor Nazaré Big Wave Challenge window is officially open!",
+     "date": "2026-11-01",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdkRpVXZFY2ZzbzJpdWk0czBUdjQ2eWQ0MmlHM0d6c2w5QktfU3Z3Um85UDZxY3hoUUdjQ0dyMnhnTlRyam0wM0lzcXRnSFlDU1NST2RHak9OYV8zQ244Z2RIVXloWDBSOEJZd1pGejlyTmFRbS1QSDBhb1FUU1BxcVFSSkM3Z042ZWJkTHFSamY1N1p0aVdGVmxJZ01pLXh2SG5WTG5MWnBYZw?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "eddie-2026-27",
+   "name": "The Eddie (Eddie Aikau Big Wave Invitational)",
+   "org": "Rip Curl",
+   "series": "Big wave",
+   "start": "2026-12-06",
+   "end": "2027-03-04",
+   "location": "Waimea Bay, Oahu",
+   "kind": "window",
+   "live": "link",
+   "pool": "One-day pick'em: draft 3 of the 32 invitees",
+   "official": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational",
+   "watch": "https://www.theeddieaikau.com/",
+   "news": "Eddie Aikau Waimea",
+   "watcher": "eddie",
+   "facts": "Runs on one day only if wave faces reach 40 ft. Opening ceremony Dec 3, 2026. 32 invitees, 25 alternates.",
+   "invitees": [
+    {
+     "name": "Aaron Gold",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Annie Reickert",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Ben Wilkinson",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Billy Kemper",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Bruce Irons",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Chad Keaulana",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Eala Stewart",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Eli Olson",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Emily Erickson",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Ezekiel Lau",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Felicity Palmateer",
+     "country": "AUS",
+     "g": "W"
+    },
+    {
+     "name": "Grant Twiggy Baker",
+     "country": "RSA",
+     "g": "M"
+    },
+    {
+     "name": "Ha'a Aikau",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Ian Walsh",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Jake Maki",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Jamie Mitchell",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Jamie O'Brien",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Joey Cadiz",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "John John Florence",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kai Lenny",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Koa Rothman",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Landon McNamara",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Luke Shepardson",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Makua Rothman",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mark Healey",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mason Ho",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Matahi Drollet",
+     "country": "PYF",
+     "g": "M"
+    },
+    {
+     "name": "Nathan Florence",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Paige Alms",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Ross Clarke-Jones",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Seth Moniz",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Tom Lowe",
+     "country": "GBR",
+     "g": "M"
+    }
+   ],
+   "alternates": [
+    {
+     "name": "Torrey Meister",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kala Grace",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Cliff Kapono",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kaiwi Berry",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Russell Bierke",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Josh Moniz",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Tyler Larronde",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Ivan Florence",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Lucas Chianca",
+     "country": "BRA",
+     "g": "M"
+    },
+    {
+     "name": "Tiger Doerner",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mikey O'Shaughnessy",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Barron Mamiya",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Nic von Rupp",
+     "country": "POR",
+     "g": "M"
+    },
+    {
+     "name": "Francisco Porcella",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Mitch Sanborn",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Steve Roberson",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Kipp Caddy",
+     "country": "AUS",
+     "g": "M"
+    },
+    {
+     "name": "Koa Smith",
+     "country": "HAW",
+     "g": "M"
+    },
+    {
+     "name": "Isamu Sumi",
+     "country": "JPN",
+     "g": "M"
+    },
+    {
+     "name": "Jojo Roper",
+     "country": "USA",
+     "g": "M"
+    },
+    {
+     "name": "Laura Enever",
+     "country": "AUS",
+     "g": "W"
+    },
+    {
+     "name": "Bianca Valenti",
+     "country": "USA",
+     "g": "W"
+    },
+    {
+     "name": "Tiare Lawrence",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Makani Adric",
+     "country": "HAW",
+     "g": "W"
+    },
+    {
+     "name": "Justine Dupont",
+     "country": "FRA",
+     "g": "W"
+    }
+   ],
+   "roster_source": "https://www.ripcurl.com/pages/rip-curl-the-eddie-big-wave-invitational",
+   "official_news": [
+    {
+     "title": "Invitees Announced for 2026/27 Rip Curl Eddie Aikau Big Wave Invitational",
+     "date": "2026-10-29",
+     "url": "https://www.ripcurl.com/blogs/events/invitees-announced-for-2026-27-rip-curl-eddie-aikau-big-wave-invitational",
+     "age": 15
+    },
+    {
+     "title": "Stories from the Eddie: Jack Soren",
+     "date": "2026-02-24",
+     "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-jack-soren",
+     "age": 262
+    },
+    {
+     "title": "Stories From The Eddie: The Trophy",
+     "date": "2026-01-13",
+     "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-the-trophy",
+     "age": 304
+    }
+   ],
+   "watch_note": "",
+   "status": "upcoming",
+   "headlines": [
+    {
+     "title": "Who Made the Cut for the 2026/27 Eddie Aikau Big Wave Invitational?",
+     "date": "2026-11-03",
+     "source": "Teton Gravity Research",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb0x3Rzc0cjA3MGs3TXA3XzZEZm9zbEp2aktxdkx3djZfTmd3ZGUxR2twRm1GOGY5RFFCajJxejhzcnhMcmFJVndnZUVpa1pyaGtFTWpsa29DZUpFcm5GWWxlQk1ZSlpURi0xaUVkTERJM2M0OW5zUFdMSUx2c1hYUHVxeE9VdlZBajZDa3dGeGEycnNfR0NwRzdEQng?oc=5"
+    },
+    {
+     "title": "The Eddie 2026/27: Tom Lowe Makes The Invite List",
+     "date": "2026-11-03",
+     "source": "Carve Surfing Magazine",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWJLRWZWVkFqR2pxeGFRR0stQkhid21JOE1BUGlBU3Uzb1IwNTNvVkVoWEVyc3U4THR6d3pfYW1jS0pxcjA2ZkxvMVJLalhha3JoVzJJM3ZUeWlPOFY5cnEwQjNvTGdPOF9RMC1EMjdlU3BuVURiM0FiamRTaDNlMm5OT3JXNWlGaFE?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-lexuspipemasters",
+   "name": "Lexus Pipe Masters",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "13",
+   "start": "2026-12-08",
+   "end": "2026-12-20",
+   "location": "Banzai Pipeline, Oahu, Hawaii",
+   "country": "HAW",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Best fit: same draft format as Peru. World titles decided here.",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Lexus Pipe Masters surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "status": "upcoming",
+   "headlines": [
+    {
+     "title": "Medina, Simmers win Philippines Pro; Pipeline set for 2026 World Championship",
+     "date": "2026-11-03",
+     "source": "The Sporting Tribune",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjZfa29jVTY0OGNYLUE2enNXaGdJVDhtMmwwbHotemZuQXkwTWk1QzhGamdKYVFKNDJBc1lmT09MRVF4dEFQZExRdTl0SGNSdjQweTVnV3pZWWlVaGZnd1pGV0swVzBRS2FTNHdVRUVYXy02eVBDU0V0YWkwSklDck5TQ3RyZ054bVotMV9BY0hFdHk4YzRLQ2hUaDQ2aURWSEVOZ25LLXZDdm5SUjNlTzg5bjhQTnoyUTBoZ1pR?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "qs-pipe-2027",
+   "name": "QS 6,000 Pipeline",
+   "org": "WSL",
+   "series": "Qualifying Series",
+   "start": "2027-01-29",
+   "end": "2027-02-08",
+   "location": "Pipeline, Oahu",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://www.worldsurfleague.com/",
+   "news": "QS Pipeline 2027",
+   "facts": "Tentative permit window.",
+   "status": "upcoming",
+   "headlines": [],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "cs-newcastle-2027",
+   "name": "Challenger Series Newcastle",
+   "org": "WSL",
+   "series": "Challenger Series",
+   "start": "2027-03-01",
+   "end": "2027-03-07",
+   "location": "Newcastle, NSW, Australia",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Decides who qualifies for the 2027 Championship Tour",
+   "official": "https://www.worldsurfleague.com/",
+   "news": "Challenger Series Newcastle surf",
+   "status": "upcoming",
+   "headlines": [],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "la28-surfing",
+   "name": "LA28 Olympic Surfing",
+   "org": "IOC / ISA",
+   "series": "Olympics",
+   "start": "2028-07-15",
+   "end": "2028-07-23",
+   "location": "Lower Trestles, California",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Men's and women's draft, 48 surfers",
+   "official": "https://la28.org/",
+   "news": "LA28 Olympic surfing Trestles",
+   "facts": "Competition days July 15-18, contingency days through July 23.",
+   "status": "upcoming",
+   "headlines": [
+    {
+     "title": "Olympic Surfing Tickets: How USA Surfers Can Qualify for the LA 2028",
+     "date": "2026-11-10",
+     "source": "eticketing.co",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDgzQ2lGZnBUeWxKYVFQbzZJTWw0X3B6cDJSMjgtM2xZME0tMml1dVBGcTloRkZxdWU3dHFrNTlXVzFMaE4weWtLT3FPeThhVE5raUVoMWZjZmp0Zjh3bXBtVnZzMXk4YmpDWlQ5dlFtQk52VkFCNFl1MS0weDczQXVfVHFpRWRvdVQ5dEdHdjA1N3NOSVhlLUZ0MA?oc=5"
+    },
+    {
+     "title": "How U.S. Surfers Can Qualify for the 2028 Olympics",
+     "date": "2026-11-09",
+     "source": "SURFER Magazine",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRDFDNEFWMUt5eWxlbFFKLVhaTFNpbVJ2akdxMDlQNF9PbkhVNXdTYkR2dHZabHpaLWdJNnFyV202NXlPaXVabjdvNFhQUFh1SkV1Y1ByQWxrdlZOMVdmZHBXUWZXZ25PS0FONHZPSElQLXNjb3cyVjF6djg1MlpZMU1IWQ?oc=5"
+    },
+    {
+     "title": "Luana Silva heads to the 2026 ISA World Surfing Games fueled by confidence, mental well-being and an Olympic dream: \"Expectations are high\"",
+     "date": "2026-11-05",
+     "source": "Olympic Channel",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajAtbzFaNTlkWXFtX191OElJRTJfd0lwV1ZKbHp0X3lhS1k3TXdYU2ZkbS1KNHhxSzV0enV2Y3VmbWhVUFpoRjZ6M041ZFB3cTNlVG9YQ3VIRXA1UGo4RkExNUwxOV9qUGNfT0htRGxhVDd5eUJIQktYemxMUXFmMjJ2TjZMUk1lMTlxbHVWT0k4RE5ESWZSNkppVk1XVFFy?oc=5"
+    },
+    {
+     "title": "Olympic champions Carissa Moore, Ítalo Ferreira and Kauli Vaast headline 2026 ISA World Surfing Games: Full schedule and how to watch LA28 qualifier live",
+     "date": "2026-11-02",
+     "source": "Olympics",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMF9qSkQ3TGlMMWRxVG5Ucm1aZ2VBOTFubmxTWjlTQzVuSmdjby0xQnRjUXZDeU9KQVp5elpGWTA5R2VldVhaamxvckh3a0VLVlprb0Z3UGRaQ2tvaURMbWZ2bFc4LUZMTU05eHZxVjFIVXFpZWJaTVZzbUk3TEpSdHlmVjZqekFORi1OZ3BzZkRWLXA4S19XVjA2UFFFQUZnT0ZMUG5WcWt5elFEVzV2U3BzWTIxSVE?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "isa-wsg-2027",
+   "name": "ISA World Surfing Games 2027",
+   "org": "ISA",
+   "series": "ISA",
+   "start": "",
+   "end": "",
+   "year": 2027,
+   "location": "To be announced",
+   "kind": "contest",
+   "live": "auto",
+   "pool": "Same format as Peru, with live scores",
+   "official": "https://isasurf.org/",
+   "news": "2027 ISA World Surfing Games",
+   "status": "tba",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-ripcurlprobellsbeach",
+   "name": "Rip Curl Pro Bells Beach",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "1",
+   "start": "2026-04-01",
+   "end": "2026-04-11",
+   "location": "Bells Beach, Victoria, Australia",
+   "country": "AUS",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Rip Curl Pro Bells Beach surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Miguel Pupo",
+     "country": "BRA"
+    },
+    "men_runner": {
+     "name": "Yago Dora",
+     "country": "BRA"
+    },
+    "women_champ": {
+     "name": "Gabriela Bryan",
+     "country": "HAW"
+    },
+    "women_runner": {
+     "name": "Molly Picklum",
+     "country": "AUS"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-westernaustraliamargaret",
+   "name": "Western Australia Margaret River Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "2",
+   "start": "2026-04-16",
+   "end": "2026-04-26",
+   "location": "Margaret River, Western Australia, Australia",
+   "country": "AUS",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Western Australia Margaret River Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "George Pittar",
+     "country": "AUS"
+    },
+    "men_runner": {
+     "name": "Gabriel Medina",
+     "country": "BRA"
+    },
+    "women_champ": {
+     "name": "Lakey Peterson",
+     "country": "USA"
+    },
+    "women_runner": {
+     "name": "Luana Silva",
+     "country": "BRA"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-bonsoygoldcoastpro",
+   "name": "Bonsoy Gold Coast Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "3",
+   "start": "2026-05-02",
+   "end": "2026-05-12",
+   "location": "Gold Coast, Queensland, Australia",
+   "country": "AUS",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Bonsoy Gold Coast Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Ethan Ewing",
+     "country": "AUS"
+    },
+    "men_runner": {
+     "name": "Connor O'Leary",
+     "country": "JPN"
+    },
+    "women_champ": {
+     "name": "Stephanie Gilmore",
+     "country": "AUS"
+    },
+    "women_runner": {
+     "name": "Luana Silva",
+     "country": "BRA"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-coronaceronewzealandpro",
+   "name": "Corona Cero New Zealand Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "4",
+   "start": "2026-05-15",
+   "end": "2026-05-25",
+   "location": "Raglan, New Zealand",
+   "country": "NZL",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Corona Cero New Zealand Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Ítalo Ferreira",
+     "country": "BRA"
+    },
+    "men_runner": {
+     "name": "Morgan Cibilic",
+     "country": "AUS"
+    },
+    "women_champ": {
+     "name": "Carissa Moore",
+     "country": "HAW"
+    },
+    "women_runner": {
+     "name": "Sawyer Lindblad",
+     "country": "USA"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-surfcityelsalvadorpro",
+   "name": "Surf City El Salvador Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "5",
+   "start": "2026-06-05",
+   "end": "2026-06-15",
+   "location": "Punta Roca, La Libertad, El Salvador",
+   "country": "ESA",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Surf City El Salvador Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Leonardo Fioravanti",
+     "country": "ITA"
+    },
+    "men_runner": {
+     "name": "Ítalo Ferreira",
+     "country": "BRA"
+    },
+    "women_champ": {
+     "name": "Carissa Moore",
+     "country": "HAW"
+    },
+    "women_runner": {
+     "name": "Tyler Wright",
+     "country": "AUS"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-vivoriopro",
+   "name": "VIVO Rio Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "6",
+   "start": "2026-06-19",
+   "end": "2026-06-27",
+   "location": "Saquarema, Rio de Janeiro, Brazil",
+   "country": "BRA",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "VIVO Rio Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Yago Dora",
+     "country": "BRA"
+    },
+    "men_runner": {
+     "name": "Leonardo Fioravanti",
+     "country": "ITA"
+    },
+    "women_champ": {
+     "name": "Sawyer Lindblad",
+     "country": "USA"
+    },
+    "women_runner": {
+     "name": "Tya Zebrowski",
+     "country": "FRA"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-outerknowntahitipro",
+   "name": "Outerknown Tahiti Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "7",
+   "start": "2026-08-08",
+   "end": "2026-08-18",
+   "location": "Teahupo'o, Tahiti, French Polynesia",
+   "country": "PYF",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Outerknown Tahiti Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Seth Moniz",
+     "country": "HAW"
+    },
+    "men_runner": {
+     "name": "Griffin Colapinto",
+     "country": "USA"
+    },
+    "women_champ": {
+     "name": "Erin Brooks",
+     "country": "CAN"
+    },
+    "women_runner": {
+     "name": "Anat Lelior",
+     "country": "ISR"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-fijipro",
+   "name": "Fiji Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "8",
+   "start": "2026-08-25",
+   "end": "2026-09-04",
+   "location": "Cloudbreak, Tavarua, Fiji",
+   "country": "FIJ",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Fiji Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Cole Houshmand",
+     "country": "USA"
+    },
+    "men_runner": {
+     "name": "Gabriel Medina",
+     "country": "BRA"
+    },
+    "women_champ": {
+     "name": "Erin Brooks",
+     "country": "CAN"
+    },
+    "women_runner": {
+     "name": "Isabella Nichols",
+     "country": "AUS"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-lexustrestlespro",
+   "name": "Lexus Trestles Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "9",
+   "start": "2026-09-11",
+   "end": "2026-09-20",
+   "location": "Lower Trestles, San Clemente, California, United States",
+   "country": "USA",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Lexus Trestles Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Miguel Pupo",
+     "country": "BRA"
+    },
+    "men_runner": {
+     "name": "Kanoa Igarashi",
+     "country": "JPN"
+    },
+    "women_champ": {
+     "name": "Erin Brooks",
+     "country": "CAN"
+    },
+    "women_runner": {
+     "name": "Gabriela Bryan",
+     "country": "HAW"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-meoripcurlproportugal",
+   "name": "MEO Rip Curl Pro Portugal",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "10",
+   "start": "2026-10-16",
+   "end": "2026-10-25",
+   "location": "Supertubos, Peniche, Portugal",
+   "country": "POR",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "MEO Rip Curl Pro Portugal surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Griffin Colapinto",
+     "country": "USA"
+    },
+    "men_runner": {
+     "name": "Gabriel Medina",
+     "country": "BRA"
+    },
+    "women_champ": {
+     "name": "Molly Picklum",
+     "country": "AUS"
+    },
+    "women_runner": {
+     "name": "Caitlin Simmers",
+     "country": "USA"
+    }
+   },
+   "status": "completed",
+   "headlines": [],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-philippinespro",
+   "name": "Philippines Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "11",
+   "start": "2026-10-31",
+   "end": "2026-11-10",
+   "location": "Cloud 9, General Luna, Surigao del Norte, Philippines",
+   "country": "PHI",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft pool: 3 men, 2 women",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Philippines Pro surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "results": {
+    "men_champ": {
+     "name": "Gabriel Medina",
+     "country": "BRA"
+    },
+    "men_runner": {
+     "name": "Jack Robinson",
+     "country": "AUS"
+    },
+    "women_champ": {
+     "name": "Caitlin Simmers",
+     "country": "USA"
+    },
+    "women_runner": {
+     "name": "Isabella Nichols",
+     "country": "AUS"
+    }
+   },
+   "status": "completed",
+   "headlines": [
+    {
+     "title": "Philippines Pro 2026",
+     "date": "2026-11-10",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XVHNhU1d6TVd0VkVEZklyYXNaWVB5YmtqdW81WUtXMjljNkhqY0tILVJvUXZseG5SZkFZM1ViTjV1Mkp2TVRvRXZOMjFnaEJyR2JfQU9UWnpvUDYyMGZ3RnI2cU9EdUpWdGprdmhlT3o2RUxsX2kwU0FCWQ?oc=5"
+    },
+    {
+     "title": "Caity Simmers and Gabriel Medina Win Inaugural Philippines Pro Presented by the Philippine Sports Commission",
+     "date": "2026-11-03",
+     "source": "Surf News Network",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0F4eGxwbktYQkhHTFBRVElYVXd0OUh3SXZIUGk4OHFucC1qNlVMRjFzbzk1TmtrYzM0cG9wVnI0YXJYazdFVVgyb25iWENObHVRLWRlMm9nUkhodlQ5NjdkdXFyVWEzZ1daeTJIcGYzX3FNejlqYThPMDNEcjNucXB6WW4tYWcxRnYxNFBlMmMxVlp2YTJCazBESS1OU0pNT01MSVdzWGxJNkVKMGNPUGJPdw?oc=5"
+    },
+    {
+     "title": "Simmers, Medina win inaugural Philippines Pro in typhoon surf - Honolulu Star-Advertiser",
+     "date": "2026-11-03",
+     "source": "Honolulu Star-Advertiser",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUGJ6T0JKZjZJVEFYdUhzMThUN2tISm9CMVFwZmg5NVVYajc5WFl3UTZaX1otZThXOEhOYnFSSDNXZ3BWNEdZR1JOWFUzVk1GckYycS1GRXZHUEdac3d6X3ZJZzYyOEVPYlcweEhheFZfVWdMelhJUEV4RW93by0yZEM2VEV5Y2FJd3lxLTNBYlA4VjFtSC1NVUZDS2k3aGJzWXpjYjZEZ2lMMWhQTjktMnE1U3dfRUJIZldMMUpVZENCaVBl?oc=5"
+    },
+    {
+     "title": "Oceanside’s Caitlin Simmers captures inaugural Philippines Pro surfing event - San Diego Union-Tribune",
+     "date": "2026-11-03",
+     "source": "San Diego Union-Tribune",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEZ6MjNmejZNa1YxWUF4TGRUV1V3MTRVUVFUOVNsR09xTU5hY1pocmE1TjU1elFGWDl2TldqZjUzbjJJVTQzZDdxSUlUM2xTTXQ4UEFhb1ZMT01hT3NYeGxvd0U1azFXQ0JiZXBXU0dRTFA3NHBib0NJZFZWdWxYekczZUNPdE1OdjltU0oteHY0Qzdqa2pabnoxclkwdDdDX3RrRGFiamNfRmdkUHBYck1XNGEtQUdtQjlnVlo3SkVTQQ?oc=5"
+    }
+   ],
+   "news_at": "2026-11-14T18:23:41+00:00"
+  },
+  {
+   "id": "wsl-ct-2026-surfabudhabi",
+   "name": "Surf Abu Dhabi",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "round": "12",
+   "start": "2026-11-25",
+   "end": "2026-11-29",
+   "location": "Hudayriat Island, Abu Dhabi, United Arab Emirates",
+   "country": "UAE",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://www.worldsurfleague.com/events",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Surf Abu Dhabi surf",
+   "source": "https://en.wikipedia.org/wiki/2026_World_Surf_League",
+   "status_override": "cancelled",
+   "status": "cancelled",
+   "headlines": [],
+   "news_at": "2000-01-01T00:00:00+00:00"
+  }
+ ],
+ "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
+ "checked_at": "2026-11-14T18:54:41+00:00"
+}
