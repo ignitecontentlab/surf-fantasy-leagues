@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-14T22:52:33+00:00",
- "content_hash": "1c2c26d315e4",
+ "updated_at": "2026-11-14T23:50:20+00:00",
+ "content_hash": "96fa7ef50c19",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,10 +39,10 @@
    "status": "live",
    "headlines": [
     {
-     "title": "LIVE HERE: Day 5 of the ISA World Surfing Games",
-     "date": "2026-11-11",
+     "title": "LIVE HERE: Day 3 of the ISA World Surfing Games",
+     "date": "2026-11-09",
      "source": "dukesurf.com",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMUnFWVVNPQ0F4cVZVWm1CRmNPNzU4NXFKY0pwY2c3T1kwWVJmZ184Y2JBTEw0MHktSTdiZkY2d05LMUZLdFAybjRXZGV6OVBNRVBNTE9sV2s4T0VEVzBYaEtwd284WHZCNWRJZnJ0SVNhaGRQMFdIR0d2SjhnaTQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wRi1iRTNhNUJ6QTVVQlVfNDZpVlU5elQ0cGlzQ2hjOG1XdEJvMWlzeGVmSnNhQ3Y3RlhmckFsTGgtX1JlMHZLNm1HbUFHdmlRLUZKTWtTN2RHbnJXOEZqMmtMRVBHbXViMzlZc3hZSHo4TVgzdXdKdE9NdXM?oc=5"
     },
     {
      "title": "How U.S. Surfers Can Qualify for the 2028 Olympics",
@@ -63,7 +63,7 @@
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMF9qSkQ3TGlMMWRxVG5Ucm1aZ2VBOTFubmxTWjlTQzVuSmdjby0xQnRjUXZDeU9KQVp5elpGWTA5R2VldVhaamxvckh3a0VLVlprb0Z3UGRaQ2tvaURMbWZ2bFc4LUZMTU05eHZxVjFIVXFpZWJaTVZzbUk3TEpSdHlmVjZqekFORi1OZ3BzZkRWLXA4S19XVjA2UFFFQUZnT0ZMUG5WcWt5elFEVzV2U3BzWTIxSVE?oc=5"
     }
    ],
-   "news_at": "2026-11-14T22:52:33+00:00"
+   "news_at": "2026-11-14T23:50:20+00:00"
   },
   {
    "id": "vans-triple-crown-2026",
@@ -83,7 +83,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-14T22:52:33+00:00"
+   "news_at": "2026-11-14T23:50:20+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -126,7 +126,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-14T22:52:33+00:00"
+   "news_at": "2026-11-14T23:50:20+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -210,7 +210,7 @@
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSHFTazVfWGxFMXVIT0k3a05WZ25QcmRXTHFmdG5RVVZ5MDBONDVET0JtZ2ZUM3N6QXYyanZvNGtRWFl0MXVzMEtzWER1ZlFDTDFBUEYyc0M5cDRJOG5lcWNTTHU1YWt3ZTVvcENYUjJSRUdJbEVrdDh5a3pKSHRJVjJ6RExoY1ptZUQ5cEMxTWM2TFVxMlBhdGRYSHRWb3dLdTdlUk40bFB2MUdrSWpwdURJa2V4ZmNSeUVZcTRwRXF4UQ?oc=5"
     }
    ],
-   "news_at": "2026-11-14T20:01:13+00:00"
+   "news_at": "2026-11-14T23:50:20+00:00"
   },
   {
    "id": "eddie-2026-27",
@@ -1254,5 +1254,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-14T22:52:33+00:00"
+ "checked_at": "2026-11-14T23:50:20+00:00"
 }
