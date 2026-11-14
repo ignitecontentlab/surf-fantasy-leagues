@@ -932,5 +932,46 @@
     0.0
    ]
   }
+ },
+ "men|conordonegan|ethanewing|griffincolapinto|kanoaigarashi": {
+  "kanoaigarashi": {
+   "waves": [
+    6.83,
+    9.17
+   ],
+   "best_waves": [
+    9.17,
+    6.83
+   ]
+  },
+  "griffincolapinto": {
+   "waves": [
+    5.67,
+    8.5
+   ],
+   "best_waves": [
+    8.5,
+    5.67
+   ]
+  },
+  "ethanewing": {
+   "waves": [
+    6.33,
+    0.5
+   ],
+   "best_waves": [
+    6.33,
+    0.5
+   ]
+  },
+  "conordonegan": {
+   "waves": [
+    5.33
+   ],
+   "best_waves": [
+    5.33,
+    0.0
+   ]
+  }
  }
 }

@@ -8057,8 +8057,8 @@
    {
     "name": "Sawyer Lindblad",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 14.57,
+    "place": 1,
     "waves": [],
     "best_waves": [
      0.0,
@@ -8068,8 +8068,8 @@
    {
     "name": "Daniella Rosas",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 10.1,
+    "place": 3,
     "waves": [
      5.0
     ],
@@ -8081,8 +8081,8 @@
    {
     "name": "Janire González-Etxabarri",
     "country": "ESP",
-    "total": null,
-    "place": null,
+    "total": 11.57,
+    "place": 2,
     "waves": [
      2.0
     ],
@@ -8094,8 +8094,8 @@
    {
     "name": "Havanna Cabrero",
     "country": "PUR",
-    "total": null,
-    "place": null,
+    "total": 9.46,
+    "place": 4,
     "waves": [
      0.5
     ],
@@ -8105,7 +8105,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -8604,25 +8604,56 @@
     "name": "Ethan Ewing",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.33,
+     0.5
+    ],
+    "best_waves": [
+     6.33,
+     0.5
+    ]
    },
    {
     "name": "Conor Donegan",
     "country": "ESP",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.33
+    ],
+    "best_waves": [
+     5.33,
+     0.0
+    ]
    },
    {
     "name": "Kanoa Igarashi",
     "country": "JPN",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.83,
+     9.17
+    ],
+    "best_waves": [
+     9.17,
+     6.83
+    ]
    },
    {
     "name": "Griffin Colapinto",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.67,
+     8.5
+    ],
+    "best_waves": [
+     8.5,
+     5.67
+    ]
    }
   ],
   "complete": false
@@ -8729,6 +8760,12 @@
   "heat": 2,
   "surfers": [
    {
+    "name": "Daniella Rosas",
+    "country": "PER",
+    "total": null,
+    "place": null
+   },
+   {
     "name": "Tyler Wright",
     "country": "AUS",
     "total": null,
@@ -8757,6 +8794,12 @@
    {
     "name": "Leilani McGonagle",
     "country": "CRC",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Havanna Cabrero",
+    "country": "PUR",
     "total": null,
     "place": null
    },
@@ -8843,6 +8886,12 @@
     "country": "FRA",
     "total": null,
     "place": null
+   },
+   {
+    "name": "Sawyer Lindblad",
+    "country": "USA",
+    "total": null,
+    "place": null
    }
   ],
   "complete": false
@@ -8861,6 +8910,12 @@
    {
     "name": "Gabriela Bryan",
     "country": "USA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Janire González-Etxabarri",
+    "country": "ESP",
     "total": null,
     "place": null
    }
