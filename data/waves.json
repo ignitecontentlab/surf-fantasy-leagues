@@ -1371,5 +1371,37 @@
     4.03
    ]
   }
+ },
+ "women|gabrielabryan|janiregonzalezetxabarri|johannedefay|sawyerlindblad": {
+  "gabrielabryan": {
+   "waves": [
+    4.5
+   ],
+   "best_waves": [
+    4.5,
+    0.0
+   ]
+  },
+  "sawyerlindblad": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "janiregonzalezetxabarri": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "johannedefay": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }

@@ -9221,29 +9221,29 @@
    {
     "name": "Miguel Tudela",
     "country": "PER",
-    "total": null,
-    "place": null
+    "total": 13.83,
+    "place": 2
    },
    {
     "name": "Hans Odriozola",
     "country": "GER",
-    "total": null,
-    "place": null
+    "total": 16.93,
+    "place": 1
    },
    {
     "name": "Leonardo Fioravanti",
     "country": "ITA",
-    "total": null,
-    "place": null
+    "total": 12.57,
+    "place": 3
    },
    {
     "name": "Lucca Mesinas",
     "country": "PER",
-    "total": null,
-    "place": null
+    "total": 11.87,
+    "place": 4
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -9330,25 +9330,47 @@
     "name": "Sawyer Lindblad",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Janire González-Etxabarri",
     "country": "ESP",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Gabriela Bryan",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     4.5
+    ],
+    "best_waves": [
+     4.5,
+     0.0
+    ]
    },
    {
     "name": "Johanne Defay",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -9494,8 +9516,8 @@
    {
     "name": "Luana Silva",
     "country": "BRA",
-    "total": null,
-    "place": null,
+    "total": 14.3,
+    "place": 1,
     "waves": [
      5.83,
      6.2
@@ -9508,8 +9530,8 @@
    {
     "name": "Yolanda Hopkins",
     "country": "POR",
-    "total": null,
-    "place": null,
+    "total": 12.03,
+    "place": 3,
     "waves": [
      2.33,
      7.33
@@ -9522,8 +9544,8 @@
    {
     "name": "Leihani Zoric",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 12.67,
+    "place": 2,
     "waves": [
      6.0,
      6.67
@@ -9536,8 +9558,8 @@
    {
     "name": "Leilani McGonagle",
     "country": "CRC",
-    "total": null,
-    "place": null,
+    "total": 10.8,
+    "place": 4,
     "waves": [
      4.03,
      4.17
@@ -9548,13 +9570,25 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
   "round": "B19",
   "heat": 1,
   "surfers": [
+   {
+    "name": "Leonardo Fioravanti",
+    "country": "ITA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Lucca Mesinas",
+    "country": "PER",
+    "total": null,
+    "place": null
+   },
    {
     "name": "Ethan Ewing",
     "country": "AUS",
@@ -9564,6 +9598,46 @@
    {
     "name": "Franco Radziunas",
     "country": "ARG",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B20",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Hans Odriozola",
+    "country": "GER",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Miguel Tudela",
+    "country": "PER",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B19",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Luana Silva",
+    "country": "BRA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leihani Zoric",
+    "country": "AUS",
     "total": null,
     "place": null
    }
