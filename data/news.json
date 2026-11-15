@@ -1,23 +1,53 @@
 {
-"updated_at": "2026-11-15T09:43:51+00:00",
+"updated_at": "2026-11-15T11:19:39+00:00",
 "sources": {
 "Surfer": 32,
-"ISA": 8,
-"Stab": 23,
-"Surfline": 4,
-"The Inertia": 48,
+"ISA": 7,
+"Stab": 22,
+"Surfline": 3,
+"The Inertia": 49,
 "BeachGrit": 15,
 "Tracks": 1,
 "World Surf League": 44,
 "Surfertoday": 6,
-"In the news": 45
+"In the news": 46
 },
 "items": [
+{
+"title": "Huge waves crash the Central California coastline, some damage already",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lUbnhFU09UVnl3eWRSOE9nUm9TU2FEcE5rMGhMeUg2bFBFSllodngxeDZ2OE9EZW9sSnpYVmcxbTR3ZmJJVEpDbmtkallHbUU0ejVPOFFkMTV5VEV1c2pZSVZZOF9rYTJyWE55b09SUm52MGVORUlnZTJEMm1wVGtPRkZyTm1PWDlyb3EydFo5cG1WUmRkeDluX0ZHQQ?oc=5",
+"source": "KMPH Fox 26",
+"at": "2026-11-15T08:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "Ventura, Hermosa Beach and Manhattan Beach piers close as high surf and dangerous rip currents batter Southern California coast",
 "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDd0alJ3OTJTb2tQZHY3R2RyeG9oRVJ4VTlpWS0yMV9DaENEUHBrZ3NuejR2RnZXeTJnd1ZIUHZBLXpOS0l0Q1lqbEI4WVBMbTYzWmc0dUF4MHNyZHV5c3pJSm1TQmt2OG5tT1diNXV6OWlhSkpKOXMwWXdBU296LWxBVEtHQ3pyNHlDN2Z1QlJ0T1RkSGtxOEVoZzZTc0hmOGtjakEzS3ZmVFBHX1pab0VzVm9xWEVkbmh0MGFIWVh5dmRqTmQwaHFCTGNXb0JXTXU4aVVqc3jSAd4BQVVfeXFMTmo4RFViVTlBdWd2ZVJ0SGxGYlhiR085T0JOTWYyT1k4NmZBYjlXaWJfN2FnZ1ZrUU5pT3ZlQlJKbHE5d2R3ZEJTSktjTk9EQnFNQTZsMzYtcDM2OEVOY2NPN3lQSXI2dHctb29wMi05eENicF93bjFNR1dYSDBkNmFsbHJXOXN6UllTcE9WLXdWQ1FwdTZtdFVsU3h6T2pvWEJrai1Gb0dDQlh3LWxVVG1FZVplVWNEVmZKeVNIZ2xfcVkyVENUUTVKV1IzQTUzbWFDcXhXOVlnbHFOUTB3?oc=5",
 "source": "ABC7 Los Angeles",
 "at": "2026-11-15T05:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Taiwan International Surfing Open attracts 200 surfers from 30 countries",
+"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSm5WYW9KU0JhSUUtUm5wWlo0Vk1oRXY2V05EY2ExVzlqR1BkTHNFbHBIbmhQZUNfakxHUDJoZUt2djhwcnU3LWhlU3pzb19SSG13czBUSUk?oc=5",
+"source": "Taiwan News",
+"at": "2026-11-15T04:26+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
+"source": "The New York Times",
+"at": "2026-11-15T04:01+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -40,16 +70,6 @@
 "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX3BBNkdyam5XMFJla1hkREdoc21tQnFuNzNudlYzcGdVOVZJbTZwOWhtUTFidkpYZ0N5ZEV1SC1FUFJ5RjZpbFUxdnBVRlU1X1ZabDhkR2lwT2UySkZTNHZIeDM5Mm9VeXA0UUM0VlRRcE9lUHZRM3ptaUh0bTBEcVp3QU5EMVJIT244eUJCdUVWQ0RPeVBONWJLLXhicFdlRXN6SEY0UkZNNi1Vc1pfR0pB?oc=5",
 "source": "The Washington Post",
 "at": "2026-11-15T02:52+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Huge waves crash the Central California coastline, some damage already",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lUbnhFU09UVnl3eWRSOE9nUm9TU2FEcE5rMGhMeUg2bFBFSllodngxeDZ2OE9EZW9sSnpYVmcxbTR3ZmJJVEpDbmtkallHbUU0ejVPOFFkMTV5VEV1c2pZSVZZOF9rYTJyWE55b09SUm52MGVORUlnZTJEMm1wVGtPRkZyTm1PWDlyb3EydFo5cG1WUmRkeDluX0ZHQQ?oc=5",
-"source": "KMPH Fox 26",
-"at": "2026-11-15T02:36+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -81,6 +101,16 @@
 "kind": "media"
 },
 {
+"title": "‘The beach is not your friend this weekend’: Massive waves pummel California coast",
+"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa1ZHZGczM3Nsci01LU1Rb1loU2RfcVBHdmJrc3V1MUE1NnNKNERVMmdGTnZMQkY5QXhVVXdrT1RGbDlzNk1vcDRSQ3kxaVFsNkdQR0lfWlpST21Rc0N5Y3ZmcHN5RzU5VzdUb25UcFdNenZlUHZNajdUald6WlE4Q0dPOXFXSllEQjAxbDBsaC1jSWI5OEFLa3NFMGFQaGVsY2hDU3R2WTVvNlhDdnRlWDdzdGtqckxkcUlOdW1xQ0hxeVNlVXFfU0ZiNA?oc=5",
+"source": "Los Angeles Times",
+"at": "2026-11-14T23:55+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Video: Dangerous waves, biggest in a decade, flood Bay Area streets and threaten homes",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUN0VnhBOExPSVlzSGp1d3N6ZDVobVZXY3p1cVB3UEl4RU42aFVjQnBoWnBBLW1scDZoc1pRd3RvdnlFWEw1dlNuVGVxZlZfWWJ4ank3YzNpWnRwTVh3SjBuZlJWNjU4U19fejJCMEpIR3NMZnJ6RXVxNC05VjI2VUFtNzNCTEY1ZWpVc1dpMlpEYzA?oc=5",
 "source": "San Francisco Chronicle",
@@ -92,7 +122,7 @@
 },
 {
 "title": "Mavericks Surfers Race to California for Waves Near 50 Feet",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUFBjT0FTYjhtRzhjWnltVDZNQVFURVRlVTNXcDl4Yk95Yi16ZDgySURyVmEyb3ZpYTZHN29qNVFkM05hQ3hDZXJEaml0Z3R4VTdILW5vUGJHdklCamlsR3dXSWN2a0M4SmhNTFRxeFUxVGxlVDlscTU3YVR3aG1DT0hON1ByY1Z1Q280?oc=5",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPejUwUy1qUkdKVzZ0bkJqUHVOQWxrRUZGMWVXcksyMTVLRXIwQm5xZG5YY2pkc1Z0VThuWTF5MURTTl84dm1lSks2eU1COFlQVU1mejl6V2p2b2VpejFnZV90Y1QwX1VOWkFodmJlWjd0MXZpcVM3R1Ziajg0eFlyZ015RXVpTkJEb3g2d2kwSQ?oc=5",
 "source": "JournalArta",
 "at": "2026-11-14T23:13+00:00",
 "img": null,
@@ -129,16 +159,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
-"source": "The New York Times",
-"at": "2026-11-14T22:03+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Beaches, state parks closed as 35-foot waves expected along the Central Coast",
@@ -417,16 +437,6 @@
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNXR4VmxENkJXZ0NxbnpSRUJ6VGVOOHg1OXpxYlJXTTN5RVVJaERudTl0YWZPNDA3NjJUbWp6ZVlnREhteG5qVUNvcGVhTG1TODBLWTRWaGNYem8ySThyVF9QelNTOTM4eW5Ua2VVeFlHLWlwd3E0V0pMWFF2RlJNTHdDVlh5M2dBRm9jaVNsMVpHdDlNam9oZGI1QjhXWUlD?oc=5",
 "source": "SSBCrack",
 "at": "2026-11-14T04:32+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Sea meets school in Senegal's Black Girls Surf project",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRUJmeUlEODZ0aFZzZ3oxMlVmdDBhQ3d1WEJKOFh6dW13YWJzbDM2eGJVcHRkZjRCejlGZmtZck9Icm9wSW12eEQwU1lyUWw2bjA3S2VaaVRVYWtyVTRPTVhDa1p5XzRDc2p1czdVS19HZ3ZCRjlkQVRhaFU3Yl83RFZxbk1rM2MyNHFRb2ZZQQ?oc=5",
-"source": "DW.com",
-"at": "2026-11-14T03:08+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -763,16 +773,6 @@
 "kind": "outlet"
 },
 {
-"title": "shaley mercado Archives",
-"link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ESlNZNTRZOXNGOTZLQzU2SmpOTDcyN2NwLU9nMkc2Ml9VU3o4T2ltRmZkeWhPWVpILXlReW1hanhQY2lhZUtXYlhpdWg3WmhP?oc=5",
-"source": "Stab",
-"at": "2026-11-13T16:59+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Surfing Star’s Girlfriend Arrested Months After His Brutal Murder in Costa Rica",
 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0lsYkk1NHpBZHdHR1lySkNOeEtmU2tWZE1FaS13SWliT3pZeWlyTWNCdFZTdzAtQ2Z0OXNQNkRtT2s0LVZqemo1ZzJCcjFpaVF4YXpkZFh2YVN6QzNremE2SGJ6eFpUWFlXT05RVENTY0NBTWV1Q015LUprS3Vncm5mNm9tZ25lWGpmZFdkZHV1VlBGZEUwVmdvYjZuNFAyLThB?oc=5",
 "source": "People.com",
@@ -1059,6 +1059,16 @@
 "kind": "outlet"
 },
 {
+"title": "News",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54RjVUclNGUDFNVFF1TmZtZmNMWXVUYkw4bHhxTmMyZ3hUNnpkUGlRVV9RdDg4S2Z3TXZMc0JzRk5zUWozYWZWaVBKdlRfLWR2VjFR?oc=5",
+"source": "The Inertia",
+"at": "2026-11-13T01:23+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Inside the Science of Surviving the World's Biggest Waves",
 "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFNMUXNwQVdUMjVTQ2R3V2ktWER4el8tLVN6cGRxTVlKUzF1dnd3YkpKeXpFZHFwNXpJNVVDVS1QVEZZVGdsbzBJUUtXM0wtT1F3cnFZVUVLVUtZeWIwbDNXYVZDbkNoS1R0VnB2RUZxbllncWtPaGxoQkJsTUFBSkJxRHJ3NTVfS0RIOE5LYjZLR0RxbGZ6cl9EVQ?oc=5",
 "source": "Sportzhub",
@@ -1217,16 +1227,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Massive waves forecast to hit California’s Central Coast this weekend",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPejE1Rko5OU9RbWVRUjVUQ1ZHUWRsUXc4V2tzQ01WbzRJYmw3S0JWckljTGtvc1VWWGdhR1ViREJIY3hfUmd3QmtuNG9MeVFNajRFSmdza0pBZGhSSERyOWNkU25zN0JXYjl4SDRSYXZCcUhQdk85VmdwNDZ5dGI5cdIBhgFBVV95cUxPMS1FVWl4ZWJJYUEtblhha0h2dmlvanpjaThWbEhENW04SDFsRFRVUklTaHZFSkhJMU5RZzhQU1c2Mk15LU1jU053dGRGOWN2NVRsZmsyanBnWlo2RkYxVGp1NmJfcVRQNnYxZkxoSHRyU01jT2dCSFdtNFZFYVZDcE1ncEVaZw?oc=5",
-"source": "KTLA",
-"at": "2026-11-12T21:57+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 }
 ]
 }
