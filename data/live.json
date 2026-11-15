@@ -1,124 +1,52 @@
 {
- "division": "women",
- "round": "REPECHAGE 9",
- "heat": 2,
- "heat_id": "144",
- "status": "UNOFFICIAL",
+ "division": "men",
+ "round": "REPECHAGE 10",
+ "heat": 1,
+ "heat_id": "145",
+ "status": "GETTING READY",
  "minleft": 0,
  "secleft": 0,
  "end": "00:00",
  "surfers": [
   {
-   "name": "Leihani Zoric",
-   "country": "AUS",
+   "name": "Romeo Chavez",
+   "country": "COL",
    "place": 1,
-   "total": 13.83,
+   "total": 0.0,
    "best_waves": [
-    7.33,
-    6.5
+    0.0,
+    0.0
    ],
    "priority": null,
-   "waves": [
-    6.5,
-    7.33
-   ],
-   "wave_detail": [
-    {
-     "score": 6.5,
-     "judges": [
-      6.5,
-      6.5,
-      6.0,
-      6.5,
-      6.5
-     ]
-    },
-    {
-     "score": 7.33,
-     "judges": [
-      7.5,
-      7.5,
-      7.0,
-      7.5,
-      7.0
-     ]
-    }
-   ]
+   "waves": [],
+   "wave_detail": []
   },
   {
-   "name": "Leilani McGonagle",
-   "country": "CRC",
+   "name": "Kanoa Igarashi",
+   "country": "JPN",
    "place": 2,
-   "total": 9.76,
+   "total": 0.0,
    "best_waves": [
-    4.93,
-    4.83
+    0.0,
+    0.0
    ],
    "priority": null,
-   "waves": [
-    4.83,
-    4.93
-   ],
-   "wave_detail": [
-    {
-     "score": 4.83,
-     "judges": [
-      5.0,
-      5.0,
-      4.5,
-      5.5,
-      4.5
-     ]
-    },
-    {
-     "score": 4.93,
-     "judges": [
-      5.3,
-      4.8,
-      5.0,
-      4.7,
-      5.0
-     ]
-    }
-   ]
+   "waves": [],
+   "wave_detail": []
   },
   {
-   "name": "Sol Aguirre",
-   "country": "PER",
+   "name": "Ethan Ewing",
+   "country": "AUS",
    "place": 3,
-   "total": 8.24,
+   "total": 0.0,
    "best_waves": [
-    4.67,
-    3.57
+    0.0,
+    0.0
    ],
    "priority": null,
-   "waves": [
-    3.57,
-    4.67
-   ],
-   "wave_detail": [
-    {
-     "score": 3.57,
-     "judges": [
-      3.7,
-      3.3,
-      4.3,
-      3.7,
-      2.9
-     ]
-    },
-    {
-     "score": 4.67,
-     "judges": [
-      4.6,
-      4.7,
-      4.4,
-      5.2,
-      4.7
-     ]
-    }
-   ]
+   "waves": [],
+   "wave_detail": []
   }
  ],
- "fetched_utc": "2026-11-15T10:27:32.325637Z"
+ "fetched_utc": "2026-11-15T11:07:44.907468Z"
 }
