@@ -1233,24 +1233,33 @@
  },
  "men|ethanewing|kanoaigarashi|romeochavez": {
   "romeochavez": {
-   "waves": [],
+   "waves": [
+    3.83,
+    4.83
+   ],
    "best_waves": [
-    0.0,
-    0.0
+    4.83,
+    3.83
    ]
   },
   "kanoaigarashi": {
-   "waves": [],
+   "waves": [
+    7.67,
+    6.5
+   ],
    "best_waves": [
-    0.0,
-    0.0
+    7.67,
+    6.5
    ]
   },
   "ethanewing": {
-   "waves": [],
+   "waves": [
+    5.83,
+    8.43
+   ],
    "best_waves": [
-    0.0,
-    0.0
+    8.43,
+    5.83
    ]
   }
  }
