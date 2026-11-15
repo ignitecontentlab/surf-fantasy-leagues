@@ -1,16 +1,16 @@
 {
-"updated_at": "2026-11-15T15:19:54+00:00",
+"updated_at": "2026-11-15T17:16:33+00:00",
 "sources": {
 "Surfer": 33,
 "ISA": 7,
 "Stab": 24,
-"Surfline": 2,
+"Surfline": 1,
 "The Inertia": 49,
 "BeachGrit": 15,
 "Tracks": 1,
-"World Surf League": 43,
+"World Surf League": 42,
 "Surfertoday": 6,
-"In the news": 45
+"In the news": 43
 },
 "items": [
 {
@@ -139,6 +139,16 @@
 "leihani-zoric"
 ],
 "kind": "outlet"
+},
+{
+"title": "High surf damages Avila Pier, batters beaches along SLO County coast. See photos",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TTkxjV1JjbFJHYUZXUjdtblA5TDRkdG5wTXhObzEzWE96SmprLXRWa1k4SUVzYTNGbG52ZUZ3SlJfRGJsN28xT2xzeEFYMy1ZU2lkQVZqU0hPa2M5WVdTVmRpak1vZXlyR3B0RW1YVdIBb0FVX3lxTE9nYjV1SnlNeHFnOU4tb3BId2VpTm94RjJKb0JhMEVNOXRsWE9vWm8zR09TVndpMEMxR0htX0JuczRCczNjMUhxblR3UEd2YU1xUGNtRHNGeGVEMWNiRXBtWlAyRTVZSkFRS2V3cWZYOA?oc=5",
+"source": "San Luis Obispo Tribune",
+"at": "2026-11-15T02:09+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Massive waves pound Northern California coast, creating dangerous conditions for beachgoers",
@@ -315,16 +325,6 @@
 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wWVZZazg2NGEwY0syZzRCNEdNRjVZS01EcXRUeFN6Ym9CM2o3NjR2eUJuUnpBT0hsNl8zUFF2V1NNckwwU2JYb2I2dElXWnlHd1c0Vi1sZm5kak04NFZqc0JIZkdfeERiX3o5NkFSNnRnbk5naU5PMzJCdnVRUQ?oc=5",
 "source": "SFGATE",
 "at": "2026-11-14T18:33+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Rob Brown's Big-Wave El Niño Photo Lookback: '98-'16",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTQyXzQ3YlNhS3hXdjJCc2lvLWFZcFVuN0xvSXVYZ2k0VTRyYjAyTE9lbFVuMy1xQWVNc1pNZm5fZW93Vm1IdVVjRmkzelVZdWUya0NiVUIzYVBSb0NtdTZxNTlPTHFiM3Z4ZmZhQjU5UnI2Tjg3cENMa3RTaXpyT0MwOVhLSTdCOTJPbUh3Q3p0d053TW1fRTRjR0VlR2RLVU5zTlpBUjFrQQ?oc=5",
-"source": "Surfline",
-"at": "2026-11-14T17:35+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -657,16 +657,6 @@
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUwtWTJKZTZvQ2QycUVCdS1HTExIRzREaGRkTVVSUXNES3RjTl82N1BZUUM0blA3MHlYSkRtTFNsQm45dzI0TEJDbzUxX1hZTWp2emc2dklPNTZqeUh6REplcTBoamNyZ29GT3E1Qmx6bTBTeE1fbWd5cEpEOGR5V0FFQkpzNzUwZ2hab0l0QTI?oc=5",
 "source": "World Surf League",
 "at": "2026-11-13T21:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results - Circuito Banco do Brasil de Surfe - Guarujá 2026",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcWo3b0hvN2p0MTYwZWtPY2tkVzRTVmxXblI0NFFnLUV0aWJDdkE3WDI4ZHpSdkY5d1N4VFJCa2NGNkg1VEktTE4zelFyMUJ6akh6ZFd2YnlQY2ZOYzFmRzNEMFJuRU1fYnF3T1dIWDd6ZS11X1A4dzhYeUdkekR3QVRRMm9kSDVvQW9TdzJQYUJ6QzI0eEQxSTVPOWV4ZjZHTDVvMkNoWXhudlA1bGpBa2pIMA?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T20:52+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1069,6 +1059,16 @@
 "kind": "outlet"
 },
 {
+"title": "Results - Circuito Banco do Brasil de Surfe - Guarujá 2026",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc3VGakxSUWtZek1kenFralVDTkVZaGxuMFNjZUFDZHliU2dvLVh0RG81d3FFVWFxWmR4QVRmZ3BieW9SdU1Na1pNaDFMUW81ZWptU3VvM2R1dnh2ZGNvRnNUdXR1a2pGSk43ckZnY0FCYWRFMGdzRHNRSDlPSzJJb3dpdWFmbFlneE93Y2xMMGtHWGlqR0V4OE9ydVdYQzU4?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T02:01+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Adult Learner Surfer Lewis Hamilton Branded \"historically Dense\" For Latest Gaza Stunt",
 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaVd5UFYtbGtsZXZVWHotSEFlbTE2LV9PUktGeWYyaHBLcm4wWXZ1SjhpbkhVN0dmLVZzVVlZem5PMzZ0YjNraW9YeG1HRE1HMXNQbHVIQ0psTXpQZHA4cXpIaUlhaGtvcWlVQUVaeVVTcmM2QVlCcUhzXzhLOWtCZmV1SXhqYmN0c0ZqVGQ5bGxnZlFiVUFHbFU5TWxRYnlSYm1PeHQtRVI1cG9ScE1oUl8xcnctdw?oc=5",
 "source": "BeachGrit",
@@ -1149,16 +1149,6 @@
 "kind": "outlet"
 },
 {
-"title": "Iconic Pipeline Surfer Tamayo Perry Killed By Shark In Hawaii",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQzlWMnR1OVhsYnBpTnAyQzRySkZ6YW14T3EwdGxMN3d5dkE4RGlxRklhcEptaFRQcURaZjJSdkQxUUFHbU9KOGJWTXN4ODFpNjJreTBXb1VJWTVMMVVBRFJqeVJ4VGtyZEpsc0g1UjhLQ2NVZmNTRFY0SG9RRTB0MUx3d0Z0VWpjNGhZSDl3cTA?oc=5",
-"source": "Stab",
-"at": "2026-11-12T23:30+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "This Artificial Reef On The Gold Coast Is Half Finished And Looks Pretty Fun",
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWl9rM19mRTdnaktZQk9BVVdjeTZIMnFCdUNQa2Z5US1GcFZyc1pKOW5wUllOc2pEc1hDTXNHUnY0N3BqSkIxYWNlbGV6aWstbUdwUXBKVUx6dWh3V1hDbjlxVEFxUGw4NUQ1VUFkdk45VjBLY0c3TmREOFBLOHpxYlhLWHRlZmtLdm9jbTJJRE50TFZPVmJqdA?oc=5",
 "source": "Stab",
@@ -1221,6 +1211,16 @@
 {
 "title": "Stab Mic",
 "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE12MTdqMF9QSno3M0ZfQ0lRN3J0VGhIb29xUnBLTG16YTZCNTFYSm15dm1KakVJUmlMQnRRZGdpVE5scGs?oc=5",
+"source": "Stab",
+"at": "2026-11-12T23:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Ed Fanning’s Cause Of Death Revealed",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVHNXU3RBTUdBNlpPcnJ1eW01UXQwbllBc2dkZ0VjVkQ0NWx5WVNPbEt6UFNfcnp4TUU0bUxUT1dhMGd0dTZnWEcxczdoMHhjakYxcFVucmtoUm5tZTRfV09WZ196eWNhbTl5ME1vcnFrRlN6TWxrQzhCYUlVUm1aVkJMTGFXTklN?oc=5",
 "source": "Stab",
 "at": "2026-11-12T23:00+00:00",
 "img": null,
