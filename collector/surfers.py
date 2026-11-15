@@ -204,6 +204,13 @@ def main():
         p = person(v["name"], v["country"], v["g"])
         p["isa"] = v
         p["tags"].append("ISA 2026")
+    lb = load(os.path.join(D, "isa_longboard.json"), {})
+    for v in lb.get("surfers", []):
+        p = person(v["name"], v["country"], v["g"])
+        p["lb"] = {k: v.get(k) for k in ("finish", "medal", "heats", "wins", "best_heat", "avg_heat", "log")}
+        p["tags"].append("ISA Longboard 2026")
+    if lb:
+        sources["isa_longboard"] = {"ok": True, "surfers": len(lb.get("surfers", []))}
     for e in seed:
         for role in ("invitees", "alternates"):
             for x in e.get(role, []):
@@ -211,7 +218,7 @@ def main():
                 p["eddie"] = "Invitee" if role == "invitees" else "Alternate"
                 p["tags"].append("Eddie " + p["eddie"].lower())
 
-    surfers = sorted(S.values(), key=lambda p: (p.get("ct", {}).get("rank") or 999, -(p.get("isa", {}).get("best_heat") or 0), p["name"]))
+    surfers = sorted(S.values(), key=lambda p: (p.get("ct", {}).get("rank") or 999, -(p.get("isa", {}).get("best_heat") or 0), (p.get("lb") or {}).get("finish") or 999, p["name"]))
     data = {"updated_at": NOW.isoformat(timespec="seconds"), "sources": sources, "ct": season,
             "count": len(surfers), "surfers": surfers,
             "credits": "Championship Tour standings from Wikipedia (CC BY-SA); ISA heats and waves from SurfScores; Eddie roster from Rip Curl."}

@@ -101,7 +101,12 @@ def find_event_url(name, year):
     best, score = None, 0
     for path, slug in set(re.findall(r'href="(?:https://www\.worldsurfleague\.com)?(/events/%d/[a-z]+/\d+/([a-z0-9-]+))' % year, page)):
         got = set(slug.split("-"))
+        if any(t in want and t not in got for t in ("junior", "longboard")):
+            continue
+        if "junior" not in want and "junior" in got or "longboard" not in want and "longboard" in got:
+            continue
         sc = len(want & got)
         if sc > score:
             best, score = BASE + path, sc
-    return best if score else None
+    strict = bool(want & {"junior", "longboard"})  # many junior/longboard events share words, so demand a closer match
+    return best if score and (not strict or score * 2 >= len(want)) else None

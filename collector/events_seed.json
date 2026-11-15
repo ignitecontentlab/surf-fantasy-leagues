@@ -526,6 +526,40 @@
    "news": "2027 ISA World Longboard Championship",
    "facts": "Surf City El Salvador's ISA partnership includes the Longboard Championship every year through 2027. Dates not announced yet.",
    "source": "https://isasurf.org/isa-and-surf-city-el-salvador-confirm-historic-partnership-through-2027/"
+  },
+  {
+   "id": "wsl-wjc-2026",
+   "name": "Surf City El Salvador World Junior Championships",
+   "org": "WSL",
+   "series": "WSL Junior Tour",
+   "start": "2026-11-25",
+   "end": "2026-11-29",
+   "location": "La Bocana, La Libertad, El Salvador",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft opens when WSL posts the heat draw",
+   "official": "https://www.worldsurfleague.com/posts/557631/el-salvador-s-la-bocana-to-host-2026-wsl-world-junior-championships",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "WSL World Junior Championships",
+   "host": "WSL",
+   "partner": "Surf City El Salvador"
+  },
+  {
+   "id": "wsl-lt-bells-2026",
+   "name": "Bioglan Bells Beach Longboard Classic",
+   "org": "WSL",
+   "series": "WSL Longboard Tour",
+   "start": "2026-11-25",
+   "end": "2026-11-29",
+   "location": "Bells Beach, Victoria, Australia",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft opens when WSL posts the heat draw",
+   "official": "https://www.worldsurfleague.com/events/2026/lt/481/bioglan-bells-beach-longboard-classic",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Bells Beach Longboard Classic",
+   "host": "WSL",
+   "partner": "Bioglan"
   }
  ]
 }

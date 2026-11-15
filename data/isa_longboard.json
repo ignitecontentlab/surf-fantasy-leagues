@@ -1,0 +1,4565 @@
+{
+ "updated_at": "2026-11-15T23:43:23+00:00",
+ "event": {
+  "name": "ISA World Longboard Championship 2026",
+  "location": "El Sunzal, El Salvador",
+  "start": "2026-10-16",
+  "end": "2026-10-22",
+  "official": "https://isasurf.org/",
+  "results": "https://surfscores.com/ESA/2026/isawlsc/"
+ },
+ "surfers": [
+  {
+   "name": "Benoit Clemente",
+   "country": "PER",
+   "g": "M",
+   "heats": 6,
+   "wins": 4,
+   "best_heat": 17.3,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 12.57,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 13.6,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 14.77,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 12.37,
+     "place": 2
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 14.17,
+     "place": 2
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 17.3,
+     "place": 1
+    }
+   ],
+   "finish": 1,
+   "medal": "gold",
+   "avg_heat": 14.13,
+   "rounds": 14
+  },
+  {
+   "name": "Tony Silvagni",
+   "country": "USA",
+   "g": "M",
+   "heats": 8,
+   "wins": 3,
+   "best_heat": 16.1,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 4,
+     "total": 14.77,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 12.43,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 10.6,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 11.7,
+     "place": 4
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 14.67,
+     "place": 2
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 12.53,
+     "place": 1
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 14.4,
+     "place": 1
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 16.1,
+     "place": 2
+    }
+   ],
+   "finish": 2,
+   "medal": "silver",
+   "avg_heat": 13.4,
+   "rounds": 14
+  },
+  {
+   "name": "Edouard Delpero",
+   "country": "FRA",
+   "g": "M",
+   "heats": 6,
+   "wins": 5,
+   "best_heat": 15.73,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 9,
+     "total": 13.74,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 14.5,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 14.27,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 9.67,
+     "place": 1
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 14.83,
+     "place": 1
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 15.73,
+     "place": 3
+    }
+   ],
+   "finish": 3,
+   "medal": "bronze",
+   "avg_heat": 13.79,
+   "rounds": 14
+  },
+  {
+   "name": "Sam Christianson",
+   "country": "RSA",
+   "g": "M",
+   "heats": 7,
+   "wins": 2,
+   "best_heat": 15.07,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 10.6,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 15.07,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 11.0,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 6.33,
+     "place": 2
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 9.1,
+     "place": 3
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 12.73,
+     "place": 2
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 12.6,
+     "place": 4
+    }
+   ],
+   "finish": 4,
+   "medal": "copper",
+   "avg_heat": 11.06,
+   "rounds": 14
+  },
+  {
+   "name": "Jonathan Melendres",
+   "country": "MEX",
+   "g": "M",
+   "heats": 8,
+   "wins": 2,
+   "best_heat": 14.0,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 8.8,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 13.14,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 10.07,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 13.9,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 13.57,
+     "place": 2
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 14.0,
+     "place": 2
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 10.93,
+     "place": 2
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 9.83,
+     "place": 4
+    }
+   ],
+   "finish": 5,
+   "avg_heat": 11.78,
+   "rounds": 13
+  },
+  {
+   "name": "Alexandre Escobar",
+   "country": "BRA",
+   "g": "M",
+   "heats": 6,
+   "wins": 2,
+   "best_heat": 13.64,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 13.5,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 13.64,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 10.83,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 12.8,
+     "place": 1
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 7.33,
+     "place": 4
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 11.23,
+     "place": 3
+    }
+   ],
+   "finish": 5,
+   "avg_heat": 11.55,
+   "rounds": 13
+  },
+  {
+   "name": "Louis Marchiset",
+   "country": "FRA",
+   "g": "M",
+   "heats": 6,
+   "wins": 3,
+   "best_heat": 16.27,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 8,
+     "total": 11.83,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 15.77,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 10.14,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 1.93,
+     "place": 4
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 16.27,
+     "place": 1
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 10.57,
+     "place": 3
+    }
+   ],
+   "finish": 7,
+   "avg_heat": 11.08,
+   "rounds": 12
+  },
+  {
+   "name": "Jack Tyro",
+   "country": "NZL",
+   "g": "M",
+   "heats": 7,
+   "wins": 3,
+   "best_heat": 15.6,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 13,
+     "total": 12.9,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 12.77,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 8.64,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 11.67,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 14.14,
+     "place": 1
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 15.6,
+     "place": 1
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 5.6,
+     "place": 4
+    }
+   ],
+   "finish": 7,
+   "avg_heat": 11.62,
+   "rounds": 12
+  },
+  {
+   "name": "Carlos Bahia",
+   "country": "BRA",
+   "g": "M",
+   "heats": 7,
+   "wins": 4,
+   "best_heat": 16.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 14.67,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 9.37,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 16.5,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 9.07,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 13.7,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 11.53,
+     "place": 2
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 14.33,
+     "place": 3
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 12.74,
+   "rounds": 11
+  },
+  {
+   "name": "Rogelio Esquievel",
+   "country": "PHI",
+   "g": "M",
+   "heats": 5,
+   "wins": 3,
+   "best_heat": 15.83,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 11.33,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 15.83,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 11.2,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 12.04,
+     "place": 3
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 10.4,
+     "place": 3
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 12.16,
+   "rounds": 11
+  },
+  {
+   "name": "Douwe Robroch",
+   "country": "NED",
+   "g": "M",
+   "heats": 7,
+   "wins": 3,
+   "best_heat": 13.33,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 3.07,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 6,
+     "total": 13.33,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 11.37,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 10.43,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 8.9,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 12.93,
+     "place": 1
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 8.4,
+     "place": 4
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 9.78,
+   "rounds": 11
+  },
+  {
+   "name": "Masaya Tsukamoto",
+   "country": "JPN",
+   "g": "M",
+   "heats": 5,
+   "wins": 2,
+   "best_heat": 11.54,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 10.33,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 10.93,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 11.0,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 3.6,
+     "place": 3
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 11.54,
+     "place": 4
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 9.48,
+   "rounds": 11
+  },
+  {
+   "name": "Landen Smales",
+   "country": "AUS",
+   "g": "M",
+   "heats": 6,
+   "wins": 4,
+   "best_heat": 15.37,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 10.1,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 11.67,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 15.37,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 12.06,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 12.76,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 11.13,
+     "place": 3
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 12.18,
+   "rounds": 10
+  },
+  {
+   "name": "Jaxon Willows",
+   "country": "NZL",
+   "g": "M",
+   "heats": 6,
+   "wins": 2,
+   "best_heat": 13.9,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 4,
+     "total": 11.27,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 8.6,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 13.9,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 7.33,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 11.73,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 10.47,
+     "place": 4
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 10.55,
+   "rounds": 10
+  },
+  {
+   "name": "Rafael Cortez",
+   "country": "CHI",
+   "g": "M",
+   "heats": 6,
+   "wins": 1,
+   "best_heat": 13.6,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 8.5,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 1,
+     "total": 9.6,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 13.6,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 12.37,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 10.7,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 8.73,
+     "place": 4
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 10.58,
+   "rounds": 10
+  },
+  {
+   "name": "Julián Schweizer",
+   "country": "URU",
+   "g": "M",
+   "heats": 5,
+   "wins": 1,
+   "best_heat": 12.7,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 12.6,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 11.9,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 9.43,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 12.7,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 12.0,
+     "place": 3
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 11.73,
+   "rounds": 10
+  },
+  {
+   "name": "June Esquivel",
+   "country": "PHI",
+   "g": "M",
+   "heats": 5,
+   "wins": 1,
+   "best_heat": 15.83,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 12.96,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 5.5,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 15.83,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 11.47,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 10.36,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 11.22,
+   "rounds": 9
+  },
+  {
+   "name": "Dorian Torres",
+   "country": "CRC",
+   "g": "M",
+   "heats": 5,
+   "wins": 2,
+   "best_heat": 14.73,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 8.57,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 8,
+     "total": 14.73,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 12.07,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 12.97,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 7.5,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 11.17,
+   "rounds": 9
+  },
+  {
+   "name": "Sebastian Cardenas",
+   "country": "PER",
+   "g": "M",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 13.9,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 9.77,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 13.9,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 8.54,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 10.67,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 10.72,
+   "rounds": 9
+  },
+  {
+   "name": "Agustin Cedeño",
+   "country": "PAN",
+   "g": "M",
+   "heats": 4,
+   "wins": 2,
+   "best_heat": 13.16,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 13.1,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 13.16,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 8.4,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 9.8,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 11.11,
+   "rounds": 9
+  },
+  {
+   "name": "Tom Breen",
+   "country": "IRL",
+   "g": "M",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 12.74,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 8,
+     "total": 9.4,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 12.74,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 7.9,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 10.94,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 10.24,
+   "rounds": 9
+  },
+  {
+   "name": "Hao-En Wang",
+   "country": "TPE",
+   "g": "M",
+   "heats": 5,
+   "wins": 2,
+   "best_heat": 11.67,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 5.36,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 11.67,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 11.07,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 10.04,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 9.23,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 9.47,
+   "rounds": 9
+  },
+  {
+   "name": "Kaiden Smales",
+   "country": "AUS",
+   "g": "M",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 11.56,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 11.56,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 11.17,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 8.6,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 6.83,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 9.54,
+   "rounds": 9
+  },
+  {
+   "name": "Aleksander Heeke",
+   "country": "GER",
+   "g": "M",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 9.4,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 7.0,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 9.4,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 3.67,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 5.7,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 6.44,
+   "rounds": 9
+  },
+  {
+   "name": "Alexandre Wolthers",
+   "country": "DEN",
+   "g": "M",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 13.06,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 9.4,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 9.13,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 13.06,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 4.77,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 9.09,
+   "rounds": 8
+  },
+  {
+   "name": "Rio Donaldson",
+   "country": "PUR",
+   "g": "M",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 11.66,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 11.44,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 9.93,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 11.66,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 10.34,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 10.84,
+   "rounds": 8
+  },
+  {
+   "name": "Satoshi Horii",
+   "country": "JPN",
+   "g": "M",
+   "heats": 4,
+   "wins": 2,
+   "best_heat": 11.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 7.5,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 10.13,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 11.5,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 9.66,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 9.7,
+   "rounds": 8
+  },
+  {
+   "name": "Shane Fourie",
+   "country": "RSA",
+   "g": "M",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 10.9,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 10.53,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 10.9,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 8.7,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 7.9,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 9.51,
+   "rounds": 8
+  },
+  {
+   "name": "Matías Maturano",
+   "country": "ARG",
+   "g": "M",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 10.3,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 10.13,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 9.46,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 10.3,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 9.7,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 9.9,
+   "rounds": 8
+  },
+  {
+   "name": "Sky Sacolax",
+   "country": "IRL",
+   "g": "M",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 9.64,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 9,
+     "total": 8.04,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 9.47,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 9.64,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 8.77,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 8.98,
+   "rounds": 8
+  },
+  {
+   "name": "Nicolas Garcia",
+   "country": "ESP",
+   "g": "M",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 9.57,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 9.33,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 8.17,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 9.57,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 9.4,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 9.12,
+   "rounds": 8
+  },
+  {
+   "name": "Adam Talbot Tory",
+   "country": "CAN",
+   "g": "M",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 8.87,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 6.9,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 3,
+     "total": 8.87,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 6.0,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 3.57,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 6.33,
+   "rounds": 8
+  },
+  {
+   "name": "Kevin Skvarna",
+   "country": "USA",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 12.24,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 13,
+     "total": 12.24,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 10.93,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 9.54,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 10.9,
+   "rounds": 7
+  },
+  {
+   "name": "Angelo Franco",
+   "country": "ECU",
+   "g": "M",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 11.77,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 8.74,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 1,
+     "total": 9.94,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 11.77,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 10.15,
+   "rounds": 7
+  },
+  {
+   "name": "Kevin Mejia",
+   "country": "ESA",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 11.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 5.57,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 8,
+     "total": 11.5,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 9.2,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 8.76,
+   "rounds": 7
+  },
+  {
+   "name": "Heriberto Torres",
+   "country": "MEX",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 11.1,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 10.5,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 7.67,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 11.1,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 9.76,
+   "rounds": 7
+  },
+  {
+   "name": "Evan Rogers",
+   "country": "GBR",
+   "g": "M",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 11.04,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 6.37,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 11.04,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 5.83,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 7.75,
+   "rounds": 7
+  },
+  {
+   "name": "Surfiel Gil",
+   "country": "ARG",
+   "g": "M",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 10.87,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 9.16,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 10.34,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 10.87,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 10.12,
+   "rounds": 7
+  },
+  {
+   "name": "Anthonny Mesen Flores",
+   "country": "CRC",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 10.37,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 8.64,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 9.14,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 10.37,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 9.38,
+   "rounds": 7
+  },
+  {
+   "name": "Federico Nesti",
+   "country": "ITA",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 10.27,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 9.43,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 10.27,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 0.0,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.57,
+   "rounds": 7
+  },
+  {
+   "name": "Eduardo Caponera",
+   "country": "ITA",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 9.63,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 7.57,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 9.63,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 6.77,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 7.99,
+   "rounds": 7
+  },
+  {
+   "name": "Yonatan Amir",
+   "country": "ISR",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 9.6,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 9.6,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 8.33,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 8.64,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 8.86,
+   "rounds": 7
+  },
+  {
+   "name": "Matteo Kunz",
+   "country": "SUI",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 9.57,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 8,
+     "total": 6.14,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 9.57,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 5.26,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.99,
+   "rounds": 7
+  },
+  {
+   "name": "Michiel Six",
+   "country": "NED",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 8.43,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 5.24,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 3,
+     "total": 8.43,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 4.07,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 5.91,
+   "rounds": 7
+  },
+  {
+   "name": "Carlos Escobar",
+   "country": "GUA",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 8.3,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 5.74,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 8.3,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 6.0,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.68,
+   "rounds": 7
+  },
+  {
+   "name": "Anker Frantzen",
+   "country": "NOR",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 8.27,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 6.83,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 8.0,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 8.27,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 7.7,
+   "rounds": 7
+  },
+  {
+   "name": "Rowan Curbishley",
+   "country": "GBR",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 8.0,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 6.8,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 6,
+     "total": 8.0,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 6.17,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.99,
+   "rounds": 7
+  },
+  {
+   "name": "Juan Gayol",
+   "country": "URU",
+   "g": "M",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 7.66,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 6.73,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 7.66,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 5.17,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.52,
+   "rounds": 7
+  },
+  {
+   "name": "Noa Stender",
+   "country": "DEN",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 10.96,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 5.83,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 8,
+     "total": 10.96,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 8.39,
+   "rounds": 6
+  },
+  {
+   "name": "José Manuel Boza",
+   "country": "CHI",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 8.23,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 7.53,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 8.23,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 7.88,
+   "rounds": 6
+  },
+  {
+   "name": "Tsung-Lin Han",
+   "country": "TPE",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 8.0,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 8.0,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 1,
+     "total": 5.07,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 6.54,
+   "rounds": 6
+  },
+  {
+   "name": "Martin Garcia",
+   "country": "ESP",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 7.54,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 6.86,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 7.54,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 7.2,
+   "rounds": 6
+  },
+  {
+   "name": "Anton Hagman",
+   "country": "SWE",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 7.33,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 13,
+     "total": 3.87,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 8,
+     "total": 7.33,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 5.6,
+   "rounds": 6
+  },
+  {
+   "name": "Jonathan Boockhoff",
+   "country": "GER",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.84,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 6.84,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 3,
+     "total": 5.76,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 6.3,
+   "rounds": 6
+  },
+  {
+   "name": "Ron Katz",
+   "country": "ISR",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.73,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 6.73,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 5.57,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 6.15,
+   "rounds": 6
+  },
+  {
+   "name": "Rusty Sukowski-Goyer",
+   "country": "CAN",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.66,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 5.8,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 6.66,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 6.23,
+   "rounds": 6
+  },
+  {
+   "name": "Karl Roos",
+   "country": "SWE",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.53,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 4,
+     "total": 4.9,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 1,
+     "total": 6.53,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 5.71,
+   "rounds": 6
+  },
+  {
+   "name": "Armando Colucci",
+   "country": "VEN",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.44,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 5.7,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 6.44,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 6.07,
+   "rounds": 6
+  },
+  {
+   "name": "Eder Luis Peinado",
+   "country": "COL",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.33,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 4,
+     "total": 6.33,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 5.9,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 6.12,
+   "rounds": 6
+  },
+  {
+   "name": "Antonio Pou",
+   "country": "PUR",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 5.97,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 5.97,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 6,
+     "total": 0.94,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 3.46,
+   "rounds": 6
+  },
+  {
+   "name": "Donghyeon Lee",
+   "country": "KOR",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 5.8,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 8,
+     "total": 5.8,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 3,
+     "total": 4.66,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 5.23,
+   "rounds": 6
+  },
+  {
+   "name": "Simón Salazar",
+   "country": "COL",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 5.54,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 13,
+     "total": 5.54,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 4.33,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 4.94,
+   "rounds": 6
+  },
+  {
+   "name": "Alejandro Flores Molina",
+   "country": "SUI",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 3.83,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 9,
+     "total": 1.5,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 6,
+     "total": 3.83,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 2.67,
+   "rounds": 6
+  },
+  {
+   "name": "Taeeun Kim",
+   "country": "KOR",
+   "g": "M",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 1.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 9,
+     "total": 1.5,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 0.9,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 1.2,
+   "rounds": 6
+  },
+  {
+   "name": "Alice Lemoigne",
+   "country": "FRA",
+   "g": "W",
+   "heats": 6,
+   "wins": 6,
+   "best_heat": 16.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 9,
+     "total": 14.67,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 12.03,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 11.67,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 15.5,
+     "place": 1
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 16.5,
+     "place": 1
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 14.73,
+     "place": 1
+    }
+   ],
+   "finish": 1,
+   "medal": "gold",
+   "avg_heat": 14.18,
+   "rounds": 14
+  },
+  {
+   "name": "Avalon Gall",
+   "country": "USA",
+   "g": "W",
+   "heats": 7,
+   "wins": 3,
+   "best_heat": 14.83,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 4,
+     "total": 11.83,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 9.97,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 11.47,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 9.43,
+     "place": 2
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 11.4,
+     "place": 3
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 14.83,
+     "place": 1
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 13.0,
+     "place": 2
+    }
+   ],
+   "finish": 2,
+   "medal": "silver",
+   "avg_heat": 11.7,
+   "rounds": 14
+  },
+  {
+   "name": "Lia Diaz",
+   "country": "CRC",
+   "g": "W",
+   "heats": 6,
+   "wins": 2,
+   "best_heat": 12.26,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 12.16,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 12.26,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 9.0,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 10.3,
+     "place": 2
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 11.43,
+     "place": 2
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 10.0,
+     "place": 3
+    }
+   ],
+   "finish": 3,
+   "medal": "bronze",
+   "avg_heat": 10.86,
+   "rounds": 14
+  },
+  {
+   "name": "Estorya Martínez",
+   "country": "PUR",
+   "g": "W",
+   "heats": 7,
+   "wins": 2,
+   "best_heat": 12.4,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 11.74,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 10.5,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 11.16,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 10.56,
+     "place": 1
+    },
+    {
+     "round": "B05",
+     "heat": 1,
+     "total": 8.96,
+     "place": 4
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 12.4,
+     "place": 2
+    },
+    {
+     "round": "B14",
+     "heat": 1,
+     "total": 8.4,
+     "place": 4
+    }
+   ],
+   "finish": 4,
+   "medal": "copper",
+   "avg_heat": 10.53,
+   "rounds": 14
+  },
+  {
+   "name": "Maria Fernanda Reyes",
+   "country": "PER",
+   "g": "W",
+   "heats": 9,
+   "wins": 3,
+   "best_heat": 15.43,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 9.16,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 0.0,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 14.06,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 11.83,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 13.1,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 11.07,
+     "place": 2
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 15.43,
+     "place": 1
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 10.0,
+     "place": 1
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 10.73,
+     "place": 4
+    }
+   ],
+   "finish": 5,
+   "avg_heat": 10.6,
+   "rounds": 13
+  },
+  {
+   "name": "Kaitlin Mikkelson",
+   "country": "USA",
+   "g": "W",
+   "heats": 7,
+   "wins": 2,
+   "best_heat": 13.0,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 13,
+     "total": 9.2,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 13.0,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 11.46,
+     "place": 1
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 10.0,
+     "place": 4
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 11.97,
+     "place": 2
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 9.43,
+     "place": 2
+    },
+    {
+     "round": "B13",
+     "heat": 1,
+     "total": 11.8,
+     "place": 3
+    }
+   ],
+   "finish": 5,
+   "avg_heat": 10.98,
+   "rounds": 13
+  },
+  {
+   "name": "Sive Jarrard",
+   "country": "ASA",
+   "g": "W",
+   "heats": 6,
+   "wins": 1,
+   "best_heat": 14.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 9.2,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 14.5,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 10.33,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 2,
+     "total": 10.2,
+     "place": 3
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 12.0,
+     "place": 2
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 7.8,
+     "place": 3
+    }
+   ],
+   "finish": 7,
+   "avg_heat": 10.67,
+   "rounds": 12
+  },
+  {
+   "name": "Kirra Molnar",
+   "country": "AUS",
+   "g": "W",
+   "heats": 8,
+   "wins": 4,
+   "best_heat": 12.9,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 10.4,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 7.77,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 8.1,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 10.3,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 8.77,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 12.46,
+     "place": 1
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 12.9,
+     "place": 1
+    },
+    {
+     "round": "B12",
+     "heat": 1,
+     "total": 6.24,
+     "place": 4
+    }
+   ],
+   "finish": 7,
+   "avg_heat": 9.62,
+   "rounds": 12
+  },
+  {
+   "name": "Hiroka Yoshikawa",
+   "country": "JPN",
+   "g": "W",
+   "heats": 7,
+   "wins": 3,
+   "best_heat": 15.17,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 13.5,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 7.34,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 10.6,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 15.17,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 10.2,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 11.5,
+     "place": 1
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 11.8,
+     "place": 3
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 11.44,
+   "rounds": 11
+  },
+  {
+   "name": "Natsumi Taoka",
+   "country": "JPN",
+   "g": "W",
+   "heats": 6,
+   "wins": 1,
+   "best_heat": 14.1,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 14.1,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 10.13,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 8.0,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 12.37,
+     "place": 2
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 8.5,
+     "place": 2
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 11.57,
+     "place": 3
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 10.78,
+   "rounds": 11
+  },
+  {
+   "name": "Chloe Calmon",
+   "country": "BRA",
+   "g": "W",
+   "heats": 5,
+   "wins": 1,
+   "best_heat": 12.9,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 10.57,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 12.9,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 6.4,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 7.7,
+     "place": 3
+    },
+    {
+     "round": "B11",
+     "heat": 1,
+     "total": 11.33,
+     "place": 4
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 9.78,
+   "rounds": 11
+  },
+  {
+   "name": "Emily Currie",
+   "country": "GBR",
+   "g": "W",
+   "heats": 5,
+   "wins": 2,
+   "best_heat": 12.07,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 12.07,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 10.63,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 10.0,
+     "place": 2
+    },
+    {
+     "round": "B04",
+     "heat": 1,
+     "total": 7.5,
+     "place": 4
+    },
+    {
+     "round": "B11",
+     "heat": 2,
+     "total": 10.13,
+     "place": 4
+    }
+   ],
+   "finish": 9,
+   "avg_heat": 10.07,
+   "rounds": 11
+  },
+  {
+   "name": "Thilde Rasmussen",
+   "country": "DEN",
+   "g": "W",
+   "heats": 6,
+   "wins": 3,
+   "best_heat": 16.17,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 0.93,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 8,
+     "total": 16.17,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 13.33,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 13.14,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 14.33,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 4.7,
+     "place": 4
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 10.43,
+   "rounds": 10
+  },
+  {
+   "name": "Kaila Jane Dela Torre",
+   "country": "PHI",
+   "g": "W",
+   "heats": 5,
+   "wins": 3,
+   "best_heat": 14.43,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 11.5,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 14.43,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 1,
+     "total": 8.77,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 13.3,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 1,
+     "total": 6.77,
+     "place": 3
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 10.95,
+   "rounds": 10
+  },
+  {
+   "name": "Ginger Caimi",
+   "country": "ITA",
+   "g": "W",
+   "heats": 5,
+   "wins": 3,
+   "best_heat": 13.97,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 10.66,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 13.97,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 6.17,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 12.8,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 10.5,
+     "place": 3
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 10.82,
+   "rounds": 10
+  },
+  {
+   "name": "Soo Jin Park",
+   "country": "KOR",
+   "g": "W",
+   "heats": 6,
+   "wins": 1,
+   "best_heat": 10.4,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 9,
+     "total": 5.57,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 8.93,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 9.93,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 9.57,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 10.4,
+     "place": 1
+    },
+    {
+     "round": "B10",
+     "heat": 2,
+     "total": 4.73,
+     "place": 4
+    }
+   ],
+   "finish": 13,
+   "avg_heat": 8.19,
+   "rounds": 10
+  },
+  {
+   "name": "Sindy Portillo",
+   "country": "ESA",
+   "g": "W",
+   "heats": 4,
+   "wins": 2,
+   "best_heat": 12.67,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 13,
+     "total": 12.67,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 7.17,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 5.07,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 8.37,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 8.32,
+   "rounds": 9
+  },
+  {
+   "name": "Jazmine Dean",
+   "country": "PUR",
+   "g": "W",
+   "heats": 5,
+   "wins": 2,
+   "best_heat": 12.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 4.94,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 3,
+     "total": 12.33,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 6.53,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 12.5,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 7.67,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 8.79,
+   "rounds": 9
+  },
+  {
+   "name": "Canelle Lebreton",
+   "country": "FRA",
+   "g": "W",
+   "heats": 4,
+   "wins": 2,
+   "best_heat": 12.33,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 8,
+     "total": 8.6,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 12.33,
+     "place": 1
+    },
+    {
+     "round": "B03",
+     "heat": 2,
+     "total": 0.0,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 0.0,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 5.23,
+   "rounds": 9
+  },
+  {
+   "name": "Daisy Valdez",
+   "country": "PHI",
+   "g": "W",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 11.27,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 10.6,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 11.27,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 3,
+     "total": 10.57,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 2.83,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 8.82,
+   "rounds": 9
+  },
+  {
+   "name": "Lisa Boos",
+   "country": "GER",
+   "g": "W",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 10.16,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 10.16,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 8.8,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 7.6,
+     "place": 3
+    },
+    {
+     "round": "B09",
+     "heat": 4,
+     "total": 7.93,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 8.62,
+   "rounds": 9
+  },
+  {
+   "name": "Layla Brady",
+   "country": "PAN",
+   "g": "W",
+   "heats": 5,
+   "wins": 2,
+   "best_heat": 9.8,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 4.7,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 5.7,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 9.8,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 9.23,
+     "place": 1
+    },
+    {
+     "round": "B09",
+     "heat": 1,
+     "total": 5.67,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 7.02,
+   "rounds": 9
+  },
+  {
+   "name": "Nina Altenburg",
+   "country": "GER",
+   "g": "W",
+   "heats": 5,
+   "wins": 1,
+   "best_heat": 9.17,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 7.44,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 5.6,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 7.5,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 9.17,
+     "place": 2
+    },
+    {
+     "round": "B09",
+     "heat": 2,
+     "total": 5.63,
+     "place": 4
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 7.07,
+   "rounds": 9
+  },
+  {
+   "name": "Te Waiotu Fairlie",
+   "country": "NZL",
+   "g": "W",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 7.33,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 7.07,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 6.2,
+     "place": 2
+    },
+    {
+     "round": "B03",
+     "heat": 4,
+     "total": 7.33,
+     "place": 4
+    },
+    {
+     "round": "B09",
+     "heat": 3,
+     "total": 6.2,
+     "place": 3
+    }
+   ],
+   "finish": 17,
+   "avg_heat": 6.7,
+   "rounds": 9
+  },
+  {
+   "name": "Ruth Rosa Daniel",
+   "country": "ISR",
+   "g": "W",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 11.2,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 11.2,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 5,
+     "total": 5.43,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 10.16,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 11.17,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 9.49,
+   "rounds": 8
+  },
+  {
+   "name": "Marcela Machado",
+   "country": "URU",
+   "g": "W",
+   "heats": 4,
+   "wins": 2,
+   "best_heat": 10.76,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 8.1,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 10.13,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 10.76,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 6.33,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 8.83,
+   "rounds": 8
+  },
+  {
+   "name": "Coral Jeane Bonilla",
+   "country": "MEX",
+   "g": "W",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 9.8,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 9.8,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 6.03,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 8.2,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 4,
+     "total": 8.1,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 8.03,
+   "rounds": 8
+  },
+  {
+   "name": "Evelyn Gontier",
+   "country": "ARG",
+   "g": "W",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 9.54,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 7.63,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 8,
+     "total": 9.54,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 8.33,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 3,
+     "total": 8.77,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 8.57,
+   "rounds": 8
+  },
+  {
+   "name": "Emma Perrier",
+   "country": "AUS",
+   "g": "W",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 9.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 8.5,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 2,
+     "total": 5.83,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 9.5,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 9.04,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 8.22,
+   "rounds": 8
+  },
+  {
+   "name": "Ines Beisso",
+   "country": "URU",
+   "g": "W",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 9.2,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 6.47,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 7.7,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 9.2,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 7.07,
+     "place": 3
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 7.61,
+   "rounds": 8
+  },
+  {
+   "name": "Margarita Conde",
+   "country": "COL",
+   "g": "W",
+   "heats": 4,
+   "wins": 1,
+   "best_heat": 9.17,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 8,
+     "total": 7.33,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 3,
+     "total": 8.24,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 9.17,
+     "place": 1
+    },
+    {
+     "round": "B08",
+     "heat": 1,
+     "total": 7.33,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 8.02,
+   "rounds": 8
+  },
+  {
+   "name": "Ruby Knox",
+   "country": "IRL",
+   "g": "W",
+   "heats": 4,
+   "wins": 0,
+   "best_heat": 8.34,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 4,
+     "total": 7.97,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 1,
+     "total": 4.87,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 8.34,
+     "place": 2
+    },
+    {
+     "round": "B08",
+     "heat": 2,
+     "total": 2.27,
+     "place": 4
+    }
+   ],
+   "finish": 25,
+   "avg_heat": 5.86,
+   "rounds": 8
+  },
+  {
+   "name": "Julieta Rodriguez-Villamil",
+   "country": "ESP",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 12.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 12.5,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 5.33,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 10.0,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 9.28,
+   "rounds": 7
+  },
+  {
+   "name": "Daniela Sevillano",
+   "country": "ESP",
+   "g": "W",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 11.16,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 5.23,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 11.16,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 4.94,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 7.11,
+   "rounds": 7
+  },
+  {
+   "name": "Atalanta Batista",
+   "country": "BRA",
+   "g": "W",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 10.5,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 5.9,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 6,
+     "total": 10.5,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 9.67,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 8.69,
+   "rounds": 7
+  },
+  {
+   "name": "Christy Gilmour",
+   "country": "RSA",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 10.07,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 10,
+     "total": 10.07,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 6,
+     "total": 9.23,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 5,
+     "total": 10.04,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 9.78,
+   "rounds": 7
+  },
+  {
+   "name": "Alejandra Zaid",
+   "country": "GUA",
+   "g": "W",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 9.34,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 14,
+     "total": 6.3,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 9.34,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 4.6,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.75,
+   "rounds": 7
+  },
+  {
+   "name": "Beth Leighfield",
+   "country": "GBR",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 8.6,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 5.26,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 3,
+     "total": 8.6,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 4,
+     "total": 6.97,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.94,
+   "rounds": 7
+  },
+  {
+   "name": "Hyehyun Song",
+   "country": "KOR",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 8.27,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 9,
+     "total": 8.27,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 6,
+     "total": 6.3,
+     "place": 3
+    },
+    {
+     "round": "B07",
+     "heat": 6,
+     "total": 0.87,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 5.15,
+   "rounds": 7
+  },
+  {
+   "name": "Hsiu-Yun Chang",
+   "country": "TPE",
+   "g": "W",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 8.1,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 3.96,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 8.1,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 4.93,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 5.66,
+   "rounds": 7
+  },
+  {
+   "name": "Lia Victoria Carbajal",
+   "country": "MEX",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 7.77,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 4.5,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 7.77,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 7.77,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 6.68,
+   "rounds": 7
+  },
+  {
+   "name": "Noelia Arata",
+   "country": "PER",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 7.4,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 4.34,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 8,
+     "total": 7.4,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 7,
+     "total": 3.5,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 5.08,
+   "rounds": 7
+  },
+  {
+   "name": "Sofia Soori",
+   "country": "SWE",
+   "g": "W",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 7.2,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 1,
+     "total": 4.17,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 1,
+     "total": 7.2,
+     "place": 1
+    },
+    {
+     "round": "B07",
+     "heat": 1,
+     "total": 3.66,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 5.01,
+   "rounds": 7
+  },
+  {
+   "name": "Chieh-Mei Chen",
+   "country": "TPE",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 7.2,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 5.4,
+     "place": 2
+    },
+    {
+     "round": "B02",
+     "heat": 4,
+     "total": 7.2,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 4.74,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 5.78,
+   "rounds": 7
+  },
+  {
+   "name": "Izaro Williamson Sasia",
+   "country": "NZL",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 6.83,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 13,
+     "total": 3.44,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 6.5,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 6.83,
+     "place": 3
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 5.59,
+   "rounds": 7
+  },
+  {
+   "name": "Mare Robroch",
+   "country": "NED",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 6.1,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 4.36,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 1,
+     "total": 6.1,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 2,
+     "total": 3.57,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 4.68,
+   "rounds": 7
+  },
+  {
+   "name": "Lucía Indurain",
+   "country": "ARG",
+   "g": "W",
+   "heats": 3,
+   "wins": 1,
+   "best_heat": 6.07,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 6.07,
+     "place": 1
+    },
+    {
+     "round": "B02",
+     "heat": 7,
+     "total": 4.14,
+     "place": 4
+    },
+    {
+     "round": "B07",
+     "heat": 8,
+     "total": 3.43,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 4.55,
+   "rounds": 7
+  },
+  {
+   "name": "Yana Andriyevska",
+   "country": "SWE",
+   "g": "W",
+   "heats": 3,
+   "wins": 0,
+   "best_heat": 4.6,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 5,
+     "total": 2.97,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 4.5,
+     "place": 2
+    },
+    {
+     "round": "B07",
+     "heat": 3,
+     "total": 4.6,
+     "place": 4
+    }
+   ],
+   "finish": 33,
+   "avg_heat": 4.02,
+   "rounds": 7
+  },
+  {
+   "name": "Lucy Jarrard",
+   "country": "ASA",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 7.74,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 4.93,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 7.74,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 6.33,
+   "rounds": 6
+  },
+  {
+   "name": "Javiera Quiroz",
+   "country": "CHI",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.87,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 2,
+     "total": 5.04,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 6.87,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 5.96,
+   "rounds": 6
+  },
+  {
+   "name": "Fanny Villao",
+   "country": "ECU",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 6.0,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 3,
+     "total": 5.53,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 1,
+     "total": 6.0,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 5.77,
+   "rounds": 6
+  },
+  {
+   "name": "Rita Lahtinen",
+   "country": "FIN",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 5.9,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 4.94,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 8,
+     "total": 5.9,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 5.42,
+   "rounds": 6
+  },
+  {
+   "name": "Nataly Acosta",
+   "country": "COL",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 5.84,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 4,
+     "total": 4.64,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 2,
+     "total": 5.84,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 5.24,
+   "rounds": 6
+  },
+  {
+   "name": "Ella Jane Wallace",
+   "country": "CAN",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 4.84,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 12,
+     "total": 4.84,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 5,
+     "total": 2.87,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 3.85,
+   "rounds": 6
+  },
+  {
+   "name": "Cally Taylor",
+   "country": "RSA",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 4.24,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 7,
+     "total": 4.0,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 4.24,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 4.12,
+   "rounds": 6
+  },
+  {
+   "name": "Anne Zwagers",
+   "country": "NED",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 4.2,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 6,
+     "total": 4.2,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 3,
+     "total": 3.23,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 3.71,
+   "rounds": 6
+  },
+  {
+   "name": "Frida Larios",
+   "country": "ESA",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 4.17,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 16,
+     "total": 4.17,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 3.24,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 3.71,
+   "rounds": 6
+  },
+  {
+   "name": "Mackenzie Jean Arndt",
+   "country": "CAN",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 4.04,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 11,
+     "total": 4.04,
+     "place": 4
+    },
+    {
+     "round": "B06",
+     "heat": 6,
+     "total": 2.83,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 3.44,
+   "rounds": 6
+  },
+  {
+   "name": "Maria Cecilia Gomez",
+   "country": "CHI",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 3.46,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 15,
+     "total": 2.8,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 7,
+     "total": 3.46,
+     "place": 3
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 3.13,
+   "rounds": 6
+  },
+  {
+   "name": "Gemma Gillespie",
+   "country": "IRL",
+   "g": "W",
+   "heats": 2,
+   "wins": 0,
+   "best_heat": 3.03,
+   "log": [
+    {
+     "round": "B01",
+     "heat": 8,
+     "total": 1.27,
+     "place": 3
+    },
+    {
+     "round": "B06",
+     "heat": 4,
+     "total": 3.03,
+     "place": 4
+    }
+   ],
+   "finish": 49,
+   "avg_heat": 2.15,
+   "rounds": 6
+  }
+ ],
+ "heats": {
+  "men": 62,
+  "women": 62
+ }
+}
