@@ -9361,8 +9361,8 @@
    {
     "name": "Catalina Zariquiey",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 11.5,
+    "place": 3,
     "waves": [
      5.5,
      4.83
@@ -9375,8 +9375,8 @@
    {
     "name": "Luana Silva",
     "country": "BRA",
-    "total": null,
-    "place": null,
+    "total": 13.6,
+    "place": 1,
     "waves": [
      4.77,
      0.33
@@ -9389,8 +9389,8 @@
    {
     "name": "Leilani McGonagle",
     "country": "CRC",
-    "total": null,
-    "place": null,
+    "total": 13.43,
+    "place": 2,
     "waves": [
      7.0,
      5.27
@@ -9401,7 +9401,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -9411,23 +9411,23 @@
    {
     "name": "Anon Matsuoka",
     "country": "JPN",
-    "total": null,
-    "place": null
+    "total": 9.8,
+    "place": 3
    },
    {
     "name": "Leihani Zoric",
     "country": "AUS",
-    "total": null,
-    "place": null
+    "total": 15.83,
+    "place": 1
    },
    {
     "name": "Yolanda Hopkins",
     "country": "POR",
-    "total": null,
-    "place": null
+    "total": 11.4,
+    "place": 2
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -9438,23 +9438,80 @@
     "name": "Ethan Ewing",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     8.67,
+     3.0
+    ],
+    "best_waves": [
+     8.67,
+     3.0
+    ]
    },
    {
     "name": "Franco Radziunas",
     "country": "ARG",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
    },
    {
     "name": "Yago Dora",
     "country": "BRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.17
+    ],
+    "best_waves": [
+     5.17,
+     0.0
+    ]
    },
    {
     "name": "Kanoa Igarashi",
     "country": "JPN",
+    "total": null,
+    "place": null,
+    "waves": [],
+    "best_waves": [
+     0.0,
+     0.0
+    ]
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B18",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Luana Silva",
+    "country": "BRA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Yolanda Hopkins",
+    "country": "POR",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leihani Zoric",
+    "country": "AUS",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leilani McGonagle",
+    "country": "CRC",
     "total": null,
     "place": null
    }

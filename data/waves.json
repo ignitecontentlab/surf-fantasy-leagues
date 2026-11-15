@@ -1294,5 +1294,40 @@
     0.33
    ]
   }
+ },
+ "men|ethanewing|francoradziunas|kanoaigarashi|yagodora": {
+  "ethanewing": {
+   "waves": [
+    8.67,
+    3.0
+   ],
+   "best_waves": [
+    8.67,
+    3.0
+   ]
+  },
+  "yagodora": {
+   "waves": [
+    5.17
+   ],
+   "best_waves": [
+    5.17,
+    0.0
+   ]
+  },
+  "francoradziunas": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  },
+  "kanoaigarashi": {
+   "waves": [],
+   "best_waves": [
+    0.0,
+    0.0
+   ]
+  }
  }
 }
