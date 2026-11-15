@@ -1,18 +1,38 @@
 {
-"updated_at": "2026-11-15T19:26:02+00:00",
+"updated_at": "2026-11-15T21:17:37+00:00",
 "sources": {
-"Surfer": 33,
+"Surfer": 32,
 "ISA": 7,
-"Stab": 23,
+"Stab": 24,
 "Surfline": 3,
 "The Inertia": 49,
 "BeachGrit": 15,
 "Tracks": 1,
-"World Surf League": 42,
+"World Surf League": 41,
 "Surfertoday": 6,
-"In the news": 41
+"In the news": 43
 },
 "items": [
+{
+"title": "‘The beach is not your friend this weekend’: Massive waves pummel California coast",
+"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa1ZHZGczM3Nsci01LU1Rb1loU2RfcVBHdmJrc3V1MUE1NnNKNERVMmdGTnZMQkY5QXhVVXdrT1RGbDlzNk1vcDRSQ3kxaVFsNkdQR0lfWlpST21Rc0N5Y3ZmcHN5RzU5VzdUb25UcFdNenZlUHZNajdUald6WlE4Q0dPOXFXSllEQjAxbDBsaC1jSWI5OEFLa3NFMGFQaGVsY2hDU3R2WTVvNlhDdnRlWDdzdGtqckxkcUlOdW1xQ0hxeVNlVXFfU0ZiNA?oc=5",
+"source": "Los Angeles Times",
+"at": "2026-11-15T19:34+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Massive waves threaten coastal flooding as 2 storms approach Southern California",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzZpdklXYnRqUUluUWxUTDdUZGJOSjFwQWx1ekVaRncyOXJTcVZ2bHNHYzlNWEhZbDFTSXJyZnYzYVVCNVpmcGEwSk96SVlQdi1GVHl2MUNaX0ctT2pmOTZqdjREY1JXMjhLN2V5T1pmOVJrNnVleno0MTVNcjczZFZtbWU1eUFXRzNRQmUxOUVuQnhXbzNXb3pLNjhmNFlzNVQ1WlhZVHUxUdIBrwFBVV95cUxQRFVvVmdva1lwaU9vRktMOGJsLUdTOTRZUDlBRWVzbV9QQlFkOTk4Z2kyeXk5TnJBeGFMbk9rTUFMbldHOGg3UDhhV1RwellKUXVOeVdfbzA5ZXgxTmk4cGhUMXE4TDh5bzN1OUNoZlh4QktmamVoZ1IwTGpQR1ZHVnJLWG9RU0ZMUVF0ekRJYTIxTGZaWk5EaVNyLW13c0pibUJMMExtMXlwaUluN0g0?oc=5",
+"source": "KTLA",
+"at": "2026-11-15T19:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "Photo essay: El Niño-driven waves cause dramatic spectacle at Santa Barbara Breakwater",
 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSTVwX1BOU0tOWExRVy1nOUJPY2lvTWhRdmxwazVLX3ktdWFlcm9xOHlNdnVfLVlzUE1Wb19NeW13MU9ycktzV2dhTGt1Z2ctZ216YnYtNlM5dTN5bGo2WVp1X1pUWDlxRzlOcXh6dmNURUFNdmNMa295SFgzTFRqMHkwNFdFdHJSRExsM1hJYkJTRzRULWhNNUg3dE9fME10b2xfcm52dmFoOEU3U3NrcFFpZFpZYThiV2czam9hdjk?oc=5",
@@ -24,7 +44,7 @@
 "kind": "media"
 },
 {
-"title": "Surfers Scramble to Mavericks in California to Catch Building-Size Waves",
+"title": "Surfers Scramble to California Hot Spot to Catch Building-Size Waves",
 "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ19hcklsb2ljQy05NUJlUVZqWmFRd21tcDk5Mll5M3dYemx2QnJTOWpMa0FqZ1JVX3BZMXVjQy01U3JvVW9OdE5xbmM1TFlMd0VkRV9VbE4wWUMwUTk2QlJXNFBZS1NLUmR1LXM3YXkwWVNvLTB4ZlJjeVRheVBsa0szZC1ZWFNiLVE?oc=5",
 "source": "The New York Times",
 "at": "2026-11-15T18:23+00:00",
@@ -191,16 +211,6 @@
 "kind": "media"
 },
 {
-"title": "‘The beach is not your friend this weekend’: Massive waves pummel California coast",
-"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa1ZHZGczM3Nsci01LU1Rb1loU2RfcVBHdmJrc3V1MUE1NnNKNERVMmdGTnZMQkY5QXhVVXdrT1RGbDlzNk1vcDRSQ3kxaVFsNkdQR0lfWlpST21Rc0N5Y3ZmcHN5RzU5VzdUb25UcFdNenZlUHZNajdUald6WlE4Q0dPOXFXSllEQjAxbDBsaC1jSWI5OEFLa3NFMGFQaGVsY2hDU3R2WTVvNlhDdnRlWDdzdGtqckxkcUlOdW1xQ0hxeVNlVXFfU0ZiNA?oc=5",
-"source": "Los Angeles Times",
-"at": "2026-11-14T23:55+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Video: Dangerous waves, biggest in a decade, flood Bay Area streets and threaten homes",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUN0VnhBOExPSVlzSGp1d3N6ZDVobVZXY3p1cVB3UEl4RU42aFVjQnBoWnBBLW1scDZoc1pRd3RvdnlFWEw1dlNuVGVxZlZfWWJ4ank3YzNpWnRwTVh3SjBuZlJWNjU4U19fejJCMEpIR3NMZnJ6RXVxNC05VjI2VUFtNzNCTEY1ZWpVc1dpMlpEYzA?oc=5",
 "source": "San Francisco Chronicle",
@@ -339,6 +349,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "LIVE from MAVERICKS, California!",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oYXl3WU5qbElxdnZ2WkRJR3M4bERUOTM5WW5yMk5xLVMzcVZrVVJwdTN5VV96clcyTDdsVE9NczltVzVOSGN0dWNIdGVTdDFjM2xtcFZscnZRN0JocE9TYU5MUnduSUNFVzJVY2U0MnI?oc=5",
+"source": "Surf News Network",
+"at": "2026-11-14T19:37+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Supercharged El Niño Swell Obliterates Michelin Hotel San Cristobal in Baja (Video)",
@@ -489,18 +509,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "Results for Alonso Correa at Norte Surf Fest 2026",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONHhadUtFZzRKUzYyc002R3FuUnRucFBYY0hQcFVjYWFfM3FlSTlIVkE2c2g5ZWpTY3A4azdDaDVxelFtaWxkeE52dS1QT1hwajBWekhiYk5YY0ZfYVd6U21jeTNGQ3BuQVd1cW1ubTN1Z3JlbUo0TnVybmhLc1pqREdrRGczTmZXM0lDUk9B?oc=5",
-"source": "World Surf League",
-"at": "2026-11-14T05:49+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"alonso-correa"
-],
-"kind": "outlet"
 },
 {
 "title": "When do the big waves peak in Santa Cruz? Saturday around high tide, with another swell due Monday",
@@ -1041,16 +1049,6 @@
 "at": "2026-11-13T02:46+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNDQ3/copie-de-ander-mendiguren3.jpg?profile=rss",
 "desc": "From peer-judged heats to bottomless Basque cider, episode three showcases exactly why the TFI is the most laid-back contest in surfing.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Prizes & Placing - HTA Haleʻiwa Pro 2026",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVLVJUNlF3MnNaQ2ZVSHo1V0UtaHdGcDZuQlhRQjBzeDBJTGUtQnZyZEV1TmRwVDdvbXlDbWlPcEp3UmwtVEZ6Mm41c3Z0R0tnSEMwdWpXM1pCcmpIVkpuanlpc3hiMmt5ZlRIaTVmR0dFaC1nQTlhX09TUFV2UQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T02:33+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
