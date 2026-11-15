@@ -1,5 +1,36 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.5';
+const APP_VERSION = 'app-0.6';
+const RESET_MS = 30 * 60 * 1000;
+const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
+function pwOk(pw) {
+  return typeof pw === 'string' && pw.length >= 8 && pw.length <= 200 && /[0-9]/.test(pw) && /[^A-Za-z0-9]/.test(pw);
+}
+let migrated = null;
+async function migrate(env) {
+  if (migrated) return migrated;
+  const st = { phoneUnique: false };
+  try { await env.DB.prepare('DROP INDEX IF EXISTS users_phone').run(); } catch (e) {}
+  await env.DB.prepare('CREATE TABLE IF NOT EXISTS password_resets(token_hash TEXT PRIMARY KEY, user_id INTEGER NOT NULL, expires_at INTEGER NOT NULL, used INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL)').run();
+  try {
+    const { results } = await env.DB.prepare('PRAGMA index_list(users)').all();
+    for (const ix of results || []) {
+      if (!ix.unique) continue;
+      const cols = (await env.DB.prepare(`PRAGMA index_info("${String(ix.name).replace(/"/g, '')}")`).all()).results.map((c) => c.name);
+      if (cols.length === 1 && cols[0] === 'phone') st.phoneUnique = true;
+    }
+  } catch (e) {}
+  migrated = st;
+  return st;
+}
+const emailOn = (env) => !!(env.BREVO_API_KEY && env.MAIL_FROM);
+async function sendMail(env, to, subject, text, html) {
+  const r = await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST',
+    headers: { 'api-key': env.BREVO_API_KEY, 'content-type': 'application/json', accept: 'application/json' },
+    body: JSON.stringify({ sender: { name: env.MAIL_NAME || 'Surf Fantasy Leagues', email: env.MAIL_FROM }, to: [{ email: to }], subject, textContent: text, htmlContent: html })
+  });
+  return r.ok;
+}
 const enc = new TextEncoder();
 const SESSION_MS = 7 * 24 * 3600 * 1000;
 const LOCK_MS = 15 * 60 * 1000;
@@ -151,7 +182,7 @@ async function register(req, env, ip) {
   const email = normEmail(b.email);
   const phone = normPhone(b.phone);
   if (!/^[A-Za-z0-9_]{3,24}$/.test(username)) return json({ error: 'Username must be 3-24 letters, numbers or underscores.' }, 400);
-  if (password.length < 10 || password.length > 200) return json({ error: 'Password must be 10-200 characters.' }, 400);
+  if (!pwOk(password)) return json({ error: PW_RULE }, 400);
   if (!email) return json({ error: 'Enter a valid email address.' }, 400);
   if (!phone) return json({ error: 'Enter a valid phone number, for example +15551234567.' }, 400);
   const buckets = ['reg:' + ip];
@@ -160,9 +191,9 @@ async function register(req, env, ip) {
   const count = (await env.DB.prepare('SELECT COUNT(*) AS n FROM users').first()).n;
   const max = parseInt(env.MAX_USERS, 10) || 10;
   if (count >= max) return json({ error: 'Registration is full.' }, 403);
-  if (await env.DB.prepare('SELECT 1 AS x FROM users WHERE username = ? OR email = ? OR phone = ?').bind(username, email, phone).first()) {
-    return json({ error: 'That username, email or phone number is already in use.' }, 409);
-  }
+  if (await env.DB.prepare('SELECT 1 AS x FROM users WHERE lower(username) = lower(?)').bind(username).first()) return json({ error: 'That username is taken. Try another.' }, 409);
+  if (await env.DB.prepare('SELECT 1 AS x FROM users WHERE lower(email) = ?').bind(email).first()) return json({ error: 'An account with that email already exists. Sign in, or use Forgot password.' }, 409);
+  if ((await migrate(env)).phoneUnique && await env.DB.prepare('SELECT 1 AS x FROM users WHERE phone = ?').bind(phone).first()) return json({ error: 'That phone number is already on another account.' }, 409);
 
   const now = new Date().toISOString();
   const recovery = makeRecovery();
@@ -192,12 +223,13 @@ async function register(req, env, ip) {
         .bind(username, email, phone, pwHash, recHash, now).run();
     } catch (e) {
       await env.DB.prepare('UPDATE invite_codes SET uses = uses - 1 WHERE code = ?').bind(code).run();
-      return json({ error: 'That username, email or phone number is already in use.' }, 409);
+      return json({ error: 'That username or email is already in use.' }, 409);
     }
   }
   const user = await env.DB.prepare('SELECT id, is_admin FROM users WHERE username = ?').bind(username).first();
   const ses = await startSession(env, user.id);
-  const out = { ok: true, username, admin: !!user.is_admin, recoveryCode: recovery };
+  const out = { ok: true, username, admin: !!user.is_admin };
+  if (!emailOn(env)) out.recoveryCode = recovery;
   if (fromSite(req)) out.token = ses.token;
   return json(out, 200, { 'set-cookie': ses.cookie });
 }
@@ -209,13 +241,13 @@ async function login(req, env, ip) {
   const password = String(b.password || '').slice(0, 200);
   const buckets = ['ip:' + ip, 'u:' + username.toLowerCase()];
   if (await isLimited(env, buckets)) return json({ error: 'Too many attempts. Try again in 15 minutes.' }, 429);
-  const row = await env.DB.prepare('SELECT id, pw_hash, disabled FROM users WHERE username = ?').bind(username).first();
+  const row = await env.DB.prepare('SELECT id, pw_hash, disabled FROM users WHERE lower(username) = lower(?) OR (? LIKE \'%@%\' AND lower(email) = lower(?)) ORDER BY id LIMIT 1').bind(username, username, username).first();
   let ok = false;
   if (row) ok = await checkPw(password, row.pw_hash);
   else await derive(password, new Uint8Array(16), iters(env));
   if (!ok || row.disabled) {
     await addFailure(env, buckets);
-    return json({ error: 'Wrong username or password.' }, 401);
+    return json({ error: 'Wrong username, email or password.' }, 401);
   }
   await env.DB.prepare('DELETE FROM login_limits WHERE bucket = ?').bind('u:' + username.toLowerCase()).run();
   const ses = await startSession(env, row.id);
@@ -240,7 +272,7 @@ async function recover(req, env, ip) {
   const username = String(b.username || '').trim().slice(0, 40);
   const code = String(b.recoveryCode || '').trim().toUpperCase().replace(/[^A-Z0-9]/g, '');
   const password = String(b.password || '');
-  if (password.length < 10 || password.length > 200) return json({ error: 'New password must be 10-200 characters.' }, 400);
+  if (!pwOk(password)) return json({ error: PW_RULE }, 400);
   const buckets = ['rec:' + ip, 'recu:' + username.toLowerCase()];
   if (await isLimited(env, buckets)) return json({ error: 'Too many attempts. Try again in 15 minutes.' }, 429);
   const row = await env.DB.prepare('SELECT id, recovery_hash, disabled FROM users WHERE username = ?').bind(username).first();
@@ -257,6 +289,50 @@ async function recover(req, env, ip) {
   ]);
   const ses = await startSession(env, row.id);
   const out = { ok: true, recoveryCode: fresh };
+  if (fromSite(req)) out.token = ses.token;
+  return json(out, 200, { 'set-cookie': ses.cookie });
+}
+async function forgot(req, env, ip) {
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  if (!emailOn(env)) return json({ error: 'Email reset is not switched on yet. Use your recovery code, or ask the site admin.' }, 503);
+  const email = normEmail(b.email);
+  if (!email) return json({ error: 'Enter the email on your account.' }, 400);
+  const buckets = ['fg:' + ip, 'fge:' + email];
+  if (await isLimited(env, buckets)) return json({ error: 'Too many reset requests. Try again in 15 minutes.' }, 429);
+  await addFailure(env, buckets);
+  await migrate(env);
+  const u = await env.DB.prepare('SELECT id, username FROM users WHERE lower(email) = ? AND disabled = 0').bind(email).first();
+  if (u) {
+    const t = rand(32), now = Date.now();
+    await env.DB.prepare('INSERT INTO password_resets(token_hash, user_id, expires_at, used, created_at) VALUES (?, ?, ?, 0, ?)').bind(await sha256(t), u.id, now + RESET_MS, new Date(now).toISOString()).run();
+    await env.DB.prepare('DELETE FROM password_resets WHERE expires_at < ?').bind(now - 86400000).run();
+    const link = SITE + '/isa-peru-fantasy-2026/#reset/' + t;
+    const text = `Hi ${u.username},\n\nSomeone asked to reset the password for your Surf Fantasy Leagues account. Open this link within 30 minutes to choose a new password:\n\n${link}\n\nIf you didn't ask for this, you can ignore this email. Your password stays the same.`;
+    const html = `<div style="font-family:Arial,sans-serif;font-size:15px;color:#111;max-width:520px"><p>Hi ${u.username},</p><p>Someone asked to reset the password for your Surf Fantasy Leagues account. This link works for 30 minutes.</p><p><a href="${link}" style="display:inline-block;padding:12px 20px;border-radius:999px;background:#ef2fb0;color:#fff;text-decoration:none;font-weight:bold">Choose a new password</a></p><p style="font-size:12px;color:#555">Or paste this into your browser: ${link}</p><p style="font-size:12px;color:#555">If you didn't ask for this, ignore this email. Your password stays the same.</p></div>`;
+    try { await sendMail(env, email, 'Reset your Surf Fantasy Leagues password', text, html); } catch (e) {}
+  }
+  return json({ ok: true });
+}
+async function resetPw(req, env) {
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const t = String(b.token || '');
+  const password = String(b.password || '');
+  if (!/^[0-9a-f]{64}$/.test(t)) return json({ error: 'This reset link is not valid. Ask for a new one.' }, 400);
+  if (!pwOk(password)) return json({ error: PW_RULE }, 400);
+  await migrate(env);
+  const th = await sha256(t), now = Date.now();
+  const r = await env.DB.prepare('UPDATE password_resets SET used = 1 WHERE token_hash = ? AND used = 0 AND expires_at > ?').bind(th, now).run();
+  if (!r.meta || r.meta.changes !== 1) return json({ error: 'This reset link has expired or was already used. Ask for a new one.' }, 400);
+  const row = await env.DB.prepare('SELECT u.id, u.username FROM password_resets p JOIN users u ON u.id = p.user_id WHERE p.token_hash = ? AND u.disabled = 0').bind(th).first();
+  if (!row) return json({ error: 'This account is not available.' }, 400);
+  await env.DB.batch([
+    env.DB.prepare('UPDATE users SET pw_hash = ? WHERE id = ?').bind(await hashPw(password, env), row.id),
+    env.DB.prepare('DELETE FROM sessions WHERE user_id = ?').bind(row.id)
+  ]);
+  const ses = await startSession(env, row.id);
+  const out = { ok: true, username: row.username };
   if (fromSite(req)) out.token = ses.token;
   return json(out, 200, { 'set-cookie': ses.cookie });
 }
@@ -438,26 +514,38 @@ function field(label,input){return h('div',null,h('label',null,label),input)}
 function dates(a,b){const f=function(s){return new Date(s+'T00:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'})};return f(a)+' \u2013 '+f(b)}
 let ME=null,CONTESTS=[],tab='pools';
 
-function authView(first){
+const PWR='At least 8 characters, with 1 number and 1 special character.';
+function pwOk(p){return p.length>=8&&p.length<=200&&/[0-9]/.test(p)&&/[^A-Za-z0-9]/.test(p)}
+function authView(first,emailReset){
  let mode=first?'signup':'login';const v=$('view');
  function draw(){
   v.replaceChildren();const box=h('div','auth');
   const tabs=h('div','tabs');
   const a=h('button',mode==='login'?'on':'','Log in');const b=h('button',mode==='signup'?'on':'','Create account');
-  a.onclick=function(){mode='login';draw()};b.onclick=function(){mode='signup';draw()};tabs.append(a,b);box.append(tabs);
+  a.onclick=function(){mode='login';toast('');draw()};b.onclick=function(){mode='signup';toast('');draw()};tabs.append(a,b);box.append(tabs);
   if(first)box.append(h('p','muted','Welcome. The first account becomes the admin and needs your setup code.'));
   const f=h('form');
-  const u=inp('Username','text','username');u.maxLength=24;
-  const p=inp('Password (10+ characters)','password',mode==='login'?'current-password':'new-password');
-  f.append(field('Username',u));
-  let em,ph,cd;
-  if(mode==='signup'){em=inp('Email','email','email');ph=inp('Phone, e.g. +15551234567','tel','tel');cd=inp(first?'Setup code':'Invite code','password','off');f.append(field('Email',em),field('Phone',ph))}
+  if(mode==='forgot'){
+   const em=inp('you@example.com','email','email');
+   f.append(h('p','muted','Enter the email on your account and we will send you a link to choose a new password.'),field('Email',em));
+   const s=h('button','go','Send reset link');s.type='submit';f.append(s);
+   const back=h('button','ghost','Back to log in');back.type='button';back.onclick=function(){mode='login';toast('');draw()};f.append(back);
+   f.onsubmit=async function(e){e.preventDefault();toast('');const r=await api('/api/forgot',{email:em.value});if(!r.ok)return toast(r.d.error||'Could not send the email.',true);f.replaceChildren(h('p',null,'Check your email. If an account uses that address, a reset link is on its way. It works for 30 minutes.'),back)};
+   box.append(f);v.append(box);return}
+  const u=inp(mode==='login'?'Username or email':'Username','text','username');u.maxLength=mode==='login'?254:24;
+  const p=inp(mode==='login'?'Password':'Create a password','password',mode==='login'?'current-password':'new-password');
+  f.append(field(mode==='login'?'Username or email':'Username',u));
+  let em,ph,cd,p2,hint;
+  if(mode==='signup'){em=inp('Email','email','email');ph=inp('Phone, e.g. +15551234567','tel','tel');cd=inp(first?'Setup code':'Invite code','text','off');f.append(field('Email',em),field('Phone',ph))}
   f.append(field('Password',p));
-  if(mode==='signup')f.append(field(first?'Setup code':'Invite code',cd));
+  if(mode==='signup'){p2=inp('Type it again','password','new-password');hint=h('p','muted',PWR);f.append(hint,field('Confirm password',p2),field(first?'Setup code':'Invite code',cd));
+   const chk=function(){const ok=pwOk(p.value);hint.textContent=(ok?'\u2713 ':'')+PWR;hint.style.color=p.value?(ok?'#5be3a0':'#ffb3c7'):''};p.oninput=chk}
   const s=h('button','go',mode==='login'?'Log in':'Create account');s.type='submit';f.append(s);
+  if(mode==='login'){const fg=h('button','ghost','Forgot password?');fg.type='button';fg.onclick=function(){mode='forgot';toast('');draw()};f.append(fg)}
   f.onsubmit=async function(e){e.preventDefault();toast('');
-   if(mode==='login'){const r=await api('/api/login',{username:u.value,password:p.value});if(!r.ok)return toast(r.d.error||'Could not log in.',true);boot()}
-   else{const r=await api('/api/register',{username:u.value,password:p.value,email:em.value,phone:ph.value,code:cd.value});if(!r.ok)return toast(r.d.error||'Could not create account.',true);recoveryView(r.d.recoveryCode)}};
+   if(mode==='login'){const r=await api('/api/login',{username:u.value.trim(),password:p.value});if(!r.ok)return toast(r.d.error||'Could not log in.',true);boot()}
+   else{if(!pwOk(p.value))return toast(PWR,true);if(p.value!==p2.value)return toast('The two passwords do not match.',true);
+    const r=await api('/api/register',{username:u.value.trim(),password:p.value,email:em.value.trim(),phone:ph.value.trim(),code:cd.value.trim()});if(!r.ok)return toast(r.d.error||'Could not create account.',true);if(r.d.recoveryCode)recoveryView(r.d.recoveryCode);else boot()}};
   box.append(f);v.append(box)}
  draw()}
 
@@ -544,7 +632,7 @@ async function boot(){
   const c=await api('/api/contests');CONTESTS=c.d.contests||[];go('pools')}
  else{
   ME=null;$('who').classList.add('hide');$('nav').classList.add('hide');
-  const cfg=await api('/api/config');authView(!!cfg.d.firstRun)}}
+  const cfg=await api('/api/config');authView(!!cfg.d.firstRun,!!cfg.d.emailReset)}}
 $('out').onclick=async function(){await api('/api/logout',{});toast('');boot()};
 boot();
 </script></body></html>`;
@@ -586,7 +674,7 @@ async function handle(request, env) {
         if (path === '/api/config') {
           const c = await env.DB.prepare('SELECT COUNT(*) AS n FROM contests').first();
           const u = await env.DB.prepare('SELECT COUNT(*) AS n FROM users').first();
-          return json({ appName: 'Surf Pools', contests: c.n, firstRun: u.n === 0 });
+          return json({ appName: 'Surf Pools', contests: c.n, firstRun: u.n === 0, emailReset: emailOn(env), passwordRule: PW_RULE });
         }
         if (path === '/api/contests') {
           const { results } = await env.DB.prepare(
@@ -609,10 +697,12 @@ async function handle(request, env) {
           return await inviteList(env, u);
         }
       } else if (request.method === 'POST') {
-        if (path === '/api/register') return await register(request, env, ip);
+        if (path === '/api/register') { await migrate(env); return await register(request, env, ip); }
         if (path === '/api/login') return await login(request, env, ip);
         if (path === '/api/logout') return await logout(request, env);
         if (path === '/api/recover') return await recover(request, env, ip);
+        if (path === '/api/forgot') return await forgot(request, env, ip);
+        if (path === '/api/reset') return await resetPw(request, env);
         if (path === '/api/invites/create') {
           const u = await currentUser(request, env);
           if (!u) return json({ error: 'Please log in.' }, 401);

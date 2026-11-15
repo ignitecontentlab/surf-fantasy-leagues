@@ -280,6 +280,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 max(26px,env(safe-area-in
 .af input:focus{outline:2px solid var(--cyan);outline-offset:1px}
 .af .go{justify-content:center;min-height:46px;background:linear-gradient(90deg,var(--pink),var(--cyan));color:#08102a;border:0;font-size:15px}
 .atabs{display:flex;gap:6px;margin:4px 0 6px;flex-wrap:wrap}.atabs button{border-radius:999px;font-size:12px;min-height:34px}.atabs button.on{background:var(--cyan);color:#080d29;border-color:var(--cyan)}
+.pwrap{position:relative;display:block}.pwrap input{padding-right:64px!important}.pweye{position:absolute;right:6px;top:50%;transform:translateY(-50%);min-height:30px;padding:0 10px;border-radius:999px;font-size:12px}.pwhint{margin:-4px 0 0;font-size:12px;color:var(--muted,#9fb2d6)}.pwhint.ok{color:#5be3a0}.pwhint.bad{color:#ffb3c7}.alink{background:none!important;border:0!important;padding:0!important;min-height:0!important;color:var(--cyan);font-size:13px;font-weight:700;text-decoration:underline;justify-self:start;cursor:pointer}
 .aerr{color:#ff9fd6;font-size:13px;font-weight:800;min-height:1em}.aok{color:var(--cyan);font-size:13px;font-weight:800}
 .reccode{font:900 22px ui-monospace,Menlo,monospace;letter-spacing:2px;background:#0b1130;border:1px dashed var(--gold);color:var(--gold);border-radius:12px;padding:14px;text-align:center;margin:10px 0;word-break:break-all}
 .plist{display:grid;gap:10px}.pitem{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:#141a45;border:1px solid var(--line);border-radius:12px;padding:12px 14px}.pitem b{color:var(--gold)}.pitem small{display:block;color:var(--muted);font-size:12px}
@@ -329,7 +330,7 @@ footer{border-top:1px solid var(--line);padding:22px 0 max(26px,env(safe-area-in
 </div>
 <div id="sheet" class="sheet" hidden></div>
 <script>
-const VERSION='2.4.0';
+const VERSION='2.5.0';
 const WORKER='https://isa-proxy.ignitecontentlab.workers.dev/';
 const ISO={USA:'US',AUS:'AU',BRA:'BR',PER:'PE',JPN:'JP',FRA:'FR',ESP:'ES',POR:'PT',ARG:'AR',GER:'DE',ITA:'IT',INA:'ID',ESA:'SV',RSA:'ZA',CRC:'CR',MEX:'MX',VEN:'VE',CHI:'CL',CAN:'CA',NZL:'NZ',GBR:'GB',PUR:'PR',PHI:'PH',CHN:'CN',TPE:'TW',NED:'NL',GUA:'GT',PAN:'PA',ECU:'EC',ISR:'IL',MAR:'MA',GRE:'GR',LAT:'LV',NOR:'NO',AUT:'AT',POL:'PL',SVK:'SK',ROU:'RO',CZE:'CZ',SWE:'SE',UZB:'UZ',JAM:'JM',NCA:'NI',DOM:'DO',BAR:'BB',PYF:'PF',IRL:'IE',URU:'UY',FIN:'FI',ASA:'AS',IVB:'VG',UKR:'UA',COL:'CO',HAW:'US-HI',FIJ:'FJ',UAE:'AE',ENG:'GB-ENG',IND:'IN',KOR:'KR',THA:'TH',SEN:'SN',BEL:'BE',SUI:'CH',DEN:'DK',HKG:'HK',SGP:'SG',SRI:'LK',TAH:'PF',MDV:'MV',PNG:'PG'};
 const $=id=>document.getElementById(id);
@@ -348,9 +349,9 @@ function isRunning(){return LIVE&&LIVE.status==='RUNNING'&&Date.now()-liveAt<600
 function paintPill(){}
 
 /* ---------- router ---------- */
-function readHash(){let h=decodeURIComponent(location.hash.slice(1)),[t,...rest]=h.split('/');route={tab:TABS.some(x=>x[0]===t)||t==='surfer'||t==='heat'||t==='spot'||t==='account'?t:'live',id:rest.join('/')}}
+function readHash(){let h=decodeURIComponent(location.hash.slice(1)),[t,...rest]=h.split('/');if(t==='reset'){RESET=rest.join('/');t='account';rest=[];try{history.replaceState(null,'',location.pathname+location.search+'#account')}catch{}}route={tab:TABS.some(x=>x[0]===t)||t==='surfer'||t==='heat'||t==='spot'||t==='account'?t:'live',id:rest.join('/')}}
 function go(h){location.hash=h}
-window.addEventListener('hashchange',()=>{readHash();render();window.scrollTo({top:0})});
+window.addEventListener('hashchange',()=>{readHash();render();window.scrollTo({top:0});checkReset()});
 const TABDESC={live:'Bug, video, heats',news:'Surf headlines from every outlet',viral:'Clips going viral right now',events:'Every contest, by host',surfers:'All surfers and stats',rankings:'CT and ISA standings',records:'Top waves and heats'};
 function nav(){let on=k=>route.tab===k||route.tab==='surfer'&&k==='surfers'||route.tab==='heat'&&k==='live'||route.tab==='spot'&&k==='events';$('nav').innerHTML=TABS.map(([k,l])=>`<a href="#${k}" class="${on(k)?'on':''}">${l}</a>`).join('')+'<a href="#account" class="pool'+(route.tab==='account'?' on':'')+'">My pools</a>';
  $('menu').innerHTML=TABS.map(([k,l])=>`<a href="#${k}" class="${on(k)?'on':''}">${l}<small>${TABDESC[k]}</small></a>`).join('')+'<a href="#account" class="pool"><b>My pools →</b><small>'+(ME?'Signed in as '+esc(ME.username)+'. Your pools and account':'Sign in to see your private pools')+'</small></a>';
@@ -508,17 +509,30 @@ function setTok(t){try{t?localStorage.setItem('sfl-token',t):localStorage.remove
 async function api(path,body){let h={},t=tok();if(t)h.Authorization='Bearer '+t;if(body)h['Content-Type']='application/json';let c=new AbortController(),tm=setTimeout(()=>c.abort(),15000);try{let r=await fetch(APP+path,{method:body?'POST':'GET',headers:h,body:body?JSON.stringify(body):undefined,signal:c.signal,cache:'no-store'});let d=await r.json().catch(()=>({}));return {ok:r.ok,status:r.status,d}}catch(e){return {ok:false,status:0,d:{error:'Could not reach the account server. Check your connection and try again.'}}}finally{clearTimeout(tm)}}
 async function loadMe(){if(!tok()){ME=null;meChecked=true;paintAcct();if($('menu').hidden)nav();return}let r=await api('/api/me');if(r.ok){ME=r.d.user||null;if(!ME)setTok('')}else if(r.status===401)setTok('');meChecked=true;paintAcct();if($('menu').hidden)nav()}
 function paintAcct(){let b=$('acctBtn');if(!b)return;b.textContent=ME?ME.username:'Sign in';b.classList.toggle('in',!!ME);b.setAttribute('aria-label',ME?'My account: '+ME.username:'Sign in')}
-function authSheet(mode='in',msg=''){let sh=$('sheet'),T={in:'Sign in',up:'Create account',rec:'Forgot password'};
- let f={in:`<label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" required></label><label>Password<input id="ap" type="password" autocomplete="current-password" required></label>`,
- up:`<label>Invite code<input id="ac" autocapitalize="characters" spellcheck="false" placeholder="From the pool admin" required></label><label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="3-24 letters, numbers or _" required></label><label>Password<input id="ap" type="password" autocomplete="new-password" placeholder="At least 10 characters" required></label><label>Email<input id="ae" type="email" autocomplete="email" required></label><label>Phone<input id="aph" type="tel" autocomplete="tel" placeholder="+15551234567" required></label>`,
- rec:`<p class="note" style="margin:0">Use the recovery code you saved when you made your account.</p><label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" required></label><label>Recovery code<input id="arc" autocapitalize="characters" spellcheck="false" placeholder="XXXX-XXXX-XXXX-XXXX" required></label><label>New password<input id="ap" type="password" autocomplete="new-password" placeholder="At least 10 characters" required></label>`}[mode];
- sh.innerHTML=`<div class="sheetin" role="dialog" aria-modal="true" aria-label="${T[mode]}" style="max-width:460px"><button class="x" data-close>Close</button><h2>${T[mode]}</h2><div class="atabs">${Object.entries(T).map(([k,l])=>`<button type="button" data-am="${k}" class="${k===mode?'on':''}">${l}</button>`).join('')}</div><p class="note" style="margin:0">One account for this site and every Surf Pools pool.</p><form class="af" id="authf" novalidate>${f}<div class="aerr" id="aerr" role="alert">${esc(msg)}</div><button class="go" type="submit">${T[mode]}</button></form></div>`;
+const PWR='At least 8 characters, with 1 number and 1 special character (like ! or #).';
+const pwOk=p=>p.length>=8&&p.length<=200&&/[0-9]/.test(p)&&/[^A-Za-z0-9]/.test(p);
+let RESET='';
+function checkReset(){if(RESET){let k=RESET;RESET='';authSheet('reset','',k)}}
+function authSheet(mode='in',msg='',rtok=''){let sh=$('sheet'),T={in:'Sign in',up:'Create account',fg:'Forgot password',rec:'Use recovery code',reset:'Choose a new password'},B={in:'Sign in',up:'Create account',fg:'Send reset link',rec:'Reset password',reset:'Save new password'};
+ let pw=(lab,ph)=>`<label>${lab}<span class="pwrap"><input id="ap" type="password" autocomplete="new-password" placeholder="${ph}" required><button type="button" class="pweye" data-eye="ap">Show</button></span></label><p class="pwhint" id="aph2">${PWR}</p><label>Confirm password<input id="ap2" type="password" autocomplete="new-password" placeholder="Type it again" required></label>`;
+ let f={in:`<label>Username or email<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" required></label><label>Password<span class="pwrap"><input id="ap" type="password" autocomplete="current-password" required><button type="button" class="pweye" data-eye="ap">Show</button></span></label><button type="button" class="alink" data-am="fg">Forgot password?</button>`,
+ up:`<label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="3-24 letters, numbers or _" required></label><label>Email<input id="ae" type="email" autocomplete="email" required></label><label>Phone<input id="aph" type="tel" autocomplete="tel" placeholder="+15551234567" required></label>${pw('Password','Create a password')}<label>Invite code<input id="ac" autocapitalize="characters" spellcheck="false" placeholder="From the pool admin" required></label>`,
+ fg:`<p class="note" style="margin:0">Enter the email on your account. We will send a link to choose a new password.</p><label>Email<input id="ae" type="email" autocomplete="email" required></label><button type="button" class="alink" data-am="rec">Have a recovery code instead?</button>`,
+ rec:`<p class="note" style="margin:0">Use the recovery code you saved when you made your account.</p><label>Username<input id="au" autocomplete="username" autocapitalize="none" spellcheck="false" required></label><label>Recovery code<input id="arc" autocapitalize="characters" spellcheck="false" placeholder="XXXX-XXXX-XXXX-XXXX" required></label>${pw('New password','New password')}`,
+ reset:`<p class="note" style="margin:0">Pick a new password for your account.</p>${pw('New password','New password')}`}[mode];
+ let tabs=mode==='in'||mode==='up'?`<div class="atabs">${['in','up'].map(k=>`<button type="button" data-am="${k}" class="${k===mode?'on':''}">${T[k]}</button>`).join('')}</div>`:(mode==='reset'?'':`<button type="button" class="alink" data-am="in">Back to sign in</button>`);
+ sh.innerHTML=`<div class="sheetin" role="dialog" aria-modal="true" aria-label="${T[mode]}" style="max-width:460px"><button class="x" data-close>Close</button><h2>${T[mode]}</h2>${tabs}${mode==='in'||mode==='up'?'<p class="note" style="margin:0">One account for this site and every Surf Pools pool.</p>':''}<form class="af" id="authf" novalidate>${f}<div class="aerr" id="aerr" role="alert">${esc(msg)}</div><button class="go" type="submit">${B[mode]}</button></form></div>`;
  sh.hidden=false;document.body.style.overflow='hidden';
  sh.querySelectorAll('[data-am]').forEach(b=>b.onclick=()=>authSheet(b.dataset.am));
+ sh.querySelectorAll('[data-eye]').forEach(b=>b.onclick=()=>{let i=$(b.dataset.eye),s=i.type==='password';i.type=s?'text':'password';b.textContent=s?'Hide':'Show'});
+ let hint=$('aph2');if(hint)$('ap').addEventListener('input',()=>{let v=$('ap').value,ok=pwOk(v);hint.className='pwhint'+(v?(ok?' ok':' bad'):'');hint.textContent=(ok?'Looks good. ':'')+PWR});
  setTimeout(()=>sh.querySelector('input')?.focus(),30);
- $('authf').onsubmit=async e=>{e.preventDefault();let v=id=>($(id)?.value||'').trim(),btn=e.target.querySelector('.go'),err=$('aerr');btn.disabled=true;btn.textContent='Working…';err.textContent='';
-  let r=mode==='in'?await api('/api/login',{username:v('au'),password:$('ap').value}):mode==='up'?await api('/api/register',{username:v('au'),password:$('ap').value,email:v('ae'),phone:v('aph'),code:v('ac').toUpperCase()}):await api('/api/recover',{username:v('au'),recoveryCode:v('arc'),password:$('ap').value});
-  btn.disabled=false;btn.textContent=T[mode];
+ $('authf').onsubmit=async e=>{e.preventDefault();let v=id=>($(id)?.value||'').trim(),btn=e.target.querySelector('.go'),err=$('aerr');err.textContent='';
+  if(hint){if(!pwOk($('ap').value)){err.textContent=PWR;return}if($('ap').value!==$('ap2').value){err.textContent='The two passwords do not match.';return}}
+  btn.disabled=true;btn.textContent='Working…';
+  let r=mode==='in'?await api('/api/login',{username:v('au'),password:$('ap').value}):mode==='up'?await api('/api/register',{username:v('au'),password:$('ap').value,email:v('ae'),phone:v('aph'),code:v('ac').toUpperCase()}):mode==='fg'?await api('/api/forgot',{email:v('ae')}):mode==='rec'?await api('/api/recover',{username:v('au'),recoveryCode:v('arc'),password:$('ap').value}):await api('/api/reset',{token:rtok,password:$('ap').value});
+  btn.disabled=false;btn.textContent=B[mode];
+  if(mode==='fg'){if(!r.ok){err.innerHTML=esc(r.d.error||'Could not send the email.');return}e.target.innerHTML=`<p class="note" style="margin:0">Check your email. If an account uses ${esc(v('ae')||'that address')}, a reset link is on its way. It works for 30 minutes, so check your spam folder too.</p><button class="go" type="button" data-close>Done</button>`;return}
   if(!r.ok||!r.d.token){err.textContent=r.d.error||'That did not work. Try again.';return}
   setTok(r.d.token);await loadMe();
   if(r.d.recoveryCode)recSheet(r.d.recoveryCode,mode==='rec');else{closeSheet();if(route.tab==='account')render();else go('account')}}}
@@ -611,7 +625,7 @@ setInterval(()=>{let c=$('bugclock'),p=activePod();if(c&&p&&p.run)c.textContent=
 async function topData(){await Promise.all([getJSON('events',300000).catch(()=>null),getJSON('youtube',600000).catch(()=>null),getJSON('scores',90000).catch(()=>null),getJSON('news',600000).catch(()=>null),getJSON('surfers',600000).catch(()=>null)]);paintTop()}
 
 $('ver').textContent='v'+VERSION;
-readHash();render();loadMe();topData();pollLive();pollLive2();setInterval(()=>{pollLive();pollLive2()},10000);setInterval(()=>{if(!document.hidden)topData()},120000);
+readHash();render();loadMe();checkReset();topData();pollLive();pollLive2();setInterval(()=>{pollLive();pollLive2()},10000);setInterval(()=>{if(!document.hidden)topData()},120000);
 setInterval(()=>{if(!document.hidden&&['events','live'].includes(route.tab)){DATA.events&&(DATA.events._at=0);if(route.tab==='events')render()}},300000);
 </script>
 </body>
