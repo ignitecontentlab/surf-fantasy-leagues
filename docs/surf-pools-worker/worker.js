@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.9.2';
+const APP_VERSION = 'app-0.10.0';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -145,7 +145,7 @@ async function currentUser(req, env) {
   const t = bearer(req) || getCookie(req, 'sp_session');
   if (!t || !/^[0-9a-f]{64}$/.test(t)) return null;
   return env.DB.prepare(
-    'SELECT u.id, u.username, u.is_admin, u.email, u.phone, u.email_verified, u.phone_verified FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > ? AND u.disabled = 0'
+    'SELECT u.id, u.username, u.is_admin, u.admin_level, u.email, u.phone, u.email_verified, u.phone_verified FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > ? AND u.disabled = 0'
   ).bind(await sha256(t), Date.now()).first();
 }
 async function startSession(env, userId) {
@@ -210,7 +210,16 @@ async function register(req, env, ip) {
       'INSERT INTO users(username, email, phone, pw_hash, recovery_hash, is_admin, created_at) SELECT ?, ?, ?, ?, ?, 1, ? WHERE NOT EXISTS (SELECT 1 FROM users)'
     ).bind(username, email, phone, pwHash, recHash, now).run();
     if (!r.meta || r.meta.changes !== 1) return json({ error: 'Setup is already complete.' }, 409);
+  } else if (b.claim && claimOpen(await claimByToken(env, b.claim)) && !(await claimByToken(env, b.claim)).user_id) {
+    // a surfer opening their private claim link can make an account without an invite code
+    try {
+      await env.DB.prepare('INSERT INTO users(username, email, phone, pw_hash, recovery_hash, is_admin, created_at) VALUES (?, ?, ?, ?, ?, 0, ?)')
+        .bind(username, email, phone, pwHash, recHash, now).run();
+    } catch (e) {
+      return json({ error: 'That username or email is already in use.' }, 409);
+    }
   } else {
+    if (!(await toggle(env, 'signups'))) return json({ error: 'New sign-ups are paused right now. Try again later.' }, 403);
     const u = await env.DB.prepare(
       'UPDATE invite_codes SET uses = uses + 1 WHERE code = ? AND disabled = 0 AND uses < max_uses AND (expires_at IS NULL OR expires_at > ?)'
     ).bind(code, Date.now()).run();
@@ -757,6 +766,7 @@ function rankBy(teams, cat) {
 // ---------- pool API ----------
 async function poolCreate2(req, env, u) {
   await migrateDrafts(env);
+  if (!u.admin_level && !u.is_admin && !(await toggle(env, 'poolCreate'))) return json({ error: 'New pools are paused right now. Try again later.' }, 403);
   const b = await readJson(req);
   if (!b) return json({ error: 'Bad request.' }, 400);
   const name = cleanText(b.name, 3, 40);
@@ -971,6 +981,7 @@ async function generalOne(env, u, cid) {
 function ordinal(n) { const s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
 async function generalJoin(req, env, u) {
   await migrateDrafts(env);
+  if (!u.admin_level && !u.is_admin && !(await toggle(env, 'publicDrafts'))) return json({ error: 'Public drafts are paused right now. Try again later.' }, 403);
   const b = await readJson(req);
   if (!b) return json({ error: 'Bad request.' }, 400);
   const g = await env.DB.prepare('SELECT * FROM gdrafts WHERE contest_id = ?').bind(String(b.contestId || '')).first();
@@ -988,6 +999,7 @@ async function generalJoin(req, env, u) {
 }
 async function generalPick(req, env, u) {
   await migrateDrafts(env);
+  if (!u.admin_level && !u.is_admin && !(await toggle(env, 'publicDrafts'))) return json({ error: 'Public drafts are paused right now. Try again later.' }, 403);
   const b = await readJson(req);
   if (!b) return json({ error: 'Bad request.' }, 400);
   const g = await env.DB.prepare('SELECT * FROM gdrafts WHERE contest_id = ?').bind(String(b.contestId || '')).first();
@@ -1240,6 +1252,428 @@ boot();
   });
 }
 
+// ---------- Admin levels, surfer profiles, site controls, bug reports (app-0.10) ----------
+// Levels: 0 member, 1 editor (surfer profiles, claims, bug reports), 2 admin (everything except the admin team),
+// 3 owner (the original account: the only one who can add or remove admins and editors; cannot be removed).
+const LEVELS = { 0: 'Member', 1: 'Editor', 2: 'Admin', 3: 'Owner' };
+const SITE_URL = SITE + '/isa-peru-fantasy-2026/';
+const CLAIM_DAYS = 14;
+const SOCIAL_KEYS = ['instagram', 'tiktok', 'youtube', 'x', 'facebook', 'website', 'wsl', 'isa', 'strava', 'linktree'];
+const SOCIAL_HOSTS = {
+  instagram: ['instagram.com'], tiktok: ['tiktok.com'], youtube: ['youtube.com', 'youtu.be'], x: ['x.com', 'twitter.com'],
+  facebook: ['facebook.com', 'fb.com'], wsl: ['worldsurfleague.com'], isa: ['isasurf.org'], strava: ['strava.com'], linktree: ['linktr.ee'], website: null
+};
+const DEFAULT_SITE = {
+  banner: { text: '', level: 'info', until: null },
+  ticker: { text: '', on: false },
+  toggles: { signups: true, poolCreate: true, publicDrafts: true, surferEdits: true, bugReports: true }
+};
+let adminMigrated = false;
+let ownerSet = false;
+async function migrateAdmin(env) {
+  if (adminMigrated && ownerSet) return;
+  if (adminMigrated) return ensureOwner(env);
+  try { await env.DB.prepare('ALTER TABLE users ADD COLUMN admin_level INTEGER NOT NULL DEFAULT 0').run(); } catch (e) {}
+  const S = [
+    'CREATE TABLE IF NOT EXISTS app_state(k TEXT PRIMARY KEY, v TEXT)',
+    'CREATE TABLE IF NOT EXISTS admin_log(id INTEGER PRIMARY KEY, at INTEGER NOT NULL, user_id INTEGER, username TEXT, action TEXT NOT NULL, detail TEXT)',
+    "CREATE TABLE IF NOT EXISTS surfer_claims(id INTEGER PRIMARY KEY, surfer_key TEXT NOT NULL, surfer_name TEXT NOT NULL, token_hash TEXT UNIQUE NOT NULL, code TEXT NOT NULL, contact TEXT, created_by INTEGER, created_at INTEGER NOT NULL, expires_at INTEGER NOT NULL, status TEXT NOT NULL DEFAULT 'sent', user_id INTEGER, proof_url TEXT, auto TEXT, note TEXT, decided_by INTEGER, decided_at INTEGER)",
+    'CREATE TABLE IF NOT EXISTS surfer_links(surfer_key TEXT PRIMARY KEY, user_id INTEGER UNIQUE NOT NULL, verified_at INTEGER NOT NULL, claim_id INTEGER)',
+    'CREATE TABLE IF NOT EXISTS surfer_profiles(surfer_key TEXT PRIMARY KEY, name TEXT, bio TEXT, links_json TEXT, photo TEXT, photo_at INTEGER, updated_at INTEGER, updated_by INTEGER, hidden INTEGER NOT NULL DEFAULT 0)',
+    'CREATE TABLE IF NOT EXISTS profile_edits(id INTEGER PRIMARY KEY, surfer_key TEXT NOT NULL, at INTEGER NOT NULL, user_id INTEGER, username TEXT, before_json TEXT, after_json TEXT)',
+    "CREATE TABLE IF NOT EXISTS bug_reports(id INTEGER PRIMARY KEY, at INTEGER NOT NULL, user_id INTEGER, username TEXT, page TEXT, text TEXT NOT NULL, ua TEXT, status TEXT NOT NULL DEFAULT 'open', admin_note TEXT, updated_at INTEGER)"
+  ];
+  for (const q of S) await env.DB.prepare(q).run();
+  adminMigrated = true;
+  return ensureOwner(env);
+}
+async function ensureOwner(env) {
+  // the original account is the owner: the first admin ever created
+  let own = await env.DB.prepare("SELECT v FROM app_state WHERE k = 'owner_id'").first();
+  if (!own) {
+    const first = await env.DB.prepare('SELECT id FROM users WHERE is_admin = 1 ORDER BY id LIMIT 1').first();
+    if (first) {
+      await env.DB.prepare("INSERT OR IGNORE INTO app_state(k, v) VALUES ('owner_id', ?)").bind(String(first.id)).run();
+      own = { v: String(first.id) };
+    }
+  }
+  if (own) {
+    await env.DB.prepare('UPDATE users SET admin_level = 3, is_admin = 1 WHERE id = ?').bind(parseInt(own.v, 10)).run();
+    await env.DB.prepare('UPDATE users SET admin_level = 2 WHERE is_admin = 1 AND admin_level < 2 AND id != ?').bind(parseInt(own.v, 10)).run();
+    ownerSet = true;
+  }
+}
+const lvl = (u) => (u ? Math.max(u.admin_level || 0, u.is_admin ? 2 : 0) : 0);
+async function ownerId(env) {
+  const r = await env.DB.prepare("SELECT v FROM app_state WHERE k = 'owner_id'").first();
+  return r ? parseInt(r.v, 10) : null;
+}
+async function logA(env, u, action, detail) {
+  await env.DB.prepare('INSERT INTO admin_log(at, user_id, username, action, detail) VALUES (?, ?, ?, ?, ?)')
+    .bind(Date.now(), u ? u.id : null, u ? u.username : 'system', action, String(detail || '').slice(0, 500)).run();
+}
+async function siteSettings(env) {
+  const r = await env.DB.prepare("SELECT v FROM app_state WHERE k = 'site'").first();
+  const s = pj(r && r.v, {});
+  return { banner: { ...DEFAULT_SITE.banner, ...(s.banner || {}) }, ticker: { ...DEFAULT_SITE.ticker, ...(s.ticker || {}) }, toggles: { ...DEFAULT_SITE.toggles, ...(s.toggles || {}) } };
+}
+async function toggle(env, k) {
+  return (await siteSettings(env)).toggles[k] !== false;
+}
+async function notifyAdmins(env, subject, lines, hash, minLevel = 1) {
+  if (!emailOn(env)) return false;
+  const { results } = await env.DB.prepare('SELECT email FROM users WHERE disabled = 0 AND (admin_level >= ? OR is_admin = 1) AND email IS NOT NULL').bind(minLevel).all();
+  const link = SITE_URL + '#admin' + (hash ? '/' + hash : '');
+  const text = lines.join('\n') + '\n\nOpen it in the admin panel: ' + link;
+  const html = lines.map((l) => '<p>' + escH(l) + '</p>').join('') + `<p><a href="${link}">Open it in the admin panel</a></p>`;
+  for (const r of results) { try { await sendMail(env, r.email, subject, text, html); } catch (e) {} }
+  return true;
+}
+function escH(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]); }
+function skey(s) { return String(s || '').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80); }
+function cleanBio(v) {
+  const s = String(v == null ? '' : v).replace(/[\u0000-\u0009\u000b-\u001f\u007f<>]/g, '').replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+  return s.length <= 1500 ? s : null;
+}
+function cleanLinks(o) {
+  const out = {};
+  for (const k of SOCIAL_KEYS) {
+    let v = String((o && o[k]) || '').trim();
+    if (!v) continue;
+    if (k === 'instagram' && /^@?[A-Za-z0-9._]{1,30}$/.test(v)) v = 'https://www.instagram.com/' + v.replace(/^@/, '') + '/';
+    if (k === 'tiktok' && /^@?[A-Za-z0-9._]{1,30}$/.test(v)) v = 'https://www.tiktok.com/@' + v.replace(/^@/, '');
+    if (k === 'x' && /^@?[A-Za-z0-9_]{1,15}$/.test(v)) v = 'https://x.com/' + v.replace(/^@/, '');
+    if (!/^https?:\/\//i.test(v)) v = 'https://' + v;
+    const u = cleanUrl(v.replace(/^http:/i, 'https:'));
+    if (!u) return { error: `The ${k} link is not a valid web address.` };
+    const hosts = SOCIAL_HOSTS[k];
+    const host = new URL(u).hostname.replace(/^www\.|^m\./, '');
+    if (hosts && !hosts.some((h) => host === h || host.endsWith('.' + h))) return { error: `The ${k} link has to be on ${hosts[0]}.` };
+    out[k] = u;
+  }
+  return { links: out };
+}
+function photoOk(p) {
+  return typeof p === 'string' && /^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$/.test(p) && p.length <= 700000;
+}
+async function claimByToken(env, t) {
+  if (!t || !/^[0-9a-f]{48}$/.test(String(t))) return null;
+  return env.DB.prepare('SELECT * FROM surfer_claims WHERE token_hash = ?').bind(await sha256(String(t))).first();
+}
+const claimOpen = (c) => c && ['sent', 'pending'].includes(c.status) && c.expires_at > Date.now();
+// Best-effort automatic check: is the claim code visible at the proof link (a public post, profile or bio page)?
+async function autoCheck(url, code) {
+  if (!url) return 'no-link';
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, '');
+    const tries = [url];
+    const ig = /instagram\.com$/.test(host) && (new URL(url).pathname.split('/').filter(Boolean)[0] || '');
+    if (ig && !['p', 'reel', 'stories', 'tv'].includes(ig)) tries.unshift('https://i.instagram.com/api/v1/users/web_profile_info/?username=' + encodeURIComponent(ig));
+    for (const u of tries) {
+      const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36', 'x-ig-app-id': '936619743392459', accept: 'text/html,application/json' }, redirect: 'follow', cf: { cacheTtl: 0 } });
+      if (!r.ok) continue;
+      const body = (await r.text()).slice(0, 2000000);
+      if (body.toUpperCase().includes(code.toUpperCase())) return 'found';
+    }
+    return 'not-found';
+  } catch (e) {
+    return 'error';
+  }
+}
+async function linkOf(env, uid) {
+  return env.DB.prepare('SELECT l.surfer_key, c.surfer_name FROM surfer_links l LEFT JOIN surfer_claims c ON c.id = l.claim_id WHERE l.user_id = ?').bind(uid).first();
+}
+async function profileRow(env, k) {
+  return env.DB.prepare('SELECT * FROM surfer_profiles WHERE surfer_key = ?').bind(k).first();
+}
+function profileOut(p, verified) {
+  return { key: p.surfer_key, name: p.name || '', bio: p.bio || '', links: pj(p.links_json, {}), photo: p.photo ? `/api/surfers/photo?k=${encodeURIComponent(p.surfer_key)}&v=${p.photo_at || 0}` : null, updatedAt: p.updated_at, verified: !!verified };
+}
+async function saveProfile(env, u, k, name, b) {
+  const old = await profileRow(env, k);
+  const bio = b.bio === undefined ? (old ? old.bio : '') : cleanBio(b.bio);
+  if (bio === null) return { error: 'The bio can be up to 1,500 characters.' };
+  let links = old ? pj(old.links_json, {}) : {};
+  if (b.links !== undefined) { const L = cleanLinks(b.links); if (L.error) return L; links = L.links; }
+  let photo = old ? old.photo : null, photoAt = old ? old.photo_at : null;
+  if (b.photo === null) { photo = null; photoAt = null; }
+  else if (b.photo && b.photo !== 'keep') { if (!photoOk(b.photo)) return { error: 'The photo has to be a JPEG, PNG or WebP under about 500 KB.' }; photo = b.photo; photoAt = Date.now(); }
+  const now = Date.now();
+  await env.DB.prepare(`INSERT INTO surfer_profiles(surfer_key, name, bio, links_json, photo, photo_at, updated_at, updated_by, hidden) VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0)
+     ON CONFLICT(surfer_key) DO UPDATE SET name = excluded.name, bio = excluded.bio, links_json = excluded.links_json, photo = excluded.photo, photo_at = excluded.photo_at, updated_at = excluded.updated_at, updated_by = excluded.updated_by`)
+    .bind(k, name || (old && old.name) || '', bio, JSON.stringify(links), photo, photoAt, now, u.id).run();
+  const snap = (p) => p ? { bio: p.bio || '', links: pj(p.links_json, {}), photo: !!p.photo, photo_at: p.photo_at || null } : null;
+  await env.DB.prepare('INSERT INTO profile_edits(surfer_key, at, user_id, username, before_json, after_json) VALUES (?, ?, ?, ?, ?, ?)')
+    .bind(k, now, u.id, u.username, JSON.stringify(snap(old)), JSON.stringify({ bio, links, photo: !!photo, photo_at: photoAt })).run();
+  return { ok: true };
+}
+
+async function adminRoutes(request, env, url, path, ip) {
+  if (!path.startsWith('/api/site') && !path.startsWith('/api/surfer') && !path.startsWith('/api/claim') && !path.startsWith('/api/bugs') && !path.startsWith('/api/admin/') && path !== '/api/me') return null;
+  await migrateAdmin(env);
+  const G = request.method === 'GET', P = request.method === 'POST';
+  // ----- public -----
+  if (G && path === '/api/site') return json(await siteSettings(env), 200, { 'cache-control': 'public, max-age=30' });
+  if (G && path === '/api/surfers/profiles') {
+    const { results } = await env.DB.prepare('SELECT p.*, (SELECT 1 FROM surfer_links l WHERE l.surfer_key = p.surfer_key) AS v FROM surfer_profiles p WHERE p.hidden = 0').all();
+    const out = {};
+    for (const p of results) out[p.surfer_key] = profileOut(p, p.v);
+    const { results: L } = await env.DB.prepare('SELECT surfer_key FROM surfer_links').all();
+    for (const l of L) if (!out[l.surfer_key]) out[l.surfer_key] = { key: l.surfer_key, verified: true, links: {}, bio: '', photo: null };
+    return json({ profiles: out }, 200, { 'cache-control': 'public, max-age=60' });
+  }
+  if (G && path === '/api/surfers/photo') {
+    const p = await env.DB.prepare('SELECT photo FROM surfer_profiles WHERE surfer_key = ? AND hidden = 0').bind(String(url.searchParams.get('k') || '')).first();
+    const m = p && p.photo && /^data:(image\/(?:jpeg|png|webp));base64,(.+)$/.exec(p.photo);
+    if (!m) return new Response('Not found', { status: 404 });
+    return new Response(unb64(m[2]), { headers: { 'content-type': m[1], 'cache-control': 'public, max-age=86400', 'access-control-allow-origin': '*', 'x-content-type-options': 'nosniff' } });
+  }
+  if (P && path === '/api/bugs') {
+    if (!(await toggle(env, 'bugReports'))) return json({ error: 'Problem reports are turned off right now.' }, 403);
+    const b = await readJson(request);
+    const text = b && cleanBio(b.text);
+    if (!text || text.length < 5) return json({ error: 'Tell us a little about what went wrong (at least 5 characters).' }, 400);
+    if (await isLimited(env, ['bug:' + ip])) return json({ error: 'Too many reports from here. Try again later.' }, 429);
+    await addFailure(env, ['bug:' + ip]);
+    const u = await currentUser(request, env);
+    const r = await env.DB.prepare('INSERT INTO bug_reports(at, user_id, username, page, text, ua) VALUES (?, ?, ?, ?, ?, ?)')
+      .bind(Date.now(), u ? u.id : null, u ? u.username : null, String(b.page || '').slice(0, 200), text, String(request.headers.get('user-agent') || '').slice(0, 200)).run();
+    await notifyAdmins(env, 'New problem report on Surf Fantasy Leagues', ['From: ' + (u ? u.username : 'a visitor'), 'Page: ' + String(b.page || '').slice(0, 200), text.slice(0, 600)], 'bugs/' + (r.meta && r.meta.last_row_id));
+    return json({ ok: true });
+  }
+  if (G && path === '/api/claim') {
+    const c = await claimByToken(env, url.searchParams.get('t'));
+    if (!c) return json({ error: 'This claim link is not valid. Ask the site admin for a new one.' }, 404);
+    const u = await currentUser(request, env);
+    const mine = u && c.user_id === u.id;
+    const expired = c.expires_at < Date.now() && ['sent', 'pending'].includes(c.status);
+    return json({ claim: { surfer: c.surfer_name, key: c.surfer_key, status: expired ? 'expired' : c.status, expiresAt: c.expires_at, code: c.code, mine: !!mine, taken: !!c.user_id && !mine, proofUrl: mine ? c.proof_url : null, auto: mine ? c.auto : null } });
+  }
+  // ----- /api/me (adds level and the linked surfer) -----
+  if (G && path === '/api/me') {
+    const u = await currentUser(request, env);
+    if (!u) return json({ user: null });
+    const l = await linkOf(env, u.id);
+    const L = lvl(u);
+    return json({ user: { username: u.username, admin: L >= 2, level: L, levelName: LEVELS[L], owner: L === 3, email: u.email, phone: u.phone, emailVerified: !!u.email_verified, phoneVerified: !!u.phone_verified, surfer: l ? { key: l.surfer_key, name: l.surfer_name } : null } });
+  }
+  const u = await currentUser(request, env);
+  if (!u) return json({ error: 'Please log in.' }, 401);
+  const L = lvl(u);
+  const b = P ? await readJson(request.clone()) : null;
+  if (P && !b) return json({ error: 'Bad request.' }, 400);
+  // ----- surfer claims (the surfer's side) -----
+  if (P && path === '/api/claim/accept') {
+    const c = await claimByToken(env, b.t);
+    if (!claimOpen(c)) return json({ error: 'This claim link has expired or was already used. Ask the site admin for a new one.' }, 409);
+    if (c.user_id && c.user_id !== u.id) return json({ error: 'Another account already started this claim.' }, 409);
+    if (await env.DB.prepare('SELECT 1 AS x FROM surfer_links WHERE user_id = ? AND surfer_key != ?').bind(u.id, c.surfer_key).first()) return json({ error: 'This account is already verified as a different surfer.' }, 409);
+    const proof = cleanUrl(String(b.proofUrl || '').trim().replace(/^http:/i, 'https:')) || '';
+    if (!proof) return json({ error: 'Paste the https link to the post or profile where you put the code.' }, 400);
+    const auto = await autoCheck(proof, c.code);
+    await env.DB.prepare("UPDATE surfer_claims SET user_id = ?, proof_url = ?, auto = ?, status = 'pending' WHERE id = ?").bind(u.id, proof, auto, c.id).run();
+    await logA(env, u, 'claim.submitted', `${c.surfer_name}: ${proof} (auto check: ${auto})`);
+    await notifyAdmins(env, `Surfer claim to review: ${c.surfer_name}`, [`${u.username} says they are ${c.surfer_name}.`, `Proof link: ${proof}`, `Code to look for: ${c.code}`, `Automatic check: ${auto === 'found' ? 'code found on the page' : auto === 'not-found' ? 'code not found (the site may hide it from robots, so check by hand)' : 'could not read the page, check by hand'}`], 'claims/' + c.id);
+    return json({ ok: true, auto });
+  }
+  // ----- profile editing (verified surfer for their own profile, editors and up for any) -----
+  if (G && path === '/api/surfer/mine') {
+    const k = String(url.searchParams.get('k') || '');
+    const l = await linkOf(env, u.id);
+    const key = k && L >= 1 ? k : l && l.surfer_key;
+    if (!key) return json({ error: 'Your account is not linked to a surfer profile yet.' }, 404);
+    const p = await profileRow(env, key);
+    const ver = await env.DB.prepare('SELECT 1 AS x FROM surfer_links WHERE surfer_key = ?').bind(key).first();
+    return json({ profile: p ? profileOut(p, ver) : { key, name: l && l.surfer_key === key ? l.surfer_name : '', bio: '', links: {}, photo: null, verified: !!ver }, canEdit: true, socialKeys: SOCIAL_KEYS });
+  }
+  if (P && path === '/api/surfer/profile') {
+    const l = await linkOf(env, u.id);
+    const k = skey(b.key || (l && l.surfer_key));
+    if (!k) return json({ error: 'Pick a surfer.' }, 400);
+    const own = l && l.surfer_key === k;
+    if (!own && L < 1) return json({ error: 'You can only edit your own verified profile.' }, 403);
+    if (own && L < 1 && !(await toggle(env, 'surferEdits'))) return json({ error: 'Profile editing is paused right now. Try again later.' }, 403);
+    const name = cleanText(b.name || (l && l.surfer_name) || '', 0, 80) || '';
+    const r = await saveProfile(env, u, k, name, b);
+    if (r.error) return json(r, 400);
+    await logA(env, u, own ? 'profile.self-edit' : 'profile.admin-edit', k);
+    if (own && L < 1) await notifyAdmins(env, `${name || k} updated their surfer profile`, [`${u.username} (verified as ${name || k}) changed their profile. It is live now; you can undo it from the admin panel.`], 'profiles/' + k);
+    return json({ ok: true });
+  }
+  // ----- admin panel (editor and up) -----
+  if (!path.startsWith('/api/admin/')) return null;
+  if (L < 1) return json({ error: 'Admins only.' }, 403);
+  const need = (n) => L >= n ? null : json({ error: n >= 3 ? 'Only the original owner account can do that.' : 'You need the Admin level for that.' }, 403);
+  if (G && path === '/api/admin/overview') {
+    const q = async (s, ...a) => (await env.DB.prepare(s).bind(...a).first()).n;
+    const st = await env.DB.prepare("SELECT v FROM app_state WHERE k = 'catalog_sync'").first();
+    return json({
+      me: { username: u.username, level: L, levelName: LEVELS[L] }, version: APP_VERSION, email: emailOn(env), lastSync: st ? parseInt(st.v, 10) : null,
+      counts: {
+        users: await q('SELECT COUNT(*) AS n FROM users'), maxUsers: parseInt(env.MAX_USERS, 10) || 10,
+        pools: await q('SELECT COUNT(*) AS n FROM pools WHERE cancelled_at IS NULL'),
+        claimsPending: await q("SELECT COUNT(*) AS n FROM surfer_claims WHERE status = 'pending'"),
+        verified: await q('SELECT COUNT(*) AS n FROM surfer_links'),
+        bugsOpen: await q("SELECT COUNT(*) AS n FROM bug_reports WHERE status = 'open'"),
+        profiles: await q('SELECT COUNT(*) AS n FROM surfer_profiles')
+      },
+      site: await siteSettings(env), levels: LEVELS
+    });
+  }
+  if (G && path === '/api/admin/claims') {
+    const { results } = await env.DB.prepare('SELECT c.id, c.surfer_key, c.surfer_name, c.code, c.contact, c.created_at, c.expires_at, c.status, c.proof_url, c.auto, c.note, c.decided_at, u.username AS user, a.username AS by FROM surfer_claims c LEFT JOIN users u ON u.id = c.user_id LEFT JOIN users a ON a.id = c.created_by ORDER BY (c.status = \'pending\') DESC, c.id DESC LIMIT 100').all();
+    const { results: V } = await env.DB.prepare('SELECT l.surfer_key, l.verified_at, u.username FROM surfer_links l JOIN users u ON u.id = l.user_id ORDER BY l.verified_at DESC').all();
+    return json({ claims: results.map((c) => ({ ...c, expired: ['sent', 'pending'].includes(c.status) && c.expires_at < Date.now() })), verified: V });
+  }
+  if (P && path === '/api/admin/claims/create') {
+    const name = cleanText(b.surferName, 2, 80);
+    const k = skey(b.surferKey || name);
+    if (!name || !k) return json({ error: 'Pick the surfer.' }, 400);
+    const contact = String(b.contact || '').trim().slice(0, 120);
+    const t = rand(24), code = 'SFL-' + makeCode(5);
+    const now = Date.now();
+    const r = await env.DB.prepare('INSERT INTO surfer_claims(surfer_key, surfer_name, token_hash, code, contact, created_by, created_at, expires_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)')
+      .bind(k, name, await sha256(t), code, contact, u.id, now, now + CLAIM_DAYS * 86400000).run();
+    const link = SITE_URL + '#claim/' + t;
+    let emailed = false;
+    const em = normEmail(contact);
+    if (b.sendEmail && em && emailOn(env)) {
+      emailed = await sendMail(env, em, `Claim your surfer profile on Surf Fantasy Leagues`,
+        `Hi ${name},\n\nSurf Fantasy Leagues would like you to manage your own surfer profile: your photo, bio and social links.\n\nOpen this private link (it works for ${CLAIM_DAYS} days):\n${link}\n\nTo confirm it is really you, we will ask you to post the code ${code} on one of your public social accounts for a moment.\n\nThis does not enter you in any fantasy draft.`,
+        `<p>Hi ${escH(name)},</p><p>Surf Fantasy Leagues would like you to manage your own surfer profile: your photo, bio and social links.</p><p><a href="${link}">Open your private claim link</a> (it works for ${CLAIM_DAYS} days).</p><p>To confirm it is really you, we will ask you to post the code <b>${code}</b> on one of your public social accounts for a moment.</p><p>This does not enter you in any fantasy draft.</p>`);
+    }
+    await logA(env, u, 'claim.created', `${name} (${k})${contact ? ' for ' + contact : ''}${emailed ? ', emailed' : ''}`);
+    return json({ ok: true, id: r.meta && r.meta.last_row_id, link, code, emailed, emailOn: emailOn(env) });
+  }
+  if (P && path === '/api/admin/claims/decide') {
+    const c = await env.DB.prepare('SELECT * FROM surfer_claims WHERE id = ?').bind(parseInt(b.id, 10)).first();
+    if (!c) return json({ error: 'Claim not found.' }, 404);
+    const note = cleanText(b.note || '', 0, 300) || '';
+    if (b.action === 'revoke') {
+      await env.DB.prepare("UPDATE surfer_claims SET status = 'revoked', note = ?, decided_by = ?, decided_at = ? WHERE id = ?").bind(note, u.id, Date.now(), c.id).run();
+      await env.DB.prepare('DELETE FROM surfer_links WHERE claim_id = ?').bind(c.id).run();
+      await logA(env, u, 'claim.revoked', c.surfer_name);
+      return json({ ok: true });
+    }
+    if (c.status !== 'pending' || !c.user_id) return json({ error: 'Only claims waiting for review can be approved or turned down.' }, 409);
+    if (b.action === 'approve') {
+      const other = await env.DB.prepare('SELECT user_id FROM surfer_links WHERE surfer_key = ?').bind(c.surfer_key).first();
+      if (other && other.user_id !== c.user_id) return json({ error: 'Another account is already verified for this surfer. Revoke that one first.' }, 409);
+      await env.DB.prepare('DELETE FROM surfer_links WHERE user_id = ?').bind(c.user_id).run();
+      await env.DB.prepare('INSERT OR REPLACE INTO surfer_links(surfer_key, user_id, verified_at, claim_id) VALUES (?, ?, ?, ?)').bind(c.surfer_key, c.user_id, Date.now(), c.id).run();
+      await env.DB.prepare("UPDATE surfer_claims SET status = 'approved', note = ?, decided_by = ?, decided_at = ? WHERE id = ?").bind(note, u.id, Date.now(), c.id).run();
+      if (!(await profileRow(env, c.surfer_key))) await env.DB.prepare('INSERT INTO surfer_profiles(surfer_key, name, bio, links_json, updated_at, updated_by) VALUES (?, ?, \'\', \'{}\', ?, ?)').bind(c.surfer_key, c.surfer_name, Date.now(), u.id).run();
+      const su = await env.DB.prepare('SELECT email FROM users WHERE id = ?').bind(c.user_id).first();
+      if (su && su.email && emailOn(env)) await sendMail(env, su.email, 'Your surfer profile is verified', `You are verified as ${c.surfer_name}. You can now add your photo, bio and social links: ${SITE_URL}#myprofile`, `<p>You are verified as <b>${escH(c.surfer_name)}</b>.</p><p><a href="${SITE_URL}#myprofile">Add your photo, bio and social links</a></p>`);
+      await logA(env, u, 'claim.approved', c.surfer_name);
+      return json({ ok: true });
+    }
+    if (b.action === 'reject') {
+      await env.DB.prepare("UPDATE surfer_claims SET status = 'rejected', note = ?, decided_by = ?, decided_at = ? WHERE id = ?").bind(note, u.id, Date.now(), c.id).run();
+      await logA(env, u, 'claim.rejected', `${c.surfer_name}${note ? ': ' + note : ''}`);
+      return json({ ok: true });
+    }
+    if (b.action === 'recheck') {
+      const auto = await autoCheck(c.proof_url, c.code);
+      await env.DB.prepare('UPDATE surfer_claims SET auto = ? WHERE id = ?').bind(auto, c.id).run();
+      return json({ ok: true, auto });
+    }
+    return json({ error: 'Unknown action.' }, 400);
+  }
+  if (G && path === '/api/admin/profiles') {
+    const { results } = await env.DB.prepare('SELECT p.surfer_key, p.name, p.updated_at, p.hidden, (p.photo IS NOT NULL) AS has_photo, length(p.bio) AS bio_len, u.username AS by, (SELECT 1 FROM surfer_links l WHERE l.surfer_key = p.surfer_key) AS verified FROM surfer_profiles p LEFT JOIN users u ON u.id = p.updated_by ORDER BY p.updated_at DESC LIMIT 200').all();
+    const k = url.searchParams.get('k');
+    const edits = k ? (await env.DB.prepare('SELECT id, at, username, before_json, after_json FROM profile_edits WHERE surfer_key = ? ORDER BY id DESC LIMIT 30').bind(k).all()).results : [];
+    return json({ profiles: results, edits });
+  }
+  if (P && path === '/api/admin/profiles/action') {
+    const k = skey(b.key);
+    const p = await profileRow(env, k);
+    if (!p) return json({ error: 'Profile not found.' }, 404);
+    if (b.action === 'hide' || b.action === 'show') {
+      await env.DB.prepare('UPDATE surfer_profiles SET hidden = ? WHERE surfer_key = ?').bind(b.action === 'hide' ? 1 : 0, k).run();
+      await logA(env, u, 'profile.' + b.action, k);
+      return json({ ok: true });
+    }
+    if (b.action === 'undo') {
+      const e = await env.DB.prepare('SELECT * FROM profile_edits WHERE id = ? AND surfer_key = ?').bind(parseInt(b.editId, 10), k).first();
+      if (!e) return json({ error: 'Edit not found.' }, 404);
+      const before = pj(e.before_json, null) || { bio: '', links: {}, photo: false };
+      const r = await saveProfile(env, u, k, p.name, { bio: before.bio, links: before.links, photo: before.photo ? 'keep' : null });
+      if (r.error) return json(r, 400);
+      await logA(env, u, 'profile.undo', `${k} edit #${e.id}`);
+      return json({ ok: true, note: before.photo && !p.photo ? 'Text and links restored; the earlier photo is no longer stored.' : '' });
+    }
+    return json({ error: 'Unknown action.' }, 400);
+  }
+  if (G && path === '/api/admin/bugs') {
+    const { results } = await env.DB.prepare("SELECT * FROM bug_reports ORDER BY (status = 'open') DESC, id DESC LIMIT 200").all();
+    return json({ bugs: results });
+  }
+  if (P && path === '/api/admin/bugs/update') {
+    const st = ['open', 'working', 'fixed', 'wontfix'].includes(b.status) ? b.status : null;
+    if (!st) return json({ error: 'Pick a status.' }, 400);
+    await env.DB.prepare('UPDATE bug_reports SET status = ?, admin_note = ?, updated_at = ? WHERE id = ?').bind(st, cleanText(b.note || '', 0, 300) || '', Date.now(), parseInt(b.id, 10)).run();
+    await logA(env, u, 'bug.' + st, '#' + b.id);
+    return json({ ok: true });
+  }
+  // ----- Admin level and up -----
+  if (P && path === '/api/admin/site') {
+    const n = need(2); if (n) return n;
+    const cur = await siteSettings(env);
+    const bt = b.banner ? cleanText(b.banner.text || '', 0, 240) : cur.banner.text;
+    if (bt === null) return json({ error: 'The banner message can be up to 240 characters.' }, 400);
+    const tt = b.ticker ? cleanText(b.ticker.text || '', 0, 200) : cur.ticker.text;
+    if (tt === null) return json({ error: 'The ticker message can be up to 200 characters.' }, 400);
+    const until = b.banner && b.banner.hours ? Date.now() + Math.min(720, Math.max(1, parseInt(b.banner.hours, 10) || 0)) * 3600000 : b.banner ? null : cur.banner.until;
+    const next = {
+      banner: { text: bt || '', level: b.banner && ['info', 'warn', 'live'].includes(b.banner.level) ? b.banner.level : cur.banner.level, until },
+      ticker: { text: tt || '', on: b.ticker ? !!b.ticker.on && !!tt : cur.ticker.on },
+      toggles: { ...cur.toggles }
+    };
+    for (const k of Object.keys(DEFAULT_SITE.toggles)) if (b.toggles && typeof b.toggles[k] === 'boolean') next.toggles[k] = b.toggles[k];
+    await env.DB.prepare("INSERT INTO app_state(k, v) VALUES ('site', ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v").bind(JSON.stringify(next)).run();
+    await logA(env, u, 'site.controls', JSON.stringify(next).slice(0, 400));
+    return json({ ok: true, site: next });
+  }
+  if (G && path === '/api/admin/users') {
+    const n = need(2); if (n) return n;
+    const { results } = await env.DB.prepare('SELECT u.id, u.username, u.email, u.created_at, u.disabled, u.admin_level, u.is_admin, l.surfer_key FROM users u LEFT JOIN surfer_links l ON l.user_id = u.id ORDER BY u.id').all();
+    const own = await ownerId(env);
+    return json({ users: results.map((x) => ({ username: x.username, email: L >= 3 ? x.email : x.email ? x.email.replace(/^(.).*(@.*)$/, '$1***$2') : '', created: x.created_at, disabled: !!x.disabled, level: x.id === own ? 3 : Math.max(x.admin_level || 0, x.is_admin ? 2 : 0), owner: x.id === own, surfer: x.surfer_key })), canManageTeam: L >= 3 });
+  }
+  if (P && path === '/api/admin/users/disable') {
+    const n = need(2); if (n) return n;
+    const t = await env.DB.prepare('SELECT id, admin_level, is_admin FROM users WHERE lower(username) = lower(?)').bind(String(b.username || '')).first();
+    if (!t) return json({ error: 'No account with that username.' }, 404);
+    if (t.id === await ownerId(env)) return json({ error: 'The owner account cannot be turned off.' }, 403);
+    if (t.id === u.id) return json({ error: 'You cannot turn off your own account here.' }, 403);
+    if (Math.max(t.admin_level || 0, t.is_admin ? 2 : 0) >= 1 && L < 3) return json({ error: 'Only the owner can turn off another admin or editor.' }, 403);
+    await env.DB.prepare('UPDATE users SET disabled = ? WHERE id = ?').bind(b.disabled ? 1 : 0, t.id).run();
+    if (b.disabled) await env.DB.prepare('DELETE FROM sessions WHERE user_id = ?').bind(t.id).run();
+    await logA(env, u, b.disabled ? 'user.disabled' : 'user.enabled', b.username);
+    return json({ ok: true });
+  }
+  if (G && path === '/api/admin/log') {
+    const n = need(2); if (n) return n;
+    const { results } = await env.DB.prepare('SELECT at, username, action, detail FROM admin_log ORDER BY id DESC LIMIT 200').all();
+    return json({ log: results });
+  }
+  // ----- Owner only: the admin team -----
+  if (P && path === '/api/admin/team') {
+    const n = need(3); if (n) return n;
+    const level = parseInt(b.level, 10);
+    if (![0, 1, 2].includes(level)) return json({ error: 'Pick Member, Editor or Admin.' }, 400);
+    const t = await env.DB.prepare('SELECT id, username, disabled FROM users WHERE lower(username) = lower(?)').bind(String(b.username || '').trim()).first();
+    if (!t) return json({ error: 'No account with that username. They need to create an account first.' }, 404);
+    if (t.id === await ownerId(env)) return json({ error: 'The owner account always keeps full access.' }, 403);
+    await env.DB.prepare('UPDATE users SET admin_level = ?, is_admin = ? WHERE id = ?').bind(level, level >= 2 ? 1 : 0, t.id).run();
+    await logA(env, u, 'team.level', `${t.username} -> ${LEVELS[level]}`);
+    return json({ ok: true, username: t.username, level, levelName: LEVELS[level] });
+  }
+  return null;
+}
+
 function withCors(req, res) {
   if (req.headers.get('origin') !== SITE) return res;
   const h = new Headers(res.headers);
@@ -1268,6 +1702,9 @@ async function handle(request, env) {
     if (path === '/health') return json({ ok: true, version: APP_VERSION, realMoney: false });
     if (!env.DB) return json({ error: 'Database is not connected. Add a D1 binding named DB.' }, 503);
     try {
+      await migrateAdmin(env);
+      const ar = await adminRoutes(request, env, url, path, ip);
+      if (ar) return ar;
       if (request.method === 'GET') {
         if (path === '/') return new Response(null, { status: 302, headers: { location: SITE + '/isa-peru-fantasy-2026/#account', 'cache-control': 'no-store' } });
         if (path === '/classic') return page();
