@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-15T16:57:02+00:00",
+ "updated_at": "2026-11-15T17:25:43+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -1963,39 +1963,41 @@
     ],
     "women": [
      {
-      "key": "gabriela-bryan",
-      "name": "Gabriela Bryan",
-      "country": "USA",
-      "rank": 1
-     },
-     {
       "key": "janire-gonzalez-etxabarri",
       "name": "Janire González-Etxabarri",
       "country": "ESP",
-      "rank": 2
+      "rank": 1
      },
      {
       "key": "johanne-defay",
       "name": "Johanne Defay",
       "country": "FRA",
-      "rank": 3
+      "rank": 2
      },
      {
       "key": "leihani-zoric",
       "name": "Leihani Zoric",
       "country": "AUS",
-      "rank": 4
-     },
-     {
-      "key": "luana-silva",
-      "name": "Luana Silva",
-      "country": "BRA",
-      "rank": 5
+      "rank": 3
      },
      {
       "key": "sawyer-lindblad",
       "name": "Sawyer Lindblad",
       "country": "USA",
+      "rank": 4
+     },
+     {
+      "key": "gabriela-bryan",
+      "name": "Gabriela Bryan",
+      "country": "USA",
+      "out": true,
+      "rank": 5
+     },
+     {
+      "key": "luana-silva",
+      "name": "Luana Silva",
+      "country": "BRA",
+      "out": true,
       "rank": 6
      },
      {
@@ -2694,7 +2696,7 @@
     ]
    },
    "roster_source": "ISA official results (SurfScores)",
-   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (121 men, 99 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (121 men, 101 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "yago-dora": {
@@ -3184,6 +3186,14 @@
     "carissa-moore": {
      "place": 17,
      "points": 1330
+    },
+    "gabriela-bryan": {
+     "place": 5,
+     "points": 4745
+    },
+    "luana-silva": {
+     "place": 5,
+     "points": 4745
     },
     "nadia-erostarbe": {
      "place": 17,
