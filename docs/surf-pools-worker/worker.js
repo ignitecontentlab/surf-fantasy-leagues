@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.6';
+const APP_VERSION = 'app-0.7';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -344,8 +344,8 @@ async function inviteCreate(req, env, u) {
   if (!u.is_admin) return json({ error: 'Only the site admin can make invite codes.' }, 403);
   const b = await readJson(req);
   if (!b) return json({ error: 'Bad request.' }, 400);
-  const uses = Math.min(20, Math.max(1, parseInt(b.uses, 10) || 1));
-  const days = Math.min(60, Math.max(1, parseInt(b.days, 10) || 14));
+  const uses = Math.min(100, Math.max(1, parseInt(b.uses, 10) || 1));
+  const days = Math.min(90, Math.max(1, parseInt(b.days, 10) || 14));
   const cols = await inviteCols(env);
   const note = cleanText(b.note || '', 0, 40) || '';
   for (let i = 0; i < 6; i++) {
