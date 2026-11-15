@@ -1,0 +1,1033 @@
+{
+ "updated": "2026-11-15",
+ "base": "2026-11-15",
+ "note": "Surf words glossary. Add new words with an 'added' date; words added in the last 60 days show as New. Words added after 'base' count as new; a word added today becomes the word of the day.",
+ "words": [
+  {
+   "w": "A-frame",
+   "d": "A peaky wave that breaks both left and right from the same spot, so two surfers can ride it in opposite directions.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Barrel",
+   "d": "The hollow tube a wave makes when its lip throws out over the face. Riding inside it is the most prized thing in surfing.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Beach break",
+   "d": "A wave that breaks over a sand bottom. The peaks move as the sandbars shift.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Bomb",
+   "d": "An unusually big wave in a set, much larger than the rest.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Close-out",
+   "d": "A wave that breaks all at once along its whole length, leaving no open face to ride.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Crumbly",
+   "d": "A soft wave where the whitewater spills gently down the face instead of throwing over.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Face",
+   "d": "The unbroken front of a wave that surfers ride on.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Glassy",
+   "d": "Smooth, mirror-like water with little or no wind.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Ground swell",
+   "d": "Swell made by distant storms. It arrives long-period, powerful and well organised.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Wind swell",
+   "d": "Short-period swell made by local wind. It tends to be weaker and choppier than ground swell.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Lip",
+   "d": "The top edge of a breaking wave that pitches forward.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Line-up",
+   "d": "The area just past the breaking waves where surfers wait for sets.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Left",
+   "d": "A wave that breaks to the surfer's left, as seen by a surfer riding toward the beach.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Right",
+   "d": "A wave that breaks to the surfer's right, as seen by a surfer riding toward the beach.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Mushy",
+   "d": "Weak, slow waves without much push or shape.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Offshore",
+   "d": "Wind blowing from land out to sea. It holds the wave face up and cleans it, so it is the best wind for surfing.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Onshore",
+   "d": "Wind blowing from the sea onto land. It makes waves messy and crumbly.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Peak",
+   "d": "The highest point of a wave, where it first starts to break.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Point break",
+   "d": "A wave that wraps around a headland or point and peels in one direction for a long ride.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Reef break",
+   "d": "A wave that breaks over coral or rock. It is usually consistent and powerful, but shallow.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Set",
+   "d": "A group of bigger waves that arrive together, with lulls in between.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Shoulder",
+   "d": "The unbroken, gentler part of a wave, out away from the breaking section.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Slab",
+   "d": "A thick, heavy wave that breaks over a sudden shallow ledge and often sucks below sea level.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Swell",
+   "d": "Energy travelling across the ocean that becomes waves when it reaches the shore.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Swell period",
+   "d": "The time in seconds between waves in a swell. Longer periods mean more power.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Whitewater",
+   "d": "The foamy, broken part of a wave after it has crashed.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Section",
+   "d": "Part of a wave that breaks ahead of the surfer. It can be ridden, hit or raced past.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Pitching",
+   "d": "When a wave's lip throws out hard, usually just before it barrels.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Wedge",
+   "d": "A wave that gets steeper and bigger when a reflected wave merges with an incoming one.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Double-up",
+   "d": "Two waves merging into one, making a sudden, heavy, steep wave.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Chop",
+   "d": "Small, bumpy texture on the water caused by wind.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Flat",
+   "d": "No surfable waves at all.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Pumping",
+   "d": "When the surf is big, consistent and good.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Firing",
+   "d": "When the waves are excellent, a step up from pumping.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Inside",
+   "d": "The area closer to shore than the main line-up, where waves have already broken.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Outside",
+   "d": "Farther out than the line-up. Surfers shout \"outside\" to warn that a bigger set is coming.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Rip current",
+   "d": "A strong channel of water flowing back out to sea. Surfers use rips to paddle out, but they are dangerous for swimmers.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Channel",
+   "d": "A deeper area with no breaking waves, often used for paddling out safely.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Tide",
+   "d": "The daily rise and fall of the sea. Many breaks work best at a particular tide.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Backwash",
+   "d": "Water rushing back down a steep beach. It can bump into incoming waves.",
+   "cat": "Waves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Air",
+   "d": "A move where the surfer launches off the lip, flies above the wave and lands back on it.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Air reverse",
+   "d": "An air where the surfer spins around and lands going in the original direction, often riding backwards for a moment first.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Alley-oop",
+   "d": "A rotating air where the surfer spins toward the back of the wave.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Backside",
+   "d": "Surfing with your back to the wave face.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Frontside",
+   "d": "Surfing facing the wave.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Bottom turn",
+   "d": "The first big turn at the bottom of the wave, which sets up every move that follows.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Carve",
+   "d": "A smooth, powerful turn on the open face that throws spray.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Cutback",
+   "d": "A turn that brings the surfer back toward the breaking part of the wave after they have run out onto the shoulder.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Floater",
+   "d": "Riding up and across the top of a breaking section, then dropping back down.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Hang ten",
+   "d": "Longboard move: standing on the nose with all ten toes over the front edge.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Hang five",
+   "d": "Longboard move: five toes hanging over the nose.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Kickout",
+   "d": "Pulling out of a wave on purpose by turning back over the top.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Layback",
+   "d": "A turn where the surfer leans far back and drags their body against the wave.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Noseride",
+   "d": "Longboard move: walking to the front of the board and riding from the nose.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Cross-step",
+   "d": "Longboard footwork: walking up and down the board by crossing one foot over the other.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Re-entry",
+   "d": "Hitting the lip vertically and coming straight back down the face.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Snap",
+   "d": "A quick, sharp turn off the top that throws spray.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Tail slide",
+   "d": "Letting the tail of the board slide out sideways during a turn.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Top turn",
+   "d": "A turn at the top of the wave, after the bottom turn.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Tube ride",
+   "d": "Riding inside the barrel of a wave.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Pump",
+   "d": "Moving up and down on the face to build speed.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Duck dive",
+   "d": "Pushing a shortboard under an oncoming wave to get through it while paddling out.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Turtle roll",
+   "d": "Flipping a longboard upside down and holding on so a wave passes over you.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Pop-up",
+   "d": "The fast move from lying on the board to standing.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Drop",
+   "d": "The steep first descent down a wave face after catching it.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Late drop",
+   "d": "Taking off at the last moment on a steep wave, often while it is already breaking.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Fin release",
+   "d": "A turn that pushes the fins out of the water so the board slides.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Rodeo flip",
+   "d": "An inverted air with an off-axis flip.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Kerrupt flip",
+   "d": "A backside air where the surfer grabs the rail and spins around the tail.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Grab rail",
+   "d": "Holding the outside edge of the board for control in a barrel or an air.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Pig dog",
+   "d": "Backside barrel riding while crouched low and holding the outside rail.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Soul arch",
+   "d": "Arching your back with arms loose while riding, purely for style.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Switch stance",
+   "d": "Riding with your opposite foot forward.",
+   "cat": "Moves",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Board shorts",
+   "d": "Swim shorts made for surfing, also called boardies.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Deck",
+   "d": "The top surface of the board, where you stand.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Fins",
+   "d": "Small keels under the tail that give grip and control.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Thruster",
+   "d": "A three-fin board setup. It is the most common performance setup.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Quad",
+   "d": "A four-fin setup that gives speed and drive.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Twin fin",
+   "d": "A two-fin setup that is loose and fast, popular in small waves.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Single fin",
+   "d": "One large centre fin. A classic setup on longboards and retro boards.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Fish",
+   "d": "A short, wide board with a split tail that works well in small, soft waves.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Funboard",
+   "d": "A mid-length board between a shortboard and a longboard. It is easy to paddle.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Gun",
+   "d": "A long, narrow board built for big waves.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Longboard",
+   "d": "A board about 9 feet or longer, ridden with classic style and noseriding.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Shortboard",
+   "d": "A short, light, pointed performance board, usually under about 6 feet 8 inches.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Mid-length",
+   "d": "A board around 7 to 8 feet that blends glide and turning.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Foamie",
+   "d": "A soft-top foam board, common for beginners.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Leash",
+   "d": "A cord that attaches the board to your ankle.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Nose",
+   "d": "The front tip of the board.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Tail",
+   "d": "The back end of the board.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Rail",
+   "d": "The side edge of the board.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Rocker",
+   "d": "The banana-like curve of the board from nose to tail.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Stringer",
+   "d": "A thin strip of wood down the middle of a board that adds strength.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Traction pad",
+   "d": "A grippy pad on the tail, also called a tail pad, where your back foot goes.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Wax",
+   "d": "Sticky wax rubbed on the deck so your feet grip.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Wetsuit",
+   "d": "A neoprene suit that keeps you warm in cold water.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Shaper",
+   "d": "The craftsperson who designs and shapes surfboards.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Quiver",
+   "d": "A surfer's collection of boards for different conditions.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Ding",
+   "d": "Damage or a crack in a surfboard.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Volume",
+   "d": "How much foam a board has, measured in litres. More volume means more float.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Step-up",
+   "d": "A slightly longer board for bigger waves than usual.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Tow-in",
+   "d": "Using a jet ski to pull a surfer onto waves too big to paddle into.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Foil",
+   "d": "A board with a hydrofoil wing underneath that lifts it above the water.",
+   "cat": "Board and gear",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Heat",
+   "d": "A timed round where 2 to 4 surfers compete against each other.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Priority",
+   "d": "The right to the next wave in a heat. The surfer with priority wins any wave they choose.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Interference",
+   "d": "A penalty for blocking or dropping in on a surfer who has the right of way.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Wave score",
+   "d": "A judge-averaged score out of 10 for a single wave.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Heat total",
+   "d": "A surfer's two best wave scores added together, out of 20.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Excellent",
+   "d": "A wave score in the 8 to 10 range.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Perfect 10",
+   "d": "The highest possible wave score.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Combo",
+   "d": "When a surfer needs two new scores to take the lead. They are \"in a combination situation.\"",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Needs",
+   "d": "The score a surfer needs on their next wave to take the lead.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Repechage",
+   "d": "A second-chance round where surfers who lost earlier heats can stay in the event.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Round of 16",
+   "d": "The knockout round with 16 surfers left, before the quarterfinals.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Quarterfinal",
+   "d": "The round with eight surfers left.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Semifinal",
+   "d": "The round with four surfers left, just before the final.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Final",
+   "d": "The last heat that decides the event winner.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Seeding",
+   "d": "How surfers are placed into the draw based on ranking.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Waiting period",
+   "d": "The window of days an event can run, so organisers can pick the best swell.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Lay day",
+   "d": "A day in the waiting period when the event is paused, often because of poor waves.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Call",
+   "d": "The organisers' decision on whether competition runs that day.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Championship Tour",
+   "d": "The World Surf League's top elite tour, known as the CT.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Challenger Series",
+   "d": "The World Surf League's qualifying tour for the CT, known as the CS.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Qualifying Series",
+   "d": "The World Surf League's entry-level regional tour, known as the QS.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "World Surfing Games",
+   "d": "The ISA's world championship for national teams.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "ISA",
+   "d": "The International Surfing Association, the world governing body for surfing in the Olympics.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Team points",
+   "d": "ISA points earned by each surfer's finish, added up for their country's team total.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Mid-season cut",
+   "d": "A ranking cut partway through a tour season, after which lower-ranked surfers drop off.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Wildcard",
+   "d": "A surfer invited into an event without qualifying through the rankings.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Injury replacement",
+   "d": "A surfer who takes the spot of an injured surfer.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Overall",
+   "d": "The combined standings across events or teams.",
+   "cat": "Contest",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Barney",
+   "d": "A clumsy or beginner surfer.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Grom",
+   "d": "A young surfer, usually a kid.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Kook",
+   "d": "A clueless surfer, often one who ignores the etiquette.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Local",
+   "d": "A surfer who regularly surfs a particular break.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Localism",
+   "d": "Hostility from locals toward visiting surfers at their break.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Drop in",
+   "d": "Catching a wave that someone else is already riding. It is the biggest etiquette sin.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Snake",
+   "d": "Paddling around someone to steal their position or wave.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Party wave",
+   "d": "A wave several surfers ride together, on purpose.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Stoked",
+   "d": "Extremely happy and excited, usually after a good surf.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Gnarly",
+   "d": "Dangerous, heavy or intense.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Shaka",
+   "d": "A hand sign with thumb and pinky out, meaning hang loose or all good.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Wipeout",
+   "d": "Falling off your board, usually hard.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Hold-down",
+   "d": "Being held underwater by a wave after a wipeout.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Over the falls",
+   "d": "Getting sucked up the face and thrown down with the lip.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Pearl",
+   "d": "When the nose of the board digs underwater and you go flying.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Caught inside",
+   "d": "Being stuck in the impact zone while sets break on you.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Sesh",
+   "d": "A surf session.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Dawn patrol",
+   "d": "Surfing at first light, before work or the wind.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Frothing",
+   "d": "So excited to surf that you can barely contain it.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Shacked",
+   "d": "Getting deep inside a barrel.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Pitted",
+   "d": "Another word for getting barreled.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Spitting barrel",
+   "d": "A barrel that blows a burst of spray out of its opening as it closes.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Mackers",
+   "d": "Huge, heavy waves.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Ankle biters",
+   "d": "Tiny waves.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Epic",
+   "d": "Excellent conditions or an amazing session.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Hang loose",
+   "d": "Relax and take it easy. It is often paired with the shaka.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Sick",
+   "d": "Really good or impressive.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Charger",
+   "d": "A surfer who takes on big, dangerous waves without hesitating.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Swell chaser",
+   "d": "A surfer who travels to follow the best swells.",
+   "cat": "Slang",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Impact zone",
+   "d": "Where the waves are breaking hardest. It is the worst place to sit.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Rash guard",
+   "d": "A tight, quick-dry top that protects against chafing and sun.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Reef cut",
+   "d": "A cut from coral or rock. Clean it well, because reef cuts infect easily.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Surf etiquette",
+   "d": "Unwritten rules: the surfer closest to the peak has priority, no dropping in, and don't ditch your board.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Right of way",
+   "d": "Who gets the wave. Usually it is the surfer closest to the peak.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Paddle battle",
+   "d": "Two surfers racing to paddle into the same wave or position.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Surf forecast",
+   "d": "A prediction of swell size, period, wind and tide used to plan sessions.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Buoy reading",
+   "d": "Live swell data from ocean buoys, used to check what is arriving.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Lull",
+   "d": "A quiet period between sets.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Breath-hold training",
+   "d": "Practice that helps surfers handle long hold-downs in big waves.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  },
+  {
+   "w": "Inflatable vest",
+   "d": "A big-wave safety vest that inflates to bring a surfer up after a wipeout.",
+   "cat": "Ocean and safety",
+   "added": "2026-11-15"
+  }
+ ]
+}
