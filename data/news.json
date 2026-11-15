@@ -1,18 +1,68 @@
 {
-"updated_at": "2026-11-15T17:16:33+00:00",
+"updated_at": "2026-11-15T19:26:02+00:00",
 "sources": {
 "Surfer": 33,
 "ISA": 7,
-"Stab": 24,
-"Surfline": 1,
+"Stab": 23,
+"Surfline": 3,
 "The Inertia": 49,
 "BeachGrit": 15,
 "Tracks": 1,
 "World Surf League": 42,
 "Surfertoday": 6,
-"In the news": 43
+"In the news": 41
 },
 "items": [
+{
+"title": "Photo essay: El Niño-driven waves cause dramatic spectacle at Santa Barbara Breakwater",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSTVwX1BOU0tOWExRVy1nOUJPY2lvTWhRdmxwazVLX3ktdWFlcm9xOHlNdnVfLVlzUE1Wb19NeW13MU9ycktzV2dhTGt1Z2ctZ216YnYtNlM5dTN5bGo2WVp1X1pUWDlxRzlOcXh6dmNURUFNdmNMa295SFgzTFRqMHkwNFdFdHJSRExsM1hJYkJTRzRULWhNNUg3dE9fME10b2xfcm52dmFoOEU3U3NrcFFpZFpZYThiV2czam9hdjk?oc=5",
+"source": "Santa Barbara News-Press",
+"at": "2026-11-15T18:54+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Surfers Scramble to Mavericks in California to Catch Building-Size Waves",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ19hcklsb2ljQy05NUJlUVZqWmFRd21tcDk5Mll5M3dYemx2QnJTOWpMa0FqZ1JVX3BZMXVjQy01U3JvVW9OdE5xbmM1TFlMd0VkRV9VbE4wWUMwUTk2QlJXNFBZS1NLUmR1LXM3YXkwWVNvLTB4ZlJjeVRheVBsa0szZC1ZWFNiLVE?oc=5",
+"source": "The New York Times",
+"at": "2026-11-15T18:23+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "2026 SURFER Photo Contest Finalists Announced",
+"link": "https://www.surfer.com/culture/2026-surfer-photo-contest-finalists-announced",
+"source": "Surfer",
+"at": "2026-11-15T18:00+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNDky/surferphotocontestfinalists.png?profile=rss",
+"desc": "From Hawaii to New York, out of an eye-popping 700 images submitted, we've whittled it down to our top five.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "New York Times Profiles Brave California Surfers Who Dared To Paddle The Mega El Niño",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1F0czJrbTRwUEM5NjZxS21udjBIVlBGRmpralA1TVBqWTUwaHRnTVBHNkhPU0tCeWxTQm1uSnZBTExLT2NTekhaUTNpMk5NMDFKekEzY3I1MkxHbzlWaHFIU1VmRHhFOEZCd1lZSkF5SkV0d1BsRHItbDNBcnozNUhsbjR1ajd3Z2JBN0x6TWdWWEdTQnBkc2hub0hqeHQtaUhYTXlXaDJ3Wl9hZmZ0SS1n?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-15T17:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
+"source": "The New York Times",
+"at": "2026-11-15T16:21+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "Photos, videos show mammoth waves hitting Bay Area shoreline",
 "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeU9Dd2FMYnJXdlBqOFN1ZnhDRmNKcjRaOERnS3BoaXJtN0V2a1J0enZ3c1pPU0xJVWpwRXdTZTZFN1NJRzZVM2xDYWppU2Z2dXNmREpMMUpkalo2V0ZZbFJLRW5DSkU3aGNhLXhDdk04U2tjRUhHcTlmQmd3elM5Sw?oc=5",
@@ -64,16 +114,6 @@
 "kind": "outlet"
 },
 {
-"title": "Huge waves crash the Central California coastline, some damage already",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lUbnhFU09UVnl3eWRSOE9nUm9TU2FEcE5rMGhMeUg2bFBFSllodngxeDZ2OE9EZW9sSnpYVmcxbTR3ZmJJVEpDbmtkallHbUU0ejVPOFFkMTV5VEV1c2pZSVZZOF9rYTJyWE55b09SUm52MGVORUlnZTJEMm1wVGtPRkZyTm1PWDlyb3EydFo5cG1WUmRkeDluX0ZHQQ?oc=5",
-"source": "KMPH Fox 26",
-"at": "2026-11-15T08:40+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Ventura, Hermosa Beach and Manhattan Beach piers close as high surf and dangerous rip currents batter Southern California coast",
 "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDd0alJ3OTJTb2tQZHY3R2RyeG9oRVJ4VTlpWS0yMV9DaENEUHBrZ3NuejR2RnZXeTJnd1ZIUHZBLXpOS0l0Q1lqbEI4WVBMbTYzWmc0dUF4MHNyZHV5c3pJSm1TQmt2OG5tT1diNXV6OWlhSkpKOXMwWXdBU296LWxBVEtHQ3pyNHlDN2Z1QlJ0T1RkSGtxOEVoZzZTc0hmOGtjakEzS3ZmVFBHX1pab0VzVm9xWEVkbmh0MGFIWVh5dmRqTmQwaHFCTGNXb0JXTXU4aVVqc3jSAd4BQVVfeXFMTmo4RFViVTlBdWd2ZVJ0SGxGYlhiR085T0JOTWYyT1k4NmZBYjlXaWJfN2FnZ1ZrUU5pT3ZlQlJKbHE5d2R3ZEJTSktjTk9EQnFNQTZsMzYtcDM2OEVOY2NPN3lQSXI2dHctb29wMi05eENicF93bjFNR1dYSDBkNmFsbHJXOXN6UllTcE9WLXdWQ1FwdTZtdFVsU3h6T2pvWEJrai1Gb0dDQlh3LWxVVG1FZVplVWNEVmZKeVNIZ2xfcVkyVENUUTVKV1IzQTUzbWFDcXhXOVlnbHFOUTB3?oc=5",
 "source": "ABC7 Los Angeles",
@@ -88,16 +128,6 @@
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSm5WYW9KU0JhSUUtUm5wWlo0Vk1oRXY2V05EY2ExVzlqR1BkTHNFbHBIbmhQZUNfakxHUDJoZUt2djhwcnU3LWhlU3pzb19SSG13czBUSUk?oc=5",
 "source": "Taiwan News",
 "at": "2026-11-15T04:26+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
-"source": "The New York Times",
-"at": "2026-11-15T04:01+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -175,6 +205,16 @@
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUN0VnhBOExPSVlzSGp1d3N6ZDVobVZXY3p1cVB3UEl4RU42aFVjQnBoWnBBLW1scDZoc1pRd3RvdnlFWEw1dlNuVGVxZlZfWWJ4ank3YzNpWnRwTVh3SjBuZlJWNjU4U19fejJCMEpIR3NMZnJ6RXVxNC05VjI2VUFtNzNCTEY1ZWpVc1dpMlpEYzA?oc=5",
 "source": "San Francisco Chronicle",
 "at": "2026-11-14T23:33+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Huge waves crash the Central California coastline, some damage already",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lUbnhFU09UVnl3eWRSOE9nUm9TU2FEcE5rMGhMeUg2bFBFSllodngxeDZ2OE9EZW9sSnpYVmcxbTR3ZmJJVEpDbmtkallHbUU0ejVPOFFkMTV5VEV1c2pZSVZZOF9rYTJyWE55b09SUm52MGVORUlnZTJEMm1wVGtPRkZyTm1PWDlyb3EydFo5cG1WUmRkeDluX0ZHQQ?oc=5",
+"source": "KMPH Fox 26",
+"at": "2026-11-14T23:27+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -299,16 +339,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "LIVE from MAVERICKS, California!",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oYXl3WU5qbElxdnZ2WkRJR3M4bERUOTM5WW5yMk5xLVMzcVZrVVJwdTN5VV96clcyTDdsVE9NczltVzVOSGN0dWNIdGVTdDFjM2xtcFZscnZRN0JocE9TYU5MUnduSUNFVzJVY2U0MnI?oc=5",
-"source": "Surf News Network",
-"at": "2026-11-14T19:37+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Supercharged El Niño Swell Obliterates Michelin Hotel San Cristobal in Baja (Video)",
@@ -563,16 +593,6 @@
 "kind": "media"
 },
 {
-"title": "UPDATE: Road closures in Carmel as high surf hits Monterey Peninsula",
-"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbERpMUJvQlQyTG5zd2s2ZFh5b3BCdTlqV2VlSmFoQmJjV25BX2xCd1FtdVA3VnU4anNYRWhoYTdKSFhzSU05REFSVXkxOVRrX3BLeXpxdUJKYzlkZThRRXRFMUwzb1VIaWZsX3pZbzNHOC1wZmcyWEVNRTlxTEhVeDBaeDg5WGRpME5FbW44NnZzSk4ydDBWbHdJd243Njd3STdTODZVMU14WV9JaUZpRVMyU1NsandaNkkzYzdnTmM0T2xIb2dnMXlB?oc=5",
-"source": "Monterey Herald",
-"at": "2026-11-13T23:05+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "BREAKING: FAA Issues Nationwide Ground Stop for All Departing U.S. Flights",
 "link": "https://www.surfer.com/news/faa-ground-stop-flights-united-states",
 "source": "Surfer",
@@ -581,16 +601,6 @@
 "desc": "If you are flying for a surf trip this week, prepare for total travel chaos.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Surfers Scramble to California Hot Spot to Catch Building-Size Waves",
-"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ19hcklsb2ljQy05NUJlUVZqWmFRd21tcDk5Mll5M3dYemx2QnJTOWpMa0FqZ1JVX3BZMXVjQy01U3JvVW9OdE5xbmM1TFlMd0VkRV9VbE4wWUMwUTk2QlJXNFBZS1NLUmR1LXM3YXkwWVNvLTB4ZlJjeVRheVBsa0szZC1ZWFNiLVE?oc=5",
-"source": "The New York Times",
-"at": "2026-11-13T22:50+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "35-Foot El Niño Swell Slams Santa Cruz as Beaches and Wharf Shut Down",
@@ -709,6 +719,16 @@
 "at": "2026-11-13T19:37+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNTA4/surfer-waikiki-beach.jpg?profile=rss&x=50&y=62",
 "desc": "Surfer's myelopathy, a rare medical condition can leave first-time surfers paralyzed, even without a wipeout. Now researchers are uncovering what causes it.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Results for Ella McCaffray at Taiwan Open of Surfing Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbm5jRzVJaGNEaWRQb2F1UTlWeDBSdnBPY1dkMEo5ZmZSa1dyRFRvd0xfdmFHTUVvNWtqTEc1VmVzaS16ZldTb0dzRnVrUnQ4MVg5U1dKOFJmSG1zY2lhWVZ0ajhfZC1jZWltN05wRG5VX0tpOS05bkw0YWE1YlJXRmp6YnVKekFBX3d6QmcxdnY?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T19:21+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -1201,26 +1221,6 @@
 {
 "title": "Harry Bryant On EAST, Big-Wave Psychology & Fin-Gate | StabMic Ep. 29",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUhST1BQNkwweDlWcnlpWlk3djFFcTJZbUhRSnNybDZzY2V6SUV1cHJqbVZieFZnaGkteDYxMnRBd0s0TG5FY3lpOWVpNElMeXpMQ2Jwc01CeDdaZ3lKRnZYZjlpdElDNHZOXzQtQ3Zxc2hxSmlhRTdVTHF6V1B4YUJTZ04za19fMEZTUEF1SHEzQQ?oc=5",
-"source": "Stab",
-"at": "2026-11-12T23:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Stab Mic",
-"link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE12MTdqMF9QSno3M0ZfQ0lRN3J0VGhIb29xUnBLTG16YTZCNTFYSm15dm1KakVJUmlMQnRRZGdpVE5scGs?oc=5",
-"source": "Stab",
-"at": "2026-11-12T23:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Ed Fanning’s Cause Of Death Revealed",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVHNXU3RBTUdBNlpPcnJ1eW01UXQwbllBc2dkZ0VjVkQ0NWx5WVNPbEt6UFNfcnp4TUU0bUxUT1dhMGd0dTZnWEcxczdoMHhjakYxcFVucmtoUm5tZTRfV09WZ196eWNhbTl5ME1vcnFrRlN6TWxrQzhCYUlVUm1aVkJMTGFXTklN?oc=5",
 "source": "Stab",
 "at": "2026-11-12T23:00+00:00",
 "img": null,
