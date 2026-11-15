@@ -1329,5 +1329,47 @@
     0.0
    ]
   }
+ },
+ "women|leihanizoric|leilanimcgonagle|luanasilva|yolandahopkins": {
+  "leihanizoric": {
+   "waves": [
+    6.0,
+    6.67
+   ],
+   "best_waves": [
+    6.67,
+    6.0
+   ]
+  },
+  "luanasilva": {
+   "waves": [
+    5.83,
+    6.2
+   ],
+   "best_waves": [
+    6.2,
+    5.83
+   ]
+  },
+  "yolandahopkins": {
+   "waves": [
+    2.33,
+    7.33
+   ],
+   "best_waves": [
+    7.33,
+    2.33
+   ]
+  },
+  "leilanimcgonagle": {
+   "waves": [
+    4.03,
+    4.17
+   ],
+   "best_waves": [
+    4.17,
+    4.03
+   ]
+  }
  }
 }

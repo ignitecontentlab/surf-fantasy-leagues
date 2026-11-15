@@ -9437,8 +9437,8 @@
    {
     "name": "Ethan Ewing",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 14.57,
+    "place": 1,
     "waves": [
      8.67,
      3.0
@@ -9451,8 +9451,8 @@
    {
     "name": "Franco Radziunas",
     "country": "ARG",
-    "total": null,
-    "place": null,
+    "total": 14.5,
+    "place": 2,
     "waves": [],
     "best_waves": [
      0.0,
@@ -9462,8 +9462,8 @@
    {
     "name": "Yago Dora",
     "country": "BRA",
-    "total": null,
-    "place": null,
+    "total": 11.0,
+    "place": 3,
     "waves": [
      5.17
     ],
@@ -9475,8 +9475,8 @@
    {
     "name": "Kanoa Igarashi",
     "country": "JPN",
-    "total": null,
-    "place": null,
+    "total": 7.1,
+    "place": 4,
     "waves": [],
     "best_waves": [
      0.0,
@@ -9484,7 +9484,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -9495,23 +9495,75 @@
     "name": "Luana Silva",
     "country": "BRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.83,
+     6.2
+    ],
+    "best_waves": [
+     6.2,
+     5.83
+    ]
    },
    {
     "name": "Yolanda Hopkins",
     "country": "POR",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     2.33,
+     7.33
+    ],
+    "best_waves": [
+     7.33,
+     2.33
+    ]
    },
    {
     "name": "Leihani Zoric",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.0,
+     6.67
+    ],
+    "best_waves": [
+     6.67,
+     6.0
+    ]
    },
    {
     "name": "Leilani McGonagle",
     "country": "CRC",
+    "total": null,
+    "place": null,
+    "waves": [
+     4.03,
+     4.17
+    ],
+    "best_waves": [
+     4.17,
+     4.03
+    ]
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B19",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Ethan Ewing",
+    "country": "AUS",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Franco Radziunas",
+    "country": "ARG",
     "total": null,
     "place": null
    }
