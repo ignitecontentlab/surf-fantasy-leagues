@@ -1,16 +1,16 @@
 {
-"updated_at": "2026-11-15T07:45:58+00:00",
+"updated_at": "2026-11-15T09:26:02+00:00",
 "sources": {
 "Surfer": 32,
 "ISA": 8,
-"Stab": 22,
-"Surfline": 5,
+"Stab": 23,
+"Surfline": 4,
 "The Inertia": 48,
 "BeachGrit": 15,
 "Tracks": 1,
 "World Surf League": 44,
 "Surfertoday": 6,
-"In the news": 46
+"In the news": 45
 },
 "items": [
 {
@@ -18,16 +18,6 @@
 "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDd0alJ3OTJTb2tQZHY3R2RyeG9oRVJ4VTlpWS0yMV9DaENEUHBrZ3NuejR2RnZXeTJnd1ZIUHZBLXpOS0l0Q1lqbEI4WVBMbTYzWmc0dUF4MHNyZHV5c3pJSm1TQmt2OG5tT1diNXV6OWlhSkpKOXMwWXdBU296LWxBVEtHQ3pyNHlDN2Z1QlJ0T1RkSGtxOEVoZzZTc0hmOGtjakEzS3ZmVFBHX1pab0VzVm9xWEVkbmh0MGFIWVh5dmRqTmQwaHFCTGNXb0JXTXU4aVVqc3jSAd4BQVVfeXFMTmo4RFViVTlBdWd2ZVJ0SGxGYlhiR085T0JOTWYyT1k4NmZBYjlXaWJfN2FnZ1ZrUU5pT3ZlQlJKbHE5d2R3ZEJTSktjTk9EQnFNQTZsMzYtcDM2OEVOY2NPN3lQSXI2dHctb29wMi05eENicF93bjFNR1dYSDBkNmFsbHJXOXN6UllTcE9WLXdWQ1FwdTZtdFVsU3h6T2pvWEJrai1Gb0dDQlh3LWxVVG1FZVplVWNEVmZKeVNIZ2xfcVkyVENUUTVKV1IzQTUzbWFDcXhXOVlnbHFOUTB3?oc=5",
 "source": "ABC7 Los Angeles",
 "at": "2026-11-15T05:10+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "The largest waves in nearly two years hit the California coast on Saturday, with the intense surf crashing onto beaches and raising the threat of flooding to coastal roads and communities. Officials warned onlookers to stay off the beaches as waves of more than",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMjB2Y2w0OFJzdUtrNVFhWk11WHVaVlgteTJNeXh2NktTUllhSGE0ZTV0OXprZHlYOE1OU2VfMGpjWG13M0lLMllwOTNPQlBveVNuSWlWMzd4SFpyMlhWS0MyRDZ0b21uS0dPX0w0blRqRm9qY2M2UlZZN21hbkYxNElsVTlFLXR4azkzZ0FqVVdqWVpEZUxZYTBmM0hlN2dPX0FGb1RYWGszeWdoUkRzVl9EWUdldVdZWFdxRHp5RWFzZXRKd2drN0NHVE9nQnRBS1NF?oc=5",
-"source": "Facebook",
-"at": "2026-11-15T03:29+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -391,6 +381,16 @@
 "kind": "media"
 },
 {
+"title": "Rob Brown's Big-Wave El Niño Photo Lookback: '98-'16",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTQyXzQ3YlNhS3hXdjJCc2lvLWFZcFVuN0xvSXVYZ2k0VTRyYjAyTE9lbFVuMy1xQWVNc1pNZm5fZW93Vm1IdVVjRmkzelVZdWUya0NiVUIzYVBSb0NtdTZxNTlPTHFiM3Z4ZmZhQjU5UnI2Tjg3cENMa3RTaXpyT0MwOVhLSTdCOTJPbUh3Q3p0d053TW1fRTRjR0VlR2RLVU5zTlpBUjFrQQ?oc=5",
+"source": "Surfline",
+"at": "2026-11-14T06:37+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Results for Alonso Correa at Norte Surf Fest 2026",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONHhadUtFZzRKUzYyc002R3FuUnRucFBYY0hQcFVjYWFfM3FlSTlIVkE2c2g5ZWpTY3A4azdDaDVxelFtaWxkeE52dS1QT1hwajBWekhiYk5YY0ZfYVd6U21jeTNGQ3BuQVd1cW1ubTN1Z3JlbUo0TnVybmhLc1pqREdrRGczTmZXM0lDUk9B?oc=5",
 "source": "World Surf League",
@@ -423,14 +423,14 @@
 "kind": "media"
 },
 {
-"title": "Rob Brown's Big-Wave El Niño Photo Lookback: '98-'16",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTQyXzQ3YlNhS3hXdjJCc2lvLWFZcFVuN0xvSXVYZ2k0VTRyYjAyTE9lbFVuMy1xQWVNc1pNZm5fZW93Vm1IdVVjRmkzelVZdWUya0NiVUIzYVBSb0NtdTZxNTlPTHFiM3Z4ZmZhQjU5UnI2Tjg3cENMa3RTaXpyT0MwOVhLSTdCOTJPbUh3Q3p0d053TW1fRTRjR0VlR2RLVU5zTlpBUjFrQQ?oc=5",
-"source": "Surfline",
-"at": "2026-11-14T03:37+00:00",
+"title": "Sea meets school in Senegal's Black Girls Surf project",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRUJmeUlEODZ0aFZzZ3oxMlVmdDBhQ3d1WEJKOFh6dW13YWJzbDM2eGJVcHRkZjRCejlGZmtZck9Icm9wSW12eEQwU1lyUWw2bjA3S2VaaVRVYWtyVTRPTVhDa1p5XzRDc2p1czdVS19HZ3ZCRjlkQVRhaFU3Yl83RFZxbk1rM2MyNHFRb2ZZQQ?oc=5",
+"source": "DW.com",
+"at": "2026-11-14T03:08+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "outlet"
+"kind": "media"
 },
 {
 "title": "High-Profile Matchups in Firing Surf Produce Thrilling Day 7 of 2026 ISA World Surfing Games",
@@ -461,16 +461,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Santa Cruz city beaches, wharf close due to dangerously high surf",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdjFNcE9HczZpRzlHdkdBNEVDcFBtNjEwZW02ODU2dkowLVBNWVFoakNMSVpIbl9mWUY3Z2Y3dUtEVlhXQTJDd3plcmxfWTBwb1htS3Rlb3RFSjItWnpBbnhTYzQzMWtMc0tNLU1Ra3NtUUlTSlZiYVp6ampCWXAzbE5XY2h3VUZIU3JhN2JhR0NGT25PRlhKa3dwekV1QXF3cGo1Q2xvUGdwZG1UTG5F?oc=5",
-"source": "Santa Cruz Sentinel",
-"at": "2026-11-14T00:20+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Tanker Slams New Orleans Riverboat, Hurling Passengers Into Mississippi (Video)",
@@ -607,6 +597,16 @@
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUwtWTJKZTZvQ2QycUVCdS1HTExIRzREaGRkTVVSUXNES3RjTl82N1BZUUM0blA3MHlYSkRtTFNsQm45dzI0TEJDbzUxX1hZTWp2emc2dklPNTZqeUh6REplcTBoamNyZ29GT3E1Qmx6bTBTeE1fbWd5cEpEOGR5V0FFQkpzNzUwZ2hab0l0QTI?oc=5",
 "source": "World Surf League",
 "at": "2026-11-13T21:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Results - Circuito Banco do Brasil de Surfe - Guarujá 2026",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcWo3b0hvN2p0MTYwZWtPY2tkVzRTVmxXblI0NFFnLUV0aWJDdkE3WDI4ZHpSdkY5d1N4VFJCa2NGNkg1VEktTE4zelFyMUJ6akh6ZFd2YnlQY2ZOYzFmRzNEMFJuRU1fYnF3T1dIWDd6ZS11X1A4dzhYeUdkekR3QVRRMm9kSDVvQW9TdzJQYUJ6QzI0eEQxSTVPOWV4ZjZHTDVvMkNoWXhudlA1bGpBa2pIMA?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T20:52+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -853,8 +853,8 @@
 "kind": "outlet"
 },
 {
-"title": "Portuguese Surf Photographer Beatriz Ryder Wins Illume Award",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGdZcXdQNUJ4d1ltaFlrUEo2OGRpbGZHdk1mRGZFR1NLUVdTbXNXNV93emRZaUFMVHRySVEteHhFbjRDcjFZZVdudFNldXZUajVQUjhXRzJCRFpabzJIRkhnNWQ4UXF6Q1ZUVXZsTFFwZS13ZmhLMmtUVndNajhyWWRNQXk5MHVpT25CX2VYNA?oc=5",
+"title": "Mikey February Is Back On A Thruster At The Pyramids Of Giza In His New Edit",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTGFYaUIxYk1MQjRHaElNME9uMXZJQ19Wakp5UFJIRlAySDNIT2ctSzVUUEJ2aVdJcDRieXZQMzdHa0htVkR1TjUwb2dEeEltU1FMcTVrWGdjMU1zZ0VJYU5Ic1hjbHVoUXNKTXNXby1XTWR5SzBkdDNaNkFFaFMzd1E2a3ZRU0xXbGFiSHl2cjJJVVh0ci1hTnNJSXdTMzlxWHBvc1lBV2ozWjM1?oc=5",
 "source": "Stab",
 "at": "2026-11-13T14:41+00:00",
 "img": null,
@@ -863,8 +863,8 @@
 "kind": "outlet"
 },
 {
-"title": "Mikey February Is Back On A Thruster At The Pyramids Of Giza In His New Edit",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTGFYaUIxYk1MQjRHaElNME9uMXZJQ19Wakp5UFJIRlAySDNIT2ctSzVUUEJ2aVdJcDRieXZQMzdHa0htVkR1TjUwb2dEeEltU1FMcTVrWGdjMU1zZ0VJYU5Ic1hjbHVoUXNKTXNXby1XTWR5SzBkdDNaNkFFaFMzd1E2a3ZRU0xXbGFiSHl2cjJJVVh0ci1hTnNJSXdTMzlxWHBvc1lBV2ozWjM1?oc=5",
+"title": "Portuguese Surf Photographer Beatriz Ryder Wins Illume Award",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGdZcXdQNUJ4d1ltaFlrUEo2OGRpbGZHdk1mRGZFR1NLUVdTbXNXNV93emRZaUFMVHRySVEteHhFbjRDcjFZZVdudFNldXZUajVQUjhXRzJCRFpabzJIRkhnNWQ4UXF6Q1ZUVXZsTFFwZS13ZmhLMmtUVndNajhyWWRNQXk5MHVpT25CX2VYNA?oc=5",
 "source": "Stab",
 "at": "2026-11-13T14:41+00:00",
 "img": null,
@@ -1039,16 +1039,6 @@
 "kind": "outlet"
 },
 {
-"title": "Results - Circuito Banco do Brasil de Surfe - Guarujá 2026",
-"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc3VGakxSUWtZek1kenFralVDTkVZaGxuMFNjZUFDZHliU2dvLVh0RG81d3FFVWFxWmR4QVRmZ3BieW9SdU1Na1pNaDFMUW81ZWptU3VvM2R1dnh2ZGNvRnNUdXR1a2pGSk43ckZnY0FCYWRFMGdzRHNRSDlPSzJJb3dpdWFmbFlneE93Y2xMMGtHWGlqR0V4OE9ydVdYQzU4?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T02:01+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Adult Learner Surfer Lewis Hamilton Branded \"historically Dense\" For Latest Gaza Stunt",
 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaVd5UFYtbGtsZXZVWHotSEFlbTE2LV9PUktGeWYyaHBLcm4wWXZ1SjhpbkhVN0dmLVZzVVlZem5PMzZ0YjNraW9YeG1HRE1HMXNQbHVIQ0psTXpQZHA4cXpIaUlhaGtvcWlVQUVaeVVTcmM2QVlCcUhzXzhLOWtCZmV1SXhqYmN0c0ZqVGQ5bGxnZlFiVUFHbFU5TWxRYnlSYm1PeHQtRVI1cG9ScE1oUl8xcnctdw?oc=5",
 "source": "BeachGrit",
@@ -1161,6 +1151,16 @@
 {
 "title": "Don’t Believe In Fairytales",
 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yZlNESzdFR2JaeXZzMFVDc0VaZlJ4cnktajdORWFXZUZYNGprWVFUOWh2cUFSLWxWVkdjZEtyV1IyV0JVOVduXzhkVld4U1RKR243dVZLSUFaVnVYeERZTkJacnRTeGVNSmJMMW13b1NOVnBaV21zNnd5Yw?oc=5",
+"source": "Stab",
+"at": "2026-11-12T23:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "October’s COTM Spat Through the Wire",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5ZGVmRGZvazNRLS1tancxYjRyeXpjekI5MEFXb2dELWFyYWNUUTM4RlpuV3ptWGRsQ3hsaUZUc1RhMWJ6N1Qya0Q4S2ZTNmROUGNZUFJNMjBMcUlsMm1CRlpjakZjb0xPMDhScVhJaVFrTE5t?oc=5",
 "source": "Stab",
 "at": "2026-11-12T23:00+00:00",
 "img": null,
