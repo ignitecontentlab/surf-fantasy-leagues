@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-15T17:25:43+00:00",
+ "updated_at": "2026-11-15T16:44:30+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -2696,7 +2696,7 @@
     ]
    },
    "roster_source": "ISA official results (SurfScores)",
-   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (121 men, 101 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (121 men, 99 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "yago-dora": {
@@ -3183,6 +3183,26 @@
      "place": 114,
      "points": 265
     },
+    "ethan-ewing": {
+     "place": 4,
+     "points": 6085,
+     "live": true
+    },
+    "hans-odriozola": {
+     "place": 4,
+     "points": 6085,
+     "live": true
+    },
+    "lucca-mesinas": {
+     "place": 4,
+     "points": 6085,
+     "live": true
+    },
+    "miguel-tudela": {
+     "place": 4,
+     "points": 6085,
+     "live": true
+    },
     "carissa-moore": {
      "place": 17,
      "points": 1330
@@ -3586,6 +3606,36 @@
     "zoe-anais-bain": {
      "place": 82,
      "points": 265
+    },
+    "gabriela-bryan": {
+     "place": 6,
+     "points": 4745,
+     "live": true
+    },
+    "sawyer-lindblad": {
+     "place": 6,
+     "points": 4745,
+     "live": true
+    },
+    "luana-silva": {
+     "place": 6,
+     "points": 4745,
+     "live": true
+    },
+    "leihani-zoric": {
+     "place": 6,
+     "points": 4745,
+     "live": true
+    },
+    "janire-gonzalez-etxabarri": {
+     "place": 6,
+     "points": 4745,
+     "live": true
+    },
+    "johanne-defay": {
+     "place": 6,
+     "points": 4745,
+     "live": true
     }
    },
    "draftable": true
@@ -5304,6 +5354,566 @@
     "youchang-chang": {
      "place": 129,
      "points": 265
+    },
+    "alister-reginato": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "alonso-correa": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "caleb-tancred": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "charly-quivront": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "crosby-colapinto": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "deivid-silva": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "dimitri-poulos": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "douglas-silva": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "guilherme-ribeiro": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "hayden-rodgers": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "hiroto-ohhara": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "ian-gentil": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "ian-gouveia": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "jarvis-earle": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "jett-schilling": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "joel-vaughan": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "jordan-lawler": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "kade-matson": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "kei-kobayashi": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "lee-tsechen": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "lennix-smith": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "levi-slawson": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "mateus-herdy": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "mihimana-braye": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "oscar-berry": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "owen-moss": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "riaru-ito": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "taj-lindblad": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "taro-watanabe": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "vitor-ferreira": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "winter-vincent": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "xavier-huxtable": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "adin-masencamp": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "ben-lorentson": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "bronson-meydi": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "cannon-carr": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "dakoda-walters": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "dylan-wilcoxen": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "edgard-groggia": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "francisco-ordonhas": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "frederico-morais": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "harley-walters": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "ido-hagag": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "imaikalani-devault": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "justin-becret": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "keijiro-nishi": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "keoni-lasa": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "luan-wood": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "lucas-cassity": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "lucas-owston": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "lucas-vicente": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "lukas-skinner": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "luke-guinaldo": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "luke-swanson": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "maikai-burdine": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "mikey-mcdonagh": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "oliver-zietz": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "rafael-barbosa": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "reef-heazlewood": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "sam-piter": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "sean-gunning": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "shohei-kato": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "tiago-carrique": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "wheeler-hasburgh": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "blayr-barton": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "caio-costa": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "cody-young": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "daniel-adisaka": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "dom-thomas": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "eden-hasson": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "hiroto-arai": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "hiroya-miwa": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "ikko-watanabe": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "israel-junior": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "jay-occhilupo": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "kaiki-yamanaka": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "kingston-panebianco": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "kobi-clements": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "luan-nogues": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "luke-wyler": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "macklin-flynn": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "marlon-harrison": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "monnojo-yahagi": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "nalu-deodato": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "noe-ledee": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "rafael-teixeira": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "raiha-onou": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "reo-inaba": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "rinta-oooto": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "rodrigo-saldanha": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "roi-kanazawa": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "saxon-reber": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "sol-gruendling": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "taj-stokes": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "taki-kanazawa": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "tim-bain": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "titus-kaimana-santucci": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "tom-whitpaine": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "tully-wylie": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "ty-richardson": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "will-deane": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "zane-assink": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "arch-whiteman": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "bohdie-williams": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "kalanoweo-desoto": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "kolohe-andino": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "maverick-wilson": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "raphael-castro": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "rintaro-suneya": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "sammy-lowe": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "taichi-hagita": {
+     "place": 112,
+     "points": 265,
+     "live": true
+    },
+    "willem-watson": {
+     "place": 112,
+     "points": 265,
+     "live": true
     }
    },
    "wsl_url": "https://www.worldsurfleague.com/events/2026/qs/506/taiwan-open-of-surfing",

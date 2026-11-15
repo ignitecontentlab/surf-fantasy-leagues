@@ -40,6 +40,17 @@ def place_num(s):
     return int(m.group(1)) if m else None
 
 
+def floors(res, lst):
+    """Live scoring: once the contest is under way, every surfer still in the draw is guaranteed at
+    least the finish they would get if knocked out now (the number still in). Teams score that floor
+    during the day and it climbs as rivals are eliminated."""
+    alive = [x for x in lst if not x.get("out") and not (res.get(x["key"]) or {}).get("place")]
+    if not alive or len(alive) == len(lst):
+        return
+    for x in alive:
+        res[x["key"]] = {"place": len(alive), "points": points(len(alive)), "live": True}
+
+
 def points(place):
     if not place:
         return 0
@@ -101,6 +112,7 @@ def wsl_roster(e, start, c, old):
         for x in L:
             if x.get("place"):
                 res[key(x["name"])] = {"place": x["place"], "points": points(x["place"])}
+        floors(res, R[d])
     c["roster"] = R
     c["results"] = res or None
     c["roster_source"] = "WSL event page (official heat draw)"
@@ -145,6 +157,7 @@ def isa_roster(e, su, c):
                          **({"out": True} if st == "eliminated" else {}), "_s": pl or 0})
             if pl:
                 res[k] = {"place": pl, "points": points(pl)}
+        floors(res, R[d])
         R[d].sort(key=lambda x: (x.get("out", False), x["_s"], x["name"]))
         for x in R[d]:
             x.pop("_s")

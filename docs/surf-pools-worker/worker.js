@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.10.0';
+const APP_VERSION = 'app-0.11.0';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -763,6 +763,37 @@ function rankBy(teams, cat) {
   return [...teams].sort(cmp);
 }
 
+// live team cards: every drafted surfer with status, finish and points (app-0.11)
+function liveTeams(entries, ros, res) {
+  const info = {};
+  for (const d of ['men', 'women']) for (const s of ros[d] || []) info[s.key] = { name: s.name, country: s.country || '', div: d, out: !!s.out };
+  const divOf = {}; for (const k in info) divOf[k] = info[k].div;
+  const teams = entries.map((e, i) => ({ team: e.team, user: e.user, mine: !!e.mine, tie: e.tie == null ? i : e.tie, keys: e.keys, s: scoreTeam(e.keys, res || {}, divOf) }));
+  const overall = rankBy(teams, 'team');
+  return overall.map((t, i) => ({
+    rank: i + 1, team: t.team, user: t.user, mine: t.mine, total: t.s.total, men: t.s.men.pts, women: t.s.women.pts, bestMen: t.s.men.best, bestWomen: t.s.women.best,
+    alive: t.keys.filter((k) => info[k] && !info[k].out).length,
+    surfers: t.keys.map((k) => { const r = (res || {})[k] || {}, f = info[k] || { name: k, country: '', div: '', out: false }; return { key: k, name: f.name, country: f.country, div: f.div, out: f.out, place: r.place || null, points: r.points || 0, live: !!r.live || (!f.out && !r.place) }; })
+      .sort((a, b) => (a.div === b.div ? 0 : a.div === 'men' ? -1 : 1) || b.points - a.points)
+  }));
+}
+async function renameTeam(req, env, u, kind) {
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const team = cleanText(b.teamName, 2, 30);
+  if (!team) return json({ error: 'Team name must be 2-30 characters.' }, 400);
+  try {
+    const r = kind === 'pool'
+      ? await env.DB.prepare('UPDATE pool_members SET team_name = ? WHERE pool_id = ? AND user_id = ? AND NOT EXISTS (SELECT 1 FROM pool_members m WHERE m.pool_id = ? AND m.user_id != ? AND lower(m.team_name) = lower(?))').bind(team, parseInt(b.poolId, 10), u.id, parseInt(b.poolId, 10), u.id, team).run()
+      : await env.DB.prepare('UPDATE gentries SET team_name = ? WHERE contest_id = ? AND user_id = ?').bind(team, String(b.contestId || ''), u.id).run();
+    if (r.meta.changes !== 1) {
+      if (kind === 'pool' && await env.DB.prepare('SELECT 1 AS x FROM pool_members WHERE pool_id = ? AND user_id = ?').bind(parseInt(b.poolId, 10), u.id).first()) return json({ error: 'Another team in this pool already uses that name.' }, 409);
+      return json({ error: kind === 'pool' ? 'You are not in this pool.' : 'Sign up for this draft first.' }, 404);
+    }
+  } catch (e) { return json({ error: 'That team name is taken. Try another.' }, 409); }
+  return json({ ok: true, team });
+}
+
 // ---------- pool API ----------
 async function poolCreate2(req, env, u) {
   await migrateDrafts(env);
@@ -835,13 +866,16 @@ async function draftState(env, u, pid) {
   const seq = rules && order.length ? sequence(rules, order.length) : [];
   const onClock = pr && pr.status === 'live' && seq[pr.pick_no] ? order[seq[pr.pick_no].seat] : null;
   const res = pj(cat && cat.results_json, null);
-  let standings = null;
+  let standings = null, live = null;
+  if (picks.length && (!pr || pr.status === 'done' || pr.status === 'live')) {
+    live = { updatedAt: cat ? cat.updated_at : null, hasResults: !!res, teams: liveTeams(ms.map((m, i) => ({ team: m.team_name, user: m.username, mine: m.user_id === u.id, tie: i, keys: picks.filter((p) => p.user_id === m.user_id).map((p) => p.surfer) })), ros, res) };
+  }
   if (res && picks.length) {
     const divOf = {};
     ros.men.forEach((s) => divOf[s.key] = 'men'); ros.women.forEach((s) => divOf[s.key] = 'women');
-    const teams = ms.map((m, i) => ({ team: m.team_name, uid: m.user_id, tie: i, s: scoreTeam(picks.filter((p) => p.user_id === m.user_id).map((p) => p.surfer), res, divOf) }));
+    const teams = ms.map((m, i) => ({ team: m.team_name, user: m.username, uid: m.user_id, tie: i, s: scoreTeam(picks.filter((p) => p.user_id === m.user_id).map((p) => p.surfer), res, divOf) }));
     const pot = rules ? rules.buyIn * ms.length + rules.bonus : 0;
-    standings = ['men', 'women', 'team'].map((cat2) => ({ cat: cat2, pay: rules && pot ? Math.round(pot * rules.payout[cat2]) / 100 : 0, rows: rankBy(teams, cat2).map((t) => ({ team: t.team, best: cat2 === 'team' ? null : t.s[cat2].best, points: cat2 === 'team' ? t.s.total : t.s[cat2].pts })) }));
+    standings = ['men', 'women', 'team'].map((cat2) => ({ cat: cat2, pay: rules && pot ? Math.round(pot * rules.payout[cat2]) / 100 : 0, rows: rankBy(teams, cat2).map((t) => ({ team: t.team, user: t.user, mine: t.uid === u.id, best: cat2 === 'team' ? null : t.s[cat2].best, points: cat2 === 'team' ? t.s.total : t.s[cat2].pts })) }));
   }
   return json({
     serverNow: Date.now(),
@@ -851,7 +885,7 @@ async function draftState(env, u, pid) {
     draft: pr ? { status: pr.status, at: pr.draft_at, pickNo: pr.pick_no, total: seq.length, deadline: pr.deadline, onClock: onClock ? team(onClock) : null, myTurn: onClock === u.id, order: order.map(team), seq: seq.map((s) => ({ team: team(order[s.seat]), division: s.division, round: s.round })) } : null,
     members: ms.map((m) => ({ team: m.team_name, user: m.username, role: m.role, me: m.user_id === u.id })),
     picks: picks.map((p) => ({ n: p.pick_no, team: team(p.user_id), mine: p.user_id === u.id, surfer: p.surfer, division: p.division, auto: !!p.auto })),
-    roster: ros, queue: pj(q && q.queue_json, []), results: res, standings
+    roster: ros, queue: pj(q && q.queue_json, []), results: res, standings, live
   });
 }
 async function draftPick(req, env, u) {
@@ -960,6 +994,11 @@ async function generalOne(env, u, cid) {
   }
   const me = u ? rows.find((r) => r.user_id === u.id) : null;
   const reveal = status === 'closed';
+  let live = null;
+  if (locked.length && (status === 'closed' || res)) {
+    const all = liveTeams(locked.map((r) => ({ team: r.team_name, user: r.username, mine: !!(u && r.user_id === u.id), tie: r.locked_at, keys: pj(r.picks_json, []) })), ros, res);
+    live = { updatedAt: cat.updated_at, hasResults: !!res, teams: all.map((t) => reveal || t.mine ? t : { ...t, surfers: null }) };
+  }
   return json({
     serverNow: now,
     draft: { contestId: g.contest_id, name: cat.name, location: cat.location, start: cat.start_date, end: cat.end_date, opensAt: g.opens_at, closesAt: g.closes_at, status, men: g.men, women: g.women, wildcard: now >= g.opens_at ? g.wildcard_rank : null, combos: nCr(alive(ros.men).length, g.men) * nCr(alive(ros.women).length, g.women), note: cat.roster_note, source: cat.roster_source },
@@ -975,7 +1014,7 @@ async function generalOne(env, u, cid) {
     roster: ros,
     entries: rows.map((r) => ({ team: r.team_name, user: r.username, locked: !!r.locked_at, mine: !!(u && r.user_id === u.id), picks: reveal || (u && r.user_id === u.id) ? pj(r.picks_json, []) : null })),
     me: me ? { team: me.team_name, locked: !!me.locked_at, picks: pj(me.picks_json, []) } : null,
-    results: res, winners, overall: winners ? winners.overall : null
+    results: res, winners, overall: winners ? winners.overall : null, live
   });
 }
 function ordinal(n) { const s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
@@ -1757,6 +1796,7 @@ async function handle(request, env) {
           if (path === '/api/draft/start') return await draftStart(request, env, u);
           if (path === '/api/general/join') return await generalJoin(request, env, u);
           if (path === '/api/general/pick') return await generalPick(request, env, u);
+          if (path === '/api/general/team') return await renameTeam(request, env, u, 'general');
           if (path === '/api/admin/roster') return await adminRoster(request, env, u);
           if (path === '/api/admin/sync') { if (!u.is_admin) return json({ error: 'Admins only.' }, 403); return json(await syncCatalog(env, true)); }
         }
@@ -1767,6 +1807,7 @@ async function handle(request, env) {
           if (path === '/api/pools/join') return await poolJoin2(request, env, u);
           if (path === '/api/pools/rules') return await poolRules(request, env, u);
           if (path === '/api/pools/leave') return await poolLeave(request, env, u);
+          if (path === '/api/pools/team') return await renameTeam(request, env, u, 'pool');
           if (path === '/api/pools/joining') return await poolJoining(request, env, u);
         }
       }
