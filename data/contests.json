@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-15T16:44:30+00:00",
+ "updated_at": "2026-11-15T17:52:00+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -1096,21 +1096,21 @@
       "rank": 1
      },
      {
-      "key": "hans-odriozola",
-      "name": "Hans Odriozola",
-      "country": "GER",
-      "rank": 2
-     },
-     {
       "key": "lucca-mesinas",
       "name": "Lucca Mesinas",
       "country": "PER",
-      "rank": 3
+      "rank": 2
      },
      {
       "key": "miguel-tudela",
       "name": "Miguel Tudela",
       "country": "PER",
+      "rank": 3
+     },
+     {
+      "key": "hans-odriozola",
+      "name": "Hans Odriozola",
+      "country": "GER",
       "rank": 4
      },
      {
@@ -2696,7 +2696,7 @@
     ]
    },
    "roster_source": "ISA official results (SurfScores)",
-   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (121 men, 99 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (121 men, 101 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "yago-dora": {
@@ -2718,6 +2718,10 @@
     "leonardo-fioravanti": {
      "place": 5,
      "points": 4745
+    },
+    "ethan-ewing": {
+     "place": 1,
+     "points": 10000
     },
     "kanoa-igarashi": {
      "place": 7,
@@ -2754,6 +2758,18 @@
     "rio-waida": {
      "place": 43,
      "points": 265
+    },
+    "hans-odriozola": {
+     "place": 4,
+     "points": 6085
+    },
+    "lucca-mesinas": {
+     "place": 2,
+     "points": 7800
+    },
+    "miguel-tudela": {
+     "place": 3,
+     "points": 6085
     },
     "alonso-correa": {
      "place": 13,
@@ -3183,26 +3199,6 @@
      "place": 114,
      "points": 265
     },
-    "ethan-ewing": {
-     "place": 4,
-     "points": 6085,
-     "live": true
-    },
-    "hans-odriozola": {
-     "place": 4,
-     "points": 6085,
-     "live": true
-    },
-    "lucca-mesinas": {
-     "place": 4,
-     "points": 6085,
-     "live": true
-    },
-    "miguel-tudela": {
-     "place": 4,
-     "points": 6085,
-     "live": true
-    },
     "carissa-moore": {
      "place": 17,
      "points": 1330
@@ -3607,34 +3603,24 @@
      "place": 82,
      "points": 265
     },
-    "gabriela-bryan": {
-     "place": 6,
-     "points": 4745,
-     "live": true
-    },
     "sawyer-lindblad": {
-     "place": 6,
-     "points": 4745,
-     "live": true
-    },
-    "luana-silva": {
-     "place": 6,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "leihani-zoric": {
-     "place": 6,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "janire-gonzalez-etxabarri": {
-     "place": 6,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "johanne-defay": {
-     "place": 6,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     }
    },
