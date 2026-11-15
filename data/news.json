@@ -1,23 +1,23 @@
 {
-"updated_at": "2026-11-15T05:31:08+00:00",
+"updated_at": "2026-11-15T07:45:58+00:00",
 "sources": {
 "Surfer": 32,
 "ISA": 8,
 "Stab": 22,
-"Surfline": 6,
+"Surfline": 5,
 "The Inertia": 48,
 "BeachGrit": 15,
 "Tracks": 1,
-"World Surf League": 43,
+"World Surf League": 44,
 "Surfertoday": 6,
-"In the news": 45
+"In the news": 46
 },
 "items": [
 {
-"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
-"source": "The New York Times",
-"at": "2026-11-15T04:01+00:00",
+"title": "Ventura, Hermosa Beach and Manhattan Beach piers close as high surf and dangerous rip currents batter Southern California coast",
+"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDd0alJ3OTJTb2tQZHY3R2RyeG9oRVJ4VTlpWS0yMV9DaENEUHBrZ3NuejR2RnZXeTJnd1ZIUHZBLXpOS0l0Q1lqbEI4WVBMbTYzWmc0dUF4MHNyZHV5c3pJSm1TQmt2OG5tT1diNXV6OWlhSkpKOXMwWXdBU296LWxBVEtHQ3pyNHlDN2Z1QlJ0T1RkSGtxOEVoZzZTc0hmOGtjakEzS3ZmVFBHX1pab0VzVm9xWEVkbmh0MGFIWVh5dmRqTmQwaHFCTGNXb0JXTXU4aVVqc3jSAd4BQVVfeXFMTmo4RFViVTlBdWd2ZVJ0SGxGYlhiR085T0JOTWYyT1k4NmZBYjlXaWJfN2FnZ1ZrUU5pT3ZlQlJKbHE5d2R3ZEJTSktjTk9EQnFNQTZsMzYtcDM2OEVOY2NPN3lQSXI2dHctb29wMi05eENicF93bjFNR1dYSDBkNmFsbHJXOXN6UllTcE9WLXdWQ1FwdTZtdFVsU3h6T2pvWEJrai1Gb0dDQlh3LWxVVG1FZVplVWNEVmZKeVNIZ2xfcVkyVENUUTVKV1IzQTUzbWFDcXhXOVlnbHFOUTB3?oc=5",
+"source": "ABC7 Los Angeles",
+"at": "2026-11-15T05:10+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -125,6 +125,26 @@
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyMzVqV2VTQS1rTXFscTNiT0FxMFNEcnBSLWRLYVV1UFo2T1dUeU0xQ1F0RWlLd3lWbjdDTFRvek40TzFydWxjN3B3b1R0X0YzRkZYWUw3WndEUm9ZWlZOOVVsSEgwQTAyTXNFVEJVUVEtWU1LWkRWSTJuLWZZV2M?oc=5",
 "source": "The Press Democrat",
 "at": "2026-11-14T22:08+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "- World Surf League",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzSzFQT3JvdlZoaUFhUi15NWtOMlJuVzI0ZWNQZ0ptOFNkRTFTN3ZWeGJBRFpyMFphbk5NMjYtTEs2bjROZzY3Rm1jaHFtWlNWV2hVUUNsZzhKTFBX?oc=5",
+"source": "World Surf League",
+"at": "2026-11-14T22:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
+"source": "The New York Times",
+"at": "2026-11-14T22:03+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -493,6 +513,16 @@
 "kind": "media"
 },
 {
+"title": "UPDATE: Road closures in Carmel as high surf hits Monterey Peninsula",
+"link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbERpMUJvQlQyTG5zd2s2ZFh5b3BCdTlqV2VlSmFoQmJjV25BX2xCd1FtdVA3VnU4anNYRWhoYTdKSFhzSU05REFSVXkxOVRrX3BLeXpxdUJKYzlkZThRRXRFMUwzb1VIaWZsX3pZbzNHOC1wZmcyWEVNRTlxTEhVeDBaeDg5WGRpME5FbW44NnZzSk4ydDBWbHdJd243Njd3STdTODZVMU14WV9JaUZpRVMyU1NsandaNkkzYzdnTmM0T2xIb2dnMXlB?oc=5",
+"source": "Monterey Herald",
+"at": "2026-11-13T23:05+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "BREAKING: FAA Issues Nationwide Ground Stop for All Departing U.S. Flights",
 "link": "https://www.surfer.com/news/faa-ground-stop-flights-united-states",
 "source": "Surfer",
@@ -633,15 +663,13 @@
 "kind": "outlet"
 },
 {
-"title": "Results for Kirra Pinkerton at Taiwan Open of Surfing Women's 2026",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTTlsN1NOb1E4Zkw2d0hZaU9EdExIQW1WWW5kV2JGSW8wNzkzYWk5X2xfRXlfMEQ4cnZuSkEyc2ZkQk5PQkRoYTU4R3FpUGwybEw1X1VZYmJhZXcxRW83NWJuSmJabmZKTU44eG1UcDlTSDFqUHNIcEdBWHgzZFB5ckNJb3FuRGxsQzFMb0Y1Ni0?oc=5",
+"title": "Results for Ella McCaffray at Taiwan Open of Surfing Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbm5jRzVJaGNEaWRQb2F1UTlWeDBSdnBPY1dkMEo5ZmZSa1dyRFRvd0xfdmFHTUVvNWtqTEc1VmVzaS16ZldTb0dzRnVrUnQ4MVg5U1dKOFJmSG1zY2lhWVZ0ajhfZC1jZWltN05wRG5VX0tpOS05bkw0YWE1YlJXRmp6YnVKekFBX3d6QmcxdnY?oc=5",
 "source": "World Surf League",
-"at": "2026-11-13T19:22+00:00",
+"at": "2026-11-13T19:21+00:00",
 "img": null,
 "desc": "",
-"surfers": [
-"kirra-pinkerton"
-],
+"surfers": [],
 "kind": "outlet"
 },
 {
@@ -719,16 +747,6 @@
 "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZDFhMnhOa1ZwRW1hZ3RxckdEczh6VV96Q09fZjBiRWFtZ0NRTUdYY05vaHk0ZXhFU2sxakhSNl9qRFdlLUxqLUNTMXU5WHlsREZpanJ0N2t3UlBNclE5QldscW9CZzJZUWlQcjhTSGI5UEt3QmJwSHJTQ1RtOVBNakR0eEswazc5WG90X1BPUElFY3lwTjJYQ0x6QnN3WWppNjd2dmU5U2FUQ0Y2ZmFhQkp3VHV1Qkh0alVzemgtYTNVR3NveU5HRVVTU2JFT0s1bWh3?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-13T17:52+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results for Luke Guinaldo at La Marginal Surfing Pro 2026",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWGJWUkNYWnFtV1gzdklnLVFGNHQ2bU5zMGZleFExQ3pFV0xYREFoWHY3NUc5LVlvb1BNZHpoVnIwWDJPV1V1eDh0TlY1ZWZ4QldHRkZWWHZhLUhKVGE5cDVuSjhPQXBJZ2N0d3hwUzZYT2NzV0dqUnJESl9FaVdUajhCWE94RWJsWVBNc1F1VQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T17:24+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -819,16 +837,6 @@
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVkRpSUVIVzdTTlpCZTFwY0Nyak92Ym5ieW54NDVkMVlxTDIwbFIwLVI3c0l4U0tXOHAtTjlXS3JHMXBFZVlPeUt1YWRVX181akQ0amJKcmpzbG5GOWdKMGtiUXBWenVqYmtnWkt0ck5lWmdzV0JBaUVMbkotajdwc2QwbWtUQS1oRk13Q1NMcmJaRnZTeUVjT1NMdzdyS3RFREpVVnVmZmlKWXpjVnB5TGtZRDk1eUtBZ1NlYg?oc=5",
 "source": "Stab",
 "at": "2026-11-13T15:14+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results for Alana Lopez at Taiwan Open of Surfing Women's 2026",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYjJIUWYzcTdZeG04ejlMWTBwQjNSaF9kMVNzZGtCR2Y0QS1VeVota3RpVnZ0cWFOQVN2S1R5bm9objBTU2VORGFpcDlBOEZCOFZubi0xVE1fY0FsOHU1b0ZIREE5RHdTNlNKa1JmQmFvS3FqdlFHaTk1ZkYzcGd6ejUtdnVTb0dUTjdyLQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T15:13+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1219,16 +1227,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "- BeachGrit.com",
-"link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5WOUZWS09PaElxVVBQNVhoRFVQOFFzcDBFdnJQQkRBSEUwTkVkRVVqbUtFT2ItcTNQRmUzWjRJdFA5aXhraWpr?oc=5",
-"source": "BeachGrit",
-"at": "2026-11-12T21:45+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
 }
 ]
 }
