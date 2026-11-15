@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-15T17:52:00+00:00",
+ "updated_at": "2026-11-15T18:14:19+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -1963,9 +1963,9 @@
     ],
     "women": [
      {
-      "key": "janire-gonzalez-etxabarri",
-      "name": "Janire González-Etxabarri",
-      "country": "ESP",
+      "key": "leihani-zoric",
+      "name": "Leihani Zoric",
+      "country": "AUS",
       "rank": 1
      },
      {
@@ -1975,9 +1975,9 @@
       "rank": 2
      },
      {
-      "key": "leihani-zoric",
-      "name": "Leihani Zoric",
-      "country": "AUS",
+      "key": "janire-gonzalez-etxabarri",
+      "name": "Janire González-Etxabarri",
+      "country": "ESP",
       "rank": 3
      },
      {
@@ -3207,6 +3207,10 @@
      "place": 5,
      "points": 4745
     },
+    "sawyer-lindblad": {
+     "place": 4,
+     "points": 6085
+    },
     "luana-silva": {
      "place": 5,
      "points": 4745
@@ -3231,9 +3235,21 @@
      "place": 12,
      "points": 3320
     },
+    "leihani-zoric": {
+     "place": 1,
+     "points": 10000
+    },
     "catalina-zariquiey": {
      "place": 10,
      "points": 3320
+    },
+    "janire-gonzalez-etxabarri": {
+     "place": 3,
+     "points": 6085
+    },
+    "johanne-defay": {
+     "place": 2,
+     "points": 7800
     },
     "isidora-bulto": {
      "place": 13,
@@ -3602,26 +3618,6 @@
     "zoe-anais-bain": {
      "place": 82,
      "points": 265
-    },
-    "sawyer-lindblad": {
-     "place": 4,
-     "points": 6085,
-     "live": true
-    },
-    "leihani-zoric": {
-     "place": 4,
-     "points": 6085,
-     "live": true
-    },
-    "janire-gonzalez-etxabarri": {
-     "place": 4,
-     "points": 6085,
-     "live": true
-    },
-    "johanne-defay": {
-     "place": 4,
-     "points": 6085,
-     "live": true
     }
    },
    "draftable": true
