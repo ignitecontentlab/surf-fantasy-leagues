@@ -9769,59 +9769,60 @@
    {
     "name": "Janire González-Etxabarri",
     "country": "ESP",
-    "total": null,
-    "place": null,
+    "total": 13.63,
+    "place": 3,
     "waves": [
-     1.0,
-     4.93
+     4.93,
+     8.7
     ],
     "best_waves": [
-     4.93,
-     1.0
+     8.7,
+     4.93
     ]
    },
    {
     "name": "Sawyer Lindblad",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 10.5,
+    "place": 4,
     "waves": [
-     7.17
+     7.17,
+     3.33
     ],
     "best_waves": [
      7.17,
-     0.0
+     3.33
     ]
    },
    {
     "name": "Johanne Defay",
     "country": "FRA",
-    "total": null,
-    "place": null,
+    "total": 14.67,
+    "place": 2,
     "waves": [
-     5.27,
-     9.0
+     9.0,
+     5.67
     ],
     "best_waves": [
      9.0,
-     5.27
+     5.67
     ]
    },
    {
     "name": "Leihani Zoric",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 15.5,
+    "place": 1,
     "waves": [
      7.83,
-     5.93
+     7.67
     ],
     "best_waves": [
      7.83,
-     5.93
+     7.67
     ]
    }
   ],
-  "complete": false
+  "complete": true
  }
 ]
