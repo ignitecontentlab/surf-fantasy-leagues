@@ -9329,8 +9329,8 @@
    {
     "name": "Sawyer Lindblad",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 15.03,
+    "place": 2,
     "waves": [],
     "best_waves": [
      0.0,
@@ -9340,8 +9340,8 @@
    {
     "name": "Janire González-Etxabarri",
     "country": "ESP",
-    "total": null,
-    "place": null,
+    "total": 15.14,
+    "place": 1,
     "waves": [],
     "best_waves": [
      0.0,
@@ -9351,8 +9351,8 @@
    {
     "name": "Gabriela Bryan",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 14.33,
+    "place": 3,
     "waves": [
      4.5
     ],
@@ -9364,8 +9364,8 @@
    {
     "name": "Johanne Defay",
     "country": "FRA",
-    "total": null,
-    "place": null,
+    "total": 11.7,
+    "place": 4,
     "waves": [],
     "best_waves": [
      0.0,
@@ -9373,7 +9373,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -9581,25 +9581,55 @@
     "name": "Leonardo Fioravanti",
     "country": "ITA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     2.5,
+     4.5
+    ],
+    "best_waves": [
+     4.5,
+     2.5
+    ]
    },
    {
     "name": "Lucca Mesinas",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     7.0
+    ],
+    "best_waves": [
+     7.0,
+     0.0
+    ]
    },
    {
     "name": "Ethan Ewing",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.0,
+     0.57
+    ],
+    "best_waves": [
+     6.0,
+     0.57
+    ]
    },
    {
     "name": "Franco Radziunas",
     "country": "ARG",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     0.93
+    ],
+    "best_waves": [
+     0.93,
+     0.0
+    ]
    }
   ],
   "complete": false
@@ -9630,6 +9660,18 @@
   "heat": 1,
   "surfers": [
    {
+    "name": "Gabriela Bryan",
+    "country": "USA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Johanne Defay",
+    "country": "FRA",
+    "total": null,
+    "place": null
+   },
+   {
     "name": "Luana Silva",
     "country": "BRA",
     "total": null,
@@ -9638,6 +9680,26 @@
    {
     "name": "Leihani Zoric",
     "country": "AUS",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "women",
+  "round": "B20",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Janire González-Etxabarri",
+    "country": "ESP",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Sawyer Lindblad",
+    "country": "USA",
     "total": null,
     "place": null
    }

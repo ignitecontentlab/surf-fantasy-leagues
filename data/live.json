@@ -1,78 +1,139 @@
 {
- "division": "women",
- "round": "ROUND 7",
+ "division": "men",
+ "round": "REPECHAGE 12",
  "heat": 1,
- "heat_id": "72",
+ "heat_id": "148",
  "status": "RUNNING",
- "minleft": 19,
- "secleft": 55,
+ "minleft": 11,
+ "secleft": 33,
  "end": "",
  "surfers": [
   {
-   "name": "Gabriela Bryan",
-   "country": "USA",
+   "name": "Lucca Mesinas",
+   "country": "PER",
    "place": 1,
-   "total": 4.5,
+   "total": 7.0,
    "best_waves": [
-    4.5,
+    7.0,
     0.0
    ],
    "priority": "P2",
    "waves": [
+    7.0
+   ],
+   "wave_detail": [
+    {
+     "score": 7.0,
+     "judges": [
+      7.5,
+      6.5,
+      7.0,
+      7.0,
+      7.0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Leonardo Fioravanti",
+   "country": "ITA",
+   "place": 2,
+   "total": 7.0,
+   "best_waves": [
+    4.5,
+    2.5
+   ],
+   "priority": null,
+   "waves": [
+    2.5,
     4.5
    ],
    "wave_detail": [
     {
+     "score": 2.5,
+     "judges": [
+      2.5,
+      2.5,
+      2.5,
+      2.5,
+      3.0
+     ]
+    },
+    {
      "score": 4.5,
      "judges": [
       4.5,
-      5.0,
       4.5,
       4.5,
+      4.0,
       4.5
      ]
     }
    ]
   },
   {
-   "name": "Sawyer Lindblad",
-   "country": "USA",
-   "place": 2,
-   "total": 0.0,
+   "name": "Ethan Ewing",
+   "country": "AUS",
+   "place": 3,
+   "total": 6.57,
    "best_waves": [
-    0.0,
-    0.0
+    6.0,
+    0.57
    ],
    "priority": "P1",
-   "waves": [],
-   "wave_detail": []
-  },
-  {
-   "name": "Janire González-Etxabarri",
-   "country": "ESP",
-   "place": 3,
-   "total": 0.0,
-   "best_waves": [
-    0.0,
-    0.0
+   "waves": [
+    6.0,
+    0.57
    ],
-   "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "wave_detail": [
+    {
+     "score": 6.0,
+     "judges": [
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0
+     ]
+    },
+    {
+     "score": 0.57,
+     "judges": [
+      0.5,
+      0.7,
+      0.8,
+      0.5,
+      0.5
+     ]
+    }
+   ]
   },
   {
-   "name": "Johanne Defay",
-   "country": "FRA",
+   "name": "Franco Radziunas",
+   "country": "ARG",
    "place": 4,
-   "total": 0.0,
+   "total": 0.93,
    "best_waves": [
-    0.0,
+    0.93,
     0.0
    ],
    "priority": null,
-   "waves": [],
-   "wave_detail": []
+   "waves": [
+    0.93
+   ],
+   "wave_detail": [
+    {
+     "score": 0.93,
+     "judges": [
+      0.8,
+      1.0,
+      1.0,
+      0.8,
+      1.0
+     ]
+    }
+   ]
   }
  ],
- "fetched_utc": "2026-11-15T15:16:35.474491Z"
+ "fetched_utc": "2026-11-15T15:52:49.075859Z"
 }
