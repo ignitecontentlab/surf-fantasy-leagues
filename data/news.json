@@ -1,18 +1,48 @@
 {
-"updated_at": "2026-11-15T13:34:28+00:00",
+"updated_at": "2026-11-15T15:19:54+00:00",
 "sources": {
-"Surfer": 32,
+"Surfer": 33,
 "ISA": 7,
-"Stab": 22,
+"Stab": 24,
 "Surfline": 2,
 "The Inertia": 49,
 "BeachGrit": 15,
 "Tracks": 1,
 "World Surf League": 43,
 "Surfertoday": 6,
-"In the news": 46
+"In the news": 45
 },
 "items": [
+{
+"title": "Photos, videos show mammoth waves hitting Bay Area shoreline",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeU9Dd2FMYnJXdlBqOFN1ZnhDRmNKcjRaOERnS3BoaXJtN0V2a1J0enZ3c1pPU0xJVWpwRXdTZTZFN1NJRzZVM2xDYWppU2Z2dXNmREpMMUpkalo2V0ZZbFJLRW5DSkU3aGNhLXhDdk04U2tjRUhHcTlmQmd3elM5Sw?oc=5",
+"source": "SFGATE",
+"at": "2026-11-15T14:52+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Colossal 35-Foot El Niño Swell Explodes Over Santa Cruz Cliffs and Floods West Cliff Drive (Video)",
+"link": "https://www.surfer.com/news/35-foot-el-nino-swell-santa-cruz-video",
+"source": "Surfer",
+"at": "2026-11-15T14:35+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNTkw/santa-cruz-big-wave.png?profile=rss",
+"desc": "Shocking video captures enormous waves crashing over West Cliff Drive, towering above onlookers and flooding the road during one of California's biggest swells in years.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "beatriz ryder Archives",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5iQmtYaG5vZzdUZGlkdWFORTV4Z1o2aXplWFdadlJ0a0pHS2thRDE4dWhPNEZCa0xrZjFoMzV2WGpGbzFheWZ5eHhid3FsQ0U?oc=5",
+"source": "Stab",
+"at": "2026-11-15T14:02+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Massive Pacific Swell Brings California Coast’s Biggest Waves in Nearly Two Years",
 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVTdjSVVLTnhnOXVSdGg0b0wyb3NhX1owUmZmbnA0bzByOGF4cWJVaGIzMHFNakowUE5SYkxySlhVNGl1eGJlQ0lLR1dleUNhdEcxVm82STBpTFBlanloUDdvSzN4UXB3YnltU3dSbEFhY1ZTM1NWUlhQVEpoOXcwRjJwbTlNTXg5ckh3SjdBMHVaUmlOQnZtMDBoVTRkdlIxejdzYlM4UzdUdXc?oc=5",
@@ -291,6 +321,16 @@
 "kind": "media"
 },
 {
+"title": "Rob Brown's Big-Wave El Niño Photo Lookback: '98-'16",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTQyXzQ3YlNhS3hXdjJCc2lvLWFZcFVuN0xvSXVYZ2k0VTRyYjAyTE9lbFVuMy1xQWVNc1pNZm5fZW93Vm1IdVVjRmkzelVZdWUya0NiVUIzYVBSb0NtdTZxNTlPTHFiM3Z4ZmZhQjU5UnI2Tjg3cENMa3RTaXpyT0MwOVhLSTdCOTJPbUh3Q3p0d053TW1fRTRjR0VlR2RLVU5zTlpBUjFrQQ?oc=5",
+"source": "Surfline",
+"at": "2026-11-14T17:35+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Northern California coast braces for dangerous waves due to storm",
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV29vT1gtUlB3VW9IakZocEE4bmJ6VUgxRzVheFpKY0d6NTVjbTJYcHk1VGNSNGhFRXU5bzFfd250R3BET0FYdjNHdGVGcW56UzA2NTltUFpmR1FadS1oVlhoUnBZVjhOcnBLYThoS19XVGxsN2t5QmpkYVY3a0hoRUptN2JKV2hoMTRibnI0bnN2dlJUVnZCZmNUMm85NHZaQnlOSTFic0VBR2dkckpUcWVmbU0?oc=5",
 "source": "CBS News",
@@ -351,20 +391,20 @@
 "kind": "media"
 },
 {
-"title": "Surf's up! WAY up - huge waves on the California coast this weekend, and here's why",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMWI3U3VBcUh5dHByeFdiNndPbFF2Q3ptcUdlc3dGdjNOdVZpcHJRNV9zU2R2TDhscEptVVUwVmIwYm95aW1admhLeEJKdjMxMWlwZS1XNFItYzhoWlFRenVUTVh1TkxfYjFXbGh5amNta1Z5UmtkamloSnZxSUNiSnoxdlJPWVdCQXUzVmJYbWtZUWQzYkVQSU91em5yRXhVZHltVkZKbUVYNXFhc093UkN2WQ?oc=5",
-"source": "kmph.com",
-"at": "2026-11-14T12:07+00:00",
+"title": "Surfers keep getting sick at this Bay Area beach. DNA tests offer a new clue",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0UyZHR4SE5lNkYtYzBZZU1ScDJ3RUI1ODJsRjM0dmhHcVFiMFdqaWY0Yk9yaW5zekhMR0hWYlJFWk5vWlVhbGc5YWVLZUFzZWNTWmtZTFdqSk1tRTJlNFdsREZCMEVZV2tEMGwyYXo1QkFDcE41MXh4ZU9zR3dXMHFhcnduNHdCVVVpdmxlUDQ?oc=5",
+"source": "San Francisco Chronicle",
+"at": "2026-11-14T12:02+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
 "kind": "media"
 },
 {
-"title": "Surfers keep getting sick at this Bay Area beach. DNA tests offer a new clue",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0UyZHR4SE5lNkYtYzBZZU1ScDJ3RUI1ODJsRjM0dmhHcVFiMFdqaWY0Yk9yaW5zekhMR0hWYlJFWk5vWlVhbGc5YWVLZUFzZWNTWmtZTFdqSk1tRTJlNFdsREZCMEVZV2tEMGwyYXo1QkFDcE41MXh4ZU9zR3dXMHFhcnduNHdCVVVpdmxlUDQ?oc=5",
-"source": "San Francisco Chronicle",
-"at": "2026-11-14T12:02+00:00",
+"title": "Surf's up! WAY up - huge waves on the California coast this weekend, and here's why",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR3dBNWg0U201b3VlSjdYcU5vTzF5LVlLRk5pZ2F4SnZqTDZGbXRPc2dfNno5dDlEWk1oZk1VYmhCdnlLU0FJVFNvemhPZklhdWdjMnFYNlUzcC1xUy1zYU5xVVFrcTRTVFFGdkNGdTFTQWFGYS1KeVRmS2FVWERxLWN3NjJoSHRaTFhhT29LcXVSZXJUZmotYnlpelBZbkZRdXRTTFdTVkM?oc=5",
+"source": "KMPH Fox 26",
+"at": "2026-11-14T12:01+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -415,16 +455,6 @@
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQVNpODlsRjVZa0ZkOXA0ckljTFE0cU54WTdhZ3l2MEJ6SHZJSWtXLXlHWHg2XzBTQlFIVmYzM0VDeDRnUF8tWHQtYmlzeC1uTmFxQVlSLTJBVnk3XzRnZzFRNzQ3NV9BNVgzTzV4dW9LYUdZUnpvdVZpVmppNXF0cUZlel9lT3VFWEMxa0UxQm9hYzQxS2NRRll4UEJfN0tQZDBtN1VuYklWb3VCcERFbWVESF81X0FJbkZyOQ?oc=5",
 "source": "Nacionale",
 "at": "2026-11-14T09:03+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Rob Brown's Big-Wave El Niño Photo Lookback: '98-'16",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTQyXzQ3YlNhS3hXdjJCc2lvLWFZcFVuN0xvSXVYZ2k0VTRyYjAyTE9lbFVuMy1xQWVNc1pNZm5fZW93Vm1IdVVjRmkzelVZdWUya0NiVUIzYVBSb0NtdTZxNTlPTHFiM3Z4ZmZhQjU5UnI2Tjg3cENMa3RTaXpyT0MwOVhLSTdCOTJPbUh3Q3p0d053TW1fRTRjR0VlR2RLVU5zTlpBUjFrQQ?oc=5",
-"source": "Surfline",
-"at": "2026-11-14T06:37+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -913,16 +943,6 @@
 "kind": "outlet"
 },
 {
-"title": "Storms to bring heavy snow, powerful winds and dangerous surf to the West",
-"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNzdnaUk3Xy1adnBrQmttbm5PM3k0Ny16TVNYRjhNaklmZHFiaUZ2ZnFxekhmSUFyMFR5Rk8ta1pHekhWdmlfTUZuZzlnN21pZUUwRjhqOHBwZ0lyS2FjY05NLTRCQVgtT2k3YTdDaTlyNk5GUUx6UXFxVTh2Y1kxR0NUaVpJa3lucmdTZjJUR2VJMTZPdldnUy1Ic9IBoAFBVV95cUxPUEhTLUljcEFDV0lSWkVPVmp2VzIxNnZVS0xPblFLRzMzX1hrdHV4Qi1vT2lVM0tZNzMyVm12VE9xUUdnZ3AtdEtEOFNhR3ZvdGU0aW5DM1ZjOGlzLUg1UTRIUV9LaGxjNnQwV0NNQ19CQUU4TExqNzIyWjlva0xqcUJ0RUxRRGQzenNPWnkyS0FJRHExSEdsVGNxa0t3Q3d5?oc=5",
-"source": "ABC News - Breaking News, Latest News and Videos",
-"at": "2026-11-13T11:31+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Three surfers help save man who jumped from Golden Gate Bridge",
 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1NMGQxTURKbFZJWmEwUU5sbHhIckhuMFl6RTVmUEpmTVJSVmZoUG5QRU9jLUpnMnpLai1YU0NMU3RuLXpDb2x1X0pBSTJFa2tVcHBCWE92bFBpS25wM3ktaG5BZEhQMG1USE84ZlBWM2hxbVJ3aEh6aHFpdEhUQQ?oc=5",
 "source": "Surfertoday",
@@ -1203,26 +1223,6 @@
 "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE12MTdqMF9QSno3M0ZfQ0lRN3J0VGhIb29xUnBLTG16YTZCNTFYSm15dm1KakVJUmlMQnRRZGdpVE5scGs?oc=5",
 "source": "Stab",
 "at": "2026-11-12T23:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "2 suspects arrested in mysterious killing of famed Santa Cruz surfer",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS0xRdm1qRGprTW1FMVItQjJ6SUpJY0VaOUdpSmhYTk5oQm9jdm5kWG1Qa3JXT1ZzbGU0Uk8yaHd0cjdFb3hkaWhfVGlkMGRnLWVSRnpXTXl3d2hiQ0ZGUERxQ2RwX24yNkVPaVpJdkhpTjhCUTkxNWNGWG54cHJtVHZXWkYyNUlWdjdRTmpn?oc=5",
-"source": "KSBW",
-"at": "2026-11-12T23:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "The 2026 Championship Tour Title Races Are Among the Tightest in Decades",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ2pYWkZIU09qa1lvQUhZZXhIdVhWV3J6Nk9QSk9FVnpzUUpRdHJXRnRsV2RfRjJhRk5VOEM4SWxEMW8tek9QLWJSWWNNbTk0TVE5ZmF4dzZQZGFrQWhPZThQV0tzaFhRbjRlVnI0QjFMQVoyQUF0aVlhdFNRc1NvUDVHVC1KeUZVVk9OREw5S3VlNzFEOFVlR3NZOVFaeW9xckhHdzByZWw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-12T22:19+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
