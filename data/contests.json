@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-15T15:58:38+00:00",
+ "updated_at": "2026-11-15T16:47:05+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -1096,33 +1096,35 @@
       "rank": 1
      },
      {
-      "key": "franco-radziunas",
-      "name": "Franco Radziunas",
-      "country": "ARG",
-      "rank": 2
-     },
-     {
       "key": "hans-odriozola",
       "name": "Hans Odriozola",
       "country": "GER",
-      "rank": 3
-     },
-     {
-      "key": "leonardo-fioravanti",
-      "name": "Leonardo Fioravanti",
-      "country": "ITA",
-      "rank": 4
+      "rank": 2
      },
      {
       "key": "lucca-mesinas",
       "name": "Lucca Mesinas",
       "country": "PER",
-      "rank": 5
+      "rank": 3
      },
      {
       "key": "miguel-tudela",
       "name": "Miguel Tudela",
       "country": "PER",
+      "rank": 4
+     },
+     {
+      "key": "franco-radziunas",
+      "name": "Franco Radziunas",
+      "country": "ARG",
+      "out": true,
+      "rank": 5
+     },
+     {
+      "key": "leonardo-fioravanti",
+      "name": "Leonardo Fioravanti",
+      "country": "ITA",
+      "out": true,
       "rank": 6
      },
      {
@@ -2692,7 +2694,7 @@
     ]
    },
    "roster_source": "ISA official results (SurfScores)",
-   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (119 men, 99 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (121 men, 99 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "yago-dora": {
@@ -2710,6 +2712,10 @@
     "miguel-pupo": {
      "place": 41,
      "points": 265
+    },
+    "leonardo-fioravanti": {
+     "place": 5,
+     "points": 4745
     },
     "kanoa-igarashi": {
      "place": 7,
@@ -2750,6 +2756,10 @@
     "alonso-correa": {
      "place": 13,
      "points": 3320
+    },
+    "franco-radziunas": {
+     "place": 5,
+     "points": 4745
     },
     "joshua-burke": {
      "place": 29,
