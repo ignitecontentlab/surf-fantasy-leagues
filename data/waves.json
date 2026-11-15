@@ -1262,5 +1262,37 @@
     5.83
    ]
   }
+ },
+ "women|catalinazariquiey|leilanimcgonagle|luanasilva": {
+  "leilanimcgonagle": {
+   "waves": [
+    7.0,
+    5.27
+   ],
+   "best_waves": [
+    7.0,
+    5.27
+   ]
+  },
+  "catalinazariquiey": {
+   "waves": [
+    5.5,
+    4.83
+   ],
+   "best_waves": [
+    5.5,
+    4.83
+   ]
+  },
+  "luanasilva": {
+   "waves": [
+    4.77,
+    0.33
+   ],
+   "best_waves": [
+    4.77,
+    0.33
+   ]
+  }
  }
 }

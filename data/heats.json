@@ -9253,8 +9253,8 @@
    {
     "name": "Romeo Chavez",
     "country": "COL",
-    "total": null,
-    "place": null,
+    "total": 8.66,
+    "place": 3,
     "waves": [
      3.83,
      4.83
@@ -9267,8 +9267,8 @@
    {
     "name": "Kanoa Igarashi",
     "country": "JPN",
-    "total": null,
-    "place": null,
+    "total": 14.17,
+    "place": 2,
     "waves": [
      7.67,
      6.5
@@ -9281,8 +9281,8 @@
    {
     "name": "Ethan Ewing",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 14.96,
+    "place": 1,
     "waves": [
      5.83,
      8.43
@@ -9293,7 +9293,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -9303,23 +9303,23 @@
    {
     "name": "Crosby Colapinto",
     "country": "USA",
-    "total": null,
-    "place": null
+    "total": 12.23,
+    "place": 3
    },
    {
     "name": "Yago Dora",
     "country": "BRA",
-    "total": null,
-    "place": null
+    "total": 15.06,
+    "place": 1
    },
    {
     "name": "Franco Radziunas",
     "country": "ARG",
-    "total": null,
-    "place": null
+    "total": 13.33,
+    "place": 2
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -9362,19 +9362,43 @@
     "name": "Catalina Zariquiey",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.5,
+     4.83
+    ],
+    "best_waves": [
+     5.5,
+     4.83
+    ]
    },
    {
     "name": "Luana Silva",
     "country": "BRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     4.77,
+     0.33
+    ],
+    "best_waves": [
+     4.77,
+     0.33
+    ]
    },
    {
     "name": "Leilani McGonagle",
     "country": "CRC",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     7.0,
+     5.27
+    ],
+    "best_waves": [
+     7.0,
+     5.27
+    ]
    }
   ],
   "complete": false
@@ -9399,6 +9423,38 @@
    {
     "name": "Yolanda Hopkins",
     "country": "POR",
+    "total": null,
+    "place": null
+   }
+  ],
+  "complete": false
+ },
+ {
+  "division": "men",
+  "round": "B18",
+  "heat": 1,
+  "surfers": [
+   {
+    "name": "Ethan Ewing",
+    "country": "AUS",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Franco Radziunas",
+    "country": "ARG",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Yago Dora",
+    "country": "BRA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Kanoa Igarashi",
+    "country": "JPN",
     "total": null,
     "place": null
    }
