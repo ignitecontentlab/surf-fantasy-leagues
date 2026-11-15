@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.11.0';
+const APP_VERSION = 'app-0.12.0';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -495,6 +495,7 @@ async function migrateDrafts(env) {
     'CREATE TABLE IF NOT EXISTS app_state(k TEXT PRIMARY KEY, v TEXT)'
   ];
   await env.DB.batch(q.map((s) => env.DB.prepare(s)));
+  try { await env.DB.prepare('ALTER TABLE users ADD COLUMN pro INTEGER NOT NULL DEFAULT 0').run(); } catch (e) {}
   draftsReady = true;
 }
 const endMs = (d) => Date.parse(d + 'T23:59:59Z');
@@ -609,11 +610,28 @@ function cleanRules(b, contest, members) {
     auto: b.auto === 'random' ? 'random' : 'best',
     snake: b.snake !== false, flipWomen: b.flipWomen !== false,
     buyIn: n(b.buyIn, 0, 1000, 0), bonus: n(b.bonus, 0, 10000, 0),
-    payout: { men: n(b.payout && b.payout.men, 0, 100, 60), women: n(b.payout && b.payout.women, 0, 100, 25), team: n(b.payout && b.payout.team, 0, 100, 15) },
+    payMode: b.payMode === 'fixed' ? 'fixed' : 'pct',
     note: cleanText(String(b.note || '').slice(0, 300), 0, 300) || ''
   };
   if (r.women === 0) r.flipWomen = false;
-  if (r.payout.men + r.payout.women + r.payout.team !== 100) return { error: 'The payout split has to add up to 100%.' };
+  const src = Array.isArray(b.prizes) ? b.prizes : prizesOf({ payout: b.payout || { men: 60, women: 25, team: 15 } });
+  if (!src.length) return { error: 'Add at least one prize.' };
+  if (src.length > 10) return { error: 'A pool can have up to 10 prizes.' };
+  const maxTeams = members || 20;
+  r.prizes = [];
+  for (const x of src) {
+    const cat = PRIZE_CATS.includes(x && x.cat) ? x.cat : null;
+    if (!cat) return { error: 'One of the prizes has an unknown category.' };
+    if ((cat === 'women' || cat === 'womenTeam') && r.women === 0) return { error: 'There are no women rounds, so women prizes cannot be used.' };
+    const pz = { cat, amt: r.payMode === 'pct' ? n(x.amt, 0, 100, 0) : n(x.amt, 0, 100000, 0) };
+    if (cat === 'place') { pz.n = n(x.n, 2, maxTeams, 2); }
+    if (cat === 'wild') { pz.random = x.random !== false; if (!pz.random) pz.n = n(x.n, 1, maxTeams, 2); }
+    r.prizes.push(pz);
+  }
+  if (r.prizes.filter((x) => x.cat === 'wild').length > 1) return { error: 'Only one wild card prize per pool.' };
+  const maxPot = r.buyIn * maxTeams + r.bonus, tot = r.prizes.reduce((a, x) => a + x.amt, 0);
+  if (r.payMode === 'pct' && maxPot > 0 && tot !== 100) return { error: `The prize split adds up to ${tot}%. It has to be 100%.` };
+  if (r.payMode === 'fixed' && tot > maxPot) return { error: `The prizes add up to $${tot}, but the most the pot can reach is $${maxPot} (${maxTeams} teams x $${r.buyIn}${r.bonus ? ' + $' + r.bonus : ''}).` };
   const at = parseInt(b.draftAt, 10);
   if (!Number.isFinite(at)) return { error: 'Pick a draft date and time.' };
   if (at < Date.now() - 5 * 60000) return { error: 'The draft time is in the past. Pick a time from now on.' };
@@ -645,6 +663,50 @@ function sequence(rules, n) {
   }
   return seq;
 }
+const PRIZE_CATS = ['men', 'women', 'team', 'place', 'menTeam', 'womenTeam', 'last', 'wild'];
+function prizesOf(r) {
+  if (Array.isArray(r.prizes)) return r.prizes;
+  const p = r.payout || { men: 60, women: 25, team: 15 };
+  return [{ cat: 'men', amt: p.men }, { cat: 'women', amt: p.women }, { cat: 'team', amt: p.team }].filter((x) => x.amt > 0);
+}
+function prizeLabel(x) {
+  return { men: "Men's top finish", women: "Women's top finish", team: 'Overall winner', menTeam: "Men's team points", womenTeam: "Women's team points", last: 'Last place' }[x.cat]
+    || (x.cat === 'place' ? `${ordinal(x.n)} place overall` : x.random ? (x.n ? `Wild card (random draw: ${ordinal(x.n)} place)` : 'Wild card (random place, drawn when the draft starts)') : `Wild card (${ordinal(x.n)} place)`);
+}
+function prizeMoney(r, x, teams) {
+  const pot = r.buyIn * teams + r.bonus;
+  return (r.payMode || 'pct') === 'fixed' ? x.amt : Math.round(pot * x.amt) / 100;
+}
+// prize leaders from the ranked live teams (app-0.12)
+function prizeBoard(r, teams) {
+  if (!r || !teams || !teams.length) return null;
+  const b = (v) => v == null ? 9999 : v;
+  const by = {
+    men: (a, c) => b(a.bestMen) - b(c.bestMen) || c.men - a.men,
+    women: (a, c) => b(a.bestWomen) - b(c.bestWomen) || c.women - a.women,
+    menTeam: (a, c) => c.men - a.men,
+    womenTeam: (a, c) => c.women - a.women
+  };
+  return prizesOf(r).map((x) => {
+    const out = { cat: x.cat, label: prizeLabel(x), pay: prizeMoney(r, x, teams.length), amt: x.amt, mode: r.payMode || 'pct', team: null, user: null, mine: false, tie: false, note: '' };
+    let w = null, tie = false;
+    if (by[x.cat]) {
+      const s = [...teams].sort((a, c) => by[x.cat](a, c) || a.rank - c.rank);
+      w = s[0]; const s2 = s[1];
+      if ((x.cat === 'men' && w.bestMen == null) || (x.cat === 'women' && w.bestWomen == null)) { out.note = 'Leader shows once surfers finish'; return out; }
+      tie = !!s2 && by[x.cat](w, s2) === 0;
+    } else {
+      const n = x.cat === 'team' ? 1 : x.cat === 'last' ? teams.length : x.n;
+      if (!n) { out.note = 'Place is drawn when the draft starts'; return out; }
+      if (n > teams.length) { out.note = `Only ${teams.length} teams, so no ${ordinal(n)} place`; return out; }
+      w = teams[n - 1];
+      tie = teams.some((t) => t !== w && t.total === w.total);
+    }
+    if (!w) return out;
+    Object.assign(out, { team: w.team, user: w.user, mine: !!w.mine, tie, points: w.total, bestMen: w.bestMen, bestWomen: w.bestWomen, men: w.men, women: w.women });
+    return out;
+  });
+}
 function rulesText(r) {
   const fmt = (s) => s >= 3600 ? (s / 3600) + ' hour' + (s > 3600 ? 's' : '') : s >= 60 ? (s / 60) + ' minute' + (s > 60 ? 's' : '') : s + ' seconds';
   const out = [
@@ -654,8 +716,12 @@ function rulesText(r) {
     r.women ? (r.flipWomen ? 'The order flips for the women, so the last men\'s pick picks first for women.' : 'Women start in the original order.') : '',
     `Each pick has a ${fmt(r.clock)} clock. If time runs out, the app picks for you: ${r.auto === 'random' ? 'a random available surfer' : 'the best-ranked available surfer'} (your queue is used first).`,
     'Every surfer can only be on one team in this pool.',
-    'Men\'s and women\'s winners: the team with the highest individual finish. Team winner: most total points.',
-    r.buyIn ? `Buy-in $${r.buyIn} per team${r.bonus ? ` plus $${r.bonus} added to the pot` : ''}. Payout: ${r.payout.men}% men's winner, ${r.payout.women}% women's winner, ${r.payout.team}% overall team. Money is settled outside the app.` : 'No buy-in.',
+    prizesOf(r).some((x) => x.cat === 'men' || x.cat === 'women') ? 'Men\'s and women\'s top finish: the team with the highest individual finish in that division.' : '',
+    'Overall places and team points: most total points (WSL-style points for each surfer\'s finish).',
+    r.buyIn || r.bonus ? `Buy-in $${r.buyIn} per team${r.bonus ? ` plus $${r.bonus} added to the pot` : ''}. Money is settled outside the app.` : 'No buy-in.',
+    `${prizesOf(r).length} prize${prizesOf(r).length > 1 ? 's' : ''}: ` + prizesOf(r).map((x) => `${prizeLabel(x)} ${(r.payMode || 'pct') === 'fixed' ? '$' + x.amt : x.amt + '%'}`).join(', ') + '.',
+    prizesOf(r).some((x) => x.cat === 'wild' && x.random) ? 'The wild card place is drawn at random (2nd place down to last) when the draft starts.' : '',
+    'Ties on a prize: the tie-breaks are total points, then the earlier draft seat.',
     r.note || ''
   ];
   return out.filter(Boolean);
@@ -679,8 +745,9 @@ async function tick(env, pid) {
     const ms = await members(env, pid);
     if (ms.length < 2) return pr;
     const order = shuffle(ms.map((m) => m.user_id));
-    const r = await env.DB.prepare("UPDATE pool_rules SET status = 'live', order_json = ?, pick_no = 0, deadline = ?, started_at = ? WHERE pool_id = ? AND status = 'scheduled'")
-      .bind(JSON.stringify(order), now + rules.clock * 1000, now, pid).run();
+    if (Array.isArray(rules.prizes)) for (const x of rules.prizes) if (x.cat === 'wild' && x.random) x.n = 2 + rnd(ms.length - 1);
+    const r = await env.DB.prepare("UPDATE pool_rules SET status = 'live', order_json = ?, pick_no = 0, deadline = ?, started_at = ?, rules_json = ? WHERE pool_id = ? AND status = 'scheduled'")
+      .bind(JSON.stringify(order), now + rules.clock * 1000, now, JSON.stringify(rules), pid).run();
     if (r.meta.changes === 1) await env.DB.prepare("UPDATE pools SET draft_status = 'live', joining_open = 0 WHERE id = ?").bind(pid).run();
     return env.DB.prepare('SELECT * FROM pool_rules WHERE pool_id = ?').bind(pid).first();
   }
@@ -780,6 +847,22 @@ function liveTeams(entries, ros, res) {
 async function renameTeam(req, env, u, kind) {
   const b = await readJson(req);
   if (!b) return json({ error: 'Bad request.' }, 400);
+  if (kind === 'general') {
+    await migrateDrafts(env);
+    const cid = String(b.contestId || '');
+    if (!(await env.DB.prepare('SELECT 1 AS x FROM gentries WHERE contest_id = ? AND user_id = ?').bind(cid, u.id).first())) return json({ error: 'Sign up for this draft first.' }, 404);
+    const raw = String(b.teamName || '').trim();
+    if (!raw || raw.toLowerCase() === u.username.toLowerCase()) {
+      try { await env.DB.prepare('UPDATE gentries SET team_name = ? WHERE contest_id = ? AND user_id = ?').bind(u.username, cid, u.id).run(); } catch (e) { await env.DB.prepare('UPDATE gentries SET team_name = ? WHERE contest_id = ? AND user_id = ?').bind('@' + u.username, cid, u.id).run(); }
+      return json({ ok: true, team: u.username });
+    }
+    if (!(await isPro(env, u))) return json({ error: 'Custom nicknames are a Pro feature. Free players show their username.', pro: false }, 402);
+    const nick = cleanText(raw, 2, 30);
+    if (!nick || nick.startsWith('@')) return json({ error: 'Nickname must be 2-30 characters and cannot start with @.' }, 400);
+    if (await env.DB.prepare('SELECT 1 AS x FROM users WHERE lower(username) = lower(?) AND id != ?').bind(nick, u.id).first()) return json({ error: 'That nickname is another player\'s username. Try another.' }, 409);
+    try { await env.DB.prepare('UPDATE gentries SET team_name = ? WHERE contest_id = ? AND user_id = ?').bind(nick, cid, u.id).run(); } catch (e) { return json({ error: 'Someone in this draft already uses that nickname.' }, 409); }
+    return json({ ok: true, team: nick });
+  }
   const team = cleanText(b.teamName, 2, 30);
   if (!team) return json({ error: 'Team name must be 2-30 characters.' }, 400);
   try {
@@ -868,14 +951,16 @@ async function draftState(env, u, pid) {
   const res = pj(cat && cat.results_json, null);
   let standings = null, live = null;
   if (picks.length && (!pr || pr.status === 'done' || pr.status === 'live')) {
-    live = { updatedAt: cat ? cat.updated_at : null, hasResults: !!res, teams: liveTeams(ms.map((m, i) => ({ team: m.team_name, user: m.username, mine: m.user_id === u.id, tie: i, keys: picks.filter((p) => p.user_id === m.user_id).map((p) => p.surfer) })), ros, res) };
+    live = { updatedAt: cat ? cat.updated_at : null, hasResults: !!res, teams: liveTeams(ms.map((m, i) => ({ team: m.team_name, user: m.username, mine: m.user_id === u.id, tie: Math.max(0, order.indexOf(m.user_id)), keys: picks.filter((p) => p.user_id === m.user_id).map((p) => p.surfer) })), ros, res) };
+    live.prizes = prizeBoard(rules, live.teams);
+    live.pot = rules ? rules.buyIn * ms.length + rules.bonus : 0;
   }
   if (res && picks.length) {
     const divOf = {};
     ros.men.forEach((s) => divOf[s.key] = 'men'); ros.women.forEach((s) => divOf[s.key] = 'women');
     const teams = ms.map((m, i) => ({ team: m.team_name, user: m.username, uid: m.user_id, tie: i, s: scoreTeam(picks.filter((p) => p.user_id === m.user_id).map((p) => p.surfer), res, divOf) }));
     const pot = rules ? rules.buyIn * ms.length + rules.bonus : 0;
-    standings = ['men', 'women', 'team'].map((cat2) => ({ cat: cat2, pay: rules && pot ? Math.round(pot * rules.payout[cat2]) / 100 : 0, rows: rankBy(teams, cat2).map((t) => ({ team: t.team, user: t.user, mine: t.uid === u.id, best: cat2 === 'team' ? null : t.s[cat2].best, points: cat2 === 'team' ? t.s.total : t.s[cat2].pts })) }));
+    standings = ['men', 'women', 'team'].map((cat2) => ({ cat: cat2, pay: 0, rows: rankBy(teams, cat2).map((t) => ({ team: t.team, user: t.user, mine: t.uid === u.id, best: cat2 === 'team' ? null : t.s[cat2].best, points: cat2 === 'team' ? t.s.total : t.s[cat2].pts })) }));
   }
   return json({
     serverNow: Date.now(),
@@ -958,7 +1043,7 @@ async function generalList(env, u) {
   await syncCatalog(env, false);
   const now = Date.now();
   const { results } = await env.DB.prepare('SELECT g.*, c.name, c.location, c.start_date, c.end_date, (SELECT COUNT(*) FROM gentries e WHERE e.contest_id = g.contest_id) AS entries, (SELECT COUNT(*) FROM gentries e WHERE e.contest_id = g.contest_id AND e.locked_at IS NOT NULL) AS locked FROM gdrafts g JOIN catalog c ON c.contest_id = g.contest_id WHERE c.end_date >= ? ORDER BY g.opens_at').bind(new Date(now - 14 * DAY).toISOString().slice(0, 10)).all();
-  const mine = u ? (await env.DB.prepare('SELECT contest_id, team_name, locked_at FROM gentries WHERE user_id = ?').bind(u.id).all()).results : [];
+  const mine = u ? (await env.DB.prepare('SELECT e.contest_id, e.team_name, e.locked_at, u.username, u.pro, u.admin_level, u.is_admin FROM gentries e JOIN users u ON u.id = e.user_id WHERE e.user_id = ?').bind(u.id).all()).results.map((m) => ({ ...m, team_name: shownName(m) })) : [];
   return json({
     serverNow: now,
     drafts: results.map((g) => {
@@ -977,7 +1062,7 @@ async function generalOne(env, u, cid) {
   const ros = rosterOf(cat) || { men: [], women: [] };
   const now = Date.now();
   const status = gstatus(g, now);
-  const rows = (await env.DB.prepare('SELECT e.user_id, e.team_name, e.picks_json, e.locked_at, e.joined_at, u.username FROM gentries e JOIN users u ON u.id = e.user_id WHERE e.contest_id = ? ORDER BY COALESCE(e.locked_at, e.joined_at)').bind(g.contest_id).all()).results;
+  const rows = (await env.DB.prepare('SELECT e.user_id, e.team_name, e.picks_json, e.locked_at, e.joined_at, u.username, u.pro, u.admin_level, u.is_admin FROM gentries e JOIN users u ON u.id = e.user_id WHERE e.contest_id = ? ORDER BY COALESCE(e.locked_at, e.joined_at)').bind(g.contest_id).all()).results.map((r) => ({ ...r, nick: shownName(r) !== r.username, team_name: shownName(r) }));
   const res = pj(cat.results_json, null);
   const divOf = {};
   ros.men.forEach((s) => divOf[s.key] = 'men'); ros.women.forEach((s) => divOf[s.key] = 'women');
@@ -1013,9 +1098,16 @@ async function generalOne(env, u, cid) {
     ],
     roster: ros,
     entries: rows.map((r) => ({ team: r.team_name, user: r.username, locked: !!r.locked_at, mine: !!(u && r.user_id === u.id), picks: reveal || (u && r.user_id === u.id) ? pj(r.picks_json, []) : null })),
-    me: me ? { team: me.team_name, locked: !!me.locked_at, picks: pj(me.picks_json, []) } : null,
+    me: me ? { team: me.team_name, nick: me.nick, locked: !!me.locked_at, picks: pj(me.picks_json, []) } : null,
+    pro: u ? await isPro(env, u) : false,
     results: res, winners, overall: winners ? winners.overall : null, live
   });
+}
+// public drafts show the username; a nickname shows only for Pro accounts (app-0.12)
+function shownName(r) { const pro = r.pro || r.admin_level >= 1 || r.is_admin; return pro && r.team_name && r.team_name !== r.username && !r.team_name.startsWith('@') ? r.team_name : r.username; }
+async function isPro(env, u) {
+  if (u.admin_level >= 1 || u.is_admin) return true;
+  try { const r = await env.DB.prepare('SELECT pro FROM users WHERE id = ?').bind(u.id).first(); return !!(r && r.pro); } catch (e) { return false; }
 }
 function ordinal(n) { const s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
 async function generalJoin(req, env, u) {
@@ -1026,14 +1118,14 @@ async function generalJoin(req, env, u) {
   const g = await env.DB.prepare('SELECT * FROM gdrafts WHERE contest_id = ?').bind(String(b.contestId || '')).first();
   if (!g) return json({ error: 'No public draft for that contest.' }, 404);
   if (gstatus(g, Date.now()) === 'closed') return json({ error: 'This draft is closed.' }, 409);
-  const team = cleanText(b.teamName, 2, 30);
-  if (!team) return json({ error: 'Team name must be 2-30 characters.' }, 400);
-  try {
-    await env.DB.prepare('INSERT INTO gentries(contest_id, user_id, team_name, joined_at) VALUES (?, ?, ?, ?)').bind(g.contest_id, u.id, team, Date.now()).run();
-  } catch (e) {
-    if (await env.DB.prepare('SELECT 1 AS x FROM gentries WHERE contest_id = ? AND user_id = ?').bind(g.contest_id, u.id).first()) return json({ error: 'You are already signed up.' }, 409);
-    return json({ error: 'That team name is taken in this draft. Try another.' }, 409);
+  if (await env.DB.prepare('SELECT 1 AS x FROM gentries WHERE contest_id = ? AND user_id = ?').bind(g.contest_id, u.id).first()) return json({ error: 'You are already signed up.' }, 409);
+  let done = false;
+  for (const nm of [u.username, '@' + u.username, '@' + u.username + '-' + u.id]) {
+    try { await env.DB.prepare('INSERT INTO gentries(contest_id, user_id, team_name, joined_at) VALUES (?, ?, ?, ?)').bind(g.contest_id, u.id, nm, Date.now()).run(); done = true; break; } catch (e) {
+      if (await env.DB.prepare('SELECT 1 AS x FROM gentries WHERE contest_id = ? AND user_id = ?').bind(g.contest_id, u.id).first()) return json({ error: 'You are already signed up.' }, 409);
+    }
   }
+  if (!done) return json({ error: 'Could not sign you up. Try again.' }, 409);
   return json({ ok: true });
 }
 async function generalPick(req, env, u) {
@@ -1313,6 +1405,7 @@ async function migrateAdmin(env) {
   if (adminMigrated && ownerSet) return;
   if (adminMigrated) return ensureOwner(env);
   try { await env.DB.prepare('ALTER TABLE users ADD COLUMN admin_level INTEGER NOT NULL DEFAULT 0').run(); } catch (e) {}
+  try { await env.DB.prepare('ALTER TABLE users ADD COLUMN pro INTEGER NOT NULL DEFAULT 0').run(); } catch (e) {}
   const S = [
     'CREATE TABLE IF NOT EXISTS app_state(k TEXT PRIMARY KEY, v TEXT)',
     'CREATE TABLE IF NOT EXISTS admin_log(id INTEGER PRIMARY KEY, at INTEGER NOT NULL, user_id INTEGER, username TEXT, action TEXT NOT NULL, detail TEXT)',
@@ -1494,7 +1587,7 @@ async function adminRoutes(request, env, url, path, ip) {
     if (!u) return json({ user: null });
     const l = await linkOf(env, u.id);
     const L = lvl(u);
-    return json({ user: { username: u.username, admin: L >= 2, level: L, levelName: LEVELS[L], owner: L === 3, email: u.email, phone: u.phone, emailVerified: !!u.email_verified, phoneVerified: !!u.phone_verified, surfer: l ? { key: l.surfer_key, name: l.surfer_name } : null } });
+    return json({ user: { username: u.username, admin: L >= 2, level: L, levelName: LEVELS[L], owner: L === 3, email: u.email, phone: u.phone, emailVerified: !!u.email_verified, phoneVerified: !!u.phone_verified, surfer: l ? { key: l.surfer_key, name: l.surfer_name } : null, pro: await isPro(env, u) } });
   }
   const u = await currentUser(request, env);
   if (!u) return json({ error: 'Please log in.' }, 401);
@@ -1677,9 +1770,17 @@ async function adminRoutes(request, env, url, path, ip) {
   }
   if (G && path === '/api/admin/users') {
     const n = need(2); if (n) return n;
-    const { results } = await env.DB.prepare('SELECT u.id, u.username, u.email, u.created_at, u.disabled, u.admin_level, u.is_admin, l.surfer_key FROM users u LEFT JOIN surfer_links l ON l.user_id = u.id ORDER BY u.id').all();
+    const { results } = await env.DB.prepare('SELECT u.id, u.username, u.email, u.created_at, u.disabled, u.admin_level, u.is_admin, u.pro, l.surfer_key FROM users u LEFT JOIN surfer_links l ON l.user_id = u.id ORDER BY u.id').all();
     const own = await ownerId(env);
-    return json({ users: results.map((x) => ({ username: x.username, email: L >= 3 ? x.email : x.email ? x.email.replace(/^(.).*(@.*)$/, '$1***$2') : '', created: x.created_at, disabled: !!x.disabled, level: x.id === own ? 3 : Math.max(x.admin_level || 0, x.is_admin ? 2 : 0), owner: x.id === own, surfer: x.surfer_key })), canManageTeam: L >= 3 });
+    return json({ users: results.map((x) => ({ username: x.username, email: L >= 3 ? x.email : x.email ? x.email.replace(/^(.).*(@.*)$/, '$1***$2') : '', created: x.created_at, disabled: !!x.disabled, level: x.id === own ? 3 : Math.max(x.admin_level || 0, x.is_admin ? 2 : 0), owner: x.id === own, surfer: x.surfer_key, pro: !!x.pro })), canManageTeam: L >= 3 });
+  }
+  if (P && path === '/api/admin/users/pro') {
+    const n = need(2); if (n) return n;
+    const t = await env.DB.prepare('SELECT id FROM users WHERE lower(username) = lower(?)').bind(String(b.username || '')).first();
+    if (!t) return json({ error: 'No account with that username.' }, 404);
+    await env.DB.prepare('UPDATE users SET pro = ? WHERE id = ?').bind(b.pro ? 1 : 0, t.id).run();
+    await logA(env, u, b.pro ? 'user.pro.on' : 'user.pro.off', b.username);
+    return json({ ok: true });
   }
   if (P && path === '/api/admin/users/disable') {
     const n = need(2); if (n) return n;
