@@ -11,6 +11,7 @@ The Surf Pools worker reads this file every 15 minutes.
 """
 import json, os, re, sys, unicodedata, datetime as dt
 import requests
+import wsl_event
 
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 C = os.path.dirname(os.path.abspath(__file__))
@@ -65,6 +66,96 @@ def wsl_list(div, year):
         return out or None
     except Exception:
         return None
+
+
+WSL_URLS = load(os.path.join(C, "wsl_events.json"), {})
+
+
+def wsl_roster(e, start, c, old):
+    """QS / CS / other WSL events: the official heat draw on the event's results page."""
+    url = WSL_URLS.get(e["id"]) or (old.get(e["id"]) or {}).get("wsl_url") or wsl_event.find_event_url(e.get("name"), start.year)
+    if not url:
+        return False
+    c["wsl_url"] = url
+    c["official"] = url + "/main"
+    try:
+        r = wsl_event.roster(url)
+    except Exception:
+        r = None
+    if not r or not r["men"] or not r["women"]:
+        o = old.get(e["id"]) or {}
+        if o.get("roster") and o.get("roster_source", "").startswith("WSL event"):
+            c.update({k: o[k] for k in ("roster", "roster_source", "roster_note", "results")})
+            c["conflicts"].append("The WSL event page could not be read this run; kept the last good roster.")
+            return True
+        if r is not None:
+            c["roster_note"] = "The official heat draw is not published on the WSL event page yet. Drafts open here as soon as it is."
+        return False
+    R, res = {}, {}
+    for d in ("men", "women"):
+        L = r[d]
+        alive = [x for x in L if not x["out"]]
+        if c["status"] == "finished" and len(alive) == 1:
+            alive[0]["place"] = 1
+        R[d] = [{"key": key(x["name"]), "name": x["name"], "country": x["country"], "wsl_id": x["wsl_id"], **({"out": True} if x["out"] else {})} for x in L]
+        for x in L:
+            if x.get("place"):
+                res[key(x["name"])] = {"place": x["place"], "points": points(x["place"])}
+    c["roster"] = R
+    c["results"] = res or None
+    c["roster_source"] = "WSL event page (official heat draw)"
+    nm, nw = (sum(1 for x in R[d] if x.get("out")) for d in ("men", "women"))
+    c["roster_note"] = ("Every surfer in the official WSL heat draw. "
+                        + (f"Surfers already eliminated ({nm} men, {nw} women) stay listed but cannot be picked." if nm or nw else "Seeded surfers who enter in later rounds are included."))
+    return True
+
+
+def isa_roster(e, su, c):
+    """ISA events: the official ISA scoring (SurfScores) entry list and results already in surfers.json."""
+    sc = load(os.path.join(D, "scores.json"), {})
+    evs = {h.get("ev") for h in (sc.get("heats") or {}).values()}
+    code = e["id"].split("-")[1].upper() if e["id"].count("-") >= 2 else ""
+    year = e["id"].rsplit("-", 1)[-1]
+    if not code or not any(v and code in v and year in v for v in evs):
+        return False
+    heats = [h for h in sc["heats"].values() if code in (h.get("ev") or "")]
+    hid = {(h["g"], h["round"], h["heat"]): h["id"] for h in heats}
+    P = [p for p in su.get("surfers", []) if p.get("isa")]
+    if not P:
+        return False
+    MED = {"gold": 1, "silver": 2, "bronze": 3, "copper": 4}
+    R, res = {"men": [], "women": []}, {}
+    for g, d in (("M", "men"), ("W", "women")):
+        L = [p for p in P if p["isa"].get("g", p.get("g")) == g]
+        def last_id(p):
+            l = p["isa"].get("last") or {}
+            return hid.get((g, l.get("round"), l.get("heat")), 0)
+        # a surfer's finish = 1 + everyone who outlasted them (still in, medalled or knocked out in a later heat)
+        for p in L:
+            st = p["isa"].get("status")
+            if st in MED:
+                pl = MED[st]
+            elif st == "eliminated":
+                me = last_id(p)
+                pl = 1 + sum(1 for q in L if q is not p and (q["isa"].get("status") != "eliminated" or last_id(q) > me))
+            else:
+                pl = None
+            k = key(p["isa"].get("name") or p["name"])
+            R[d].append({"key": k, "name": p["isa"].get("name") or p["name"], "country": p["isa"].get("country") or p.get("country", ""),
+                         **({"out": True} if st == "eliminated" else {}), "_s": pl or 0})
+            if pl:
+                res[k] = {"place": pl, "points": points(pl)}
+        R[d].sort(key=lambda x: (x.get("out", False), x["_s"], x["name"]))
+        for x in R[d]:
+            x.pop("_s")
+    c["roster"] = R
+    c["results"] = res or None
+    c["official"] = e.get("official") or "https://isasurf.org/"
+    c["roster_source"] = "ISA official results (SurfScores)"
+    nm, nw = (sum(1 for x in R[d] if x.get("out")) for d in ("men", "women"))
+    c["roster_note"] = ("Every surfer in the official ISA draw. "
+                        + (f"Surfers already eliminated ({nm} men, {nw} women) stay listed but cannot be picked." if nm or nw else ""))
+    return True
 
 
 def main():
@@ -137,6 +228,10 @@ def main():
                             res[key(s["name"])] = {"place": p, "points": points(p)}
                 if res:
                     c["results"] = res
+        elif e["id"].startswith("isa-") and isa_roster(e, su, c):
+            pass
+        elif not is_ct and (e.get("org") or "").upper().startswith("WSL") and wsl_roster(e, start, c, old):
+            pass
         else:
             c["roster_note"] = "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it."
         if c["roster"]:
@@ -146,7 +241,8 @@ def main():
                     s.setdefault("key", key(s["name"]))
                     if not s.get("rank"):
                         s["rank"] = n + 1
-        c["draftable"] = bool(c["roster"] and c["roster"]["men"] and c["roster"]["women"] and c["status"] != "finished")
+        act = lambda d: [x for x in (c["roster"] or {}).get(d, []) if not x.get("out")]
+        c["draftable"] = bool(c["roster"] and act("men") and act("women") and c["status"] != "finished")
         out.append(c)
     out.sort(key=lambda c: c["start"])
     doc = {"version": 1, "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "contests": out}

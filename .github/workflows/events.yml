@@ -15,7 +15,7 @@ jobs:
       - run: python collector/events.py
         env: {NOTIFY_FILE: /tmp/notify.md}
       - run: python collector/surfers.py || true
-      - name: Contests and draft rosters (WSL tour list cross-checked with season standings)
+      - name: Contests and draft rosters (official WSL heat draws, WSL tour list, ISA results)
         run: python collector/contests.py || true
         env: {NOTIFY_FILE: /tmp/notify.md}
       - name: New surfers and new contest spots (first time a name or place appears)

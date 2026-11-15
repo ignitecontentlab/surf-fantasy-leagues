@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.9';
+const APP_VERSION = 'app-0.9.2';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -517,9 +517,10 @@ async function syncCatalog(env, force) {
     return { error: String(e.message || e) };
   }
   const list = Array.isArray(doc.contests) ? doc.contests : [];
-  const cols = (await contestCols(env)).map((c) => c.name);
+  const info = await contestCols(env);
+  const cols = info.map((c) => c.name);
   const now = Date.now();
-  const stmts = [];
+  const stmts = [], mirror = [];
   for (const c of list) {
     if (!c || !/^[a-z0-9-]{3,60}$/.test(c.id || '')) continue;
     const roster = c.roster && Array.isArray(c.roster.men) && Array.isArray(c.roster.women) ? c.roster : null;
@@ -535,13 +536,24 @@ async function syncCatalog(env, force) {
     ).bind(c.id, String(c.name || c.id).slice(0, 120), c.org || '', c.location || '', c.start, c.end, c.status || 'upcoming', c.draftable ? 1 : 0,
       roster ? JSON.stringify(roster) : null, c.roster_source || null, c.roster_note || '', JSON.stringify(c.conflicts || []), c.results ? JSON.stringify(c.results) : null, now));
     // keep the legacy contests table in step so pools can reference the contest
-    const vals = { id: c.id, title: String(c.name || c.id).slice(0, 120), location: c.location || '', start_date: c.start, end_date: c.end, pool_supported: c.draftable ? 1 : 0, pool_note: c.roster_note || '', published: 1 };
+    const vals = { id: c.id, title: String(c.name || c.id).slice(0, 120), location: c.location || '', start_date: c.start || '', end_date: c.end || '', pool_supported: c.draftable ? 1 : 0, pool_note: c.roster_note || '', published: 1 };
+    // fill any other required column the live table has (for example created_at)
+    for (const col of info) if (col.notnull && col.dflt_value == null && !(col.name in vals) && !col.pk) vals[col.name] = /INT|REAL|NUM/i.test(col.type || '') ? (/_at$/.test(col.name) ? now : 0) : (/_at$|date/.test(col.name) ? new Date(now).toISOString() : '');
     const keys = Object.keys(vals).filter((k) => cols.includes(k));
-    stmts.push(env.DB.prepare(`INSERT INTO contests(${keys.join(', ')}) VALUES (${keys.map(() => '?').join(', ')}) ON CONFLICT(id) DO UPDATE SET ${keys.filter((k) => k !== 'id').map((k) => `${k} = excluded.${k}`).join(', ')}`).bind(...keys.map((k) => vals[k])));
+    mirror.push(env.DB.prepare(`INSERT INTO contests(${keys.join(', ')}) VALUES (${keys.map(() => '?').join(', ')}) ON CONFLICT(id) DO UPDATE SET ${keys.filter((k) => k !== 'id').map((k) => `${k} = excluded.${k}`).join(', ')}`).bind(...keys.map((k) => vals[k])));
   }
-  for (let i = 0; i < stmts.length; i += 40) await env.DB.batch(stmts.slice(i, i + 40));
-  await ensureGeneral(env);
-  return { ok: true, contests: list.length };
+  try {
+    for (let i = 0; i < stmts.length; i += 40) await env.DB.batch(stmts.slice(i, i + 40));
+  } catch (e) {
+    console.error('catalog save failed', String(e && e.message || e));
+    await env.DB.prepare("UPDATE app_state SET v = ? WHERE k = 'catalog_sync'").bind(String(Date.now() - 14 * 60000)).run();
+    return { error: 'catalog save failed: ' + String(e && e.message || e) };
+  }
+  let mirrorErr = null;
+  for (const m of mirror) { try { await m.run(); } catch (e) { mirrorErr = String(e && e.message || e); } }
+  if (mirrorErr) console.error('contests mirror failed', mirrorErr);
+  try { await ensureGeneral(env); } catch (e) { console.error('public drafts failed', String(e && e.message || e)); }
+  return { ok: true, contests: list.length, mirrorErr };
 }
 async function ensureGeneral(env) {
   const now = Date.now();
@@ -560,8 +572,11 @@ async function catalogRow(env, id) {
 function rosterOf(row) {
   const r = pj(row && row.roster_json, null);
   if (!r) return null;
-  const fix = (a) => (a || []).filter((s) => s && s.key && s.name).map((s, i) => ({ key: String(s.key), name: String(s.name), country: String(s.country || ''), rank: s.rank || i + 1 }));
+  const fix = (a) => (a || []).filter((s) => s && s.key && s.name).map((s, i) => ({ key: String(s.key), name: String(s.name), country: String(s.country || ''), rank: s.rank || i + 1, ...(s.out ? { out: true } : {}) }));
   return { men: fix(r.men), women: fix(r.women) };
+}
+function alive(a) {
+  return (a || []).filter((s) => !s.out);
 }
 async function contestsList(env) {
   await migrateDrafts(env);
@@ -571,7 +586,7 @@ async function contestsList(env) {
   return json({
     contests: results.map((c) => {
       const r = rosterOf(c);
-      return { id: c.contest_id, title: c.name, org: c.org, location: c.location, start_date: c.start_date, end_date: c.end_date, status: c.status, draftable: !!c.draftable, men: r ? r.men.length : 0, women: r ? r.women.length : 0, note: c.roster_note || '' };
+      return { id: c.contest_id, title: c.name, org: c.org, location: c.location, start_date: c.start_date, end_date: c.end_date, status: c.status, draftable: !!c.draftable, men: r ? alive(r.men).length : 0, women: r ? alive(r.women).length : 0, note: c.roster_note || '' };
     })
   });
 }
@@ -596,8 +611,8 @@ function cleanRules(b, contest, members) {
   if (contest && at > endMs(contest.end_date)) return { error: 'The draft has to happen before the contest ends on ' + contest.end_date + '.' };
   const ros = rosterOf(contest);
   if (ros && members) {
-    if (members * r.men > ros.men.length) return { error: `Not enough men in the roster for ${members} teams x ${r.men} picks.` };
-    if (members * r.women > ros.women.length) return { error: `Not enough women in the roster for ${members} teams x ${r.women} picks.` };
+    if (members * r.men > alive(ros.men).length) return { error: `Not enough men in the roster for ${members} teams x ${r.men} picks.` };
+    if (members * r.women > alive(ros.women).length) return { error: `Not enough women in the roster for ${members} teams x ${r.women} picks.` };
   }
   return { rules: r, draftAt: at };
 }
@@ -677,7 +692,7 @@ async function autoPick(env, pid, pr, rules) {
   const pool = await poolRow(env, pid);
   const ros = rosterOf(await catalogRow(env, pool.contest_id));
   const taken = new Set((await env.DB.prepare('SELECT surfer FROM draft_picks WHERE pool_id = ?').bind(pid).all()).results.map((x) => x.surfer));
-  const avail = ((ros && ros[slot.division]) || []).filter((s) => !taken.has(s.key));
+  const avail = ((ros && ros[slot.division]) || []).filter((s) => !s.out && !taken.has(s.key));
   let pick = null;
   const q = await env.DB.prepare('SELECT queue_json FROM draft_queue WHERE pool_id = ? AND user_id = ?').bind(pid, uid).first();
   for (const k of pj(q && q.queue_json, [])) { const s = avail.find((a) => a.key === k); if (s) { pick = s; break; } }
@@ -710,7 +725,7 @@ async function cronTick(env) {
   const { results } = await env.DB.prepare("SELECT pool_id FROM pool_rules WHERE (status = 'live' AND deadline <= ?) OR (status = 'scheduled' AND draft_at <= ?) LIMIT 50").bind(now, now).all();
   for (const r of results) { try { await tick(env, r.pool_id); } catch (e) {} }
   // close public drafts that ran out of time or combinations
-  try { await syncCatalog(env, false); } catch (e) {}
+  try { const r = await syncCatalog(env, false); if (r && r.error) console.error('catalog sync', r.error); } catch (e) { console.error('cron sync', String(e && e.stack || e)); }
 }
 
 // ---------- scoring ----------
@@ -770,7 +785,7 @@ async function poolCreate2(req, env, u) {
         env.DB.prepare("INSERT INTO pool_rules(pool_id, rules_json, draft_at, status) SELECT id, ?, ?, 'scheduled' FROM pools WHERE code = ?").bind(JSON.stringify(cr.rules), cr.draftAt, code)
       ]);
       const p = await env.DB.prepare('SELECT id FROM pools WHERE code = ?').bind(code).first();
-      return json({ ok: true, poolId: p.id, code, roster: { men: ros.men.length, women: ros.women.length } });
+      return json({ ok: true, poolId: p.id, code, roster: { men: alive(ros.men).length, women: alive(ros.women).length } });
     } catch (e) { if (i === 5) break; }
   }
   return json({ error: 'Could not create the pool. Try again.' }, 500);
@@ -846,6 +861,7 @@ async function draftPick(req, env, u) {
   const ros = rosterOf(await catalogRow(env, pool.contest_id));
   const s = ((ros && ros[slot.division]) || []).find((x) => x.key === String(b.surfer || ''));
   if (!s) return json({ error: `This pick has to be one of the ${slot.division === 'men' ? 'men' : 'women'} in the roster.` }, 400);
+  if (s.out) return json({ error: s.name + ' has already been eliminated from this contest.' }, 409);
   if (await env.DB.prepare('SELECT 1 AS x FROM draft_picks WHERE pool_id = ? AND surfer = ?').bind(pid, s.key).first()) return json({ error: s.name + ' is already taken.' }, 409);
   const ok = await commitPick(env, pid, pr, seq, u.id, slot, s.key, 0, rules);
   if (!ok) return json({ error: 'That pick did not go through. The board changed; try again.' }, 409);
@@ -936,7 +952,7 @@ async function generalOne(env, u, cid) {
   const reveal = status === 'closed';
   return json({
     serverNow: now,
-    draft: { contestId: g.contest_id, name: cat.name, location: cat.location, start: cat.start_date, end: cat.end_date, opensAt: g.opens_at, closesAt: g.closes_at, status, men: g.men, women: g.women, wildcard: now >= g.opens_at ? g.wildcard_rank : null, combos: nCr(ros.men.length, g.men) * nCr(ros.women.length, g.women), note: cat.roster_note, source: cat.roster_source },
+    draft: { contestId: g.contest_id, name: cat.name, location: cat.location, start: cat.start_date, end: cat.end_date, opensAt: g.opens_at, closesAt: g.closes_at, status, men: g.men, women: g.women, wildcard: now >= g.opens_at ? g.wildcard_rank : null, combos: nCr(alive(ros.men).length, g.men) * nCr(alive(ros.women).length, g.women), note: cat.roster_note, source: cat.roster_source },
     rules: [
       `Free to play, no payout. Open to every signed-in user.`,
       `Sign up any time. Picks open 3 days before the contest and close at the end of day 2 (${new Date(g.closes_at).toUTCString().slice(0, 22)} UTC).`,
@@ -982,7 +998,7 @@ async function generalPick(req, env, u) {
   const ros = rosterOf(await catalogRow(env, g.contest_id));
   const men = [...new Set((b.men || []).map(String))], women = [...new Set((b.women || []).map(String))];
   if (men.length !== g.men || women.length !== g.women) return json({ error: `Pick exactly ${g.men} different men and ${g.women} different women.` }, 400);
-  if (!men.every((k) => ros.men.some((s) => s.key === k)) || !women.every((k) => ros.women.some((s) => s.key === k))) return json({ error: 'One of those surfers is not in this roster.' }, 400);
+  if (!men.every((k) => alive(ros.men).some((s) => s.key === k)) || !women.every((k) => alive(ros.women).some((s) => s.key === k))) return json({ error: 'One of those surfers is not in this roster or has already been eliminated.' }, 400);
   const keys = [...men, ...women];
   const combo = [...keys].sort().join('|');
   let r;
@@ -995,7 +1011,7 @@ async function generalPick(req, env, u) {
     const e = await env.DB.prepare('SELECT locked_at FROM gentries WHERE contest_id = ? AND user_id = ?').bind(g.contest_id, u.id).first();
     return json({ error: e ? 'Your team is already locked.' : 'Sign up for this draft first.' }, 409);
   }
-  const total = nCr(ros.men.length, g.men) * nCr(ros.women.length, g.women);
+  const total = nCr(alive(ros.men).length, g.men) * nCr(alive(ros.women).length, g.women);
   const n = await env.DB.prepare('SELECT COUNT(*) AS n FROM gentries WHERE contest_id = ? AND locked_at IS NOT NULL').bind(g.contest_id).first();
   if (n.n >= total) await env.DB.prepare("UPDATE gdrafts SET closes_at = ?, closed_reason = 'All possible teams are taken.' WHERE contest_id = ?").bind(Date.now(), g.contest_id).run();
   return json({ ok: true });
@@ -1007,7 +1023,7 @@ async function adminCatalog(env, u) {
   await migrateDrafts(env);
   const st = await env.DB.prepare("SELECT v FROM app_state WHERE k = 'catalog_sync'").first();
   const { results } = await env.DB.prepare('SELECT contest_id, name, start_date, end_date, status, draftable, roster_json, roster_source, roster_note, conflicts_json, manual, (results_json IS NOT NULL) AS has_results FROM catalog ORDER BY start_date').all();
-  return json({ lastSync: st ? parseInt(st.v, 10) : null, contests: results.map((c) => { const r = rosterOf(c); return { id: c.contest_id, name: c.name, start: c.start_date, end: c.end_date, status: c.status, draftable: !!c.draftable, men: r ? r.men.length : 0, women: r ? r.women.length : 0, source: c.roster_source, note: c.roster_note, conflicts: pj(c.conflicts_json, []), manual: !!c.manual, hasResults: !!c.has_results }; }) });
+  return json({ lastSync: st ? parseInt(st.v, 10) : null, contests: results.map((c) => { const r = rosterOf(c); return { id: c.contest_id, name: c.name, start: c.start_date, end: c.end_date, status: c.status, draftable: !!c.draftable, men: r ? alive(r.men).length : 0, women: r ? alive(r.women).length : 0, out: r ? r.men.length + r.women.length - alive(r.men).length - alive(r.women).length : 0, source: c.roster_source, note: c.roster_note, conflicts: pj(c.conflicts_json, []), manual: !!c.manual, hasResults: !!c.has_results }; }) });
 }
 async function adminRoster(req, env, u) {
   if (!u.is_admin) return json({ error: 'Admins only.' }, 403);
@@ -1318,6 +1334,7 @@ async function handle(request, env) {
         }
       }
     } catch (e) {
+      console.error('server error', path, String(e && e.stack || e));
       return json({ error: 'Something went wrong on the server. Please try again.' }, 500);
     }
     return json({ error: 'Not found' }, 404);

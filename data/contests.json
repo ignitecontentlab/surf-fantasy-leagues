@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-15T15:55:46+00:00",
+ "updated_at": "2026-11-15T15:50:52+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -1087,12 +1087,2493 @@
    "end": "2026-11-15",
    "status": "live",
    "official": "https://isasurf.org/",
-   "roster": null,
-   "roster_source": null,
-   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "roster": {
+    "men": [
+     {
+      "key": "ethan-ewing",
+      "name": "Ethan Ewing",
+      "country": "AUS",
+      "rank": 1
+     },
+     {
+      "key": "franco-radziunas",
+      "name": "Franco Radziunas",
+      "country": "ARG",
+      "rank": 2
+     },
+     {
+      "key": "hans-odriozola",
+      "name": "Hans Odriozola",
+      "country": "GER",
+      "rank": 3
+     },
+     {
+      "key": "lucca-mesinas",
+      "name": "Lucca Mesinas",
+      "country": "PER",
+      "rank": 4
+     },
+     {
+      "key": "miguel-tudela",
+      "name": "Miguel Tudela",
+      "country": "PER",
+      "rank": 5
+     },
+     {
+      "key": "kanoa-igarashi",
+      "name": "Kanoa Igarashi",
+      "country": "JPN",
+      "out": true,
+      "rank": 6
+     },
+     {
+      "key": "yago-dora",
+      "name": "Yago Dora",
+      "country": "BRA",
+      "out": true,
+      "rank": 7
+     },
+     {
+      "key": "crosby-colapinto",
+      "name": "Crosby Colapinto",
+      "country": "USA",
+      "out": true,
+      "rank": 8
+     },
+     {
+      "key": "romeo-chavez",
+      "name": "Romeo Chavez",
+      "country": "COL",
+      "out": true,
+      "rank": 9
+     },
+     {
+      "key": "kauli-vaast",
+      "name": "Kauli Vaast",
+      "country": "FRA",
+      "out": true,
+      "rank": 10
+     },
+     {
+      "key": "jorgan-couzinet",
+      "name": "Jorgan Couzinet",
+      "country": "FRA",
+      "out": true,
+      "rank": 11
+     },
+     {
+      "key": "alonso-correa",
+      "name": "Alonso Correa",
+      "country": "PER",
+      "out": true,
+      "rank": 12
+     },
+     {
+      "key": "liam-o-brien",
+      "name": "Liam O´Brien",
+      "country": "AUS",
+      "out": true,
+      "rank": 13
+     },
+     {
+      "key": "dhany-widianto",
+      "name": "Dhany Widianto",
+      "country": "INA",
+      "out": true,
+      "rank": 14
+     },
+     {
+      "key": "kai-odriozola",
+      "name": "Kai Odriozola",
+      "country": "GER",
+      "out": true,
+      "rank": 15
+     },
+     {
+      "key": "conor-donegan",
+      "name": "Conor Donegan",
+      "country": "ESP",
+      "out": true,
+      "rank": 16
+     },
+     {
+      "key": "griffin-colapinto",
+      "name": "Griffin Colapinto",
+      "country": "USA",
+      "out": true,
+      "rank": 17
+     },
+     {
+      "key": "cole-houshmand",
+      "name": "Cole Houshmand",
+      "country": "USA",
+      "out": true,
+      "rank": 18
+     },
+     {
+      "key": "italo-ferreira",
+      "name": "Italo Ferreira",
+      "country": "BRA",
+      "out": true,
+      "rank": 19
+     },
+     {
+      "key": "connor-o-leary",
+      "name": "Connor O'Leary",
+      "country": "JPN",
+      "out": true,
+      "rank": 20
+     },
+     {
+      "key": "tim-elter",
+      "name": "Tim Elter",
+      "country": "GER",
+      "out": true,
+      "rank": 21
+     },
+     {
+      "key": "guilherme-ribeiro",
+      "name": "Guilherme Ribeiro",
+      "country": "POR",
+      "out": true,
+      "rank": 22
+     },
+     {
+      "key": "thiago-passeri",
+      "name": "Thiago Passeri",
+      "country": "ARG",
+      "out": true,
+      "rank": 23
+     },
+     {
+      "key": "bryan-perez",
+      "name": "Bryan Pérez",
+      "country": "ESA",
+      "out": true,
+      "rank": 24
+     },
+     {
+      "key": "kai-gale-grani",
+      "name": "Kai Gale Grani",
+      "country": "PAN",
+      "out": true,
+      "rank": 25
+     },
+     {
+      "key": "frederico-morais",
+      "name": "Frederico Morais",
+      "country": "POR",
+      "out": true,
+      "rank": 26
+     },
+     {
+      "key": "luke-van-wyk",
+      "name": "Luke van Wyk",
+      "country": "RSA",
+      "out": true,
+      "rank": 27
+     },
+     {
+      "key": "jacobo-trigo",
+      "name": "Jacobo Trigo",
+      "country": "ESP",
+      "out": true,
+      "rank": 28
+     },
+     {
+      "key": "joshua-burke",
+      "name": "Joshua Burke",
+      "country": "BAR",
+      "out": true,
+      "rank": 29
+     },
+     {
+      "key": "george-pittar",
+      "name": "George Pittar",
+      "country": "AUS",
+      "out": true,
+      "rank": 30
+     },
+     {
+      "key": "ntokozo-maphumulo",
+      "name": "Ntokozo Maphumulo",
+      "country": "RSA",
+      "out": true,
+      "rank": 31
+     },
+     {
+      "key": "marco-mignot",
+      "name": "Marco Mignot",
+      "country": "FRA",
+      "out": true,
+      "rank": 32
+     },
+     {
+      "key": "tom-butland",
+      "name": "Tom Butland",
+      "country": "NZL",
+      "out": true,
+      "rank": 33
+     },
+     {
+      "key": "francisco-ordonhas",
+      "name": "Francisco Ordonhas",
+      "country": "POR",
+      "out": true,
+      "rank": 34
+     },
+     {
+      "key": "jean-carlos-gonzalez",
+      "name": "Jean Carlos González",
+      "country": "PAN",
+      "out": true,
+      "rank": 35
+     },
+     {
+      "key": "khalil-da-silva",
+      "name": "Khalil da Silva",
+      "country": "ITA",
+      "out": true,
+      "rank": 36
+     },
+     {
+      "key": "samuel-reidy",
+      "name": "Samuel Reidy",
+      "country": "CRC",
+      "out": true,
+      "rank": 37
+     },
+     {
+      "key": "i-made-pajar-ariyana",
+      "name": "I Made Pajar Ariyana",
+      "country": "INA",
+      "out": true,
+      "rank": 38
+     },
+     {
+      "key": "tiago-sorrentino",
+      "name": "Tiago Sorrentino",
+      "country": "MEX",
+      "out": true,
+      "rank": 39
+     },
+     {
+      "key": "martin-ottado",
+      "name": "Martin Ottado",
+      "country": "URU",
+      "out": true,
+      "rank": 40
+     },
+     {
+      "key": "miguel-pupo",
+      "name": "Miguel Pupo",
+      "country": "BRA",
+      "out": true,
+      "rank": 41
+     },
+     {
+      "key": "noah-storhaug",
+      "name": "Noah Storhaug",
+      "country": "NOR",
+      "out": true,
+      "rank": 42
+     },
+     {
+      "key": "rio-waida",
+      "name": "Rio Waida",
+      "country": "INA",
+      "out": true,
+      "rank": 43
+     },
+     {
+      "key": "jose-joaquin-lopez",
+      "name": "Jose Joaquin Lopez",
+      "country": "VEN",
+      "out": true,
+      "rank": 44
+     },
+     {
+      "key": "teo-gale-grani",
+      "name": "Teo Gale Grani",
+      "country": "PAN",
+      "out": true,
+      "rank": 45
+     },
+     {
+      "key": "ruben-vitoria",
+      "name": "Rubén Vitoria",
+      "country": "ESP",
+      "out": true,
+      "rank": 46
+     },
+     {
+      "key": "uriel-uziel",
+      "name": "Uriel Uziel",
+      "country": "ISR",
+      "out": true,
+      "rank": 47
+     },
+     {
+      "key": "alex-suarez",
+      "name": "Alex Suarez",
+      "country": "ECU",
+      "out": true,
+      "rank": 48
+     },
+     {
+      "key": "oscar-guzman",
+      "name": "Oscar Guzman",
+      "country": "NCA",
+      "out": true,
+      "rank": 49
+     },
+     {
+      "key": "stef-van-noordennen",
+      "name": "Stef van Noordennen",
+      "country": "NED",
+      "out": true,
+      "rank": 50
+     },
+     {
+      "key": "leonardo-apreda",
+      "name": "Leonardo Apreda",
+      "country": "ITA",
+      "out": true,
+      "rank": 51
+     },
+     {
+      "key": "noel-de-la-torre",
+      "name": "Noel de la Torre",
+      "country": "CHI",
+      "out": true,
+      "rank": 52
+     },
+     {
+      "key": "francisco-bellorin",
+      "name": "Francisco Bellorin",
+      "country": "VEN",
+      "out": true,
+      "rank": 53
+     },
+     {
+      "key": "jiang-shulou",
+      "name": "Jiang Shulou",
+      "country": "CHN",
+      "out": true,
+      "rank": 54
+     },
+     {
+      "key": "aboubakr-bouaouda",
+      "name": "Aboubakr Bouaouda",
+      "country": "MAR",
+      "out": true,
+      "rank": 55
+     },
+     {
+      "key": "nadav-attar",
+      "name": "Nadav Attar",
+      "country": "ISR",
+      "out": true,
+      "rank": 56
+     },
+     {
+      "key": "joaquin-munoz-larreta",
+      "name": "Joaquin Muñoz Larreta",
+      "country": "ARG",
+      "out": true,
+      "rank": 57
+     },
+     {
+      "key": "eeli-timperi",
+      "name": "Eeli Timperi",
+      "country": "FIN",
+      "out": true,
+      "rank": 58
+     },
+     {
+      "key": "darshan-antequera",
+      "name": "Darshan Antequera",
+      "country": "CRC",
+      "out": true,
+      "rank": 59
+     },
+     {
+      "key": "wu-shidong",
+      "name": "Wu Shidong",
+      "country": "CHN",
+      "out": true,
+      "rank": 60
+     },
+     {
+      "key": "greyson-grant",
+      "name": "Greyson Grant",
+      "country": "SWE",
+      "out": true,
+      "rank": 61
+     },
+     {
+      "key": "jacob-burke",
+      "name": "Jacob Burke",
+      "country": "BAR",
+      "out": true,
+      "rank": 62
+     },
+     {
+      "key": "mason-moschopoulos",
+      "name": "Mason Moschopoulos",
+      "country": "GRE",
+      "out": true,
+      "rank": 63
+     },
+     {
+      "key": "patrick-langdon-dark",
+      "name": "Patrick Langdon-Dark",
+      "country": "GBR",
+      "out": true,
+      "rank": 64
+     },
+     {
+      "key": "roberto-araki",
+      "name": "Roberto Araki",
+      "country": "CHI",
+      "out": true,
+      "rank": 65
+     },
+     {
+      "key": "taimana-marupo",
+      "name": "Taimana Marupo",
+      "country": "NZL",
+      "out": true,
+      "rank": 66
+     },
+     {
+      "key": "carlos-perez",
+      "name": "Carlos Perez",
+      "country": "VEN",
+      "out": true,
+      "rank": 67
+     },
+     {
+      "key": "enzo-ackermann",
+      "name": "Enzo Ackermann",
+      "country": "MEX",
+      "out": true,
+      "rank": 68
+     },
+     {
+      "key": "maximiliano-saenz",
+      "name": "Maximiliano Saenz",
+      "country": "ECU",
+      "out": true,
+      "rank": 69
+     },
+     {
+      "key": "teva-bouchgua",
+      "name": "Teva Bouchgua",
+      "country": "MAR",
+      "out": true,
+      "rank": 70
+     },
+     {
+      "key": "elian-gelabert",
+      "name": "Elian Gelabert",
+      "country": "PUR",
+      "out": true,
+      "rank": 71
+     },
+     {
+      "key": "gearoid-mcdaid",
+      "name": "Gearoid McDaid",
+      "country": "IRL",
+      "out": true,
+      "rank": 72
+     },
+     {
+      "key": "harry-de-roth",
+      "name": "Harry De Roth",
+      "country": "GBR",
+      "out": true,
+      "rank": 73
+     },
+     {
+      "key": "oscar-urbina",
+      "name": "Oscar Urbina",
+      "country": "CRC",
+      "out": true,
+      "rank": 74
+     },
+     {
+      "key": "micael-lerner",
+      "name": "Micael Lerner",
+      "country": "MEX",
+      "out": true,
+      "rank": 75
+     },
+     {
+      "key": "oliver-rijssenbeek",
+      "name": "Oliver Rijssenbeek",
+      "country": "NED",
+      "out": true,
+      "rank": 76
+     },
+     {
+      "key": "lukas-mcmahon",
+      "name": "Lukas McMahon",
+      "country": "FIN",
+      "out": true,
+      "rank": 77
+     },
+     {
+      "key": "reed-platenius",
+      "name": "Reed Platenius",
+      "country": "CAN",
+      "out": true,
+      "rank": 78
+     },
+     {
+      "key": "ma-wensong",
+      "name": "Ma Wensong",
+      "country": "CHN",
+      "out": true,
+      "rank": 79
+     },
+     {
+      "key": "ming-jang-liu",
+      "name": "Ming Jang Liu",
+      "country": "TPE",
+      "out": true,
+      "rank": 80
+     },
+     {
+      "key": "eduardo-alciso-jr",
+      "name": "Eduardo Alciso Jr.",
+      "country": "PHI",
+      "out": true,
+      "rank": 81
+     },
+     {
+      "key": "lewis-murphy",
+      "name": "Lewis Murphy",
+      "country": "NZL",
+      "out": true,
+      "rank": 82
+     },
+     {
+      "key": "oliver-heintz",
+      "name": "Oliver Heintz",
+      "country": "NED",
+      "out": true,
+      "rank": 83
+     },
+     {
+      "key": "teshawn-jones",
+      "name": "Teshawn Jones",
+      "country": "IVB",
+      "out": true,
+      "rank": 84
+     },
+     {
+      "key": "carlos-escobar",
+      "name": "Carlos Escobar",
+      "country": "GUA",
+      "out": true,
+      "rank": 85
+     },
+     {
+      "key": "hiroto-ohhara",
+      "name": "Hiroto Ohhara",
+      "country": "JPN",
+      "out": true,
+      "rank": 86
+     },
+     {
+      "key": "tanner-sandvig",
+      "name": "Tanner Sandvig",
+      "country": "CAN",
+      "out": true,
+      "rank": 87
+     },
+     {
+      "key": "yeferson-lopez",
+      "name": "Yeferson Lopez",
+      "country": "NCA",
+      "out": true,
+      "rank": 88
+     },
+     {
+      "key": "bruce-burgos",
+      "name": "Bruce Burgos",
+      "country": "ECU",
+      "out": true,
+      "rank": 89
+     },
+     {
+      "key": "carlos-zuniga",
+      "name": "Carlos Zuñiga",
+      "country": "NCA",
+      "out": true,
+      "rank": 90
+     },
+     {
+      "key": "amir-rafaeli",
+      "name": "Amir Rafaeli",
+      "country": "ISR",
+      "out": true,
+      "rank": 91
+     },
+     {
+      "key": "sebastian-celak",
+      "name": "Sebastian Celák",
+      "country": "CZE",
+      "out": true,
+      "rank": 92
+     },
+     {
+      "key": "dwight-pastrana",
+      "name": "Dwight Pastrana",
+      "country": "PUR",
+      "out": true,
+      "rank": 93
+     },
+     {
+      "key": "sage-katz",
+      "name": "Sage Katz",
+      "country": "PUR",
+      "out": true,
+      "rank": 94
+     },
+     {
+      "key": "daniel-monterrosa",
+      "name": "Daniel Monterrosa",
+      "country": "ESA",
+      "out": true,
+      "rank": 95
+     },
+     {
+      "key": "leon-de-la-torre",
+      "name": "León de la Torre",
+      "country": "CHI",
+      "out": true,
+      "rank": 96
+     },
+     {
+      "key": "lewis-st-john",
+      "name": "Lewis St. John",
+      "country": "BAR",
+      "out": true,
+      "rank": 97
+     },
+     {
+      "key": "santiago-gonzalez",
+      "name": "Santiago Gonzalez",
+      "country": "URU",
+      "out": true,
+      "rank": 98
+     },
+     {
+      "key": "perry-siganos",
+      "name": "Perry Siganos",
+      "country": "GRE",
+      "out": true,
+      "rank": 99
+     },
+     {
+      "key": "redouane-regragui",
+      "name": "Redouane Regragui",
+      "country": "MAR",
+      "out": true,
+      "rank": 100
+     },
+     {
+      "key": "jorge-vasquez",
+      "name": "Jorge Vasquez",
+      "country": "GUA",
+      "out": true,
+      "rank": 101
+     },
+     {
+      "key": "tommy-zahalka",
+      "name": "Tommy Zahalka",
+      "country": "CAN",
+      "out": true,
+      "rank": 102
+     },
+     {
+      "key": "luke-dillon",
+      "name": "Luke Dillon",
+      "country": "GBR",
+      "out": true,
+      "rank": 103
+     },
+     {
+      "key": "rush-carter-broderick",
+      "name": "Rush Carter Broderick",
+      "country": "IVB",
+      "out": true,
+      "rank": 104
+     },
+     {
+      "key": "cristian-padilla",
+      "name": "Cristian Padilla",
+      "country": "DOM",
+      "out": true,
+      "rank": 105
+     },
+     {
+      "key": "emerson-solares",
+      "name": "Emerson Solares",
+      "country": "GUA",
+      "out": true,
+      "rank": 106
+     },
+     {
+      "key": "chia-chi-yu",
+      "name": "Chia Chi Yu",
+      "country": "TPE",
+      "out": true,
+      "rank": 107
+     },
+     {
+      "key": "zukas-l-ining",
+      "name": "Zukas Løining",
+      "country": "NOR",
+      "out": true,
+      "rank": 108
+     },
+     {
+      "key": "aris-gabriel-voicu",
+      "name": "Aris Gabriel Voicu",
+      "country": "ROU",
+      "out": true,
+      "rank": 109
+     },
+     {
+      "key": "liam-wilson",
+      "name": "Liam Wilson",
+      "country": "ASA",
+      "out": true,
+      "rank": 110
+     },
+     {
+      "key": "benjamin-stuller",
+      "name": "Benjamin Stuller",
+      "country": "SVK",
+      "out": true,
+      "rank": 111
+     },
+     {
+      "key": "leonardo-fioravanti",
+      "name": "Leonardo Fioravanti",
+      "country": "ITA",
+      "out": true,
+      "rank": 112
+     },
+     {
+      "key": "jason-latham",
+      "name": "Jason Latham",
+      "country": "ASA",
+      "out": true,
+      "rank": 113
+     },
+     {
+      "key": "luis-alfredo-cruz",
+      "name": "Luis Alfredo Cruz",
+      "country": "DOM",
+      "out": true,
+      "rank": 114
+     },
+     {
+      "key": "ivan-mynenko",
+      "name": "Ivan Mynenko",
+      "country": "UKR",
+      "out": true,
+      "rank": 115
+     },
+     {
+      "key": "elishama-beckford",
+      "name": "Elishama Beckford",
+      "country": "JAM",
+      "out": true,
+      "rank": 116
+     },
+     {
+      "key": "ronald-hastings",
+      "name": "Ronald Hastings",
+      "country": "JAM",
+      "out": true,
+      "rank": 117
+     },
+     {
+      "key": "jan-vitek",
+      "name": "Jan Vítek",
+      "country": "CZE",
+      "out": true,
+      "rank": 118
+     },
+     {
+      "key": "felix-golden",
+      "name": "Felix Golden",
+      "country": "NOR",
+      "out": true,
+      "rank": 119
+     },
+     {
+      "key": "ivah-wilmot",
+      "name": "Ivah Wilmot",
+      "country": "JAM",
+      "out": true,
+      "rank": 120
+     },
+     {
+      "key": "paul-krsnik",
+      "name": "Paul Krsnik",
+      "country": "AUT",
+      "out": true,
+      "rank": 121
+     },
+     {
+      "key": "elias-smith",
+      "name": "Elias Smith",
+      "country": "GRE",
+      "out": true,
+      "rank": 122
+     },
+     {
+      "key": "sergii-kukharskyi",
+      "name": "Sergii Kukharskyi",
+      "country": "UKR",
+      "out": true,
+      "rank": 123
+     },
+     {
+      "key": "roberto-camblor",
+      "name": "Roberto Camblor",
+      "country": "URU",
+      "out": true,
+      "rank": 124
+     },
+     {
+      "key": "toby-espejon",
+      "name": "Toby Espejon",
+      "country": "PHI",
+      "out": true,
+      "rank": 125
+     }
+    ],
+    "women": [
+     {
+      "key": "gabriela-bryan",
+      "name": "Gabriela Bryan",
+      "country": "USA",
+      "rank": 1
+     },
+     {
+      "key": "janire-gonzalez-etxabarri",
+      "name": "Janire González-Etxabarri",
+      "country": "ESP",
+      "rank": 2
+     },
+     {
+      "key": "johanne-defay",
+      "name": "Johanne Defay",
+      "country": "FRA",
+      "rank": 3
+     },
+     {
+      "key": "leihani-zoric",
+      "name": "Leihani Zoric",
+      "country": "AUS",
+      "rank": 4
+     },
+     {
+      "key": "luana-silva",
+      "name": "Luana Silva",
+      "country": "BRA",
+      "rank": 5
+     },
+     {
+      "key": "sawyer-lindblad",
+      "name": "Sawyer Lindblad",
+      "country": "USA",
+      "rank": 6
+     },
+     {
+      "key": "leilani-mcgonagle",
+      "name": "Leilani McGonagle",
+      "country": "CRC",
+      "out": true,
+      "rank": 7
+     },
+     {
+      "key": "yolanda-hopkins",
+      "name": "Yolanda Hopkins",
+      "country": "POR",
+      "out": true,
+      "rank": 8
+     },
+     {
+      "key": "anon-matsuoka",
+      "name": "Anon Matsuoka",
+      "country": "JPN",
+      "out": true,
+      "rank": 9
+     },
+     {
+      "key": "catalina-zariquiey",
+      "name": "Catalina Zariquiey",
+      "country": "PER",
+      "out": true,
+      "rank": 10
+     },
+     {
+      "key": "sol-aguirre",
+      "name": "Sol Aguirre",
+      "country": "PER",
+      "out": true,
+      "rank": 11
+     },
+     {
+      "key": "francisca-veselko",
+      "name": "Francisca Veselko",
+      "country": "POR",
+      "out": true,
+      "rank": 12
+     },
+     {
+      "key": "havanna-cabrero",
+      "name": "Havanna Cabrero",
+      "country": "PUR",
+      "out": true,
+      "rank": 13
+     },
+     {
+      "key": "isidora-bulto",
+      "name": "Isidora Bulto",
+      "country": "CHI",
+      "out": true,
+      "rank": 14
+     },
+     {
+      "key": "daniella-rosas",
+      "name": "Daniella Rosas",
+      "country": "PER",
+      "out": true,
+      "rank": 15
+     },
+     {
+      "key": "tyler-wright",
+      "name": "Tyler Wright",
+      "country": "AUS",
+      "out": true,
+      "rank": 16
+     },
+     {
+      "key": "carissa-moore",
+      "name": "Carissa Moore",
+      "country": "USA",
+      "out": true,
+      "rank": 17
+     },
+     {
+      "key": "nadia-erostarbe",
+      "name": "Nadia Erostarbe",
+      "country": "ESP",
+      "out": true,
+      "rank": 18
+     },
+     {
+      "key": "laura-raupp",
+      "name": "Laura Raupp",
+      "country": "BRA",
+      "out": true,
+      "rank": 19
+     },
+     {
+      "key": "stephanie-gilmore",
+      "name": "Stephanie Gilmore",
+      "country": "AUS",
+      "out": true,
+      "rank": 20
+     },
+     {
+      "key": "naia-monte",
+      "name": "Naia Monte",
+      "country": "FRA",
+      "out": true,
+      "rank": 21
+     },
+     {
+      "key": "rachael-aguero",
+      "name": "Rachael Aguero",
+      "country": "CRC",
+      "out": true,
+      "rank": 22
+     },
+     {
+      "key": "aelan-vaast",
+      "name": "Aelan Vaast",
+      "country": "FRA",
+      "out": true,
+      "rank": 23
+     },
+     {
+      "key": "estela-lopez",
+      "name": "Estela López",
+      "country": "CHI",
+      "out": true,
+      "rank": 24
+     },
+     {
+      "key": "candelaria-resano",
+      "name": "Candelaria Resano",
+      "country": "NCA",
+      "out": true,
+      "rank": 25
+     },
+     {
+      "key": "vera-jarisz",
+      "name": "Vera Jarisz",
+      "country": "ARG",
+      "out": true,
+      "rank": 26
+     },
+     {
+      "key": "jasmine-michelle-studer",
+      "name": "Jasmine Michelle Studer",
+      "country": "INA",
+      "out": true,
+      "rank": 27
+     },
+     {
+      "key": "kana-nakashio",
+      "name": "Kana Nakashio",
+      "country": "JPN",
+      "out": true,
+      "rank": 28
+     },
+     {
+      "key": "maria-salgado",
+      "name": "Maria Salgado",
+      "country": "POR",
+      "out": true,
+      "rank": 29
+     },
+     {
+      "key": "yang-siqi",
+      "name": "Yang Siqi",
+      "country": "CHN",
+      "out": true,
+      "rank": 30
+     },
+     {
+      "key": "genesis-borja",
+      "name": "Genesis Borja",
+      "country": "ECU",
+      "out": true,
+      "rank": 31
+     },
+     {
+      "key": "taina-hinckel",
+      "name": "Taina Hinckel",
+      "country": "BRA",
+      "out": true,
+      "rank": 32
+     },
+     {
+      "key": "camilla-kemp",
+      "name": "Camilla Kemp",
+      "country": "GER",
+      "out": true,
+      "rank": 33
+     },
+     {
+      "key": "louise-lepront",
+      "name": "Louise Lepront",
+      "country": "RSA",
+      "out": true,
+      "rank": 34
+     },
+     {
+      "key": "ariane-ochoa",
+      "name": "Ariane Ochoa",
+      "country": "ESP",
+      "out": true,
+      "rank": 35
+     },
+     {
+      "key": "jin-shuhan",
+      "name": "Jin Shuhan",
+      "country": "CHN",
+      "out": true,
+      "rank": 36
+     },
+     {
+      "key": "faviola-alcala",
+      "name": "Faviola Alcalá",
+      "country": "PUR",
+      "out": true,
+      "rank": 37
+     },
+     {
+      "key": "lucia-indurain",
+      "name": "Lucia Indurain",
+      "country": "ARG",
+      "out": true,
+      "rank": 38
+     },
+     {
+      "key": "charlotte-mulley",
+      "name": "Charlotte Mulley",
+      "country": "GBR",
+      "out": true,
+      "rank": 39
+     },
+     {
+      "key": "chelsea-tuach",
+      "name": "Chelsea Tuach",
+      "country": "BAR",
+      "out": true,
+      "rank": 40
+     },
+     {
+      "key": "chiara-cuppone",
+      "name": "Chiara Cuppone",
+      "country": "ITA",
+      "out": true,
+      "rank": 41
+     },
+     {
+      "key": "dominic-barona",
+      "name": "Dominic Barona",
+      "country": "ECU",
+      "out": true,
+      "rank": 42
+     },
+     {
+      "key": "elin-tawharu",
+      "name": "Elin Tawharu",
+      "country": "SWE",
+      "out": true,
+      "rank": 43
+     },
+     {
+      "key": "ocea-green",
+      "name": "Ocea Green",
+      "country": "CAN",
+      "out": true,
+      "rank": 44
+     },
+     {
+      "key": "coral-jeanne-bonilla",
+      "name": "Coral Jeanne Bonilla",
+      "country": "MEX",
+      "out": true,
+      "rank": 45
+     },
+     {
+      "key": "nilbie-blancada",
+      "name": "Nilbie Blancada",
+      "country": "PHI",
+      "out": true,
+      "rank": 46
+     },
+     {
+      "key": "mirna-boelsma",
+      "name": "Mirna Boelsma",
+      "country": "NED",
+      "out": true,
+      "rank": 47
+     },
+     {
+      "key": "natasha-van-greunen",
+      "name": "Natasha van Greunen",
+      "country": "RSA",
+      "out": true,
+      "rank": 48
+     },
+     {
+      "key": "diana-giorgi",
+      "name": "Diana Giorgi",
+      "country": "ITA",
+      "out": true,
+      "rank": 49
+     },
+     {
+      "key": "hanasuri-jabrik",
+      "name": "Hanasuri Jabrik",
+      "country": "INA",
+      "out": true,
+      "rank": 50
+     },
+     {
+      "key": "anri-matsuno",
+      "name": "Anri Matsuno",
+      "country": "JPN",
+      "out": true,
+      "rank": 51
+     },
+     {
+      "key": "mia-calderon",
+      "name": "Mia Calderón",
+      "country": "PUR",
+      "out": true,
+      "rank": 52
+     },
+     {
+      "key": "victoria-munoz-larreta",
+      "name": "Victoria Muñoz Larreta",
+      "country": "ARG",
+      "out": true,
+      "rank": 53
+     },
+     {
+      "key": "enilda-alonso",
+      "name": "Enilda Alonso",
+      "country": "PAN",
+      "out": true,
+      "rank": 54
+     },
+     {
+      "key": "kyra-wallis",
+      "name": "Kyra Wallis",
+      "country": "NZL",
+      "out": true,
+      "rank": 55
+     },
+     {
+      "key": "maya-mateja",
+      "name": "Maya Mateja",
+      "country": "MEX",
+      "out": true,
+      "rank": 56
+     },
+     {
+      "key": "bethany-zelasko",
+      "name": "Bethany Zelasko",
+      "country": "CAN",
+      "out": true,
+      "rank": 57
+     },
+     {
+      "key": "belle-betteridge",
+      "name": "Belle Betteridge",
+      "country": "GBR",
+      "out": true,
+      "rank": 58
+     },
+     {
+      "key": "mikela-castro",
+      "name": "Mikela Castro",
+      "country": "CRC",
+      "out": true,
+      "rank": 59
+     },
+     {
+      "key": "noya-slater-cohen",
+      "name": "Noya Slater Cohen",
+      "country": "ISR",
+      "out": true,
+      "rank": 60
+     },
+     {
+      "key": "raya-campbell",
+      "name": "Raya Campbell",
+      "country": "GBR",
+      "out": true,
+      "rank": 61
+     },
+     {
+      "key": "belen-elizondo",
+      "name": "Belen Elizondo",
+      "country": "PAN",
+      "out": true,
+      "rank": 62
+     },
+     {
+      "key": "kya-jo-heuer",
+      "name": "Kya Jo Heuer",
+      "country": "INA",
+      "out": true,
+      "rank": 63
+     },
+     {
+      "key": "tiziana-billy",
+      "name": "Tiziana Billy",
+      "country": "GUA",
+      "out": true,
+      "rank": 64
+     },
+     {
+      "key": "wang-yitian",
+      "name": "Wang Yitian",
+      "country": "CHN",
+      "out": true,
+      "rank": 65
+     },
+     {
+      "key": "anai-porras",
+      "name": "Anaí Porras",
+      "country": "GUA",
+      "out": true,
+      "rank": 66
+     },
+     {
+      "key": "myriam-benzarti",
+      "name": "Myriam Benzarti",
+      "country": "MAR",
+      "out": true,
+      "rank": 67
+     },
+     {
+      "key": "grace-gundry",
+      "name": "Grace Gundry",
+      "country": "NZL",
+      "out": true,
+      "rank": 68
+     },
+     {
+      "key": "lune-van-dijk",
+      "name": "Lune van Dijk",
+      "country": "NED",
+      "out": true,
+      "rank": 69
+     },
+     {
+      "key": "ranya-squalli",
+      "name": "Ranya Squalli",
+      "country": "MAR",
+      "out": true,
+      "rank": 70
+     },
+     {
+      "key": "wendy-velasquez",
+      "name": "Wendy Velasquez",
+      "country": "ECU",
+      "out": true,
+      "rank": 71
+     },
+     {
+      "key": "ana-llyllia-gonzalez",
+      "name": "Ana Llyllia Gonzalez",
+      "country": "MEX",
+      "out": true,
+      "rank": 72
+     },
+     {
+      "key": "shelamae-arjona",
+      "name": "Shelamae Arjona",
+      "country": "PHI",
+      "out": true,
+      "rank": 73
+     },
+     {
+      "key": "anna-mockova",
+      "name": "Anna Mockova",
+      "country": "SVK",
+      "out": true,
+      "rank": 74
+     },
+     {
+      "key": "eva-mota",
+      "name": "Eva Mota",
+      "country": "DOM",
+      "out": true,
+      "rank": 75
+     },
+     {
+      "key": "paloma-santos",
+      "name": "Paloma Santos",
+      "country": "CHI",
+      "out": true,
+      "rank": 76
+     },
+     {
+      "key": "victoria-backhaus",
+      "name": "Victoria Backhaus",
+      "country": "ITA",
+      "out": true,
+      "rank": 77
+     },
+     {
+      "key": "aviv-shuval",
+      "name": "Aviv Shuval",
+      "country": "ISR",
+      "out": true,
+      "rank": 78
+     },
+     {
+      "key": "jessie-van-niekerk",
+      "name": "Jessie van Niekerk",
+      "country": "RSA",
+      "out": true,
+      "rank": 79
+     },
+     {
+      "key": "nicole-brait",
+      "name": "Nicole Brait",
+      "country": "POL",
+      "out": true,
+      "rank": 80
+     },
+     {
+      "key": "wan-yu-chen",
+      "name": "Wan Yu Chen",
+      "country": "TPE",
+      "out": true,
+      "rank": 81
+     },
+     {
+      "key": "helle-l-vseth",
+      "name": "Helle Løvseth",
+      "country": "NOR",
+      "out": true,
+      "rank": 82
+     },
+     {
+      "key": "zoe-anais-bain",
+      "name": "Zoe-Anais Bain",
+      "country": "JAM",
+      "out": true,
+      "rank": 83
+     },
+     {
+      "key": "darlyn-ramirez",
+      "name": "Darlyn Ramirez",
+      "country": "GUA",
+      "out": true,
+      "rank": 84
+     },
+     {
+      "key": "puck-dekkers",
+      "name": "Puck Dekkers",
+      "country": "NED",
+      "out": true,
+      "rank": 85
+     },
+     {
+      "key": "janina-zeitler",
+      "name": "Janina Zeitler",
+      "country": "GER",
+      "out": true,
+      "rank": 86
+     },
+     {
+      "key": "nathania-nakos",
+      "name": "Nathania Nakos",
+      "country": "GRE",
+      "out": true,
+      "rank": 87
+     },
+     {
+      "key": "indi-lee-ruddell",
+      "name": "Indi-Lee Ruddell",
+      "country": "NZL",
+      "out": true,
+      "rank": 88
+     },
+     {
+      "key": "maya-karl",
+      "name": "Maya Karl",
+      "country": "UZB",
+      "out": true,
+      "rank": 89
+     },
+     {
+      "key": "eirini-tsarpali",
+      "name": "Eirini Tsarpali",
+      "country": "GRE",
+      "out": true,
+      "rank": 90
+     },
+     {
+      "key": "rosanny-alvarez",
+      "name": "Rosanny Alvarez",
+      "country": "VEN",
+      "out": true,
+      "rank": 91
+     },
+     {
+      "key": "katrina-kruze",
+      "name": "Katrina Kruze",
+      "country": "LAT",
+      "out": true,
+      "rank": 92
+     },
+     {
+      "key": "nina-smiciklas",
+      "name": "Nina Smiciklas",
+      "country": "GER",
+      "out": true,
+      "rank": 93
+     },
+     {
+      "key": "ine-haugen",
+      "name": "Ine Haugen",
+      "country": "NOR",
+      "out": true,
+      "rank": 94
+     },
+     {
+      "key": "laura-bell",
+      "name": "Laura Bell",
+      "country": "AUT",
+      "out": true,
+      "rank": 95
+     },
+     {
+      "key": "en-rou-wang",
+      "name": "En Rou Wang",
+      "country": "TPE",
+      "out": true,
+      "rank": 96
+     },
+     {
+      "key": "kely-gasparovic",
+      "name": "Kely Gasparovic",
+      "country": "PAN",
+      "out": true,
+      "rank": 97
+     },
+     {
+      "key": "snow-parisi",
+      "name": "Snow Parisi",
+      "country": "CAN",
+      "out": true,
+      "rank": 98
+     },
+     {
+      "key": "yun-jung-chung",
+      "name": "Yun Jung Chung",
+      "country": "TPE",
+      "out": true,
+      "rank": 99
+     },
+     {
+      "key": "anna-pixner",
+      "name": "Anna Pixner",
+      "country": "AUT",
+      "out": true,
+      "rank": 100
+     },
+     {
+      "key": "emmy-n-klebye",
+      "name": "Emmy Nøklebye",
+      "country": "NOR",
+      "out": true,
+      "rank": 101
+     },
+     {
+      "key": "alexandra-kolla",
+      "name": "Alexandra Kolla",
+      "country": "GRE",
+      "out": true,
+      "rank": 102
+     },
+     {
+      "key": "santa-vevere",
+      "name": "Santa Vevere",
+      "country": "LAT",
+      "out": true,
+      "rank": 103
+     },
+     {
+      "key": "alma-aviram",
+      "name": "Alma Aviram",
+      "country": "ISR",
+      "out": true,
+      "rank": 104
+     },
+     {
+      "key": "silvana-martinez",
+      "name": "Silvana Martinez",
+      "country": "VEN",
+      "out": true,
+      "rank": 105
+     }
+    ]
+   },
+   "roster_source": "ISA official results (SurfScores)",
+   "roster_note": "Every surfer in the official ISA draw. Surfers already eliminated (120 men, 99 women) stay listed but cannot be picked.",
    "conflicts": [],
-   "results": null,
-   "draftable": false
+   "results": {
+    "yago-dora": {
+     "place": 6,
+     "points": 4745
+    },
+    "italo-ferreira": {
+     "place": 18,
+     "points": 1330
+    },
+    "griffin-colapinto": {
+     "place": 16,
+     "points": 3320
+    },
+    "miguel-pupo": {
+     "place": 40,
+     "points": 265
+    },
+    "leonardo-fioravanti": {
+     "place": 111,
+     "points": 265
+    },
+    "kanoa-igarashi": {
+     "place": 6,
+     "points": 4745
+    },
+    "george-pittar": {
+     "place": 30,
+     "points": 1330
+    },
+    "kauli-vaast": {
+     "place": 10,
+     "points": 3320
+    },
+    "liam-o-brien": {
+     "place": 12,
+     "points": 3320
+    },
+    "connor-o-leary": {
+     "place": 20,
+     "points": 1330
+    },
+    "cole-houshmand": {
+     "place": 18,
+     "points": 1330
+    },
+    "marco-mignot": {
+     "place": 32,
+     "points": 1330
+    },
+    "crosby-colapinto": {
+     "place": 8,
+     "points": 4745
+    },
+    "rio-waida": {
+     "place": 42,
+     "points": 265
+    },
+    "alonso-correa": {
+     "place": 12,
+     "points": 3320
+    },
+    "joshua-burke": {
+     "place": 28,
+     "points": 1330
+    },
+    "jorgan-couzinet": {
+     "place": 11,
+     "points": 3320
+    },
+    "dhany-widianto": {
+     "place": 14,
+     "points": 3320
+    },
+    "thiago-passeri": {
+     "place": 22,
+     "points": 1330
+    },
+    "conor-donegan": {
+     "place": 16,
+     "points": 3320
+    },
+    "i-made-pajar-ariyana": {
+     "place": 38,
+     "points": 265
+    },
+    "kai-odriozola": {
+     "place": 14,
+     "points": 3320
+    },
+    "frederico-morais": {
+     "place": 26,
+     "points": 1330
+    },
+    "guilherme-ribeiro": {
+     "place": 22,
+     "points": 1330
+    },
+    "harry-de-roth": {
+     "place": 73,
+     "points": 265
+    },
+    "joaquin-munoz-larreta": {
+     "place": 57,
+     "points": 265
+    },
+    "romeo-chavez": {
+     "place": 9,
+     "points": 3320
+    },
+    "uriel-uziel": {
+     "place": 46,
+     "points": 265
+    },
+    "tom-butland": {
+     "place": 32,
+     "points": 1330
+    },
+    "bryan-perez": {
+     "place": 24,
+     "points": 1330
+    },
+    "teva-bouchgua": {
+     "place": 69,
+     "points": 265
+    },
+    "eeli-timperi": {
+     "place": 58,
+     "points": 265
+    },
+    "tim-elter": {
+     "place": 20,
+     "points": 1330
+    },
+    "nadav-attar": {
+     "place": 56,
+     "points": 265
+    },
+    "kai-gale-grani": {
+     "place": 24,
+     "points": 1330
+    },
+    "jacobo-trigo": {
+     "place": 28,
+     "points": 1330
+    },
+    "martin-ottado": {
+     "place": 40,
+     "points": 265
+    },
+    "jose-joaquin-lopez": {
+     "place": 44,
+     "points": 265
+    },
+    "jean-carlos-gonzalez": {
+     "place": 34,
+     "points": 265
+    },
+    "francisco-ordonhas": {
+     "place": 34,
+     "points": 265
+    },
+    "aboubakr-bouaouda": {
+     "place": 55,
+     "points": 265
+    },
+    "oliver-heintz": {
+     "place": 83,
+     "points": 265
+    },
+    "noel-de-la-torre": {
+     "place": 52,
+     "points": 265
+    },
+    "roberto-araki": {
+     "place": 65,
+     "points": 265
+    },
+    "leonardo-apreda": {
+     "place": 51,
+     "points": 265
+    },
+    "sage-katz": {
+     "place": 93,
+     "points": 265
+    },
+    "hiroto-ohhara": {
+     "place": 85,
+     "points": 265
+    },
+    "teo-gale-grani": {
+     "place": 44,
+     "points": 265
+    },
+    "jacob-burke": {
+     "place": 61,
+     "points": 265
+    },
+    "francisco-bellorin": {
+     "place": 53,
+     "points": 265
+    },
+    "noah-storhaug": {
+     "place": 42,
+     "points": 265
+    },
+    "khalil-da-silva": {
+     "place": 36,
+     "points": 265
+    },
+    "oscar-urbina": {
+     "place": 73,
+     "points": 265
+    },
+    "liam-wilson": {
+     "place": 109,
+     "points": 265
+    },
+    "ruben-vitoria": {
+     "place": 46,
+     "points": 265
+    },
+    "luke-van-wyk": {
+     "place": 26,
+     "points": 1330
+    },
+    "ntokozo-maphumulo": {
+     "place": 30,
+     "points": 1330
+    },
+    "tiago-sorrentino": {
+     "place": 38,
+     "points": 265
+    },
+    "patrick-langdon-dark": {
+     "place": 63,
+     "points": 265
+    },
+    "wu-shidong": {
+     "place": 60,
+     "points": 265
+    },
+    "chia-chi-yu": {
+     "place": 107,
+     "points": 265
+    },
+    "samuel-reidy": {
+     "place": 36,
+     "points": 265
+    },
+    "tanner-sandvig": {
+     "place": 87,
+     "points": 265
+    },
+    "lukas-mcmahon": {
+     "place": 77,
+     "points": 265
+    },
+    "maximiliano-saenz": {
+     "place": 69,
+     "points": 265
+    },
+    "stef-van-noordennen": {
+     "place": 50,
+     "points": 265
+    },
+    "alex-suarez": {
+     "place": 48,
+     "points": 265
+    },
+    "greyson-grant": {
+     "place": 61,
+     "points": 265
+    },
+    "redouane-regragui": {
+     "place": 99,
+     "points": 265
+    },
+    "oliver-rijssenbeek": {
+     "place": 75,
+     "points": 265
+    },
+    "oscar-guzman": {
+     "place": 48,
+     "points": 265
+    },
+    "taimana-marupo": {
+     "place": 65,
+     "points": 265
+    },
+    "gearoid-mcdaid": {
+     "place": 71,
+     "points": 265
+    },
+    "elian-gelabert": {
+     "place": 71,
+     "points": 265
+    },
+    "darshan-antequera": {
+     "place": 59,
+     "points": 265
+    },
+    "mason-moschopoulos": {
+     "place": 63,
+     "points": 265
+    },
+    "carlos-escobar": {
+     "place": 85,
+     "points": 265
+    },
+    "jiang-shulou": {
+     "place": 53,
+     "points": 265
+    },
+    "enzo-ackermann": {
+     "place": 67,
+     "points": 265
+    },
+    "eduardo-alciso-jr": {
+     "place": 81,
+     "points": 265
+    },
+    "lewis-murphy": {
+     "place": 81,
+     "points": 265
+    },
+    "luke-dillon": {
+     "place": 103,
+     "points": 265
+    },
+    "roberto-camblor": {
+     "place": 124,
+     "points": 265
+    },
+    "ma-wensong": {
+     "place": 79,
+     "points": 265
+    },
+    "daniel-monterrosa": {
+     "place": 95,
+     "points": 265
+    },
+    "perry-siganos": {
+     "place": 99,
+     "points": 265
+    },
+    "micael-lerner": {
+     "place": 75,
+     "points": 265
+    },
+    "amir-rafaeli": {
+     "place": 91,
+     "points": 265
+    },
+    "bruce-burgos": {
+     "place": 89,
+     "points": 265
+    },
+    "reed-platenius": {
+     "place": 77,
+     "points": 265
+    },
+    "carlos-perez": {
+     "place": 67,
+     "points": 265
+    },
+    "cristian-padilla": {
+     "place": 105,
+     "points": 265
+    },
+    "carlos-zuniga": {
+     "place": 89,
+     "points": 265
+    },
+    "ming-jang-liu": {
+     "place": 79,
+     "points": 265
+    },
+    "tommy-zahalka": {
+     "place": 101,
+     "points": 265
+    },
+    "lewis-st-john": {
+     "place": 97,
+     "points": 265
+    },
+    "yeferson-lopez": {
+     "place": 87,
+     "points": 265
+    },
+    "elishama-beckford": {
+     "place": 116,
+     "points": 265
+    },
+    "dwight-pastrana": {
+     "place": 93,
+     "points": 265
+    },
+    "zukas-l-ining": {
+     "place": 107,
+     "points": 265
+    },
+    "leon-de-la-torre": {
+     "place": 95,
+     "points": 265
+    },
+    "toby-espejon": {
+     "place": 125,
+     "points": 265
+    },
+    "santiago-gonzalez": {
+     "place": 97,
+     "points": 265
+    },
+    "emerson-solares": {
+     "place": 105,
+     "points": 265
+    },
+    "elias-smith": {
+     "place": 122,
+     "points": 265
+    },
+    "jorge-vasquez": {
+     "place": 101,
+     "points": 265
+    },
+    "aris-gabriel-voicu": {
+     "place": 109,
+     "points": 265
+    },
+    "rush-carter-broderick": {
+     "place": 103,
+     "points": 265
+    },
+    "felix-golden": {
+     "place": 119,
+     "points": 265
+    },
+    "ronald-hastings": {
+     "place": 117,
+     "points": 265
+    },
+    "teshawn-jones": {
+     "place": 83,
+     "points": 265
+    },
+    "ivah-wilmot": {
+     "place": 120,
+     "points": 265
+    },
+    "ivan-mynenko": {
+     "place": 115,
+     "points": 265
+    },
+    "jason-latham": {
+     "place": 113,
+     "points": 265
+    },
+    "sebastian-celak": {
+     "place": 91,
+     "points": 265
+    },
+    "benjamin-stuller": {
+     "place": 111,
+     "points": 265
+    },
+    "paul-krsnik": {
+     "place": 121,
+     "points": 265
+    },
+    "sergii-kukharskyi": {
+     "place": 123,
+     "points": 265
+    },
+    "jan-vitek": {
+     "place": 118,
+     "points": 265
+    },
+    "luis-alfredo-cruz": {
+     "place": 114,
+     "points": 265
+    },
+    "carissa-moore": {
+     "place": 17,
+     "points": 1330
+    },
+    "nadia-erostarbe": {
+     "place": 17,
+     "points": 1330
+    },
+    "tyler-wright": {
+     "place": 15,
+     "points": 3320
+    },
+    "yolanda-hopkins": {
+     "place": 7,
+     "points": 4745
+    },
+    "stephanie-gilmore": {
+     "place": 19,
+     "points": 1330
+    },
+    "francisca-veselko": {
+     "place": 12,
+     "points": 3320
+    },
+    "catalina-zariquiey": {
+     "place": 10,
+     "points": 3320
+    },
+    "isidora-bulto": {
+     "place": 13,
+     "points": 3320
+    },
+    "daniella-rosas": {
+     "place": 15,
+     "points": 3320
+    },
+    "leilani-mcgonagle": {
+     "place": 7,
+     "points": 4745
+    },
+    "sol-aguirre": {
+     "place": 11,
+     "points": 3320
+    },
+    "jasmine-michelle-studer": {
+     "place": 27,
+     "points": 1330
+    },
+    "camilla-kemp": {
+     "place": 33,
+     "points": 265
+    },
+    "anri-matsuno": {
+     "place": 51,
+     "points": 265
+    },
+    "estela-lopez": {
+     "place": 23,
+     "points": 1330
+    },
+    "victoria-munoz-larreta": {
+     "place": 53,
+     "points": 265
+    },
+    "yang-siqi": {
+     "place": 29,
+     "points": 1330
+    },
+    "maya-mateja": {
+     "place": 56,
+     "points": 265
+    },
+    "naia-monte": {
+     "place": 21,
+     "points": 1330
+    },
+    "taina-hinckel": {
+     "place": 31,
+     "points": 1330
+    },
+    "anon-matsuoka": {
+     "place": 9,
+     "points": 3320
+    },
+    "charlotte-mulley": {
+     "place": 39,
+     "points": 265
+    },
+    "laura-raupp": {
+     "place": 19,
+     "points": 1330
+    },
+    "ariane-ochoa": {
+     "place": 35,
+     "points": 265
+    },
+    "kana-nakashio": {
+     "place": 27,
+     "points": 1330
+    },
+    "kyra-wallis": {
+     "place": 55,
+     "points": 265
+    },
+    "vera-jarisz": {
+     "place": 25,
+     "points": 1330
+    },
+    "candelaria-resano": {
+     "place": 25,
+     "points": 1330
+    },
+    "havanna-cabrero": {
+     "place": 13,
+     "points": 3320
+    },
+    "genesis-borja": {
+     "place": 31,
+     "points": 1330
+    },
+    "faviola-alcala": {
+     "place": 37,
+     "points": 265
+    },
+    "belle-betteridge": {
+     "place": 58,
+     "points": 265
+    },
+    "chiara-cuppone": {
+     "place": 41,
+     "points": 265
+    },
+    "louise-lepront": {
+     "place": 33,
+     "points": 265
+    },
+    "maria-salgado": {
+     "place": 29,
+     "points": 1330
+    },
+    "ocea-green": {
+     "place": 43,
+     "points": 265
+    },
+    "rachael-aguero": {
+     "place": 21,
+     "points": 1330
+    },
+    "aelan-vaast": {
+     "place": 23,
+     "points": 1330
+    },
+    "elin-tawharu": {
+     "place": 43,
+     "points": 265
+    },
+    "coral-jeanne-bonilla": {
+     "place": 45,
+     "points": 265
+    },
+    "natasha-van-greunen": {
+     "place": 47,
+     "points": 265
+    },
+    "hanasuri-jabrik": {
+     "place": 50,
+     "points": 265
+    },
+    "jin-shuhan": {
+     "place": 35,
+     "points": 265
+    },
+    "dominic-barona": {
+     "place": 41,
+     "points": 265
+    },
+    "janina-zeitler": {
+     "place": 86,
+     "points": 265
+    },
+    "chelsea-tuach": {
+     "place": 39,
+     "points": 265
+    },
+    "raya-campbell": {
+     "place": 60,
+     "points": 265
+    },
+    "mia-calderon": {
+     "place": 52,
+     "points": 265
+    },
+    "rosanny-alvarez": {
+     "place": 90,
+     "points": 265
+    },
+    "bethany-zelasko": {
+     "place": 57,
+     "points": 265
+    },
+    "kya-jo-heuer": {
+     "place": 62,
+     "points": 265
+    },
+    "shelamae-arjona": {
+     "place": 72,
+     "points": 265
+    },
+    "nilbie-blancada": {
+     "place": 45,
+     "points": 265
+    },
+    "anai-porras": {
+     "place": 66,
+     "points": 265
+    },
+    "diana-giorgi": {
+     "place": 49,
+     "points": 265
+    },
+    "ranya-squalli": {
+     "place": 70,
+     "points": 265
+    },
+    "lucia-indurain": {
+     "place": 37,
+     "points": 265
+    },
+    "jessie-van-niekerk": {
+     "place": 78,
+     "points": 265
+    },
+    "enilda-alonso": {
+     "place": 54,
+     "points": 265
+    },
+    "wang-yitian": {
+     "place": 64,
+     "points": 265
+    },
+    "mirna-boelsma": {
+     "place": 47,
+     "points": 265
+    },
+    "wendy-velasquez": {
+     "place": 70,
+     "points": 265
+    },
+    "grace-gundry": {
+     "place": 68,
+     "points": 265
+    },
+    "lune-van-dijk": {
+     "place": 68,
+     "points": 265
+    },
+    "kely-gasparovic": {
+     "place": 96,
+     "points": 265
+    },
+    "victoria-backhaus": {
+     "place": 76,
+     "points": 265
+    },
+    "noya-slater-cohen": {
+     "place": 60,
+     "points": 265
+    },
+    "belen-elizondo": {
+     "place": 62,
+     "points": 265
+    },
+    "mikela-castro": {
+     "place": 58,
+     "points": 265
+    },
+    "aviv-shuval": {
+     "place": 78,
+     "points": 265
+    },
+    "paloma-santos": {
+     "place": 76,
+     "points": 265
+    },
+    "ana-llyllia-gonzalez": {
+     "place": 72,
+     "points": 265
+    },
+    "tiziana-billy": {
+     "place": 64,
+     "points": 265
+    },
+    "yun-jung-chung": {
+     "place": 98,
+     "points": 265
+    },
+    "silvana-martinez": {
+     "place": 104,
+     "points": 265
+    },
+    "indi-lee-ruddell": {
+     "place": 88,
+     "points": 265
+    },
+    "myriam-benzarti": {
+     "place": 66,
+     "points": 265
+    },
+    "wan-yu-chen": {
+     "place": 80,
+     "points": 265
+    },
+    "maya-karl": {
+     "place": 88,
+     "points": 265
+    },
+    "darlyn-ramirez": {
+     "place": 84,
+     "points": 265
+    },
+    "emmy-n-klebye": {
+     "place": 100,
+     "points": 265
+    },
+    "helle-l-vseth": {
+     "place": 82,
+     "points": 265
+    },
+    "alma-aviram": {
+     "place": 104,
+     "points": 265
+    },
+    "eva-mota": {
+     "place": 74,
+     "points": 265
+    },
+    "snow-parisi": {
+     "place": 98,
+     "points": 265
+    },
+    "ine-haugen": {
+     "place": 94,
+     "points": 265
+    },
+    "nicole-brait": {
+     "place": 80,
+     "points": 265
+    },
+    "puck-dekkers": {
+     "place": 84,
+     "points": 265
+    },
+    "en-rou-wang": {
+     "place": 96,
+     "points": 265
+    },
+    "alexandra-kolla": {
+     "place": 102,
+     "points": 265
+    },
+    "katrina-kruze": {
+     "place": 92,
+     "points": 265
+    },
+    "anna-mockova": {
+     "place": 74,
+     "points": 265
+    },
+    "nathania-nakos": {
+     "place": 86,
+     "points": 265
+    },
+    "laura-bell": {
+     "place": 94,
+     "points": 265
+    },
+    "anna-pixner": {
+     "place": 100,
+     "points": 265
+    },
+    "santa-vevere": {
+     "place": 102,
+     "points": 265
+    },
+    "eirini-tsarpali": {
+     "place": 90,
+     "points": 265
+    },
+    "nina-smiciklas": {
+     "place": 92,
+     "points": 265
+    },
+    "zoe-anais-bain": {
+     "place": 82,
+     "points": 265
+    }
+   },
+   "draftable": true
   },
   {
    "id": "qs-taiwan-2026",
@@ -1103,13 +3584,1715 @@
    "start": "2026-11-14",
    "end": "2026-11-22",
    "status": "live",
-   "official": "https://www.worldsurfleague.com/",
-   "roster": null,
-   "roster_source": null,
-   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "official": "https://www.worldsurfleague.com/events/2026/qs/506/taiwan-open-of-surfing/main",
+   "roster": {
+    "men": [
+     {
+      "key": "alister-reginato",
+      "name": "Alister Reginato",
+      "country": "Australia",
+      "wsl_id": "10874",
+      "rank": 1
+     },
+     {
+      "key": "alonso-correa",
+      "name": "Alonso Correa",
+      "country": "Peru",
+      "wsl_id": "1551",
+      "rank": 2
+     },
+     {
+      "key": "caleb-tancred",
+      "name": "Caleb Tancred",
+      "country": "Australia",
+      "wsl_id": "8246",
+      "rank": 3
+     },
+     {
+      "key": "charly-quivront",
+      "name": "Charly Quivront",
+      "country": "France",
+      "wsl_id": "2650",
+      "rank": 4
+     },
+     {
+      "key": "crosby-colapinto",
+      "name": "Crosby Colapinto",
+      "country": "United States",
+      "wsl_id": "9853",
+      "rank": 5
+     },
+     {
+      "key": "deivid-silva",
+      "name": "Deivid Silva",
+      "country": "Brazil",
+      "wsl_id": "2760",
+      "rank": 6
+     },
+     {
+      "key": "dimitri-poulos",
+      "name": "Dimitri Poulos",
+      "country": "United States",
+      "wsl_id": "12717",
+      "rank": 7
+     },
+     {
+      "key": "douglas-silva",
+      "name": "Douglas Silva",
+      "country": "Brazil",
+      "wsl_id": "8902",
+      "rank": 8
+     },
+     {
+      "key": "guilherme-ribeiro",
+      "name": "Guilherme Ribeiro",
+      "country": "Portugal",
+      "wsl_id": "8895",
+      "rank": 9
+     },
+     {
+      "key": "hayden-rodgers",
+      "name": "Hayden Rodgers",
+      "country": "United States",
+      "wsl_id": "15082",
+      "rank": 10
+     },
+     {
+      "key": "hiroto-ohhara",
+      "name": "Hiroto Ohhara",
+      "country": "Japan",
+      "wsl_id": "1484",
+      "rank": 11
+     },
+     {
+      "key": "ian-gentil",
+      "name": "Ian Gentil",
+      "country": "Hawaii",
+      "wsl_id": "2618",
+      "rank": 12
+     },
+     {
+      "key": "ian-gouveia",
+      "name": "Ian Gouveia",
+      "country": "Brazil",
+      "wsl_id": "1089",
+      "rank": 13
+     },
+     {
+      "key": "jarvis-earle",
+      "name": "Jarvis Earle",
+      "country": "Australia",
+      "wsl_id": "13186",
+      "rank": 14
+     },
+     {
+      "key": "jett-schilling",
+      "name": "Jett Schilling",
+      "country": "United States",
+      "wsl_id": "9448",
+      "rank": 15
+     },
+     {
+      "key": "joel-vaughan",
+      "name": "Joel Vaughan",
+      "country": "Australia",
+      "wsl_id": "10988",
+      "rank": 16
+     },
+     {
+      "key": "jordan-lawler",
+      "name": "Jordan Lawler",
+      "country": "Australia",
+      "wsl_id": "3807",
+      "rank": 17
+     },
+     {
+      "key": "kade-matson",
+      "name": "Kade Matson",
+      "country": "United States",
+      "wsl_id": "8905",
+      "rank": 18
+     },
+     {
+      "key": "kei-kobayashi",
+      "name": "Kei Kobayashi",
+      "country": "Japan",
+      "wsl_id": "4430",
+      "rank": 19
+     },
+     {
+      "key": "lee-tsechen",
+      "name": "Lee Tsechen",
+      "country": "Chinese Taipei",
+      "wsl_id": "19622",
+      "rank": 20
+     },
+     {
+      "key": "lennix-smith",
+      "name": "Lennix Smith",
+      "country": "Australia",
+      "wsl_id": "15792",
+      "rank": 21
+     },
+     {
+      "key": "levi-slawson",
+      "name": "Levi Slawson",
+      "country": "United States",
+      "wsl_id": "9981",
+      "rank": 22
+     },
+     {
+      "key": "mateus-herdy",
+      "name": "Mateus Herdy",
+      "country": "Brazil",
+      "wsl_id": "7551",
+      "rank": 23
+     },
+     {
+      "key": "mihimana-braye",
+      "name": "Mihimana Braye",
+      "country": "French Polynesia",
+      "wsl_id": "3616",
+      "rank": 24
+     },
+     {
+      "key": "oscar-berry",
+      "name": "Oscar Berry",
+      "country": "Australia",
+      "wsl_id": "14270",
+      "rank": 25
+     },
+     {
+      "key": "owen-moss",
+      "name": "Owen Moss",
+      "country": "United States",
+      "wsl_id": "13279",
+      "rank": 26
+     },
+     {
+      "key": "riaru-ito",
+      "name": "Riaru Ito",
+      "country": "Japan",
+      "wsl_id": "9139",
+      "rank": 27
+     },
+     {
+      "key": "taj-lindblad",
+      "name": "Taj Lindblad",
+      "country": "United States",
+      "wsl_id": "12595",
+      "rank": 28
+     },
+     {
+      "key": "taro-watanabe",
+      "name": "Taro Watanabe",
+      "country": "United States",
+      "wsl_id": "10591",
+      "rank": 29
+     },
+     {
+      "key": "vitor-ferreira",
+      "name": "Vitor Ferreira",
+      "country": "Brazil",
+      "wsl_id": "9918",
+      "rank": 30
+     },
+     {
+      "key": "winter-vincent",
+      "name": "Winter Vincent",
+      "country": "Australia",
+      "wsl_id": "13234",
+      "rank": 31
+     },
+     {
+      "key": "xavier-huxtable",
+      "name": "Xavier Huxtable",
+      "country": "Australia",
+      "wsl_id": "10781",
+      "rank": 32
+     },
+     {
+      "key": "adin-masencamp",
+      "name": "Adin Masencamp",
+      "country": "South Africa",
+      "wsl_id": "7174",
+      "rank": 33
+     },
+     {
+      "key": "ben-lorentson",
+      "name": "Ben Lorentson",
+      "country": "Australia",
+      "wsl_id": "14410",
+      "rank": 34
+     },
+     {
+      "key": "bronson-meydi",
+      "name": "Bronson Meydi",
+      "country": "Indonesia",
+      "wsl_id": "14077",
+      "rank": 35
+     },
+     {
+      "key": "cannon-carr",
+      "name": "Cannon Carr",
+      "country": "United States",
+      "wsl_id": "16046",
+      "rank": 36
+     },
+     {
+      "key": "dakoda-walters",
+      "name": "Dakoda Walters",
+      "country": "Australia",
+      "wsl_id": "11363",
+      "rank": 37
+     },
+     {
+      "key": "dylan-wilcoxen",
+      "name": "Dylan Wilcoxen",
+      "country": "Indonesia",
+      "wsl_id": "16779",
+      "rank": 38
+     },
+     {
+      "key": "edgard-groggia",
+      "name": "Edgard Groggia",
+      "country": "Brazil",
+      "wsl_id": "15456",
+      "rank": 39
+     },
+     {
+      "key": "francisco-ordonhas",
+      "name": "Francisco Ordonhas",
+      "country": "Portugal",
+      "wsl_id": "13312",
+      "rank": 40
+     },
+     {
+      "key": "frederico-morais",
+      "name": "Frederico Morais",
+      "country": "Portugal",
+      "wsl_id": "1343",
+      "rank": 41
+     },
+     {
+      "key": "harley-walters",
+      "name": "Harley Walters",
+      "country": "Australia",
+      "wsl_id": "17905",
+      "rank": 42
+     },
+     {
+      "key": "ido-hagag",
+      "name": "Ido Hagag",
+      "country": "Israel",
+      "wsl_id": "15391",
+      "rank": 43
+     },
+     {
+      "key": "imaikalani-devault",
+      "name": "Imaikalani deVault",
+      "country": "Hawaii",
+      "wsl_id": "4491",
+      "rank": 44
+     },
+     {
+      "key": "justin-becret",
+      "name": "Justin Becret",
+      "country": "France",
+      "wsl_id": "9297",
+      "rank": 45
+     },
+     {
+      "key": "keijiro-nishi",
+      "name": "Keijiro Nishi",
+      "country": "Japan",
+      "wsl_id": "4357",
+      "rank": 46
+     },
+     {
+      "key": "keoni-lasa",
+      "name": "Keoni Lasa",
+      "country": "Basque Country",
+      "wsl_id": "14358",
+      "rank": 47
+     },
+     {
+      "key": "luan-wood",
+      "name": "Luan Wood",
+      "country": "Brazil",
+      "wsl_id": "2910",
+      "rank": 48
+     },
+     {
+      "key": "lucas-cassity",
+      "name": "Lucas Cassity",
+      "country": "Mexico",
+      "wsl_id": "18811",
+      "rank": 49
+     },
+     {
+      "key": "lucas-owston",
+      "name": "Lucas Owston",
+      "country": "United States",
+      "wsl_id": "16549",
+      "rank": 50
+     },
+     {
+      "key": "lucas-vicente",
+      "name": "Lucas Vicente",
+      "country": "Brazil",
+      "wsl_id": "10192",
+      "rank": 51
+     },
+     {
+      "key": "lukas-skinner",
+      "name": "Lukas Skinner",
+      "country": "United Kingdom",
+      "wsl_id": "13999",
+      "rank": 52
+     },
+     {
+      "key": "luke-guinaldo",
+      "name": "Luke Guinaldo",
+      "country": "United States",
+      "wsl_id": "15569",
+      "rank": 53
+     },
+     {
+      "key": "luke-swanson",
+      "name": "Luke Swanson",
+      "country": "Hawaii",
+      "wsl_id": "10018",
+      "rank": 54
+     },
+     {
+      "key": "maikai-burdine",
+      "name": "MaiKai Burdine",
+      "country": "Hawaii",
+      "wsl_id": "10889",
+      "rank": 55
+     },
+     {
+      "key": "mikey-mcdonagh",
+      "name": "Mikey McDonagh",
+      "country": "Australia",
+      "wsl_id": "8738",
+      "rank": 56
+     },
+     {
+      "key": "oliver-zietz",
+      "name": "Oliver Zietz",
+      "country": "Netherlands",
+      "wsl_id": "16470",
+      "rank": 57
+     },
+     {
+      "key": "rafael-barbosa",
+      "name": "Rafael Barbosa",
+      "country": "Brazil",
+      "wsl_id": "19701",
+      "rank": 58
+     },
+     {
+      "key": "reef-heazlewood",
+      "name": "Reef Heazlewood",
+      "country": "Australia",
+      "wsl_id": "4336",
+      "rank": 59
+     },
+     {
+      "key": "sam-piter",
+      "name": "Sam Piter",
+      "country": "France",
+      "wsl_id": "10313",
+      "rank": 60
+     },
+     {
+      "key": "sean-gunning",
+      "name": "Sean Gunning",
+      "country": "Spain",
+      "wsl_id": "9226",
+      "rank": 61
+     },
+     {
+      "key": "shohei-kato",
+      "name": "Shohei Kato",
+      "country": "Japan",
+      "wsl_id": "10508",
+      "rank": 62
+     },
+     {
+      "key": "tiago-carrique",
+      "name": "Tiago Carrique",
+      "country": "France",
+      "wsl_id": "9298",
+      "rank": 63
+     },
+     {
+      "key": "wheeler-hasburgh",
+      "name": "Wheeler Hasburgh",
+      "country": "Canada",
+      "wsl_id": "16560",
+      "rank": 64
+     },
+     {
+      "key": "blayr-barton",
+      "name": "Blayr Barton",
+      "country": "United States",
+      "wsl_id": "14037",
+      "rank": 65
+     },
+     {
+      "key": "caio-costa",
+      "name": "Caio Costa",
+      "country": "Brazil",
+      "wsl_id": "13257",
+      "rank": 66
+     },
+     {
+      "key": "cody-young",
+      "name": "Cody Young",
+      "country": "Hawaii",
+      "wsl_id": "3961",
+      "rank": 67
+     },
+     {
+      "key": "daniel-adisaka",
+      "name": "Daniel Adisaka",
+      "country": "Brazil",
+      "wsl_id": "11434",
+      "rank": 68
+     },
+     {
+      "key": "dom-thomas",
+      "name": "Dom Thomas",
+      "country": "Australia",
+      "wsl_id": "15394",
+      "rank": 69
+     },
+     {
+      "key": "eden-hasson",
+      "name": "Eden Hasson",
+      "country": "Australia",
+      "wsl_id": "16613",
+      "rank": 70
+     },
+     {
+      "key": "hiroto-arai",
+      "name": "Hiroto Arai",
+      "country": "Japan",
+      "wsl_id": "2317",
+      "rank": 71
+     },
+     {
+      "key": "hiroya-miwa",
+      "name": "Hiroya Miwa",
+      "country": "Japan",
+      "wsl_id": "10260",
+      "rank": 72
+     },
+     {
+      "key": "ikko-watanabe",
+      "name": "Ikko Watanabe",
+      "country": "Japan",
+      "wsl_id": "15220",
+      "rank": 73
+     },
+     {
+      "key": "israel-junior",
+      "name": "Israel Júnior",
+      "country": "Brazil",
+      "wsl_id": "16247",
+      "rank": 74
+     },
+     {
+      "key": "jay-occhilupo",
+      "name": "Jay Occhilupo",
+      "country": "Australia",
+      "wsl_id": "13043",
+      "rank": 75
+     },
+     {
+      "key": "kaiki-yamanaka",
+      "name": "Kaiki Yamanaka",
+      "country": "Japan",
+      "wsl_id": "3746",
+      "rank": 76
+     },
+     {
+      "key": "kingston-panebianco",
+      "name": "Kingston Panebianco",
+      "country": "Hawaii",
+      "wsl_id": "18314",
+      "rank": 77
+     },
+     {
+      "key": "kobi-clements",
+      "name": "Kobi Clements",
+      "country": "Australia",
+      "wsl_id": "13160",
+      "rank": 78
+     },
+     {
+      "key": "luan-nogues",
+      "name": "Luan Nogues",
+      "country": "France",
+      "wsl_id": "12518",
+      "rank": 79
+     },
+     {
+      "key": "luke-wyler",
+      "name": "Luke Wyler",
+      "country": "United States",
+      "wsl_id": "15611",
+      "rank": 80
+     },
+     {
+      "key": "macklin-flynn",
+      "name": "Macklin Flynn",
+      "country": "Australia",
+      "wsl_id": "14131",
+      "rank": 81
+     },
+     {
+      "key": "marlon-harrison",
+      "name": "Marlon Harrison",
+      "country": "Australia",
+      "wsl_id": "12824",
+      "rank": 82
+     },
+     {
+      "key": "monnojo-yahagi",
+      "name": "Monnojo Yahagi",
+      "country": "Japan",
+      "wsl_id": "10560",
+      "rank": 83
+     },
+     {
+      "key": "nalu-deodato",
+      "name": "Nalu Deodato",
+      "country": "Hawaii",
+      "wsl_id": "15216",
+      "rank": 84
+     },
+     {
+      "key": "noe-ledee",
+      "name": "Noe Ledee",
+      "country": "France",
+      "wsl_id": "10258",
+      "rank": 85
+     },
+     {
+      "key": "rafael-teixeira",
+      "name": "Rafael Teixeira",
+      "country": "Brazil",
+      "wsl_id": "2267",
+      "rank": 86
+     },
+     {
+      "key": "raiha-onou",
+      "name": "Raiha Onou",
+      "country": "Japan",
+      "wsl_id": "14593",
+      "rank": 87
+     },
+     {
+      "key": "reo-inaba",
+      "name": "Reo Inaba",
+      "country": "Japan",
+      "wsl_id": "1490",
+      "rank": 88
+     },
+     {
+      "key": "rinta-oooto",
+      "name": "Rinta Oooto",
+      "country": "Japan",
+      "wsl_id": "9514",
+      "rank": 89
+     },
+     {
+      "key": "rodrigo-saldanha",
+      "name": "Rodrigo Saldanha",
+      "country": "Brazil",
+      "wsl_id": "14546",
+      "rank": 90
+     },
+     {
+      "key": "roi-kanazawa",
+      "name": "Roi Kanazawa",
+      "country": "Japan",
+      "wsl_id": "8600",
+      "rank": 91
+     },
+     {
+      "key": "saxon-reber",
+      "name": "Saxon Reber",
+      "country": "Australia",
+      "wsl_id": "13113",
+      "rank": 92
+     },
+     {
+      "key": "sol-gruendling",
+      "name": "Sol Gruendling",
+      "country": "Australia",
+      "wsl_id": "16831",
+      "rank": 93
+     },
+     {
+      "key": "taj-stokes",
+      "name": "Taj Stokes",
+      "country": "Australia",
+      "wsl_id": "10913",
+      "rank": 94
+     },
+     {
+      "key": "taki-kanazawa",
+      "name": "Taki Kanazawa",
+      "country": "Japan",
+      "wsl_id": "14618",
+      "rank": 95
+     },
+     {
+      "key": "tim-bain",
+      "name": "Tim Bain",
+      "country": "Australia",
+      "wsl_id": "15913",
+      "rank": 96
+     },
+     {
+      "key": "titus-kaimana-santucci",
+      "name": "Titus Kaimana Santucci",
+      "country": "United States",
+      "wsl_id": "16598",
+      "rank": 97
+     },
+     {
+      "key": "tom-whitpaine",
+      "name": "Tom Whitpaine",
+      "country": "Australia",
+      "wsl_id": "15906",
+      "rank": 98
+     },
+     {
+      "key": "tully-wylie",
+      "name": "Tully Wylie",
+      "country": "Australia",
+      "wsl_id": "9680",
+      "rank": 99
+     },
+     {
+      "key": "ty-richardson",
+      "name": "Ty Richardson",
+      "country": "Australia",
+      "wsl_id": "13172",
+      "rank": 100
+     },
+     {
+      "key": "will-deane",
+      "name": "Will Deane",
+      "country": "United States",
+      "wsl_id": "14722",
+      "rank": 101
+     },
+     {
+      "key": "zane-assink",
+      "name": "Zane Assink",
+      "country": "Australia",
+      "wsl_id": "9731",
+      "rank": 102
+     },
+     {
+      "key": "arch-whiteman",
+      "name": "Arch Whiteman",
+      "country": "Australia",
+      "wsl_id": "13021",
+      "rank": 103
+     },
+     {
+      "key": "bohdie-williams",
+      "name": "Bohdie Williams",
+      "country": "Australia",
+      "wsl_id": "12680",
+      "rank": 104
+     },
+     {
+      "key": "kalanoweo-desoto",
+      "name": "Kalanoweo Desoto",
+      "country": "Hawaii",
+      "wsl_id": "17716",
+      "rank": 105
+     },
+     {
+      "key": "kolohe-andino",
+      "name": "Kolohe Andino",
+      "country": "United States",
+      "wsl_id": "1164",
+      "rank": 106
+     },
+     {
+      "key": "maverick-wilson",
+      "name": "Maverick Wilson",
+      "country": "Australia",
+      "wsl_id": "16578",
+      "rank": 107
+     },
+     {
+      "key": "raphael-castro",
+      "name": "Raphael Castro",
+      "country": "United States",
+      "wsl_id": "14906",
+      "rank": 108
+     },
+     {
+      "key": "rintaro-suneya",
+      "name": "Rintaro Suneya",
+      "country": "Japan",
+      "wsl_id": "16610",
+      "rank": 109
+     },
+     {
+      "key": "sammy-lowe",
+      "name": "Sammy Lowe",
+      "country": "Australia",
+      "wsl_id": "16964",
+      "rank": 110
+     },
+     {
+      "key": "taichi-hagita",
+      "name": "Taichi Hagita",
+      "country": "Japan",
+      "wsl_id": "10666",
+      "rank": 111
+     },
+     {
+      "key": "willem-watson",
+      "name": "Willem Watson",
+      "country": "Australia",
+      "wsl_id": "16772",
+      "rank": 112
+     },
+     {
+      "key": "dylan-groen",
+      "name": "Dylan Groen",
+      "country": "Germany",
+      "wsl_id": "7278",
+      "out": true,
+      "rank": 113
+     },
+     {
+      "key": "kosuke-okamura",
+      "name": "Kosuke Okamura",
+      "country": "Japan",
+      "wsl_id": "9063",
+      "out": true,
+      "rank": 114
+     },
+     {
+      "key": "kyan-falvey",
+      "name": "Kyan Falvey",
+      "country": "Australia",
+      "wsl_id": "15870",
+      "out": true,
+      "rank": 115
+     },
+     {
+      "key": "kyoshiro-suda",
+      "name": "Kyoshiro Suda",
+      "country": "Japan",
+      "wsl_id": "10147",
+      "out": true,
+      "rank": 116
+     },
+     {
+      "key": "nicolas-paulet",
+      "name": "Nicolas Paulet",
+      "country": "France",
+      "wsl_id": "12440",
+      "out": true,
+      "rank": 117
+     },
+     {
+      "key": "raiki-masuda",
+      "name": "Raiki Masuda",
+      "country": "Japan",
+      "wsl_id": "10523",
+      "out": true,
+      "rank": 118
+     },
+     {
+      "key": "rex-hennings",
+      "name": "Rex Hennings",
+      "country": "United States",
+      "wsl_id": "16585",
+      "out": true,
+      "rank": 119
+     },
+     {
+      "key": "thomas-carvalho",
+      "name": "Thomas Carvalho",
+      "country": "Australia",
+      "wsl_id": "7420",
+      "out": true,
+      "rank": 120
+     },
+     {
+      "key": "thomas-debierre",
+      "name": "Thomas Debierre",
+      "country": "France",
+      "wsl_id": "9236",
+      "out": true,
+      "rank": 121
+     },
+     {
+      "key": "varun-tandjung",
+      "name": "Varun Tandjung",
+      "country": "Indonesia",
+      "wsl_id": "14078",
+      "out": true,
+      "rank": 122
+     },
+     {
+      "key": "billy-stairmand",
+      "name": "Billy Stairmand",
+      "country": "New Zealand",
+      "wsl_id": "2038",
+      "out": true,
+      "rank": 123
+     },
+     {
+      "key": "bo-yu-chen",
+      "name": "Bo-Yu Chen",
+      "country": "Chinese Taipei",
+      "wsl_id": "18746",
+      "out": true,
+      "rank": 124
+     },
+     {
+      "key": "cole-alves",
+      "name": "Cole Alves",
+      "country": "Hawaii",
+      "wsl_id": "7858",
+      "out": true,
+      "rank": 125
+     },
+     {
+      "key": "cory-la-roe",
+      "name": "Cory La Roe",
+      "country": "United States",
+      "wsl_id": "16049",
+      "out": true,
+      "rank": 126
+     },
+     {
+      "key": "edoardo-papa",
+      "name": "Edoardo Papa",
+      "country": "Italy",
+      "wsl_id": "10173",
+      "out": true,
+      "rank": 127
+     },
+     {
+      "key": "evan-tang",
+      "name": "Evan Tang",
+      "country": "Australia",
+      "wsl_id": "19553",
+      "out": true,
+      "rank": 128
+     },
+     {
+      "key": "fantin-habashi",
+      "name": "Fantin Habashi",
+      "country": "Switzerland",
+      "wsl_id": "13486",
+      "out": true,
+      "rank": 129
+     },
+     {
+      "key": "fred-carmody",
+      "name": "Fred Carmody",
+      "country": "Australia",
+      "wsl_id": "18000",
+      "out": true,
+      "rank": 130
+     },
+     {
+      "key": "hiroto-nishida",
+      "name": "Hiroto Nishida",
+      "country": "Japan",
+      "wsl_id": "18434",
+      "out": true,
+      "rank": 131
+     },
+     {
+      "key": "jayden-wilcoxen",
+      "name": "Jayden Wilcoxen",
+      "country": "Indonesia",
+      "wsl_id": "18342",
+      "out": true,
+      "rank": 132
+     },
+     {
+      "key": "joaquim-chaves",
+      "name": "Joaquim Chaves",
+      "country": "Portugal",
+      "wsl_id": "10144",
+      "out": true,
+      "rank": 133
+     },
+     {
+      "key": "john-mel",
+      "name": "John Mel",
+      "country": "United States",
+      "wsl_id": "3476",
+      "out": true,
+      "rank": 134
+     },
+     {
+      "key": "johnjohn-chan",
+      "name": "Johnjohn Chan",
+      "country": "Chinese Taipei",
+      "wsl_id": "18754",
+      "out": true,
+      "rank": 135
+     },
+     {
+      "key": "masamune-uno",
+      "name": "Masamune Uno",
+      "country": "Japan",
+      "wsl_id": "17950",
+      "out": true,
+      "rank": 136
+     },
+     {
+      "key": "matteo-calatri",
+      "name": "Matteo Calatri",
+      "country": "Italy",
+      "wsl_id": "10934",
+      "out": true,
+      "rank": 137
+     },
+     {
+      "key": "ren-okano",
+      "name": "Ren Okano",
+      "country": "Japan",
+      "wsl_id": "15854",
+      "out": true,
+      "rank": 138
+     },
+     {
+      "key": "sein-fujimoto",
+      "name": "Sein Fujimoto",
+      "country": "Japan",
+      "wsl_id": "10886",
+      "out": true,
+      "rank": 139
+     },
+     {
+      "key": "shang-yang-chen",
+      "name": "Shang-Yang Chen",
+      "country": "Chinese Taipei",
+      "wsl_id": "18774",
+      "out": true,
+      "rank": 140
+     },
+     {
+      "key": "shuto-iida",
+      "name": "Shuto Iida",
+      "country": "Japan",
+      "wsl_id": "16502",
+      "out": true,
+      "rank": 141
+     },
+     {
+      "key": "tenshi-iwami",
+      "name": "Tenshi Iwami",
+      "country": "Japan",
+      "wsl_id": "10649",
+      "out": true,
+      "rank": 142
+     },
+     {
+      "key": "youchang-chang",
+      "name": "Youchang Chang",
+      "country": "Chinese Taipei",
+      "wsl_id": "19248",
+      "out": true,
+      "rank": 143
+     }
+    ],
+    "women": [
+     {
+      "key": "alana-lopez",
+      "name": "Alana Lopez",
+      "country": "United States",
+      "wsl_id": "17378",
+      "rank": 1
+     },
+     {
+      "key": "alys-barton",
+      "name": "Alys Barton",
+      "country": "United Kingdom",
+      "wsl_id": "12676",
+      "rank": 2
+     },
+     {
+      "key": "amuro-tsuzuki",
+      "name": "Amuro Tsuzuki",
+      "country": "Japan",
+      "wsl_id": "8035",
+      "rank": 3
+     },
+     {
+      "key": "anat-lelior",
+      "name": "Anat Lelior",
+      "country": "Israel",
+      "wsl_id": "7491",
+      "rank": 4
+     },
+     {
+      "key": "anon-matsuoka",
+      "name": "Anon Matsuoka",
+      "country": "Japan",
+      "wsl_id": "12584",
+      "rank": 5
+     },
+     {
+      "key": "arena-rodriguez",
+      "name": "Arena Rodriguez",
+      "country": "Peru",
+      "wsl_id": "8920",
+      "rank": 6
+     },
+     {
+      "key": "bella-kenworthy",
+      "name": "Bella Kenworthy",
+      "country": "United States",
+      "wsl_id": "12652",
+      "rank": 7
+     },
+     {
+      "key": "brisa-hennessy",
+      "name": "Brisa Hennessy",
+      "country": "Costa Rica",
+      "wsl_id": "3971",
+      "rank": 8
+     },
+     {
+      "key": "carla-morera-de-la-vall",
+      "name": "Carla Morera De La Vall",
+      "country": "Spain",
+      "wsl_id": "18529",
+      "rank": 9
+     },
+     {
+      "key": "charli-hately",
+      "name": "Charli Hately",
+      "country": "Australia",
+      "wsl_id": "16832",
+      "rank": 10
+     },
+     {
+      "key": "cocona-kawase",
+      "name": "Cocona Kawase",
+      "country": "Japan",
+      "wsl_id": "10665",
+      "rank": 11
+     },
+     {
+      "key": "eden-walla",
+      "name": "Eden Walla",
+      "country": "United States",
+      "wsl_id": "16875",
+      "rank": 12
+     },
+     {
+      "key": "ella-mccaffray",
+      "name": "Ella McCaffray",
+      "country": "United States",
+      "wsl_id": "12484",
+      "rank": 13
+     },
+     {
+      "key": "eweleiula-wong",
+      "name": "Eweleiula Wong",
+      "country": "Hawaii",
+      "wsl_id": "16373",
+      "rank": 14
+     },
+     {
+      "key": "francisca-veselko",
+      "name": "Francisca Veselko",
+      "country": "Portugal",
+      "wsl_id": "10096",
+      "rank": 15
+     },
+     {
+      "key": "india-robinson",
+      "name": "India Robinson",
+      "country": "Australia",
+      "wsl_id": "9481",
+      "rank": 16
+     },
+     {
+      "key": "isla-huppatz",
+      "name": "Isla Huppatz",
+      "country": "Australia",
+      "wsl_id": "17904",
+      "rank": 17
+     },
+     {
+      "key": "jessie-van-niekerk",
+      "name": "Jessie Van Niekerk",
+      "country": "South Africa",
+      "wsl_id": "9844",
+      "rank": 18
+     },
+     {
+      "key": "kana-nakashio",
+      "name": "Kana Nakashio",
+      "country": "Japan",
+      "wsl_id": "10453",
+      "rank": 19
+     },
+     {
+      "key": "keira-buckpitt",
+      "name": "Keira Buckpitt",
+      "country": "Australia",
+      "wsl_id": "14841",
+      "rank": 20
+     },
+     {
+      "key": "kiara-goold",
+      "name": "Kiara Goold",
+      "country": "French Polynesia",
+      "wsl_id": "15627",
+      "rank": 21
+     },
+     {
+      "key": "kirra-pinkerton",
+      "name": "Kirra Pinkerton",
+      "country": "United States",
+      "wsl_id": "7276",
+      "rank": 22
+     },
+     {
+      "key": "kohai-fierro",
+      "name": "Kohai Fierro",
+      "country": "French Polynesia",
+      "wsl_id": "15585",
+      "rank": 23
+     },
+     {
+      "key": "laura-raupp",
+      "name": "Laura Raupp",
+      "country": "Brazil",
+      "wsl_id": "15050",
+      "rank": 24
+     },
+     {
+      "key": "lucy-darragh",
+      "name": "Lucy Darragh",
+      "country": "Australia",
+      "wsl_id": "16897",
+      "rank": 25
+     },
+     {
+      "key": "maelys-jouault",
+      "name": "Maelys Jouault",
+      "country": "France",
+      "wsl_id": "10289",
+      "rank": 26
+     },
+     {
+      "key": "mia-mcleish",
+      "name": "Mia McLeish",
+      "country": "United States",
+      "wsl_id": "16114",
+      "rank": 27
+     },
+     {
+      "key": "minami-nonaka",
+      "name": "Minami Nonaka",
+      "country": "Japan",
+      "wsl_id": "10179",
+      "rank": 28
+     },
+     {
+      "key": "mirai-ikeda",
+      "name": "Mirai Ikeda",
+      "country": "Japan",
+      "wsl_id": "15838",
+      "rank": 29
+     },
+     {
+      "key": "moana-jones-wong",
+      "name": "Moana Jones Wong",
+      "country": "Hawaii",
+      "wsl_id": "3969",
+      "rank": 30
+     },
+     {
+      "key": "nahia-milhau",
+      "name": "Nahia Milhau",
+      "country": "France",
+      "wsl_id": "10422",
+      "rank": 31
+     },
+     {
+      "key": "rita-suzuki",
+      "name": "Rita Suzuki",
+      "country": "Japan",
+      "wsl_id": "16533",
+      "rank": 32
+     },
+     {
+      "key": "sally-fitzgibbons",
+      "name": "Sally Fitzgibbons",
+      "country": "Australia",
+      "wsl_id": "321",
+      "rank": 33
+     },
+     {
+      "key": "sanoa-dempfle-olin",
+      "name": "Sanoa Dempfle-Olin",
+      "country": "Canada",
+      "wsl_id": "13303",
+      "rank": 34
+     },
+     {
+      "key": "sara-wakita",
+      "name": "Sara Wakita",
+      "country": "Japan",
+      "wsl_id": "9847",
+      "rank": 35
+     },
+     {
+      "key": "sarah-baum",
+      "name": "Sarah Baum",
+      "country": "South Africa",
+      "wsl_id": "1119",
+      "rank": 36
+     },
+     {
+      "key": "shino-matsuda",
+      "name": "Shino Matsuda",
+      "country": "Japan",
+      "wsl_id": "10262",
+      "rank": 37
+     },
+     {
+      "key": "sol-aguirre",
+      "name": "Sol Aguirre",
+      "country": "Peru",
+      "wsl_id": "12590",
+      "rank": 38
+     },
+     {
+      "key": "sophia-medina",
+      "name": "Sophia Medina",
+      "country": "Brazil",
+      "wsl_id": "15217",
+      "rank": 39
+     },
+     {
+      "key": "sophie-mcculloch",
+      "name": "Sophie McCulloch",
+      "country": "Australia",
+      "wsl_id": "5181",
+      "rank": 40
+     },
+     {
+      "key": "talia-swindal",
+      "name": "Talia Swindal",
+      "country": "United States",
+      "wsl_id": "16093",
+      "rank": 41
+     },
+     {
+      "key": "tayla-green",
+      "name": "Tayla Green",
+      "country": "New Zealand",
+      "wsl_id": "15500",
+      "rank": 42
+     },
+     {
+      "key": "teresa-bonvalot",
+      "name": "Teresa Bonvalot",
+      "country": "Portugal",
+      "wsl_id": "4386",
+      "rank": 43
+     },
+     {
+      "key": "vahine-fierro",
+      "name": "Vahine Fierro",
+      "country": "France",
+      "wsl_id": "4752",
+      "rank": 44
+     },
+     {
+      "key": "willow-hardy",
+      "name": "Willow Hardy",
+      "country": "Australia",
+      "wsl_id": "15203",
+      "rank": 45
+     },
+     {
+      "key": "ziggy-aloha-mackenzie",
+      "name": "Ziggy Aloha Mackenzie",
+      "country": "Australia",
+      "wsl_id": "16725",
+      "rank": 46
+     },
+     {
+      "key": "zoie-zietz",
+      "name": "Zoie Zietz",
+      "country": "Netherlands",
+      "wsl_id": "18772",
+      "rank": 47
+     },
+     {
+      "key": "zoe-steyn",
+      "name": "Zoë Steyn",
+      "country": "South Africa",
+      "wsl_id": "12344",
+      "rank": 48
+     },
+     {
+      "key": "alani-morse",
+      "name": "Alani Morse",
+      "country": "New Zealand",
+      "wsl_id": "19907",
+      "rank": 49
+     },
+     {
+      "key": "arisa-ishii",
+      "name": "Arisa Ishii",
+      "country": "Japan",
+      "wsl_id": "16587",
+      "rank": 50
+     },
+     {
+      "key": "aura-zeflin",
+      "name": "Aura Zeflin",
+      "country": "Indonesia",
+      "wsl_id": "18340",
+      "rank": 51
+     },
+     {
+      "key": "clemence-schorsch",
+      "name": "Clemence Schorsch",
+      "country": "France",
+      "wsl_id": "16960",
+      "rank": 52
+     },
+     {
+      "key": "freya-prumm",
+      "name": "Freya Prumm",
+      "country": "Australia",
+      "wsl_id": "2029",
+      "rank": 53
+     },
+     {
+      "key": "gia-lorentson",
+      "name": "Gia Lorentson",
+      "country": "Australia",
+      "wsl_id": "14248",
+      "rank": 54
+     },
+     {
+      "key": "hinano-shimizu",
+      "name": "Hinano Shimizu",
+      "country": "Japan",
+      "wsl_id": "16586",
+      "rank": 55
+     },
+     {
+      "key": "huai-pen-chen",
+      "name": "Huai-Pen Chen",
+      "country": "Chinese Taipei",
+      "wsl_id": "18805",
+      "rank": 56
+     },
+     {
+      "key": "jahly-stokes",
+      "name": "Jahly Stokes",
+      "country": "Australia",
+      "wsl_id": "15766",
+      "rank": 57
+     },
+     {
+      "key": "janina-zeitler",
+      "name": "Janina Zeitler",
+      "country": "Germany",
+      "wsl_id": "14274",
+      "rank": 58
+     },
+     {
+      "key": "jung-yun-chung",
+      "name": "Jung Yun Chung",
+      "country": "Chinese Taipei",
+      "wsl_id": "14439",
+      "rank": 59
+     },
+     {
+      "key": "kokoro-baba",
+      "name": "Kokoro Baba",
+      "country": "Japan",
+      "wsl_id": "16625",
+      "rank": 60
+     },
+     {
+      "key": "lanea-mons",
+      "name": "Lanea Mons",
+      "country": "United States",
+      "wsl_id": "16173",
+      "rank": 61
+     },
+     {
+      "key": "lilie-kulber",
+      "name": "Lilie Kulber",
+      "country": "United States",
+      "wsl_id": "13114",
+      "rank": 62
+     },
+     {
+      "key": "mafalda-lopes",
+      "name": "Mafalda Lopes",
+      "country": "Portugal",
+      "wsl_id": "10122",
+      "rank": 63
+     },
+     {
+      "key": "malia-lima",
+      "name": "Malia Lima",
+      "country": "Hawaii",
+      "wsl_id": "16620",
+      "rank": 64
+     },
+     {
+      "key": "minatu-ishida",
+      "name": "Minatu Ishida",
+      "country": "Japan",
+      "wsl_id": "20604",
+      "rank": 65
+     },
+     {
+      "key": "nanaho-tsuzuki",
+      "name": "Nanaho Tsuzuki",
+      "country": "Japan",
+      "wsl_id": "12693",
+      "rank": 66
+     },
+     {
+      "key": "nao-omura",
+      "name": "Nao Omura",
+      "country": "Japan",
+      "wsl_id": "2171",
+      "rank": 67
+     },
+     {
+      "key": "natalie-fensom",
+      "name": "Natalie Fensom",
+      "country": "Australia",
+      "wsl_id": "17835",
+      "rank": 68
+     },
+     {
+      "key": "ocea-curtis",
+      "name": "Ocea Curtis",
+      "country": "Australia",
+      "wsl_id": "15877",
+      "rank": 69
+     },
+     {
+      "key": "paige-hareb",
+      "name": "Paige Hareb",
+      "country": "New Zealand",
+      "wsl_id": "360",
+      "rank": 70
+     },
+     {
+      "key": "renon-matsuyama",
+      "name": "Renon Matsuyama",
+      "country": "Japan",
+      "wsl_id": "16670",
+      "rank": 71
+     },
+     {
+      "key": "ruby-berry",
+      "name": "Ruby Berry",
+      "country": "Australia",
+      "wsl_id": "15247",
+      "rank": 72
+     },
+     {
+      "key": "ruby-trew",
+      "name": "Ruby Trew",
+      "country": "Australia",
+      "wsl_id": "17946",
+      "rank": 73
+     },
+     {
+      "key": "sai-maniwa",
+      "name": "Sai Maniwa",
+      "country": "Japan",
+      "wsl_id": "10269",
+      "rank": 74
+     },
+     {
+      "key": "sarah-young",
+      "name": "Sarah Young",
+      "country": "Australia",
+      "wsl_id": "18406",
+      "rank": 75
+     },
+     {
+      "key": "sky-brown",
+      "name": "Sky Brown",
+      "country": "United Kingdom",
+      "wsl_id": "12591",
+      "rank": 76
+     },
+     {
+      "key": "sumomo-sato",
+      "name": "Sumomo Sato",
+      "country": "Japan",
+      "wsl_id": "15783",
+      "rank": 77
+     }
+    ]
+   },
+   "roster_source": "WSL event page (official heat draw)",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (31 men, 0 women) stay listed but cannot be picked.",
    "conflicts": [],
-   "results": null,
-   "draftable": false
+   "results": {
+    "dylan-groen": {
+     "place": 113,
+     "points": 265
+    },
+    "kosuke-okamura": {
+     "place": 113,
+     "points": 265
+    },
+    "kyan-falvey": {
+     "place": 113,
+     "points": 265
+    },
+    "kyoshiro-suda": {
+     "place": 113,
+     "points": 265
+    },
+    "nicolas-paulet": {
+     "place": 113,
+     "points": 265
+    },
+    "raiki-masuda": {
+     "place": 113,
+     "points": 265
+    },
+    "rex-hennings": {
+     "place": 113,
+     "points": 265
+    },
+    "thomas-carvalho": {
+     "place": 113,
+     "points": 265
+    },
+    "thomas-debierre": {
+     "place": 113,
+     "points": 265
+    },
+    "varun-tandjung": {
+     "place": 113,
+     "points": 265
+    },
+    "billy-stairmand": {
+     "place": 129,
+     "points": 265
+    },
+    "bo-yu-chen": {
+     "place": 129,
+     "points": 265
+    },
+    "cole-alves": {
+     "place": 113,
+     "points": 265
+    },
+    "cory-la-roe": {
+     "place": 129,
+     "points": 265
+    },
+    "edoardo-papa": {
+     "place": 129,
+     "points": 265
+    },
+    "evan-tang": {
+     "place": 129,
+     "points": 265
+    },
+    "fantin-habashi": {
+     "place": 129,
+     "points": 265
+    },
+    "fred-carmody": {
+     "place": 113,
+     "points": 265
+    },
+    "hiroto-nishida": {
+     "place": 129,
+     "points": 265
+    },
+    "jayden-wilcoxen": {
+     "place": 129,
+     "points": 265
+    },
+    "joaquim-chaves": {
+     "place": 113,
+     "points": 265
+    },
+    "john-mel": {
+     "place": 129,
+     "points": 265
+    },
+    "johnjohn-chan": {
+     "place": 129,
+     "points": 265
+    },
+    "masamune-uno": {
+     "place": 129,
+     "points": 265
+    },
+    "matteo-calatri": {
+     "place": 129,
+     "points": 265
+    },
+    "ren-okano": {
+     "place": 113,
+     "points": 265
+    },
+    "sein-fujimoto": {
+     "place": 129,
+     "points": 265
+    },
+    "shang-yang-chen": {
+     "place": 129,
+     "points": 265
+    },
+    "shuto-iida": {
+     "place": 113,
+     "points": 265
+    },
+    "tenshi-iwami": {
+     "place": 113,
+     "points": 265
+    },
+    "youchang-chang": {
+     "place": 129,
+     "points": 265
+    }
+   },
+   "wsl_url": "https://www.worldsurfleague.com/events/2026/qs/506/taiwan-open-of-surfing",
+   "draftable": true
   },
   {
    "id": "isa-wpsc-2026",
