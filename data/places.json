@@ -282,7 +282,9 @@
 "wsl-ct-2026-surfabudhabi": "hudayriat",
 "wsl-ct-2026-surfcityelsalvadorpro": "punta-roca-sv",
 "wsl-ct-2026-vivoriopro": "saquarema",
-"wsl-ct-2026-westernaustraliamargaret": "margaret-river"
+"wsl-ct-2026-westernaustraliamargaret": "margaret-river",
+"wsl-lt-bells-2026": "bells-beach",
+"wsl-wjc-2026": "el-sunzal"
 },
 "places": {
 "bells-beach": {
@@ -4257,5 +4259,5 @@
 }
 }
 },
-"updated_at": "2026-11-15T22:54:11+00:00"
+"updated_at": "2026-11-15T23:59:00+00:00"
 }
