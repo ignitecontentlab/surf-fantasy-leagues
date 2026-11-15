@@ -1,18 +1,38 @@
 {
-"updated_at": "2026-11-15T11:19:39+00:00",
+"updated_at": "2026-11-15T13:34:28+00:00",
 "sources": {
 "Surfer": 32,
 "ISA": 7,
 "Stab": 22,
-"Surfline": 3,
+"Surfline": 2,
 "The Inertia": 49,
 "BeachGrit": 15,
 "Tracks": 1,
-"World Surf League": 44,
+"World Surf League": 43,
 "Surfertoday": 6,
 "In the news": 46
 },
 "items": [
+{
+"title": "Massive Pacific Swell Brings California Coast’s Biggest Waves in Nearly Two Years",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVTdjSVVLTnhnOXVSdGg0b0wyb3NhX1owUmZmbnA0bzByOGF4cWJVaGIzMHFNakowUE5SYkxySlhVNGl1eGJlQ0lLR1dleUNhdEcxVm82STBpTFBlanloUDdvSzN4UXB3YnltU3dSbEFhY1ZTM1NWUlhQVEpoOXcwRjJwbTlNTXg5ckh3SjdBMHVaUmlOQnZtMDBoVTRkdlIxejdzYlM4UzdUdXc?oc=5",
+"source": "SSBCrack",
+"at": "2026-11-15T13:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Men's Early Round Kickoff Action at The 2026 Taiwan Open of Surfing",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1N0S0hXUXY0TXdIODJ2NGRkbm10YUN2eF9HYy03UHktWTBUVHB0NkpDeU00cmlJaTVEOHRINHdRTmYwSGc4b0FLYUdNa3dMamUxbDZ1NGJkd3pUYXFWdDJzYzNTVFU3aHRiY2UzWkZHSHlHZWZiUjItUkQwNG1sajZvc3JrV2VURlpROE9HZndJNWkyV2JrQWdmLUlKSHpzZkZoTVhLbVl1dC1jMFR1VA?oc=5",
+"source": "World Surf League",
+"at": "2026-11-15T10:24+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Huge waves crash the Central California coastline, some damage already",
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lUbnhFU09UVnl3eWRSOE9nUm9TU2FEcE5rMGhMeUg2bFBFSllodngxeDZ2OE9EZW9sSnpYVmcxbTR3ZmJJVEpDbmtkallHbUU0ejVPOFFkMTV5VEV1c2pZSVZZOF9rYTJyWE55b09SUm52MGVORUlnZTJEMm1wVGtPRkZyTm1PWDlyb3EydFo5cG1WUmRkeDluX0ZHQQ?oc=5",
@@ -211,6 +231,16 @@
 "kind": "media"
 },
 {
+"title": "High Surf Warning: Waves Up to 50 Feet Slam the West Coast From California to Washington",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWXlWOVZsN3Z3MkpnRTNfVFpqVi1Kdy1fcW5MUk5JUHZVOXAtVTdkWkdaOTktcE5BbnFReE1VVEhKV1ZfOEZqS1pEd2VQaDJBYVdSY0l1Y3NWWXdXdkNaOGhjVHNfR29jYW9hcC1aNTJFVXJHdTk0a2pFNFJCZUo1dg?oc=5",
+"source": "Men's Journal",
+"at": "2026-11-14T20:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Manhattan Beach Pier closed due to ‘very large surf’",
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNXczLWhQNVBQeU41MzlvV01SZWJYYVIwZ21TU3VGT1ZXb1pFWDNtWkVaN252VzY2Y1dYLVhUdFFNZTV0TlBaaGFtdkhuTEhsbENmN1hJQkJpaVhLeC1RUHFaSkhkM202WlVzVU10T2g5dzFjOGZYQmRsZ2dzTDlEdzBkOHVJcUFRS2JpY9IBkgFBVV95cUxPYWFwQTA2djExUTUxUEhON3VCanVYakhhejhNdFY2TnloRXQwZnA0SmhQMDJ2czNnb3ZjRVhlREppdHRHRklkcjdPUXNvVFhEclQ3NkNGYnVrNGswS0ItZlk0M2lZTlpRX3h2NW1jdUlXNmt5T29PUGJaU3pPNGd6UVNURjdXTU5DV2s2a0EwQ2RxQQ?oc=5",
 "source": "KTLA",
@@ -265,16 +295,6 @@
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV29vT1gtUlB3VW9IakZocEE4bmJ6VUgxRzVheFpKY0d6NTVjbTJYcHk1VGNSNGhFRXU5bzFfd250R3BET0FYdjNHdGVGcW56UzA2NTltUFpmR1FadS1oVlhoUnBZVjhOcnBLYThoS19XVGxsN2t5QmpkYVY3a0hoRUptN2JKV2hoMTRibnI0bnN2dlJUVnZCZmNUMm85NHZaQnlOSTFic0VBR2dkckpUcWVmbU0?oc=5",
 "source": "CBS News",
 "at": "2026-11-14T17:12+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Teen dead, 18-year-old critical after 'subway surfing' over NYC bridge: Police",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTBHc1FQWmJrS0gwNk91MjdLU3I1d2NLUHFiN2M2VFp6WHBPUXdJajJhcXg5V3AzanYyc3o0WG9yOWdqVDVLUW8yU3JmMkJnamRJZmdqekU4bGNhSmtTdWJHdFRxR21GRDdjb0Jodk9WTU1ZVVozRThUQmozb1U2ZHdxT0NxVFNDZHZQRGlYZFE1QlXSAZgBQVVfeXFMT2kzY1J2SkMtWDY3VnVlTlFuMmtka3lyYVlaR1VUNi1hS0VtdnF4dmp2UWNXMXZxOGtHUDQtZUU2OVVZVC1XbFdPcUxHY0xTeTdxdjdiQUhHd1Bkd2tiQnBFekVOSU5QS0t1aGdwVUR0MTZaQ0JWYjQtTThLUFZUUjFQNURSTlMwUG02TGRpZ1J5TFB1SWpKeEU?oc=5",
-"source": "ABC News - Breaking News, Latest News and Videos",
-"at": "2026-11-14T17:05+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -673,16 +693,6 @@
 "kind": "outlet"
 },
 {
-"title": "Results for Ella McCaffray at Taiwan Open of Surfing Women's 2026",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbm5jRzVJaGNEaWRQb2F1UTlWeDBSdnBPY1dkMEo5ZmZSa1dyRFRvd0xfdmFHTUVvNWtqTEc1VmVzaS16ZldTb0dzRnVrUnQ4MVg5U1dKOFJmSG1zY2lhWVZ0ajhfZC1jZWltN05wRG5VX0tpOS05bkw0YWE1YlJXRmp6YnVKekFBX3d6QmcxdnY?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T19:21+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "New Shipstern Bluff Doco Announces West Coast Tour Dates",
 "link": "https://www.surfer.com/culture/shipstern-bluff-documentary-announces-west-coast-tour-dates",
 "source": "Surfer",
@@ -763,16 +773,6 @@
 "kind": "outlet"
 },
 {
-"title": "Swells Stacking Up for the UK & Ireland Next Week",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWmVGRTVxVXN2bzF2OU5oSHZjbjlTWjZiNmtRR1R5Q21LMkxSQmxDT2lFeEU5NVRpUFJiSktocDZ1bWJrdGFocFVlYk1mS0txMEU2TzJJc3NCZG5SdUJITVI0aDJIT1RPc2tnVHFxTVdqSlJfSERkbmtybGQxVjJMTUcyLVNqT1dpRm5aYWtYVzRsYjJHZHFtNXhjQlNsZmJlTlVocGFhWE9EZW5uMVE?oc=5",
-"source": "Surfline",
-"at": "2026-11-13T17:15+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Surfing Star’s Girlfriend Arrested Months After His Brutal Murder in Costa Rica",
 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0lsYkk1NHpBZHdHR1lySkNOeEtmU2tWZE1FaS13SWliT3pZeWlyTWNCdFZTdzAtQ2Z0OXNQNkRtT2s0LVZqemo1ZzJCcjFpaVF4YXpkZFh2YVN6QzNremE2SGJ6eFpUWFlXT05RVENTY0NBTWV1Q015LUprS3Vncm5mNm9tZ25lWGpmZFdkZHV1VlBGZEUwVmdvYjZuNFAyLThB?oc=5",
 "source": "People.com",
@@ -837,6 +837,16 @@
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVkRpSUVIVzdTTlpCZTFwY0Nyak92Ym5ieW54NDVkMVlxTDIwbFIwLVI3c0l4U0tXOHAtTjlXS3JHMXBFZVlPeUt1YWRVX181akQ0amJKcmpzbG5GOWdKMGtiUXBWenVqYmtnWkt0ck5lWmdzV0JBaUVMbkotajdwc2QwbWtUQS1oRk13Q1NMcmJaRnZTeUVjT1NMdzdyS3RFREpVVnVmZmlKWXpjVnB5TGtZRDk1eUtBZ1NlYg?oc=5",
 "source": "Stab",
 "at": "2026-11-13T15:14+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Results for Alys Barton at Taiwan Open of Surfing Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTk5PUXZEOGtTU2JIR2Yyb0JvMGQ3LTdJOUo1RHhOdlQ1ZUdiWEpvMng4TUlGalBrLTJyMzVvSE9sdkNMUUFaMndGNHdrbHNfZVBqR19BeDdHclJodjVON2tzYlZmXzI5NzdWcy03LVYtTmJEWlBXR01Yd0RuWVJDelI3VlJQNDVfTkF0NA?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T15:13+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1213,16 +1223,6 @@
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ2pYWkZIU09qa1lvQUhZZXhIdVhWV3J6Nk9QSk9FVnpzUUpRdHJXRnRsV2RfRjJhRk5VOEM4SWxEMW8tek9QLWJSWWNNbTk0TVE5ZmF4dzZQZGFrQWhPZThQV0tzaFhRbjRlVnI0QjFMQVoyQUF0aVlhdFNRc1NvUDVHVC1KeUZVVk9OREw5S3VlNzFEOFVlR3NZOVFaeW9xckhHdzByZWw?oc=5",
 "source": "The Inertia",
 "at": "2026-11-12T22:19+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Australian Shark Attack Survivior Leah Stewart Celebrates Major Recovery Milestone",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2s2bThzR2lBSEoxcmRaWUZQcUQ0M2tPUnhqWHVENW1QV0V5RWx2V3RHdDYxV0h6TkluQXNFYjFFb2dWeUVhMHRxdm5FMjBPMEFRSDNnRkVNQWhZRy1lNVNpTzJoY0JpLXowUVQ4enVRSXhLUjF5OUVJcTQ3UzB0ZER4Vk1OczNCcXRpVTlZLTJCNGNiQlU1SWFGakt3cGpWZlctb0d5MkFFZ3FpcFNKNDQzYnVSZw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-12T21:57+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
