@@ -9580,8 +9580,8 @@
    {
     "name": "Leonardo Fioravanti",
     "country": "ITA",
-    "total": null,
-    "place": null,
+    "total": 7.13,
+    "place": 3,
     "waves": [
      2.5,
      4.5
@@ -9594,8 +9594,8 @@
    {
     "name": "Lucca Mesinas",
     "country": "PER",
-    "total": null,
-    "place": null,
+    "total": 14.8,
+    "place": 1,
     "waves": [
      7.0
     ],
@@ -9607,8 +9607,8 @@
    {
     "name": "Ethan Ewing",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 14.0,
+    "place": 2,
     "waves": [
      6.0,
      0.57
@@ -9621,8 +9621,8 @@
    {
     "name": "Franco Radziunas",
     "country": "ARG",
-    "total": null,
-    "place": null,
+    "total": 4.86,
+    "place": 4,
     "waves": [
      0.93
     ],
@@ -9632,7 +9632,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "men",
@@ -9650,6 +9650,18 @@
     "country": "PER",
     "total": null,
     "place": null
+   },
+   {
+    "name": "Lucca Mesinas",
+    "country": "PER",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Ethan Ewing",
+    "country": "AUS",
+    "total": null,
+    "place": null
    }
   ],
   "complete": false
@@ -9663,25 +9675,56 @@
     "name": "Gabriela Bryan",
     "country": "USA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     2.5,
+     0.5
+    ],
+    "best_waves": [
+     2.5,
+     0.5
+    ]
    },
    {
     "name": "Johanne Defay",
     "country": "FRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.53,
+     5.67
+    ],
+    "best_waves": [
+     5.67,
+     5.53
+    ]
    },
    {
     "name": "Luana Silva",
     "country": "BRA",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     2.67
+    ],
+    "best_waves": [
+     2.67,
+     0.0
+    ]
    },
    {
     "name": "Leihani Zoric",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.67,
+     4.5
+    ],
+    "best_waves": [
+     5.67,
+     4.5
+    ]
    }
   ],
   "complete": false

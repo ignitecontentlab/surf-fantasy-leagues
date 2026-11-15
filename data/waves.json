@@ -1443,5 +1443,46 @@
     0.0
    ]
   }
+ },
+ "women|gabrielabryan|johannedefay|leihanizoric|luanasilva": {
+  "johannedefay": {
+   "waves": [
+    5.53,
+    5.67
+   ],
+   "best_waves": [
+    5.67,
+    5.53
+   ]
+  },
+  "leihanizoric": {
+   "waves": [
+    5.67,
+    4.5
+   ],
+   "best_waves": [
+    5.67,
+    4.5
+   ]
+  },
+  "gabrielabryan": {
+   "waves": [
+    2.5,
+    0.5
+   ],
+   "best_waves": [
+    2.5,
+    0.5
+   ]
+  },
+  "luanasilva": {
+   "waves": [
+    2.67
+   ],
+   "best_waves": [
+    2.67,
+    0.0
+   ]
+  }
  }
 }
