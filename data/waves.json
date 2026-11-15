@@ -1484,5 +1484,47 @@
     0.0
    ]
   }
+ },
+ "men|ethanewing|hansodriozola|luccamesinas|migueltudela": {
+  "ethanewing": {
+   "waves": [
+    9.17,
+    10.0
+   ],
+   "best_waves": [
+    10.0,
+    9.17
+   ]
+  },
+  "luccamesinas": {
+   "waves": [
+    6.4,
+    6.93
+   ],
+   "best_waves": [
+    6.93,
+    6.4
+   ]
+  },
+  "migueltudela": {
+   "waves": [
+    6.83,
+    4.07
+   ],
+   "best_waves": [
+    6.83,
+    4.07
+   ]
+  },
+  "hansodriozola": {
+   "waves": [
+    5.67,
+    4.67
+   ],
+   "best_waves": [
+    5.67,
+    4.67
+   ]
+  }
  }
 }

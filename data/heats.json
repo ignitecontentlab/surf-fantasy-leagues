@@ -9643,25 +9643,57 @@
     "name": "Hans Odriozola",
     "country": "GER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     5.67,
+     4.67
+    ],
+    "best_waves": [
+     5.67,
+     4.67
+    ]
    },
    {
     "name": "Miguel Tudela",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.83,
+     4.07
+    ],
+    "best_waves": [
+     6.83,
+     4.07
+    ]
    },
    {
     "name": "Lucca Mesinas",
     "country": "PER",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     6.4,
+     6.93
+    ],
+    "best_waves": [
+     6.93,
+     6.4
+    ]
    },
    {
     "name": "Ethan Ewing",
     "country": "AUS",
     "total": null,
-    "place": null
+    "place": null,
+    "waves": [
+     9.17,
+     10.0
+    ],
+    "best_waves": [
+     10.0,
+     9.17
+    ]
    }
   ],
   "complete": false
@@ -9674,8 +9706,8 @@
    {
     "name": "Gabriela Bryan",
     "country": "USA",
-    "total": null,
-    "place": null,
+    "total": 3.0,
+    "place": 4,
     "waves": [
      2.5,
      0.5
@@ -9688,8 +9720,8 @@
    {
     "name": "Johanne Defay",
     "country": "FRA",
-    "total": null,
-    "place": null,
+    "total": 11.6,
+    "place": 1,
     "waves": [
      5.53,
      5.67
@@ -9702,8 +9734,8 @@
    {
     "name": "Luana Silva",
     "country": "BRA",
-    "total": null,
-    "place": null,
+    "total": 9.17,
+    "place": 3,
     "waves": [
      2.67
     ],
@@ -9715,8 +9747,8 @@
    {
     "name": "Leihani Zoric",
     "country": "AUS",
-    "total": null,
-    "place": null,
+    "total": 10.97,
+    "place": 2,
     "waves": [
      5.67,
      4.5
@@ -9727,7 +9759,7 @@
     ]
    }
   ],
-  "complete": false
+  "complete": true
  },
  {
   "division": "women",
@@ -9743,6 +9775,18 @@
    {
     "name": "Sawyer Lindblad",
     "country": "USA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Johanne Defay",
+    "country": "FRA",
+    "total": null,
+    "place": null
+   },
+   {
+    "name": "Leihani Zoric",
+    "country": "AUS",
     "total": null,
     "place": null
    }
