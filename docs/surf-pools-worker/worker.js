@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.8';
+const APP_VERSION = 'app-0.9';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -129,7 +129,7 @@ async function readJson(req) {
   if (o && o !== new URL(req.url).origin && o !== SITE) return null;
   try {
     const text = await req.text();
-    if (text.length > 4096) return null;
+    if (text.length > 32768) return null;
     const v = JSON.parse(text);
     return v && typeof v === 'object' ? v : null;
   } catch (e) {
@@ -178,7 +178,7 @@ async function register(req, env, ip) {
   if (!b) return json({ error: 'Bad request.' }, 400);
   const username = String(b.username || '').trim();
   const password = String(b.password || '');
-  const code = String(b.code || '').trim();
+  const code = String(b.code || '').trim().toUpperCase();
   const email = normEmail(b.email);
   const phone = normPhone(b.phone);
   if (!/^[A-Za-z0-9_]{3,24}$/.test(username)) return json({ error: 'Username must be 3-24 letters, numbers or underscores.' }, 400);
@@ -348,8 +348,13 @@ async function inviteCreate(req, env, u) {
   const days = Math.min(90, Math.max(1, parseInt(b.days, 10) || 14));
   const cols = await inviteCols(env);
   const note = cleanText(b.note || '', 0, 40) || '';
+  let custom = String(b.code || '').trim().toUpperCase();
+  if (custom) {
+    if (!/^[A-Z0-9]{4,8}$/.test(custom)) return json({ error: 'Your own code must be 4 to 8 letters or numbers.' }, 400);
+    if (await env.DB.prepare('SELECT 1 AS x FROM invite_codes WHERE code = ?').bind(custom).first()) return json({ error: 'That code is already in use. Pick another.' }, 409);
+  }
   for (let i = 0; i < 6; i++) {
-    const code = makeCode(8);
+    const code = custom || makeCode(8);
     const vals = { code, uses: 0, max_uses: uses, disabled: 0, expires_at: Date.now() + days * 86400000, created_at: new Date().toISOString(), created_by: u.id, note };
     const keys = Object.keys(vals).filter((k) => cols.includes(k));
     try {
@@ -370,8 +375,9 @@ async function inviteList(env, u) {
   return json({ invites: results, users: n.n, maxUsers: parseInt(env.MAX_USERS, 10) || 10 });
 }
 async function poolsList(env, u) {
+  await migrateDrafts(env);
   const { results } = await env.DB.prepare(
-    'SELECT p.id, p.code, p.name, p.max_members, p.mode, p.joining_open, p.draft_status, c.title AS contest, m.role, m.team_name, (SELECT COUNT(*) FROM pool_members x WHERE x.pool_id = p.id) AS members FROM pool_members m JOIN pools p ON p.id = m.pool_id JOIN contests c ON c.id = p.contest_id WHERE m.user_id = ? AND p.cancelled_at IS NULL ORDER BY p.created_at DESC'
+    'SELECT p.id, p.code, p.name, p.max_members, p.mode, p.joining_open, p.draft_status, p.contest_id, c.title AS contest, c.start_date, c.end_date, m.role, m.team_name, r.draft_at, r.status AS draft_state, (SELECT COUNT(*) FROM pool_members x WHERE x.pool_id = p.id) AS members FROM pool_members m JOIN pools p ON p.id = m.pool_id JOIN contests c ON c.id = p.contest_id LEFT JOIN pool_rules r ON r.pool_id = p.id WHERE m.user_id = ? AND p.cancelled_at IS NULL ORDER BY p.created_at DESC'
   ).bind(u.id).all();
   return json({ pools: results });
 }
@@ -460,6 +466,578 @@ async function poolJoining(req, env, u) {
   if (!r.meta || r.meta.changes !== 1) return json({ error: 'Only the owner can change this before the draft.' }, 403);
   return json({ ok: true, open: !!b.open });
 }
+// ---------- Drafts, contest catalog and public drafts (app-0.9) ----------
+const CATALOG_URL = SITE + '/isa-peru-fantasy-2026/data/contests.json';
+const DAY = 86400000;
+const CLOCKS = [30, 45, 60, 90, 120, 180, 300, 600, 1800, 3600, 14400, 28800, 86400];
+const GEN = { men: 3, women: 2 };
+let draftsReady = false;
+async function migrateDrafts(env) {
+  if (draftsReady) return;
+  const q = [
+    'CREATE TABLE IF NOT EXISTS catalog(contest_id TEXT PRIMARY KEY, name TEXT, org TEXT, location TEXT, start_date TEXT, end_date TEXT, status TEXT, draftable INTEGER NOT NULL DEFAULT 0, roster_json TEXT, roster_source TEXT, roster_note TEXT, conflicts_json TEXT, results_json TEXT, manual INTEGER NOT NULL DEFAULT 0, updated_at INTEGER)',
+    "CREATE TABLE IF NOT EXISTS pool_rules(pool_id INTEGER PRIMARY KEY, rules_json TEXT NOT NULL, draft_at INTEGER, status TEXT NOT NULL DEFAULT 'scheduled', order_json TEXT, pick_no INTEGER NOT NULL DEFAULT 0, deadline INTEGER, started_at INTEGER, ended_at INTEGER)",
+    'CREATE TABLE IF NOT EXISTS draft_picks(pool_id INTEGER NOT NULL, pick_no INTEGER NOT NULL, user_id INTEGER NOT NULL, surfer TEXT NOT NULL, division TEXT NOT NULL, auto INTEGER NOT NULL DEFAULT 0, at INTEGER NOT NULL, PRIMARY KEY(pool_id, pick_no), UNIQUE(pool_id, surfer))',
+    'CREATE TABLE IF NOT EXISTS draft_queue(pool_id INTEGER NOT NULL, user_id INTEGER NOT NULL, queue_json TEXT NOT NULL, PRIMARY KEY(pool_id, user_id))',
+    'CREATE TABLE IF NOT EXISTS gdrafts(contest_id TEXT PRIMARY KEY, opens_at INTEGER NOT NULL, closes_at INTEGER NOT NULL, wildcard_rank INTEGER NOT NULL, men INTEGER NOT NULL, women INTEGER NOT NULL, closed_reason TEXT, created_at INTEGER NOT NULL)',
+    'CREATE TABLE IF NOT EXISTS gentries(contest_id TEXT NOT NULL, user_id INTEGER NOT NULL, team_name TEXT NOT NULL, joined_at INTEGER NOT NULL, picks_json TEXT, combo TEXT, locked_at INTEGER, PRIMARY KEY(contest_id, user_id))',
+    'CREATE UNIQUE INDEX IF NOT EXISTS gentries_combo ON gentries(contest_id, combo)',
+    'CREATE UNIQUE INDEX IF NOT EXISTS gentries_team ON gentries(contest_id, team_name COLLATE NOCASE)',
+    'CREATE TABLE IF NOT EXISTS app_state(k TEXT PRIMARY KEY, v TEXT)'
+  ];
+  await env.DB.batch(q.map((s) => env.DB.prepare(s)));
+  draftsReady = true;
+}
+const endMs = (d) => Date.parse(d + 'T23:59:59Z');
+const startMs = (d) => Date.parse(d + 'T00:00:00Z');
+const rnd = (n) => crypto.getRandomValues(new Uint32Array(1))[0] % n;
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = rnd(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const pj = (s, d) => { try { return s ? JSON.parse(s) : d; } catch (e) { return d; } };
+
+// ---------- catalog sync ----------
+async function contestCols(env) {
+  const { results } = await env.DB.prepare('PRAGMA table_info(contests)').all();
+  return results;
+}
+async function syncCatalog(env, force) {
+  await migrateDrafts(env);
+  const st = await env.DB.prepare("SELECT v FROM app_state WHERE k = 'catalog_sync'").first();
+  const last = st ? parseInt(st.v, 10) : 0;
+  if (!force && Date.now() - last < 15 * 60000) return { skipped: true };
+  await env.DB.prepare("INSERT INTO app_state(k, v) VALUES ('catalog_sync', ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v").bind(String(Date.now())).run();
+  let doc;
+  try {
+    const r = await fetch(CATALOG_URL + '?t=' + Date.now(), { headers: { 'user-agent': 'surf-pools-app' } });
+    if (!r.ok) throw new Error('catalog http ' + r.status);
+    doc = await r.json();
+    if (!doc || !Array.isArray(doc.contests)) throw new Error('catalog has no contests');
+  } catch (e) {
+    // try again in about a minute instead of waiting the full 15
+    await env.DB.prepare("UPDATE app_state SET v = ? WHERE k = 'catalog_sync'").bind(String(Date.now() - 14 * 60000)).run();
+    return { error: String(e.message || e) };
+  }
+  const list = Array.isArray(doc.contests) ? doc.contests : [];
+  const cols = (await contestCols(env)).map((c) => c.name);
+  const now = Date.now();
+  const stmts = [];
+  for (const c of list) {
+    if (!c || !/^[a-z0-9-]{3,60}$/.test(c.id || '')) continue;
+    const roster = c.roster && Array.isArray(c.roster.men) && Array.isArray(c.roster.women) ? c.roster : null;
+    stmts.push(env.DB.prepare(
+      `INSERT INTO catalog(contest_id, name, org, location, start_date, end_date, status, draftable, roster_json, roster_source, roster_note, conflicts_json, results_json, manual, updated_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?)
+       ON CONFLICT(contest_id) DO UPDATE SET name = excluded.name, org = excluded.org, location = excluded.location, start_date = excluded.start_date, end_date = excluded.end_date, status = excluded.status,
+         draftable = CASE WHEN catalog.manual = 1 THEN (excluded.status != 'finished') ELSE excluded.draftable END,
+         roster_json = CASE WHEN catalog.manual = 1 THEN catalog.roster_json ELSE excluded.roster_json END,
+         roster_source = CASE WHEN catalog.manual = 1 THEN catalog.roster_source ELSE excluded.roster_source END,
+         roster_note = CASE WHEN catalog.manual = 1 THEN catalog.roster_note ELSE excluded.roster_note END,
+         conflicts_json = excluded.conflicts_json, results_json = COALESCE(excluded.results_json, catalog.results_json), updated_at = excluded.updated_at`
+    ).bind(c.id, String(c.name || c.id).slice(0, 120), c.org || '', c.location || '', c.start, c.end, c.status || 'upcoming', c.draftable ? 1 : 0,
+      roster ? JSON.stringify(roster) : null, c.roster_source || null, c.roster_note || '', JSON.stringify(c.conflicts || []), c.results ? JSON.stringify(c.results) : null, now));
+    // keep the legacy contests table in step so pools can reference the contest
+    const vals = { id: c.id, title: String(c.name || c.id).slice(0, 120), location: c.location || '', start_date: c.start, end_date: c.end, pool_supported: c.draftable ? 1 : 0, pool_note: c.roster_note || '', published: 1 };
+    const keys = Object.keys(vals).filter((k) => cols.includes(k));
+    stmts.push(env.DB.prepare(`INSERT INTO contests(${keys.join(', ')}) VALUES (${keys.map(() => '?').join(', ')}) ON CONFLICT(id) DO UPDATE SET ${keys.filter((k) => k !== 'id').map((k) => `${k} = excluded.${k}`).join(', ')}`).bind(...keys.map((k) => vals[k])));
+  }
+  for (let i = 0; i < stmts.length; i += 40) await env.DB.batch(stmts.slice(i, i + 40));
+  await ensureGeneral(env);
+  return { ok: true, contests: list.length };
+}
+async function ensureGeneral(env) {
+  const now = Date.now();
+  const { results } = await env.DB.prepare("SELECT contest_id, start_date, end_date FROM catalog WHERE draftable = 1 AND status != 'finished' AND contest_id NOT IN (SELECT contest_id FROM gdrafts)").all();
+  for (const c of results) {
+    const s = startMs(c.start_date);
+    const closes = Math.min(s + 2 * DAY, endMs(c.end_date));
+    if (!(closes > now)) continue;
+    await env.DB.prepare('INSERT OR IGNORE INTO gdrafts(contest_id, opens_at, closes_at, wildcard_rank, men, women, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)')
+      .bind(c.contest_id, s - 3 * DAY, closes, 1 + rnd(10), GEN.men, GEN.women, now).run();
+  }
+}
+async function catalogRow(env, id) {
+  return env.DB.prepare('SELECT * FROM catalog WHERE contest_id = ?').bind(String(id || '')).first();
+}
+function rosterOf(row) {
+  const r = pj(row && row.roster_json, null);
+  if (!r) return null;
+  const fix = (a) => (a || []).filter((s) => s && s.key && s.name).map((s, i) => ({ key: String(s.key), name: String(s.name), country: String(s.country || ''), rank: s.rank || i + 1 }));
+  return { men: fix(r.men), women: fix(r.women) };
+}
+async function contestsList(env) {
+  await migrateDrafts(env);
+  await syncCatalog(env, false);
+  const today = new Date().toISOString().slice(0, 10);
+  const { results } = await env.DB.prepare('SELECT contest_id, name, org, location, start_date, end_date, status, draftable, roster_json, roster_note FROM catalog WHERE end_date >= ? ORDER BY start_date').bind(today).all();
+  return json({
+    contests: results.map((c) => {
+      const r = rosterOf(c);
+      return { id: c.contest_id, title: c.name, org: c.org, location: c.location, start_date: c.start_date, end_date: c.end_date, status: c.status, draftable: !!c.draftable, men: r ? r.men.length : 0, women: r ? r.women.length : 0, note: c.roster_note || '' };
+    })
+  });
+}
+
+// ---------- pool rules ----------
+function cleanRules(b, contest, members) {
+  const n = (v, lo, hi, d) => { const x = parseInt(v, 10); return Number.isFinite(x) ? Math.min(hi, Math.max(lo, x)) : d; };
+  const r = {
+    men: n(b.men, 1, 6, 3), women: n(b.women, 0, 4, 2),
+    clock: CLOCKS.includes(parseInt(b.clock, 10)) ? parseInt(b.clock, 10) : 120,
+    auto: b.auto === 'random' ? 'random' : 'best',
+    snake: b.snake !== false, flipWomen: b.flipWomen !== false,
+    buyIn: n(b.buyIn, 0, 1000, 0), bonus: n(b.bonus, 0, 10000, 0),
+    payout: { men: n(b.payout && b.payout.men, 0, 100, 60), women: n(b.payout && b.payout.women, 0, 100, 25), team: n(b.payout && b.payout.team, 0, 100, 15) },
+    note: cleanText(String(b.note || '').slice(0, 300), 0, 300) || ''
+  };
+  if (r.women === 0) r.flipWomen = false;
+  if (r.payout.men + r.payout.women + r.payout.team !== 100) return { error: 'The payout split has to add up to 100%.' };
+  const at = parseInt(b.draftAt, 10);
+  if (!Number.isFinite(at)) return { error: 'Pick a draft date and time.' };
+  if (at < Date.now() - 5 * 60000) return { error: 'The draft time is in the past. Pick a time from now on.' };
+  if (contest && at > endMs(contest.end_date)) return { error: 'The draft has to happen before the contest ends on ' + contest.end_date + '.' };
+  const ros = rosterOf(contest);
+  if (ros && members) {
+    if (members * r.men > ros.men.length) return { error: `Not enough men in the roster for ${members} teams x ${r.men} picks.` };
+    if (members * r.women > ros.women.length) return { error: `Not enough women in the roster for ${members} teams x ${r.women} picks.` };
+  }
+  return { rules: r, draftAt: at };
+}
+function sequence(rules, n) {
+  // returns [{seat, division, round}] for every pick
+  const seq = [];
+  const base = [...Array(n).keys()];
+  let dir = 1, lastDir = 1;
+  for (let r = 0; r < rules.men; r++) {
+    const ord = dir === 1 ? base : [...base].reverse();
+    ord.forEach((s) => seq.push({ seat: s, division: 'men', round: r + 1 }));
+    lastDir = dir;
+    if (rules.snake) dir = -dir;
+  }
+  // women: flipped order means the team that made the last men's pick starts
+  let wdir = rules.flipWomen ? -lastDir : 1;
+  for (let r = 0; r < rules.women; r++) {
+    const ord = wdir === 1 ? base : [...base].reverse();
+    ord.forEach((s) => seq.push({ seat: s, division: 'women', round: rules.men + r + 1 }));
+    if (rules.snake) wdir = -wdir;
+  }
+  return seq;
+}
+function rulesText(r) {
+  const fmt = (s) => s >= 3600 ? (s / 3600) + ' hour' + (s > 3600 ? 's' : '') : s >= 60 ? (s / 60) + ' minute' + (s > 60 ? 's' : '') : s + ' seconds';
+  const out = [
+    `${r.men} round${r.men > 1 ? 's' : ''} of men, then ${r.women} round${r.women !== 1 ? 's' : ''} of women.`,
+    'Pick order is a random draw when the draft starts.',
+    r.snake ? 'Snake draft: the order reverses every round.' : 'Same order every round.',
+    r.women ? (r.flipWomen ? 'The order flips for the women, so the last men\'s pick picks first for women.' : 'Women start in the original order.') : '',
+    `Each pick has a ${fmt(r.clock)} clock. If time runs out, the app picks for you: ${r.auto === 'random' ? 'a random available surfer' : 'the best-ranked available surfer'} (your queue is used first).`,
+    'Every surfer can only be on one team in this pool.',
+    'Men\'s and women\'s winners: the team with the highest individual finish. Team winner: most total points.',
+    r.buyIn ? `Buy-in $${r.buyIn} per team${r.bonus ? ` plus $${r.bonus} added to the pot` : ''}. Payout: ${r.payout.men}% men's winner, ${r.payout.women}% women's winner, ${r.payout.team}% overall team. Money is settled outside the app.` : 'No buy-in.',
+    r.note || ''
+  ];
+  return out.filter(Boolean);
+}
+async function poolRow(env, pid) {
+  return env.DB.prepare('SELECT p.*, c.end_date, c.start_date FROM pools p JOIN contests c ON c.id = p.contest_id WHERE p.id = ? AND p.cancelled_at IS NULL').bind(pid).first();
+}
+async function members(env, pid) {
+  const { results } = await env.DB.prepare('SELECT m.user_id, m.team_name, m.role, m.joined_at, u.username FROM pool_members m JOIN users u ON u.id = m.user_id WHERE m.pool_id = ? ORDER BY m.joined_at').bind(pid).all();
+  return results;
+}
+
+// ---------- draft engine ----------
+async function tick(env, pid) {
+  const pr = await env.DB.prepare('SELECT * FROM pool_rules WHERE pool_id = ?').bind(pid).first();
+  if (!pr) return null;
+  const rules = pj(pr.rules_json, {});
+  const now = Date.now();
+  if (pr.status === 'scheduled') {
+    if (!(pr.draft_at && pr.draft_at <= now)) return pr;
+    const ms = await members(env, pid);
+    if (ms.length < 2) return pr;
+    const order = shuffle(ms.map((m) => m.user_id));
+    const r = await env.DB.prepare("UPDATE pool_rules SET status = 'live', order_json = ?, pick_no = 0, deadline = ?, started_at = ? WHERE pool_id = ? AND status = 'scheduled'")
+      .bind(JSON.stringify(order), now + rules.clock * 1000, now, pid).run();
+    if (r.meta.changes === 1) await env.DB.prepare("UPDATE pools SET draft_status = 'live', joining_open = 0 WHERE id = ?").bind(pid).run();
+    return env.DB.prepare('SELECT * FROM pool_rules WHERE pool_id = ?').bind(pid).first();
+  }
+  if (pr.status !== 'live') return pr;
+  let cur = pr;
+  for (let guard = 0; guard < 400 && cur.status === 'live' && cur.deadline <= Date.now(); guard++) {
+    await autoPick(env, pid, cur, rules);
+    cur = await env.DB.prepare('SELECT * FROM pool_rules WHERE pool_id = ?').bind(pid).first();
+  }
+  return cur;
+}
+async function autoPick(env, pid, pr, rules) {
+  const order = pj(pr.order_json, []);
+  const seq = sequence(rules, order.length);
+  const slot = seq[pr.pick_no];
+  if (!slot) return finishIfDone(env, pid, pr, seq.length);
+  const uid = order[slot.seat];
+  const pool = await poolRow(env, pid);
+  const ros = rosterOf(await catalogRow(env, pool.contest_id));
+  const taken = new Set((await env.DB.prepare('SELECT surfer FROM draft_picks WHERE pool_id = ?').bind(pid).all()).results.map((x) => x.surfer));
+  const avail = ((ros && ros[slot.division]) || []).filter((s) => !taken.has(s.key));
+  let pick = null;
+  const q = await env.DB.prepare('SELECT queue_json FROM draft_queue WHERE pool_id = ? AND user_id = ?').bind(pid, uid).first();
+  for (const k of pj(q && q.queue_json, [])) { const s = avail.find((a) => a.key === k); if (s) { pick = s; break; } }
+  if (!pick && avail.length) pick = rules.auto === 'random' ? avail[rnd(avail.length)] : [...avail].sort((a, b) => a.rank - b.rank)[0];
+  return commitPick(env, pid, pr, seq, uid, slot, pick ? pick.key : '__none__' + pr.pick_no, 1, rules);
+}
+async function commitPick(env, pid, pr, seq, uid, slot, surfer, auto, rules) {
+  const now = Date.now();
+  const next = pr.pick_no + 1;
+  const done = next >= seq.length;
+  try {
+    await env.DB.batch([
+      env.DB.prepare('INSERT INTO draft_picks(pool_id, pick_no, user_id, surfer, division, auto, at) VALUES (?, ?, ?, ?, ?, ?, ?)').bind(pid, pr.pick_no, uid, surfer, slot.division, auto, now),
+      env.DB.prepare(`UPDATE pool_rules SET pick_no = ?, deadline = ?, status = ?, ended_at = ? WHERE pool_id = ? AND pick_no = ? AND status = 'live'`)
+        .bind(next, done ? null : now + rules.clock * 1000, done ? 'done' : 'live', done ? now : null, pid, pr.pick_no)
+    ]);
+  } catch (e) { return false; }
+  if (done) await env.DB.prepare("UPDATE pools SET draft_status = 'done' WHERE id = ?").bind(pid).run();
+  return true;
+}
+async function finishIfDone(env, pid, pr, total) {
+  if (pr.pick_no >= total) {
+    await env.DB.prepare("UPDATE pool_rules SET status = 'done', deadline = NULL, ended_at = ? WHERE pool_id = ? AND status = 'live'").bind(Date.now(), pid).run();
+    await env.DB.prepare("UPDATE pools SET draft_status = 'done' WHERE id = ?").bind(pid).run();
+  }
+}
+async function cronTick(env) {
+  await migrateDrafts(env);
+  const now = Date.now();
+  const { results } = await env.DB.prepare("SELECT pool_id FROM pool_rules WHERE (status = 'live' AND deadline <= ?) OR (status = 'scheduled' AND draft_at <= ?) LIMIT 50").bind(now, now).all();
+  for (const r of results) { try { await tick(env, r.pool_id); } catch (e) {} }
+  // close public drafts that ran out of time or combinations
+  try { await syncCatalog(env, false); } catch (e) {}
+}
+
+// ---------- scoring ----------
+function scoreTeam(keys, res, divOf) {
+  const t = { men: { best: null, pts: 0 }, women: { best: null, pts: 0 }, total: 0 };
+  for (const k of keys) {
+    const d = divOf[k];
+    if (!d) continue;
+    const r = res[k];
+    if (!r) continue;
+    t[d].pts += r.points || 0;
+    t.total += r.points || 0;
+    if (r.place && (t[d].best === null || r.place < t[d].best)) t[d].best = r.place;
+  }
+  return t;
+}
+function rankBy(teams, cat) {
+  const b = (x) => x === null ? 9999 : x;
+  const cmp = {
+    men: (a, c) => b(a.s.men.best) - b(c.s.men.best) || c.s.men.pts - a.s.men.pts || c.s.total - a.s.total || a.tie - c.tie,
+    women: (a, c) => b(a.s.women.best) - b(c.s.women.best) || c.s.women.pts - a.s.women.pts || c.s.total - a.s.total || a.tie - c.tie,
+    team: (a, c) => c.s.total - a.s.total || b(Math.min(b(a.s.men.best), b(a.s.women.best))) - b(Math.min(b(c.s.men.best), b(c.s.women.best))) || a.tie - c.tie,
+    menTeam: (a, c) => c.s.men.pts - a.s.men.pts || c.s.total - a.s.total || a.tie - c.tie,
+    womenTeam: (a, c) => c.s.women.pts - a.s.women.pts || c.s.total - a.s.total || a.tie - c.tie
+  }[cat];
+  return [...teams].sort(cmp);
+}
+
+// ---------- pool API ----------
+async function poolCreate2(req, env, u) {
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const name = cleanText(b.name, 3, 40);
+  const team = cleanText(b.teamName, 2, 30);
+  const size = parseInt(b.maxMembers, 10);
+  const chat = cleanUrl(b.chatUrl);
+  if (!name) return json({ error: 'Pool name must be 3-40 characters.' }, 400);
+  if (!team) return json({ error: 'Team name must be 2-30 characters.' }, 400);
+  if (!(size >= 2 && size <= 20)) return json({ error: 'A pool needs 2 to 20 teams.' }, 400);
+  if (chat === null) return json({ error: 'The chat link must be a full https:// address.' }, 400);
+  await syncCatalog(env, false);
+  const c = await catalogRow(env, b.contestId);
+  if (!c || !c.draftable || endMs(c.end_date) < Date.now()) return json({ error: 'That contest is not open for drafts. Only upcoming or live contests with a roster can start one.' }, 400);
+  const ros = rosterOf(c);
+  const cr = cleanRules(b.rules || {}, c, size);
+  if (cr.error) return json({ error: cr.error }, 400);
+  const owned = await env.DB.prepare('SELECT COUNT(*) AS n FROM pools WHERE owner_id = ? AND cancelled_at IS NULL').bind(u.id).first();
+  if (owned.n >= 10) return json({ error: 'You can run up to 10 pools at once.' }, 403);
+  const now = new Date().toISOString();
+  for (let i = 0; i < 6; i++) {
+    const code = makeCode(6);
+    try {
+      await env.DB.batch([
+        env.DB.prepare('INSERT INTO pools(code, contest_id, owner_id, name, max_members, chat_url, mode, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)').bind(code, c.contest_id, u.id, name, size, chat || null, 'live', now),
+        env.DB.prepare("INSERT INTO pool_members(pool_id, user_id, team_name, role, joined_at) SELECT id, ?, ?, 'owner', ? FROM pools WHERE code = ?").bind(u.id, team, now, code),
+        env.DB.prepare("INSERT INTO pool_rules(pool_id, rules_json, draft_at, status) SELECT id, ?, ?, 'scheduled' FROM pools WHERE code = ?").bind(JSON.stringify(cr.rules), cr.draftAt, code)
+      ]);
+      const p = await env.DB.prepare('SELECT id FROM pools WHERE code = ?').bind(code).first();
+      return json({ ok: true, poolId: p.id, code, roster: { men: ros.men.length, women: ros.women.length } });
+    } catch (e) { if (i === 5) break; }
+  }
+  return json({ error: 'Could not create the pool. Try again.' }, 500);
+}
+async function poolPreview(env, code) {
+  await migrateDrafts(env);
+  code = String(code || '').trim().toUpperCase();
+  if (!/^[A-Z2-9]{6}$/.test(code)) return json({ error: 'Enter the 6-character join code.' }, 400);
+  const p = await env.DB.prepare('SELECT p.id, p.name, p.max_members, p.joining_open, p.draft_status, p.contest_id, c.title, c.start_date, c.end_date, u.username AS owner, (SELECT COUNT(*) FROM pool_members m WHERE m.pool_id = p.id) AS members, r.rules_json, r.draft_at, r.status FROM pools p JOIN contests c ON c.id = p.contest_id JOIN users u ON u.id = p.owner_id LEFT JOIN pool_rules r ON r.pool_id = p.id WHERE p.code = ? AND p.cancelled_at IS NULL').bind(code).first();
+  if (!p) return json({ error: 'No pool found with that code.' }, 404);
+  const rules = pj(p.rules_json, null);
+  return json({ pool: { name: p.name, contest: p.title, start: p.start_date, end: p.end_date, owner: p.owner, members: p.members, max: p.max_members, open: !!p.joining_open && p.draft_status === 'lobby', draftAt: p.draft_at, rules, rulesText: rules ? rulesText(rules) : ['The pool owner has not set draft rules yet.'] } });
+}
+async function poolJoin2(req, env, u) {
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  if (!b.acceptRules) return json({ error: 'Read the pool rules and tick the box to join.' }, 400);
+  return poolJoin(new Request(req.url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(b) }), env, u);
+}
+async function draftState(env, u, pid) {
+  await migrateDrafts(env);
+  pid = parseInt(pid, 10);
+  const me = await env.DB.prepare('SELECT role FROM pool_members WHERE pool_id = ? AND user_id = ?').bind(pid, u.id).first();
+  if (!me) return json({ error: 'Pool not found.' }, 404);
+  await tick(env, pid);
+  const pool = await poolRow(env, pid);
+  if (!pool) return json({ error: 'Pool not found.' }, 404);
+  const pr = await env.DB.prepare('SELECT * FROM pool_rules WHERE pool_id = ?').bind(pid).first();
+  const cat = await catalogRow(env, pool.contest_id);
+  const ros = rosterOf(cat) || { men: [], women: [] };
+  const ms = await members(env, pid);
+  const rules = pr ? pj(pr.rules_json, null) : null;
+  const order = pr ? pj(pr.order_json, []) : [];
+  const picks = (await env.DB.prepare('SELECT pick_no, user_id, surfer, division, auto, at FROM draft_picks WHERE pool_id = ? ORDER BY pick_no').bind(pid).all()).results;
+  const q = await env.DB.prepare('SELECT queue_json FROM draft_queue WHERE pool_id = ? AND user_id = ?').bind(pid, u.id).first();
+  const team = (id) => { const m = ms.find((x) => x.user_id === id); return m ? m.team_name : 'Left the pool'; };
+  const seq = rules && order.length ? sequence(rules, order.length) : [];
+  const onClock = pr && pr.status === 'live' && seq[pr.pick_no] ? order[seq[pr.pick_no].seat] : null;
+  const res = pj(cat && cat.results_json, null);
+  let standings = null;
+  if (res && picks.length) {
+    const divOf = {};
+    ros.men.forEach((s) => divOf[s.key] = 'men'); ros.women.forEach((s) => divOf[s.key] = 'women');
+    const teams = ms.map((m, i) => ({ team: m.team_name, uid: m.user_id, tie: i, s: scoreTeam(picks.filter((p) => p.user_id === m.user_id).map((p) => p.surfer), res, divOf) }));
+    const pot = rules ? rules.buyIn * ms.length + rules.bonus : 0;
+    standings = ['men', 'women', 'team'].map((cat2) => ({ cat: cat2, pay: rules && pot ? Math.round(pot * rules.payout[cat2]) / 100 : 0, rows: rankBy(teams, cat2).map((t) => ({ team: t.team, best: cat2 === 'team' ? null : t.s[cat2].best, points: cat2 === 'team' ? t.s.total : t.s[cat2].pts })) }));
+  }
+  return json({
+    serverNow: Date.now(),
+    pool: { id: pool.id, name: pool.name, code: pool.code, contestId: pool.contest_id, start: pool.start_date, end: pool.end_date, max: pool.max_members, chat: pool.chat_url, owner: me.role === 'owner' },
+    contest: cat ? { name: cat.name, location: cat.location, note: cat.roster_note, source: cat.roster_source, hasResults: !!res } : null,
+    rules, rulesText: rules ? rulesText(rules) : null,
+    draft: pr ? { status: pr.status, at: pr.draft_at, pickNo: pr.pick_no, total: seq.length, deadline: pr.deadline, onClock: onClock ? team(onClock) : null, myTurn: onClock === u.id, order: order.map(team), seq: seq.map((s) => ({ team: team(order[s.seat]), division: s.division, round: s.round })) } : null,
+    members: ms.map((m) => ({ team: m.team_name, user: m.username, role: m.role, me: m.user_id === u.id })),
+    picks: picks.map((p) => ({ n: p.pick_no, team: team(p.user_id), mine: p.user_id === u.id, surfer: p.surfer, division: p.division, auto: !!p.auto })),
+    roster: ros, queue: pj(q && q.queue_json, []), results: res, standings
+  });
+}
+async function draftPick(req, env, u) {
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const pid = parseInt(b.poolId, 10);
+  if (!(await env.DB.prepare('SELECT 1 AS x FROM pool_members WHERE pool_id = ? AND user_id = ?').bind(pid, u.id).first())) return json({ error: 'Pool not found.' }, 404);
+  const pr = await tick(env, pid);
+  if (!pr || pr.status !== 'live') return json({ error: 'The draft is not running right now.' }, 409);
+  const rules = pj(pr.rules_json, {});
+  const order = pj(pr.order_json, []);
+  const seq = sequence(rules, order.length);
+  const slot = seq[pr.pick_no];
+  if (!slot || order[slot.seat] !== u.id) return json({ error: 'It is not your pick yet.' }, 409);
+  const pool = await poolRow(env, pid);
+  const ros = rosterOf(await catalogRow(env, pool.contest_id));
+  const s = ((ros && ros[slot.division]) || []).find((x) => x.key === String(b.surfer || ''));
+  if (!s) return json({ error: `This pick has to be one of the ${slot.division === 'men' ? 'men' : 'women'} in the roster.` }, 400);
+  if (await env.DB.prepare('SELECT 1 AS x FROM draft_picks WHERE pool_id = ? AND surfer = ?').bind(pid, s.key).first()) return json({ error: s.name + ' is already taken.' }, 409);
+  const ok = await commitPick(env, pid, pr, seq, u.id, slot, s.key, 0, rules);
+  if (!ok) return json({ error: 'That pick did not go through. The board changed; try again.' }, 409);
+  return json({ ok: true });
+}
+async function draftQueue(req, env, u) {
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const pid = parseInt(b.poolId, 10);
+  if (!(await env.DB.prepare('SELECT 1 AS x FROM pool_members WHERE pool_id = ? AND user_id = ?').bind(pid, u.id).first())) return json({ error: 'Pool not found.' }, 404);
+  const q = (Array.isArray(b.queue) ? b.queue : []).map(String).filter((k) => /^[a-z0-9-]{1,80}$/.test(k)).slice(0, 60);
+  await env.DB.prepare('INSERT INTO draft_queue(pool_id, user_id, queue_json) VALUES (?, ?, ?) ON CONFLICT(pool_id, user_id) DO UPDATE SET queue_json = excluded.queue_json').bind(pid, u.id, JSON.stringify(q)).run();
+  return json({ ok: true, queue: q });
+}
+async function poolRules(req, env, u) {
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const pid = parseInt(b.poolId, 10);
+  const pool = await poolRow(env, pid);
+  if (!pool || pool.owner_id !== u.id) return json({ error: 'Only the pool owner can change the rules.' }, 403);
+  const pr = await env.DB.prepare('SELECT status FROM pool_rules WHERE pool_id = ?').bind(pid).first();
+  if (pr && pr.status !== 'scheduled') return json({ error: 'The draft has started, so the rules are locked.' }, 409);
+  const cat = await catalogRow(env, pool.contest_id);
+  const cr = cleanRules(b.rules || {}, cat, pool.max_members);
+  if (cr.error) return json({ error: cr.error }, 400);
+  await env.DB.prepare("INSERT INTO pool_rules(pool_id, rules_json, draft_at, status) VALUES (?, ?, ?, 'scheduled') ON CONFLICT(pool_id) DO UPDATE SET rules_json = excluded.rules_json, draft_at = excluded.draft_at").bind(pid, JSON.stringify(cr.rules), cr.draftAt).run();
+  return json({ ok: true });
+}
+async function draftStart(req, env, u) {
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const pid = parseInt(b.poolId, 10);
+  const pool = await poolRow(env, pid);
+  if (!pool || pool.owner_id !== u.id) return json({ error: 'Only the pool owner can start the draft.' }, 403);
+  const ms = await members(env, pid);
+  if (ms.length < 2) return json({ error: 'You need at least 2 teams to start.' }, 409);
+  if (endMs(pool.end_date) < Date.now()) return json({ error: 'This contest has ended.' }, 409);
+  const r = await env.DB.prepare("UPDATE pool_rules SET draft_at = ? WHERE pool_id = ? AND status = 'scheduled'").bind(Date.now(), pid).run();
+  if (r.meta.changes !== 1) return json({ error: 'The draft already started.' }, 409);
+  await tick(env, pid);
+  return json({ ok: true });
+}
+
+// ---------- public drafts ----------
+async function generalList(env, u) {
+  await migrateDrafts(env);
+  await syncCatalog(env, false);
+  const now = Date.now();
+  const { results } = await env.DB.prepare('SELECT g.*, c.name, c.location, c.start_date, c.end_date, (SELECT COUNT(*) FROM gentries e WHERE e.contest_id = g.contest_id) AS entries, (SELECT COUNT(*) FROM gentries e WHERE e.contest_id = g.contest_id AND e.locked_at IS NOT NULL) AS locked FROM gdrafts g JOIN catalog c ON c.contest_id = g.contest_id WHERE c.end_date >= ? ORDER BY g.opens_at').bind(new Date(now - 14 * DAY).toISOString().slice(0, 10)).all();
+  const mine = u ? (await env.DB.prepare('SELECT contest_id, team_name, locked_at FROM gentries WHERE user_id = ?').bind(u.id).all()).results : [];
+  return json({
+    serverNow: now,
+    drafts: results.map((g) => {
+      const m = mine.find((x) => x.contest_id === g.contest_id);
+      return { contestId: g.contest_id, name: g.name, location: g.location, start: g.start_date, end: g.end_date, opensAt: g.opens_at, closesAt: g.closes_at, status: gstatus(g, now), entries: g.entries, locked: g.locked, wildcard: now >= g.opens_at ? g.wildcard_rank : null, men: g.men, women: g.women, me: m ? { team: m.team_name, locked: !!m.locked_at } : null };
+    })
+  });
+}
+function gstatus(g, now) { return g.closed_reason ? 'closed' : now < g.opens_at ? 'upcoming' : now < g.closes_at ? 'open' : 'closed'; }
+function nCr(n, k) { if (k > n) return 0; let r = 1; for (let i = 1; i <= k; i++) r = r * (n - k + i) / i; return Math.round(r); }
+async function generalOne(env, u, cid) {
+  await migrateDrafts(env);
+  const g = await env.DB.prepare('SELECT * FROM gdrafts WHERE contest_id = ?').bind(String(cid || '')).first();
+  if (!g) return json({ error: 'No public draft for that contest.' }, 404);
+  const cat = await catalogRow(env, g.contest_id);
+  const ros = rosterOf(cat) || { men: [], women: [] };
+  const now = Date.now();
+  const status = gstatus(g, now);
+  const rows = (await env.DB.prepare('SELECT e.user_id, e.team_name, e.picks_json, e.locked_at, e.joined_at, u.username FROM gentries e JOIN users u ON u.id = e.user_id WHERE e.contest_id = ? ORDER BY COALESCE(e.locked_at, e.joined_at)').bind(g.contest_id).all()).results;
+  const res = pj(cat.results_json, null);
+  const divOf = {};
+  ros.men.forEach((s) => divOf[s.key] = 'men'); ros.women.forEach((s) => divOf[s.key] = 'women');
+  let winners = null;
+  const locked = rows.filter((r) => r.locked_at);
+  if (res && locked.length) {
+    const teams = locked.map((r, i) => ({ team: r.team_name, user: r.username, tie: r.locked_at, s: scoreTeam(pj(r.picks_json, []), res, divOf) }));
+    const overall = rankBy(teams, 'team');
+    const wcIdx = Math.min(g.wildcard_rank, overall.length) - 1;
+    const pickW = (cat2, label) => { const t = rankBy(teams, cat2)[0]; return { label, team: t.team, user: t.user }; };
+    winners = [pickW('men', "Men's top finish"), pickW('women', "Women's top finish"), pickW('team', 'Overall team'), pickW('menTeam', "Men's team points"), pickW('womenTeam', "Women's team points"),
+      { label: `Wild card (${ordinal(g.wildcard_rank)} place overall)`, team: overall[wcIdx].team, user: overall[wcIdx].user }];
+    winners.overall = overall.map((t, i) => ({ rank: i + 1, team: t.team, user: t.user, points: t.s.total, men: t.s.men.pts, women: t.s.women.pts }));
+  }
+  const me = u ? rows.find((r) => r.user_id === u.id) : null;
+  const reveal = status === 'closed';
+  return json({
+    serverNow: now,
+    draft: { contestId: g.contest_id, name: cat.name, location: cat.location, start: cat.start_date, end: cat.end_date, opensAt: g.opens_at, closesAt: g.closes_at, status, men: g.men, women: g.women, wildcard: now >= g.opens_at ? g.wildcard_rank : null, combos: nCr(ros.men.length, g.men) * nCr(ros.women.length, g.women), note: cat.roster_note, source: cat.roster_source },
+    rules: [
+      `Free to play, no payout. Open to every signed-in user.`,
+      `Sign up any time. Picks open 3 days before the contest and close at the end of day 2 (${new Date(g.closes_at).toUTCString().slice(0, 22)} UTC).`,
+      `Pick ${g.men} men and ${g.women} women. Once you lock your team it cannot be changed.`,
+      'No two teams can be exactly the same: your team has to differ from every locked team by at least one surfer.',
+      'The draft also closes early if every possible team has been taken.',
+      'Six winners: men\'s top finish, women\'s top finish, overall team points, men\'s team points, women\'s team points, and a wild card.',
+      'The wild card place (somewhere in the top 10 overall) is drawn at random and announced when picks open.'
+    ],
+    roster: ros,
+    entries: rows.map((r) => ({ team: r.team_name, user: r.username, locked: !!r.locked_at, mine: !!(u && r.user_id === u.id), picks: reveal || (u && r.user_id === u.id) ? pj(r.picks_json, []) : null })),
+    me: me ? { team: me.team_name, locked: !!me.locked_at, picks: pj(me.picks_json, []) } : null,
+    results: res, winners, overall: winners ? winners.overall : null
+  });
+}
+function ordinal(n) { const s = ['th', 'st', 'nd', 'rd'], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+async function generalJoin(req, env, u) {
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const g = await env.DB.prepare('SELECT * FROM gdrafts WHERE contest_id = ?').bind(String(b.contestId || '')).first();
+  if (!g) return json({ error: 'No public draft for that contest.' }, 404);
+  if (gstatus(g, Date.now()) === 'closed') return json({ error: 'This draft is closed.' }, 409);
+  const team = cleanText(b.teamName, 2, 30);
+  if (!team) return json({ error: 'Team name must be 2-30 characters.' }, 400);
+  try {
+    await env.DB.prepare('INSERT INTO gentries(contest_id, user_id, team_name, joined_at) VALUES (?, ?, ?, ?)').bind(g.contest_id, u.id, team, Date.now()).run();
+  } catch (e) {
+    if (await env.DB.prepare('SELECT 1 AS x FROM gentries WHERE contest_id = ? AND user_id = ?').bind(g.contest_id, u.id).first()) return json({ error: 'You are already signed up.' }, 409);
+    return json({ error: 'That team name is taken in this draft. Try another.' }, 409);
+  }
+  return json({ ok: true });
+}
+async function generalPick(req, env, u) {
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const g = await env.DB.prepare('SELECT * FROM gdrafts WHERE contest_id = ?').bind(String(b.contestId || '')).first();
+  if (!g) return json({ error: 'No public draft for that contest.' }, 404);
+  const st = gstatus(g, Date.now());
+  if (st === 'upcoming') return json({ error: 'Picks open ' + new Date(g.opens_at).toUTCString().slice(0, 16) + '.' }, 409);
+  if (st === 'closed') return json({ error: 'This draft is closed.' }, 409);
+  const ros = rosterOf(await catalogRow(env, g.contest_id));
+  const men = [...new Set((b.men || []).map(String))], women = [...new Set((b.women || []).map(String))];
+  if (men.length !== g.men || women.length !== g.women) return json({ error: `Pick exactly ${g.men} different men and ${g.women} different women.` }, 400);
+  if (!men.every((k) => ros.men.some((s) => s.key === k)) || !women.every((k) => ros.women.some((s) => s.key === k))) return json({ error: 'One of those surfers is not in this roster.' }, 400);
+  const keys = [...men, ...women];
+  const combo = [...keys].sort().join('|');
+  let r;
+  try {
+    r = await env.DB.prepare('UPDATE gentries SET picks_json = ?, combo = ?, locked_at = ? WHERE contest_id = ? AND user_id = ? AND locked_at IS NULL').bind(JSON.stringify(keys), combo, Date.now(), g.contest_id, u.id).run();
+  } catch (e) {
+    return json({ error: 'Someone already locked that exact team. Change at least one surfer.' }, 409);
+  }
+  if (r.meta.changes !== 1) {
+    const e = await env.DB.prepare('SELECT locked_at FROM gentries WHERE contest_id = ? AND user_id = ?').bind(g.contest_id, u.id).first();
+    return json({ error: e ? 'Your team is already locked.' : 'Sign up for this draft first.' }, 409);
+  }
+  const total = nCr(ros.men.length, g.men) * nCr(ros.women.length, g.women);
+  const n = await env.DB.prepare('SELECT COUNT(*) AS n FROM gentries WHERE contest_id = ? AND locked_at IS NOT NULL').bind(g.contest_id).first();
+  if (n.n >= total) await env.DB.prepare("UPDATE gdrafts SET closes_at = ?, closed_reason = 'All possible teams are taken.' WHERE contest_id = ?").bind(Date.now(), g.contest_id).run();
+  return json({ ok: true });
+}
+
+// ---------- admin ----------
+async function adminCatalog(env, u) {
+  if (!u.is_admin) return json({ error: 'Admins only.' }, 403);
+  await migrateDrafts(env);
+  const st = await env.DB.prepare("SELECT v FROM app_state WHERE k = 'catalog_sync'").first();
+  const { results } = await env.DB.prepare('SELECT contest_id, name, start_date, end_date, status, draftable, roster_json, roster_source, roster_note, conflicts_json, manual, (results_json IS NOT NULL) AS has_results FROM catalog ORDER BY start_date').all();
+  return json({ lastSync: st ? parseInt(st.v, 10) : null, contests: results.map((c) => { const r = rosterOf(c); return { id: c.contest_id, name: c.name, start: c.start_date, end: c.end_date, status: c.status, draftable: !!c.draftable, men: r ? r.men.length : 0, women: r ? r.women.length : 0, source: c.roster_source, note: c.roster_note, conflicts: pj(c.conflicts_json, []), manual: !!c.manual, hasResults: !!c.has_results }; }) });
+}
+async function adminRoster(req, env, u) {
+  if (!u.is_admin) return json({ error: 'Admins only.' }, 403);
+  await migrateDrafts(env);
+  const b = await readJson(req);
+  if (!b) return json({ error: 'Bad request.' }, 400);
+  const c = await catalogRow(env, b.contestId);
+  if (!c) return json({ error: 'Contest not found.' }, 404);
+  if (b.clear) {
+    await env.DB.prepare('UPDATE catalog SET manual = 0 WHERE contest_id = ?').bind(c.contest_id).run();
+    await syncCatalog(env, true);
+    return json({ ok: true });
+  }
+  const R = { men: [], women: [] };
+  const slug = (s) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  for (const line of String(b.text || '').split(/\r?\n/).slice(0, 400)) {
+    const parts = line.split(',').map((x) => x.trim());
+    if (parts.length < 2 || !parts[0]) continue;
+    const d = /^w/i.test(parts[parts.length - 1]) ? 'women' : /^m/i.test(parts[parts.length - 1]) ? 'men' : null;
+    if (!d) continue;
+    const name = parts[0].slice(0, 60);
+    R[d].push({ key: slug(name), name, country: parts.length > 2 ? parts[1].slice(0, 30) : '', rank: R[d].length + 1 });
+  }
+  if (!R.men.length || !R.women.length) return json({ error: 'Add at least one man and one woman, one per line: Name, Country, M or W.' }, 400);
+  await env.DB.prepare("UPDATE catalog SET roster_json = ?, roster_source = 'manual', roster_note = 'Roster entered by the site admin.', manual = 1, draftable = (status != 'finished') WHERE contest_id = ?").bind(JSON.stringify(R), c.contest_id).run();
+  await env.DB.prepare('UPDATE contests SET pool_supported = 1 WHERE id = ?').bind(c.contest_id).run().catch(() => {});
+  await ensureGeneral(env);
+  return json({ ok: true, men: R.men.length, women: R.women.length });
+}
+
 function page() {
   const nonce = rand(16);
   const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080d29"><title>Surf Pools</title>
@@ -661,6 +1239,9 @@ export default {
       return new Response(null, { status: 204, headers: { 'access-control-allow-origin': SITE, 'access-control-allow-methods': 'GET, POST, OPTIONS', 'access-control-allow-headers': 'Content-Type, Authorization', 'access-control-max-age': '86400', vary: 'Origin' } });
     }
     return withCors(request, await handle(request, env));
+  },
+  async scheduled(event, env, ctx) {
+    if (env.DB) ctx.waitUntil(cronTick(env));
   }
 };
 async function handle(request, env) {
@@ -672,17 +1253,22 @@ async function handle(request, env) {
     if (!env.DB) return json({ error: 'Database is not connected. Add a D1 binding named DB.' }, 503);
     try {
       if (request.method === 'GET') {
-        if (path === '/') return page();
+        if (path === '/') return new Response(null, { status: 302, headers: { location: SITE + '/isa-peru-fantasy-2026/#account', 'cache-control': 'no-store' } });
+        if (path === '/classic') return page();
         if (path === '/api/config') {
           const c = await env.DB.prepare('SELECT COUNT(*) AS n FROM contests').first();
           const u = await env.DB.prepare('SELECT COUNT(*) AS n FROM users').first();
           return json({ appName: 'Surf Pools', contests: c.n, firstRun: u.n === 0, emailReset: emailOn(env), passwordRule: PW_RULE });
         }
-        if (path === '/api/contests') {
-          const { results } = await env.DB.prepare(
-            'SELECT id, title, location, start_date, end_date, pool_supported, pool_note, (results_json IS NOT NULL) AS has_results FROM contests WHERE published = 1 ORDER BY start_date DESC'
-          ).all();
-          return json({ contests: results });
+        if (path === '/api/contests') return await contestsList(env);
+        if (path === '/api/general') return await generalList(env, await currentUser(request, env));
+        if (path === '/api/general/one') return await generalOne(env, await currentUser(request, env), url.searchParams.get('id'));
+        if (path === '/api/draft' || path === '/api/pools/preview' || path === '/api/admin/catalog') {
+          const u = await currentUser(request, env);
+          if (!u) return json({ error: 'Please log in.' }, 401);
+          if (path === '/api/draft') return await draftState(env, u, url.searchParams.get('id'));
+          if (path === '/api/pools/preview') return await poolPreview(env, url.searchParams.get('code'));
+          return await adminCatalog(env, u);
         }
         if (path === '/api/me') {
           const u = await currentUser(request, env);
@@ -710,11 +1296,23 @@ async function handle(request, env) {
           if (!u) return json({ error: 'Please log in.' }, 401);
           return await inviteCreate(request, env, u);
         }
+        if (path.startsWith('/api/draft/') || path.startsWith('/api/general/') || path.startsWith('/api/admin/')) {
+          const u = await currentUser(request, env);
+          if (!u) return json({ error: 'Please log in.' }, 401);
+          if (path === '/api/draft/pick') return await draftPick(request, env, u);
+          if (path === '/api/draft/queue') return await draftQueue(request, env, u);
+          if (path === '/api/draft/start') return await draftStart(request, env, u);
+          if (path === '/api/general/join') return await generalJoin(request, env, u);
+          if (path === '/api/general/pick') return await generalPick(request, env, u);
+          if (path === '/api/admin/roster') return await adminRoster(request, env, u);
+          if (path === '/api/admin/sync') { if (!u.is_admin) return json({ error: 'Admins only.' }, 403); return json(await syncCatalog(env, true)); }
+        }
         if (path.startsWith('/api/pools/')) {
           const u = await currentUser(request, env);
           if (!u) return json({ error: 'Please log in.' }, 401);
-          if (path === '/api/pools/create') return await poolCreate(request, env, u);
-          if (path === '/api/pools/join') return await poolJoin(request, env, u);
+          if (path === '/api/pools/create') return await poolCreate2(request, env, u);
+          if (path === '/api/pools/join') return await poolJoin2(request, env, u);
+          if (path === '/api/pools/rules') return await poolRules(request, env, u);
           if (path === '/api/pools/leave') return await poolLeave(request, env, u);
           if (path === '/api/pools/joining') return await poolJoining(request, env, u);
         }

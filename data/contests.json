@@ -1,0 +1,1553 @@
+{
+ "version": 1,
+ "updated_at": "2026-11-15T15:24:47+00:00",
+ "contests": [
+  {
+   "id": "wsl-ct-2026-meoripcurlproportugal",
+   "name": "MEO Rip Curl Pro Portugal",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "location": "Supertubos, Peniche, Portugal",
+   "start": "2026-10-16",
+   "end": "2026-10-25",
+   "status": "finished",
+   "official": "https://www.worldsurfleague.com/events",
+   "roster": {
+    "men": [
+     {
+      "key": "yago-dora",
+      "name": "Yago Dora",
+      "country": "Brazil",
+      "rank": 1
+     },
+     {
+      "key": "gabriel-medina",
+      "name": "Gabriel Medina",
+      "country": "Brazil",
+      "rank": 2
+     },
+     {
+      "key": "italo-ferreira",
+      "name": "Italo Ferreira",
+      "country": "Brazil",
+      "rank": 3
+     },
+     {
+      "key": "griffin-colapinto",
+      "name": "Griffin Colapinto",
+      "country": "United States",
+      "rank": 4
+     },
+     {
+      "key": "miguel-pupo",
+      "name": "Miguel Pupo",
+      "country": "Brazil",
+      "rank": 5
+     },
+     {
+      "key": "leonardo-fioravanti",
+      "name": "Leonardo Fioravanti",
+      "country": "Italy",
+      "rank": 6
+     },
+     {
+      "key": "ethan-ewing",
+      "name": "Ethan Ewing",
+      "country": "Australia",
+      "rank": 7
+     },
+     {
+      "key": "kanoa-igarashi",
+      "name": "Kanoa Igarashi",
+      "country": "Japan",
+      "rank": 8
+     },
+     {
+      "key": "jack-robinson",
+      "name": "Jack Robinson",
+      "country": "Australia",
+      "rank": 9
+     },
+     {
+      "key": "george-pittar",
+      "name": "George Pittar",
+      "country": "Australia",
+      "rank": 10
+     },
+     {
+      "key": "kauli-vaast",
+      "name": "Kauli Vaast",
+      "country": "France",
+      "rank": 11
+     },
+     {
+      "key": "samuel-pupo",
+      "name": "Samuel Pupo",
+      "country": "Brazil",
+      "rank": 12
+     },
+     {
+      "key": "liam-o-brien",
+      "name": "Liam O'Brien",
+      "country": "Australia",
+      "rank": 13
+     },
+     {
+      "key": "seth-moniz",
+      "name": "Seth Moniz",
+      "country": "Hawaii",
+      "rank": 14
+     },
+     {
+      "key": "connor-o-leary",
+      "name": "Connor O'Leary",
+      "country": "Japan",
+      "rank": 15
+     },
+     {
+      "key": "cole-houshmand",
+      "name": "Cole Houshmand",
+      "country": "United States",
+      "rank": 16
+     },
+     {
+      "key": "marco-mignot",
+      "name": "Marco Mignot",
+      "country": "France",
+      "rank": 17
+     },
+     {
+      "key": "morgan-cibilic",
+      "name": "Morgan Cibilic",
+      "country": "Australia",
+      "rank": 18
+     },
+     {
+      "key": "filipe-toledo",
+      "name": "Filipe Toledo",
+      "country": "Brazil",
+      "rank": 19
+     },
+     {
+      "key": "callum-robson",
+      "name": "Callum Robson",
+      "country": "Australia",
+      "rank": 20
+     },
+     {
+      "key": "joao-chianca",
+      "name": "Joao Chianca",
+      "country": "Brazil",
+      "rank": 21
+     },
+     {
+      "key": "jake-marshall",
+      "name": "Jake Marshall",
+      "country": "United States",
+      "rank": 22
+     },
+     {
+      "key": "barron-mamiya",
+      "name": "Barron Mamiya",
+      "country": "Hawaii",
+      "rank": 23
+     },
+     {
+      "key": "alan-cleland",
+      "name": "Alan Cleland",
+      "country": "Mexico",
+      "rank": 24
+     },
+     {
+      "key": "crosby-colapinto",
+      "name": "Crosby Colapinto",
+      "country": "United States",
+      "rank": 25
+     },
+     {
+      "key": "mateus-herdy",
+      "name": "Mateus Herdy",
+      "country": "Brazil",
+      "rank": 26
+     },
+     {
+      "key": "alejo-muniz",
+      "name": "Alejo Muniz",
+      "country": "Brazil",
+      "rank": 27
+     },
+     {
+      "key": "rio-waida",
+      "name": "Rio Waida",
+      "country": "Indonesia",
+      "rank": 28
+     },
+     {
+      "key": "ramzi-boukhiam",
+      "name": "Ramzi Boukhiam",
+      "country": "Morocco",
+      "rank": 29
+     },
+     {
+      "key": "joel-vaughan",
+      "name": "Joel Vaughan",
+      "country": "Australia",
+      "rank": 30
+     },
+     {
+      "key": "eli-hanneman",
+      "name": "Eli Hanneman",
+      "country": "Hawaii",
+      "rank": 31
+     },
+     {
+      "key": "luke-thompson",
+      "name": "Luke Thompson",
+      "country": "South Africa",
+      "rank": 32
+     },
+     {
+      "key": "jordy-smith",
+      "name": "Jordy Smith",
+      "country": "South Africa",
+      "rank": 33
+     },
+     {
+      "key": "matthew-mcgillivray",
+      "name": "Matthew McGillivray",
+      "country": "South Africa",
+      "rank": 34
+     },
+     {
+      "key": "oscar-berry",
+      "name": "Oscar Berry",
+      "country": "Australia",
+      "rank": 35
+     }
+    ],
+    "women": [
+     {
+      "key": "molly-picklum",
+      "name": "Molly Picklum",
+      "country": "Australia",
+      "rank": 1
+     },
+     {
+      "key": "carissa-moore",
+      "name": "Carissa Moore",
+      "country": "Hawaii",
+      "rank": 2
+     },
+     {
+      "key": "caitlin-simmers",
+      "name": "Caitlin Simmers",
+      "country": "United States",
+      "rank": 3
+     },
+     {
+      "key": "gabriela-bryan",
+      "name": "Gabriela Bryan",
+      "country": "Hawaii",
+      "rank": 4
+     },
+     {
+      "key": "erin-brooks",
+      "name": "Erin Brooks",
+      "country": "Canada",
+      "rank": 5
+     },
+     {
+      "key": "sawyer-lindblad",
+      "name": "Sawyer Lindblad",
+      "country": "United States",
+      "rank": 6
+     },
+     {
+      "key": "luana-silva",
+      "name": "Luana Silva",
+      "country": "Brazil",
+      "rank": 7
+     },
+     {
+      "key": "lakey-peterson",
+      "name": "Lakey Peterson",
+      "country": "United States",
+      "rank": 8
+     },
+     {
+      "key": "isabella-nichols",
+      "name": "Isabella Nichols",
+      "country": "Australia",
+      "rank": 9
+     },
+     {
+      "key": "bettylou-sakura-johnson",
+      "name": "Bettylou Sakura Johnson",
+      "country": "Hawaii",
+      "rank": 10
+     },
+     {
+      "key": "nadia-erostarbe",
+      "name": "Nadia Erostarbe",
+      "country": "Spain",
+      "rank": 11
+     },
+     {
+      "key": "caroline-marks",
+      "name": "Caroline Marks",
+      "country": "United States",
+      "rank": 12
+     },
+     {
+      "key": "tyler-wright",
+      "name": "Tyler Wright",
+      "country": "Australia",
+      "rank": 13
+     },
+     {
+      "key": "yolanda-hopkins",
+      "name": "Yolanda Hopkins",
+      "country": "Portugal",
+      "rank": 14
+     },
+     {
+      "key": "anat-lelior",
+      "name": "Anat Lelior",
+      "country": "Israel",
+      "rank": 15
+     },
+     {
+      "key": "alyssa-spencer",
+      "name": "Alyssa Spencer",
+      "country": "United States",
+      "rank": 16
+     },
+     {
+      "key": "stephanie-gilmore",
+      "name": "Stephanie Gilmore",
+      "country": "Australia",
+      "rank": 17
+     },
+     {
+      "key": "brisa-hennessy",
+      "name": "Brisa Hennessy",
+      "country": "Costa Rica",
+      "rank": 18
+     },
+     {
+      "key": "tya-zebrowski",
+      "name": "Tya Zebrowski",
+      "country": "France",
+      "rank": 19
+     },
+     {
+      "key": "vahine-fierro",
+      "name": "Vahine Fierro",
+      "country": "France",
+      "rank": 20
+     },
+     {
+      "key": "sally-fitzgibbons",
+      "name": "Sally Fitzgibbons",
+      "country": "Australia",
+      "rank": 21
+     },
+     {
+      "key": "bella-kenworthy",
+      "name": "Bella Kenworthy",
+      "country": "United States",
+      "rank": 22
+     },
+     {
+      "key": "francisca-veselko",
+      "name": "Francisca Veselko",
+      "country": "Portugal",
+      "rank": 23
+     }
+    ]
+   },
+   "roster_source": "WSL tour list + Wikipedia check",
+   "roster_note": "Championship Tour surfers. Event wildcards and injury replacements are added when they are announced.",
+   "conflicts": [],
+   "results": {
+    "yago-dora": {
+     "place": 3,
+     "points": 6085
+    },
+    "gabriel-medina": {
+     "place": 2,
+     "points": 7800
+    },
+    "italo-ferreira": {
+     "place": 3,
+     "points": 6085
+    },
+    "griffin-colapinto": {
+     "place": 1,
+     "points": 10000
+    },
+    "miguel-pupo": {
+     "place": 9,
+     "points": 3320
+    },
+    "leonardo-fioravanti": {
+     "place": 9,
+     "points": 3320
+    },
+    "ethan-ewing": {
+     "place": 5,
+     "points": 4745
+    },
+    "kanoa-igarashi": {
+     "place": 9,
+     "points": 3320
+    },
+    "jack-robinson": {
+     "place": 9,
+     "points": 3320
+    },
+    "george-pittar": {
+     "place": 17,
+     "points": 1330
+    },
+    "kauli-vaast": {
+     "place": 9,
+     "points": 3320
+    },
+    "samuel-pupo": {
+     "place": 17,
+     "points": 1330
+    },
+    "liam-o-brien": {
+     "place": 17,
+     "points": 1330
+    },
+    "seth-moniz": {
+     "place": 5,
+     "points": 4745
+    },
+    "connor-o-leary": {
+     "place": 9,
+     "points": 3320
+    },
+    "cole-houshmand": {
+     "place": 17,
+     "points": 1330
+    },
+    "marco-mignot": {
+     "place": 17,
+     "points": 1330
+    },
+    "morgan-cibilic": {
+     "place": 5,
+     "points": 4745
+    },
+    "filipe-toledo": {
+     "place": 9,
+     "points": 3320
+    },
+    "callum-robson": {
+     "place": 17,
+     "points": 1330
+    },
+    "joao-chianca": {
+     "place": 17,
+     "points": 1330
+    },
+    "jake-marshall": {
+     "place": 17,
+     "points": 1330
+    },
+    "frederico-morais": {
+     "place": 9,
+     "points": 3320
+    },
+    "guilherme-ribeiro": {
+     "place": 5,
+     "points": 4745
+    },
+    "molly-picklum": {
+     "place": 1,
+     "points": 10000
+    },
+    "carissa-moore": {
+     "place": 5,
+     "points": 4745
+    },
+    "caitlin-simmers": {
+     "place": 2,
+     "points": 7800
+    },
+    "gabriela-bryan": {
+     "place": 9,
+     "points": 3320
+    },
+    "erin-brooks": {
+     "place": 5,
+     "points": 4745
+    },
+    "sawyer-lindblad": {
+     "place": 9,
+     "points": 3320
+    },
+    "luana-silva": {
+     "place": 9,
+     "points": 3320
+    },
+    "lakey-peterson": {
+     "place": 3,
+     "points": 6085
+    },
+    "bettylou-sakura-johnson": {
+     "place": 3,
+     "points": 6085
+    },
+    "nadia-erostarbe": {
+     "place": 9,
+     "points": 3320
+    },
+    "caroline-marks": {
+     "place": 9,
+     "points": 3320
+    },
+    "tyler-wright": {
+     "place": 9,
+     "points": 3320
+    },
+    "yolanda-hopkins": {
+     "place": 9,
+     "points": 3320
+    },
+    "johanne-defay": {
+     "place": 9,
+     "points": 3320
+    },
+    "teresa-bonvalot": {
+     "place": 5,
+     "points": 4745
+    }
+   },
+   "draftable": false
+  },
+  {
+   "id": "isa-wlc-2026",
+   "name": "ISA World Longboard Championship",
+   "org": "ISA",
+   "series": "ISA World Championships",
+   "location": "El Sunzal, El Salvador",
+   "start": "2026-10-16",
+   "end": "2026-10-22",
+   "status": "finished",
+   "official": "https://isasurf.org/event/2026-isa-world-longboard-championship/",
+   "roster": null,
+   "roster_source": null,
+   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "conflicts": [],
+   "results": null,
+   "draftable": false
+  },
+  {
+   "id": "wsl-ct-2026-philippinespro",
+   "name": "Philippines Pro",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "location": "Cloud 9, General Luna, Surigao del Norte, Philippines",
+   "start": "2026-10-31",
+   "end": "2026-11-10",
+   "status": "finished",
+   "official": "https://www.worldsurfleague.com/events",
+   "roster": {
+    "men": [
+     {
+      "key": "yago-dora",
+      "name": "Yago Dora",
+      "country": "Brazil",
+      "rank": 1
+     },
+     {
+      "key": "gabriel-medina",
+      "name": "Gabriel Medina",
+      "country": "Brazil",
+      "rank": 2
+     },
+     {
+      "key": "italo-ferreira",
+      "name": "Italo Ferreira",
+      "country": "Brazil",
+      "rank": 3
+     },
+     {
+      "key": "griffin-colapinto",
+      "name": "Griffin Colapinto",
+      "country": "United States",
+      "rank": 4
+     },
+     {
+      "key": "miguel-pupo",
+      "name": "Miguel Pupo",
+      "country": "Brazil",
+      "rank": 5
+     },
+     {
+      "key": "leonardo-fioravanti",
+      "name": "Leonardo Fioravanti",
+      "country": "Italy",
+      "rank": 6
+     },
+     {
+      "key": "ethan-ewing",
+      "name": "Ethan Ewing",
+      "country": "Australia",
+      "rank": 7
+     },
+     {
+      "key": "kanoa-igarashi",
+      "name": "Kanoa Igarashi",
+      "country": "Japan",
+      "rank": 8
+     },
+     {
+      "key": "jack-robinson",
+      "name": "Jack Robinson",
+      "country": "Australia",
+      "rank": 9
+     },
+     {
+      "key": "george-pittar",
+      "name": "George Pittar",
+      "country": "Australia",
+      "rank": 10
+     },
+     {
+      "key": "kauli-vaast",
+      "name": "Kauli Vaast",
+      "country": "France",
+      "rank": 11
+     },
+     {
+      "key": "samuel-pupo",
+      "name": "Samuel Pupo",
+      "country": "Brazil",
+      "rank": 12
+     },
+     {
+      "key": "liam-o-brien",
+      "name": "Liam O'Brien",
+      "country": "Australia",
+      "rank": 13
+     },
+     {
+      "key": "seth-moniz",
+      "name": "Seth Moniz",
+      "country": "Hawaii",
+      "rank": 14
+     },
+     {
+      "key": "connor-o-leary",
+      "name": "Connor O'Leary",
+      "country": "Japan",
+      "rank": 15
+     },
+     {
+      "key": "cole-houshmand",
+      "name": "Cole Houshmand",
+      "country": "United States",
+      "rank": 16
+     },
+     {
+      "key": "marco-mignot",
+      "name": "Marco Mignot",
+      "country": "France",
+      "rank": 17
+     },
+     {
+      "key": "morgan-cibilic",
+      "name": "Morgan Cibilic",
+      "country": "Australia",
+      "rank": 18
+     },
+     {
+      "key": "filipe-toledo",
+      "name": "Filipe Toledo",
+      "country": "Brazil",
+      "rank": 19
+     },
+     {
+      "key": "callum-robson",
+      "name": "Callum Robson",
+      "country": "Australia",
+      "rank": 20
+     },
+     {
+      "key": "joao-chianca",
+      "name": "Joao Chianca",
+      "country": "Brazil",
+      "rank": 21
+     },
+     {
+      "key": "jake-marshall",
+      "name": "Jake Marshall",
+      "country": "United States",
+      "rank": 22
+     },
+     {
+      "key": "barron-mamiya",
+      "name": "Barron Mamiya",
+      "country": "Hawaii",
+      "rank": 23
+     },
+     {
+      "key": "alan-cleland",
+      "name": "Alan Cleland",
+      "country": "Mexico",
+      "rank": 24
+     },
+     {
+      "key": "crosby-colapinto",
+      "name": "Crosby Colapinto",
+      "country": "United States",
+      "rank": 25
+     },
+     {
+      "key": "mateus-herdy",
+      "name": "Mateus Herdy",
+      "country": "Brazil",
+      "rank": 26
+     },
+     {
+      "key": "alejo-muniz",
+      "name": "Alejo Muniz",
+      "country": "Brazil",
+      "rank": 27
+     },
+     {
+      "key": "rio-waida",
+      "name": "Rio Waida",
+      "country": "Indonesia",
+      "rank": 28
+     },
+     {
+      "key": "ramzi-boukhiam",
+      "name": "Ramzi Boukhiam",
+      "country": "Morocco",
+      "rank": 29
+     },
+     {
+      "key": "joel-vaughan",
+      "name": "Joel Vaughan",
+      "country": "Australia",
+      "rank": 30
+     },
+     {
+      "key": "eli-hanneman",
+      "name": "Eli Hanneman",
+      "country": "Hawaii",
+      "rank": 31
+     },
+     {
+      "key": "luke-thompson",
+      "name": "Luke Thompson",
+      "country": "South Africa",
+      "rank": 32
+     },
+     {
+      "key": "jordy-smith",
+      "name": "Jordy Smith",
+      "country": "South Africa",
+      "rank": 33
+     },
+     {
+      "key": "matthew-mcgillivray",
+      "name": "Matthew McGillivray",
+      "country": "South Africa",
+      "rank": 34
+     },
+     {
+      "key": "oscar-berry",
+      "name": "Oscar Berry",
+      "country": "Australia",
+      "rank": 35
+     }
+    ],
+    "women": [
+     {
+      "key": "molly-picklum",
+      "name": "Molly Picklum",
+      "country": "Australia",
+      "rank": 1
+     },
+     {
+      "key": "carissa-moore",
+      "name": "Carissa Moore",
+      "country": "Hawaii",
+      "rank": 2
+     },
+     {
+      "key": "caitlin-simmers",
+      "name": "Caitlin Simmers",
+      "country": "United States",
+      "rank": 3
+     },
+     {
+      "key": "gabriela-bryan",
+      "name": "Gabriela Bryan",
+      "country": "Hawaii",
+      "rank": 4
+     },
+     {
+      "key": "erin-brooks",
+      "name": "Erin Brooks",
+      "country": "Canada",
+      "rank": 5
+     },
+     {
+      "key": "sawyer-lindblad",
+      "name": "Sawyer Lindblad",
+      "country": "United States",
+      "rank": 6
+     },
+     {
+      "key": "luana-silva",
+      "name": "Luana Silva",
+      "country": "Brazil",
+      "rank": 7
+     },
+     {
+      "key": "lakey-peterson",
+      "name": "Lakey Peterson",
+      "country": "United States",
+      "rank": 8
+     },
+     {
+      "key": "isabella-nichols",
+      "name": "Isabella Nichols",
+      "country": "Australia",
+      "rank": 9
+     },
+     {
+      "key": "bettylou-sakura-johnson",
+      "name": "Bettylou Sakura Johnson",
+      "country": "Hawaii",
+      "rank": 10
+     },
+     {
+      "key": "nadia-erostarbe",
+      "name": "Nadia Erostarbe",
+      "country": "Spain",
+      "rank": 11
+     },
+     {
+      "key": "caroline-marks",
+      "name": "Caroline Marks",
+      "country": "United States",
+      "rank": 12
+     },
+     {
+      "key": "tyler-wright",
+      "name": "Tyler Wright",
+      "country": "Australia",
+      "rank": 13
+     },
+     {
+      "key": "yolanda-hopkins",
+      "name": "Yolanda Hopkins",
+      "country": "Portugal",
+      "rank": 14
+     },
+     {
+      "key": "anat-lelior",
+      "name": "Anat Lelior",
+      "country": "Israel",
+      "rank": 15
+     },
+     {
+      "key": "alyssa-spencer",
+      "name": "Alyssa Spencer",
+      "country": "United States",
+      "rank": 16
+     },
+     {
+      "key": "stephanie-gilmore",
+      "name": "Stephanie Gilmore",
+      "country": "Australia",
+      "rank": 17
+     },
+     {
+      "key": "brisa-hennessy",
+      "name": "Brisa Hennessy",
+      "country": "Costa Rica",
+      "rank": 18
+     },
+     {
+      "key": "tya-zebrowski",
+      "name": "Tya Zebrowski",
+      "country": "France",
+      "rank": 19
+     },
+     {
+      "key": "vahine-fierro",
+      "name": "Vahine Fierro",
+      "country": "France",
+      "rank": 20
+     },
+     {
+      "key": "sally-fitzgibbons",
+      "name": "Sally Fitzgibbons",
+      "country": "Australia",
+      "rank": 21
+     },
+     {
+      "key": "bella-kenworthy",
+      "name": "Bella Kenworthy",
+      "country": "United States",
+      "rank": 22
+     },
+     {
+      "key": "francisca-veselko",
+      "name": "Francisca Veselko",
+      "country": "Portugal",
+      "rank": 23
+     }
+    ]
+   },
+   "roster_source": "WSL tour list + Wikipedia check",
+   "roster_note": "Championship Tour surfers. Event wildcards and injury replacements are added when they are announced.",
+   "conflicts": [],
+   "results": {
+    "yago-dora": {
+     "place": 3,
+     "points": 6085
+    },
+    "gabriel-medina": {
+     "place": 1,
+     "points": 10000
+    },
+    "italo-ferreira": {
+     "place": 9,
+     "points": 3320
+    },
+    "griffin-colapinto": {
+     "place": 9,
+     "points": 3320
+    },
+    "miguel-pupo": {
+     "place": 9,
+     "points": 3320
+    },
+    "leonardo-fioravanti": {
+     "place": 9,
+     "points": 3320
+    },
+    "ethan-ewing": {
+     "place": 3,
+     "points": 6085
+    },
+    "kanoa-igarashi": {
+     "place": 5,
+     "points": 4745
+    },
+    "jack-robinson": {
+     "place": 2,
+     "points": 7800
+    },
+    "george-pittar": {
+     "place": 5,
+     "points": 4745
+    },
+    "kauli-vaast": {
+     "place": 17,
+     "points": 1330
+    },
+    "samuel-pupo": {
+     "place": 17,
+     "points": 1330
+    },
+    "liam-o-brien": {
+     "place": 9,
+     "points": 3320
+    },
+    "seth-moniz": {
+     "place": 5,
+     "points": 4745
+    },
+    "connor-o-leary": {
+     "place": 9,
+     "points": 3320
+    },
+    "cole-houshmand": {
+     "place": 17,
+     "points": 1330
+    },
+    "marco-mignot": {
+     "place": 17,
+     "points": 1330
+    },
+    "filipe-toledo": {
+     "place": 5,
+     "points": 4745
+    },
+    "callum-robson": {
+     "place": 17,
+     "points": 1330
+    },
+    "joao-chianca": {
+     "place": 17,
+     "points": 1330
+    },
+    "bronson-meydi": {
+     "place": 17,
+     "points": 1330
+    },
+    "noah-arkfeld": {
+     "place": 17,
+     "points": 1330
+    },
+    "jayuard-alciso": {
+     "place": 9,
+     "points": 3320
+    },
+    "john-mark-tokong": {
+     "place": 9,
+     "points": 3320
+    },
+    "molly-picklum": {
+     "place": 5,
+     "points": 4745
+    },
+    "carissa-moore": {
+     "place": 3,
+     "points": 6085
+    },
+    "caitlin-simmers": {
+     "place": 1,
+     "points": 10000
+    },
+    "gabriela-bryan": {
+     "place": 9,
+     "points": 3320
+    },
+    "erin-brooks": {
+     "place": 9,
+     "points": 3320
+    },
+    "sawyer-lindblad": {
+     "place": 9,
+     "points": 3320
+    },
+    "luana-silva": {
+     "place": 5,
+     "points": 4745
+    },
+    "lakey-peterson": {
+     "place": 9,
+     "points": 3320
+    },
+    "isabella-nichols": {
+     "place": 2,
+     "points": 7800
+    },
+    "bettylou-sakura-johnson": {
+     "place": 9,
+     "points": 3320
+    },
+    "nadia-erostarbe": {
+     "place": 5,
+     "points": 4745
+    },
+    "caroline-marks": {
+     "place": 9,
+     "points": 3320
+    },
+    "tyler-wright": {
+     "place": 3,
+     "points": 6085
+    },
+    "yolanda-hopkins": {
+     "place": 5,
+     "points": 4745
+    },
+    "sierra-kerr": {
+     "place": 9,
+     "points": 3320
+    },
+    "mara-lopez": {
+     "place": 9,
+     "points": 3320
+    }
+   },
+   "draftable": false
+  },
+  {
+   "id": "isa-wsg-2026",
+   "name": "ISA World Surfing Games",
+   "org": "ISA",
+   "series": "ISA World Championships",
+   "location": "Punta Rocas, Peru",
+   "start": "2026-11-06",
+   "end": "2026-11-15",
+   "status": "live",
+   "official": "https://isasurf.org/",
+   "roster": null,
+   "roster_source": null,
+   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "conflicts": [],
+   "results": null,
+   "draftable": false
+  },
+  {
+   "id": "qs-taiwan-2026",
+   "name": "QS 6,000 Taiwan",
+   "org": "WSL",
+   "series": "Qualifying Series",
+   "location": "Jinzun Harbor, Taitung, Taiwan",
+   "start": "2026-11-14",
+   "end": "2026-11-22",
+   "status": "live",
+   "official": "https://www.worldsurfleague.com/",
+   "roster": null,
+   "roster_source": null,
+   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "conflicts": [],
+   "results": null,
+   "draftable": false
+  },
+  {
+   "id": "isa-wpsc-2026",
+   "name": "ISA World Para Surfing Championship",
+   "org": "ISA",
+   "series": "ISA World Championships",
+   "location": "DSRT Surf, Palm Desert, California",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "status": "upcoming",
+   "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
+   "roster": null,
+   "roster_source": null,
+   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "conflicts": [],
+   "results": null,
+   "draftable": false
+  },
+  {
+   "id": "wsl-ct-2026-lexuspipemasters",
+   "name": "Lexus Pipe Masters",
+   "org": "WSL",
+   "series": "2026 Championship Tour",
+   "location": "Banzai Pipeline, Oahu, Hawaii",
+   "start": "2026-12-08",
+   "end": "2026-12-20",
+   "status": "upcoming",
+   "official": "https://www.worldsurfleague.com/events",
+   "roster": {
+    "men": [
+     {
+      "key": "yago-dora",
+      "name": "Yago Dora",
+      "country": "Brazil",
+      "rank": 1
+     },
+     {
+      "key": "gabriel-medina",
+      "name": "Gabriel Medina",
+      "country": "Brazil",
+      "rank": 2
+     },
+     {
+      "key": "italo-ferreira",
+      "name": "Italo Ferreira",
+      "country": "Brazil",
+      "rank": 3
+     },
+     {
+      "key": "griffin-colapinto",
+      "name": "Griffin Colapinto",
+      "country": "United States",
+      "rank": 4
+     },
+     {
+      "key": "miguel-pupo",
+      "name": "Miguel Pupo",
+      "country": "Brazil",
+      "rank": 5
+     },
+     {
+      "key": "leonardo-fioravanti",
+      "name": "Leonardo Fioravanti",
+      "country": "Italy",
+      "rank": 6
+     },
+     {
+      "key": "ethan-ewing",
+      "name": "Ethan Ewing",
+      "country": "Australia",
+      "rank": 7
+     },
+     {
+      "key": "kanoa-igarashi",
+      "name": "Kanoa Igarashi",
+      "country": "Japan",
+      "rank": 8
+     },
+     {
+      "key": "jack-robinson",
+      "name": "Jack Robinson",
+      "country": "Australia",
+      "rank": 9
+     },
+     {
+      "key": "george-pittar",
+      "name": "George Pittar",
+      "country": "Australia",
+      "rank": 10
+     },
+     {
+      "key": "kauli-vaast",
+      "name": "Kauli Vaast",
+      "country": "France",
+      "rank": 11
+     },
+     {
+      "key": "samuel-pupo",
+      "name": "Samuel Pupo",
+      "country": "Brazil",
+      "rank": 12
+     },
+     {
+      "key": "liam-o-brien",
+      "name": "Liam O'Brien",
+      "country": "Australia",
+      "rank": 13
+     },
+     {
+      "key": "seth-moniz",
+      "name": "Seth Moniz",
+      "country": "Hawaii",
+      "rank": 14
+     },
+     {
+      "key": "connor-o-leary",
+      "name": "Connor O'Leary",
+      "country": "Japan",
+      "rank": 15
+     },
+     {
+      "key": "cole-houshmand",
+      "name": "Cole Houshmand",
+      "country": "United States",
+      "rank": 16
+     },
+     {
+      "key": "marco-mignot",
+      "name": "Marco Mignot",
+      "country": "France",
+      "rank": 17
+     },
+     {
+      "key": "morgan-cibilic",
+      "name": "Morgan Cibilic",
+      "country": "Australia",
+      "rank": 18
+     },
+     {
+      "key": "filipe-toledo",
+      "name": "Filipe Toledo",
+      "country": "Brazil",
+      "rank": 19
+     },
+     {
+      "key": "callum-robson",
+      "name": "Callum Robson",
+      "country": "Australia",
+      "rank": 20
+     },
+     {
+      "key": "joao-chianca",
+      "name": "Joao Chianca",
+      "country": "Brazil",
+      "rank": 21
+     },
+     {
+      "key": "jake-marshall",
+      "name": "Jake Marshall",
+      "country": "United States",
+      "rank": 22
+     },
+     {
+      "key": "barron-mamiya",
+      "name": "Barron Mamiya",
+      "country": "Hawaii",
+      "rank": 23
+     },
+     {
+      "key": "alan-cleland",
+      "name": "Alan Cleland",
+      "country": "Mexico",
+      "rank": 24
+     },
+     {
+      "key": "crosby-colapinto",
+      "name": "Crosby Colapinto",
+      "country": "United States",
+      "rank": 25
+     },
+     {
+      "key": "mateus-herdy",
+      "name": "Mateus Herdy",
+      "country": "Brazil",
+      "rank": 26
+     },
+     {
+      "key": "alejo-muniz",
+      "name": "Alejo Muniz",
+      "country": "Brazil",
+      "rank": 27
+     },
+     {
+      "key": "rio-waida",
+      "name": "Rio Waida",
+      "country": "Indonesia",
+      "rank": 28
+     },
+     {
+      "key": "ramzi-boukhiam",
+      "name": "Ramzi Boukhiam",
+      "country": "Morocco",
+      "rank": 29
+     },
+     {
+      "key": "joel-vaughan",
+      "name": "Joel Vaughan",
+      "country": "Australia",
+      "rank": 30
+     },
+     {
+      "key": "eli-hanneman",
+      "name": "Eli Hanneman",
+      "country": "Hawaii",
+      "rank": 31
+     },
+     {
+      "key": "luke-thompson",
+      "name": "Luke Thompson",
+      "country": "South Africa",
+      "rank": 32
+     },
+     {
+      "key": "jordy-smith",
+      "name": "Jordy Smith",
+      "country": "South Africa",
+      "rank": 33
+     },
+     {
+      "key": "matthew-mcgillivray",
+      "name": "Matthew McGillivray",
+      "country": "South Africa",
+      "rank": 34
+     },
+     {
+      "key": "oscar-berry",
+      "name": "Oscar Berry",
+      "country": "Australia",
+      "rank": 35
+     }
+    ],
+    "women": [
+     {
+      "key": "molly-picklum",
+      "name": "Molly Picklum",
+      "country": "Australia",
+      "rank": 1
+     },
+     {
+      "key": "carissa-moore",
+      "name": "Carissa Moore",
+      "country": "Hawaii",
+      "rank": 2
+     },
+     {
+      "key": "caitlin-simmers",
+      "name": "Caitlin Simmers",
+      "country": "United States",
+      "rank": 3
+     },
+     {
+      "key": "gabriela-bryan",
+      "name": "Gabriela Bryan",
+      "country": "Hawaii",
+      "rank": 4
+     },
+     {
+      "key": "erin-brooks",
+      "name": "Erin Brooks",
+      "country": "Canada",
+      "rank": 5
+     },
+     {
+      "key": "sawyer-lindblad",
+      "name": "Sawyer Lindblad",
+      "country": "United States",
+      "rank": 6
+     },
+     {
+      "key": "luana-silva",
+      "name": "Luana Silva",
+      "country": "Brazil",
+      "rank": 7
+     },
+     {
+      "key": "lakey-peterson",
+      "name": "Lakey Peterson",
+      "country": "United States",
+      "rank": 8
+     },
+     {
+      "key": "isabella-nichols",
+      "name": "Isabella Nichols",
+      "country": "Australia",
+      "rank": 9
+     },
+     {
+      "key": "bettylou-sakura-johnson",
+      "name": "Bettylou Sakura Johnson",
+      "country": "Hawaii",
+      "rank": 10
+     },
+     {
+      "key": "nadia-erostarbe",
+      "name": "Nadia Erostarbe",
+      "country": "Spain",
+      "rank": 11
+     },
+     {
+      "key": "caroline-marks",
+      "name": "Caroline Marks",
+      "country": "United States",
+      "rank": 12
+     },
+     {
+      "key": "tyler-wright",
+      "name": "Tyler Wright",
+      "country": "Australia",
+      "rank": 13
+     },
+     {
+      "key": "yolanda-hopkins",
+      "name": "Yolanda Hopkins",
+      "country": "Portugal",
+      "rank": 14
+     },
+     {
+      "key": "anat-lelior",
+      "name": "Anat Lelior",
+      "country": "Israel",
+      "rank": 15
+     },
+     {
+      "key": "alyssa-spencer",
+      "name": "Alyssa Spencer",
+      "country": "United States",
+      "rank": 16
+     },
+     {
+      "key": "stephanie-gilmore",
+      "name": "Stephanie Gilmore",
+      "country": "Australia",
+      "rank": 17
+     },
+     {
+      "key": "brisa-hennessy",
+      "name": "Brisa Hennessy",
+      "country": "Costa Rica",
+      "rank": 18
+     },
+     {
+      "key": "tya-zebrowski",
+      "name": "Tya Zebrowski",
+      "country": "France",
+      "rank": 19
+     },
+     {
+      "key": "vahine-fierro",
+      "name": "Vahine Fierro",
+      "country": "France",
+      "rank": 20
+     },
+     {
+      "key": "sally-fitzgibbons",
+      "name": "Sally Fitzgibbons",
+      "country": "Australia",
+      "rank": 21
+     },
+     {
+      "key": "bella-kenworthy",
+      "name": "Bella Kenworthy",
+      "country": "United States",
+      "rank": 22
+     },
+     {
+      "key": "francisca-veselko",
+      "name": "Francisca Veselko",
+      "country": "Portugal",
+      "rank": 23
+     }
+    ]
+   },
+   "roster_source": "WSL tour list + Wikipedia check",
+   "roster_note": "Championship Tour surfers. Event wildcards and injury replacements are added when they are announced.",
+   "conflicts": [],
+   "results": null,
+   "draftable": true
+  },
+  {
+   "id": "qs-pipe-2027",
+   "name": "QS 6,000 Pipeline",
+   "org": "WSL",
+   "series": "Qualifying Series",
+   "location": "Pipeline, Oahu",
+   "start": "2027-01-29",
+   "end": "2027-02-08",
+   "status": "upcoming",
+   "official": "https://www.worldsurfleague.com/",
+   "roster": null,
+   "roster_source": null,
+   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "conflicts": [],
+   "results": null,
+   "draftable": false
+  },
+  {
+   "id": "cs-newcastle-2027",
+   "name": "Challenger Series Newcastle",
+   "org": "WSL",
+   "series": "Challenger Series",
+   "location": "Newcastle, NSW, Australia",
+   "start": "2027-03-01",
+   "end": "2027-03-07",
+   "status": "upcoming",
+   "official": "https://www.worldsurfleague.com/",
+   "roster": null,
+   "roster_source": null,
+   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "conflicts": [],
+   "results": null,
+   "draftable": false
+  },
+  {
+   "id": "la28-surfing",
+   "name": "LA28 Olympic Surfing",
+   "org": "IOC / ISA",
+   "series": "Olympics",
+   "location": "Lower Trestles, California",
+   "start": "2028-07-15",
+   "end": "2028-07-23",
+   "status": "upcoming",
+   "official": "https://la28.org/",
+   "roster": null,
+   "roster_source": null,
+   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "conflicts": [],
+   "results": null,
+   "draftable": false
+  }
+ ]
+}
