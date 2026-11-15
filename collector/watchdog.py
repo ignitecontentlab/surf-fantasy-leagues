@@ -16,7 +16,7 @@ import requests
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 D = os.path.join(ROOT, "data")
 STATE = os.path.join(D, "watchdog.json")
-REPO = os.environ.get("GITHUB_REPOSITORY", "ignitecontentlab/isa-peru-fantasy-2026")
+REPO = os.environ.get("GITHUB_REPOSITORY", "ignitecontentlab/surf-fantasy-leagues")
 OWNER = REPO.split("/")[0]
 SITE = f"https://{OWNER}.github.io/{REPO.split('/')[1]}/"
 NOW = dt.datetime.now(dt.timezone.utc)

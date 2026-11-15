@@ -25,7 +25,7 @@ SEED = os.path.join(ROOT, "collector", "events_seed.json")
 OUT = os.path.join(D, "events.json")
 LOG = os.path.join(D, "changes.json")
 NOTIFY = os.environ.get("NOTIFY_FILE", "")
-UA = {"User-Agent": "isa-fantasy-events/1.0 (https://ignitecontentlab.github.io/isa-peru-fantasy-2026/; ignitecontentlab@gmail.com)"}
+UA = {"User-Agent": "isa-fantasy-events/1.0 (https://ignitecontentlab.github.io/surf-fantasy-leagues/; ignitecontentlab@gmail.com)"}
 WIKI = "https://en.wikipedia.org/w/api.php"
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = NOW.date()
@@ -346,7 +346,7 @@ def main():
             if failed:
                 f.write("### Sources that failed (last good data kept)\n" +
                         "\n".join(f"- {k}: {sources[k].get('error')}" for k in failed) + "\n\n")
-            f.write("Review: https://ignitecontentlab.github.io/isa-peru-fantasy-2026/#events\n")
+            f.write("Review: https://ignitecontentlab.github.io/surf-fantasy-leagues/#events\n")
     print(json.dumps({"events": len(events), "changes": len(changes), "sources": sources}, indent=1))
 
 

@@ -16,7 +16,7 @@ import requests
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "..", "data")
-UA = {"User-Agent": "surf-fantasy-socials/1.0 (https://ignitecontentlab.github.io/isa-peru-fantasy-2026/; ignitecontentlab@gmail.com)"}
+UA = {"User-Agent": "surf-fantasy-socials/1.0 (https://ignitecontentlab.github.io/surf-fantasy-leagues/; ignitecontentlab@gmail.com)"}
 FIELDS = {"ig": "instagram", "tt": "tiktok", "yt": "youtube", "x": "x", "fb": "facebook", "web": "website"}
 
 Q = """SELECT ?p ?pLabel ?alt ?ig ?tt ?yt ?x ?fb ?web ?img WHERE {

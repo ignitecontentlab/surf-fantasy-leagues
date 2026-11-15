@@ -17,7 +17,7 @@ import requests
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "..", "data")
 WP = "https://en.wikipedia.org/w/api.php"
-S = requests.Session(); S.headers.update({"User-Agent": "surf-fantasy-bios/1.0 (https://ignitecontentlab.github.io/isa-peru-fantasy-2026/; ignitecontentlab@gmail.com)"})
+S = requests.Session(); S.headers.update({"User-Agent": "surf-fantasy-bios/1.0 (https://ignitecontentlab.github.io/surf-fantasy-leagues/; ignitecontentlab@gmail.com)"})
 NOW = datetime.now(timezone.utc)
 GROUPS = [("background", r"early life|childhood|background|biograph|family|personal|youth|upbringing"),
           ("road", r"career|professional|competit|amateur|junior|rookie|qualif|tour|olymp"),

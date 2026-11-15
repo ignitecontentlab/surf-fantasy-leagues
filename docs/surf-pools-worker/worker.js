@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.12.0';
+const APP_VERSION = 'app-0.13.0';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -236,6 +236,7 @@ async function register(req, env, ip) {
     }
   }
   const user = await env.DB.prepare('SELECT id, is_admin FROM users WHERE username = ?').bind(username).first();
+  if (code && count > 0) { try { const g = await env.DB.prepare('SELECT grants FROM invite_codes WHERE code = ?').bind(code).first(); if (g && g.grants === 'peru') await grantPeru(env, user.id, code); } catch (e) {} }
   const ses = await startSession(env, user.id);
   const out = { ok: true, username, admin: !!user.is_admin };
   if (!emailOn(env)) out.recoveryCode = recovery;
@@ -316,7 +317,7 @@ async function forgot(req, env, ip) {
     const t = rand(32), now = Date.now();
     await env.DB.prepare('INSERT INTO password_resets(token_hash, user_id, expires_at, used, created_at) VALUES (?, ?, ?, 0, ?)').bind(await sha256(t), u.id, now + RESET_MS, new Date(now).toISOString()).run();
     await env.DB.prepare('DELETE FROM password_resets WHERE expires_at < ?').bind(now - 86400000).run();
-    const link = SITE + '/isa-peru-fantasy-2026/#reset/' + t;
+    const link = SITE_URL + '#reset/' + t;
     const text = `Hi ${u.username},\n\nSomeone asked to reset the password for your Surf Fantasy Leagues account. Open this link within 30 minutes to choose a new password:\n\n${link}\n\nIf you didn't ask for this, you can ignore this email. Your password stays the same.`;
     const html = `<div style="font-family:Arial,sans-serif;font-size:15px;color:#111;max-width:520px"><p>Hi ${u.username},</p><p>Someone asked to reset the password for your Surf Fantasy Leagues account. This link works for 30 minutes.</p><p><a href="${link}" style="display:inline-block;padding:12px 20px;border-radius:999px;background:#ef2fb0;color:#fff;text-decoration:none;font-weight:bold">Choose a new password</a></p><p style="font-size:12px;color:#555">Or paste this into your browser: ${link}</p><p style="font-size:12px;color:#555">If you didn't ask for this, ignore this email. Your password stays the same.</p></div>`;
     try { await sendMail(env, email, 'Reset your Surf Fantasy Leagues password', text, html); } catch (e) {}
@@ -379,7 +380,7 @@ async function inviteList(env, u) {
   const cols = await inviteCols(env);
   const want = ['code', 'uses', 'max_uses', 'disabled', 'expires_at', 'created_at', 'note'].filter((k) => cols.includes(k));
   const order = cols.includes('created_at') ? 'created_at DESC' : 'rowid DESC';
-  const { results } = await env.DB.prepare(`SELECT ${want.join(', ')} FROM invite_codes ORDER BY ${order} LIMIT 30`).all();
+  const { results } = await env.DB.prepare(`SELECT ${want.join(', ')} FROM invite_codes${cols.includes('grants') ? ' WHERE grants IS NULL' : ''} ORDER BY ${order} LIMIT 30`).all();
   const n = await env.DB.prepare('SELECT COUNT(*) AS n FROM users').first();
   return json({ invites: results, users: n.n, maxUsers: parseInt(env.MAX_USERS, 10) || 10 });
 }
@@ -476,7 +477,9 @@ async function poolJoining(req, env, u) {
   return json({ ok: true, open: !!b.open });
 }
 // ---------- Drafts, contest catalog and public drafts (app-0.9) ----------
-const CATALOG_URL = SITE + '/isa-peru-fantasy-2026/data/contests.json';
+const SITE_PATH = '/surf-fantasy-leagues/';
+const CATALOG_URL = SITE + SITE_PATH + 'data/contests.json';
+const CATALOG_URLS = [CATALOG_URL, 'https://raw.githubusercontent.com/ignitecontentlab/surf-fantasy-leagues/main/data/contests.json', SITE + '/isa-peru-fantasy-2026/data/contests.json'];
 const DAY = 86400000;
 const CLOCKS = [30, 45, 60, 90, 120, 180, 300, 600, 1800, 3600, 14400, 28800, 86400];
 const GEN = { men: 3, women: 2 };
@@ -517,10 +520,17 @@ async function syncCatalog(env, force) {
   await env.DB.prepare("INSERT INTO app_state(k, v) VALUES ('catalog_sync', ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v").bind(String(Date.now())).run();
   let doc;
   try {
-    const r = await fetch(CATALOG_URL + '?t=' + Date.now(), { headers: { 'user-agent': 'surf-pools-app' } });
-    if (!r.ok) throw new Error('catalog http ' + r.status);
-    doc = await r.json();
-    if (!doc || !Array.isArray(doc.contests)) throw new Error('catalog has no contests');
+    let lastErr = null;
+    for (const src of CATALOG_URLS) {
+      try {
+        const r = await fetch(src + '?t=' + Date.now(), { headers: { 'user-agent': 'surf-pools-app' } });
+        if (!r.ok) throw new Error('catalog http ' + r.status);
+        const d = await r.json();
+        if (!d || !Array.isArray(d.contests)) throw new Error('catalog has no contests');
+        doc = d; break;
+      } catch (e) { lastErr = e; }
+    }
+    if (!doc) throw lastErr || new Error('catalog unavailable');
   } catch (e) {
     // try again in about a minute instead of waiting the full 15
     await env.DB.prepare("UPDATE app_state SET v = ? WHERE k = 'catalog_sync'").bind(String(Date.now() - 14 * 60000)).run();
@@ -1387,7 +1397,7 @@ boot();
 // Levels: 0 member, 1 editor (surfer profiles, claims, bug reports), 2 admin (everything except the admin team),
 // 3 owner (the original account: the only one who can add or remove admins and editors; cannot be removed).
 const LEVELS = { 0: 'Member', 1: 'Editor', 2: 'Admin', 3: 'Owner' };
-const SITE_URL = SITE + '/isa-peru-fantasy-2026/';
+const SITE_URL = SITE + SITE_PATH;
 const CLAIM_DAYS = 14;
 const SOCIAL_KEYS = ['instagram', 'tiktok', 'youtube', 'x', 'facebook', 'website', 'wsl', 'isa', 'strava', 'linktree'];
 const SOCIAL_HOSTS = {
@@ -1399,6 +1409,25 @@ const DEFAULT_SITE = {
   ticker: { text: '', on: false },
   toggles: { signups: true, poolCreate: true, publicDrafts: true, surferEdits: true, bugReports: true }
 };
+// ---------- private Peru pool access (app-0.13) ----------
+let peruReady = false;
+async function migratePeru(env) {
+  if (peruReady) return;
+  try { await env.DB.prepare('ALTER TABLE invite_codes ADD COLUMN grants TEXT').run(); } catch (e) {}
+  try { await env.DB.prepare('ALTER TABLE invite_codes ADD COLUMN note TEXT').run(); } catch (e) {}
+  await env.DB.prepare('CREATE TABLE IF NOT EXISTS peru_access(user_id INTEGER PRIMARY KEY, code TEXT, at INTEGER NOT NULL, by_user INTEGER)').run();
+  peruReady = true;
+}
+async function grantPeru(env, uid, code, by) {
+  await migratePeru(env);
+  await env.DB.prepare('INSERT OR IGNORE INTO peru_access(user_id, code, at, by_user) VALUES (?, ?, ?, ?)').bind(uid, code || null, Date.now(), by || null).run();
+}
+async function hasPeru(env, u) {
+  if (!u) return false;
+  if (lvl(u) >= 1) return true;
+  await migratePeru(env);
+  return !!(await env.DB.prepare('SELECT 1 AS x FROM peru_access WHERE user_id = ?').bind(u.id).first());
+}
 let adminMigrated = false;
 let ownerSet = false;
 async function migrateAdmin(env) {
@@ -1541,8 +1570,9 @@ async function saveProfile(env, u, k, name, b) {
 }
 
 async function adminRoutes(request, env, url, path, ip) {
-  if (!path.startsWith('/api/site') && !path.startsWith('/api/surfer') && !path.startsWith('/api/claim') && !path.startsWith('/api/bugs') && !path.startsWith('/api/admin/') && path !== '/api/me') return null;
+  if (!path.startsWith('/api/site') && !path.startsWith('/api/surfer') && !path.startsWith('/api/claim') && !path.startsWith('/api/bugs') && !path.startsWith('/api/admin/') && !path.startsWith('/api/peru') && path !== '/api/me') return null;
   await migrateAdmin(env);
+  await migratePeru(env);
   const G = request.method === 'GET', P = request.method === 'POST';
   // ----- public -----
   if (G && path === '/api/site') return json(await siteSettings(env), 200, { 'cache-control': 'public, max-age=30' });
@@ -1587,7 +1617,7 @@ async function adminRoutes(request, env, url, path, ip) {
     if (!u) return json({ user: null });
     const l = await linkOf(env, u.id);
     const L = lvl(u);
-    return json({ user: { username: u.username, admin: L >= 2, level: L, levelName: LEVELS[L], owner: L === 3, email: u.email, phone: u.phone, emailVerified: !!u.email_verified, phoneVerified: !!u.phone_verified, surfer: l ? { key: l.surfer_key, name: l.surfer_name } : null, pro: await isPro(env, u) } });
+    return json({ user: { username: u.username, admin: L >= 2, level: L, levelName: LEVELS[L], owner: L === 3, email: u.email, phone: u.phone, emailVerified: !!u.email_verified, phoneVerified: !!u.phone_verified, surfer: l ? { key: l.surfer_key, name: l.surfer_name } : null, pro: await isPro(env, u), peru: await hasPeru(env, u) } });
   }
   const u = await currentUser(request, env);
   if (!u) return json({ error: 'Please log in.' }, 401);
@@ -1631,6 +1661,19 @@ async function adminRoutes(request, env, url, path, ip) {
     await logA(env, u, own ? 'profile.self-edit' : 'profile.admin-edit', k);
     if (own && L < 1) await notifyAdmins(env, `${name || k} updated their surfer profile`, [`${u.username} (verified as ${name || k}) changed their profile. It is live now; you can undo it from the admin panel.`], 'profiles/' + k);
     return json({ ok: true });
+  }
+  // ----- private Peru pool -----
+  if (G && path === '/api/peru/access') return json({ ok: true, access: await hasPeru(env, u), username: u.username });
+  if (P && path === '/api/peru/redeem') {
+    if (await hasPeru(env, u)) return json({ ok: true, access: true });
+    const bk = ['peru:' + ip, 'peruu:' + u.id];
+    if (await isLimited(env, bk)) return json({ error: 'Too many tries. Try again in 15 minutes.' }, 429);
+    const code = String((b || {}).code || '').trim().toUpperCase();
+    const r = await env.DB.prepare("UPDATE invite_codes SET uses = uses + 1 WHERE code = ? AND grants = 'peru' AND disabled = 0 AND uses < max_uses AND (expires_at IS NULL OR expires_at > ?)").bind(code, Date.now()).run();
+    if (!r.meta || r.meta.changes !== 1) { await addFailure(env, bk); return json({ error: 'That Peru code is not valid or was already used.' }, 403); }
+    await grantPeru(env, u.id, code);
+    await logA(env, u, 'peru.redeem', code);
+    return json({ ok: true, access: true });
   }
   // ----- admin panel (editor and up) -----
   if (!path.startsWith('/api/admin/')) return null;
@@ -1774,6 +1817,42 @@ async function adminRoutes(request, env, url, path, ip) {
     const own = await ownerId(env);
     return json({ users: results.map((x) => ({ username: x.username, email: L >= 3 ? x.email : x.email ? x.email.replace(/^(.).*(@.*)$/, '$1***$2') : '', created: x.created_at, disabled: !!x.disabled, level: x.id === own ? 3 : Math.max(x.admin_level || 0, x.is_admin ? 2 : 0), owner: x.id === own, surfer: x.surfer_key, pro: !!x.pro })), canManageTeam: L >= 3 });
   }
+  if (G && path === '/api/admin/peru') {
+    const n = need(2); if (n) return n;
+    const codes = (await env.DB.prepare("SELECT i.code, i.uses, i.max_uses, i.disabled, i.expires_at, i.note, (SELECT group_concat(u.username, ', ') FROM peru_access a JOIN users u ON u.id = a.user_id WHERE a.code = i.code) AS used_by FROM invite_codes i WHERE i.grants = 'peru' ORDER BY i.rowid DESC LIMIT 60").all()).results;
+    const people = (await env.DB.prepare('SELECT u.username, a.code, a.at FROM peru_access a JOIN users u ON u.id = a.user_id ORDER BY a.at').all()).results;
+    return json({ codes, people });
+  }
+  if (P && path === '/api/admin/peru/codes') {
+    const n = need(2); if (n) return n;
+    const count = Math.min(20, Math.max(1, parseInt(b.count, 10) || 10));
+    const days = Math.min(365, Math.max(1, parseInt(b.days, 10) || 90));
+    const note = cleanText(b.note || '', 0, 40) || '';
+    const out = [];
+    for (let i = 0; i < count; i++) {
+      for (let t = 0; t < 6; t++) {
+        const code = 'PERU' + makeCode(4);
+        try { await env.DB.prepare("INSERT INTO invite_codes(code, uses, max_uses, disabled, expires_at, created_at, grants, note) VALUES (?, 0, 1, 0, ?, ?, 'peru', ?)").bind(code, Date.now() + days * 86400000, new Date().toISOString(), note).run(); out.push(code); break; } catch (e) {}
+      }
+    }
+    await logA(env, u, 'peru.codes', `${out.length} codes, ${days} days`);
+    return json({ ok: true, codes: out });
+  }
+  if (P && path === '/api/admin/peru/grant') {
+    const n = need(2); if (n) return n;
+    const t = await env.DB.prepare('SELECT id FROM users WHERE lower(username) = lower(?)').bind(String(b.username || '')).first();
+    if (!t) return json({ error: 'No account with that username.' }, 404);
+    if (b.revoke) await env.DB.prepare('DELETE FROM peru_access WHERE user_id = ?').bind(t.id).run();
+    else await grantPeru(env, t.id, null, u.id);
+    await logA(env, u, b.revoke ? 'peru.revoke' : 'peru.grant', b.username);
+    return json({ ok: true });
+  }
+  if (P && path === '/api/admin/peru/disable') {
+    const n = need(2); if (n) return n;
+    await env.DB.prepare("UPDATE invite_codes SET disabled = 1 WHERE code = ? AND grants = 'peru'").bind(String(b.code || '').toUpperCase()).run();
+    await logA(env, u, 'peru.code.off', b.code);
+    return json({ ok: true });
+  }
   if (P && path === '/api/admin/users/pro') {
     const n = need(2); if (n) return n;
     const t = await env.DB.prepare('SELECT id FROM users WHERE lower(username) = lower(?)').bind(String(b.username || '')).first();
@@ -1846,7 +1925,7 @@ async function handle(request, env) {
       const ar = await adminRoutes(request, env, url, path, ip);
       if (ar) return ar;
       if (request.method === 'GET') {
-        if (path === '/') return new Response(null, { status: 302, headers: { location: SITE + '/isa-peru-fantasy-2026/#account', 'cache-control': 'no-store' } });
+        if (path === '/') return new Response(null, { status: 302, headers: { location: SITE_URL + '#account', 'cache-control': 'no-store' } });
         if (path === '/classic') return page();
         if (path === '/api/config') {
           const c = await env.DB.prepare('SELECT COUNT(*) AS n FROM contests').first();

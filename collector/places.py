@@ -18,7 +18,7 @@ import requests
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "..", "data")
-UA = {"User-Agent": "surf-fantasy-places/1.0 (https://ignitecontentlab.github.io/isa-peru-fantasy-2026/; ignitecontentlab@gmail.com)"}
+UA = {"User-Agent": "surf-fantasy-places/1.0 (https://ignitecontentlab.github.io/surf-fantasy-leagues/; ignitecontentlab@gmail.com)"}
 WP, WV = "https://en.wikipedia.org/w/api.php", "https://en.wikivoyage.org/w/api.php"
 GUIDE = ["Understand", "Get in", "Get around", "See", "Do", "Eat", "Drink", "Sleep", "Stay safe", "Go next"]
 S = requests.Session(); S.headers.update(UA)

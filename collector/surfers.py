@@ -16,7 +16,7 @@ import requests
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 D = os.path.join(ROOT, "data")
 OUT = os.path.join(D, "surfers.json")
-UA = {"User-Agent": "isa-fantasy-events/1.0 (https://ignitecontentlab.github.io/isa-peru-fantasy-2026/; ignitecontentlab@gmail.com)"}
+UA = {"User-Agent": "isa-fantasy-events/1.0 (https://ignitecontentlab.github.io/surf-fantasy-leagues/; ignitecontentlab@gmail.com)"}
 WIKI = "https://en.wikipedia.org/w/api.php"
 NOW = dt.datetime.now(dt.timezone.utc)
 ALIASES = {"italo ferreira": "italo ferreira", "caity simmers": "caitlin simmers", "grant baker": "grant twiggy baker"}

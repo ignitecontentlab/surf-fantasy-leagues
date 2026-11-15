@@ -16,7 +16,7 @@ import requests
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "..", "data")
-UA = {"User-Agent": "Mozilla/5.0 (compatible; surf-fantasy-media/1.0; +https://ignitecontentlab.github.io/isa-peru-fantasy-2026/)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; surf-fantasy-media/1.0; +https://ignitecontentlab.github.io/surf-fantasy-leagues/)"}
 GN = "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q="
 
 NEWS = [
