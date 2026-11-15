@@ -1,5 +1,5 @@
 const SITE = 'https://ignitecontentlab.github.io';
-const APP_VERSION = 'app-0.7';
+const APP_VERSION = 'app-0.8';
 const RESET_MS = 30 * 60 * 1000;
 const PW_RULE = 'Password needs at least 8 characters, including 1 number and 1 special character (like ! or #).';
 function pwOk(pw) {
@@ -539,7 +539,9 @@ function authView(first,emailReset){
   if(mode==='signup'){em=inp('Email','email','email');ph=inp('Phone, e.g. +15551234567','tel','tel');cd=inp(first?'Setup code':'Invite code','text','off');f.append(field('Email',em),field('Phone',ph))}
   f.append(field('Password',p));
   if(mode==='signup'){p2=inp('Type it again','password','new-password');hint=h('p','muted',PWR);f.append(hint,field('Confirm password',p2),field(first?'Setup code':'Invite code',cd));
-   const chk=function(){const ok=pwOk(p.value);hint.textContent=(ok?'\u2713 ':'')+PWR;hint.style.color=p.value?(ok?'#5be3a0':'#ffb3c7'):''};p.oninput=chk}
+   const mt=h('p','muted','');f.insertBefore(mt,f.children[[].indexOf.call(f.children,p2.parentNode)+1]);
+   const chk=function(){const ok=pwOk(p.value);hint.textContent=(ok?'\u2713 Strong enough. ':'')+PWR;hint.style.color=p.value?(ok?'#5be3a0':'#ffb3c7'):'';
+    const a=p.value,c=p2.value;if(!c){mt.textContent='';return}if(a===c){mt.textContent='\u2713 Passwords match';mt.style.color='#5be3a0'}else if(a.startsWith(c)){mt.textContent='Keep typing\u2026';mt.style.color=''}else{mt.textContent='\u2715 Passwords do not match yet';mt.style.color='#ffb3c7'}};p.oninput=chk;p2.oninput=chk}
   const s=h('button','go',mode==='login'?'Log in':'Create account');s.type='submit';f.append(s);
   if(mode==='login'){const fg=h('button','ghost','Forgot password?');fg.type='button';fg.onclick=function(){mode='forgot';toast('');draw()};f.append(fg)}
   f.onsubmit=async function(e){e.preventDefault();toast('');
