@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-16T21:05:57+00:00",
- "content_hash": "795b041cf7b8",
+ "updated_at": "2026-11-16T22:03:58+00:00",
+ "content_hash": "7e3c97c62858",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -11,7 +11,8 @@
    "note": "season page not published yet"
   },
   "news": {
-   "ok": true
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Taiwan+Open+of+Surfing+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
   },
   "eddie": {
    "ok": true
@@ -39,7 +40,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-16T21:05:57+00:00"
+   "news_at": "2026-11-16T22:03:58+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -1321,5 +1322,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-16T21:05:57+00:00"
+ "checked_at": "2026-11-16T22:03:58+00:00"
 }
