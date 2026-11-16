@@ -1,5 +1,5 @@
 {
-"count": 172,
+"count": 176,
 "profiles": {
 "aaron-gold": {
 "socials": {
@@ -52,6 +52,17 @@
 "src": {
 "instagram": "search"
 }
+},
+"alice-lemoigne": {
+"socials": {
+"facebook": "https://www.facebook.com/AliceLemoigne1",
+"instagram": "https://www.instagram.com/lemoignealice/"
+},
+"src": {
+"facebook": "wikidata",
+"instagram": "wikidata"
+},
+"wikidata": "Q24325852"
 },
 "alonso-correa": {
 "socials": {
@@ -153,6 +164,15 @@
 "src": {
 "instagram": "search"
 }
+},
+"billy-stairmand": {
+"socials": {
+"instagram": "https://www.instagram.com/billystairmand/"
+},
+"src": {
+"instagram": "wikidata"
+},
+"wikidata": "Q106709075"
 },
 "brisa-hennessy": {
 "photo": {
@@ -318,6 +338,15 @@
 },
 "wikidata": "Q20993715"
 },
+"chloe-calmon": {
+"socials": {
+"instagram": "https://www.instagram.com/chloecalmon/"
+},
+"src": {
+"instagram": "wikidata"
+},
+"wikidata": "Q107578995"
+},
 "cliff-kapono": {
 "socials": {
 "instagram": "https://www.instagram.com/cliff_kapono/",
@@ -398,6 +427,16 @@
 "src": {
 "instagram": "search"
 }
+},
+"edouard-delpero": {
+"photo": {
+"credit": "Wikimedia Commons",
+"page": "https://commons.wikimedia.org/wiki/File:Edouard_Delpero.jpg",
+"src": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard%20Delpero.jpg?width=400"
+},
+"socials": {},
+"src": {},
+"wikidata": "Q20089566"
 },
 "eimeo-czermak": {
 "socials": {
@@ -1766,9 +1805,9 @@
 },
 "stats": {
 "manual": 0,
-"photos": 33,
+"photos": 34,
 "search": 123,
-"wikidata": 96
+"wikidata": 100
 },
-"updated_at": "2026-11-15T09:43:51+00:00"
+"updated_at": "2026-11-16T10:20:36+00:00"
 }

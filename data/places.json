@@ -288,7 +288,7 @@
 },
 "places": {
 "bells-beach": {
-"checked_at": "2026-11-14T20:38:17+00:00",
+"checked_at": "2026-11-16T10:20:37+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -463,20 +463,20 @@
 "url": "https://en.wikipedia.org/wiki/Point_Addis_Marine_National_Park"
 },
 {
-"desc": "Beach in Torquay, Victoria, Australia",
-"km": 7.6,
-"summary": "Whites Beach is a long sandy beach located between Torquay and Breamlea on Victoria's Surf Coast, Australia. Extending for approximately 4.5 kilometres, it is one of the longer beaches in the Torquay area and is known for its natural setting, walking…",
-"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Whites_Beach.jpg/330px-Whites_Beach.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-"title": "Whites Beach (Torquay)",
-"url": "https://en.wikipedia.org/wiki/Whites_Beach_(Torquay)"
-},
-{
 "desc": "Beach in Anglesea, Victoria, Australia",
 "km": 7.6,
 "summary": "Urquharts Bluff is a coastal headland and beach located on the Great Ocean Road between Aireys Inlet and Anglesea in Victoria, Australia.",
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Urquhart_Bluff.jpg/330px-Urquhart_Bluff.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Urquharts Bluff",
 "url": "https://en.wikipedia.org/wiki/Urquharts_Bluff"
+},
+{
+"desc": "Beach in Torquay, Victoria, Australia",
+"km": 7.6,
+"summary": "Whites Beach is a long sandy beach located between Torquay and Breamlea on Victoria's Surf Coast, Australia. Extending for approximately 4.5 kilometres, it is one of the longer beaches in the Torquay area and is known for its natural setting, walking…",
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Whites_Beach.jpg/330px-Whites_Beach.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+"title": "Whites Beach (Torquay)",
+"url": "https://en.wikipedia.org/wiki/Whites_Beach_(Torquay)"
 }
 ],
 "region": null,
@@ -501,7 +501,7 @@
 }
 },
 "cloud-9": {
-"checked_at": "2026-11-14T20:38:21+00:00",
+"checked_at": "2026-11-16T10:20:40+00:00",
 "country_name": "Philippines",
 "guessed": false,
 "guide": {
@@ -612,7 +612,7 @@
 }
 },
 "cloudbreak": {
-"checked_at": "2026-11-14T20:38:22+00:00",
+"checked_at": "2026-11-16T10:20:41+00:00",
 "country_name": "Fiji",
 "guessed": false,
 "guide": {
@@ -728,7 +728,7 @@
 "town": null
 },
 "dsrt-surf": {
-"checked_at": "2026-11-14T20:38:23+00:00",
+"checked_at": "2026-11-16T10:20:43+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -965,7 +965,7 @@
 }
 },
 "el-salvador-expected": {
-"checked_at": "2026-11-14T20:38:23+00:00",
+"checked_at": "2026-11-16T10:20:44+00:00",
 "country_name": "El Salvador",
 "guessed": true,
 "guide": {
@@ -1145,20 +1145,20 @@
 "url": "https://en.wikipedia.org/wiki/Teatro_Nacional_de_El_Salvador"
 },
 {
-"desc": "1811 revolt against Spanish rule in colonial El Salvador",
-"km": 1.9,
-"summary": "The 1811 Independence Movement (Spanish: Movimiento de Independencia de 1811), known in El Salvador as the First Shout of Independence (Primer Grito de Independencia), was the first of a series of revolts in Central America in modern-day El Salvador against…",
-"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg/330px-Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-"title": "1811 Independence Movement",
-"url": "https://en.wikipedia.org/wiki/1811_Independence_Movement"
-},
-{
 "desc": "Capital of El Salvador",
 "km": 1.9,
 "summary": "San Salvador (Spanish pronunciation: [san salβaˈðoɾ]) is the capital and largest city of El Salvador and of its eponymous department. It is the country's largest agglomeration, serving as the country's political, cultural, educational and financial center.",
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Monumento_al_Salvador_del_Mundo_1.jpg/330px-Monumento_al_Salvador_del_Mundo_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "San Salvador",
 "url": "https://en.wikipedia.org/wiki/San_Salvador"
+},
+{
+"desc": "1811 revolt against Spanish rule in colonial El Salvador",
+"km": 1.9,
+"summary": "The 1811 Independence Movement (Spanish: Movimiento de Independencia de 1811), known in El Salvador as the First Shout of Independence (Primer Grito de Independencia), was the first of a series of revolts in Central America in modern-day El Salvador against…",
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg/330px-Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+"title": "1811 Independence Movement",
+"url": "https://en.wikipedia.org/wiki/1811_Independence_Movement"
 },
 {
 "desc": "Former country in Central America (1823–1839/1841)",
@@ -1206,7 +1206,7 @@
 }
 },
 "el-sunzal": {
-"checked_at": "2026-11-14T20:38:24+00:00",
+"checked_at": "2026-11-16T10:20:45+00:00",
 "country_name": "El Salvador",
 "guessed": false,
 "guide": {
@@ -1308,7 +1308,7 @@
 }
 },
 "hudayriat": {
-"checked_at": "2026-11-14T20:38:25+00:00",
+"checked_at": "2026-11-16T10:20:45+00:00",
 "country_name": "United Arab Emirates",
 "guessed": false,
 "guide": {
@@ -1626,7 +1626,7 @@
 }
 },
 "jinzun": {
-"checked_at": "2026-11-14T20:38:26+00:00",
+"checked_at": "2026-11-16T10:20:46+00:00",
 "country_name": "Taiwan",
 "guessed": false,
 "guide": {
@@ -1802,7 +1802,7 @@
 }
 },
 "margaret-river": {
-"checked_at": "2026-11-14T20:38:27+00:00",
+"checked_at": "2026-11-16T10:20:49+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -2001,7 +2001,7 @@
 "town": null
 },
 "nazare": {
-"checked_at": "2026-11-14T20:38:28+00:00",
+"checked_at": "2026-11-16T10:20:50+00:00",
 "country_name": "Portugal",
 "guessed": false,
 "guide": {
@@ -2213,7 +2213,7 @@
 }
 },
 "newcastle": {
-"checked_at": "2026-11-14T20:38:29+00:00",
+"checked_at": "2026-11-16T10:20:52+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -2490,7 +2490,7 @@
 }
 },
 "north-shore-oahu": {
-"checked_at": "2026-11-14T20:38:30+00:00",
+"checked_at": "2026-11-16T10:20:53+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -2704,7 +2704,7 @@
 }
 },
 "punta-roca-sv": {
-"checked_at": "2026-11-14T20:38:31+00:00",
+"checked_at": "2026-11-16T10:20:54+00:00",
 "country_name": "El Salvador",
 "guessed": false,
 "guide": {
@@ -2810,7 +2810,7 @@
 }
 },
 "punta-rocas": {
-"checked_at": "2026-11-14T20:38:33+00:00",
+"checked_at": "2026-11-16T10:20:55+00:00",
 "country_name": "Peru",
 "guessed": false,
 "guide": {
@@ -3025,7 +3025,7 @@
 }
 },
 "raglan": {
-"checked_at": "2026-11-14T20:38:34+00:00",
+"checked_at": "2026-11-16T10:20:57+00:00",
 "country_name": "New Zealand",
 "guessed": false,
 "guide": null,
@@ -3112,7 +3112,7 @@
 "town": null
 },
 "saquarema": {
-"checked_at": "2026-11-14T20:38:35+00:00",
+"checked_at": "2026-11-16T10:20:57+00:00",
 "country_name": "Brazil",
 "guessed": false,
 "guide": {
@@ -3165,7 +3165,7 @@
 "town": null
 },
 "snapper-rocks": {
-"checked_at": "2026-11-14T20:38:36+00:00",
+"checked_at": "2026-11-16T10:20:58+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -3456,7 +3456,7 @@
 }
 },
 "supertubos": {
-"checked_at": "2026-11-14T20:38:37+00:00",
+"checked_at": "2026-11-16T10:20:59+00:00",
 "country_name": "Portugal",
 "guessed": false,
 "guide": {
@@ -3652,7 +3652,7 @@
 }
 },
 "teahupoo": {
-"checked_at": "2026-11-14T20:38:38+00:00",
+"checked_at": "2026-11-16T10:21:00+00:00",
 "country_name": "French Polynesia",
 "guessed": false,
 "guide": {
@@ -3813,7 +3813,7 @@
 "town": null
 },
 "trestles": {
-"checked_at": "2026-11-14T20:38:39+00:00",
+"checked_at": "2026-11-16T10:21:02+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -4045,7 +4045,7 @@
 }
 },
 "waimea-bay": {
-"checked_at": "2026-11-14T20:38:40+00:00",
+"checked_at": "2026-11-16T10:21:03+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -4259,5 +4259,5 @@
 }
 }
 },
-"updated_at": "2026-11-16T09:54:41+00:00"
+"updated_at": "2026-11-16T10:21:12+00:00"
 }
