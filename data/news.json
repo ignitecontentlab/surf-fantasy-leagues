@@ -1,16 +1,16 @@
 {
-"updated_at": "2026-11-16T05:55:10+00:00",
+"updated_at": "2026-11-16T09:24:37+00:00",
 "sources": {
-"Surfer": 33,
+"Surfer": 32,
 "ISA": 7,
-"Stab": 24,
-"Surfline": 5,
-"The Inertia": 49,
+"Stab": 22,
+"Surfline": 4,
+"The Inertia": 47,
 "BeachGrit": 16,
 "Tracks": 1,
 "World Surf League": 41,
-"Surfertoday": 6,
-"In the news": 43
+"Surfertoday": 5,
+"In the news": 45
 },
 "items": [
 {
@@ -42,6 +42,16 @@
 "desc": "A viral Morro Bay clip shows a 30-foot wall of whitewater detonating over a rock barrier as El Niño-powered surf hammers California from Santa Cruz to Pacifica.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Huge waves pummel the California coast, forcing the closure of iconic piers",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
+"source": "AP News",
+"at": "2026-11-16T03:07+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Adult Learner Surfer Lewis Hamilton Becomes Human Meme After Latest Geopolitical Faux Pas",
@@ -77,16 +87,6 @@
 "kind": "outlet"
 },
 {
-"title": "Huge waves pummel the California coast, forcing the closure of iconic piers",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
-"source": "AP News",
-"at": "2026-11-15T23:59+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Opening XL Day at Maverick's: A Brief Look",
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2UxSjdUNGw5ZHFxb191a29CNHI2dEtVS2tpcHlSVDBPTUo4ZndnN1dycm44S1lJalBMLTRNdXF3aXZXNnZQSFF5QnRXVF9SS1JsV3hyS05HTjIyZ2NvcWUyYzRObUFFTE02NnhoUW9pand5Q0daR0FqTlFCX21GS0ZreHRaVm93ZWZVQjJBdnZEaGVkcmZMQjZ6aFJxdkdt?oc=5",
 "source": "Surfline",
@@ -97,20 +97,20 @@
 "kind": "outlet"
 },
 {
-"title": "Video shows towering waves slamming California piers as dangerous surf threatens flooding",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMm9fc0k4cl9mU056RGNhSmNOcUsxaEdoeHI5Rk11aGpPVTlTbUxGOU9YWmhCUGVENDdNSXFSS3VZNl9MYkJwc3lvMzdoVnNRbThSaGVqclBEb1VoZ3dGcGQ2Ym1TQU9LZ2YyelgwZFk1ZkRnYnZFdVREWk54UGFUUkxfQkNKSkFoWEZkWVNQYnExX3BmemtZbWJqOUZsTDd5cE96cWt6WWFDNUNVVGY2aTBsTWtoT0d2UUs5VW12MULSAcYBQVVfeXFMTzcxNU1KaFZBX3JQLVoxdjhGZ2FZR0pMQ2F4QV9jZnJIdFpmeENrcU5NRlNlU28ycWdmZ1pkTzJuNUZad05pUDN6T2JmVklvY2FaMGJITnkzOElPTlB4eW5DT2NGSVljcXhQSHN4dlM1ekxHcFJ0X0tGZWJkb2pBbU9SUU5GM0JvMmhaYmg5T2sxN1c3aGlZY1psRHE0MmJQY0pSZ3Q2LVpqLVdDTmRBeEtvcm1hbVJCa2ZYSnFQWjNOREFpRm5n?oc=5",
-"source": "KTLA",
-"at": "2026-11-15T21:34+00:00",
+"title": "Massive waves from record-breaking West Coast surf pound San Diego beaches",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUjZGT0l2dEp4UjJtV1M2OVFsZ2c4bHdXS2g4dWQ4SDZKbkZlZzhxRWNNdVdfOWNsUE9UNS11aEZHdXZrdVdQN2hIblhjUkFyUDltcVJ5Umt1OU9SelRfd21vam9NblVuNURFVnVNcVJxbENHZkt4WGc0ckU2bDB5RUMtb3lQeTFrUmViWGswaUx2UlhhaDlwc24xVVF0ekVyU1M4cmJfcE1vektBb05kUFlUbmpkVGdReV9vZTJFNNIBxwFBVV95cUxQUzZBQTdEZEJDeWxNbGstSExBVWFnVXIzUUVKOHpiU3NXd3VWMHBJZlFtSFVtck5xamxRTzRQREtMTVlYbDR1cmN0UTVGVFJuNnY2Q1RuTF9pS2xiWnV4WF9WdUI1X2lrQ056VlJmLS11RmIwN0QzQ2VGTzhoZ0hhWjFDc2tmN3FRaU95b3NYM2hBWHJnMkgtNjVQanpuMmQwbzdWczJDemx3blpkVGFIdUV0eXI3dGdoYnpyc1MtT1JkRWR2aGJZ?oc=5",
+"source": "NBC 7 San Diego",
+"at": "2026-11-15T23:00+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
 "kind": "media"
 },
 {
-"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
-"source": "The New York Times",
-"at": "2026-11-15T21:11+00:00",
+"title": "Video shows towering waves slamming California piers as dangerous surf threatens flooding",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMm9fc0k4cl9mU056RGNhSmNOcUsxaEdoeHI5Rk11aGpPVTlTbUxGOU9YWmhCUGVENDdNSXFSS3VZNl9MYkJwc3lvMzdoVnNRbThSaGVqclBEb1VoZ3dGcGQ2Ym1TQU9LZ2YyelgwZFk1ZkRnYnZFdVREWk54UGFUUkxfQkNKSkFoWEZkWVNQYnExX3BmemtZbWJqOUZsTDd5cE96cWt6WWFDNUNVVGY2aTBsTWtoT0d2UUs5VW12MULSAcYBQVVfeXFMTzcxNU1KaFZBX3JQLVoxdjhGZ2FZR0pMQ2F4QV9jZnJIdFpmeENrcU5NRlNlU28ycWdmZ1pkTzJuNUZad05pUDN6T2JmVklvY2FaMGJITnkzOElPTlB4eW5DT2NGSVljcXhQSHN4dlM1ekxHcFJ0X0tGZWJkb2pBbU9SUU5GM0JvMmhaYmg5T2sxN1c3aGlZY1psRHE0MmJQY0pSZ3Q2LVpqLVdDTmRBeEtvcm1hbVJCa2ZYSnFQWjNOREFpRm5n?oc=5",
+"source": "KTLA",
+"at": "2026-11-15T21:34+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -257,16 +257,6 @@
 "kind": "media"
 },
 {
-"title": "Taiwan International Surfing Open attracts 200 surfers from 30 countries",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSm5WYW9KU0JhSUUtUm5wWlo0Vk1oRXY2V05EY2ExVzlqR1BkTHNFbHBIbmhQZUNfakxHUDJoZUt2djhwcnU3LWhlU3pzb19SSG13czBUSUk?oc=5",
-"source": "Taiwan News",
-"at": "2026-11-15T04:26+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Bianca Valenti readies for 50-foot waves at Mavericks — Massive Waves On The California Coast",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvNDZwSW9GRHdVbTZuNU5qLWhzTG9fNUNIdGNYR21tQ0h4clZ6UlJOeEc5V0JNV2FzZzVnS2Q4QmhKYnR3bGNwU1UzOXRaTGp4dE5v?oc=5",
 "source": "شبكة تواصل الإخبارية",
@@ -324,16 +314,6 @@
 "kind": "media"
 },
 {
-"title": "Video: Dangerous waves, biggest in a decade, flood Bay Area streets and threaten homes",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUN0VnhBOExPSVlzSGp1d3N6ZDVobVZXY3p1cVB3UEl4RU42aFVjQnBoWnBBLW1scDZoc1pRd3RvdnlFWEw1dlNuVGVxZlZfWWJ4ank3YzNpWnRwTVh3SjBuZlJWNjU4U19fejJCMEpIR3NMZnJ6RXVxNC05VjI2VUFtNzNCTEY1ZWpVc1dpMlpEYzA?oc=5",
-"source": "San Francisco Chronicle",
-"at": "2026-11-14T23:33+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Huge waves crash the Central California coastline, some damage already",
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3lUbnhFU09UVnl3eWRSOE9nUm9TU2FEcE5rMGhMeUg2bFBFSllodngxeDZ2OE9EZW9sSnpYVmcxbTR3ZmJJVEpDbmtkallHbUU0ejVPOFFkMTV5VEV1c2pZSVZZOF9rYTJyWE55b09SUm52MGVORUlnZTJEMm1wVGtPRkZyTm1PWDlyb3EydFo5cG1WUmRkeDluX0ZHQQ?oc=5",
 "source": "KMPH Fox 26",
@@ -355,8 +335,8 @@
 },
 {
 "title": "Massive waves slam Bay Area coastline as officials warn to stay away",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQczR2X3l6YWozYTY4WS0xTmJNb25nNFd6ZjFHd0VVdFRRSDFjZEZNajhrRnJ6WVFsUzRsb3JodkZLVVZyQmtnNjdidnlaLU83X3Q4M0lhMVRTcHRTalI2Q1RYYXBZUHBFbF9PbV9IYnljQS15QklCV2hmckxVQ19xN09jSWItYmo0ZDAydTNpTDlPWnBpRDhxUGdEdUxzSERSN2pfWGNaLVVEc2ZuQXc?oc=5",
-"source": "East Bay Times",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV3o5VnM5T0VjeFd0c3hOT2l3bjNOVEpXeHZpMHpoR0xtVnlvVkZNRUFTMDZySnV0QklQMG5Lc0xjbzlUT1UwUDF3ZjNKaEZQT3pLY0gzb09pc1VmZzNmTlBHLVBmMVg0UmtfN3ZnWmdJNHNSeGJqRm5HRXNReVh5SV9RRmh6STZwdGZtdE4zZ0NRNExjOGY5aUJFR3BISjdYX2pNaVlNZnduNEJB?oc=5",
+"source": "The Mercury News",
 "at": "2026-11-14T23:09+00:00",
 "img": null,
 "desc": "",
@@ -394,6 +374,16 @@
 "kind": "outlet"
 },
 {
+"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
+"source": "The New York Times",
+"at": "2026-11-14T22:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Beaches, state parks closed as 35-foot waves expected along the Central Coast",
 "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSDE0UGNIZGh0NDZCZEhac0JJN0x5aE1jQktHU1NjTFVuc0l2cUxhQlF1T1V3S3NoWU4yYUVkWlhiRU9Sa252bXZyUzFpektyNXk5dlBnUlFPclhtQlFuQjQ2RjZ4NlpaR1VyV3gzY3JaRTJBWGVxUmtTSE1RcDRuMHdic29PZ0FLM3JRUl9KZEEtYjhOY2h3Qi1mRk5hbnVMb1p5RmhOMEpwSmpKbHJJVEk4OFBhSEhDUTBUVUx2ZHRtVWNmY25ySnY4TW8?oc=5",
 "source": "KSBW",
@@ -422,16 +412,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "Men's Qualifying Series WRV Outer Banks Pro (#28) 2026-09-03 to 2026-09-06 Round of 88 [ 1st, 2nd to Round of 64 ] [ 3rd=65th pl",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR2ZfQ1lUdHBUWndBWnMzOUVUdkRONFhoR2EtalJUTmRrVXhHYVdxRUQ0aWUwUEhqVXBlS1BuODdCM2VNaHVORlptekRnMXJkbUlOU2VScDljZTlnUjJodkNfenZpY3Y5STNTMWxOZkFmRDkta3BveUNKVG1Xb2M3LUlxWm9COEFIR3MwSTJ3aw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-14T20:51+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
 },
 {
 "title": "High surf prompts temporary closures of several Southern California piers",
@@ -512,6 +492,26 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Video: Dangerous waves, biggest in a decade, flood Bay Area streets and threaten homes",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSUN0VnhBOExPSVlzSGp1d3N6ZDVobVZXY3p1cVB3UEl4RU42aFVjQnBoWnBBLW1scDZoc1pRd3RvdnlFWEw1dlNuVGVxZlZfWWJ4ank3YzNpWnRwTVh3SjBuZlJWNjU4U19fejJCMEpIR3NMZnJ6RXVxNC05VjI2VUFtNzNCTEY1ZWpVc1dpMlpEYzA?oc=5",
+"source": "San Francisco Chronicle",
+"at": "2026-11-14T18:06+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Washington Post. . Ibra Samb learned to surf using discarded plywood in his Senegalese fishing village. Now, he is helping a new generation discover the sport through free weekly lessons in his hometown, who dream of turning into professional surfers.",
+"link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObk5wYXlmanVrLVRaMUtXcTJxdTVGT25BSDZOZXlYbTM3YU1aajZtdnVLYnAtNTV4Zk1RQjRHR1hSbWxCT0d0QUVEemV1MUZNNXZtOWloRzFwaVdjbmJkd3F6OU5uNVNSLXVSWUpHSzJ3elE1aVphcW1aWFRsQ3ppRlpMUVVydVF3WG1nN2dDWWtGNWZUVzZ1RlotSEJGcXR0ZkpZOTh5NkJDMjdHdkc3S0NiTmdpb0hscS04MWhZOVd4UUgxTENvMDBIbnBkU0VoTEdFc0pQeVU1T2hSWGc?oc=5",
+"source": "Facebook",
+"at": "2026-11-14T18:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Northern California coast braces for dangerous waves due to storm",
@@ -682,6 +682,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Results for Ian Gentil at Taiwan Open of Surfing 2026",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOODI3YkhKU1NTcG1NcGF4ejJFd3dZZklWMUJrR3drOUY3dC1SQTk3MFlzai1XYzJsMlA0VklkSmhEb2ZTcmhtZDRobDRtTHhodG9RbEExaV9nOXJjTGFZalg5WHd1anFNVGs0bEU1dGUtVEVaak85c2diQ1duMERKVlZtRHl5cFpla3c?oc=5",
+"source": "World Surf League",
+"at": "2026-11-14T01:01+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Benson Boone Performs On-Stage Reenactment of Running Over Australian Surfer",
@@ -1094,14 +1104,16 @@
 "kind": "outlet"
 },
 {
-"title": "Surf legend's girlfriend said he was killed in a robbery. Authorities now suspect her in his murder",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOXpBb0x3aEdjVWVCZDN5M0wzR01IbjZ0V1ZnZk83NjllM01jbVYwN3ZxUUNvc0s2SUN2Q3djU3R2UTVLNlVLT0U3c1Jma1BNTUZfRGM5bkpFdGNoTVJhM0dycFo4WVRmcVg4bXM4YVNsT0FzUTJfSHNkZUZYX01FZmprNGtDa1NUNE83bHFhOVFKU3JidWhxMkpfNVBSY05kRnN3dzhsQQ?oc=5",
-"source": "Los Angeles Times",
-"at": "2026-11-13T06:32+00:00",
+"title": "Results for Yago Dora at Philippines Pro 2026",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYkdUNlkzV2kzYWt5d1U3TzZEVlJPSnFXcWRudkpzcjBDQi1lWlh3dWctaHpfNklwRUxybDdyYVRnVFV4QWFzWTB4bkZrWkRmQ2RYU2l0MGVHZFZxcjRFTFI3QjctNjdudXptTm9pUFNYUFI4SDJhQU1HSEFIb0JTbXQ3VDAyTmR2?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T04:43+00:00",
 "img": null,
 "desc": "",
-"surfers": [],
-"kind": "media"
+"surfers": [
+"yago-dora"
+],
+"kind": "outlet"
 },
 {
 "title": "Highlights: HTA Haleʻiwa Pro Presented by Hurley 2026 - Finals Day",
@@ -1162,16 +1174,6 @@
 "at": "2026-11-13T02:46+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNDQ3/copie-de-ander-mendiguren3.jpg?profile=rss",
 "desc": "From peer-judged heats to bottomless Basque cider, episode three showcases exactly why the TFI is the most laid-back contest in surfing.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Prizes & Placing - HTA Haleʻiwa Pro 2026",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVLVJUNlF3MnNaQ2ZVSHo1V0UtaHdGcDZuQlhRQjBzeDBJTGUtQnZyZEV1TmRwVDdvbXlDbWlPcEp3UmwtVEZ6Mm41c3Z0R0tnSEMwdWpXM1pCcmpIVkpuanlpc3hiMmt5ZlRIaTVmR0dFaC1nQTlhX09TUFV2UQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T02:33+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
