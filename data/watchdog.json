@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-16T08:09:47+00:00",
+ "checked_at": "2026-11-16T10:17:59+00:00",
  "ok": false,
  "checks": {
   "site": {
@@ -20,15 +20,15 @@
   },
   "collector": {
    "ok": false,
-   "detail": "last success 119 min ago, 0 of last 3 failed"
+   "detail": "last success 88 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
-   "detail": "last success 82 min ago"
+   "detail": "last success 23 min ago"
   },
   "media": {
    "ok": true,
-   "detail": "news and videos last refreshed 134 min ago"
+   "detail": "news and videos last refreshed 53 min ago"
   },
   "pages": {
    "ok": true,
@@ -39,21 +39,24 @@
    "detail": "all sources answering"
   }
  },
- "open_issues": {},
+ "open_issues": {
+  "collector": "https://github.com/ignitecontentlab/surf-fantasy-leagues/issues/5"
+ },
  "fail_counts": {
   "site": 0,
   "data_worker": 0,
   "video_worker": 0,
   "data_files": 0,
-  "collector": 1,
+  "collector": 2,
   "pages": 0,
   "event_sources": 0,
   "events": 0,
   "media": 0
  },
  "last_actions": [
+  "Re-ran the **collect** workflow because its last successful run was 88 minutes ago.",
   "Re-ran the **collect** workflow because its last successful run was 119 minutes ago."
  ],
- "last_action_at": "2026-11-16T08:09:47+00:00",
+ "last_action_at": "2026-11-16T10:17:59+00:00",
  "heartbeat": ""
 }
