@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-16T22:03:58+00:00",
- "content_hash": "7e3c97c62858",
+ "updated_at": "2026-11-16T23:02:08+00:00",
+ "content_hash": "840e31e39950",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -11,8 +11,7 @@
    "note": "season page not published yet"
   },
   "news": {
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Taiwan+Open+of+Surfing+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+   "ok": true
   },
   "eddie": {
    "ok": true
@@ -40,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-16T22:03:58+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -83,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-16T21:05:57+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -155,7 +154,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -182,10 +181,10 @@
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU1hmQk1aQmdlVEgzd2pVeHN0d0x5dHFnUVpESUVvMTFzam9iLXRTX09WV0ROTllEWGtnb25xb3QtTV9aWV9ZT1FTNE5WdzVSR0VkbHUwbjlSWjZ5UEN2d2RQbklISUxrelNUTHV2a0QwY2RkWWstQUlpZ1M0N290LWxWV1pBWk1IWGZSZTQwYXRMRkFqVlBmSm5LUElyM2ZXZ1hGQ294dlhwOXc1SkhnV0JiRGlRQS04MzNYS21hUm1HSkJkM1FzcFR6SURCTnNsMl84?oc=5"
     },
     {
-     "title": "Competition Gets Underway At Junior Pro Taghazout Bay",
-     "date": "2026-11-11",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVl0YmU2U21MZnlLV0FKOUxIdzhEM0hjN2JHeFZNb0w1WmV2ZnV4V0FrU3VpdV9iUWlmUGNUWkF6U3FvMmthSXpwU3JodV9ncVVMTENSN3VZdE9SU3BXTXBMU1lnN3FDaEJxd0FIRl94aHdTaEE1bVVPdS1XTm5ENGhnLTFpTnMwWUtjOUY2enJkREVaanZIX3FMWktQZ00?oc=5"
+     "title": "EDP Junior Pro Gijón",
+     "date": "2026-11-09",
+     "source": "Carve Surfing Magazine",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uWGJsUXJRcVI2LXg0em96dy1aVHg2MWpNTE5ScnRWeWt2QlowQTVCYkJlbjg4V0xVVDNkYThSNWs4T0pNRkZjNE9ta1M5MnBzUl9wSW1HVTZTeHRjR0pHU2pWNlM?oc=5"
     },
     {
      "title": "Arisa Ishii and Taro Takai Claim Maiden Wins at Miyazaki Series Hyuga Pro Junior Presented by BOOTH",
@@ -200,7 +199,7 @@
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3VJNUQ2MjNSVkhWU0JVb01sSm5aZUVFdUQxa0VwbUY1S0RpTkRoMGVtMTd6UVBsR0t2U1dXVnhNblJabzFhR3ZRbndvSnN6Qkp4Q3lUSmx6MF9iMTJsNllMa1N3WkFLV0tXczBrdWJSeEpWT0tYZ21xa3FBbmptRmlsSkRrTlhPM19rNjVtSDV1VFdOdUV1Wkp3?oc=5"
     }
    ],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -227,7 +226,7 @@
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYThzRFZIUVU3d0wwdFBibC1TYTlnV3ZMRldTZ2k3R1VwcHI3YmFFMEtVRVhVQURWa3FySGNRd0p3dmtoQWZDY3pfVVVSXzItNGxfbC1kcDVIWDNqZTU5OHpHY3phWEszQWliRm1DZVo5bFJWVHNWcFAtM0U5Tko0OXBpTDBwLUtteUFqMGZtMV9fZ2c4amxmcXpxaGdWUlZSV1NfN0pRQkw4OTFBei0wSll2TG1BUWY1OXg4?oc=5"
     }
    ],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "eddie-2026-27",
@@ -542,13 +541,13 @@
      "title": "Invitees Announced for 2026/27 Rip Curl Eddie Aikau Big Wave Invitational",
      "date": "2026-10-29",
      "url": "https://www.ripcurl.com/blogs/events/invitees-announced-for-2026-27-rip-curl-eddie-aikau-big-wave-invitational",
-     "age": 17
+     "age": 18
     },
     {
      "title": "Stories from the Eddie: Jack Soren",
      "date": "2026-02-24",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-jack-soren",
-     "age": 264
+     "age": 265
     },
     {
      "title": "Stories From The Eddie: The Trophy",
@@ -573,7 +572,7 @@
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNWJLRWZWVkFqR2pxeGFRR0stQkhid21JOE1BUGlBU3Uzb1IwNTNvVkVoWEVyc3U4THR6d3pfYW1jS0pxcjA2ZkxvMVJLalhha3JoVzJJM3ZUeWlPOFY5cnEwQjNvTGdPOF9RMC1EMjdlU3BuVURiM0FiamRTaDNlMm5OT3JXNWlGaFE?oc=5"
     }
    ],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "wsl-ct-2026-lexuspipemasters",
@@ -691,7 +690,7 @@
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajAtbzFaNTlkWXFtX191OElJRTJfd0lwV1ZKbHp0X3lhS1k3TXdYU2ZkbS1KNHhxSzV0enV2Y3VmbWhVUFpoRjZ6M041ZFB3cTNlVG9YQ3VIRXA1UGo4RkExNUwxOV9qUGNfT0htRGxhVDd5eUJIQktYemxMUXFmMjJ2TjZMUk1lMTlxbHVWT0k4RE5ESWZSNkppVk1XVFFy?oc=5"
     }
    ],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1239,19 +1238,19 @@
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0F4eGxwbktYQkhHTFBRVElYVXd0OUh3SXZIUGk4OHFucC1qNlVMRjFzbzk1TmtrYzM0cG9wVnI0YXJYazdFVVgyb25iWENObHVRLWRlMm9nUkhodlQ5NjdkdXFyVWEzZ1daeTJIcGYzX3FNejlqYThPMDNEcjNucXB6WW4tYWcxRnYxNFBlMmMxVlp2YTJCazBESS1OU0pNT01MSVdzWGxJNkVKMGNPUGJPdw?oc=5"
     },
     {
-     "title": "Simmers, Medina win inaugural Philippines Pro in typhoon surf - Honolulu Star-Advertiser",
-     "date": "2026-11-03",
-     "source": "Honolulu Star-Advertiser",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUGJ6T0JKZjZJVEFYdUhzMThUN2tISm9CMVFwZmg5NVVYajc5WFl3UTZaX1otZThXOEhOYnFSSDNXZ3BWNEdZR1JOWFUzVk1GckYycS1GRXZHUEdac3d6X3ZJZzYyOEVPYlcweEhheFZfVWdMelhJUEV4RW93by0yZEM2VEV5Y2FJd3lxLTNBYlA4VjFtSC1NVUZDS2k3aGJzWXpjYjZEZ2lMMWhQTjktMnE1U3dfRUJIZldMMUpVZENCaVBl?oc=5"
-    },
-    {
      "title": "Oceanside’s Caitlin Simmers captures inaugural Philippines Pro surfing event - San Diego Union-Tribune",
      "date": "2026-11-03",
      "source": "San Diego Union-Tribune",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEZ6MjNmejZNa1YxWUF4TGRUV1V3MTRVUVFUOVNsR09xTU5hY1pocmE1TjU1elFGWDl2TldqZjUzbjJJVTQzZDdxSUlUM2xTTXQ4UEFhb1ZMT01hT3NYeGxvd0U1azFXQ0JiZXBXU0dRTFA3NHBib0NJZFZWdWxYekczZUNPdE1OdjltU0oteHY0Qzdqa2pabnoxclkwdDdDX3RrRGFiamNfRmdkUHBYck1XNGEtQUdtQjlnVlo3SkVTQQ?oc=5"
+    },
+    {
+     "title": "Medina, Simmers win Philippines Pro; Pipeline set for 2026 World Championship",
+     "date": "2026-11-03",
+     "source": "The Sporting Tribune",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjZfa29jVTY0OGNYLUE2enNXaGdJVDhtMmwwbHotemZuQXkwTWk1QzhGamdKYVFKNDJBc1lmT09MRVF4dEFQZExRdTl0SGNSdjQweTVnV3pZWWlVaGZnd1pGV0swVzBRS2FTNHdVRUVYXy02eVBDU0V0YWkwSklDck5TQ3RyZ054bVotMV9BY0hFdHk4YzRLQ2hUaDQ2aURWSEVOZ25LLXZDdm5SUjNlTzg5bjhQTnoyUTBoZ1pR?oc=5"
     }
    ],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "news_at": "2026-11-16T23:02:08+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1322,5 +1321,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-16T22:03:58+00:00"
+ "checked_at": "2026-11-16T23:02:08+00:00"
 }
