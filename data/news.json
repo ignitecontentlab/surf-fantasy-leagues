@@ -1,26 +1,48 @@
 {
-"updated_at": "2026-11-16T15:41:11+00:00",
+"updated_at": "2026-11-16T17:44:06+00:00",
 "sources": {
-"Surfer": 33,
+"Surfer": 32,
 "ISA": 7,
 "Stab": 23,
-"Surfline": 4,
-"The Inertia": 47,
-"BeachGrit": 16,
+"Surfline": 3,
+"The Inertia": 46,
+"BeachGrit": 17,
 "Tracks": 1,
-"World Surf League": 38,
-"Surfertoday": 5,
-"In the news": 50
+"World Surf League": 39,
+"Surfertoday": 6,
+"In the news": 47
 },
 "items": [
+{
+"title": "Why you should stop grabbing your surfboard's rails when popping up",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwR1V6YWttclFwY3VwTFZqNzF6bll5Umw1bXNRcDFPU21ReVNfQ0MzNFZSVWVERUw2VjlMWm9pTmtfcHZ0SmsyQmtOZnVuOHdnNG1xZ2NCTm01NC1YX2FkbGtsN0lvWlprSVZVbzlQUQ?oc=5",
+"source": "Surfertoday",
+"at": "2026-11-16T17:23+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Andy King Might Have Talked Himself Out Of A WSL Pass",
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjJyc1hURWUxSnhPal9TdTRIdFgwRTVKUjNvM2NmSmhtcmV6WHJibTF5aUNYYXNrNE5mN0pnMTdhRENndHl2dTltYUx1d2xaOGIwLWFXSDlKdHhFRHJRQ09fQjFlZ3FYeE9OdFI5b2hiNmFqMG9jRXJDQmdpaFN2OWxSLVpabzFMVDVZag?oc=5",
 "source": "Stab",
-"at": "2026-11-16T15:35+00:00",
+"at": "2026-11-16T16:06+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
+"kind": "outlet"
+},
+{
+"title": "14-year-old Aussie Phenom Leihani Zoric Takes Out World At Surfing Games",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbzk0X2F1T01WUUJqVWhXYWx1MHRoRXBKMjh2bjdGcmhSWGNNUFlJSXV5ZC1zaU1TZW5nLVFjSlVZXzBZYTFPZDRVNS1lNFJpakh1eVFOR1JjX2ZUMmc5WnAya3RhYjNpOWpJX0xUQmE4dDZHQkVsajZjMlFzRFBaWG5sYXVwOFBuSnpLaUFNV2dOdlduOEY1UEFlaGVMeTE1eF9nNGJn?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-16T15:59+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"leihani-zoric"
+],
 "kind": "outlet"
 },
 {
@@ -187,20 +209,20 @@
 "kind": "media"
 },
 {
-"title": "Massive waves from record-breaking West Coast surf pound San Diego beaches",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUjZGT0l2dEp4UjJtV1M2OVFsZ2c4bHdXS2g4dWQ4SDZKbkZlZzhxRWNNdVdfOWNsUE9UNS11aEZHdXZrdVdQN2hIblhjUkFyUDltcVJ5Umt1OU9SelRfd21vam9NblVuNURFVnVNcVJxbENHZkt4WGc0ckU2bDB5RUMtb3lQeTFrUmViWGswaUx2UlhhaDlwc24xVVF0ekVyU1M4cmJfcE1vektBb05kUFlUbmpkVGdReV9vZTJFNNIBxwFBVV95cUxQUzZBQTdEZEJDeWxNbGstSExBVWFnVXIzUUVKOHpiU3NXd3VWMHBJZlFtSFVtck5xamxRTzRQREtMTVlYbDR1cmN0UTVGVFJuNnY2Q1RuTF9pS2xiWnV4WF9WdUI1X2lrQ056VlJmLS11RmIwN0QzQ2VGTzhoZ0hhWjFDc2tmN3FRaU95b3NYM2hBWHJnMkgtNjVQanpuMmQwbzdWczJDemx3blpkVGFIdUV0eXI3dGdoYnpyc1MtT1JkRWR2aGJZ?oc=5",
-"source": "NBC 7 San Diego",
-"at": "2026-11-15T23:00+00:00",
+"title": "Video shows towering waves slamming California piers as dangerous surf threatens flooding",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMm9fc0k4cl9mU056RGNhSmNOcUsxaEdoeHI5Rk11aGpPVTlTbUxGOU9YWmhCUGVENDdNSXFSS3VZNl9MYkJwc3lvMzdoVnNRbThSaGVqclBEb1VoZ3dGcGQ2Ym1TQU9LZ2YyelgwZFk1ZkRnYnZFdVREWk54UGFUUkxfQkNKSkFoWEZkWVNQYnExX3BmemtZbWJqOUZsTDd5cE96cWt6WWFDNUNVVGY2aTBsTWtoT0d2UUs5VW12MULSAcYBQVVfeXFMTzcxNU1KaFZBX3JQLVoxdjhGZ2FZR0pMQ2F4QV9jZnJIdFpmeENrcU5NRlNlU28ycWdmZ1pkTzJuNUZad05pUDN6T2JmVklvY2FaMGJITnkzOElPTlB4eW5DT2NGSVljcXhQSHN4dlM1ekxHcFJ0X0tGZWJkb2pBbU9SUU5GM0JvMmhaYmg5T2sxN1c3aGlZY1psRHE0MmJQY0pSZ3Q2LVpqLVdDTmRBeEtvcm1hbVJCa2ZYSnFQWjNOREFpRm5n?oc=5",
+"source": "KTLA",
+"at": "2026-11-15T21:34+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
 "kind": "media"
 },
 {
-"title": "Video shows towering waves slamming California piers as dangerous surf threatens flooding",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMm9fc0k4cl9mU056RGNhSmNOcUsxaEdoeHI5Rk11aGpPVTlTbUxGOU9YWmhCUGVENDdNSXFSS3VZNl9MYkJwc3lvMzdoVnNRbThSaGVqclBEb1VoZ3dGcGQ2Ym1TQU9LZ2YyelgwZFk1ZkRnYnZFdVREWk54UGFUUkxfQkNKSkFoWEZkWVNQYnExX3BmemtZbWJqOUZsTDd5cE96cWt6WWFDNUNVVGY2aTBsTWtoT0d2UUs5VW12MULSAcYBQVVfeXFMTzcxNU1KaFZBX3JQLVoxdjhGZ2FZR0pMQ2F4QV9jZnJIdFpmeENrcU5NRlNlU28ycWdmZ1pkTzJuNUZad05pUDN6T2JmVklvY2FaMGJITnkzOElPTlB4eW5DT2NGSVljcXhQSHN4dlM1ekxHcFJ0X0tGZWJkb2pBbU9SUU5GM0JvMmhaYmg5T2sxN1c3aGlZY1psRHE0MmJQY0pSZ3Q2LVpqLVdDTmRBeEtvcm1hbVJCa2ZYSnFQWjNOREFpRm5n?oc=5",
-"source": "KTLA",
-"at": "2026-11-15T21:34+00:00",
+"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
+"source": "The New York Times",
+"at": "2026-11-15T21:11+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -337,16 +359,6 @@
 "kind": "media"
 },
 {
-"title": "Ventura, Hermosa Beach and Manhattan Beach piers close as high surf and dangerous rip currents batter Southern California coast",
-"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSDd0alJ3OTJTb2tQZHY3R2RyeG9oRVJ4VTlpWS0yMV9DaENEUHBrZ3NuejR2RnZXeTJnd1ZIUHZBLXpOS0l0Q1lqbEI4WVBMbTYzWmc0dUF4MHNyZHV5c3pJSm1TQmt2OG5tT1diNXV6OWlhSkpKOXMwWXdBU296LWxBVEtHQ3pyNHlDN2Z1QlJ0T1RkSGtxOEVoZzZTc0hmOGtjakEzS3ZmVFBHX1pab0VzVm9xWEVkbmh0MGFIWVh5dmRqTmQwaHFCTGNXb0JXTXU4aVVqc3jSAd4BQVVfeXFMTmo4RFViVTlBdWd2ZVJ0SGxGYlhiR085T0JOTWYyT1k4NmZBYjlXaWJfN2FnZ1ZrUU5pT3ZlQlJKbHE5d2R3ZEJTSktjTk9EQnFNQTZsMzYtcDM2OEVOY2NPN3lQSXI2dHctb29wMi05eENicF93bjFNR1dYSDBkNmFsbHJXOXN6UllTcE9WLXdWQ1FwdTZtdFVsU3h6T2pvWEJrai1Gb0dDQlh3LWxVVG1FZVplVWNEVmZKeVNIZ2xfcVkyVENUUTVKV1IzQTUzbWFDcXhXOVlnbHFOUTB3?oc=5",
-"source": "ABC7 Los Angeles",
-"at": "2026-11-15T05:10+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Taiwan International Surfing Open attracts 200 surfers from 30 countries",
 "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSm5WYW9KU0JhSUUtUm5wWlo0Vk1oRXY2V05EY2ExVzlqR1BkTHNFbHBIbmhQZUNfakxHUDJoZUt2djhwcnU3LWhlU3pzb19SSG13czBUSUk?oc=5",
 "source": "Taiwan News",
@@ -472,16 +484,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
-"source": "The New York Times",
-"at": "2026-11-14T22:03+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Beaches, state parks closed as 35-foot waves expected along the Central Coast",
@@ -754,16 +756,6 @@
 "kind": "media"
 },
 {
-"title": "Photos: Stormy weather brings big waves to the coast",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ2pGX2stVXduZFdBWVp6ZTNVRkpiSmpIUmRrTUNtbUlyb2hScDB5elpXWEctcGx4c0JqaE9iZG5VOFlTcEpHZ1U2emRaem50eW1vSnNwS3lKcnI1TjUxSDVlWEptTDByVHNiRHktYkNzLTMwMzZRZ2VlNFZoZ1ZIZFEtdGJzMEtpWUxEOHRxU1IxcEhR?oc=5",
-"source": "Santa Cruz Sentinel",
-"at": "2026-11-14T02:42+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "High-Profile Matchups in Firing Surf Produce Thrilling Day 7 of 2026 ISA World Surfing Games",
 "link": "https://isasurf.org/high-profile-matchups-in-firing-surf-produce-thrilling-day-7-of-2026-isa-world-surfing-games/",
 "source": "ISA",
@@ -782,6 +774,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Results for Ian Gentil at Taiwan Open of Surfing 2026",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOODI3YkhKU1NTcG1NcGF4ejJFd3dZZklWMUJrR3drOUY3dC1SQTk3MFlzai1XYzJsMlA0VklkSmhEb2ZTcmhtZDRobDRtTHhodG9RbEExaV9nOXJjTGFZalg5WHd1anFNVGs0bEU1dGUtVEVaak85c2diQ1duMERKVlZtRHl5cFpla3c?oc=5",
+"source": "World Surf League",
+"at": "2026-11-14T01:01+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Benson Boone Performs On-Stage Reenactment of Running Over Australian Surfer",
@@ -974,16 +976,6 @@
 "kind": "outlet"
 },
 {
-"title": "New Shipstern Bluff Doco Announces West Coast Tour Dates",
-"link": "https://www.surfer.com/culture/shipstern-bluff-documentary-announces-west-coast-tour-dates",
-"source": "Surfer",
-"at": "2026-11-13T18:50+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyMjY1/stern-fever_tyler-hollmer-cross.jpg?profile=rss",
-"desc": "\"Stern Fever,\" the latest film by Talon Clemow, details the history of Tasmania's most infamous wave and will hit theaters up and down California this month.",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Watch Kolohe Andino Absolutely Annihilate One-Foot Waves",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYmFwV3pwZ2dpMnVnUVBWbXFtWU1mbTR0Z0ptbl84Vk9KOVJCenQybUI0blkxamcwSlNXRTNuTEtBT3Q1SzAwLTVOTGhHcGhIQU81NkVLX2FjeFhiSnRnTGUxSUZZdE10RlF6b0x6VFdEMlFRMjVNbElIQ1NJNDQ2dVdWMnd0am5YMGxUYjJHVGZNQlE?oc=5",
 "source": "The Inertia",
@@ -1052,26 +1044,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Surfing Star’s Girlfriend Arrested Months After His Brutal Murder in Costa Rica",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0lsYkk1NHpBZHdHR1lySkNOeEtmU2tWZE1FaS13SWliT3pZeWlyTWNCdFZTdzAtQ2Z0OXNQNkRtT2s0LVZqemo1ZzJCcjFpaVF4YXpkZFh2YVN6QzNremE2SGJ6eFpUWFlXT05RVENTY0NBTWV1Q015LUprS3Vncm5mNm9tZ25lWGpmZFdkZHV1VlBGZEUwVmdvYjZuNFAyLThB?oc=5",
-"source": "People.com",
-"at": "2026-11-13T16:47+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "New Twist In CA Surf Legend's Brutal Killing Leads To 2 Arrests: Report",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFRVRG9jN2dnc1lrcUgyTlV6eDNBd3VvMkRCTERHQVQ1a1FZVmE1ZVU1R3RzTlpCelB4Tms5UEM4eHY2WmsySEVmZnNiTGVTUkE0dFgwUWFZcHhUTXUwQ0ZYUmJ4TlI4VE5POUEzNmVEcmR4QVVwTGdoRzF0SGJWcVlGS1RkVFhUU0NGNlhfVGNvNjVfandpc0NhekZmZDVJd0dhVzI1c9IBwAFBVV95cUxNeGVXRzJXNGNDY291YXpDRW9UeFJ0elpLOE9EWnM3MEN0aVp3MThYNGE3XzlHWHZPOUhWcTNVU2ZhVzBpYmc4MXczVHNHMXB2TzBPZHhGM1pFYXcwaEZ6SEN4Q2hVVFI3WExMV0RKTmlqNW1JZXZ4TFVBcnFoZHMteTk1bGoydlh3SHYzcTZuV25lUUVQQ2ZIZUI0NlhMbzBzaDdTZmhNdDRUOXVvTHZGcGtMVVNwVzQ4U3BkUDlnOUk?oc=5",
-"source": "Patch",
-"at": "2026-11-13T16:31+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Kurt Van Dyke’s Former Girlfriend Arrested in Connection With His Murder",
@@ -1225,6 +1197,36 @@
 "surfers": [
 "barron-mamiya"
 ],
+"kind": "outlet"
+},
+{
+"title": "Final: Vaihitimahana Inso rises above macking swell to win HTA Haleʻiwa Pro Presented By Hurley",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkdlN0RVVU82SGxzbFJWVFNxRkhyVXc1ZlNqdS1jNlFSRng4QzQwNlZHTzVIaXljMkZwV3ptclY0SkhQTm1rSDk1dTB4T1BZMUpnT1VnUG9naEVRcFZtRWR6S1B3UkZiVk5KQUlONHQ2NVUxU2VURmY3VjNtTERjWG5RQ1pMVGpubnR5a3Y4QXcwZXRCdlhYOVBsOURZWjVWZ2ZsNnZEcUxUbmZqS2VBeDV3?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T03:22+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Men's Qualifying Series Shore Temple Classic QS2,000 (#23) 2026-08-12 to 2026-08-16 Round of 56 [ 1st, 2nd to Round of 48 ] [ 3r",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM1hsTFhOM3JzNHBKMWgwemtVMFE4ZU5hd0tzdUUtMFNQM3l3MVMyMWZVM0wzZFZtYVpsUnp0U1FxLXY3eFhhX2dFYldHdlIzVEQtY044RGpvQkdUV2NKVWRhN3AzczFrSXZCWjBmVGplVWg2TzNBQTRCTjR6TFRYclgzOGNSc0RoTV94WHZvRUxCWnd2QUp1b2V3?oc=5",
+"source": "World Surf League",
+"at": "2026-11-13T02:57+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Watch Episode 3 of the 2026 Twin Fin Invitational: The Final Day in Zarautz",
+"link": "https://www.surfer.com/news/twin-fin-invitational-episode-3-zarautz-winners",
+"source": "Surfer",
+"at": "2026-11-13T02:46+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNDQ3/copie-de-ander-mendiguren3.jpg?profile=rss",
+"desc": "From peer-judged heats to bottomless Basque cider, episode three showcases exactly why the TFI is the most laid-back contest in surfing.",
+"surfers": [],
 "kind": "outlet"
 }
 ]
