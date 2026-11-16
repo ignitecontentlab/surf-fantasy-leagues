@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-16T23:02:08+00:00",
- "content_hash": "840e31e39950",
+ "updated_at": "2026-11-16T23:56:46+00:00",
+ "content_hash": "ddef513e62fd",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-16T23:02:08+00:00"
+   "news_at": "2026-11-16T23:56:46+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -67,7 +67,7 @@
      "title": "Taiwan International Surfing Open attracts 200 surfers from 30 countries",
      "date": "2026-11-15",
      "source": "Taiwan News",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSm5WYW9KU0JhSUUtUm5wWlo0Vk1oRXY2V05EY2ExVzlqR1BkTHNFbHBIbmhQZUNfakxHUDJoZUt2djhwcnU3LWhlU3pzb19SSG13czBUSUk?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     },
     {
      "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-16T23:02:08+00:00"
+   "news_at": "2026-11-16T23:56:46+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -620,7 +620,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "news_at": "2026-11-16T23:56:46+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -637,15 +637,8 @@
    "news": "Challenger Series Newcastle surf",
    "host": "WSL",
    "status": "upcoming",
-   "headlines": [
-    {
-     "title": "'Awesome feeling': Why it means so much to Morgan and why he wants to stay",
-     "date": "2026-11-15",
-     "source": "Newcastle Herald",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWk4eC1OMDRHVE14dFdZaHFGS1ExeUVaaUt2SjBfbFZLa0k5UlFmb1BnLU9RYmh3T2FiZ2Ruc0VkYUdKd2ViNlEwZTZPdEV5TnR3RjZIdGtPZExESnhseGgtOXpnUzV6WjF3Y05QRlVhdWJjRi1nRzR0cE9BbE1fSV9HWUVZRTBRRmdpSG1PN2doeWpSRlpqbmtISXFtbWFoTTVBV2drdk80RjlGNkZ3WHFiMGI?oc=5"
-    }
-   ],
-   "news_at": "2026-11-16T19:16:06+00:00"
+   "headlines": [],
+   "news_at": "2026-11-16T23:56:46+00:00"
   },
   {
    "id": "la28-surfing",
@@ -1321,5 +1314,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-16T23:02:08+00:00"
+ "checked_at": "2026-11-16T23:56:46+00:00"
 }
