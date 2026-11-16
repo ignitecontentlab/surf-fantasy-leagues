@@ -1,6 +1,12 @@
 {
  "changes": [
   {
+   "at": "2026-11-16T01:43:27+00:00",
+   "event": "isa-wsg-2026",
+   "text": "**ISA World Surfing Games**: status changed from `live` to `finished`",
+   "important": true
+  },
+  {
    "at": "2026-11-15T23:43:45+00:00",
    "event": "wsl-wjc-2026",
    "text": "New event added: **Surf City El Salvador World Junior Championships** (2026-11-25 to 2026-11-29)",
