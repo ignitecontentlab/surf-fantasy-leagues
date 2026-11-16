@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "base": "2026-11-15",
  "note": "Surf words glossary. Add new words with an 'added' date; words added in the last 60 days show as New. Words added after 'base' count as new; a word added today becomes the word of the day.",
  "words": [
@@ -1028,6 +1028,30 @@
    "d": "A big-wave safety vest that inflates to bring a surfer up after a wipeout.",
    "cat": "Ocean and safety",
    "added": "2026-11-15"
+  },
+  {
+   "w": "Quota place",
+   "d": "A spot at the Olympics. Some are won by a surfer by name, others by a country, which then picks who fills it.",
+   "cat": "Contest",
+   "added": "2026-11-16"
+  },
+  {
+   "w": "Universality place",
+   "d": "An Olympic spot set aside for a surfer from a country with little Olympic history, so the field isn't only the usual surfing nations.",
+   "cat": "Contest",
+   "added": "2026-11-16"
+  },
+  {
+   "w": "Junior Qualifying Series",
+   "d": "The WSL's regional tour for surfers 20 and under, also called the JQS. The top-ranked juniors in each region earn spots at the World Junior Championships.",
+   "cat": "Contest",
+   "added": "2026-11-16"
+  },
+  {
+   "w": "Contingency days",
+   "d": "Backup days after a contest's planned dates, used if the waves are too poor to finish on time. LA28 Olympic surfing has them.",
+   "cat": "Contest",
+   "added": "2026-11-16"
   }
  ]
 }
