@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-17T05:16:02+00:00",
- "content_hash": "af6d0256db09",
+ "updated_at": "2026-11-17T06:21:22+00:00",
+ "content_hash": "4cabbcbf6473",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -11,8 +11,7 @@
    "note": "season page not published yet"
   },
   "news": {
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Taiwan+Open+of+Surfing+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+   "ok": true
   },
   "eddie": {
    "ok": true
@@ -40,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-17T05:16:02+00:00"
+   "news_at": "2026-11-17T06:21:22+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -176,10 +175,10 @@
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU1hmQk1aQmdlVEgzd2pVeHN0d0x5dHFnUVpESUVvMTFzam9iLXRTX09WV0ROTllEWGtnb25xb3QtTV9aWV9ZT1FTNE5WdzVSR0VkbHUwbjlSWjZ5UEN2d2RQbklISUxrelNUTHV2a0QwY2RkWWstQUlpZ1M0N290LWxWV1pBWk1IWGZSZTQwYXRMRkFqVlBmSm5LUElyM2ZXZ1hGQ294dlhwOXc1SkhnV0JiRGlRQS04MzNYS21hUm1HSkJkM1FzcFR6SURCTnNsMl84?oc=5"
     },
     {
-     "title": "Competition Gets Underway At Junior Pro Taghazout Bay",
-     "date": "2026-11-11",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORVl0YmU2U21MZnlLV0FKOUxIdzhEM0hjN2JHeFZNb0w1WmV2ZnV4V0FrU3VpdV9iUWlmUGNUWkF6U3FvMmthSXpwU3JodV9ncVVMTENSN3VZdE9SU3BXTXBMU1lnN3FDaEJxd0FIRl94aHdTaEE1bVVPdS1XTm5ENGhnLTFpTnMwWUtjOUY2enJkREVaanZIX3FMWktQZ00?oc=5"
+     "title": "EDP Junior Pro Gijón",
+     "date": "2026-11-09",
+     "source": "Carve Surfing Magazine",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uWGJsUXJRcVI2LXg0em96dy1aVHg2MWpNTE5ScnRWeWt2QlowQTVCYkJlbjg4V0xVVDNkYThSNWs4T0pNRkZjNE9ta1M5MnBzUl9wSW1HVTZTeHRjR0pHU2pWNlM?oc=5"
     },
     {
      "title": "Arisa Ishii and Taro Takai Claim Maiden Wins at Miyazaki Series Hyuga Pro Junior Presented by BOOTH",
@@ -194,7 +193,7 @@
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3VJNUQ2MjNSVkhWU0JVb01sSm5aZUVFdUQxa0VwbUY1S0RpTkRoMGVtMTd6UVBsR0t2U1dXVnhNblJabzFhR3ZRbndvSnN6Qkp4Q3lUSmx6MF9iMTJsNllMa1N3WkFLV0tXczBrdWJSeEpWT0tYZ21xa3FBbmptRmlsSkRrTlhPM19rNjVtSDV1VFdOdUV1Wkp3?oc=5"
     }
    ],
-   "news_at": "2026-11-17T03:04:11+00:00"
+   "news_at": "2026-11-17T06:21:22+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -615,7 +614,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-17T03:04:11+00:00"
+   "news_at": "2026-11-17T06:21:22+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -632,8 +631,15 @@
    "news": "Challenger Series Newcastle surf",
    "host": "WSL",
    "status": "upcoming",
-   "headlines": [],
-   "news_at": "2026-11-17T03:04:11+00:00"
+   "headlines": [
+    {
+     "title": "'Awesome feeling': Why it means so much to Morgan and why he wants to stay",
+     "date": "2026-11-15",
+     "source": "Newcastle Herald",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWk4eC1OMDRHVE14dFdZaHFGS1ExeUVaaUt2SjBfbFZLa0k5UlFmb1BnLU9RYmh3T2FiZ2Ruc0VkYUdKd2ViNlEwZTZPdEV5TnR3RjZIdGtPZExESnhseGgtOXpnUzV6WjF3Y05QRlVhdWJjRi1nRzR0cE9BbE1fSV9HWUVZRTBRRmdpSG1PN2doeWpSRlpqbmtISXFtbWFoTTVBV2drdk80RjlGNkZ3WHFiMGI?oc=5"
+    }
+   ],
+   "news_at": "2026-11-17T06:21:22+00:00"
   },
   {
    "id": "la28-surfing",
@@ -678,7 +684,7 @@
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajAtbzFaNTlkWXFtX191OElJRTJfd0lwV1ZKbHp0X3lhS1k3TXdYU2ZkbS1KNHhxSzV0enV2Y3VmbWhVUFpoRjZ6M041ZFB3cTNlVG9YQ3VIRXA1UGo4RkExNUwxOV9qUGNfT0htRGxhVDd5eUJIQktYemxMUXFmMjJ2TjZMUk1lMTlxbHVWT0k4RE5ESWZSNkppVk1XVFFy?oc=5"
     }
    ],
-   "news_at": "2026-11-17T03:04:11+00:00"
+   "news_at": "2026-11-17T06:21:22+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1214,12 +1220,6 @@
    "status": "completed",
    "headlines": [
     {
-     "title": "Philippines Pro 2026",
-     "date": "2026-11-10",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XVHNhU1d6TVd0VkVEZklyYXNaWVB5YmtqdW81WUtXMjljNkhqY0tILVJvUXZseG5SZkFZM1ViTjV1Mkp2TVRvRXZOMjFnaEJyR2JfQU9UWnpvUDYyMGZ3RnI2cU9EdUpWdGprdmhlT3o2RUxsX2kwU0FCWQ?oc=5"
-    },
-    {
      "title": "Caity Simmers and Gabriel Medina Win Inaugural Philippines Pro Presented by the Philippine Sports Commission",
      "date": "2026-11-03",
      "source": "Surf News Network",
@@ -1236,9 +1236,15 @@
      "date": "2026-11-03",
      "source": "San Diego Union-Tribune",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEZ6MjNmejZNa1YxWUF4TGRUV1V3MTRVUVFUOVNsR09xTU5hY1pocmE1TjU1elFGWDl2TldqZjUzbjJJVTQzZDdxSUlUM2xTTXQ4UEFhb1ZMT01hT3NYeGxvd0U1azFXQ0JiZXBXU0dRTFA3NHBib0NJZFZWdWxYekczZUNPdE1OdjltU0oteHY0Qzdqa2pabnoxclkwdDdDX3RrRGFiamNfRmdkUHBYck1XNGEtQUdtQjlnVlo3SkVTQQ?oc=5"
+    },
+    {
+     "title": "Medina, Simmers win Philippines Pro; Pipeline set for 2026 World Championship",
+     "date": "2026-11-03",
+     "source": "The Sporting Tribune",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjZfa29jVTY0OGNYLUE2enNXaGdJVDhtMmwwbHotemZuQXkwTWk1QzhGamdKYVFKNDJBc1lmT09MRVF4dEFQZExRdTl0SGNSdjQweTVnV3pZWWlVaGZnd1pGV0swVzBRS2FTNHdVRUVYXy02eVBDU0V0YWkwSklDck5TQ3RyZ054bVotMV9BY0hFdHk4YzRLQ2hUaDQ2aURWSEVOZ25LLXZDdm5SUjNlTzg5bjhQTnoyUTBoZ1pR?oc=5"
     }
    ],
-   "news_at": "2026-11-17T03:04:11+00:00"
+   "news_at": "2026-11-17T06:21:22+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1309,5 +1315,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-17T05:16:02+00:00"
+ "checked_at": "2026-11-17T06:21:22+00:00"
 }
