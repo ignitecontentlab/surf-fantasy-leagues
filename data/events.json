@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-17T04:12:47+00:00",
- "content_hash": "19f8e922810a",
+ "updated_at": "2026-11-17T05:16:02+00:00",
+ "content_hash": "af6d0256db09",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -11,7 +11,8 @@
    "note": "season page not published yet"
   },
   "news": {
-   "ok": true
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Taiwan+Open+of+Surfing+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
   },
   "eddie": {
    "ok": true
@@ -39,7 +40,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-17T04:12:47+00:00"
+   "news_at": "2026-11-17T05:16:02+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -119,7 +120,7 @@
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LQUZUaDhzaEN2V05UT3FTZWtyd1VEQ2NhVU5QRnp1Q1Z2aHNUcWw5TlozS3hDZ3lfaE5XZF9tUTAtNElKME1UdVBidENwMTNPejI2MTdmajNXcS1SajlaaHQxYWhaUi10dy1hbkdn?oc=5"
     }
    ],
-   "news_at": "2026-11-17T01:32:00+00:00"
+   "news_at": "2026-11-17T05:16:02+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -595,7 +596,7 @@
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjZfa29jVTY0OGNYLUE2enNXaGdJVDhtMmwwbHotemZuQXkwTWk1QzhGamdKYVFKNDJBc1lmT09MRVF4dEFQZExRdTl0SGNSdjQweTVnV3pZWWlVaGZnd1pGV0swVzBRS2FTNHdVRUVYXy02eVBDU0V0YWkwSklDck5TQ3RyZ054bVotMV9BY0hFdHk4YzRLQ2hUaDQ2aURWSEVOZ25LLXZDdm5SUjNlTzg5bjhQTnoyUTBoZ1pR?oc=5"
     }
    ],
-   "news_at": "2026-11-17T01:32:00+00:00"
+   "news_at": "2026-11-17T05:16:02+00:00"
   },
   {
    "id": "qs-pipe-2027",
@@ -1308,5 +1309,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-17T04:12:47+00:00"
+ "checked_at": "2026-11-17T05:16:02+00:00"
 }
