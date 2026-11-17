@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17T17:43:43+00:00",
+ "checked_at": "2026-11-17T19:45:27+00:00",
  "ok": true,
  "checks": {
   "site": {
@@ -20,11 +20,11 @@
   },
   "collector": {
    "ok": true,
-   "detail": "last success 37 min ago, 0 of last 3 failed"
+   "detail": "last success 53 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
-   "detail": "last success 19 min ago"
+   "detail": "last success 23 min ago"
   },
   "media": {
    "ok": true,
