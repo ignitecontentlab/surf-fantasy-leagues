@@ -1,5 +1,5 @@
 {
-"updated_at": "2026-11-17T09:39:31+00:00",
+"updated_at": "2026-11-17T09:58:28+00:00",
 "sources": {
 "Surfer": 32,
 "ISA": 6,
@@ -10,7 +10,7 @@
 "Tracks": 1,
 "World Surf League": 46,
 "Surfertoday": 5,
-"In the news": 54
+"In the news": 55
 },
 "items": [
 {
@@ -22,6 +22,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Big wave surfers hit Mavericks",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOX3BYN0lUWk9kc1dLVFhiY21MUGcxSXl3bHk5aVRqMHh3cEpROVZVUDhIcjNxOEdab2lBdlpNNWVpZ0FINFliaUtnZ1IzWHBnd1FiRnV0Y1BBMDUzRlhrak1YUHNTMFFFV0NRVGZHV1dkVC1mU1IyZ1cwWVZMQVhJdzBuUnVPZFBwZnFJ?oc=5",
+"source": "NBC Bay Area",
+"at": "2026-11-17T06:02+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Mutant El Niño Wave Explodes Onto Pebble Beach’s Iconic 7th Hole During Massive California Swell (Video)",
@@ -1217,16 +1227,6 @@
 {
 "title": "LA Gang Member Charged With Aiding Snowboarder Turned Drug Trafficker Ryan Wedding",
 "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWFB2ZmR4Z0ZjUFZXTWFtd0tnb29RdGdPMHZ0eFc1OWNLSElLdFV0MUJUT1BPb211cjdvTVgzVEJJWDhOeUN6SEs4MjQ4bW51clZUdUZFVENpTTBWSVZMY3prY28wdzktdWM5Rl9lRVR1UFJYRU5wMW9FU25icV9ra1NlTEVZR3FrVlhNdzlfZV96bGJNa2M2RUxnUHZ2QnhRV0ZyN0dKM1BndENGbHEyWXZXTFhWSXNFTEVr?oc=5",
-"source": "The Inertia",
-"at": "2026-11-13T20:05+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Mountain",
-"link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PWXNLRVJvUnF5ODJVa3FoRGJPY2dKQ2xTcEczdUh6RnNOSDRodjRhR1MwS3pVb0M3UnNKazFfX3NsYlF2TG0yaGhjNGxxTnFyOFFPMm1hdUs?oc=5",
 "source": "The Inertia",
 "at": "2026-11-13T20:05+00:00",
 "img": null,
