@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-17T11:27:38+00:00",
+"updated_at": "2026-11-17T13:53:33+00:00",
 "sources": {
 "Surfer": 32,
 "ISA": 6,
-"Stab": 28,
+"Stab": 30,
 "Surfline": 5,
-"The Inertia": 46,
+"The Inertia": 47,
 "BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 47,
+"World Surf League": 45,
 "Surfertoday": 5,
-"In the news": 56
+"In the news": 52
 },
 "items": [
+{
+"title": "58 Surf and Turf Archives",
+"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qLU5HY3kzTlZaaFNNM0w2RTlPdy12c1VUQkNiZnplZ2FoRXM5eGtjcXVEWmhKaldNY1duRlJ1M0JwbS1qWE5PWmQ0T3FFT3YwNUNJ?oc=5",
+"source": "Stab",
+"at": "2026-11-17T12:06+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Competition Continues In Tricky Conditions at 2026 Taiwan Open of Surfing",
 "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUhPYUpKdjNSQXVRMEVEdFk1bW1Ed0ZfQXllZ0xVT2Z3aURJTWc0SS1pZWltSnpqbU15d2s4ZDBXcDByR2ZQaDM5ZmRNMkNZTkt1ZjlUZnBaYXljQnd3bTB2WWg2TU44ci05dUltUWVIWmRGTEE5X1U0WlpnMDZFQU9YcHFXaHlTZ3doNTQyVkw2XzRfTzBMUTl3NlQ0aTRUeHBvZWpJT0hfdGdLVzVzekNYbVRXaG5nZ0E?oc=5",
@@ -76,6 +86,16 @@
 "kind": "outlet"
 },
 {
+"title": "Teen dead, 18-year-old critical after 'subway surfing' over NYC bridge: Police",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTBHc1FQWmJrS0gwNk91MjdLU3I1d2NLUHFiN2M2VFp6WHBPUXdJajJhcXg5V3AzanYyc3o0WG9yOWdqVDVLUW8yU3JmMkJnamRJZmdqekU4bGNhSmtTdWJHdFRxR21GRDdjb0Jodk9WTU1ZVVozRThUQmozb1U2ZHdxT0NxVFNDZHZQRGlYZFE1QlXSAZgBQVVfeXFMT2kzY1J2SkMtWDY3VnVlTlFuMmtka3lyYVlaR1VUNi1hS0VtdnF4dmp2UWNXMXZxOGtHUDQtZUU2OVVZVC1XbFdPcUxHY0xTeTdxdjdiQUhHd1Bkd2tiQnBFekVOSU5QS0t1aGdwVUR0MTZaQ0JWYjQtTThLUFZUUjFQNURSTlMwUG02TGRpZ1J5TFB1SWpKeEU?oc=5",
+"source": "ABC News - Breaking News, Latest News and Videos",
+"at": "2026-11-17T02:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Twin Waterspouts Erupt Over San Francisco Bay As ‘Super’ El Niño Storms Pummel California (Video)",
 "link": "https://www.surfer.com/news/twin-waterspouts-san-francisco-bay-video",
 "source": "Surfer",
@@ -108,7 +128,7 @@
 "kind": "media"
 },
 {
-"title": "Watch: 35-foot waves slam California coast",
+"title": "Massive 35-foot waves slam California coast",
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdFlfZE9SR3hRVnZ4cG9uN3ROT1hWRE55c0dXSE1HZloyUVJlQl80NkJqM0RGTVBhSGF5MEdzREczaVRQSG5Gajlic1ktbmVSa2tzcnVrS3BiaFlpTHB5RF9STDRIc1B0a0NSekpqN1czUjFxWDlid0RBMjA2TFBLQ1BjYTUtME9vU1VCUUJIZ2MyRm1D?oc=5",
 "source": "The Weather Channel",
 "at": "2026-11-16T22:28+00:00",
@@ -536,6 +556,16 @@
 "kind": "media"
 },
 {
+"title": "Dangerous surf persists in OC, LA, with more expected this week",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaWdodVpLOU9BcVdWOWR2RG9vTjJQOVNfOE1Sc0htRWJpTHl1eXdnUnU1MTJLVEZJdlNhNzNVOG1vaklGbzlfTWtxU21lMkZ1NXpVcFVFa3ZIMGxaOWhZMEVxWU1ZRjRnQmZ1cF9sVmR2RXA4TUNydWttTWQ5dWY5elYyTS1ISmwxN2dNTFloUnNDYk9oMC1qamNyOTdya1JjUVE?oc=5",
+"source": "Orange County Register",
+"at": "2026-11-15T22:58+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Video shows towering waves slamming California piers as dangerous surf threatens flooding",
 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMm9fc0k4cl9mU056RGNhSmNOcUsxaEdoeHI5Rk11aGpPVTlTbUxGOU9YWmhCUGVENDdNSXFSS3VZNl9MYkJwc3lvMzdoVnNRbThSaGVqclBEb1VoZ3dGcGQ2Ym1TQU9LZ2YyelgwZFk1ZkRnYnZFdVREWk54UGFUUkxfQkNKSkFoWEZkWVNQYnExX3BmemtZbWJqOUZsTDd5cE96cWt6WWFDNUNVVGY2aTBsTWtoT0d2UUs5VW12MULSAcYBQVVfeXFMTzcxNU1KaFZBX3JQLVoxdjhGZ2FZR0pMQ2F4QV9jZnJIdFpmeENrcU5NRlNlU28ycWdmZ1pkTzJuNUZad05pUDN6T2JmVklvY2FaMGJITnkzOElPTlB4eW5DT2NGSVljcXhQSHN4dlM1ekxHcFJ0X0tGZWJkb2pBbU9SUU5GM0JvMmhaYmg5T2sxN1c3aGlZY1psRHE0MmJQY0pSZ3Q2LVpqLVdDTmRBeEtvcm1hbVJCa2ZYSnFQWjNOREFpRm5n?oc=5",
 "source": "KTLA",
@@ -694,6 +724,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Surfing - Professional, Competitions, Waves",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ub2VkaGN5aGJ5UjFHdkFwV2hjSDJWaklmM0VWRWFZUjFQcHJucVU3STI2YlBaVjY3OFpoQ1dGUjlDZmxqWFMyQ0N3UG5NZFhCMU93S0Z1blNta0tBVWh4b3Nkd0doQzdNR1Y1NDNPSQ?oc=5",
+"source": "Britannica",
+"at": "2026-11-15T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Surfers Scramble to California Hot Spot to Catch Building-Size Waves",
@@ -1003,56 +1043,6 @@
 "kind": "media"
 },
 {
-"title": "Mavericks California waves: monster 60ft swell set to hit this weekend",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd2tOampsUldxelQtamtja3ZuOUhjVmZVNDZxTEt4X0VmeWZqSnk4WTJpNkM1X3ZIYndicmdnSUx0cUVCc2dBLXpRY01HWXUwWDlQM0I4Rk1hZ0FvSThGT3JGczR0bjVITzFDcGdvcE0zOXU4UVhmVnVGWnI3WGc2MHpqY1VEMDJ2R3NEeGdMU2ZoU1FUa0xna2ZRVGQ3SkE0SkFZdw?oc=5",
-"source": "Geo News",
-"at": "2026-11-14T13:27+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Surf's up! WAY up - huge waves on the California coast this weekend, and here's why",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMWI3U3VBcUh5dHByeFdiNndPbFF2Q3ptcUdlc3dGdjNOdVZpcHJRNV9zU2R2TDhscEptVVUwVmIwYm95aW1admhLeEJKdjMxMWlwZS1XNFItYzhoWlFRenVUTVh1TkxfYjFXbGh5amNta1Z5UmtkamloSnZxSUNiSnoxdlJPWVdCQXUzVmJYbWtZUWQzYkVQSU91em5yRXhVZHltVkZKbUVYNXFhc093UkN2WQ?oc=5",
-"source": "kmph.com",
-"at": "2026-11-14T12:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Surfers keep getting sick at this Bay Area beach. DNA tests offer a new clue",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0UyZHR4SE5lNkYtYzBZZU1ScDJ3RUI1ODJsRjM0dmhHcVFiMFdqaWY0Yk9yaW5zekhMR0hWYlJFWk5vWlVhbGc5YWVLZUFzZWNTWmtZTFdqSk1tRTJlNFdsREZCMEVZV2tEMGwyYXo1QkFDcE41MXh4ZU9zR3dXMHFhcnduNHdCVVVpdmxlUDQ?oc=5",
-"source": "San Francisco Chronicle",
-"at": "2026-11-14T12:02+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "The 35-foot waves forecast for Santa Cruz are breaking heights, not the open-ocean swell that buoys measure",
-"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPczM1UC1TcmxsZG5jT0cxNmF1R2ZsZjkyZDcyUEtKNHc5NmcycVRsQzFISVhXQVFJSnFQeVVKX3ppYUJ1d191aVh6QXk4ejhrVmlHN1dYUDVSTjQxVEVLLURNLUtMeXl1QlZfVEV3Wkp2QVcwd29wTjJEOTFpOHFzWXY3ZjZoUEhpQ0trN3g3dWgzUnd6a1dTM2FBazk1Vy1jZHd6ZElzOU1XZlZadHlyVUFqeUU5OVk?oc=5",
-"source": "Nacionale",
-"at": "2026-11-14T11:33+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Giant California waves prompt Santa Cruz evacuations as surfers flock to mavericks",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kOFRoR3FkRlhPdFIzeU9FN1JLZks5YWZXT1BObEJ4UXFFVHpmazVUUGQ5VlJLMEhRNmFOOXIxRFZ5Z2J1d192LXVkZUZyMWNla1RkaWUtZWx0dE05YjY0NmxOYkg3ZEE1MVdUM21zaGhDVmdNZGQ5Qkp4a3lJUUE?oc=5",
-"source": "Rolling Out",
-"at": "2026-11-14T11:28+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Sam Wickwire Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nZkhRbzg4VXg2VDFMUEgxc1plQU9WY2hfRDk4cG1QUWF3cG9MOEk0YUh2c291cXBSQjlaMUlsSEJfaTRILXRqRW1wS1dtVjd0bmhKQm5lR0pkOTBVX3JJNW55blhFNlQwM2Mw?oc=5",
 "source": "World Surf League",
@@ -1077,6 +1067,16 @@
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ3ZyYzNDUEVqcU9TeXp5aHZCRVI5WVl4SFdmMDFMSmY3ejFFd1ZHWDBxZ0NJbktILW9kdXVNVGpvVktxOHRIaTQzNjRUSVVGRkdpVFRySWNjX3E5amRsOGt2SnhVZUZCOXBOUDZXQkY2YUNOUzExVHRYRE52OEFmb2ZRdDRtUjBEZFRUR2ZfM09ob21wTFBqYW1XcmVDdHVzQ1VUb0plZDZHX1FF?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-14T09:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "You Can’t Fake Power, And Everyone Within John Florence’s Spray Radius Knows It",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oSFFEUlJhQjh3OHgwNE9GZXRBOTlxWFdRVWRzQzh1bUwzUE9lZzVqa0lDcm1QdUNqSnEya2VFWVhnREcwSE5pdU5ES0NvWENta2c?oc=5",
+"source": "Stab",
+"at": "2026-11-14T08:00+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
