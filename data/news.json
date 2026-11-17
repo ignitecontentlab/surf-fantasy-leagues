@@ -1,18 +1,78 @@
 {
-"updated_at": "2026-11-17T19:42:46+00:00",
+"updated_at": "2026-11-17T21:30:12+00:00",
 "sources": {
-"Surfer": 33,
+"Surfer": 34,
 "ISA": 6,
-"Stab": 30,
-"Surfline": 5,
-"The Inertia": 47,
-"BeachGrit": 17,
+"Stab": 31,
+"Surfline": 6,
+"The Inertia": 49,
+"BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 47,
+"World Surf League": 48,
 "Surfertoday": 5,
-"In the news": 47
+"In the news": 46
 },
 "items": [
+{
+"title": "California November Water Temps Are In Record Territory",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeE5IdjMwZUpNZVRqdEllakxaT0VpR2lMN3hDOWdHR2g2UF8yNVVfdzFGbWU0dFh3SVRXakJNNGUweUFlV2JaUERxTFcySnZZQXFFcXBoVXM3cWdwTGY4a1ZXeW9ENmxBZlFsM0lBYXdjUW1UejRzZGQ1aVFLTnFITWxpZ1VON0ZsenhUdF9ZbTZ2dw?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T21:06+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "California Is Going to Get Hammered by a Massive Swell Again",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbnlyY0R1b3EwV2pUM3NVM3Q3b2t0cW56ZWdnZWlVd3I1b3Fmb0FhdG5kMktCMFdWQml1SE9PUTRWTHllRTdEdTdmTW1yNlI0MDRfeHFySU5LU05BcmhSN18yMFRpM216WkN1dVlfRkxYUUJyNnJuT1RYN3ZOWE1MQlp4MEw2VFBQRHRPa2h6UHlSelNIWUhBUWNPV29ockZFZFE?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T20:59+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Cause of Death Confirmed for Fin Whale Found on Cruise Ship Bow",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlFUVGxnV0w5Ym5DT2pSWUhzSGFnTk1zckdrY2N5a1FZbkxIUlh2ckxoYnZjSnFwZmhONVJfM09ZTXJ4emxBWGMyU3pGUlVnREw3NkpUaV9XOXY5QjRENV9sV1NUWXBJZzZoUURGMm5NTEtUZ2hYc1VpSFBEazRFcldKZ0Zic0xJd0ptYVB3ZHRsTzRlSnVyWU9vTE12eWZKMHhhM3Vn?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T20:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Save La Paloma: Surf Community Rallies to Protect Historic Encinitas Theater from Potential Sale",
+"link": "https://www.surfer.com/news/save-la-paloma-theater-encinitas-petition",
+"source": "Surfer",
+"at": "2026-11-17T19:59+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTY0Nzgy/solento_fest_25_night_3_la_paloma_high_res-40.jpg?profile=rss",
+"desc": "News of a sale to convert the historic theater into a church have sparked a community petition to preserve its century-old legacy.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Last Winter Sucked: Parkin Costain Still Sent It Off With a Bang(er)",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT0tjanhxSnI1YkdGZHhDMFZjZnExQ05CSUI0Ukw2bTk4UTZEZGRobURwOTNESDhsLWFoWmdFZktJbTJnLUtoRnZTZEg0V29aZHFjamtrbmtlcmhUTUhqVmZMUkhGQjQ4UkVCMjJOVTlRcDJ2alNzdEFmY3hnM2xhc3JEbnhDaG5BUk5UcTZWR3JDRUNVdG5TOTBjSnNDbjIxZjRmZA?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T19:59+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "20-Foot El Niño Swell Hammers Morro Bay Breakwater and Sends Whitewater Roaring Into the Harbor (Video)",
+"link": "https://www.surfer.com/news/20-foot-el-nino-morro-bay-breakwater-video",
+"source": "Surfer",
+"at": "2026-11-17T19:57+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODAw/morro-beach-wave.png?profile=rss&x=47&y=55",
+"desc": "Towering El Niño-fueled surf sent 20-foot sets over Morro Bay’s breakwater, closing the harbor entrance and flooding California’s coast. Watch the chaos unfold.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "5 Epic Gift Ideas For The Female Surfers In Your Life",
 "link": "https://www.surfer.com/gear/5-gift-ideas-female-surfer",
@@ -142,16 +202,6 @@
 "desc": "A colossal El Niño swell turns Pebble Beach’s postcard par-3 into a shoreline wipeout zone as a freak wave hammers the 7th hole and surrounding coast.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Mutant El Niño Wave Explodes Onto Pebble Beach’s 7th Hole (Video)",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fZVpmUlhyeUZKM2RzX1pNdjVEaUpqdDY0bzhHeGQ4X0kzcGNsbG0tT3E5cmpwa29FVXg1TW9WTzFHSFNsdzUwNkZBeTlwX0VOdkl5eWY5dFVXdXhYeDVPdUZkaGZsdGVIWm1XRlcyMkdGUQ?oc=5",
-"source": "SURFER Magazine",
-"at": "2026-11-17T04:06+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Big waves, surf batter Southern California coastline",
@@ -368,16 +418,6 @@
 "kind": "outlet"
 },
 {
-"title": "Jet Ski Surfer Rescue: Scary moments surfers were rescued from rough waves off Santa Cruz",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeEpzQ3h5UHhnQWZ3UWR1M2tkNFNfRUtzYWxVYVBvdUo3ZG0yckh1Qi1ONWxTNTNxUjhjLUhOZWItZWlGOGF5SWNfNWc2cWtlbEdFSDVIa2cxOHpHQkgyS2tMUkZ1YzdxLXFqYWlVNjh5SWpOLS1VVHJsNXprT19uMlBZTU9VT0JpS1VKdlkxWVZZbVk5X0FGUWtEbzc5dXBmcEN1RmRsOHg2RjlHVFBlRFVENFJickJSTkhr0gHAAUFVX3lxTE03N19OeHQ0TUVkdGVKaWhRaVJBVzl1Tkc1N3NpNzZ4aFZjSEdrd09kV09pMzBaMFoxdkFMSUszd0xMdmdCejVKMWI4ODlTUTk2aXVWdGNkQkk2cGtCVWgtSDFDNzRUcWtrX3FkR1pZdDVhUV9TQWxnaUFpUjBWYnlaT1FVaUQxV2JDTFZEUWFYN1Z3SldiZG9MN01ETmE5X0YyQXp0Ym1DWUJndGcxajBod1JSczYwWDR3cnZzVmpoeg?oc=5",
-"source": "ABC7 Bay Area",
-"at": "2026-11-16T19:30+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Australia and Peru Punch Tickets to the LA 2028 Olympics",
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ29zbTlscFdwQUVENEJ5R1YtZVQ0eFlGNlFIREZQZ0MxZ2VYWWZucWUyMzd0SmVLY1RBT1psRmVadFRfbzAzX2NpS2R5eWQtWTYtRTNsTFNWaGVudjhuN240TzJBbzd3NmVHaUpxMDJwdDJaakFwQ3A1RDVPRDFzZEFOYV8?oc=5",
 "source": "The Inertia",
@@ -551,6 +591,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Mike's South Florida Forecast Notes: Watching Low",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeG5zNU1NaUlNeVdtM3BIcDNxZWtvc2tyUE9KYVU0c1V4YWcwRnYtN0k2dHAxRk9WQkVnVTdfeDl1WWNqbEMwNFhrUS1pSUpFRS1UWGV6aHZtQ2NWVG9yQTJRNlBadExFYUh0ak44RkJQc3lPbTdHNW11Uks4LWNVbVBJVWtRRGMyN2FNdDV6elVsZmZRRXhnZ3AyNnFMS29seEVpaGdJOFY?oc=5",
+"source": "Surfline",
+"at": "2026-11-16T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Large waves continue to pound Southern California coast as rain chances return, surf hazards persist",
@@ -1013,16 +1063,6 @@
 "kind": "media"
 },
 {
-"title": "Waves Nearing 50 Feet Put Mavericks Surfing on Alert as Storm Window Opens",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1hV08tLWE5RjFHaHJObGhEYzdLcWFtU2ZFSFRIS0lpbkNOaDVHSXdkeVBjbnE3SVlGZGtTOE8zRldTNlNOMUVncDBBYmNuMy1FMVlJ?oc=5",
-"source": "شبكة تواصل الإخبارية",
-"at": "2026-11-14T21:16+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Men's Qualifying Series WRV Outer Banks Pro (#28) 2026-09-03 to 2026-09-06 Round of 88 [ 1st, 2nd to Round of 64 ] [ 3rd=65th pl",
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR2ZfQ1lUdHBUWndBWnMzOUVUdkRONFhoR2EtalJUTmRrVXhHYVdxRUQ0aWUwUEhqVXBlS1BuODdCM2VNaHVORlptekRnMXJkbUlOU2VScDljZTlnUjJodkNfenZpY3Y5STNTMWxOZkFmRDkta3BveUNKVG1Xb2M3LUlxWm9COEFIR3MwSTJ3aw?oc=5",
 "source": "World Surf League",
@@ -1031,36 +1071,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "High surf prompts temporary closures of several Southern California piers",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSWlSNFNRUjEyYTdQREx4MDJMVHhWYnE0WU1MZzZpU1Uwb0VvWk80R3B5ZjRRRVVxUmRvTnJ2ekgyMUJpc0dNeDFWd0dUd0Jsd2VtSUNRN0swbF9GbUJ0Ti1RS0kyYjA5bjdRMGxiejFhWUoyUnZYMDhUS3UtTzlzaHA2Y19ZVEJmZXFKNzhnVlRkenZ6Sy1n0gGfAUFVX3lxTE9ycWpOTnF4TjVDV0FKcXF5Y1VaN2JIcGxZUlJXc1dtZ2pxVGtPTlMwNUtETmFXVTRXcE1DN0lOMDZpMUFwU3ExUnRSempuNnNCUV9GZk5FWkpQR1pqSkhFckJtVFhQZ2VuY01qS2ItakR4ZWVlRGxRRVR2MHpxWVRiTmlWV0pic0xkRWxDUzJWM1Z6MXU3RVNoX1pqTG9UWQ?oc=5",
-"source": "NBC Los Angeles",
-"at": "2026-11-14T20:33+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "High Surf Warning: Waves Up to 50 Feet Slam the West Coast From California to Washington",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWXlWOVZsN3Z3MkpnRTNfVFpqVi1Kdy1fcW5MUk5JUHZVOXAtVTdkWkdaOTktcE5BbnFReE1VVEhKV1ZfOEZqS1pEd2VQaDJBYVdSY0l1Y3NWWXdXdkNaOGhjVHNfR29jYW9hcC1aNTJFVXJHdTk0a2pFNFJCZUo1dg?oc=5",
-"source": "Men's Journal",
-"at": "2026-11-14T20:10+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Manhattan Beach Pier closed due to ‘very large surf’",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNXczLWhQNVBQeU41MzlvV01SZWJYYVIwZ21TU3VGT1ZXb1pFWDNtWkVaN252VzY2Y1dYLVhUdFFNZTV0TlBaaGFtdkhuTEhsbENmN1hJQkJpaVhLeC1RUHFaSkhkM202WlVzVU10T2g5dzFjOGZYQmRsZ2dzTDlEdzBkOHVJcUFRS2JpY9IBkgFBVV95cUxPYWFwQTA2djExUTUxUEhON3VCanVYakhhejhNdFY2TnloRXQwZnA0SmhQMDJ2czNnb3ZjRVhlREppdHRHRklkcjdPUXNvVFhEclQ3NkNGYnVrNGswS0ItZlk0M2lZTlpRX3h2NW1jdUlXNmt5T29PUGJaU3pPNGd6UVNURjdXTU5DV2s2a0EwQ2RxQQ?oc=5",
-"source": "KTLA",
-"at": "2026-11-14T19:54+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Jhony Corzo brings his competitive drive to the Pacifico Surf Open Cerritos with podium in mind",
@@ -1219,16 +1229,6 @@
 "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Eb1Z1VjdWWmozZUVVZjVOVkpSYWxZY0R6R0xGNk5ld25zbXlEUXVwbzZPT2VIQUoxTGJsbkhuMndpNzBXN2R4OHdNeEg3WFhING95NFZpY0RTQU81VXVYTzdvMXlmLXJEY2FCTVYwek1jUF95R29IY094MWhvZw?oc=5",
 "source": "The Inertia",
 "at": "2026-11-13T22:03+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Santa Cruz Will Close Its Beaches During Monstrous Swell",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVFN5QW5sTHYwdXlsZ2lKaHNlODg2REVIZXhERnh1MmtLTVBTbWk0T01sS25meDFaSGdaTnNreUxleVgtcU9oUWZoc015VGdEcEQxRm55SW1JOXJpTko1WXBtOXhGVUhvUzVCQkVVS1oxeFhDdUJxOUNwaW1xUnJyM2xVUDRpdU54bjEzNUVwUGNMcEU?oc=5",
-"source": "The Inertia",
-"at": "2026-11-13T21:54+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
