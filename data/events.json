@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-17T19:22:18+00:00",
- "content_hash": "32a69a7f3858",
+ "updated_at": "2026-11-17T21:08:26+00:00",
+ "content_hash": "9dd7e357cea6",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-17T19:22:18+00:00"
+   "news_at": "2026-11-17T21:08:26+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-17T19:22:18+00:00"
+   "news_at": "2026-11-17T21:08:26+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -211,7 +211,7 @@
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3VJNUQ2MjNSVkhWU0JVb01sSm5aZUVFdUQxa0VwbUY1S0RpTkRoMGVtMTd6UVBsR0t2U1dXVnhNblJabzFhR3ZRbndvSnN6Qkp4Q3lUSmx6MF9iMTJsNllMa1N3WkFLV0tXczBrdWJSeEpWT0tYZ21xa3FBbmptRmlsSkRrTlhPM19rNjVtSDV1VFdOdUV1Wkp3?oc=5"
     }
    ],
-   "news_at": "2026-11-17T17:23:52+00:00"
+   "news_at": "2026-11-17T21:08:26+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -565,7 +565,7 @@
      "title": "Stories From The Eddie: The Trophy",
      "date": "2026-01-13",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-the-trophy",
-     "age": 307
+     "age": 308
     }
    ],
    "watch_note": "",
@@ -619,7 +619,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-17T17:23:52+00:00"
+   "news_at": "2026-11-17T21:08:26+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -637,7 +637,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-17T17:23:52+00:00"
+   "news_at": "2026-11-17T21:08:26+00:00"
   },
   {
    "id": "la28-surfing",
@@ -682,7 +682,7 @@
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajAtbzFaNTlkWXFtX191OElJRTJfd0lwV1ZKbHp0X3lhS1k3TXdYU2ZkbS1KNHhxSzV0enV2Y3VmbWhVUFpoRjZ6M041ZFB3cTNlVG9YQ3VIRXA1UGo4RkExNUwxOV9qUGNfT0htRGxhVDd5eUJIQktYemxMUXFmMjJ2TjZMUk1lMTlxbHVWT0k4RE5ESWZSNkppVk1XVFFy?oc=5"
     }
    ],
-   "news_at": "2026-11-17T17:23:52+00:00"
+   "news_at": "2026-11-17T21:08:26+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1242,7 +1242,7 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OUjhNZGN1cjlkRmxpeGZuMzRqZkYzSjk5YUZ0SlJ5TWdONGEzdUpIR3hkMTctSGpoQ0VDMU9qT1lUanBQek5WUThSbmpTSGZHeFdIWXhxNUtUVGwtVUdmaXpZek9LSUJQdmlCbHhGRFhjTGRpZU1ORw?oc=5"
     }
    ],
-   "news_at": "2026-11-17T17:23:52+00:00"
+   "news_at": "2026-11-17T21:08:26+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1313,5 +1313,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-17T19:22:18+00:00"
+ "checked_at": "2026-11-17T21:08:26+00:00"
 }
