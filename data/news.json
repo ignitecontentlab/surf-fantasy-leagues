@@ -1,14 +1,14 @@
 {
-"updated_at": "2026-11-17T13:53:33+00:00",
+"updated_at": "2026-11-17T15:30:30+00:00",
 "sources": {
 "Surfer": 32,
 "ISA": 6,
-"Stab": 30,
+"Stab": 29,
 "Surfline": 5,
 "The Inertia": 47,
 "BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 45,
+"World Surf League": 46,
 "Surfertoday": 5,
 "In the news": 52
 },
@@ -62,6 +62,16 @@
 "desc": "A colossal El Niño swell turns Pebble Beach’s postcard par-3 into a shoreline wipeout zone as a freak wave hammers the 7th hole and surrounding coast.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Mutant El Niño Wave Explodes Onto Pebble Beach’s 7th Hole (Video)",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fZVpmUlhyeUZKM2RzX1pNdjVEaUpqdDY0bzhHeGQ4X0kzcGNsbG0tT3E5cmpwa29FVXg1TW9WTzFHSFNsdzUwNkZBeTlwX0VOdkl5eWY5dFVXdXhYeDVPdUZkaGZsdGVIWm1XRlcyMkdGUQ?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-17T04:06+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Big waves, surf batter Southern California coastline",
@@ -318,6 +328,16 @@
 "kind": "outlet"
 },
 {
+"title": "More monster waves threaten California coast as storm systems move in",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZDdKZjZlRG5CX0hOd1FyUnlfYzBqcWpnTm1ndjhtbHNDamFibHphWGtfNS1OMldZcXNMSHdtQVppM0pSbTB1RlNrT1J6TEw0UHJqSER2dXBjcGlnN2tJM2hKdWg0RlJrZi1Tc3dsb3dwUWtheGQxeEl1MGVOblRKSF9JMEVaNXdJeGfSAY8BQVVfeXFMTWVILXNDMkk4UjdFWjRtakFXY2ZfQTNNRHBpRWRlNXhDVmV1dWprcGNTdzgwZ2NhSHpCTW1xTU1fOHdMNFQxV3Y1ajVkNklSeHR2dVlOa2Y2eTF0WE9jZW5mbEg0cGFBZExnWi1hc3diczlpVFVVVTIwZUdzdW5GdHhGLXUxWVV0QUJyS0JYYzQ?oc=5",
+"source": "KTLA",
+"at": "2026-11-16T18:46+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Kai Lenny Dominated Massive Maverick’s on a Super Charged Swell",
 "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbURmTGdtbjFRSmExd2R3UkV1YURQTldHSEhJYXQyX2Zoa0xnX3BiS1VVYlctN0hDM0dwOFBqa1FYWlNMZ1pKbEk1a3Jkb0NlRnZIWkxlWTBHRk5MTm8zQXZTZHBFNUlnX3ExbWhvSVQ3QU5JNDN2b0o1Q0FESG1nT1dxVXhEc0EyQ0Z6aDRPcnRCS2JmYWZZU1BaRQ?oc=5",
 "source": "The Inertia",
@@ -483,16 +503,6 @@
 "kind": "outlet"
 },
 {
-"title": "Huge waves pummel the California coast, forcing the closure of iconic piers",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
-"source": "AP News",
-"at": "2026-11-16T03:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Byron Bay girl stuns surfing world just days after turning 14",
 "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNREg5RkZ3SThJMC1DUUYtM0NVVVJWOWUzemdhSmh2ZkI4MDVTLUlpVkx3cUlRY0tJbWFSeGpDMkxvNU9hNkE1MXZrS0ZmYm9QeW1DX09uSUpmU2NOaHhoa2ZONE1MdjdldFNhOHM1dGszWndjTkFyM2NTQVdPSHB5enRBa3VMOUJhempZWmNjYno0bG51Y2NGM3RCSmkwQnBDWVFPN0VKbXVON0E3VV9F?oc=5",
 "source": "ABC News & Headlines – Australian Broadcasting Corporation",
@@ -546,20 +556,20 @@
 "kind": "outlet"
 },
 {
-"title": "Massive waves create flooding, erode coastline at San Diego beaches",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUjZGT0l2dEp4UjJtV1M2OVFsZ2c4bHdXS2g4dWQ4SDZKbkZlZzhxRWNNdVdfOWNsUE9UNS11aEZHdXZrdVdQN2hIblhjUkFyUDltcVJ5Umt1OU9SelRfd21vam9NblVuNURFVnVNcVJxbENHZkt4WGc0ckU2bDB5RUMtb3lQeTFrUmViWGswaUx2UlhhaDlwc24xVVF0ekVyU1M4cmJfcE1vektBb05kUFlUbmpkVGdReV9vZTJFNNIBxwFBVV95cUxQUzZBQTdEZEJDeWxNbGstSExBVWFnVXIzUUVKOHpiU3NXd3VWMHBJZlFtSFVtck5xamxRTzRQREtMTVlYbDR1cmN0UTVGVFJuNnY2Q1RuTF9pS2xiWnV4WF9WdUI1X2lrQ056VlJmLS11RmIwN0QzQ2VGTzhoZ0hhWjFDc2tmN3FRaU95b3NYM2hBWHJnMkgtNjVQanpuMmQwbzdWczJDemx3blpkVGFIdUV0eXI3dGdoYnpyc1MtT1JkRWR2aGJZ?oc=5",
-"source": "NBC 7 San Diego",
-"at": "2026-11-15T23:00+00:00",
+"title": "Huge waves pummel the California coast, forcing the closure of iconic piers",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
+"source": "AP News",
+"at": "2026-11-15T23:59+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
 "kind": "media"
 },
 {
-"title": "Dangerous surf persists in OC, LA, with more expected this week",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaWdodVpLOU9BcVdWOWR2RG9vTjJQOVNfOE1Sc0htRWJpTHl1eXdnUnU1MTJLVEZJdlNhNzNVOG1vaklGbzlfTWtxU21lMkZ1NXpVcFVFa3ZIMGxaOWhZMEVxWU1ZRjRnQmZ1cF9sVmR2RXA4TUNydWttTWQ5dWY5elYyTS1ISmwxN2dNTFloUnNDYk9oMC1qamNyOTdya1JjUVE?oc=5",
-"source": "Orange County Register",
-"at": "2026-11-15T22:58+00:00",
+"title": "Massive waves create flooding, erode coastline at San Diego beaches",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUjZGT0l2dEp4UjJtV1M2OVFsZ2c4bHdXS2g4dWQ4SDZKbkZlZzhxRWNNdVdfOWNsUE9UNS11aEZHdXZrdVdQN2hIblhjUkFyUDltcVJ5Umt1OU9SelRfd21vam9NblVuNURFVnVNcVJxbENHZkt4WGc0ckU2bDB5RUMtb3lQeTFrUmViWGswaUx2UlhhaDlwc24xVVF0ekVyU1M4cmJfcE1vektBb05kUFlUbmpkVGdReV9vZTJFNNIBxwFBVV95cUxQUzZBQTdEZEJDeWxNbGstSExBVWFnVXIzUUVKOHpiU3NXd3VWMHBJZlFtSFVtck5xamxRTzRQREtMTVlYbDR1cmN0UTVGVFJuNnY2Q1RuTF9pS2xiWnV4WF9WdUI1X2lrQ056VlJmLS11RmIwN0QzQ2VGTzhoZ0hhWjFDc2tmN3FRaU95b3NYM2hBWHJnMkgtNjVQanpuMmQwbzdWczJDemx3blpkVGFIdUV0eXI3dGdoYnpyc1MtT1JkRWR2aGJZ?oc=5",
+"source": "NBC 7 San Diego",
+"at": "2026-11-15T23:00+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1027,16 +1037,6 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BcFEwWWVNcmhDMGtsUnB5WTQ0Q3RfOUZWTkcweXFFc0hEOUZabzNkclZSZGlwaklHelpxSDNrc0U0WEF3WWNTZEpCYkZ1SjhXVVI2QThHN2pWeW1uUHlrOGQweXZ0MDlFRDBqNE45a0NBWXlQ?oc=5",
 "source": "OPB",
 "at": "2026-11-14T16:50+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "West Coast braces for relentless barrage of storms as powerful atmospheric river fuels heavy rain, strong surf",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVExOcnV5LXJXcnNmd25BUXRncDJhcFVtOThyTDQyeTVjSUhJYjBzRVh2Mkd5Z0NrNHhmQldjRmlhRkdLTTk2cDNXV1cyZ2dnVThVbG5DdzJXMWtaRko3S2Fxc0ZwZ1BXcC1paWlkWUR2R0Q0VGdWTGxaek5hQThManhiN1pKYXpBdVZieElYdDBaMDRmTHfSAZsBQVVfeXFMTnVMTWwtZmhnOWVfYnVfTldRQUZpYjVabnpfdXl4SFU0SDdmeU9Wbmw4ZU9kSE50Z0lXYXRWSmJtT1RHcThTMWJVSTFjYmdwTUw3ODhWRV96UEZfOU5heXBXVDhzQnloc3hubGJUOEZ5UGM4LWsxQTAzZXBWY1JqT0tLSGRmeUg1a255aEU4YUFDai02VE1YU3ZsVUk?oc=5",
-"source": "FOX Weather",
-"at": "2026-11-14T14:07+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
