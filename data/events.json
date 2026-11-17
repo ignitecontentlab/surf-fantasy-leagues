@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-17T08:30:30+00:00",
- "content_hash": "af5b70a64164",
+ "updated_at": "2026-11-17T10:24:24+00:00",
+ "content_hash": "cbac3ca12cb0",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-17T08:30:30+00:00"
+   "news_at": "2026-11-17T10:24:24+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -67,7 +67,7 @@
      "title": "Taiwan International Surfing Open attracts 200 surfers from 30 countries",
      "date": "2026-11-15",
      "source": "Taiwan News",
-     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSm5WYW9KU0JhSUUtUm5wWlo0Vk1oRXY2V05EY2ExVzlqR1BkTHNFbHBIbmhQZUNfakxHUDJoZUt2djhwcnU3LWhlU3pzb19SSG13czBUSUk?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     },
     {
      "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-17T08:30:30+00:00"
+   "news_at": "2026-11-17T10:24:24+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -199,7 +199,7 @@
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3VJNUQ2MjNSVkhWU0JVb01sSm5aZUVFdUQxa0VwbUY1S0RpTkRoMGVtMTd6UVBsR0t2U1dXVnhNblJabzFhR3ZRbndvSnN6Qkp4Q3lUSmx6MF9iMTJsNllMa1N3WkFLV0tXczBrdWJSeEpWT0tYZ21xa3FBbmptRmlsSkRrTlhPM19rNjVtSDV1VFdOdUV1Wkp3?oc=5"
     }
    ],
-   "news_at": "2026-11-17T06:21:22+00:00"
+   "news_at": "2026-11-17T10:24:24+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -614,7 +614,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-17T06:21:22+00:00"
+   "news_at": "2026-11-17T10:24:24+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -631,15 +631,8 @@
    "news": "Challenger Series Newcastle surf",
    "host": "WSL",
    "status": "upcoming",
-   "headlines": [
-    {
-     "title": "'Awesome feeling': Why it means so much to Morgan and why he wants to stay",
-     "date": "2026-11-15",
-     "source": "Newcastle Herald",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWk4eC1OMDRHVE14dFdZaHFGS1ExeUVaaUt2SjBfbFZLa0k5UlFmb1BnLU9RYmh3T2FiZ2Ruc0VkYUdKd2ViNlEwZTZPdEV5TnR3RjZIdGtPZExESnhseGgtOXpnUzV6WjF3Y05QRlVhdWJjRi1nRzR0cE9BbE1fSV9HWUVZRTBRRmdpSG1PN2doeWpSRlpqbmtISXFtbWFoTTVBV2drdk80RjlGNkZ3WHFiMGI?oc=5"
-    }
-   ],
-   "news_at": "2026-11-17T06:21:22+00:00"
+   "headlines": [],
+   "news_at": "2026-11-17T10:24:24+00:00"
   },
   {
    "id": "la28-surfing",
@@ -684,7 +677,7 @@
      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajAtbzFaNTlkWXFtX191OElJRTJfd0lwV1ZKbHp0X3lhS1k3TXdYU2ZkbS1KNHhxSzV0enV2Y3VmbWhVUFpoRjZ6M041ZFB3cTNlVG9YQ3VIRXA1UGo4RkExNUwxOV9qUGNfT0htRGxhVDd5eUJIQktYemxMUXFmMjJ2TjZMUk1lMTlxbHVWT0k4RE5ESWZSNkppVk1XVFFy?oc=5"
     }
    ],
-   "news_at": "2026-11-17T06:21:22+00:00"
+   "news_at": "2026-11-17T10:24:24+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1220,31 +1213,31 @@
    "status": "completed",
    "headlines": [
     {
+     "title": "Snaketales Philippines Pro presented by Philippine Sports Commission 2026",
+     "date": "2026-11-11",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU2NnRjhHQlZYaTI3cm1rSmcwaE5mb0k0anduRDNGakNOMGtTc3dYMGtCY0d4X2xkZkI0RXdfSlR5YTVhUndEMkhEMi1WTm1yMGRSR0VlTThQSEJBM18wRml6NV8wRlBIT2FqWkJXUTdvUWlvS1JWZExlS1UzYkZKQ0JjWWRvQVdfUm5IOHgwcEpVbjdJNHpEUTcxUk1HT2JJVE5NQ1ZtSF85UXZ0X0ZnVTh5QlFESVZYWUE?oc=5"
+    },
+    {
+     "title": "Rappler. . HOMESTRETCH: Surfing legends make history in Siargao The top 40 surfers in the world made Siargao a global stage. As the Philippines hosted the 11th stop of the World Surf League’s 2026 Championship Tour for the first time, the best internation",
+     "date": "2026-11-08",
+     "source": "Facebook",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNemNPUjItTzgwTmM5c3RjU3h5M2tSWHRwTW1mS1U0dnVkclNZUThXdUhjSk5hU0dhUDVaQ2ZCOFF0ZE9LejRsMmwyN3ZvOHo4MUZzZmtTNE5CelI3U2xMWUlJQl9reUlyM2kyNFo3Njlpb0c5MlhvVVpjNlpJWFhBaWg2RkFQcVVUWFBGWXZabkw4UVVRRFVlUmgtX2NveXlUczBoODFCeVprLTRrZHluNGVaYmpvekF1eTNqVXFuWFJoVExQSjdMMFk2NlRDeGNQbWU5TWdRdVp3UkFF?oc=5"
+    },
+    {
      "title": "Caity Simmers and Gabriel Medina Win Inaugural Philippines Pro Presented by the Philippine Sports Commission",
-     "date": "2026-11-03",
-     "source": "Surf News Network",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0F4eGxwbktYQkhHTFBRVElYVXd0OUh3SXZIUGk4OHFucC1qNlVMRjFzbzk1TmtrYzM0cG9wVnI0YXJYazdFVVgyb25iWENObHVRLWRlMm9nUkhodlQ5NjdkdXFyVWEzZ1daeTJIcGYzX3FNejlqYThPMDNEcjNucXB6WW4tYWcxRnYxNFBlMmMxVlp2YTJCazBESS1OU0pNT01MSVdzWGxJNkVKMGNPUGJPdw?oc=5"
+     "date": "2026-11-07",
+     "source": "City Life Org",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSlhjeDYyNjdzSUtMNl9EalJDMmZqQmJJM3VtSVR3MEVnWVFBNzNxWnloandMQllxTUhLRFVtOVJ2ZDZfUkJuc2EtejNjTy16ZEVlUERBeEpyWWRuZDBYcVhtd041ZDgta3ZtMW4tQlJUZHY2U1VVT0VONzZmU3c4VlJPZ0FxRk1LN3IzSjlQdGlxaElVZElFckd2VmVfQThHZVM4a2NPYnpzUXJvOWM1X2Q1LXFLNmNlRk5IcXE0YUZ1T0k3emtXOE5fdWtkSXgyd1pCVlNZQzFNNzZk?oc=5"
     },
     {
-     "title": "Simmers, Medina win inaugural Philippines Pro in typhoon surf - Honolulu Star-Advertiser",
-     "date": "2026-11-03",
-     "source": "Honolulu Star-Advertiser",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUGJ6T0JKZjZJVEFYdUhzMThUN2tISm9CMVFwZmg5NVVYajc5WFl3UTZaX1otZThXOEhOYnFSSDNXZ3BWNEdZR1JOWFUzVk1GckYycS1GRXZHUEdac3d6X3ZJZzYyOEVPYlcweEhheFZfVWdMelhJUEV4RW93by0yZEM2VEV5Y2FJd3lxLTNBYlA4VjFtSC1NVUZDS2k3aGJzWXpjYjZEZ2lMMWhQTjktMnE1U3dfRUJIZldMMUpVZENCaVBl?oc=5"
-    },
-    {
-     "title": "Oceanside’s Caitlin Simmers captures inaugural Philippines Pro surfing event - San Diego Union-Tribune",
-     "date": "2026-11-03",
-     "source": "San Diego Union-Tribune",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEZ6MjNmejZNa1YxWUF4TGRUV1V3MTRVUVFUOVNsR09xTU5hY1pocmE1TjU1elFGWDl2TldqZjUzbjJJVTQzZDdxSUlUM2xTTXQ4UEFhb1ZMT01hT3NYeGxvd0U1azFXQ0JiZXBXU0dRTFA3NHBib0NJZFZWdWxYekczZUNPdE1OdjltU0oteHY0Qzdqa2pabnoxclkwdDdDX3RrRGFiamNfRmdkUHBYck1XNGEtQUdtQjlnVlo3SkVTQQ?oc=5"
-    },
-    {
-     "title": "Medina, Simmers win Philippines Pro; Pipeline set for 2026 World Championship",
-     "date": "2026-11-03",
-     "source": "The Sporting Tribune",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQjZfa29jVTY0OGNYLUE2enNXaGdJVDhtMmwwbHotemZuQXkwTWk1QzhGamdKYVFKNDJBc1lmT09MRVF4dEFQZExRdTl0SGNSdjQweTVnV3pZWWlVaGZnd1pGV0swVzBRS2FTNHdVRUVYXy02eVBDU0V0YWkwSklDck5TQ3RyZ054bVotMV9BY0hFdHk4YzRLQ2hUaDQ2aURWSEVOZ25LLXZDdm5SUjNlTzg5bjhQTnoyUTBoZ1pR?oc=5"
+     "title": "Gabriel Medina and Caity Simmers Win Philippines Pro, Shake Up World Title Race",
+     "date": "2026-11-07",
+     "source": "Teton Gravity Research",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OUjhNZGN1cjlkRmxpeGZuMzRqZkYzSjk5YUZ0SlJ5TWdONGEzdUpIR3hkMTctSGpoQ0VDMU9qT1lUanBQek5WUThSbmpTSGZHeFdIWXhxNUtUVGwtVUdmaXpZek9LSUJQdmlCbHhGRFhjTGRpZU1ORw?oc=5"
     }
    ],
-   "news_at": "2026-11-17T06:21:22+00:00"
+   "news_at": "2026-11-17T10:24:24+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1315,5 +1308,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-17T08:30:30+00:00"
+ "checked_at": "2026-11-17T10:24:24+00:00"
 }
