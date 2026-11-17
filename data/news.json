@@ -1,18 +1,30 @@
 {
-"updated_at": "2026-11-17T01:55:14+00:00",
+"updated_at": "2026-11-17T03:29:46+00:00",
 "sources": {
 "Surfer": 32,
-"ISA": 7,
-"Stab": 24,
+"ISA": 6,
+"Stab": 26,
 "Surfline": 5,
-"The Inertia": 45,
-"BeachGrit": "failed: HTTPError",
+"The Inertia": 46,
+"BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 37,
+"World Surf League": 36,
 "Surfertoday": 5,
-"In the news": 55
+"In the news": 54
 },
 "items": [
+{
+"title": "Koa Rothman Entered the Fray at XXL Maverick’s",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE45empqalluWjMtUlFtUDRwbE9Rb1h6MEN4d1ZuZ1dGUVZGeUdIZHhQMk4zTTRjcGlEazZoM2hpdWM5UnRyZm1DeEZMXzZZdGRrbW45ODd2ZWhFNnNQejNtX05DLUhBQ05SZ0tfeklCbUhPUl8yOE5mYjB0WQ?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T02:21+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"koa-rothman"
+],
+"kind": "outlet"
+},
 {
 "title": "Twin Waterspouts Erupt Over San Francisco Bay As ‘Super’ El Niño Storms Pummel California (Video)",
 "link": "https://www.surfer.com/news/twin-waterspouts-san-francisco-bay-video",
@@ -24,10 +36,32 @@
 "kind": "outlet"
 },
 {
+"title": "Leihani Zoric, 14, makes history by becoming women’s world surfing champion",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcmRoMlVKWWNNY2dMbnJqTl9lLVNMSEo0bVI2QWtUN3JsUi1BTWI1enVGa2hCN290c0NuRWtNZmNHX1VXSlNodWFSWjhLMEV5eW9VcXJpaUl1LXhHZExDaHRUMTEySlpheF83ZDF3LVZyNWxnWWF0cERwZHNZQUU3OUsySHAzZUxpaS1LVzJyZ2x4eG5BaE9iUw?oc=5",
+"source": "The New York Times",
+"at": "2026-11-16T23:42+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"leihani-zoric"
+],
+"kind": "media"
+},
+{
 "title": "Photos | Big waves return to Santa Cruz Monday",
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSTR6WDZNOFRvTFMweXZCLVJ1Y09rTFMwb0tVMFh0Nlo0V3JuWWFiQmNFanAwWFNtOGhWNDdxZkZaNXpFR3VOYVB4SHJlUWY4Qmsyd1dOWkZnNk1Ma1ZxVWQtMmxYZGlRZXpNMTlwc0ZiLVFLcGJIZ3lXUFdzbGpxc0xsRi1KVjQ3cE02OVVHNGhTQU5x?oc=5",
 "source": "Santa Cruz Sentinel",
 "at": "2026-11-16T23:24+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Watch: 35-foot waves slam California coast",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdFlfZE9SR3hRVnZ4cG9uN3ROT1hWRE55c0dXSE1HZloyUVJlQl80NkJqM0RGTVBhSGF5MEdzREczaVRQSG5Gajlic1ktbmVSa2tzcnVrS3BiaFlpTHB5RF9STDRIc1B0a0NSekpqN1czUjFxWDlid0RBMjA2TFBLQ1BjYTUtME9vU1VCUUJIZ2MyRm1D?oc=5",
+"source": "The Weather Channel",
+"at": "2026-11-16T22:28+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -127,7 +161,7 @@
 "title": "Windy Week for Florida May Turn Active for All East Coast Thanksgiving Week",
 "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLW5WeWJMM0trX1hnSGhEbWw5VFJoMThYdWhHUXBCVlJhMFZMc0ZRZVY2aXlfQjRjNU9CZWRGVzQ2cklwYTM1UWR5M3kwRW5haUtPZ0l1SFBZSjMyOHN2RmJsY1c1TGFWMzMtMDBkUlpFN2d3akRqaTRBRzE0NmtNeVRGUE1NXzNqN3JQNm9LMkVEV21pYlJwcVdVWmNZaTBUekVCNlBzMVRxcXlLTXo2dDh2Y2NnTTdyc0phR2FVcXBtdXAtRXpnaXRwUkcxZw?oc=5",
 "source": "Surfline",
-"at": "2026-11-16T20:05+00:00",
+"at": "2026-11-16T20:07+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -299,6 +333,16 @@
 "kind": "media"
 },
 {
+"title": "- BeachGrit.com",
+"link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5WOUZWS09PaElxVVBQNVhoRFVQOFFzcDBFdnJQQkRBSEUwTkVkRVVqbUtFT2ItcTNQRmUzWjRJdFA5aXhraWpr?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-16T11:25+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Women's Opening Round Hits The Water On Day 3 of The 2026 Taiwan Open of Surfing",
 "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMk1WUWZTUmtHdmVBVFRqLXBVSzhMSXlMTkV5eDUtS2Fja2ZTVkg4bWNPNkNzdTdmZ0RFRlBYSWoyWFhHX0xHTi1kWjRKMDlJLXZnTXZaamZLbE5lSldoeVdSdjJoYXRBZEczaTdaNExLdXhRaFFrejdNVjNIUWxZeGt6cUxPTzA5dXVfVkdkTmhKZFB1RmxUT2ZhSGw3LUhjU2pYOWdCSXVhV2kwTjAweHAzZzFSWmp2a2MwNnd1SHJtN28?oc=5",
 "source": "World Surf League",
@@ -349,16 +393,6 @@
 "kind": "outlet"
 },
 {
-"title": "Huge waves pummel the California coast, forcing the closure of iconic piers",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
-"source": "AP News",
-"at": "2026-11-16T03:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Byron Bay girl stuns surfing world just days after turning 14",
 "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNREg5RkZ3SThJMC1DUUYtM0NVVVJWOWUzemdhSmh2ZkI4MDVTLUlpVkx3cUlRY0tJbWFSeGpDMkxvNU9hNkE1MXZrS0ZmYm9QeW1DX09uSUpmU2NOaHhoa2ZONE1MdjdldFNhOHM1dGszWndjTkFyM2NTQVdPSHB5enRBa3VMOUJhempZWmNjYno0bG51Y2NGM3RCSmkwQnBDWVFPN0VKbXVON0E3VV9F?oc=5",
 "source": "ABC News & Headlines – Australian Broadcasting Corporation",
@@ -373,6 +407,16 @@
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2UxSjdUNGw5ZHFxb191a29CNHI2dEtVS2tpcHlSVDBPTUo4ZndnN1dycm44S1lJalBMLTRNdXF3aXZXNnZQSFF5QnRXVF9SS1JsV3hyS05HTjIyZ2NvcWUyYzRObUFFTE02NnhoUW9pand5Q0daR0FqTlFCX21GS0ZreHRaVm93ZWZVQjJBdnZEaGVkcmZMQjZ6aFJxdkdt?oc=5",
 "source": "Surfline",
 "at": "2026-11-16T01:24+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Adult Learner Surfer Lewis Hamilton Becomes Human Meme After Latest Geopolitical Faux Pas",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORGRtTlR2RXJmVTlSUVVfMTZHeHBuUE9DQ00zR2FsUHBmbkgyb2wtUVZHTV9zLWtpZ0MxS3NyUWcyT0llcmpvTzFFVjN4eXhiaFQxRVhxWWJPVmhKclpSR1psTTM1azhYOXNrV1JhRXA1dE1YOE5IMG9qT0V1MGctWUJHZVNKVjh5Y20wYS1EMDRyc3dfQVN5R2NQWjR2RGlFV3J4dUF5bnNodkgwS245SF8zeUwyZjUtbThkSQ?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-16T01:17+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -399,6 +443,16 @@
 "ethan-ewing",
 "leihani-zoric"
 ],
+"kind": "outlet"
+},
+{
+"title": "Hot Surfer Boys Shamed For Being \"tools Of Fascism\"",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcDNOQVNvUG5SQjdSaTJrS0ZSN18ySDRfYmpoZGpTMnllTWZ1bC02WDI0a2hZa1RpNXhrR2J1TVRfSnVoVkR1Q2RMbU1HeThvWHJZM1NUdmxLMG5JZ0pjTlBhQTVyMFJ1am1ydGphbEhkQVFuYUNPUEJjOW50Mkotc2VnRzlsMEE?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-16T00:29+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
 "kind": "outlet"
 },
 {
@@ -498,6 +552,16 @@
 "at": "2026-11-15T18:00+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNDky/surferphotocontestfinalists.png?profile=rss",
 "desc": "From Hawaii to New York, out of an eye-popping 700 images submitted, we've whittled it down to our top five.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "New York Times Profiles Brave California Surfers Who Dared To Paddle The Mega El Niño",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1F0czJrbTRwUEM5NjZxS21udjBIVlBGRmpralA1TVBqWTUwaHRnTVBHNkhPU0tCeWxTQm1uSnZBTExLT2NTekhaUTNpMk5NMDFKekEzY3I1MkxHbzlWaHFIU1VmRHhFOEZCd1lZSkF5SkV0d1BsRHItbDNBcnozNUhsbjR1ajd3Z2JBN0x6TWdWWEdTQnBkc2hub0hqeHQtaUhYTXlXaDJ3Wl9hZmZ0SS1n?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-15T17:30+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -839,6 +903,16 @@
 "kind": "media"
 },
 {
+"title": "Bay Area meteorologists freak all the way out as Godzilla El Niño arrives: “Don’t even think about looking at the ocean!”",
+"link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc0xibi04OUo1cXVfV2VGUXZLWWpXTDFrS2VWZU11WXY2RHlGYmFCOGcwX3pRZy03ZHBpZmp2RExyR3ppZTR3Sks0dlkzbXFLaExiSnpVVFp2UGViaENpRXRCdlAxN2VtNGwwUXlvWllaUTZPSVFxbVdWNWx2MDhvdm1DQk1PYmtVQWM0X2xsVFVtc1VpRGsyN0FTaTRvdmRudVRoQmFTLXQxa2wwTDZ2Wnd3QXhtZWZDcS1CYUZMNW00UUpVV0VlRzBGR0Z3N0NhMjVkNzFsZjZEbWtkYnpocg?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-14T16:57+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Oregon Coast beach hazards include high surf, sneaker waves and wind this weekend",
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BcFEwWWVNcmhDMGtsUnB5WTQ0Q3RfOUZWTkcweXFFc0hEOUZabzNkclZSZGlwaklHelpxSDNrc0U0WEF3WWNTZEpCYkZ1SjhXVVI2QThHN2pWeW1uUHlrOGQweXZ0MDlFRDBqNE45a0NBWXlQ?oc=5",
 "source": "OPB",
@@ -919,6 +993,16 @@
 "kind": "outlet"
 },
 {
+"title": "“Paddle Your Fat Ass Faster”: Bethany Hamilton Nukes Out-of-control Surf Daddies",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ3ZyYzNDUEVqcU9TeXp5aHZCRVI5WVl4SFdmMDFMSmY3ejFFd1ZHWDBxZ0NJbktILW9kdXVNVGpvVktxOHRIaTQzNjRUSVVGRkdpVFRySWNjX3E5amRsOGt2SnhVZUZCOXBOUDZXQkY2YUNOUzExVHRYRE52OEFmb2ZRdDRtUjBEZFRUR2ZfM09ob21wTFBqYW1XcmVDdHVzQ1VUb0plZDZHX1FF?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-14T09:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Is El Niño behind the huge waves in Santa Cruz? Partly, and past El Niño winters battered this coast",
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQVNpODlsRjVZa0ZkOXA0ckljTFE0cU54WTdhZ3l2MEJ6SHZJSWtXLXlHWHg2XzBTQlFIVmYzM0VDeDRnUF8tWHQtYmlzeC1uTmFxQVlSLTJBVnk3XzRnZzFRNzQ3NV9BNVgzTzV4dW9LYUdZUnpvdVZpVmppNXF0cUZlel9lT3VFWEMxa0UxQm9hYzQxS2NRRll4UEJfN0tQZDBtN1VuYklWb3VCcERFbWVESF81X0FJbkZyOQ?oc=5",
 "source": "Nacionale",
@@ -929,20 +1013,22 @@
 "kind": "media"
 },
 {
+"title": "14-year-old Aussie Phenom Leihani Zoric Takes Out World At Surfing Games",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbzk0X2F1T01WUUJqVWhXYWx1MHRoRXBKMjh2bjdGcmhSWGNNUFlJSXV5ZC1zaU1TZW5nLVFjSlVZXzBZYTFPZDRVNS1lNFJpakh1eVFOR1JjX2ZUMmc5WnAya3RhYjNpOWpJX0xUQmE4dDZHQkVsajZjMlFzRFBaWG5sYXVwOFBuSnpLaUFNV2dOdlduOEY1UEFlaGVMeTE1eF9nNGJn?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-14T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"leihani-zoric"
+],
+"kind": "outlet"
+},
+{
 "title": "When do the big waves peak in Santa Cruz? Saturday around high tide, with another swell due Monday",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV25XY0JUbWpJMnRLTzRaUl9qVzBhWkhJR1YwNHJyQ190RFVHN0ViVG1ldXY5Um5neXdyeTdYWFkwMG9CbDVhSl81TkQ4Nnhqd3g2SVRyV3dzMmdXTHdCRUZFQ2UyUXN5YjVJaFNqZm9ONEp4YUtzdGUwa0pHWUFQM09Odk8wYlBVVGxXckx1QVctTHh2N0duYTVsR1NvWEZVWWx0WHNfOEFJZEpV?oc=5",
 "source": "Nacionale",
 "at": "2026-11-14T05:28+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Photos: Stormy weather brings big waves to the coast",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ2pGX2stVXduZFdBWVp6ZTNVRkpiSmpIUmRrTUNtbUlyb2hScDB5elpXWEctcGx4c0JqaE9iZG5VOFlTcEpHZ1U2emRaem50eW1vSnNwS3lKcnI1TjUxSDVlWEptTDByVHNiRHktYkNzLTMwMzZRZ2VlNFZoZ1ZIZFEtdGJzMEtpWUxEOHRxU1IxcEhR?oc=5",
-"source": "Santa Cruz Sentinel",
-"at": "2026-11-14T02:42+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1143,86 +1229,6 @@
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMlZ4ZThGZDFFNEE4UkF4UnJ0ZDd2NGx4QWdkdnF4RENkNWVISGllTDI4amktTDIweF9EVWhZMFFDcTk1QVBfRHdKMVpoUDRaYmdHc0RwVUN2VnJfWkNvbW5Sa0c5Qktjc2RNUHRjOFg1a2ZMRWR6SkZZaktrdGE2Zmg1eUlyei1lNEstT1R5QTNwYW1XUXN1bXdHOGwyU2V6?oc=5",
 "source": "The Inertia",
 "at": "2026-11-13T18:40+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Exploring the Enduring Legacy of Brenden 'Margo\" Margieson",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1maDdpN09XU3RUUzJwcXdVRkt5eGlWMFhZbktwZXhETWktSlhXbHhCaFNrUnJkOGtESXhvdmNUUTBkYzNKdzZsSGhFbUhzRkFpSDVxNmo5YzkyVXMtdVVrME1FVmg1RFRWaTdJSFhzMXJ1VGQ1MTVzRFhjWnE?oc=5",
-"source": "The Inertia",
-"at": "2026-11-13T18:34+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Kurt Van Dyke’s Girlfriend Arrested In Connection With His Murder in Costa Rica",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaS1VQkE2bmFqd3pmcWdQM2VnQThmVHJoOWhmWnJsYUZOMUlTMHQwbjNsOU9NZ0dUZzJCc3otZ2FMMGhVaEdaaThRTm10ZzJzZUR3WHVlZFNOSng3VDFiQWZkbmw3bkF3Tl9ram5lV1JmSnJQVjIxQ0ZPMnBIZllSZHRaSzdiT1NFUHoyRQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-13T18:32+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Kurt Van Dyke’s Former Girlfriend Arrested in Connection With His Murder",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNml6bFc0UTNPYkxXLVhmbEdMR0FYdmZDOTI0aU5SLWcxenN6ZjJpR2xOVXNNa2R2aUk2ZlY1MC1Uc2hYYVZyc0VwblpSNjN1cm1vMGxrVjNnMnhZQTNBb0dwaWRLcFEzd0hXYnNWVEZycWxsSFAyb25ZeVdGdTFiSDFzSWdMOFpLR2RGVVBSZXZnMGpIbWxVU1FpSHRmZw?oc=5",
-"source": "Stab",
-"at": "2026-11-13T16:16+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results for Lukas Skinner at Edommo Pro Razo 2026",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1FyRFJzZ21ZQXozMTRyUDhQbVpfMkpHLWFRRVg0WThHMUs3Y0x2SFoxYkRjSlhLSVBiSVJiNEZCMFZGTDh1WS01TmJrMnplYndxaEJPSXljbWFJMUowak95MnU3ZURxMW1NQThaWlhnUUFQYWtpcXUwUlEwMVVsQk9HT0Q1RmNLbllBR2VOUQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T15:35+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Watch: Our First Day Of Chinese Airspace Exploration, In 14 Minutes And 20 Something Images",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVkRpSUVIVzdTTlpCZTFwY0Nyak92Ym5ieW54NDVkMVlxTDIwbFIwLVI3c0l4U0tXOHAtTjlXS3JHMXBFZVlPeUt1YWRVX181akQ0amJKcmpzbG5GOWdKMGtiUXBWenVqYmtnWkt0ck5lWmdzV0JBaUVMbkotajdwc2QwbWtUQS1oRk13Q1NMcmJaRnZTeUVjT1NMdzdyS3RFREpVVnVmZmlKWXpjVnB5TGtZRDk1eUtBZ1NlYg?oc=5",
-"source": "Stab",
-"at": "2026-11-13T15:14+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results for Alys Barton at Taiwan Open of Surfing Women's 2026",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTk5PUXZEOGtTU2JIR2Yyb0JvMGQ3LTdJOUo1RHhOdlQ1ZUdiWEpvMng4TUlGalBrLTJyMzVvSE9sdkNMUUFaMndGNHdrbHNfZVBqR19BeDdHclJodjVON2tzYlZmXzI5NzdWcy03LVYtTmJEWlBXR01Yd0RuWVJDelI3VlJQNDVfTkF0NA?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T15:13+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Girlfriend of Murdered California Surf Legend Arrested in Shocking Twist From Costa Rica",
-"link": "https://www.surfer.com/news/kurt-van-dyke-girlfriend-arrested-costa-rica",
-"source": "Surfer",
-"at": "2026-11-13T14:41+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNDcz/kurt-van-dyke.png?profile=rss&x=51&y=37",
-"desc": "Nine months after Kurt Van Dyke was killed in Costa Rica, investigators now suspect his girlfriend helped orchestrate a brutal robbery-turned-murder.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Mikey February Is Back On A Thruster At The Pyramids Of Giza In His New Edit",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTGFYaUIxYk1MQjRHaElNME9uMXZJQ19Wakp5UFJIRlAySDNIT2ctSzVUUEJ2aVdJcDRieXZQMzdHa0htVkR1TjUwb2dEeEltU1FMcTVrWGdjMU1zZ0VJYU5Ic1hjbHVoUXNKTXNXby1XTWR5SzBkdDNaNkFFaFMzd1E2a3ZRU0xXbGFiSHl2cjJJVVh0ci1hTnNJSXdTMzlxWHBvc1lBV2ozWjM1?oc=5",
-"source": "Stab",
-"at": "2026-11-13T14:41+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
