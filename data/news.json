@@ -1,18 +1,40 @@
 {
-"updated_at": "2026-11-18T11:34:49+00:00",
+"updated_at": "2026-11-18T13:54:27+00:00",
 "sources": {
-"Surfer": 34,
+"Surfer": 33,
 "ISA": 5,
-"Stab": 32,
+"Stab": 35,
 "Surfline": 5,
 "The Inertia": 48,
 "BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 47,
+"World Surf League": 46,
 "Surfertoday": 5,
 "In the news": 33
 },
 "items": [
+{
+"title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFlTTVl5VExQUHROZGNwOE5SREJ6amVzcENMck9wX2tpUDFmYWkyYWNEdUVTUlFnZWVWTVhaMlJFYllidThMcGd2eDdJNUJwcVpLVjZsdjRPQXBjR1VRVDFvcXJLVVduSnN5LTRmZk9KLUpJc1VhV1E0anlkbXZlY0VMNEVFVWI2VlRLcnFVRFhlaU1BbEdJaDBaUndHaTZDQzlQQUVSUG0yX0p1eWY0MWVYd21FcUI10gG-AUFVX3lxTFBmWk1ndVJEVlBEOE54ZFVXb1BvTXphQ1ZqTW0tRHRHRnZtcGtQNDhHZVlaNk84eVBxbjFOOHJuRkRUMTNNVnBwd3dLaHVyMld5azlKNEV0Q1p6UkQzNTRhNlBzNV9ZMk1iNlQtTXAzTk9QcUFrLWpjemFKbUJLek9CNmczTTNhZVZnRERrU2J0SWgyTVJhN0RIZFVBLUlPakgtNHJvQ0JsMWFGY09MeEUzWExMN2FRc1M3dXRlS0E?oc=5",
+"source": "Fox News",
+"at": "2026-11-18T12:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Coached by Dad, inspired by Ramzi Boukhiam: Moroccan surfer Teva Bouchgua’s road to LA28 - exclusive",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQlZabjNxd3JWV1hhQV90SFdmaTdKcWY2RW9JTlBPci1EUnBmWHhsc0ZxemVoRloxSFJUUEpZWEdpNkl5VkRSdlY5ODdrc04tdGJqOW84NnowazB3TnpCMlZ1REp3NWxqcEVfYjFhc0h4OVZSbmZRTmxtZVQxYWx1VmdhUzBPSUYtTDdwSU5SZF9KVmszc0p6MS16dw?oc=5",
+"source": "Olympics",
+"at": "2026-11-18T10:48+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"ramzi-boukhiam"
+],
+"kind": "media"
+},
 {
 "title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5",
@@ -77,7 +99,7 @@
 "title": "What Happens When CA Buoy Hits 36ft @ 19sec?",
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVi04ZUhsT1gtTzAtVUZaeHNYREpvLU5wMEZERUxEcTlPeFRNWW41UDduTk9HOVNrT0pLd0JQYXB5dm9zNmdjR3JLNmZwZVhXSGJ5ZzhPRTZQMXN2clljNFRBZHBkbFJfZTRXMGtmcS1tcEJDRF9FTk45Y2JXTzZsekc0U1pRQzNROGlTWnh2Q1A1dGxkVzVuMEx1SDQyS0Iw?oc=5",
 "source": "Surfline",
-"at": "2026-11-18T02:33+00:00",
+"at": "2026-11-18T02:36+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -548,6 +570,16 @@
 "kind": "outlet"
 },
 {
+"title": "Jet Ski Surfer Rescue: Scary moments surfers were rescued from rough waves off Santa Cruz",
+"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeEpzQ3h5UHhnQWZ3UWR1M2tkNFNfRUtzYWxVYVBvdUo3ZG0yckh1Qi1ONWxTNTNxUjhjLUhOZWItZWlGOGF5SWNfNWc2cWtlbEdFSDVIa2cxOHpHQkgyS2tMUkZ1YzdxLXFqYWlVNjh5SWpOLS1VVHJsNXprT19uMlBZTU9VT0JpS1VKdlkxWVZZbVk5X0FGUWtEbzc5dXBmcEN1RmRsOHg2RjlHVFBlRFVENFJickJSTkhr0gHAAUFVX3lxTE03N19OeHQ0TUVkdGVKaWhRaVJBVzl1Tkc1N3NpNzZ4aFZjSEdrd09kV09pMzBaMFoxdkFMSUszd0xMdmdCejVKMWI4ODlTUTk2aXVWdGNkQkk2cGtCVWgtSDFDNzRUcWtrX3FkR1pZdDVhUV9TQWxnaUFpUjBWYnlaT1FVaUQxV2JDTFZEUWFYN1Z3SldiZG9MN01ETmE5X0YyQXp0Ym1DWUJndGcxajBod1JSczYwWDR3cnZzVmpoeg?oc=5",
+"source": "ABC7 Bay Area",
+"at": "2026-11-16T19:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Australia and Peru Punch Tickets to the LA 2028 Olympics",
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ29zbTlscFdwQUVENEJ5R1YtZVQ0eFlGNlFIREZQZ0MxZ2VYWWZucWUyMzd0SmVLY1RBT1psRmVadFRfbzAzX2NpS2R5eWQtWTYtRTNsTFNWaGVudjhuN240TzJBbzd3NmVHaUpxMDJwdDJaakFwQ3A1RDVPRDFzZEFOYV8?oc=5",
 "source": "The Inertia",
@@ -755,18 +787,6 @@
 "kind": "media"
 },
 {
-"title": "Leihani Zoric, 14, stuns surfing world with gold medal to give Australia Olympic boost",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM3dhTXdhMnpxVkpkVk9NbVdWalpNT09tNWhIYjd5aFJyUEdUOGYxMkh6a01TOTdhZ2c2a3Jqam13cUJyeDAyMk14NUdNcS0zY1gwTFdMYzNTcF9NQTBSaVZHcy1NdGZGSEZKUUFHUk5nVEs5cExUc1JLby1jc2NvZ0pxdjJZY3Vyb0Fka0xmQ2ZWTm03MGlKTGlhT0VqSFo2dEtFNXoxT2x6bzIwWVFRZjl2RU8?oc=5",
-"source": "The Guardian",
-"at": "2026-11-16T05:35+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"leihani-zoric"
-],
-"kind": "media"
-},
-{
 "title": "Mavericks Massive And Santa Cruz Flooded After California Gets First Direct Swell Hit Of El Niño",
 "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNc2lsREQ5UHpSQTVLRkdEeVNhWW5XcllIRXFLQW4xVWdmbzh6WnQxaWJ4bV9iUVpwNFpaZ3pNejI3eExnMVJrUEYtRTQ2MEE1d3JlUWs2Qlh3OTVXWDB5cEZ6S1BRTVdjQUp0SnB1LTNWamNsQ29JZEpVai1wLW9fMEY3RWZ3VHNNWXZFd0JLQ09MY2pBWHRhSlBjcnRPcnAwQWt0Y0J1U1N5bzR2UnQ2c2V6bWZiRkRfSFpJcndRODFCOEctc2c?oc=5",
 "source": "Stab",
@@ -791,6 +811,16 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
 "source": "AP News",
 "at": "2026-11-16T03:07+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Byron Bay girl stuns surfing world just days after turning 14",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNREg5RkZ3SThJMC1DUUYtM0NVVVJWOWUzemdhSmh2ZkI4MDVTLUlpVkx3cUlRY0tJbWFSeGpDMkxvNU9hNkE1MXZrS0ZmYm9QeW1DX09uSUpmU2NOaHhoa2ZONE1MdjdldFNhOHM1dGszWndjTkFyM2NTQVdPSHB5enRBa3VMOUJhempZWmNjYno0bG51Y2NGM3RCSmkwQnBDWVFPN0VKbXVON0E3VV9F?oc=5",
+"source": "ABC News & Headlines – Australian Broadcasting Corporation",
+"at": "2026-11-16T02:28+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -854,16 +884,6 @@
 "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUjZGT0l2dEp4UjJtV1M2OVFsZ2c4bHdXS2g4dWQ4SDZKbkZlZzhxRWNNdVdfOWNsUE9UNS11aEZHdXZrdVdQN2hIblhjUkFyUDltcVJ5Umt1OU9SelRfd21vam9NblVuNURFVnVNcVJxbENHZkt4WGc0ckU2bDB5RUMtb3lQeTFrUmViWGswaUx2UlhhaDlwc24xVVF0ekVyU1M4cmJfcE1vektBb05kUFlUbmpkVGdReV9vZTJFNNIBxwFBVV95cUxQUzZBQTdEZEJDeWxNbGstSExBVWFnVXIzUUVKOHpiU3NXd3VWMHBJZlFtSFVtck5xamxRTzRQREtMTVlYbDR1cmN0UTVGVFJuNnY2Q1RuTF9pS2xiWnV4WF9WdUI1X2lrQ056VlJmLS11RmIwN0QzQ2VGTzhoZ0hhWjFDc2tmN3FRaU95b3NYM2hBWHJnMkgtNjVQanpuMmQwbzdWczJDemx3blpkVGFIdUV0eXI3dGdoYnpyc1MtT1JkRWR2aGJZ?oc=5",
 "source": "NBC 7 San Diego",
 "at": "2026-11-15T23:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Dangerous surf persists in OC, LA, with more expected this week",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaWdodVpLOU9BcVdWOWR2RG9vTjJQOVNfOE1Sc0htRWJpTHl1eXdnUnU1MTJLVEZJdlNhNzNVOG1vaklGbzlfTWtxU21lMkZ1NXpVcFVFa3ZIMGxaOWhZMEVxWU1ZRjRnQmZ1cF9sVmR2RXA4TUNydWttTWQ5dWY5elYyTS1ISmwxN2dNTFloUnNDYk9oMC1qamNyOTdya1JjUVE?oc=5",
-"source": "Orange County Register",
-"at": "2026-11-15T22:58+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1211,26 +1231,6 @@
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUwtWTJKZTZvQ2QycUVCdS1HTExIRzREaGRkTVVSUXNES3RjTl82N1BZUUM0blA3MHlYSkRtTFNsQm45dzI0TEJDbzUxX1hZTWp2emc2dklPNTZqeUh6REplcTBoamNyZ29GT3E1Qmx6bTBTeE1fbWd5cEpEOGR5V0FFQkpzNzUwZ2hab0l0QTI?oc=5",
 "source": "World Surf League",
 "at": "2026-11-13T21:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results for Moana Jones Wong at Taiwan Open of Surfing Women's 2026",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX25OMEU4ZDZYZC04OElTTGRHdDBHN1VLa2Vyd2VUOEhSdHJBN2FLZTNKX1RTYjRkMTVwX1ZVRFI2Q19qOE0wdlRsM2Zpei1RdVRXaVZPZUM4S0JWS0stQTNHZVhkYXBBdV9ra0hPUWpYWkJDenNXaGdVbHpDZGVWa1AtZGdQMFVGQVVsY3dUWjUxdw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-13T20:06+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "LA Gang Member Charged With Aiding Snowboarder Turned Drug Trafficker Ryan Wedding",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWFB2ZmR4Z0ZjUFZXTWFtd0tnb29RdGdPMHZ0eFc1OWNLSElLdFV0MUJUT1BPb211cjdvTVgzVEJJWDhOeUN6SEs4MjQ4bW51clZUdUZFVENpTTBWSVZMY3prY28wdzktdWM5Rl9lRVR1UFJYRU5wMW9FU25icV9ra1NlTEVZR3FrVlhNdzlfZV96bGJNa2M2RUxnUHZ2QnhRV0ZyN0dKM1BndENGbHEyWXZXTFhWSXNFTEVr?oc=5",
-"source": "The Inertia",
-"at": "2026-11-13T20:05+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
