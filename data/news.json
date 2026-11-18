@@ -1,18 +1,48 @@
 {
-"updated_at": "2026-11-17T23:29:46+00:00",
+"updated_at": "2026-11-18T01:56:45+00:00",
 "sources": {
 "Surfer": 34,
-"ISA": 6,
+"ISA": 5,
 "Stab": 31,
-"Surfline": 6,
-"The Inertia": 49,
+"Surfline": 7,
+"The Inertia": 48,
 "BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 47,
+"World Surf League": 49,
 "Surfertoday": 5,
 "In the news": 40
 },
 "items": [
+{
+"title": "Big waves back in San Diego’s forecast after weekend flooding",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLUNEUFd2MEhvTGlPbTRFdkNKZ1NfeHVEam0waThGS2RieFhsa3ZmSzRfejZZSlhCUXlrSU9wckZOOE5HNTlGNldGX1pUNk16WURzdTZqSXZkYU1fQVFYTzVBQkVjX2J4SUt4bDRXUlJqNm14ek5ISS1EV0tuZXBSY19CTzRZaUx5V1JKRGlwRTdrdzZ1VmZ1ZUtoMDgtYjJvZ2xnUUlpZFhOUmQwaEE?oc=5",
+"source": "KPBS",
+"at": "2026-11-18T01:39+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "What Happens When CA Buoy Hits 36ft @ 19sec?",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVi04ZUhsT1gtTzAtVUZaeHNYREpvLU5wMEZERUxEcTlPeFRNWW41UDduTk9HOVNrT0pLd0JQYXB5dm9zNmdjR3JLNmZwZVhXSGJ5ZzhPRTZQMXN2clljNFRBZHBkbFJfZTRXMGtmcS1tcEJDRF9FTk45Y2JXTzZsekc0U1pRQzNROGlTWnh2Q1A1dGxkVzVuMEx1SDQyS0Iw?oc=5",
+"source": "Surfline",
+"at": "2026-11-18T01:31+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Giant November Waves Threaten Surfers, Swimmers, and Spectators Along California’s Coast",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaHZTNlU2QVBkQmN1dEloR1FVUW5KOGxUOW1FNXFtN3ZTMXhaTklGelZXb0NnMk9jTjh2Q3hybmQwb1NlaVlWUlA3TS1ZcE1KWmQ4T21fOGRNcGl1RmtQLXFWSkMxTVU2MHZVZDE2WG5qMDI2OHhlUTRzeGVMRmEweUpXcmY1ZnZtcFhVV3k4NFZfeVpmMTZSNGctRzNJLWhzUGVOcWpRSEF5djlEQ081RTBn?oc=5",
+"source": "Outside Magazine",
+"at": "2026-11-18T00:23+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "‘Day After Tomorrow’ Climate Nightmare Looms as Critical Atlantic Current Weakens (Video)",
 "link": "https://www.surfer.com/news/day-after-tomorrow-amoc-real-life",
@@ -214,16 +244,6 @@
 "kind": "media"
 },
 {
-"title": "California lifeguard recalls braving relentless waves in rescue caught on video",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2szVFh2M2kzQ1VLbnUtV0d2a25OdmFkMFNhcXB0eUlDQ04wbnZ4VnJ1MkUwU2RUQ0NVSG5tdk95WmRSdVlTOXN0SGVEcFZ3dDAwRVpXLUpRQ3FoZ3JsM2RLZkpSZmVoaTZDTTFGdERjOVdTbE9YOTR4UEVCUlFSbEdFSUVwcVVjZkhfX1ZwX1dXU3JKTkFlRWJwSUIyLWVLaVpUWjU4QWJjM3Fh?oc=5",
-"source": "NBC News",
-"at": "2026-11-17T04:14+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Mutant El Niño Wave Explodes Onto Pebble Beach’s Iconic 7th Hole During Massive California Swell (Video)",
 "link": "https://www.surfer.com/news/pebble-beach-big-wave-7th-hole-video",
 "source": "Surfer",
@@ -349,7 +369,7 @@
 },
 {
 "title": "VIDEO: Massive waves pound California’s coastline",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tWXdxZ3NlckZYYTJIc3M2SmJpS2NlcUxTT0FLS3k1TlROb2FSVTh3VzN4YUdvcUpzQzZLQlljbldxNmpOUVpnMFc0WGU0cU1OMWNjYkFFZ3hNbFlUSEFvSWNqM0xYQkVhNG5PSDZBRFN1LTk5T1ZR0gF8QVVfeXFMUEpQTnlka0p6Vmx5d09sN3dXemRLUHdUSVZxVnVCcnpvT3cteTNJWmRLcUNjYzVOY1lZZEtuREZxckMzRzV0d0ZNUlBQOGZFRVlOT250WXc5ZWNkT3BaMC1yZXRpT3d4cU5HZzQ3THBWaVo4eGhkUE1wcE9Tdg?oc=5",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0tWXdxZ3NlckZYYTJIc3M2SmJpS2NlcUxTT0FLS3k1TlROb2FSVTh3VzN4YUdvcUpzQzZLQlljbldxNmpOUVpnMFc0WGU0cU1OMWNjYkFFZ3hNbFlUSEFvSWNqM0xYQkVhNG5PSDZBRFN1LTk5T1ZR?oc=5",
 "source": "KTLA",
 "at": "2026-11-16T21:30+00:00",
 "img": null,
@@ -615,16 +635,6 @@
 "kind": "outlet"
 },
 {
-"title": "Want Your Own Wave Pool Surf Team? Wave Pool Surf League Lists Offers Ahead of 2027 Debut",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tYk16cFF5VnlDZXBHU2ZCXzBrNWlVeklfVGxMTE9NLXIzMUdTYzkzUXBMdVVGUTdKWldKR0o4RUktUGJwU25IdTIyWUZDR2hxY05DMkt6bm5lU2F3T3d4UE41alNpeWhZTWp1dzZBZ2xBYmpV?oc=5",
-"source": "WavePoolMag",
-"at": "2026-11-16T11:01+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "The surf’s way, way up as huge waves pound the California coast",
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWWREZmFhbnJiTWlubVN1RDhZejUwdTg0YURSWHl6MXRFMnFSZTEyQmIzRTZ1TndFc2VuYjJqYW5wMlRBV3UtMG9ERG9QRFlCMFNyLXIwN3o4djJZQkFOcVlKZnBnVGNpb2hxUy1GUVcyYzlwSFZTdTBzZWM0ZzRWZmEtTUhtWktyOVJaaXRvMkJabUtyVjkydlRjdmJXQmRVaVE?oc=5",
 "source": "San Juan Daily Star",
@@ -683,16 +693,6 @@
 "desc": "A viral Morro Bay clip shows a 30-foot wall of whitewater detonating over a rock barrier as El Niño-powered surf hammers California from Santa Cruz to Pacifica.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Huge waves pummel the California coast, forcing the closure of iconic piers",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
-"source": "AP News",
-"at": "2026-11-16T03:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Byron Bay girl stuns surfing world just days after turning 14",
@@ -756,6 +756,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Huge waves pummel the California coast, forcing the closure of iconic piers",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVHMtd01FdF9qSjBZbF9oSmlxcmZVRXlNdHJsQlF4UW9TU0VnRnRlMEtjLWtRNjJkMzBrdGlKdWppQkFXaHg0QjdOb0g3MF9rSXZqM0dEUnhQNDBqTUF1VXp5U1JRck9ZTHJoUENIbXRCRm1fcmo1QmxDWDB0SEZYMFlKNmZNLUhhYmtjVjFNd0RTbjBUc2lobXRQUzZ1aTBHOS1WX21TRQ?oc=5",
+"source": "AP News",
+"at": "2026-11-15T23:59+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Massive waves create flooding, erode coastline at San Diego beaches",
@@ -918,6 +928,16 @@
 "kind": "media"
 },
 {
+"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 2",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mbVYycDVfZkQ4Qnk4c2ZrTUkwRndtNktyeHJRNzVkT0dEOXJnaEdhRWRTekFSUF9JZVpHUTMzaVV0TmFkRWdmbDF4d2ZTLTFYdVYyNDB6NkxOeUo3X19aS1ZtbG5rUHhqVTc4Zmo2THVRd0N6?oc=5",
+"source": "World Surf League",
+"at": "2026-11-15T12:36+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Men's Early Round Kickoff Action at The 2026 Taiwan Open of Surfing",
 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1N0S0hXUXY0TXdIODJ2NGRkbm10YUN2eF9HYy03UHktWTBUVHB0NkpDeU00cmlJaTVEOHRINHdRTmYwSGc4b0FLYUdNa3dMamUxbDZ1NGJkd3pUYXFWdDJzYzNTVFU3aHRiY2UzWkZHSHlHZWZiUjItUkQwNG1sajZvc3JrV2VURlpROE9HZndJNWkyV2JrQWdmLUlKSHpzZkZoTVhLbVl1dC1jMFR1VA?oc=5",
 "source": "World Surf League",
@@ -1009,16 +1029,6 @@
 "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TTkxjV1JjbFJHYUZXUjdtblA5TDRkdG5wTXhObzEzWE96SmprLXRWa1k4SUVzYTNGbG52ZUZ3SlJfRGJsN28xT2xzeEFYMy1ZU2lkQVZqU0hPa2M5WVdTVmRpak1vZXlyR3B0RW1YVdIBb0FVX3lxTE9nYjV1SnlNeHFnOU4tb3BId2VpTm94RjJKb0JhMEVNOXRsWE9vWm8zR09TVndpMEMxR0htX0JuczRCczNjMUhxblR3UEd2YU1xUGNtRHNGeGVEMWNiRXBtWlAyRTVZSkFRS2V3cWZYOA?oc=5",
 "source": "San Luis Obispo Tribune",
 "at": "2026-11-15T02:09+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Massive waves pound Northern California coast, creating dangerous conditions for beachgoers",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZnRzRGNhMW85eE5KRmI1cWhNS3dxYmVzbzljYTd0VFhWbWJVZ2gwU3BuSmEtQkh5QVNiT3BILS1tNDNJSjZhcFdlUDJ4Ym81bXduUW9pSjZqV2tJb3Rxb0lyS24zaVNsQmRkNG9OQ0phSmx4Ny1wSl90TEpaTm1VZGVfbjAyZDBQeFlnS3BoeGxaYkJIOEtKNGdidFlKRzNPQzBCeG53?oc=5",
-"source": "CBS News",
-"at": "2026-11-15T01:56+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1209,16 +1219,6 @@
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQUwtWTJKZTZvQ2QycUVCdS1HTExIRzREaGRkTVVSUXNES3RjTl82N1BZUUM0blA3MHlYSkRtTFNsQm45dzI0TEJDbzUxX1hZTWp2emc2dklPNTZqeUh6REplcTBoamNyZ29GT3E1Qmx6bTBTeE1fbWd5cEpEOGR5V0FFQkpzNzUwZ2hab0l0QTI?oc=5",
 "source": "World Surf League",
 "at": "2026-11-13T21:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "This Super El Niño Won’t Catch Matt Bromley Off His A-Game",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPekdmNm9tTGtYRjNDZnVtdHM5LU9Pazd1STctX3JDaXp2dkcyN01zdjlRR0VNWFJ3ak9mUXJWWWxKTWI4UFRYM2xDMHBVVXlhSFVjNWFXdFpRaEhnS0tMWUVWTGh6eHNraDdwR1UzYmxBSnFzQmZKVzd6T3VfcHFKSFJyQWN2dWVuWnMwUy1jTWcyZGlt?oc=5",
-"source": "The Inertia",
-"at": "2026-11-13T20:11+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
