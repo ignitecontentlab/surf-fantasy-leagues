@@ -379,7 +379,7 @@ table.board td,table.board th{font-size:12.5px;white-space:nowrap}table.board td
 </div>
 <div id="sheet" class="sheet" hidden></div>
 <script>
-const VERSION='2.14.0';
+const VERSION='2.15.0';
 const WORKER='https://isa-proxy.ignitecontentlab.workers.dev/';
 const ISO={USA:'US',AUS:'AU',BRA:'BR',PER:'PE',JPN:'JP',FRA:'FR',ESP:'ES',POR:'PT',ARG:'AR',GER:'DE',ITA:'IT',INA:'ID',ESA:'SV',RSA:'ZA',CRC:'CR',MEX:'MX',VEN:'VE',CHI:'CL',CAN:'CA',NZL:'NZ',GBR:'GB',PUR:'PR',PHI:'PH',CHN:'CN',TPE:'TW',NED:'NL',GUA:'GT',PAN:'PA',ECU:'EC',ISR:'IL',MAR:'MA',GRE:'GR',LAT:'LV',NOR:'NO',AUT:'AT',POL:'PL',SVK:'SK',ROU:'RO',CZE:'CZ',SWE:'SE',UZB:'UZ',JAM:'JM',NCA:'NI',DOM:'DO',BAR:'BB',PYF:'PF',IRL:'IE',URU:'UY',FIN:'FI',ASA:'AS',IVB:'VG',UKR:'UA',COL:'CO',HAW:'US-HI',FIJ:'FJ',UAE:'AE',ENG:'GB-ENG',IND:'IN',KOR:'KR',THA:'TH',SEN:'SN',BEL:'BE',SUI:'CH',DEN:'DK',HKG:'HK',SGP:'SG',SRI:'LK',TAH:'PF',MDV:'MV',PNG:'PG'};
 const $=id=>document.getElementById(id);
@@ -832,7 +832,13 @@ function menuOpen(o){let m=$('menu'),b=$('menuBtn');m.hidden=!o;b.setAttribute('
 $('menuBtn').onclick=e=>{e.stopPropagation();menuOpen($('menu').hidden)};
 document.addEventListener('click',e=>{if(!$('menu').hidden&&!e.target.closest('#menu,#menuBtn'))menuOpen(false)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')menuOpen(false)});
-let compactT=0;addEventListener('scroll',()=>{let on=innerWidth<900&&scrollY>160;$('stickyTop').classList.toggle('compact',on)},{passive:true});
+/* v2.15.0 compact bar: separate collapse/expand points plus a short pause, so the height change can't make it flicker */
+let compactT=0,compactQ=0;function compactChk(){compactQ=0;let el=$('stickyTop');if(!el)return;let on=el.classList.contains('compact'),y=scrollY,now=Date.now();
+ if(innerWidth>=900){if(on)el.classList.remove('compact');return}
+ if(now<compactT)return;
+ if(!on&&y>180){el.classList.add('compact');compactT=now+450;setTimeout(compactChk,470)}
+ else if(on&&y<20){el.classList.remove('compact');compactT=now+450;setTimeout(compactChk,470)}}
+addEventListener('scroll',()=>{if(!compactQ)compactQ=requestAnimationFrame(compactChk)},{passive:true});addEventListener('resize',()=>{compactT=0;compactChk()});
 setInterval(()=>{let c=$('bugclock'),p=activePod();if(c&&p&&p.run)c.textContent=fmtClock(p)},1000);
 async function topData(){await Promise.all([getJSON('events',300000).catch(()=>null),getJSON('youtube',600000).catch(()=>null),getJSON('scores',90000).catch(()=>null),getJSON('news',600000).catch(()=>null),getJSON('surfers',600000).catch(()=>null),getJSON('words',3600000).catch(()=>null)]);paintTop()}
 
