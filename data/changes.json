@@ -1,6 +1,12 @@
 {
  "changes": [
   {
+   "at": "2026-11-19T00:04:07+00:00",
+   "event": "isa-wpsc-2026",
+   "text": "**ISA World Para Surfing Championship**: status changed from `upcoming` to `live`",
+   "important": true
+  },
+  {
    "at": "2026-11-16T01:43:27+00:00",
    "event": "isa-wsg-2026",
    "text": "**ISA World Surfing Games**: status changed from `live` to `finished`",

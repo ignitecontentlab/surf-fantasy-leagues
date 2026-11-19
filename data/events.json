@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-18T23:07:48+00:00",
- "content_hash": "81d2e1b3f198",
+ "updated_at": "2026-11-19T00:04:07+00:00",
+ "content_hash": "3ee1d40742bf",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-18T23:07:48+00:00"
+   "news_at": "2026-11-19T00:04:07+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,42 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-18T23:07:48+00:00"
+   "news_at": "2026-11-19T00:04:07+00:00"
+  },
+  {
+   "id": "isa-wpsc-2026",
+   "name": "ISA World Para Surfing Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "DSRT Surf",
+   "series": "ISA World Championships",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "location": "DSRT Surf, Palm Desert, California",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
+   "watch": "https://isasurf.org/",
+   "news": "ISA World Para Surfing Championship",
+   "facts": "Opening ceremony Nov 19 at DSRT Surf. Competition Nov 20-22. Live stream on isasurf.org.",
+   "source": "https://isasurf.org/info-for-event-participants-2026-wpsc/",
+   "status": "live",
+   "headlines": [
+    {
+     "title": "AT THE BEACH | JP Veaudry targets world para surfing glory in California wave pool",
+     "date": "2026-11-17",
+     "source": "Daily Dispatch",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMWc5YnZrMmFiS2NGUl9pYWlTZE51a2M0SkUwR1VCZnpSM0JvUVZtMzJ1VUlNa0FvRDh3cWtsdi1EdWFZVkVMNUFzZWNweTZjNXprcnlwLTRXTXhiTVFiQ1ZUOXpVbUEycDlBcjVXNmU4amlfT01mdW01SGpIZFJhSlp0T0Q3YWFWYUFwSnhVdHBJa0JKdkhrY1ByNVpjdmNqSFZlV01PNnBEbnM2SFp2QTd0a01xV3ZCYzRHYnB1YVVnTUU?oc=5"
+    },
+    {
+     "title": "He lost his legs as a baby, but SA’s para surfing champ now flies our flag in the US",
+     "date": "2026-11-07",
+     "source": "News24",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
+    }
+   ],
+   "news_at": "2026-11-19T00:04:07+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -129,41 +164,6 @@
      "date": "2026-11-12",
      "source": "Surfertoday",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LQUZUaDhzaEN2V05UT3FTZWtyd1VEQ2NhVU5QRnp1Q1Z2aHNUcWw5TlozS3hDZ3lfaE5XZF9tUTAtNElKME1UdVBidENwMTNPejI2MTdmajNXcS1SajlaaHQxYWhaUi10dy1hbkdn?oc=5"
-    }
-   ],
-   "news_at": "2026-11-18T23:07:48+00:00"
-  },
-  {
-   "id": "isa-wpsc-2026",
-   "name": "ISA World Para Surfing Championship",
-   "org": "ISA",
-   "host": "ISA",
-   "partner": "DSRT Surf",
-   "series": "ISA World Championships",
-   "start": "2026-11-19",
-   "end": "2026-11-22",
-   "location": "DSRT Surf, Palm Desert, California",
-   "kind": "contest",
-   "live": "link",
-   "pool": "",
-   "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
-   "watch": "https://isasurf.org/",
-   "news": "ISA World Para Surfing Championship",
-   "facts": "Opening ceremony Nov 19 at DSRT Surf. Competition Nov 20-22. Live stream on isasurf.org.",
-   "source": "https://isasurf.org/info-for-event-participants-2026-wpsc/",
-   "status": "upcoming",
-   "headlines": [
-    {
-     "title": "AT THE BEACH | JP Veaudry targets world para surfing glory in California wave pool",
-     "date": "2026-11-17",
-     "source": "Daily Dispatch",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMWc5YnZrMmFiS2NGUl9pYWlTZE51a2M0SkUwR1VCZnpSM0JvUVZtMzJ1VUlNa0FvRDh3cWtsdi1EdWFZVkVMNUFzZWNweTZjNXprcnlwLTRXTXhiTVFiQ1ZUOXpVbUEycDlBcjVXNmU4amlfT01mdW01SGpIZFJhSlp0T0Q3YWFWYUFwSnhVdHBJa0JKdkhrY1ByNVpjdmNqSFZlV01PNnBEbnM2SFp2QTd0a01xV3ZCYzRHYnB1YVVnTUU?oc=5"
-    },
-    {
-     "title": "He lost his legs as a baby, but SA’s para surfing champ now flies our flag in the US",
-     "date": "2026-11-07",
-     "source": "News24",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
    "news_at": "2026-11-18T23:07:48+00:00"
@@ -1313,5 +1313,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-18T23:07:48+00:00"
+ "checked_at": "2026-11-19T00:04:07+00:00"
 }

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-18T23:28:41+00:00",
+ "updated_at": "2026-11-19T00:04:32+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -4920,109 +4920,95 @@
       "rank": 29
      },
      {
-      "key": "teresa-bonvalot",
-      "name": "Teresa Bonvalot",
-      "country": "Portugal",
-      "wsl_id": "4386",
-      "rank": 30
-     },
-     {
       "key": "vahine-fierro",
       "name": "Vahine Fierro",
       "country": "France",
       "wsl_id": "4752",
-      "rank": 31
+      "rank": 30
      },
      {
       "key": "willow-hardy",
       "name": "Willow Hardy",
       "country": "Australia",
       "wsl_id": "15203",
-      "rank": 32
+      "rank": 31
      },
      {
       "key": "ziggy-aloha-mackenzie",
       "name": "Ziggy Aloha Mackenzie",
       "country": "Australia",
       "wsl_id": "16725",
-      "rank": 33
+      "rank": 32
      },
      {
       "key": "zoie-zietz",
       "name": "Zoie Zietz",
       "country": "Netherlands",
       "wsl_id": "18772",
-      "rank": 34
+      "rank": 33
      },
      {
       "key": "zoe-steyn",
       "name": "Zoë Steyn",
       "country": "South Africa",
       "wsl_id": "12344",
-      "rank": 35
-     },
-     {
-      "key": "arisa-ishii",
-      "name": "Arisa Ishii",
-      "country": "Japan",
-      "wsl_id": "16587",
-      "rank": 36
+      "rank": 34
      },
      {
       "key": "clemence-schorsch",
       "name": "Clemence Schorsch",
       "country": "France",
       "wsl_id": "16960",
-      "rank": 37
+      "rank": 35
      },
      {
       "key": "gia-lorentson",
       "name": "Gia Lorentson",
       "country": "Australia",
       "wsl_id": "14248",
-      "rank": 38
+      "rank": 36
      },
      {
       "key": "hinano-shimizu",
       "name": "Hinano Shimizu",
       "country": "Japan",
       "wsl_id": "16586",
-      "rank": 39
+      "rank": 37
      },
      {
       "key": "kokoro-baba",
       "name": "Kokoro Baba",
       "country": "Japan",
       "wsl_id": "16625",
-      "rank": 40
+      "rank": 38
      },
      {
       "key": "lanea-mons",
       "name": "Lanea Mons",
       "country": "United States",
       "wsl_id": "16173",
-      "rank": 41
+      "rank": 39
      },
      {
       "key": "nanaho-tsuzuki",
       "name": "Nanaho Tsuzuki",
       "country": "Japan",
       "wsl_id": "12693",
-      "rank": 42
+      "rank": 40
      },
      {
       "key": "sky-brown",
       "name": "Sky Brown",
       "country": "United Kingdom",
       "wsl_id": "12591",
-      "rank": 43
+      "rank": 41
      },
      {
       "key": "sumomo-sato",
       "name": "Sumomo Sato",
       "country": "Japan",
       "wsl_id": "15783",
-      "rank": 44
+      "rank": 42
      },
      {
       "key": "brisa-hennessy",
@@ -5030,7 +5016,7 @@
       "country": "Costa Rica",
       "wsl_id": "3971",
       "out": true,
-      "rank": 45
+      "rank": 43
      },
      {
       "key": "carla-morera-de-la-vall",
@@ -5038,7 +5024,7 @@
       "country": "Spain",
       "wsl_id": "18529",
       "out": true,
-      "rank": 46
+      "rank": 44
      },
      {
       "key": "cocona-kawase",
@@ -5046,7 +5032,7 @@
       "country": "Japan",
       "wsl_id": "10665",
       "out": true,
-      "rank": 47
+      "rank": 45
      },
      {
       "key": "eweleiula-wong",
@@ -5054,7 +5040,7 @@
       "country": "Hawaii",
       "wsl_id": "16373",
       "out": true,
-      "rank": 48
+      "rank": 46
      },
      {
       "key": "kiara-goold",
@@ -5062,7 +5048,7 @@
       "country": "French Polynesia",
       "wsl_id": "15627",
       "out": true,
-      "rank": 49
+      "rank": 47
      },
      {
       "key": "kirra-pinkerton",
@@ -5070,7 +5056,7 @@
       "country": "United States",
       "wsl_id": "7276",
       "out": true,
-      "rank": 50
+      "rank": 48
      },
      {
       "key": "laura-raupp",
@@ -5078,7 +5064,7 @@
       "country": "Brazil",
       "wsl_id": "15050",
       "out": true,
-      "rank": 51
+      "rank": 49
      },
      {
       "key": "maelys-jouault",
@@ -5086,7 +5072,7 @@
       "country": "France",
       "wsl_id": "10289",
       "out": true,
-      "rank": 52
+      "rank": 50
      },
      {
       "key": "minami-nonaka",
@@ -5094,7 +5080,7 @@
       "country": "Japan",
       "wsl_id": "10179",
       "out": true,
-      "rank": 53
+      "rank": 51
      },
      {
       "key": "moana-jones-wong",
@@ -5102,7 +5088,7 @@
       "country": "Hawaii",
       "wsl_id": "3969",
       "out": true,
-      "rank": 54
+      "rank": 52
      },
      {
       "key": "rita-suzuki",
@@ -5110,7 +5096,7 @@
       "country": "Japan",
       "wsl_id": "16533",
       "out": true,
-      "rank": 55
+      "rank": 53
      },
      {
       "key": "sally-fitzgibbons",
@@ -5118,7 +5104,7 @@
       "country": "Australia",
       "wsl_id": "321",
       "out": true,
-      "rank": 56
+      "rank": 54
      },
      {
       "key": "tayla-green",
@@ -5126,7 +5112,15 @@
       "country": "New Zealand",
       "wsl_id": "15500",
       "out": true,
-      "rank": 57
+      "rank": 55
+     },
+     {
+      "key": "teresa-bonvalot",
+      "name": "Teresa Bonvalot",
+      "country": "Portugal",
+      "wsl_id": "4386",
+      "out": true,
+      "rank": 56
      },
      {
       "key": "alani-morse",
@@ -5134,13 +5128,21 @@
       "country": "New Zealand",
       "wsl_id": "19907",
       "out": true,
-      "rank": 58
+      "rank": 57
      },
      {
       "key": "annaasia-filippini",
       "name": "Annaasia Filippini",
       "country": "Italy",
       "wsl_id": "18818",
+      "out": true,
+      "rank": 58
+     },
+     {
+      "key": "arisa-ishii",
+      "name": "Arisa Ishii",
+      "country": "Japan",
+      "wsl_id": "16587",
       "out": true,
       "rank": 59
      },
@@ -5307,7 +5309,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (79 men, 35 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (79 men, 37 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "adin-masencamp": {
@@ -5947,55 +5949,59 @@
      "live": true
     },
     "brisa-hennessy": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "carla-morera-de-la-vall": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "cocona-kawase": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "eweleiula-wong": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "kiara-goold": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "kirra-pinkerton": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "laura-raupp": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "maelys-jouault": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "minami-nonaka": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "moana-jones-wong": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "rita-suzuki": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "sally-fitzgibbons": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "tayla-green": {
-     "place": 45,
+     "place": 43,
+     "points": 265
+    },
+    "teresa-bonvalot": {
+     "place": 43,
      "points": 265
     },
     "alani-morse": {
@@ -6006,12 +6012,16 @@
      "place": 65,
      "points": 265
     },
+    "arisa-ishii": {
+     "place": 43,
+     "points": 265
+    },
     "aura-zeflin": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "freya-prumm": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "huai-pen-chen": {
@@ -6043,15 +6053,15 @@
      "points": 265
     },
     "malia-lima": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "minatu-ishida": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "nao-omura": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "natalie-fensom": {
@@ -6075,11 +6085,11 @@
      "points": 265
     },
     "ruby-trew": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "sai-maniwa": {
-     "place": 45,
+     "place": 43,
      "points": 265
     },
     "sarah-young": {
@@ -6087,222 +6097,212 @@
      "points": 265
     },
     "alana-lopez": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "alys-barton": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "amuro-tsuzuki": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "anat-lelior": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "anon-matsuoka": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "arena-rodriguez": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "bella-kenworthy": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "charli-hately": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "eden-walla": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "ella-mccaffray": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "francisca-veselko": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "india-robinson": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "isla-huppatz": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "jessie-van-niekerk": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "kana-nakashio": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "keira-buckpitt": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "kohai-fierro": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "lucy-darragh": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "mia-mcleish": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "mirai-ikeda": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "nahia-milhau": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sanoa-dempfle-olin": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sara-wakita": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sarah-baum": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "shino-matsuda": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sol-aguirre": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sophia-medina": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sophie-mcculloch": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "talia-swindal": {
-     "place": 44,
-     "points": 265,
-     "live": true
-    },
-    "teresa-bonvalot": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "vahine-fierro": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "willow-hardy": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "ziggy-aloha-mackenzie": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "zoie-zietz": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "zoe-steyn": {
-     "place": 44,
-     "points": 265,
-     "live": true
-    },
-    "arisa-ishii": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "clemence-schorsch": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "gia-lorentson": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "hinano-shimizu": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "kokoro-baba": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "lanea-mons": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "nanaho-tsuzuki": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sky-brown": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     },
     "sumomo-sato": {
-     "place": 44,
+     "place": 42,
      "points": 265,
      "live": true
     }
@@ -6318,7 +6318,7 @@
    "location": "DSRT Surf, Palm Desert, California",
    "start": "2026-11-19",
    "end": "2026-11-22",
-   "status": "upcoming",
+   "status": "live",
    "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
    "roster": null,
    "roster_source": null,
