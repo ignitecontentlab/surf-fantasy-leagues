@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-19T22:31:59+00:00",
- "ok": false,
+ "checked_at": "2026-11-19T23:25:56+00:00",
+ "ok": true,
  "checks": {
   "site": {
    "ok": true,
@@ -20,23 +20,23 @@
   },
   "collector": {
    "ok": true,
-   "detail": "last success 4 min ago, 0 of last 3 failed"
+   "detail": "last success 14 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
-   "detail": "last success 25 min ago"
+   "detail": "last success 23 min ago"
   },
   "media": {
    "ok": true,
-   "detail": "news and videos last refreshed 63 min ago"
+   "detail": "news and videos last refreshed 1 min ago"
   },
   "pages": {
    "ok": true,
-   "detail": "0 of last 3 deploys failed"
+   "detail": "1 of last 3 deploys failed"
   },
   "event_sources": {
-   "ok": false,
-   "detail": "failing: news (last good data kept)"
+   "ok": true,
+   "detail": "all sources answering"
   }
  },
  "open_issues": {},
@@ -47,7 +47,7 @@
   "data_files": 0,
   "collector": 0,
   "pages": 0,
-  "event_sources": 1,
+  "event_sources": 0,
   "events": 0,
   "media": 0
  },
