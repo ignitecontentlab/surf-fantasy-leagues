@@ -1,18 +1,38 @@
 {
-"updated_at": "2026-11-19T03:33:42+00:00",
+"updated_at": "2026-11-19T05:39:30+00:00",
 "sources": {
 "Surfer": 35,
 "ISA": 4,
-"Stab": 34,
+"Stab": 35,
 "Surfline": 6,
 "The Inertia": 48,
 "BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 46,
+"World Surf League": 47,
 "Surfertoday": 5,
-"In the news": 28
+"In the news": 29
 },
 "items": [
+{
+"title": "Watch: Laurie Towner In ‘Equilibrium’",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42VEZzNUJsRklpRU5mVFdaZVA3UVhITWhyWEtmNUlPa2xVRGhqQnRDTVFXNERuRFNRRjRTX0JzbzNSdG5YNzYtWmJWdkNZWE1La2t2eHF3elVLeEZXX1N5Yk1XQjZyeWREYndPaGNQRFFCNm8?oc=5",
+"source": "Stab",
+"at": "2026-11-19T05:12+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Quiz: What Are Your Best And Worst Surfing Moments?",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeWV6R2RVVVZhUlBEUlFJMXpEUDJJR2hTX2F0bXhuYWxGSHVWTlJUcnVrcngtU1V1RGVFRVZPb0JtRkZrQUxGMUtPWEYxLVBJME9Ia29lZ0ZQRnBxM01NR2J3VEhpTkJkTVVkaWFZaEltNFRtdVk3eXItS1R0RnRjeWJqQ1JBb1k?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-19T03:29+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "20-Foot El Niño Swell Mauls San Diego as Jacob ‘Zeke’ Szekely and Skip McCullough Charge Death Slabs (Video)",
 "link": "https://www.surfer.com/news/20-foot-el-nino-swell-san-diego-video",
@@ -24,10 +44,10 @@
 "kind": "outlet"
 },
 {
-"title": "On ‘psychotic' day of Mavericks big-wave surfing, Kai Lenny flies into another realm",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjBjNzEtcEFQcjM0aVI3cG5lZzBHN204MnF6TDNPbUhLakN5bkRDNTFoZ1FRcllnZ2RTT1EtVTJEZzJ4NWhrUU94RXZoQzBtR2VZU1V0OXJzTi1FVnhFeUxFLTVGS255Z25MZ3Y1STFIamRUSXBWcVFwX2tTTnNOLUNuc2xBTElh?oc=5",
-"source": "Yahoo Sports",
-"at": "2026-11-19T01:35+00:00",
+"title": "On ‘psychotic’ day of Mavericks big-wave surfing, Kai Lenny flies into another realm",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQamxQVktkS0xwQkU3bXVHemFGT3V2QWxFczdBTUgxUGdYQy1PdTJFWGs4VGIwMlkycjZpdUhMdG5aSExEdU1EZ3hVNENfN2I5X0dzeWp0LXlHMzlhRFFBRXVRNEZkRU1vNVhPZWVfUEp2bjQ2eEVHVUtnaWpGMVdTTFFWOHRfeXBhOTYzQWRUREZNSWFjZGpwdUVEU1hfc3lKd25lMm1EUzVEWFZRbEhV?oc=5",
+"source": "San Francisco Chronicle",
+"at": "2026-11-19T00:38+00:00",
 "img": null,
 "desc": "",
 "surfers": [
@@ -248,6 +268,16 @@
 "kind": "outlet"
 },
 {
+"title": "Results for Kei Kobayashi at Taiwan Open of Surfing 2026",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcS1LMTNBQ3RIcURIb0lJbWpCaGUxdXlqRHNxY3pMdmhmNXVVdk9rN2F1cGd2YTd5ME9WeU9DOEhjMkRZV3BYR0R2VkpKRWFyemN6NmJUeWNBb1ROQ1Q5UHhOZnJLSEJxaFNlUjM5aXdvQkpicjJ0LXVZZnAwRjhXdDNxZjRUNVB3ZDZ2RWVn?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T14:46+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "UK & Ireland Update - Brief Window of Cleaner Conditions for Some",
 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdjNqajN1Wk1zcW1VZHVERG1oZ2hQYjc1SndiYjRnNlp3Z2tzeEM0azVwV0hzMnhIcFI0dlo0VktvY3o5ZFVkQm5mWWtzS1lsazNBeW9yQ3ZFUmJCQXloZ19za3laczFTMnA0dUxrVjI1VnFPV3NUNWRjdERfcXBtTDRlWVFZMTYwaTdHQnNWSzhXZVRIZlBXa0RMNWRIUEhMTldsbGdfengzNEhRdTFRdmpmMzR5OE5uZWFEeFAzbXY?oc=5",
 "source": "Surfline",
@@ -278,16 +308,6 @@
 "kind": "media"
 },
 {
-"title": "Surf Air Mobility Scales Back Hybrid Caravan Plans",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEx5QXJhaFpLdXVCTlp5YzBNakdoYjVLMnlqS1ZPaFF2V1JITUlJTHB2UzV5S0N3cE02eVBXT0tHSG5OMjNlZGstR2tlcV8yamVTdVVBMHNfMnk2NXlJQmJacG1wZ2VxWnUyeFNvdWJUR2p3UVB5UVVGR0tHa05ra2YxODFqVDM4MDZicFNB?oc=5",
-"source": "Leeham News",
-"at": "2026-11-18T14:04+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFlTTVl5VExQUHROZGNwOE5SREJ6amVzcENMck9wX2tpUDFmYWkyYWNEdUVTUlFnZWVWTVhaMlJFYllidThMcGd2eDdJNUJwcVpLVjZsdjRPQXBjR1VRVDFvcXJLVVduSnN5LTRmZk9KLUpJc1VhV1E0anlkbXZlY0VMNEVFVWI2VlRLcnFVRFhlaU1BbEdJaDBaUndHaTZDQzlQQUVSUG0yX0p1eWY0MWVYd21FcUI10gG-AUFVX3lxTFBmWk1ndVJEVlBEOE54ZFVXb1BvTXphQ1ZqTW0tRHRHRnZtcGtQNDhHZVlaNk84eVBxbjFOOHJuRkRUMTNNVnBwd3dLaHVyMld5azlKNEV0Q1p6UkQzNTRhNlBzNV9ZMk1iNlQtTXAzTk9QcUFrLWpjemFKbUJLek9CNmczTTNhZVZnRERrU2J0SWgyTVJhN0RIZFVBLUlPakgtNHJvQ0JsMWFGY09MeEUzWExMN2FRc1M3dXRlS0E?oc=5",
 "source": "Fox News",
@@ -295,18 +315,6 @@
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "media"
-},
-{
-"title": "Coached by Dad, inspired by Ramzi Boukhiam: Moroccan surfer Teva Bouchgua’s road to LA28 - exclusive",
-"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQlZabjNxd3JWV1hhQV90SFdmaTdKcWY2RW9JTlBPci1EUnBmWHhsc0ZxemVoRloxSFJUUEpZWEdpNkl5VkRSdlY5ODdrc04tdGJqOW84NnowazB3TnpCMlZ1REp3NWxqcEVfYjFhc0h4OVZSbmZRTmxtZVQxYWx1VmdhUzBPSUYtTDdwSU5SZF9KVmszc0p6MS16dw?oc=5",
-"source": "Olympics",
-"at": "2026-11-18T10:48+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"ramzi-boukhiam"
-],
 "kind": "media"
 },
 {
@@ -366,16 +374,6 @@
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdk9ZblluRmZ3cGxnU2dyUnIwTEg1UjNtQU9kQk9UZ0N5SXZJMVc4WUF3aWFQb0hqdzFEMHFLcmZTNXROd0ZOemFUZUdNWFhaY1VSVk42WHFydk5oVWhzcWNQQUdyWlZCUEdXcUlqSGEyQVY2WFlJMVRzZEp0amNyU0pmamw0blRvZTFSMFc3X3drNFpaVHI1Z01QNnhJMGZI?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-18T04:11+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "What Happens When CA Buoy Hits 36ft @ 19sec?",
-"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVi04ZUhsT1gtTzAtVUZaeHNYREpvLU5wMEZERUxEcTlPeFRNWW41UDduTk9HOVNrT0pLd0JQYXB5dm9zNmdjR3JLNmZwZVhXSGJ5ZzhPRTZQMXN2clljNFRBZHBkbFJfZTRXMGtmcS1tcEJDRF9FTk45Y2JXTzZsekc0U1pRQzNROGlTWnh2Q1A1dGxkVzVuMEx1SDQyS0Iw?oc=5",
-"source": "Surfline",
-"at": "2026-11-18T02:36+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -626,6 +624,16 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlpWXQwQ2s1QnN4ZExmSTl1ZHM1eXZGQ2JDVUlWY1pmQWZHX3BuZHhadDczV0Y5aUxUVFFWQTBBbjZlZTVNaDQwWm4wOGZpVV80V0JvS2Ewd2dDbHY4aTllek9tU0p2OHp5WUlqWVM4ekZjVVF6ZE01NzNnVURCUEJjQ3NIMVJtVlByVFVHRG4ydUV5RVRnTzZVMjFLeDVmVGl4R3Y4NA?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-17T08:19+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Mike's Florida Forecast Notes: When Will Conditions Improve?",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQUNNa1VBOHhlV0xpVTdUdXNKRUh1aUp5b2xNN29kYWROeGhBWWczUXRNT2VKdVp0R0hobzNIdUFDRjl2a3NpZWJjdy1OcHRxVHpydWdKaEljSWtmNzhPbm5FNkJ6YjBVT0llVlVYSGJzV1JsVDB2cWxLUkp0OTZUeHhyY0lwZVIzb1dfY25yNFl0SF9Za0NrajRVdjBnNG9hdlRha2tEc3prUTc1NW55T0sySTlPQQ?oc=5",
+"source": "Surfline",
+"at": "2026-11-17T08:00+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -941,6 +949,16 @@
 "kind": "outlet"
 },
 {
+"title": "Results for Ayla Stutzman at Super Girl Surf Festival Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMlpwbmNMamZpaVYydW5yQzhkX0FQU0w4azZOT1RjeFpaNi0wMUpTMkVpYnk2UlEyZ01qQkpKZ1ZqRnY0MGxiRUhscDV1M2VIbE5MS253MnFVTk1lZkZQdDU4YmZpVmpwZzBMY3FkOHdRTFJmNXRDQlNXTXpVMkZxT0J3bEZpSUZ0bWlzTUdMVQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-16T16:16+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Andy King Might Have Talked Himself Out Of A WSL Pass",
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjJyc1hURWUxSnhPal9TdTRIdFgwRTVKUjNvM2NmSmhtcmV6WHJibTF5aUNYYXNrNE5mN0pnMTdhRENndHl2dTltYUx1d2xaOGIwLWFXSDlKdHhFRHJRQ09fQjFlZ3FYeE9OdFI5b2hiNmFqMG9jRXJDQmdpaFN2OWxSLVpabzFMVDVZag?oc=5",
 "source": "Stab",
@@ -1041,6 +1059,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Biggest waves in more than a decade slam California coast as 'life-threatening' swells turn streets into rivers",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3FBUE5OeUVQalNoNWx3dTBha2JsR08xQmxFbHNNRUJCdVZmVUZFM1k5OXBHU3o0MFNiYk0zd3FOY1ZTNzV6ZGYtbVU2OC1yRFd5ejUwMWNDSmFRclFwWmQ2TUUtWlBXN2RXRUd1WWxSZWJXdDVXeWxRVm9HUnh0bkk4ZTcxbGRFNG03akh30gGTAUFVX3lxTE5QWUdkVnhGNHBKZC1JWFRFcnBvMjh5Qjl3X3phZWJYUDYybG9oM3FxLTJVU1pnaldJbVhOYk54Qlpnd0hhS1Q1NVRGckswVHhZemRPVzMyTjduUWo1a0xpM2duQ2ZBVUxJMUxEU0oxVC1WWHdrYTd6cm44akVfSDJpeWpwRlBWLU5hSnFDLWVKWWZ2bw?oc=5",
+"source": "Daily Mail",
+"at": "2026-11-16T08:53+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Mike's South Florida Forecast Notes: Watching Low",
@@ -1203,41 +1231,6 @@
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Men's Early Round Kickoff Action at The 2026 Taiwan Open of Surfing",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1N0S0hXUXY0TXdIODJ2NGRkbm10YUN2eF9HYy03UHktWTBUVHB0NkpDeU00cmlJaTVEOHRINHdRTmYwSGc4b0FLYUdNa3dMamUxbDZ1NGJkd3pUYXFWdDJzYzNTVFU3aHRiY2UzWkZHSHlHZWZiUjItUkQwNG1sajZvc3JrV2VURlpROE9HZndJNWkyV2JrQWdmLUlKSHpzZkZoTVhLbVl1dC1jMFR1VA?oc=5",
-"source": "World Surf League",
-"at": "2026-11-15T10:24+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Taiwan Open of Surfing Welcomes International Field for Historic QS 6000 Event",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5",
-"source": "World Surf League",
-"at": "2026-11-15T07:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Peru and USA Carry LA28 Olympic Slot Advantage Into Finals Day of 2026 ISA World Surfing Games",
-"link": "https://isasurf.org/peru-and-usa-carry-la28-olympic-slot-advantage-into-finals-day-of-2026-isa-world-surfing-games/",
-"source": "ISA",
-"at": "2026-11-15T02:27+00:00",
-"img": null,
-"desc": "Olympic Silver Medalist Kanoa Igarashi (JPN) Rises Above Stacked Repechage Field to Set New Event Benchmark Carissa Moore (USA) and Tyler Wright (AUS) Among Olympians Eliminated as Leihani Zoric (AUS) Leads New Generatio",
-"surfers": [
-"carissa-moore",
-"kanoa-igarashi",
-"tyler-wright",
-"leihani-zoric"
-],
 "kind": "outlet"
 }
 ]
