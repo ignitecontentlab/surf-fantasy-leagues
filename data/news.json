@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-19T07:57:44+00:00",
+"updated_at": "2026-11-19T09:40:09+00:00",
 "sources": {
-"Surfer": 35,
+"Surfer": 36,
 "ISA": 4,
 "Stab": 37,
-"Surfline": 6,
+"Surfline": 5,
 "The Inertia": 48,
 "BeachGrit": 16,
 "Tracks": 0,
 "World Surf League": 46,
 "Surfertoday": 5,
-"In the news": 29
+"In the news": 28
 },
 "items": [
+{
+"title": "Record-Breaking Rain Floods San Francisco Streets with Raw Sewage",
+"link": "https://www.surfer.com/news/san-francisco-flooding-record-rain-sewage-overflow",
+"source": "Surfer",
+"at": "2026-11-19T08:00+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTI1/atmospheric-river-hits-bay-area-as-el-nino-expected-to-pummel-california-with-storms-this-winter.jpg?profile=rss",
+"desc": "An atmospheric river is overwhelming the city's combined sewer system and flooding streets, homes, and the ocean with contaminated water.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Watch: Laurie Towner In ‘Equilibrium’",
 "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZThRd3NhUW9hUmtVemF6bGMzM2UzblVPczY2aFZXSUlrRTRDMzh6ZThta040NGQwN1R2OTRYekxuOExEU3UwZFl4NXVqN3ZMRTF5MC10NUlkNXZJMVFGT3VZa01uX0lMUmY5VlVVNlQzNGNoNkxxV0l6UFFGVWtUS1d5LWdzUEF5OGxtODFPMEZEVTJZN2Z3UkoyUFNYaG1PWTl1WVVLSjdTWWFUV1NyQWtlTWptRXpwXzh3M3I0Umc5NVN0Z0dpbF9wYlZnYzZEdXMwajdqUzZ5cGM?oc=5",
@@ -370,6 +380,16 @@
 "kind": "media"
 },
 {
+"title": "Teen dead, 18-year-old critical after 'subway surfing' over NYC bridge: Police",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTBHc1FQWmJrS0gwNk91MjdLU3I1d2NLUHFiN2M2VFp6WHBPUXdJajJhcXg5V3AzanYyc3o0WG9yOWdqVDVLUW8yU3JmMkJnamRJZmdqekU4bGNhSmtTdWJHdFRxR21GRDdjb0Jodk9WTU1ZVVozRThUQmozb1U2ZHdxT0NxVFNDZHZQRGlYZFE1QlXSAZgBQVVfeXFMT2kzY1J2SkMtWDY3VnVlTlFuMmtka3lyYVlaR1VUNi1hS0VtdnF4dmp2UWNXMXZxOGtHUDQtZUU2OVVZVC1XbFdPcUxHY0xTeTdxdjdiQUhHd1Bkd2tiQnBFekVOSU5QS0t1aGdwVUR0MTZaQ0JWYjQtTThLUFZUUjFQNURSTlMwUG02TGRpZ1J5TFB1SWpKeEU?oc=5",
+"source": "ABC News - Breaking News, Latest News and Videos",
+"at": "2026-11-18T06:18+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Real Life: Lesbians Tried To Steal My Red Bull Athlete Husband’s Sperm!",
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdk9ZblluRmZ3cGxnU2dyUnIwTEg1UjNtQU9kQk9UZ0N5SXZJMVc4WUF3aWFQb0hqdzFEMHFLcmZTNXROd0ZOemFUZUdNWFhaY1VSVk42WHFydk5oVWhzcWNQQUdyWlZCUEdXcUlqSGEyQVY2WFlJMVRzZEp0amNyU0pmamw0blRvZTFSMFc3X3drNFpaVHI1Z01QNnhJMGZI?oc=5",
 "source": "BeachGrit",
@@ -458,16 +478,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Teen dead, 18-year-old critical after 'subway surfing' over NYC bridge: Police",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTBHc1FQWmJrS0gwNk91MjdLU3I1d2NLUHFiN2M2VFp6WHBPUXdJajJhcXg5V3AzanYyc3o0WG9yOWdqVDVLUW8yU3JmMkJnamRJZmdqekU4bGNhSmtTdWJHdFRxR21GRDdjb0Jodk9WTU1ZVVozRThUQmozb1U2ZHdxT0NxVFNDZHZQRGlYZFE1QlXSAZgBQVVfeXFMT2kzY1J2SkMtWDY3VnVlTlFuMmtka3lyYVlaR1VUNi1hS0VtdnF4dmp2UWNXMXZxOGtHUDQtZUU2OVVZVC1XbFdPcUxHY0xTeTdxdjdiQUhHd1Bkd2tiQnBFekVOSU5QS0t1aGdwVUR0MTZaQ0JWYjQtTThLUFZUUjFQNURSTlMwUG02TGRpZ1J5TFB1SWpKeEU?oc=5",
-"source": "ABC News - Breaking News, Latest News and Videos",
-"at": "2026-11-17T20:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Cause of Death Confirmed for Fin Whale Found on Cruise Ship Bow",
@@ -1069,16 +1079,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Biggest waves in more than a decade slam California coast as 'life-threatening' swells turn streets into rivers",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU3FBUE5OeUVQalNoNWx3dTBha2JsR08xQmxFbHNNRUJCdVZmVUZFM1k5OXBHU3o0MFNiYk0zd3FOY1ZTNzV6ZGYtbVU2OC1yRFd5ejUwMWNDSmFRclFwWmQ2TUUtWlBXN2RXRUd1WWxSZWJXdDVXeWxRVm9HUnh0bkk4ZTcxbGRFNG03akh30gGTAUFVX3lxTE5QWUdkVnhGNHBKZC1JWFRFcnBvMjh5Qjl3X3phZWJYUDYybG9oM3FxLTJVU1pnaldJbVhOYk54Qlpnd0hhS1Q1NVRGckswVHhZemRPVzMyTjduUWo1a0xpM2duQ2ZBVUxJMUxEU0oxVC1WWHdrYTd6cm44akVfSDJpeWpwRlBWLU5hSnFDLWVKWWZ2bw?oc=5",
-"source": "Daily Mail",
-"at": "2026-11-16T08:53+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Mike's South Florida Forecast Notes: Watching Low",
