@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19T18:07:15+00:00",
- "content_hash": "8c995b1a2b38",
+ "updated_at": "2026-11-19T19:18:43+00:00",
+ "content_hash": "efa5662d0c5b",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T19:18:43+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T19:18:43+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T19:18:43+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -688,7 +688,7 @@
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50YTAyYVAxclB0TWFZRzUzRWthbVc0bTVycjJ1eHBsUjNHTXFiLTlQdzJFYWxfR3gxcHlveGlxY3hxSWw5NTJ2ZE5FdWxTalFrTWhOMUtXMU9XWEJobi1qR2F2LUFZUVYzc1NDRFpMT1hHakktODJv?oc=5"
     }
    ],
-   "news_at": "2026-11-19T13:38:14+00:00"
+   "news_at": "2026-11-19T19:18:43+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1319,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-19T18:07:15+00:00"
+ "checked_at": "2026-11-19T19:18:43+00:00"
 }
