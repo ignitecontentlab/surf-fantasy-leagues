@@ -1,18 +1,38 @@
 {
-"updated_at": "2026-11-19T11:33:10+00:00",
+"updated_at": "2026-11-19T13:55:38+00:00",
 "sources": {
-"Surfer": 36,
+"Surfer": 35,
 "ISA": 4,
-"Stab": 37,
+"Stab": 36,
 "Surfline": 5,
 "The Inertia": 48,
 "BeachGrit": 16,
 "Tracks": 0,
 "World Surf League": 46,
-"Surfertoday": 5,
-"In the news": 27
+"Surfertoday": 4,
+"In the news": 24
 },
 "items": [
+{
+"title": "Watch Mikey February's Stylish New Surf Film, 'SHORTYHEAD'",
+"link": "https://www.surfer.com/gear/mikey-february-returns-to-his-thruster-roots-in-shortyhead",
+"source": "Surfer",
+"at": "2026-11-19T13:15+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTMx/shortyhead_by-wade-carroll29.jpg?profile=rss",
+"desc": "Watch Mikey February trade his signature twin fins for a high-performance thruster in his new film and Channel Islands board launch.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The wild East Coast shores that draw surfers all year long",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnVadUtkRW5lTE4zbW14MzVzdEFWdUZ1VUhIVk5EUEFhMHRnZVdkeTIxRVR5cTRfdkN0Ry1QWi15dm1XaGRLRUREMnhoLTl3UVJSellUbFlHZTNyRnVKaDQ1YkZGREc3RUdQTi1RT1hwWGJqV1gwenBmNFhoRjdCalBJT0tyTGZKTDZ3Mzlucmh4bFFwamx4LXFrUUhleDF5SFpPeXp3djI?oc=5",
+"source": "The Globe and Mail",
+"at": "2026-11-19T12:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "Record-Breaking Rain Floods San Francisco Streets with Raw Sewage",
 "link": "https://www.surfer.com/news/san-francisco-flooding-record-rain-sewage-overflow",
@@ -318,16 +338,6 @@
 "kind": "media"
 },
 {
-"title": "Surf Air Mobility Scales Back Hybrid Caravan Plans",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEx5QXJhaFpLdXVCTlp5YzBNakdoYjVLMnlqS1ZPaFF2V1JITUlJTHB2UzV5S0N3cE02eVBXT0tHSG5OMjNlZGstR2tlcV8yamVTdVVBMHNfMnk2NXlJQmJacG1wZ2VxWnUyeFNvdWJUR2p3UVB5UVVGR0tHa05ra2YxODFqVDM4MDZicFNB?oc=5",
-"source": "Leeham News",
-"at": "2026-11-18T14:04+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFlTTVl5VExQUHROZGNwOE5SREJ6amVzcENMck9wX2tpUDFmYWkyYWNEdUVTUlFnZWVWTVhaMlJFYllidThMcGd2eDdJNUJwcVpLVjZsdjRPQXBjR1VRVDFvcXJLVVduSnN5LTRmZk9KLUpJc1VhV1E0anlkbXZlY0VMNEVFVWI2VlRLcnFVRFhlaU1BbEdJaDBaUndHaTZDQzlQQUVSUG0yX0p1eWY0MWVYd21FcUI10gG-AUFVX3lxTFBmWk1ndVJEVlBEOE54ZFVXb1BvTXphQ1ZqTW0tRHRHRnZtcGtQNDhHZVlaNk84eVBxbjFOOHJuRkRUMTNNVnBwd3dLaHVyMld5azlKNEV0Q1p6UkQzNTRhNlBzNV9ZMk1iNlQtTXAzTk9QcUFrLWpjemFKbUJLek9CNmczTTNhZVZnRERrU2J0SWgyTVJhN0RIZFVBLUlPakgtNHJvQ0JsMWFGY09MeEUzWExMN2FRc1M3dXRlS0E?oc=5",
 "source": "Fox News",
@@ -440,22 +450,22 @@
 "kind": "media"
 },
 {
-"title": "What’s It Really Like Surfing In Communist China?",
-"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWkJpTXBMTnRzNDhSM08zZkczSEMyQjdjQUE1XzJneXM4ZlNlWHJHU2c0RGFsUnRsUjE4Sm4wNHd0QXMyb1JOMThIT2w4S1c3QjgzNGJxNlNGUm5iUkg4YThwNThJVjZCYUJ0SzBZYXZLZGZEWkhqOFRrY2JFeW56M0RB?oc=5",
-"source": "Stab",
-"at": "2026-11-18T00:21+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "‘Day After Tomorrow’ Climate Nightmare Looms as Critical Atlantic Current Weakens (Video)",
 "link": "https://www.surfer.com/news/day-after-tomorrow-amoc-real-life",
 "source": "Surfer",
 "at": "2026-11-17T23:10+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODE4/day-after-tomorrow.png?profile=rss&x=50&y=32",
 "desc": "Research into the Atlantic Meridional Overturning Circulation (AMOC) reveals a potential climatological catastrophe ushering in Earth’s new Ice Age.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYk1CZldlS2FpQ2JocGt0RXpEMlFiZ3ZXbl9IS2h1aks0RS1jY0NLblpJeHNFMk5Gems4VzBrc25obDVZWXVUc3YzVjhTd3FkQmFiaFhHVmZlZ3ZsU1lIN21LR1NzS1pLLTBSV3pVWmRoUGI1WVJMSFRpQXI2NndfUVZFamZscWxUdDBHR21iX3NiSVN2Ukw3YzNBemQ5SHZPeFVtZXhRSmxnUzlGZkZKYmlmV05mQQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-17T23:08+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -692,16 +702,6 @@
 "kind": "outlet"
 },
 {
-"title": "California high surf washes engagement ring away minutes after proposal",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjluQW9GWnRuNkI4QjA3NVlCczlzYmQwRFVaS1had09zZGZkcjBJZUYxbnZoWVBXaG1IaFE0SlFnOEt1aURwYWlhT2FXWkVqWWk3OURZUWIxWDFlNFZuVXg0Z2wxN2V3NU4wUWhQSXZTamxBbzMxNnR6MGMyTENHZEc3bFpfb1UwaGdwRUJvbWpVTG1hUUl6a0xpNHNVNHBUdG9PWUdVckQwRkwtN3RMT0lPbkM?oc=5",
-"source": "CBS News",
-"at": "2026-11-17T01:27+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Twin Waterspouts Erupt Over San Francisco Bay As ‘Super’ El Niño Storms Pummel California (Video)",
 "link": "https://www.surfer.com/news/twin-waterspouts-san-francisco-bay-video",
 "source": "Surfer",
@@ -728,16 +728,6 @@
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSTR6WDZNOFRvTFMweXZCLVJ1Y09rTFMwb0tVMFh0Nlo0V3JuWWFiQmNFanAwWFNtOGhWNDdxZkZaNXpFR3VOYVB4SHJlUWY4Qmsyd1dOWkZnNk1Ma1ZxVWQtMmxYZGlRZXpNMTlwc0ZiLVFLcGJIZ3lXUFdzbGpxc0xsRi1KVjQ3cE02OVVHNGhTQU5x?oc=5",
 "source": "Santa Cruz Sentinel",
 "at": "2026-11-16T23:24+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Huge waves pummel California coast, forcing closure of popular piers",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOG9jeHVYQ3R3UXhFZmJzUlFhbmxBcGUxWlh4b2JuOEFOR0R4V0EwbThpcEFaUnhzZDgyTVlWaXJhSG5hWmxvZnVsVmtiaXpJQlhBVmtrSDU4Rng0U1BldlJ3Q1l3eVRQNGpTbmpkMEJhdlk5WlNiTG1fdVZmaHdrUUl5Tmp2T2d4S2lN?oc=5",
-"source": "The Guardian",
-"at": "2026-11-16T22:59+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1051,26 +1041,6 @@
 "kind": "outlet"
 },
 {
-"title": "West Coast braces for relentless barrage of storms as powerful atmospheric river fuels heavy rain, strong surf",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVExOcnV5LXJXcnNmd25BUXRncDJhcFVtOThyTDQyeTVjSUhJYjBzRVh2Mkd5Z0NrNHhmQldjRmlhRkdLTTk2cDNXV1cyZ2dnVThVbG5DdzJXMWtaRko3S2Fxc0ZwZ1BXcC1paWlkWUR2R0Q0VGdWTGxaek5hQThManhiN1pKYXpBdVZieElYdDBaMDRmTHfSAZsBQVVfeXFMTnVMTWwtZmhnOWVfYnVfTldRQUZpYjVabnpfdXl4SFU0SDdmeU9Wbmw4ZU9kSE50Z0lXYXRWSmJtT1RHcThTMWJVSTFjYmdwTUw3ODhWRV96UEZfOU5heXBXVDhzQnloc3hubGJUOEZ5UGM4LWsxQTAzZXBWY1JqT0tLSGRmeUg1a255aEU4YUFDai02VE1YU3ZsVUk?oc=5",
-"source": "FOX Weather",
-"at": "2026-11-16T13:09+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "MAVERICK’S goes XXL | Massive waves hit California – Nov 14 2026",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ1RoUUxNM043SUtkYTJiZDIyRlNtYnpEVjZzbGRpbWFuQ3A4d3AzQ3ljTFNrNEZ0dU1oamZRc08xV3FONU9BOVRBS09tNTZuaDVSQ2JVdTU3YW1iTU50dUpYM2JXODlVZE8zTG1JWHVfdWJEYWE5VTJQOWYwZkNYRjlCRmYxT0FzWU5FaE9nemJjV3p2LTQ4?oc=5",
-"source": "Surf News Network",
-"at": "2026-11-16T11:40+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "- BeachGrit.com",
 "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5WOUZWS09PaElxVVBQNVhoRFVQOFFzcDBFdnJQQkRBSEUwTkVkRVVqbUtFT2ItcTNQRmUzWjRJdFA5aXhraWpr?oc=5",
 "source": "BeachGrit",
@@ -1231,6 +1201,41 @@
 "img": null,
 "desc": "",
 "surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Men's Early Round Kickoff Action at The 2026 Taiwan Open of Surfing",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1N0S0hXUXY0TXdIODJ2NGRkbm10YUN2eF9HYy03UHktWTBUVHB0NkpDeU00cmlJaTVEOHRINHdRTmYwSGc4b0FLYUdNa3dMamUxbDZ1NGJkd3pUYXFWdDJzYzNTVFU3aHRiY2UzWkZHSHlHZWZiUjItUkQwNG1sajZvc3JrV2VURlpROE9HZndJNWkyV2JrQWdmLUlKSHpzZkZoTVhLbVl1dC1jMFR1VA?oc=5",
+"source": "World Surf League",
+"at": "2026-11-15T10:24+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Taiwan Open of Surfing Welcomes International Field for Historic QS 6000 Event",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5",
+"source": "World Surf League",
+"at": "2026-11-15T07:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Peru and USA Carry LA28 Olympic Slot Advantage Into Finals Day of 2026 ISA World Surfing Games",
+"link": "https://isasurf.org/peru-and-usa-carry-la28-olympic-slot-advantage-into-finals-day-of-2026-isa-world-surfing-games/",
+"source": "ISA",
+"at": "2026-11-15T02:27+00:00",
+"img": null,
+"desc": "Olympic Silver Medalist Kanoa Igarashi (JPN) Rises Above Stacked Repechage Field to Set New Event Benchmark Carissa Moore (USA) and Tyler Wright (AUS) Among Olympians Eliminated as Leihani Zoric (AUS) Leads New Generatio",
+"surfers": [
+"carissa-moore",
+"kanoa-igarashi",
+"tyler-wright",
+"leihani-zoric"
+],
 "kind": "outlet"
 }
 ]
