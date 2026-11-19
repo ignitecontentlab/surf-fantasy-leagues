@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19T21:07:05+00:00",
- "content_hash": "6f278b641c68",
+ "updated_at": "2026-11-19T22:06:24+00:00",
+ "content_hash": "88710d05def6",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -11,7 +11,8 @@
    "note": "season page not published yet"
   },
   "news": {
-   "ok": true
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Bells+Beach+Longboard+Classic+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
   },
   "eddie": {
    "ok": true
@@ -39,7 +40,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-19T21:07:05+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +83,7 @@
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     }
    ],
-   "news_at": "2026-11-19T21:07:05+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +112,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-19T21:07:05+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -148,19 +149,19 @@
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHp5UmlIWjE4RG5vOFp1M0Q5TWZXV3RVOURNSHNya1RvSWl1ZjJtY21sbnJMakhFd3BVSElNZzl4cWZJd09UY18wb21uS0NfNjVwOGl1NU1jZ2lHdXJPbEpGQzBKc0RWOEZock4zMjg4RURvWUpYZ3lRd0lnUXBEcldCNER0bF9MOUg2XzJ1bkxOM19maWptZkRNcGlrTEVoWGVUUjNwX1RfX3lLTEhVNDJxb3dRQQ?oc=5"
     },
     {
+     "title": "Inside the Science of Surviving the World's Biggest Waves",
+     "date": "2026-11-13",
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFNMUXNwQVdUMjVTQ2R3V2ktWER4el8tLVN6cGRxTVlKUzF1dnd3YkpKeXpFZHFwNXpJNVVDVS1QVEZZVGdsbzBJUUtXM0wtT1F3cnFZVUVLVUtZeWIwbDNXYVZDbkNoS1R0VnB2RUZxbllncWtPaGxoQkJsTUFBSkJxRHJ3NTVfS0RIOE5LYjZLR0RxbGZ6cl9EVQ?oc=5"
+    },
+    {
      "title": "What it takes to survive the world's biggest waves",
      "date": "2026-11-12",
      "source": "Surfertoday",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LQUZUaDhzaEN2V05UT3FTZWtyd1VEQ2NhVU5QRnp1Q1Z2aHNUcWw5TlozS3hDZ3lfaE5XZF9tUTAtNElKME1UdVBidENwMTNPejI2MTdmajNXcS1SajlaaHQxYWhaUi10dy1hbkdn?oc=5"
-    },
-    {
-     "title": "How Izzi Gomez fell back in love with big wave surfing",
-     "date": "2026-11-09",
-     "source": "Red Bull",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZ3ByczdoQTZBcE4tdkFnZ204aXpsX1VvUF9mUzZIejU3RDUtTmwyM2FFQkVIeFNkaVpIMlZURDJBR2JKSmR4Q0pRd3M5ekNQTFRNRklUM1d2YlZnZ2U2NmxtRjdpTTl3RmRCMWJuemx3aTVB?oc=5"
     }
    ],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -181,6 +182,12 @@
    "status": "upcoming",
    "headlines": [
     {
+     "title": "These are the competitors of the Surf City El Salvador WSL World Junior Championships",
+     "date": "2026-11-17",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcUItMF84WDlMSW9fcUJqaGFNdWVPM1FmTUFxY0pWMVU5LTZodFVZTERpbHpoY1N3OF9zZXZOSU5NY283d3NhUjJxOThOWWNWMUFfNnQ1V0VQYy1weTYzYWY1eXFwdmJ4UDFEWGI0RnNoa294MU9FdDlMMjUwTXRnSUg1WERVYUN6T0dQcEE5N3FBZXBndmlpWGVnc1R5dGM4VEt1QXhnSWM2VmtFLVNr?oc=5"
+    },
+    {
      "title": "Junior Pro Taghazout Bay Set To Kick Off Tomorrow",
      "date": "2026-11-10",
      "source": "World Surf League",
@@ -193,19 +200,13 @@
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUGxzN2VweDJnS0VJTm1XX0pCejVEQkVyZTVrcV9FOGRubk1kMTdWNGp5NllwV2NWY25ReDV4WmFJb0tRN3Z5LUVzYmdjNmJjM3QyZnM3R3ZlTFJaanBQVVhVMTVvOG56ajJXZ2Z2Q1lBYnpvRzBhQ2VwV3BUOHhIMDFMalJ0WGVockNkNWR5dEU5TW9VN2FseWl4eG50STk2YTkwVjdxU01BVzRrRVdGdDRMSV9JOTVB?oc=5"
     },
     {
-     "title": "Kobayashi, Arai Reach Round of 32 at Miyazaki Pro as Hyuga Pro Junior Contenders Advance",
-     "date": "2026-11-06",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYWp6Z0RfRU85VlhSaXp5UHhSaV90ZGlNQ3JvekliQ3dURjFjY0xvdC1ra2UwcmRkOWUzOVZ5MkNSR2ZnUFl6amlSVjJWQ19KSnJwSjJ4UjFHcEtsOXl4TzVqTVdTaUhTdXNhVjVnWXN6NUV6Mlp1VTNQdXMxOWJUTk9sT3VXMHJuV0laUUljOWd2VXV0Sk9jazJOZ005OUNEZHlWU1d1UkQyaTBrM2w1azkxc3F6UzFZUHRvdUx4SkpJQ3dfZ2JnV04xX3I?oc=5"
-    },
-    {
      "title": "Arisa Ishii and Taro Takai Claim Maiden Wins at Miyazaki Series Hyuga Pro Junior Presented by BOOTH",
      "date": "2026-11-05",
      "source": "World Surf League",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWGoyeWVUNDVxZkduLUt0OU4tVjdaWlNpVm9CMmNaTXdIcV9RUnBVVllialowdWpSbzIzMWFQcGNJZjZJQnNHQ2Y2SlV0dV94cmNEc3VhNVhwLUlFZTNMcUpGUlJ5V0hZS3ZNNzViRnB5Y2d0dmtFRE9xNW42XzlESDFkYlVBSUhNVURGNlV2Z2ZFWTJ4azlWdW5VMllnOV91eG1YY2IyRG5Vb2NDdzJNNTNiVVh6TkJ5QUIyRnhZWU8yMG1kb2dGbjlNd29qb0d3UXJqTEYzS2RHZFly?oc=5"
     }
    ],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -571,7 +572,7 @@
    "watch_note": "",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "wsl-ct-2026-lexuspipemasters",
@@ -606,7 +607,7 @@
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SZWZMMEJaSENWTHBiY3ZaM3p4M3liNjVONHlGMG0yeXBTWWRKVEFkdVhEOVN2OFR5TW5PX3h1OUtESTJoNWJwdFNScEJ6WlFUVnBLSUtjY0tVbnF5ODBWamREVTZrUG0taEFj?oc=5"
     }
    ],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "qs-pipe-2027",
@@ -625,7 +626,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -643,7 +644,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "la28-surfing",
@@ -1248,7 +1249,7 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OUjhNZGN1cjlkRmxpeGZuMzRqZkYzSjk5YUZ0SlJ5TWdONGEzdUpIR3hkMTctSGpoQ0VDMU9qT1lUanBQek5WUThSbmpTSGZHeFdIWXhxNUtUVGwtVUdmaXpZek9LSUJQdmlCbHhGRFhjTGRpZU1ORw?oc=5"
     }
    ],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T22:06:24+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1319,5 +1320,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-19T21:07:05+00:00"
+ "checked_at": "2026-11-19T22:06:24+00:00"
 }
