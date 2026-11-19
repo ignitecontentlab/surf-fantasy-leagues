@@ -1,5 +1,5 @@
 {
-"updated_at": "2026-11-19T09:40:09+00:00",
+"updated_at": "2026-11-19T09:59:24+00:00",
 "sources": {
 "Surfer": 36,
 "ISA": 4,
@@ -10,7 +10,7 @@
 "Tracks": 0,
 "World Surf League": 46,
 "Surfertoday": 5,
-"In the news": 28
+"In the news": 27
 },
 "items": [
 {
@@ -312,6 +312,16 @@
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsSTJxVXVtT05UbTZLVU5XVGRHY1F3LXlmZHR1WWlESHlWS3FaeEt0OFdpOW83TG1icTNqcUNfWWtFSzlFeWdjcmthSzh2VVc2UmRxX280UnVlUnRSVl8tTkVoMVVrNVNscDVUdA?oc=5",
 "source": "WavePoolMag",
 "at": "2026-11-18T14:25+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Surf Air Mobility Scales Back Hybrid Caravan Plans",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEx5QXJhaFpLdXVCTlp5YzBNakdoYjVLMnlqS1ZPaFF2V1JITUlJTHB2UzV5S0N3cE02eVBXT0tHSG5OMjNlZGstR2tlcV8yamVTdVVBMHNfMnk2NXlJQmJacG1wZ2VxWnUyeFNvdWJUR2p3UVB5UVVGR0tHa05ra2YxODFqVDM4MDZicFNB?oc=5",
+"source": "Leeham News",
+"at": "2026-11-18T14:04+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -734,6 +744,16 @@
 "kind": "media"
 },
 {
+"title": "Huge waves pummel California coast, forcing closure of popular piers",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOG9jeHVYQ3R3UXhFZmJzUlFhbmxBcGUxWlh4b2JuOEFOR0R4V0EwbThpcEFaUnhzZDgyTVlWaXJhSG5hWmxvZnVsVmtiaXpJQlhBVmtrSDU4Rng0U1BldlJ3Q1l3eVRQNGpTbmpkMEJhdlk5WlNiTG1fdVZmaHdrUUl5Tmp2T2d4S2lN?oc=5",
+"source": "The Guardian",
+"at": "2026-11-16T22:59+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Massive 35-foot waves slam California coast",
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdFlfZE9SR3hRVnZ4cG9uN3ROT1hWRE55c0dXSE1HZloyUVJlQl80NkJqM0RGTVBhSGF5MEdzREczaVRQSG5Gajlic1ktbmVSa2tzcnVrS3BiaFlpTHB5RF9STDRIc1B0a0NSekpqN1czUjFxWDlid0RBMjA2TFBLQ1BjYTUtME9vU1VCUUJIZ2MyRm1D?oc=5",
 "source": "The Weather Channel",
@@ -772,16 +792,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Huge waves pummel California coast, forcing closure of popular piers",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOG9jeHVYQ3R3UXhFZmJzUlFhbmxBcGUxWlh4b2JuOEFOR0R4V0EwbThpcEFaUnhzZDgyTVlWaXJhSG5hWmxvZnVsVmtiaXpJQlhBVmtrSDU4Rng0U1BldlJ3Q1l3eVRQNGpTbmpkMEJhdlk5WlNiTG1fdVZmaHdrUUl5Tmp2T2d4S2lN?oc=5",
-"source": "The Guardian",
-"at": "2026-11-16T21:39+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "VIDEO: Massive waves pound California’s coastline",
@@ -1059,16 +1069,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "The surf’s way, way up as huge waves pound the California coast",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWWREZmFhbnJiTWlubVN1RDhZejUwdTg0YURSWHl6MXRFMnFSZTEyQmIzRTZ1TndFc2VuYjJqYW5wMlRBV3UtMG9ERG9QRFlCMFNyLXIwN3o4djJZQkFOcVlKZnBnVGNpb2hxUy1GUVcyYzlwSFZTdTBzZWM0ZzRWZmEtTUhtWktyOVJaaXRvMkJabUtyVjkydlRjdmJXQmRVaVE?oc=5",
-"source": "San Juan Daily Star",
-"at": "2026-11-16T09:57+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Women's Opening Round Hits The Water On Day 3 of The 2026 Taiwan Open of Surfing",
