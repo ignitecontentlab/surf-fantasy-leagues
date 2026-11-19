@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19T19:18:43+00:00",
- "content_hash": "efa5662d0c5b",
+ "updated_at": "2026-11-19T21:07:05+00:00",
+ "content_hash": "6f278b641c68",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-19T19:18:43+00:00"
+   "news_at": "2026-11-19T21:07:05+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -58,6 +58,12 @@
    "status": "live",
    "headlines": [
     {
+     "title": "Australians Dominate Taiwan Open as Vaughan, Thomas and Heazlewood Impress",
+     "date": "2026-11-19",
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkRSeDBndjJHNldieWp4S1gyRUltcDVHaXNkWVN1QzQ1Nm4tb2hzNFpHNVRoZDNQWlRTMlNmRXhhWEwtZ2hVS1NPV1p1QjVMaDlYOWRsQ0tLOUxtU3ZDMWJuSmw3a0FjNUZwSHBaRy11SWxxeVJKX18wcVRrWlVFOVY1UnJscWJvd2Exc0ZHN3pjNWJFemJtd3ZEZmNQWXpjYmRWaHF6RExsZm1DWWZucFNB?oc=5"
+    },
+    {
      "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
      "date": "2026-11-17",
      "source": "World Surf League",
@@ -74,15 +80,9 @@
      "date": "2026-11-15",
      "source": "Taiwan News",
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
-    },
-    {
-     "title": "Australians Chase WorldTour Qualification as Taiwan Open Draws Record Field",
-     "date": "2026-11-13",
-     "source": "Sportzhub",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSEZUc0NQdkZlS3ptcTFHWDJyc0FKSVBpd1VDVXVIVVo1dDlxMWR1c1ZSUm14am11MzNJMUhqMnlYRjI2YV92cVAyNllDalVmZXhITDZ0emxfazBwNy1jSG8za0hUNFpvOUt3WXNoel9CdWtJY0RZa2wtLXIzbTJHYkVNUmotcEhNT0NHTmUtUHdkdURZaHpTTHVIV1c1OVFWNVlKMm5GcFNTWFB2NGIwZGhPYVk?oc=5"
     }
    ],
-   "news_at": "2026-11-19T19:18:43+00:00"
+   "news_at": "2026-11-19T21:07:05+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-19T19:18:43+00:00"
+   "news_at": "2026-11-19T21:07:05+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -565,7 +565,7 @@
      "title": "Stories From The Eddie: The Trophy",
      "date": "2026-01-13",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-the-trophy",
-     "age": 309
+     "age": 310
     }
    ],
    "watch_note": "",
@@ -1319,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-19T19:18:43+00:00"
+ "checked_at": "2026-11-19T21:07:05+00:00"
 }
