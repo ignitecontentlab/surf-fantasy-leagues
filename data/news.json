@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-19T13:55:38+00:00",
+"updated_at": "2026-11-19T15:37:32+00:00",
 "sources": {
-"Surfer": 35,
+"Surfer": 36,
 "ISA": 4,
-"Stab": 36,
+"Stab": 37,
 "Surfline": 5,
 "The Inertia": 48,
 "BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 46,
+"World Surf League": 49,
 "Surfertoday": 4,
 "In the news": 24
 },
 "items": [
+{
+"title": "San Diego Lifeguard Department Rocked by Sexual Harassment Scandal as 18 Women Detail ‘Appalling’ Abuse (Video)",
+"link": "https://www.surfer.com/news/san-diego-lifeguard-sexual-harassment",
+"source": "Surfer",
+"at": "2026-11-19T14:59+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTM4/lifeguard-at-san-diego-beach.jpg?profile=rss&x=53&y=66",
+"desc": "Female lifeguards describe alleged groping, unwanted sexual advances, and a culture of intimidation inside the city's coastal rescue agency.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Watch Mikey February's Stylish New Surf Film, 'SHORTYHEAD'",
 "link": "https://www.surfer.com/gear/mikey-february-returns-to-his-thruster-roots-in-shortyhead",
@@ -32,6 +42,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Former Taiwan Open of Surfing Finalists Dominate Day 6 at Jinzun Harbor",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdmpxRV9KSC12bGl2dWcwNjMyY0tvZFJmT3licUVDMFQxVzd6MXJXQXVxSUlGMElNMXhIZWlnNEdIaFgyWDl3N25KelY2QVE2RmczYmRPcjAtSXJ1NTllelFzZmR6dmVlclZCNVNWOWVsd2ZYTVIzT0VyX1hUV0N0Um1QMnBCVFBEOWVyeEI1TnZiRWNhNTIxNE9sYlBMZHZ0RG1xRGJrSU5HWmozMjZscjd4bHJmdDA?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T11:47+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Record-Breaking Rain Floods San Francisco Streets with Raw Sewage",
@@ -74,10 +94,20 @@
 "kind": "outlet"
 },
 {
-"title": "On ‘psychotic’ day of Mavericks big-wave surfing, Kai Lenny flies into another realm",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQamxQVktkS0xwQkU3bXVHemFGT3V2QWxFczdBTUgxUGdYQy1PdTJFWGs4VGIwMlkycjZpdUhMdG5aSExEdU1EZ3hVNENfN2I5X0dzeWp0LXlHMzlhRFFBRXVRNEZkRU1vNVhPZWVfUEp2bjQ2eEVHVUtnaWpGMVdTTFFWOHRfeXBhOTYzQWRUREZNSWFjZGpwdUVEU1hfc3lKd25lMm1EUzVEWFZRbEhV?oc=5",
-"source": "San Francisco Chronicle",
-"at": "2026-11-19T00:38+00:00",
+"title": "The Best Surfboard Harry Bryant Has Ever Owned",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT2htbzBKc21yMmFLMVN3a3RMamp6NTlBdlFuSll6ZVlvMC11UFZ5emhMaVVESGRjT2NWT0k1NHozUFlaLXNSQWJMQ1puYVBtRDFLQlNrWGZTQUp4bHExcXFsemM2MTM3WUhfNlJWOU4zekw1eWcxWlI5MFdvUTJLdEtB?oc=5",
+"source": "Stab",
+"at": "2026-11-19T02:36+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "On ‘psychotic' day of Mavericks big-wave surfing, Kai Lenny flies into another realm",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjBjNzEtcEFQcjM0aVI3cG5lZzBHN204MnF6TDNPbUhLakN5bkRDNTFoZ1FRcllnZ2RTT1EtVTJEZzJ4NWhrUU94RXZoQzBtR2VZU1V0OXJzTi1FVnhFeUxFLTVGS255Z25MZ3Y1STFIamRUSXBWcVFwX2tTTnNOLUNuc2xBTElh?oc=5",
+"source": "Yahoo Sports",
+"at": "2026-11-19T01:35+00:00",
 "img": null,
 "desc": "",
 "surfers": [
@@ -94,6 +124,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 5",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTZ4YzR3QW5ZOTF0b2Y4bDFXdjBpbjE1b0ZhTHluQlplOFlSTzB5RlIxRjBPTUJ1U2NpckMzallLcTdqZkc2MmJPdnZ6M2N3cl9adV9zZEQwaktiSGc0b2QwbWVzSnJETFFuYTdNa2VWRXNzMEpMeTE4bTU5Z0JBOE1YaG5BREowYnRMbGE1SDE3QTVCZ0Y3TjlLNS16WGpER0ZpMnNHS1V5RERudnRoTE5sZzJyQQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T23:21+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Cyclone Xavier Explodes Into Record-Breaking Category 5 Beast in the Pacific (Video)",
@@ -332,6 +372,16 @@
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsSTJxVXVtT05UbTZLVU5XVGRHY1F3LXlmZHR1WWlESHlWS3FaeEt0OFdpOW83TG1icTNqcUNfWWtFSzlFeWdjcmthSzh2VVc2UmRxX280UnVlUnRSVl8tTkVoMVVrNVNscDVUdA?oc=5",
 "source": "WavePoolMag",
 "at": "2026-11-18T14:25+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Surf Air Mobility Scales Back Hybrid Caravan Plans",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEx5QXJhaFpLdXVCTlp5YzBNakdoYjVLMnlqS1ZPaFF2V1JITUlJTHB2UzV5S0N3cE02eVBXT0tHSG5OMjNlZGstR2tlcV8yamVTdVVBMHNfMnk2NXlJQmJacG1wZ2VxWnUyeFNvdWJUR2p3UVB5UVVGR0tHa05ra2YxODFqVDM4MDZicFNB?oc=5",
+"source": "Leeham News",
+"at": "2026-11-18T14:04+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -660,6 +710,16 @@
 "kind": "outlet"
 },
 {
+"title": "Surfing - Professional, Competitions, Waves",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ub2VkaGN5aGJ5UjFHdkFwV2hjSDJWaklmM0VWRWFZUjFQcHJucVU3STI2YlBaVjY3OFpoQ1dGUjlDZmxqWFMyQ0N3UG5NZFhCMU93S0Z1blNta0tBVWh4b3Nkd0doQzdNR1Y1NDNPSQ?oc=5",
+"source": "Britannica",
+"at": "2026-11-17T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "California lifeguard recalls braving relentless waves in rescue caught on video",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2szVFh2M2kzQ1VLbnUtV0d2a25OdmFkMFNhcXB0eUlDQ04wbnZ4VnJ1MkUwU2RUQ0NVSG5tdk95WmRSdVlTOXN0SGVEcFZ3dDAwRVpXLUpRQ3FoZ3JsM2RLZkpSZmVoaTZDTTFGdERjOVdTbE9YOTR4UEVCUlFSbEdFSUVwcVVjZkhfX1ZwX1dXU3JKTkFlRWJwSUIyLWVLaVpUWjU4QWJjM3Fh?oc=5",
 "source": "NBC News",
@@ -700,6 +760,16 @@
 "koa-rothman"
 ],
 "kind": "outlet"
+},
+{
+"title": "California high surf washes engagement ring away minutes after proposal",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjluQW9GWnRuNkI4QjA3NVlCczlzYmQwRFVaS1had09zZGZkcjBJZUYxbnZoWVBXaG1IaFE0SlFnOEt1aURwYWlhT2FXWkVqWWk3OURZUWIxWDFlNFZuVXg0Z2wxN2V3NU4wUWhQSXZTamxBbzMxNnR6MGMyTENHZEc3bFpfb1UwaGdwRUJvbWpVTG1hUUl6a0xpNHNVNHBUdG9PWUdVckQwRkwtN3RMT0lPbkM?oc=5",
+"source": "CBS News",
+"at": "2026-11-17T01:27+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Twin Waterspouts Erupt Over San Francisco Bay As ‘Super’ El Niño Storms Pummel California (Video)",
@@ -979,16 +1049,6 @@
 "kind": "outlet"
 },
 {
-"title": "Massive California waves register on seismographs as dangerous surf returns",
-"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUjdZM3diWS1FcEgzVTlBQkJMd21PbkRDZUZ0VC15WUVIdlhqY2wzRWFGRXBqLXhkWFpxeldaZEJ6UlFvYUZrY01HanFXTHAyQlJVaXcza3g3c0NJS1c4MUstYVVkRGdhUWtaSnVXYl9WQTR4WmZlSkhLemo1ZjhPQzIxdWp6VHU0WG94QndFME5wZXlJaHZqLTM1T1Q5X190bks5TzY1YWQzc1pJS21v?oc=5",
-"source": "Yahoo",
-"at": "2026-11-16T17:06+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Andy King Might Have Talked Himself Out Of A WSL Pass",
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjJyc1hURWUxSnhPal9TdTRIdFgwRTVKUjNvM2NmSmhtcmV6WHJibTF5aUNYYXNrNE5mN0pnMTdhRENndHl2dTltYUx1d2xaOGIwLWFXSDlKdHhFRHJRQ09fQjFlZ3FYeE9OdFI5b2hiNmFqMG9jRXJDQmdpaFN2OWxSLVpabzFMVDVZag?oc=5",
 "source": "Stab",
@@ -1015,16 +1075,6 @@
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbGFQMmxyTHBsUU43YkluaEplLTU2LWM2b2V2WEVYaXYwYnRlNlotWUY5dGNNQzFDMTQ1YXBMbGJPeTNPc05jeDEtOVhJS2U4S1JvTm5BQmgtTjd3c1N6ZEN0bjQwaEFuSGdDcllCZ1JFbkxaSkpHeDRacUNmSGw1YlJ5QWl5OFQ1dkYzRVVRZllFcm1DZm54OXdDYzVvcVVTWmstYUVJbGZOc29EdzcycE45XzdKVWlFOFMtZw?oc=5",
 "source": "Nature World News",
 "at": "2026-11-16T15:49+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "World’s Best Surfers Get Clobbered As 1,000-Year Swell Hits California’s Mavericks With Skyscraper Waves (Videos)",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVklwckNkaWxWeUstb0RuQ2hpN1RtQnZBandhbmEtTll4Z0lHQkpQc3dVdHdscHhnSW5LM09BLXFmdGtuMThZTEtFSzYtU05BMkZFVGVndFd6aHk2eUg0MVBfMXhncXh2SFh3eHNYX1Z1ZHRuNENETDlvSGZjY1A5NzNwNEpkRTA3UUJvZElTdEhpYWswYUFkekliU0lzVXV0c0E?oc=5",
-"source": "BroBible",
-"at": "2026-11-16T15:02+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1181,61 +1231,6 @@
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Colossal 35-Foot El Niño Swell Explodes Over Santa Cruz Cliffs and Floods West Cliff Drive (Video)",
-"link": "https://www.surfer.com/news/35-foot-el-nino-swell-santa-cruz-video",
-"source": "Surfer",
-"at": "2026-11-15T14:35+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNTkw/santa-cruz-big-wave.png?profile=rss",
-"desc": "Shocking video captures enormous waves crashing over West Cliff Drive, towering above onlookers and flooding the road during one of California's biggest swells in years.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 2",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mbVYycDVfZkQ4Qnk4c2ZrTUkwRndtNktyeHJRNzVkT0dEOXJnaEdhRWRTekFSUF9JZVpHUTMzaVV0TmFkRWdmbDF4d2ZTLTFYdVYyNDB6NkxOeUo3X19aS1ZtbG5rUHhqVTc4Zmo2THVRd0N6?oc=5",
-"source": "World Surf League",
-"at": "2026-11-15T12:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Men's Early Round Kickoff Action at The 2026 Taiwan Open of Surfing",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1N0S0hXUXY0TXdIODJ2NGRkbm10YUN2eF9HYy03UHktWTBUVHB0NkpDeU00cmlJaTVEOHRINHdRTmYwSGc4b0FLYUdNa3dMamUxbDZ1NGJkd3pUYXFWdDJzYzNTVFU3aHRiY2UzWkZHSHlHZWZiUjItUkQwNG1sajZvc3JrV2VURlpROE9HZndJNWkyV2JrQWdmLUlKSHpzZkZoTVhLbVl1dC1jMFR1VA?oc=5",
-"source": "World Surf League",
-"at": "2026-11-15T10:24+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Taiwan Open of Surfing Welcomes International Field for Historic QS 6000 Event",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5",
-"source": "World Surf League",
-"at": "2026-11-15T07:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Peru and USA Carry LA28 Olympic Slot Advantage Into Finals Day of 2026 ISA World Surfing Games",
-"link": "https://isasurf.org/peru-and-usa-carry-la28-olympic-slot-advantage-into-finals-day-of-2026-isa-world-surfing-games/",
-"source": "ISA",
-"at": "2026-11-15T02:27+00:00",
-"img": null,
-"desc": "Olympic Silver Medalist Kanoa Igarashi (JPN) Rises Above Stacked Repechage Field to Set New Event Benchmark Carissa Moore (USA) and Tyler Wright (AUS) Among Olympians Eliminated as Leihani Zoric (AUS) Leads New Generatio",
-"surfers": [
-"carissa-moore",
-"kanoa-igarashi",
-"tyler-wright",
-"leihani-zoric"
-],
 "kind": "outlet"
 }
 ]
