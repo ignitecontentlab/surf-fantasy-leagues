@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19T22:06:24+00:00",
- "content_hash": "88710d05def6",
+ "updated_at": "2026-11-19T23:02:46+00:00",
+ "content_hash": "370a9a2dacd3",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -11,8 +11,7 @@
    "note": "season page not published yet"
   },
   "news": {
-   "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Bells+Beach+Longboard+Classic+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+   "ok": true
   },
   "eddie": {
    "ok": true
@@ -40,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-19T22:06:24+00:00"
+   "news_at": "2026-11-19T23:02:46+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -83,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     }
    ],
-   "news_at": "2026-11-19T22:06:24+00:00"
+   "news_at": "2026-11-19T23:02:46+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -112,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-19T22:06:24+00:00"
+   "news_at": "2026-11-19T23:02:46+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -230,7 +229,7 @@
      "title": "Longboard heavyweights set sights on Bells",
      "date": "2026-11-19",
      "source": "Times News Group",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHBiRlJySUpXMlJWV3hpcEZzdnZBLURvMUROUkNuNFhnbXpMUksxbFVWWkZadEF5TWU0eXptNnA4a0QxREp3ZWFWSEZCXzJWbEFiazBDZjVPeVdaUDhSQmNfdmF0MS1GSmtqUXh5RzdnQXpRMFRtTVhQWkZZU1g5bUx2NGpaV05yNG53Q1JFSGVTdkRIelE?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWVJ0ZWxxVkQzMmN0U2NZUURWYnFuTkhoeTVnRG9lMGc3TnFYckdOcnFhWThSOUtMOGxibWg3dGo2QlZqbl9LT1lfQ2tyQ0xaZzNsODRPdE5YVWRyYWpJSEZkME5OYmw5SVUyMVRJa1ltSkpiV1VGYUUxN1l5Y0l3dlM3eWpvNlQ5LVRxLVY2a1dzb0E1ZzY3Yg?oc=5"
     },
     {
      "title": "2026 Event Guide - Bioglan Bells Beach Longboard Classic presented by Bonsoy",
@@ -239,7 +238,7 @@
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYThzRFZIUVU3d0wwdFBibC1TYTlnV3ZMRldTZ2k3R1VwcHI3YmFFMEtVRVhVQURWa3FySGNRd0p3dmtoQWZDY3pfVVVSXzItNGxfbC1kcDVIWDNqZTU5OHpHY3phWEszQWliRm1DZVo5bFJWVHNWcFAtM0U5Tko0OXBpTDBwLUtteUFqMGZtMV9fZ2c4amxmcXpxaGdWUlZSV1NfN0pRQkw4OTFBei0wSll2TG1BUWY1OXg4?oc=5"
     }
    ],
-   "news_at": "2026-11-19T18:07:15+00:00"
+   "news_at": "2026-11-19T23:02:46+00:00"
   },
   {
    "id": "eddie-2026-27",
@@ -554,13 +553,13 @@
      "title": "Invitees Announced for 2026/27 Rip Curl Eddie Aikau Big Wave Invitational",
      "date": "2026-10-29",
      "url": "https://www.ripcurl.com/blogs/events/invitees-announced-for-2026-27-rip-curl-eddie-aikau-big-wave-invitational",
-     "age": 20
+     "age": 21
     },
     {
      "title": "Stories from the Eddie: Jack Soren",
      "date": "2026-02-24",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-jack-soren",
-     "age": 267
+     "age": 268
     },
     {
      "title": "Stories From The Eddie: The Trophy",
@@ -689,7 +688,7 @@
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50YTAyYVAxclB0TWFZRzUzRWthbVc0bTVycjJ1eHBsUjNHTXFiLTlQdzJFYWxfR3gxcHlveGlxY3hxSWw5NTJ2ZE5FdWxTalFrTWhOMUtXMU9XWEJobi1qR2F2LUFZUVYzc1NDRFpMT1hHakktODJv?oc=5"
     }
    ],
-   "news_at": "2026-11-19T19:18:43+00:00"
+   "news_at": "2026-11-19T23:02:46+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1320,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-19T22:06:24+00:00"
+ "checked_at": "2026-11-19T23:02:46+00:00"
 }
