@@ -1,18 +1,40 @@
 {
-"updated_at": "2026-11-20T03:30:35+00:00",
+"updated_at": "2026-11-20T05:41:15+00:00",
 "sources": {
 "Surfer": 39,
 "ISA": 5,
 "Stab": 14,
 "Surfline": 8,
 "The Inertia": 46,
-"BeachGrit": 15,
+"BeachGrit": 17,
 "Tracks": 0,
-"World Surf League": 49,
+"World Surf League": 50,
 "Surfertoday": 4,
-"In the news": 22
+"In the news": 20
 },
 "items": [
+{
+"title": "Bondi surfer Jimmy McIntosh, who found love amid a hail of ISIS slugs, marries at massacre site, officiated by Rabbi",
+"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeXlEMzJ0T2pWN2pXeWxaOFZjUGs0TjhBUl9SbkpjOXVpZU1zekE5emV6bTN0Sjl0NUF0cHR2aVJYVHRGOElCVGNvc0R1eXhmRHliSTNIMEhveTA3WnlzaUc5bk50R3lXalptYWJlYjF6UEdFSWNBSkllSnljZW5uWExBck1mcklyT20tY1RscGlTZ0VMaEp0ZlEzZ3VyNWxreTAxMlUtdUhVa2thdHJSS0hzWjY4b1BZdU40VFZQMTZ4RWdSeWlZYWhMQzB1NW9tMUJJcWlGaWJiTkZy?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-20T05:32+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Serial big-wave wipeout Jamie Mitchell flags concussion risk for surfers after latest near-death spill",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM3ZLcGlVTE5lNm80TzZSSzBKa1o0QVhmUmI3clhFcnMyNF85aXBIQ0RCWTZyS1J1bDY1cHNaTnZQWFY5TUlJQXVUOFpUVkNvZ3ZJMVVtTHREUXd1UnJxSUljaE9HTjhmeTYtYUI4bmp5OWlNeHNTaWhyUEMwVm9KcFluZW1odFUtblBOc1ZmZHdtSzFLLVdRWG91LVo3OHc2c1NwWGphb2owSWZQY18zNGRyd2o1R2dSeUk1YUpObjlqaFJZMVlYNnpxbEZDZw?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-20T04:17+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"jamie-mitchell"
+],
+"kind": "outlet"
+},
 {
 "title": "DSRT Surf Welcomes the World as the 2026 ISA World Para Surfing Championship Opens in Palm Desert",
 "link": "https://isasurf.org/dsrt-surf-welcomes-the-world-as-the-2026-isa-world-para-surfing-championship-opens-in-palm-desert/",
@@ -54,6 +76,16 @@
 "kind": "outlet"
 },
 {
+"title": "King Tides, Explained.",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkREd2xyUHZ3aW15VzBHeFhRVFVlMzBCRnNDOFJGUWRMV0RqcW5FMGp3YklZVXEzdzlwSGhLZTYyd2lwOWFROHRlSjQxeVVodWNfczNDZHFqUjdfUG5wRjRJRzZ1R29HRGtNLVcwRGJteUFLQU1kTHg3dlgtY25maEtvUk0?oc=5",
+"source": "Surfline",
+"at": "2026-11-20T00:35+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Iconic Molokai 2 Oahu Open-Ocean Race Shutting Down Over Lawsuit",
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTnpUMERSdXRmaDNyYnh5ZFpzbTI0eGdKX2RUZ0stR1J1Wlh3Q25uT3liRm1RVFRuUGZlNUdOTkVXQ2FEV0RlenlOeVNCazdBckZWbGdpZGZIeGMwYm96U0Fkb0ptc2hOOFNtQ2hKYVF2bFEzaXFEdklza19MZFU0VjFZenhGbUlzSjZZdTE2MDJqRVdZdXQ1dDdqRDFBZw?oc=5",
 "source": "The Inertia",
@@ -62,6 +94,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "American surfer Kurt Van Dyke's girlfriend among 2 arrested in his Costa Rica death",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaU9oS2p6dXp0WjJoQThCdUo0Q2d5c0xaT0FENXktVFB4Q2xmanpNVEh3RFdkakM1cGtaREZveTQwR1pCZ0JESlN0QUs5MkZzMXBHdFgta1pfYWFIcjJ0azVMNVFMTFhNcnp1WlpYSGR3M3I1LUhHVVp5cFJuMHNlZkY5UEhPVXdfSUJxZFJyNk16NHc2dDdrbFNn0gGfAUFVX3lxTFBjZk1EOHY4Nmk0bHc4Ymlxay1WZ1I1OEtQNUl4dVplNXpiQlRrVEtCenNfRzlMRldtQ1l3YmJZdHRTWHhjMWVSaU1yM2RDeFhYNGZiNThEaGpxelNDbTJKNEJsSk9Uam1KRzZsYlFxR2tyLUczRVA2WkpqeUROclVyOXA1bVBBZ1BBWDdQN0I3Q1ZsUjZWTkVfekMtNnZ3WQ?oc=5",
+"source": "ABC News - Breaking News, Latest News and Videos",
+"at": "2026-11-19T23:01+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "The Other Side of the Swell: A Message From Surfline's CEO",
@@ -88,16 +130,6 @@
 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYzhTcDF5QnlxWWlxbUQxY2JNdjVQQ2l6bzJUTngyT1g4d0E1bDg1Y0NkNkVGVUZicVZBLVlfeEgzMUlseGZNel9FbGVxckVSbUNFbWpBQXM1Nkc3LWxTVXU2ZUxsazc0aUhuQVBYaTF3MnJReEVlNlhTaWx5djhKeUtnREpGOFpQc3RLN2xUWmk4R3FNT3U5bXV0ZlBDTTMyTmVyM0Vpbnk0dw?oc=5",
 "source": "The Inertia",
 "at": "2026-11-19T21:43+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "King Tides, Explained.",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkREd2xyUHZ3aW15VzBHeFhRVFVlMzBCRnNDOFJGUWRMV0RqcW5FMGp3YklZVXEzdzlwSGhLZTYyd2lwOWFROHRlSjQxeVVodWNfczNDZHFqUjdfUG5wRjRJRzZ1R29HRGtNLVcwRGJteUFLQU1kTHg3dlgtY25maEtvUk0?oc=5",
-"source": "Surfline",
-"at": "2026-11-19T21:34+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -188,6 +220,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Surfing Legend’s Brother Says Family ‘Had Our Suspicions’ About Girlfriend Who Claimed to Survive His Murder",
+"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMFI1aGk3SVYzOXpwMzBpbTVTMFRrcVg0X3FpMzVPYUYyQzB0X1A4Tmp0UUxnSlFvUlkwZHpyck9RWUxxMWRFZGxLMEg3eEtHNElzakR4UW83RHI4NEtPQVNockZIWG9XNEgwYzM4NnE5XzBpb1lLc3pOZHo5UFlpTC1saVh2aEFsekpfOFRvZmVPWTdlVjNJQ3ppaTZJTjRDU2FoTF9pa3A5SGxQenZnSTItaXpEbnRuenlUVjZsNDJKbGdIakExNmlLdGNtMmM?oc=5",
+"source": "People.com",
+"at": "2026-11-19T19:54+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Cold Turkey: 5 Spots To Score An Epic Holiday Surf Trip",
@@ -330,14 +372,14 @@
 "kind": "media"
 },
 {
-"title": "The wild East Coast shores that draw surfers all year long",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnVadUtkRW5lTE4zbW14MzVzdEFWdUZ1VUhIVk5EUEFhMHRnZVdkeTIxRVR5cTRfdkN0Ry1QWi15dm1XaGRLRUREMnhoLTl3UVJSellUbFlHZTNyRnVKaDQ1YkZGREc3RUdQTi1RT1hwWGJqV1gwenBmNFhoRjdCalBJT0tyTGZKTDZ3Mzlucmh4bFFwamx4LXFrUUhleDF5SFpPeXp3djI?oc=5",
-"source": "The Globe and Mail",
-"at": "2026-11-19T12:00+00:00",
+"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 6",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVjFTVk9kZHBQMmVtRUpmbGhLNy1HMFFmajl5ZWRTMXN2TjBVeVNFczlXT2NoNnRQQzJ3a09PRC1qYlAxMkt6NXBqel80bm5oTGVYRzhnQXlVWmljd3loeGVNazBOZGJCRlo4SkVhRFJFLXNIT2FpWVBuYlJ2ODhudDZuZ3FaVkxGa3NQM2lrbzg0UDlZV3hIdm9nTzBRZw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T12:30+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "media"
+"kind": "outlet"
 },
 {
 "title": "Former Taiwan Open of Surfing Finalists Dominate Day 6 at Jinzun Harbor",
@@ -456,26 +498,6 @@
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNczZqYTN4aEg2S0I5TnN2QXlMZzlTbW9McURBZ0M4WE1mckNZRjJJZ0RuQnUxalVBR29xVVFmdFRCeUI2aUxwSk5VbXVEaW9lTjlIa0ZncUZ1Vl9LektXVjBjeTJXN2ZtVTlrRTA2Y3prUjVNX3ZXaE1KeDhFbzVTYUJPRWlFc3B4N0VST3NB?oc=5",
 "source": "World Surf League",
 "at": "2026-11-19T01:18+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "How Red Bull’s big wave athletes train for Nazaré and the heaviest water in the world",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHIyZlFTLXIyNzJSX1psZ0lQWGlNOVJQUEhmRmhlMjRtYTRpMnlzTVJ2X3J5bS01ajR1X3Vxa3RFbWYzVEdfdXp5WXVwaG85NFBLdlhrTXJlT2dhelN0dWx2Q0JTTkVSaGh2em9rcVBqSDdzLWhKYzVKZ0oydERQZk9fdkQzTExVSTBxTi1FWHhYSmRJeDQ2dWtFZk5tMjFpZWdncUJmVmRVRE5mbmc?oc=5",
-"source": "Tracks Magazine",
-"at": "2026-11-18T23:39+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 5",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTZ4YzR3QW5ZOTF0b2Y4bDFXdjBpbjE1b0ZhTHluQlplOFlSTzB5RlIxRjBPTUJ1U2NpckMzallLcTdqZkc2MmJPdnZ6M2N3cl9adV9zZEQwaktiSGc0b2QwbWVzSnJETFFuYTdNa2VWRXNzMEpMeTE4bTU5Z0JBOE1YaG5BREowYnRMbGE1SDE3QTVCZ0Y3TjlLNS16WGpER0ZpMnNHS1V5RERudnRoTE5sZzJyQQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T23:21+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -762,28 +784,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "‘Ten is the minimum’: 14-year-old surfing champion Leihani Zoric aims for record world title haul",
-"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX2g5VnFxQld1Y19KVjVZTVpyOTVNRHV1SlpWUnhwNzJzMEdNUk8tbDVJak9BLWFpOTRLZFFVd0QtOUlZZFlEeVBHNU43SUhNVnVEMmtHdlN3WUYxM08yMFNzTEhpYjNJX3NOcmZrNVpkdFZYQUU3SGlLclQ2c2xVVkxtMFJpejJxaVBTcEtKWHJGUUZLNjBDbG5CWVpERmpTdnFneGxjQWY5WG5aWjE1cGJFVldkQllCY1NqaVB4bHd1RWVPTHhxbzNqUXBHb2gzdmdTX25NOA?oc=5",
-"source": "The Guardian",
-"at": "2026-11-18T07:24+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"leihani-zoric"
-],
-"kind": "media"
-},
-{
-"title": "WA JUNIOR SURFERS PRIMED FOR NATIONAL TITLES ON HOME SOIL",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa2VMdUtqMFl5Z09iS0dULU9sZHk1cTM4VWcyQXdqUGkybHJGYmlWdW1FZWJFWXlKTVBWRkRuekljSVhCalJ4Umw4MHBCVXpvXzl4TnRTS09NZWl0S05McDBhVzd3SG9MeU0taTRnWkpQWndlWndERWRCQ20yRnl6UEs2aVBTb1RQYVRN?oc=5",
-"source": "Surfing WA",
-"at": "2026-11-18T06:58+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Real Life: Lesbians Tried To Steal My Red Bull Athlete Husband’s Sperm!",
@@ -1106,16 +1106,6 @@
 "kind": "media"
 },
 {
-"title": "California lifeguard recalls braving relentless waves in rescue caught on video",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS2szVFh2M2kzQ1VLbnUtV0d2a25OdmFkMFNhcXB0eUlDQ04wbnZ4VnJ1MkUwU2RUQ0NVSG5tdk95WmRSdVlTOXN0SGVEcFZ3dDAwRVpXLUpRQ3FoZ3JsM2RLZkpSZmVoaTZDTTFGdERjOVdTbE9YOTR4UEVCUlFSbEdFSUVwcVVjZkhfX1ZwX1dXU3JKTkFlRWJwSUIyLWVLaVpUWjU4QWJjM3Fh?oc=5",
-"source": "NBC News",
-"at": "2026-11-17T04:14+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Mutant El Niño Wave Explodes Onto Pebble Beach’s Iconic 7th Hole During Massive California Swell (Video)",
 "link": "https://www.surfer.com/news/pebble-beach-big-wave-7th-hole-video",
 "source": "Surfer",
@@ -1222,6 +1212,16 @@
 "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzY2Y0dBQzN3OGJwSHpCcHJHU2FEYXJfSDdwUlVaVkVQa2FtTFUyVkZ6VEcxRmxRNTk3YUV4QjkxNkp4Z1E2elpXRDJzdVFiOEZvS2d6bi0tbG9HWGc3Vi1PM1JMNENkWm1taTNJOVI2WDVadjI2SFpteVJJaGNHSTJuWGw5Q0tw?oc=5",
 "source": "The Inertia",
 "at": "2026-11-16T19:49+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Blair Conklin Chronicles Orange County’s Efforts to Keep El Niño’s Destruction at Bay",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWdfdUhHNkk4RFVreTNrYWdTQ2o3WFE3QjVEY2RuMWFMOHFuYmFsY2k4OWlDVll1OXBuN2tVd0llSjlCYWYxMVRWXzZxZzVJZDF4NVR5bEtxZjFUb1pDc1d6S25fZDQ2SmIzTC03VjltNDE0a1pLOWJ5RG1aUGkzeWNGT2JBdm1RcnBLUEFFWHJtblNfN3llY0JxcUY3ZGJHYm8taE4yV0NqMHRqaTRfYmtkTXlLeFE?oc=5",
+"source": "The Inertia",
+"at": "2026-11-16T19:46+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
