@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-20T05:20:46+00:00",
- "content_hash": "f8d25dddd29e",
+ "updated_at": "2026-11-20T07:38:23+00:00",
+ "content_hash": "fe0359dc43c7",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-20T05:20:46+00:00"
+   "news_at": "2026-11-20T07:38:23+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     }
    ],
-   "news_at": "2026-11-20T05:20:46+00:00"
+   "news_at": "2026-11-20T07:38:23+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-20T05:20:46+00:00"
+   "news_at": "2026-11-20T07:38:23+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -227,7 +227,7 @@
    "headlines": [
     {
      "title": "Longboard heavyweights set sights on Bells",
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "source": "Times News Group",
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWVJ0ZWxxVkQzMmN0U2NZUURWYnFuTkhoeTVnRG9lMGc3TnFYckdOcnFhWThSOUtMOGxibWg3dGo2QlZqbl9LT1lfQ2tyQ0xaZzNsODRPdE5YVWRyYWpJSEZkME5OYmw5SVUyMVRJa1ltSkpiV1VGYUUxN1l5Y0l3dlM3eWpvNlQ5LVRxLVY2a1dzb0E1ZzY3Yg?oc=5"
     },
@@ -238,7 +238,7 @@
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYThzRFZIUVU3d0wwdFBibC1TYTlnV3ZMRldTZ2k3R1VwcHI3YmFFMEtVRVhVQURWa3FySGNRd0p3dmtoQWZDY3pfVVVSXzItNGxfbC1kcDVIWDNqZTU5OHpHY3phWEszQWliRm1DZVo5bFJWVHNWcFAtM0U5Tko0OXBpTDBwLUtteUFqMGZtMV9fZ2c4amxmcXpxaGdWUlZSV1NfN0pRQkw4OTFBei0wSll2TG1BUWY1OXg4?oc=5"
     }
    ],
-   "news_at": "2026-11-20T03:02:16+00:00"
+   "news_at": "2026-11-20T07:38:23+00:00"
   },
   {
    "id": "eddie-2026-27",
@@ -670,12 +670,6 @@
    "status": "upcoming",
    "headlines": [
     {
-     "title": "LA28 Tickets: Australia Builds Olympic 2028 Momentum as Young Zoric Makes Surfing History - Olympic Tickets | LA 28 Tickets | OASIS Tickets | Los Angeles Olympic Tickets | Rugby World Cup Tickets | Rugby World Cup 2027 Tickets | London New Year Fire",
-     "date": "2026-11-17",
-     "source": "eTicketing.co",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN1MxdmtpaFpKVkgwUFBiUHR4X1o3SWJBMW9BYy03ZHhFcEFLUVpGRkR6dmgweUs3aWNldUk4M00wSTFfRW4tanZLbksyWFFBZmc1djc4WUUxUzd5YVFDYzU4SGRRSEpnT05kVHA2aUNPdXJqdV9xWVZTRW5HRjllaWppbzRoZEZUd2kzaW5tLWdkR2tCZll4YlVMRzVTQ1NSejlCbl9nODBGbmd0UzlmODhBVE5MSk0?oc=5"
-    },
-    {
      "title": "Leihani Zoric crowned youngest-ever ISA World Surfing Games champion to help secure Australia an extra LA28 quota",
      "date": "2026-11-16",
      "source": "Olympics",
@@ -694,7 +688,7 @@
      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50YTAyYVAxclB0TWFZRzUzRWthbVc0bTVycjJ1eHBsUjNHTXFiLTlQdzJFYWxfR3gxcHlveGlxY3hxSWw5NTJ2ZE5FdWxTalFrTWhOMUtXMU9XWEJobi1qR2F2LUFZUVYzc1NDRFpMT1hHakktODJv?oc=5"
     }
    ],
-   "news_at": "2026-11-20T03:02:16+00:00"
+   "news_at": "2026-11-20T07:38:23+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1325,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-20T05:20:46+00:00"
+ "checked_at": "2026-11-20T07:38:23+00:00"
 }
