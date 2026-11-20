@@ -1,5 +1,5 @@
 {
-"updated_at": "2026-11-20T05:41:15+00:00",
+"updated_at": "2026-11-20T07:55:43+00:00",
 "sources": {
 "Surfer": 39,
 "ISA": 5,
@@ -8,7 +8,7 @@
 "The Inertia": 46,
 "BeachGrit": 17,
 "Tracks": 0,
-"World Surf League": 50,
+"World Surf League": 49,
 "Surfertoday": 4,
 "In the news": 20
 },
@@ -49,7 +49,7 @@
 "title": "Shaun Manners Behooves You To Fix Your Own Dings",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUp4M2g2eGpIU0RzODhERFQtdGRnLUNpZFFBbGtqSUIyMlJlYU5UUGxhY3ZCd0JUckNvaFVVMWhXa2FOanRVdi1OZjJYdTFNMjNRMTB2WUo1V29kY3B0ZGxpNkRxb1dORW1XSG1XVEc5a0M5Q1hJUlFlRjFYM0F3VlpDQVRDLVk?oc=5",
 "source": "Stab",
-"at": "2026-11-20T01:30+00:00",
+"at": "2026-11-20T01:33+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -322,6 +322,16 @@
 "kind": "outlet"
 },
 {
+"title": "Luke Dent Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMlpMUFhVTzhXRi1FUlExaW1kV3E1Z3lmOFF5d1YyMFU1cFdSNGJBaVBBcVh2TEFzSVlWWk01ZTBLc0JWTkdZYV9fMlplZjRMUEg5LTY4Um9uWTIxdHlIM1FfM3NxcTlLNWRTWTdSZ3l5YmV0M3V1WmtralVQMUo4UUFn?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T15:20+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Results - Pacifico Surf Open Cerritos 2026",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
 "source": "World Surf League",
@@ -382,6 +392,16 @@
 "kind": "outlet"
 },
 {
+"title": "The wild East Coast shores that draw surfers all year long",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnVadUtkRW5lTE4zbW14MzVzdEFWdUZ1VUhIVk5EUEFhMHRnZVdkeTIxRVR5cTRfdkN0Ry1QWi15dm1XaGRLRUREMnhoLTl3UVJSellUbFlHZTNyRnVKaDQ1YkZGREc3RUdQTi1RT1hwWGJqV1gwenBmNFhoRjdCalBJT0tyTGZKTDZ3Mzlucmh4bFFwamx4LXFrUUhleDF5SFpPeXp3djI?oc=5",
+"source": "The Globe and Mail",
+"at": "2026-11-19T12:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Former Taiwan Open of Surfing Finalists Dominate Day 6 at Jinzun Harbor",
 "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdmpxRV9KSC12bGl2dWcwNjMyY0tvZFJmT3licUVDMFQxVzd6MXJXQXVxSUlGMElNMXhIZWlnNEdIaFgyWDl3N25KelY2QVE2RmczYmRPcjAtSXJ1NTllelFzZmR6dmVlclZCNVNWOWVsd2ZYTVIzT0VyX1hUV0N0Um1QMnBCVFBEOWVyeEI1TnZiRWNhNTIxNE9sYlBMZHZ0RG1xRGJrSU5HWmozMjZscjd4bHJmdDA?oc=5",
 "source": "World Surf League",
@@ -396,6 +416,26 @@
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbjZtREdzeVYwdHlUbUthRkhGZTJsaG81N0otTnVZZDFiVXZSRjlQSHdDUVdGWDdWMUk5elNwT2lVeUtJMTJwZTRTM01Pay1tU1Y5cE5fTVEwVDdXZnBRcDZwaHBMeHA0ZzgtN1FtLTdCSm84aVlLb01NQTIxVEtNMXpCNW1qWkQ0YlB4WTlhYTBxX2c?oc=5",
 "source": "Newser",
 "at": "2026-11-19T11:36+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Latest Wave Pool Clip Comp Wants to See Your Backside",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NRjBOVXVoY2hNYUc3eVlIRGdQT3pXNjMySjdSSnN0ODVscnpDaGl2S2VsVnNhdVQ4NlhGNlhXNTg5NnVkeS1yTmp3NjNRcF84RWVDTXgxdHdyRV9GbVFNWjRSWWVkZDMtUzNtbmRIZlg?oc=5",
+"source": "WavePoolMag",
+"at": "2026-11-19T11:31+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "How Gordon Merchant turned rotten thread and ripped shorts into an iconic surf empire",
+"link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQLVBKQ0JBM2ZCN09vWkNLdnJLblZqaHdyUnFNLUhYYjd4WUtpRVFTbFp4SHRDUWR4TUxYYm4xTUFfcU8tU0VtSHVHdkp2NGZzX2pLZU5pS25FRTRwU1Rxc0dqMXlIUEdoMWNxNks3VkJnU2ttZG00NGhHNEFKcE03aUNpZ2UzQUV4SnVZUUVTN2lSN29EZVFLd0R4UGx3MnJCQmNpNUJDb0lPbURkazJuZ0dvVzBVamhDVk9peG9Tb2NOLVdJUmlXQV9ydTRxZWVFWnRKckJSSQ?oc=5",
+"source": "Daily Dispatch",
+"at": "2026-11-19T09:53+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -622,16 +662,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "The World’s Best Surf Hotels for Design Lovers",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXWXRCRWVCWHRUU2pBMFVWbTd5VFpVbzBFUUNmU185SVI1QWtfRFNoamQ5R0VBZzcyM3h1dGh0bGhpNFY4cUhrdGhXdUIzdE9NX1gyb3E0SS14MGZzZW9WcjFpTTZZcVlqc180aGFielFNRFdoLTFKdmdhYjZBYzA?oc=5",
-"source": "Galerie Magazine",
-"at": "2026-11-18T19:37+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Jerome Brouillet Took the Most-Viewed Surf Photo Ever and He Doesn’t Want the Money",
@@ -1096,16 +1126,6 @@
 "kind": "media"
 },
 {
-"title": "LA28 Tickets: Australia Builds Olympic 2028 Momentum as Young Zoric Makes Surfing History - Olympic Tickets | LA 28 Tickets | OASIS Tickets | Los Angeles Olympic Tickets | Rugby World Cup Tickets | Rugby World Cup 2027 Tickets | London New Year Fire",
-"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN1MxdmtpaFpKVkgwUFBiUHR4X1o3SWJBMW9BYy03ZHhFcEFLUVpGRkR6dmgweUs3aWNldUk4M00wSTFfRW4tanZLbksyWFFBZmc1djc4WUUxUzd5YVFDYzU4SGRRSEpnT05kVHA2aUNPdXJqdV9xWVZTRW5HRjllaWppbzRoZEZUd2kzaW5tLWdkR2tCZll4YlVMRzVTQ1NSejlCbl9nODBGbmd0UzlmODhBVE5MSk0?oc=5",
-"source": "eTicketing.co",
-"at": "2026-11-17T07:42+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Mutant El Niño Wave Explodes Onto Pebble Beach’s Iconic 7th Hole During Massive California Swell (Video)",
 "link": "https://www.surfer.com/news/pebble-beach-big-wave-7th-hole-video",
 "source": "Surfer",
@@ -1204,26 +1224,6 @@
 "at": "2026-11-16T19:58+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNjgy/taco-bell-pacifica.png?profile=rss&x=50&y=34",
 "desc": "While enormous surf flooded Pacifica's streets and battered its famous pier, customers at the oceanfront Taco Bell Cantina kept eating tacos and enjoying the show.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Surfing’s Olympic Leader Unfazed by 2032 Sports Cull",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzY2Y0dBQzN3OGJwSHpCcHJHU2FEYXJfSDdwUlVaVkVQa2FtTFUyVkZ6VEcxRmxRNTk3YUV4QjkxNkp4Z1E2elpXRDJzdVFiOEZvS2d6bi0tbG9HWGc3Vi1PM1JMNENkWm1taTNJOVI2WDVadjI2SFpteVJJaGNHSTJuWGw5Q0tw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T19:49+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Blair Conklin Chronicles Orange County’s Efforts to Keep El Niño’s Destruction at Bay",
-"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWdfdUhHNkk4RFVreTNrYWdTQ2o3WFE3QjVEY2RuMWFMOHFuYmFsY2k4OWlDVll1OXBuN2tVd0llSjlCYWYxMVRWXzZxZzVJZDF4NVR5bEtxZjFUb1pDc1d6S25fZDQ2SmIzTC03VjltNDE0a1pLOWJ5RG1aUGkzeWNGT2JBdm1RcnBLUEFFWHJtblNfN3llY0JxcUY3ZGJHYm8taE4yV0NqMHRqaTRfYmtkTXlLeFE?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T19:46+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 }
