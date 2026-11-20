@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-20T15:13:53+00:00",
- "content_hash": "7a5075ec90e0",
+ "updated_at": "2026-11-20T16:16:10+00:00",
+ "content_hash": "1f7e09a15c98",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-20T15:13:53+00:00"
+   "news_at": "2026-11-20T16:16:10+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     }
    ],
-   "news_at": "2026-11-20T15:13:53+00:00"
+   "news_at": "2026-11-20T16:16:10+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-20T15:13:53+00:00"
+   "news_at": "2026-11-20T16:16:10+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1319,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-20T15:13:53+00:00"
+ "checked_at": "2026-11-20T16:16:10+00:00"
 }
