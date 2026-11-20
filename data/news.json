@@ -1,21 +1,73 @@
 {
-"updated_at": "2026-11-20T21:27:50+00:00",
+"updated_at": "2026-11-20T23:26:50+00:00",
 "sources": {
-"Surfer": 42,
+"Surfer": 39,
 "ISA": 5,
 "Stab": 10,
 "Surfline": 11,
-"The Inertia": 44,
-"BeachGrit": 15,
+"The Inertia": 46,
+"BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 44,
+"World Surf League": 41,
 "Surfertoday": 3,
-"In the news": 15
+"In the news": 17
 },
 "items": [
 {
+"title": "Disgraced former Nvidia CEO Jensen Huang revealed to have ruled trillion dollar company like brutal surf enforcer",
+"link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTjRRNk5teFp1bTFJckNRTmlWWTNXNFlIV1JQY3JnZTNpS0Z1MkZMZ2FnS1FnRkF2clVnRTBPcFB2MFpFZUdjc25iMFFRX0szMmR1VmhHZ1FwZWo3Y1YtUDFqLS1pZGwzazlYUGdFc0FYYUNMb1NpbEM2bGFJX2VRRmxzM2N5OEFqd2VCX2pDeTQwM2R1M3dIeEo4U3ZkUTVNOWNGVkdhZllMRlBqZ2djN2s0bi1Kd2xGUS0yN1o2aHlGR1dHc1ROV2c2eVhQNmkyQ053UG9xX0JUaU5r?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-20T22:35+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Carlos Gauna Shares Compilation of ‘Secret Lives’ of Great White Sharks",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZjFYaVAyR3VORzVpWkRqNUhvY1hubTRxMEFPaFphcmVScWFjenNRam5uZkRhcFVObWx0eTVZNkdrakM4ME5RMi1idzVwV2tEOFRkTVd0RXN1SFBLS2lkVEpGOWpjQkVBNlNIeFNDamVGdzgwVXJ2WElEbWRQN2ozbnFCUlU1S3dCbUtIOE9BWFpJMjlGSVFWUFhJU00weThVZmRKMmdUODZJc1VubGc?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T22:32+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Mason Ho and Sheldon Paishon Threw Caution to the Wind for a Rocky Barrel-Fest",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZHVWMjI2Z3JUeTlIeFZ4RGptZXlWR282VThEYjNVZE9VS3dtbVB3QnZSMUZadHhIa0NibFM3X3pFWkd3WW1SOU40TzRybDMyV2FWTVpNVmQ2RnJ5Q1NVd1R6MFFJNGc3VkMzYzJBZVp3Y0pkZFpzQ2J0dS0tVjBJdWx6a0VrUGlMRFcwbURrMks1ekIxbHBYNHhERkhaV3NKUnpHX09aNU8tbjlpY19RMg?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T22:28+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"mason-ho"
+],
+"kind": "outlet"
+},
+{
+"title": "With the Surfing World Focused on Maverick's, Laird Hamilton Towed Into a Little-Known Big Wave Spot",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON1NOUGJlcWxFSGZ1N1FWWnVNTlZXTngyaWxLZXg1ZTcxc0RpdVNjb21HMWNCNWNnZU1QWmFEMTMtZTJrRVJEUDZUUUI3LWktbUY0TkNYYXBkbTZwanpjcExPcF9ZV0lYNDlZWDRLNVNxU2lmT0pXMVFISFdpOXZ3UTRFN0p5SkhmWV9HUG9XeXZVZ3VqQ2pMbkl2MmJQM1VIUlhDX1ZB?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T22:16+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Black Surfers’ Founder Left California, But His Mark on West Coast Surf Culture Remains",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlNLa3I2ME5WWjUtRnhERzd4d3FTYnFuaTRLWG15M1h4anZkN094ZXljS21EY2xad0pERFJYU0RnU0lVemRFamZodzRiUm9pMnJ0dlRicnlfdjV1UlJKck40MFZVQnhZTVdkNGRQejRsU05fY0xHVmFPRmtBY1JvNnJ6Uk1DcWh1bTFKQWItVWI2ckpxSkMxWU1uWmtCckdOMHc?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T21:29+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Rare Sea Turtle Eggs Found in Ventura Show No Signs of Life",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOE1TQjJ4YldsTWNpdFQxU29wbnlOSHFCcjZxRW9lRUdXZzZSb2NQRDZuQ1NHVHRRYlVqUmdoRFVFcmZnTV85MV9jcFQ1d2hoX2xNY3g2dmRhZWxQVnlQV3JtMUt0S2d3MElaOU1Xc3V6SXctRW9Ca2ZSb1l4OVcyblotb3BLWUdBbTJFMThYTnIwdlNlQUh0b3Nvd1E3dERvWjg4?oc=5",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTV5NmZ5bGIwcEpKMHVxdFNLMVhzcEVSci1UOUwtQ0R0OUN0WEI1VWdnSUlkclItek5DUEllblBhWXZrOWZkZVZxWVUxMEdzSW44MU50dmF1Rm9uYm1pUmE0bVJLRGQ5OVJpaHh1YW9mc0IzREh6a3o0dzlwcW4ycFZvU2dhM2puYmJ5MUNzZHNLSk5RbTZuTEQ3cm9EbHdM?oc=5",
 "source": "The Inertia",
 "at": "2026-11-20T21:05+00:00",
 "img": null,
@@ -164,6 +216,28 @@
 "at": "2026-11-20T14:27+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTEx/el-porto-flood.png?profile=rss&x=56&y=42",
 "desc": "Stormwater cascades down a staircase and into the Pacific Ocean as powerful El Niño storms inundate Southern California.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Taking mother power to whole new feats, Justine Dupont's incredible connection to Nazaré",
+"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpPQk9zT1FRaWZ1eENMOHdBc2ZUa2NkVVNhbXY2WVl2eWRvQlZZd1MzanpfaDYxS3hJRDdCUkJDN0hoeXNiVl8wZlB3NFFucGxndUstN24tcjRETS1wb2hQTXRQbFhickFTVVNKZGVsQWFsRjZfQnVTd0hwbFBYRUU3bzVmY3BaU3VBRFphV3BKNEtqUkdMSkVsUWdFWnVoVVRRYXg0VFlNbHQ4VnpoeUJESHFHRG93bURic2VDNWRreU1abXgyYlNDaw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T13:09+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"justine-dupont"
+],
+"kind": "outlet"
+},
+{
+"title": "The 2026 World Junior Championships Collection I A glimpse of what's in store at La Bocana",
+"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNDk1aVR4alBjaEVHNzFxNC1WTkdEWUtDcjQ0UjhaS1V2NzRCQzg2WUNHbF92UC1ETEVGeFU4aUpjdmdMSGlfeHVXV3dGNjJEMXBoV1dMcXBmN0R2bVdra3JhNFZ1S1dhbHc1TWhWZ3N4RHBFSndoT0xvTy14QWRfMDR4Y21obDZKVFpMZVR5YXJLTGM5WGk4MWE2bDQtWjR5ODhkTnVfMWpnTTRRUnQ5VGxpV3ZjWlFWS05nTXFFdVczekh6Z0J4Yg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T13:09+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -1156,76 +1230,6 @@
 "at": "2026-11-17T17:29+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzY0/mexico-us-environment-water-pollution.jpg?profile=rss",
 "desc": "It not only travels several miles in the water, but at least 20 miles in the air.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "X-15: the one-design wingfoil racing class",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsaGJxei15bTBoQVB4azhBQjhNX3ZaNTJMNjE3eVdKQ25RbnZlVzRIMUVHLXF6ZUJoMFBCdFlTWnRYQ0Z0N21EXzBhUW5VTXVMWnFjZmNkeXh0UjN5SVV6OVlYYTVuRDJSQ0pjZzRWOXo5Q2dj?oc=5",
-"source": "Surfertoday",
-"at": "2026-11-17T17:20+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Skip McCullough's close call at Cloud 9 + Thoughts on the first-ever Philippine Pro CT | The Lineup",
-"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTh0Vk9heUo5emtrVmRuNy1QVDVTaTNzMmNpS3pBZDNLU0xlTU1pOThVX1BvdFN0eFp1NElJbzkzUjljR1dNeTFRNG1weU5qX1I4S3B2a2RZZEt2M0NTbW9WRURYNEF3UEU1R1g5dUZtWXItUlBQQnZ2QnhDLS04MzFzbU0xc3JIeWxkOVhnUUpYMGg4SU9zNGh2SQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-17T16:17+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Reissue Of Hunter S. Thompson's The Curse Of Lono Prettiest Surf Book Ever Published",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVmlaUzBpbllHU2M0R09FTWIyZ19odktpVTE1dkF5dHFBd1FwSWpBZC03TlFpSEVJdWQ0bVhFaWxUaExBR05PdkFBWk5LVEY0TVdheVljOXpnYWhoN1FXazRXeWVQXzhjZTdpaWloNlpZcl9tS2JCa3pUYy05elV5ZkUwV1RpQVpvQ21iaGpIR3hiSDU1MF9Qd015ZWRTbXM4REpNOW91WV93ei1aemltYllGSQ?oc=5",
-"source": "BeachGrit",
-"at": "2026-11-17T15:58+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Day 4",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNakExX1A4U2Z2MGU5YkhWVUVrQjl6ZzQxYWJsNGtuaHBCcXBXZ3F6TDBCTXpKdzIzV01WVEZmUlgzSG1fWUFTQXhjN2U5X2ItZGowWDhtQzdnMnJTMFh6SzhhRTZwTDVtcDFRQnBQZl9ZX3piN3dRWlc1UjNXZjJzX0t6dW5WRXI1T21BNEFjNU5IVkdCbE95ZGZWSV96QQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-17T12:30+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "58 Surf and Turf Archives",
-"link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qLU5HY3kzTlZaaFNNM0w2RTlPdy12c1VUQkNiZnplZ2FoRXM5eGtjcXVEWmhKaldNY1duRlJ1M0JwbS1qWE5PWmQ0T3FFT3YwNUNJ?oc=5",
-"source": "Stab",
-"at": "2026-11-17T12:06+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Competition Continues In Tricky Conditions at 2026 Taiwan Open of Surfing",
-"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUhPYUpKdjNSQXVRMEVEdFk1bW1Ed0ZfQXllZ0xVT2Z3aURJTWc0SS1pZWltSnpqbU15d2s4ZDBXcDByR2ZQaDM5ZmRNMkNZTkt1ZjlUZnBaYXljQnd3bTB2WWg2TU44ci05dUltUWVIWmRGTEE5X1U0WlpnMDZFQU9YcHFXaHlTZ3doNTQyVkw2XzRfTzBMUTl3NlQ0aTRUeHBvZWpJT0hfdGdLVzVzekNYbVRXaG5nZ0E?oc=5",
-"source": "World Surf League",
-"at": "2026-11-17T10:15+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Historic Pipe Masters Returns To North Shore For First Time In Five Years",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlpWXQwQ2s1QnN4ZExmSTl1ZHM1eXZGQ2JDVUlWY1pmQWZHX3BuZHhadDczV0Y5aUxUVFFWQTBBbjZlZTVNaDQwWm4wOGZpVV80V0JvS2Ewd2dDbHY4aTllek9tU0p2OHp5WUlqWVM4ekZjVVF6ZE01NzNnVURCUEJjQ3NIMVJtVlByVFVHRG4ydUV5RVRnTzZVMjFLeDVmVGl4R3Y4NA?oc=5",
-"source": "BeachGrit",
-"at": "2026-11-17T08:19+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 }
