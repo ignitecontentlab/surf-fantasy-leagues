@@ -1,18 +1,70 @@
 {
-"updated_at": "2026-11-20T19:40:46+00:00",
+"updated_at": "2026-11-20T21:27:50+00:00",
 "sources": {
-"Surfer": 40,
+"Surfer": 42,
 "ISA": 5,
-"Stab": 9,
+"Stab": 10,
 "Surfline": 11,
 "The Inertia": 44,
 "BeachGrit": 15,
 "Tracks": 0,
-"World Surf League": 38,
+"World Surf League": 44,
 "Surfertoday": 3,
 "In the news": 15
 },
 "items": [
+{
+"title": "Rare Sea Turtle Eggs Found in Ventura Show No Signs of Life",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOE1TQjJ4YldsTWNpdFQxU29wbnlOSHFCcjZxRW9lRUdXZzZSb2NQRDZuQ1NHVHRRYlVqUmdoRFVFcmZnTV85MV9jcFQ1d2hoX2xNY3g2dmRhZWxQVnlQV3JtMUt0S2d3MElaOU1Xc3V6SXctRW9Ca2ZSb1l4OVcyblotb3BLWUdBbTJFMThYTnIwdlNlQUh0b3Nvd1E3dERvWjg4?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T21:05+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "El Niño Essentials: Big Wave Guns, Step-Ups, and Paddle Power",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcy1td3NZMXNJZGJORHZfazk3NVJWS2pUNFRrX2tjeTBZMlB3bkhnSG1BZ3JLS054bVd3STk0VmVqQ2F3bm5HWU9FeHRhYmlEUnVwb1drUTBDdWtaUWFybHhkVVlWVXh5WGVpVEJrUEYxQlRtSnVHLUhKT3FPeDVjVmdtMmN5eExHT2U0LUNhdUhuOWFsWnc?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T20:22+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "John John Florence Confirms He Won’t Return To The CT In 2027",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVXdMbC0zNnRJV0RlS1FQbWdnZUtsTlktYzZ3aXVobW5ManI4cks1YXhYQmVEa0JocjN1VkU4Y2dtSlJZV3A3UXFnN1pFSGFXdjF2emRuT0NKZmhNT2VPdEd6aGM0VXRvRjJkeHZ6NXBvbExnZHotQ0EyUnJqN3hWSU9OT2hQZ0xtTmlycmk0eWZsRXVYRnc?oc=5",
+"source": "Stab",
+"at": "2026-11-20T20:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"john-john-florence"
+],
+"kind": "outlet"
+},
+{
+"title": "11-Foot Great White Stalks California Fisherman Before Drone Pilot’s Life-Saving Warning (Video)",
+"link": "https://www.surfer.com/news/great-white-shark-hunts-fishermen-california-video",
+"source": "Surfer",
+"at": "2026-11-20T19:53+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTQ5/shark-boat.png?profile=rss&x=58&y=45",
+"desc": "From nearly 2 miles away, drone filmmaker Carlos Gauna spots a juvenile great white closing in on a fisherman swimming beside his boat and decides to intervene.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Watch the Final Episode of the Twin Fin Invitational: The Pukas Factory Takeover",
+"link": "https://www.surfer.com/culture/twin-fin-invitational-episode-4-pukas-surf-factory",
+"source": "Surfer",
+"at": "2026-11-20T19:51+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTQy/marcos_pukas.jpg?profile=rss&x=49&y=15",
+"desc": "For the final episode of the Twin Fin Invitational, the crew gets creative at Europe's premiere surfboard factory.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Custom Ski Boots: What’s the Process? And Are They Worth It?",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjRSVHZNQjdrdGVGWUNSeTlGd0VFMGIyTHd0anV6aUdUMjV3b0Y0R3lsenhGaUpiQ0s4WnVkZ01sdUFjUnF3LUZienM3TTh1d2d4ajlJNE0wV2p3UDJpcVNMbVZPTEpPUFVjMDVDOVlScklaa1E4NDJRbjM4SXN6Skk2YTg0S3ZEZzhhTWlGRFhVUGs?oc=5",
@@ -54,6 +106,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Surfer Rides ‘Giant’ Easter Island Wave Beneath Ancient Stone Heads (Video)",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS1ItcXM1XzBFQXJaYWVNWUFEQUZDRVdCQXZzYmpHSzFLLVVsOEhXSEV2dm1VLTlxemxkellIbjZoam1KNnF2S1BFOFJwVFRZTS1USmwxZksweFFsTDk5elZiWVlCVEg1ZnhyZTQ2YTBIeURoWmpmNmlpbUJ2aUJLdlMtc2JIaTJ1?oc=5",
+"source": "Yahoo Sports",
+"at": "2026-11-20T17:12+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Family of Surfer Kurt Van Dyke Was Suspicious of Girlfriend After Shocking Murder",
@@ -106,20 +168,20 @@
 "kind": "outlet"
 },
 {
-"title": "Surfer Rides ‘Giant’ Easter Island Wave Beneath Ancient Stone Heads (Video)",
-"link": "https://www.surfer.com/news/easter-island-surf-moai-video",
-"source": "Surfer",
-"at": "2026-11-20T13:49+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDk1/rapa-nui-surf.png?profile=rss&x=50&y=32",
-"desc": "An unnamed surfer threads a solid Rapa Nui right while Easter Island’s moai stare from the headland in a surreal collision of modern surfing and ancient history.",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "The art of taking things away in surfboard design",
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPenBpTVZuTmVXQnZYQjNwWk9TNktIckNVTmt0V0pqWTFPUGV2aGdOZ1c3aUV6UnNsZTVaY2E3X2JSMk05NVdtVzJhQ2ZNY0FxNnJBODhUckdYekFaTmVsYWhaU29jZHJEa2NDSEJlck9rdWdhMDRYcnNQNVM4N0xCX2pBdEc?oc=5",
 "source": "Surfertoday",
 "at": "2026-11-20T11:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Field Narrowed on Day 7 of The 2026 Taiwan Open of Surfing",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRlRUeVhKRDBCN3NZaE9za3dmNzZ6Wm5OSjl5WjVLSUk4N3VacF9TVWVtOU42ZVBoMTY3UHJ1NGNETG1mTVo2R2RjT2pDX1BSUUYtaUJmQlJuLXRIQWdDbWVXTGZGZTlyU3F3a1ZjamFRMzlqZTBXZ2VPZHV6ODFmN1R4STk5eUdHTnJYUUxwaUFBWm5yZEZvclpMODZRQXl5X0FaM0Jn?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T11:27+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -448,6 +510,16 @@
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWd6S3E1NlRMalZoRFR2UUFaYnpoNzVINkJJNl9iT3RsUXdsLS1LZjg4QnFnVkd0WVViUC1MaHRQcG42WEtfSDNFMUhmT2UyMXZlcTFnM1JwU2FSVUdiNWxMS29PbERVREZMcDdMVnB1U0llM2RlVFZRVEFBaUtUZnozRk1DQm1na3RUX3NJR3N3eWl6YWpYNUdtQzhTQ3p1QjNrYVY3dU13dTNDTkZHa0R3WDNNemkwRmN3Rg?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-19T16:27+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Results - Pacifico Surf Open Cerritos 2026",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T15:20+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -858,6 +930,16 @@
 "kind": "media"
 },
 {
+"title": "Results for Kaiwa Foster at Haleiwa Pro LQS1,000 2026",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlp1X0RrNWFGTk5zQjJEdkhIMUR1OFJxOVlid0UxQ25HWlZkWEpILTlrMjY5bGtlX2RxUG9TWUc2ZWluNjZwdHRUR2lxSzg5TWZ2LXNhX2JmM3Zrdklza3Z1UXlpQUVfc09VVnRnZDctaE9TMFJBWkF4SWZmSWMySk0wTVpTZ1g4NjRVUTlR?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T13:47+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFlTTVl5VExQUHROZGNwOE5SREJ6amVzcENMck9wX2tpUDFmYWkyYWNEdUVTUlFnZWVWTVhaMlJFYllidThMcGd2eDdJNUJwcVpLVjZsdjRPQXBjR1VRVDFvcXJLVVduSnN5LTRmZk9KLUpJc1VhV1E0anlkbXZlY0VMNEVFVWI2VlRLcnFVRFhlaU1BbEdJaDBaUndHaTZDQzlQQUVSUG0yX0p1eWY0MWVYd21FcUI10gG-AUFVX3lxTFBmWk1ndVJEVlBEOE54ZFVXb1BvTXphQ1ZqTW0tRHRHRnZtcGtQNDhHZVlaNk84eVBxbjFOOHJuRkRUMTNNVnBwd3dLaHVyMld5azlKNEV0Q1p6UkQzNTRhNlBzNV9ZMk1iNlQtTXAzTk9QcUFrLWpjemFKbUJLek9CNmczTTNhZVZnRERrU2J0SWgyTVJhN0RIZFVBLUlPakgtNHJvQ0JsMWFGY09MeEUzWExMN2FRc1M3dXRlS0E?oc=5",
 "source": "Fox News",
@@ -1008,16 +1090,6 @@
 "kind": "outlet"
 },
 {
-"title": "“There’s a Really Big Wave Coming!”: Viral Video Shows Sneaker Wave Swallow a NorCal Parking Lot",
-"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQldHNlJhNUFxOWVCdXZ1RWlVU1Q5UkxCOWdZS3BvNnVJRmtVMnU3RVowZW1Tb0UyUE5hZ2hSUGRVTk9Kc1NQOVgzVHlFalBIZndCOVFaaUt2ZWwyNUJTNGRSMzBUcGlISnhhTk53dTJBdzVSaGNLN25OWnE4d0JINTM1VkpvSXhmQi1YWlUyZEpzT19JV0tsT253dG0yN19vcUpoUFo1TFB3U3RUbXdzbUFuZENfS2ZPUnExR013?oc=5",
-"source": "Active NorCal",
-"at": "2026-11-17T20:24+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Cause of Death Confirmed for Fin Whale Found on Cruise Ship Bow",
 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlFUVGxnV0w5Ym5DT2pSWUhzSGFnTk1zckdrY2N5a1FZbkxIUlh2ckxoYnZjSnFwZmhONVJfM09ZTXJ4emxBWGMyU3pGUlVnREw3NkpUaV9XOXY5QjRENV9sV1NUWXBJZzZoUURGMm5NTEtUZ2hYc1VpSFBEazRFcldKZ0Zic0xJd0ptYVB3ZHRsTzRlSnVyWU9vTE12eWZKMHhhM3Vn?oc=5",
 "source": "The Inertia",
@@ -1152,78 +1224,6 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlpWXQwQ2s1QnN4ZExmSTl1ZHM1eXZGQ2JDVUlWY1pmQWZHX3BuZHhadDczV0Y5aUxUVFFWQTBBbjZlZTVNaDQwWm4wOGZpVV80V0JvS2Ewd2dDbHY4aTllek9tU0p2OHp5WUlqWVM4ekZjVVF6ZE01NzNnVURCUEJjQ3NIMVJtVlByVFVHRG4ydUV5RVRnTzZVMjFLeDVmVGl4R3Y4NA?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-17T08:19+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Mike's Florida Forecast Notes: When Will Conditions Improve?",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQUNNa1VBOHhlV0xpVTdUdXNKRUh1aUp5b2xNN29kYWROeGhBWWczUXRNT2VKdVp0R0hobzNIdUFDRjl2a3NpZWJjdy1OcHRxVHpydWdKaEljSWtmNzhPbm5FNkJ6YjBVT0llVlVYSGJzV1JsVDB2cWxLUkp0OTZUeHhyY0lwZVIzb1dfY25yNFl0SF9Za0NrajRVdjBnNG9hdlRha2tEc3prUTc1NW55T0sySTlPQQ?oc=5",
-"source": "Surfline",
-"at": "2026-11-17T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Mutant El Niño Wave Explodes Onto Pebble Beach’s Iconic 7th Hole During Massive California Swell (Video)",
-"link": "https://www.surfer.com/news/pebble-beach-big-wave-7th-hole-video",
-"source": "Surfer",
-"at": "2026-11-17T04:06+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzQw/pebble-beach-wave.png?profile=rss",
-"desc": "A colossal El Niño swell turns Pebble Beach’s postcard par-3 into a shoreline wipeout zone as a freak wave hammers the 7th hole and surrounding coast.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Koa Rothman Entered the Fray at XXL Maverick’s",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE45empqalluWjMtUlFtUDRwbE9Rb1h6MEN4d1ZuZ1dGUVZGeUdIZHhQMk4zTTRjcGlEazZoM2hpdWM5UnRyZm1DeEZMXzZZdGRrbW45ODd2ZWhFNnNQejNtX05DLUhBQ05SZ0tfeklCbUhPUl8yOE5mYjB0WQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-17T02:21+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"koa-rothman"
-],
-"kind": "outlet"
-},
-{
-"title": "Twin Waterspouts Erupt Over San Francisco Bay As ‘Super’ El Niño Storms Pummel California (Video)",
-"link": "https://www.surfer.com/news/twin-waterspouts-san-francisco-bay-video",
-"source": "Surfer",
-"at": "2026-11-16T23:51+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzI4/waterspouts-bay-area.png?profile=rss&x=47&y=47",
-"desc": "Two rare waterspouts spun up over San Francisco Bay as storms triggered marine alerts, flight delays, and massive surf along the California coast.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Gliding Barnacles 2026: Inside Portugal's Most Magical Surf, Art, and Music Festival",
-"link": "https://www.surfer.com/culture/gliding-barnacles-portugal-surf-festival-2026",
-"source": "Surfer",
-"at": "2026-11-16T22:20+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzEy/smn_ftz-140.jpg?profile=rss",
-"desc": "If it is a conspiracy, it’s a benevolent one of surfers and creatives defying the norms and showcasing love, art, and classic style.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Skier Reports Avalanche, Self-Rescue In Tahoe Backcountry",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdGZCWnlWY2FiMENfcnZ4eTRDdlRpZ2U0UEpRR0wyZmdoRndyNFIyRkl5S21sb3FHc2FCZGR0M1lXenFkekxfWHBIUzgwMUNoWGFlTjhmR2hVN2V6TXhjdEdocU1jaU5NOEZkdl9uS3QxeENGcFhBZFp2UWZ4dW9QUE00YVNhM0JJMDg0WTVUMHZTS2NoZG9OWQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T22:06+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Heroic Surfer Rescues Three Swimmers in Orange County",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTU1ZVpZVjZ1NDRVeUFwMlN6SmhaZjhlLWFkSldGY0FiQ1JibUNOQ255RXMzSy1FY21qTDZrcHpTazY3OU1Fd3poSjE2MTdVbHZDdUlCVGJoNFc5bG1YbllTV2ItV0t3OXpuTnBqR2NpbUdvWWhBS1BBYVkwZkllNkF0cUVmOGdWVDlrY24tRQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T21:59+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
