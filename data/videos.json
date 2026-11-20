@@ -1,7 +1,7 @@
 {
-"updated_at": "2026-11-20T09:56:37+00:00",
+"updated_at": "2026-11-20T11:34:05+00:00",
 "channels": {
-"World Surf League": 14,
+"World Surf League": 15,
 "ISA": 0,
 "Red Bull Surfing": 9,
 "Stab": 0,
@@ -26,7 +26,7 @@
 "Camilla Kemp": 0,
 "Caroline Marks": 0,
 "Cliff Kapono": 0,
-"Johanne Defay": 0,
+"Johanne Defay": 1,
 "John John Florence": 0,
 "Kauli Vaast": 0,
 "Lakey Peterson": 0,
@@ -41,117 +41,117 @@
 "title": "First XXL Maverick’s swell hit and it didn’t disappoint. Jack Snyder shot by Jack Sandler 😮‍💨",
 "channel": "Surfline",
 "at": "2026-11-18T18:58+00:00",
-"views": 214749,
-"per_day": 132252,
+"views": 217573,
+"per_day": 128629,
 "short": true,
 "link": "https://www.youtube.com/shorts/_I0OwrrWT0o",
 "surfers": [],
-"score": 145698
+"score": 142870
 },
 {
 "id": "rTR0dDYAHyk",
 "title": "No quit in this grom 🤣. Atlantic Surf Park magic the other night (not AI).",
 "channel": "Surfline",
 "at": "2026-11-05T17:13+00:00",
-"views": 625109,
-"per_day": 42534,
+"views": 625238,
+"per_day": 42348,
 "short": true,
 "link": "https://www.youtube.com/shorts/rTR0dDYAHyk",
 "surfers": [],
-"score": 72807
+"score": 72555
 },
 {
 "id": "FSJznDfXEfY",
 "title": "This is what happens when you wipeout in a big wave",
 "channel": "Red Bull Surfing",
 "at": "2026-11-12T20:56+00:00",
-"views": 176602,
-"per_day": 23417,
+"views": 178388,
+"per_day": 23444,
 "short": true,
 "link": "https://www.youtube.com/shorts/FSJznDfXEfY",
 "surfers": [],
-"score": 35075
-},
-{
-"id": "oCelSQ2iteU",
-"title": "Anyone else watching this on repeat?⁠",
-"channel": "Rip Curl",
-"at": "2026-11-15T21:47+00:00",
-"views": 52977,
-"per_day": 11756,
-"short": true,
-"link": "https://www.youtube.com/shorts/oCelSQ2iteU",
-"surfers": [
-"stephanie-gilmore"
-],
-"score": 15886
+"score": 35178
 },
 {
 "id": "GfH-fU2DV_U",
 "title": "Backdoor + @bettylou.sakura.johnson = perfect match!",
 "channel": "World Surf League",
 "at": "2026-11-19T16:00+00:00",
-"views": 12181,
-"per_day": 16296,
+"views": 13533,
+"per_day": 16602,
 "short": true,
 "link": "https://www.youtube.com/shorts/GfH-fU2DV_U",
 "surfers": [
 "bettylou-sakura-johnson"
 ],
-"score": 15372
+"score": 15934
+},
+{
+"id": "oCelSQ2iteU",
+"title": "Anyone else watching this on repeat?⁠",
+"channel": "Rip Curl",
+"at": "2026-11-15T21:47+00:00",
+"views": 53505,
+"per_day": 11698,
+"short": true,
+"link": "https://www.youtube.com/shorts/oCelSQ2iteU",
+"surfers": [
+"stephanie-gilmore"
+],
+"score": 15854
 },
 {
 "id": "I-RcXxv6nvc",
 "title": "@sethmoniz keeping his family legacy alive at the proving grounds of Pipeline 🙌 and he's back in 26'",
 "channel": "World Surf League",
 "at": "2026-11-19T01:00+00:00",
-"views": 12794,
-"per_day": 9323,
+"views": 13365,
+"per_day": 9281,
 "short": true,
 "link": "https://www.youtube.com/shorts/I-RcXxv6nvc",
 "surfers": [
 "seth-moniz",
 "kelly-slater"
 ],
-"score": 9930
-},
-{
-"id": "4B5452-wV4k",
-"title": "Pipeline pode ser palco de mais um capítulo histórico para Medina! 👀 🏆 @lexususa #PipeMasters",
-"channel": "World Surf League",
-"at": "2026-11-19T03:00+00:00",
-"views": 11640,
-"per_day": 9033,
-"short": true,
-"link": "https://www.youtube.com/shorts/4B5452-wV4k",
-"surfers": [],
-"score": 9499
+"score": 9982
 },
 {
 "id": "1Z477_hgjjo",
 "title": "There's no place quite like home for @barronmamiya 🥷 @lexususa #PipeMasters | Dec 8 - 20",
 "channel": "World Surf League",
 "at": "2026-11-19T14:00+00:00",
-"views": 8070,
-"per_day": 9714,
+"views": 8676,
+"per_day": 9657,
 "short": true,
 "link": "https://www.youtube.com/shorts/1Z477_hgjjo",
 "surfers": [
 "barron-mamiya"
 ],
-"score": 9358
+"score": 9450
+},
+{
+"id": "4B5452-wV4k",
+"title": "Pipeline pode ser palco de mais um capítulo histórico para Medina! 👀 🏆 @lexususa #PipeMasters",
+"channel": "World Surf League",
+"at": "2026-11-19T03:00+00:00",
+"views": 11822,
+"per_day": 8716,
+"short": true,
+"link": "https://www.youtube.com/shorts/4B5452-wV4k",
+"surfers": [],
+"score": 9260
 },
 {
 "id": "sD4nDLi_Xvg",
 "title": "Just Chumbo doing Chumbo things… ⚠️The @tudorwatch Nazaré #BigWaveChallenge awaits!",
 "channel": "World Surf League",
 "at": "2026-11-18T23:00+00:00",
-"views": 8899,
-"per_day": 6112,
+"views": 9041,
+"per_day": 5934,
 "short": true,
 "link": "https://www.youtube.com/shorts/sD4nDLi_Xvg",
 "surfers": [],
-"score": 6589
+"score": 6455
 },
 {
 "id": "v1Km3lfYOAM",
@@ -159,147 +159,147 @@
 "channel": "Jack Robinson",
 "at": "2026-10-31T11:32+00:00",
 "views": 69994,
-"per_day": 3511,
+"per_day": 3500,
 "short": true,
 "link": "https://www.youtube.com/shorts/v1Km3lfYOAM",
 "surfers": [],
-"score": 6388
+"score": 6371
 },
 {
 "id": "kkPXKbMnTJo",
 "title": "A 2x World Champ will always find her way 🙌 @tylerwright",
 "channel": "World Surf League",
 "at": "2026-11-18T20:00+00:00",
-"views": 9164,
-"per_day": 5798,
+"views": 9232,
+"per_day": 5601,
 "short": true,
 "link": "https://www.youtube.com/shorts/kkPXKbMnTJo",
 "surfers": [
 "tyler-wright"
 ],
-"score": 6352
+"score": 6189
 },
 {
 "id": "T8MSSsQuHSA",
 "title": "Looking forward to pipeline this year , let’s goo !",
 "channel": "Jack Robinson",
 "at": "2026-11-14T08:44+00:00",
-"views": 26300,
-"per_day": 4347,
+"views": 26340,
+"per_day": 4305,
 "short": true,
 "link": "https://www.youtube.com/shorts/T8MSSsQuHSA",
 "surfers": [],
-"score": 6231
+"score": 6185
 },
 {
 "id": "G1qplJLdOJM",
 "title": "We'd be stoked with that.⁠",
 "channel": "Rip Curl",
 "at": "2026-11-17T08:20+00:00",
-"views": 14010,
-"per_day": 4568,
+"views": 14233,
+"per_day": 4541,
 "short": true,
 "link": "https://www.youtube.com/shorts/G1qplJLdOJM",
 "surfers": [],
-"score": 5716
+"score": 5706
 },
 {
 "id": "ddrGhKichkM",
 "title": "First proper swell of the winter at home",
 "channel": "Rip Curl",
 "at": "2026-11-11T22:45+00:00",
-"views": 26712,
-"per_day": 3155,
+"views": 26734,
+"per_day": 3133,
 "short": true,
 "link": "https://www.youtube.com/shorts/ddrGhKichkM",
 "surfers": [],
-"score": 4837
+"score": 4810
 },
 {
 "id": "-W2cKmJOywE",
 "title": "@pedroscooby hitting full speed at Nazaré 🇵🇹 The @tudorwatch Nazaré #BigWaveChallenge is on watch",
 "channel": "World Surf League",
 "at": "2026-11-19T08:00+00:00",
-"views": 4498,
-"per_day": 4161,
+"views": 4653,
+"per_day": 4051,
 "short": true,
 "link": "https://www.youtube.com/shorts/-W2cKmJOywE",
 "surfers": [],
-"score": 4226
+"score": 4165
 },
 {
 "id": "z2Wl7wjA6RM",
 "title": "The team's thoughts after a few sessions in the @wsl new spot",
 "channel": "Red Bull Surfing",
 "at": "2026-10-28T15:24+00:00",
-"views": 50634,
-"per_day": 2223,
+"views": 50661,
+"per_day": 2218,
 "short": true,
 "link": "https://www.youtube.com/shorts/z2Wl7wjA6RM",
 "surfers": [],
-"score": 4154
+"score": 4147
 },
 {
 "id": "PJJWigsjYKI",
 "title": "How many waves is too many?",
 "channel": "Rip Curl",
 "at": "2026-10-31T02:02+00:00",
-"views": 45998,
-"per_day": 2263,
+"views": 46015,
+"per_day": 2256,
 "short": true,
 "link": "https://www.youtube.com/shorts/PJJWigsjYKI",
 "surfers": [
 "stephanie-gilmore"
 ],
-"score": 4133
+"score": 4123
 },
 {
 "id": "HDMxcbf5RfU",
 "title": "Surf the highline for speed",
 "channel": "Surf Simply",
 "at": "2026-11-19T13:28+00:00",
-"views": 3455,
-"per_day": 4051,
+"views": 3573,
+"per_day": 3882,
 "short": true,
 "link": "https://www.youtube.com/shorts/HDMxcbf5RfU",
 "surfers": [],
-"score": 3923
+"score": 3816
 },
 {
 "id": "w6Cl7TydmAA",
 "title": "19 November 2026",
 "channel": "Red Bull Surfing",
 "at": "2026-11-19T09:58+00:00",
-"views": 3452,
-"per_day": 3457,
+"views": 3588,
+"per_day": 3365,
 "short": true,
 "link": "https://www.youtube.com/shorts/w6Cl7TydmAA",
 "surfers": [],
-"score": 3455
-},
-{
-"id": "F2vbPIK1kTo",
-"title": "Ever wonder why waves sometimes end up in the parking lot?",
-"channel": "Surfline",
-"at": "2026-11-19T15:51+00:00",
-"views": 2112,
-"per_day": 2803,
-"short": true,
-"link": "https://www.youtube.com/shorts/F2vbPIK1kTo",
-"surfers": [],
-"score": 2648
+"score": 3407
 },
 {
 "id": "XuhJkH-7FNs",
 "title": "Skipper backs Barron at Pipe 🥷 Coté sits down with Skip McCullough",
 "channel": "World Surf League",
 "at": "2026-11-18T02:01+00:00",
-"views": 5092,
-"per_day": 2185,
+"views": 5224,
+"per_day": 2179,
 "short": true,
 "link": "https://www.youtube.com/shorts/XuhJkH-7FNs",
 "surfers": [],
-"score": 2588
+"score": 2595
+},
+{
+"id": "F2vbPIK1kTo",
+"title": "Ever wonder why waves sometimes end up in the parking lot?",
+"channel": "Surfline",
+"at": "2026-11-19T15:51+00:00",
+"views": 2164,
+"per_day": 2635,
+"short": true,
+"link": "https://www.youtube.com/shorts/F2vbPIK1kTo",
+"surfers": [],
+"score": 2532
 },
 {
 "id": "nmBWH28XAqc",
@@ -307,13 +307,13 @@
 "channel": "Red Bull Surfing",
 "at": "2026-10-27T16:09+00:00",
 "views": 26101,
-"per_day": 1099,
+"per_day": 1096,
 "short": true,
 "link": "https://www.youtube.com/shorts/nmBWH28XAqc",
 "surfers": [
 "joao-chianca"
 ],
-"score": 2071
+"score": 2067
 },
 {
 "id": "aBScQN44RQs",
@@ -321,39 +321,39 @@
 "channel": "Red Bull Surfing",
 "at": "2026-10-21T14:58+00:00",
 "views": 31029,
-"per_day": 1042,
+"per_day": 1039,
 "short": true,
 "link": "https://www.youtube.com/shorts/aBScQN44RQs",
 "surfers": [
 "leonardo-fioravanti"
 ],
-"score": 2054
+"score": 2050
 },
 {
 "id": "uUVd2zaTeeE",
 "title": "Not many know Pipeline quite like @barronmamiya. 🏆 @lexususa #PipeMasters | Dec 8 - 20",
 "channel": "World Surf League",
 "at": "2026-11-18T14:30+00:00",
-"views": 3127,
-"per_day": 1728,
+"views": 3160,
+"per_day": 1683,
 "short": true,
 "link": "https://www.youtube.com/shorts/uUVd2zaTeeE",
 "surfers": [
 "barron-mamiya"
 ],
-"score": 1945
+"score": 1909
 },
 {
 "id": "fwz1Hw7URQk",
 "title": "This is for EVERYTHING.",
 "channel": "World Surf League",
 "at": "2026-11-19T19:51+00:00",
-"views": 840,
-"per_day": 1432,
+"views": 888,
+"per_day": 1357,
 "short": true,
 "link": "https://www.youtube.com/shorts/fwz1Hw7URQk",
 "surfers": [],
-"score": 1286
+"score": 1246
 },
 {
 "id": "iCLpFC6wiDI",
@@ -361,103 +361,103 @@
 "channel": "Red Bull Surfing",
 "at": "2026-10-24T12:45+00:00",
 "views": 15450,
-"per_day": 575,
+"per_day": 573,
 "short": true,
 "link": "https://www.youtube.com/shorts/iCLpFC6wiDI",
 "surfers": [
 "griffin-colapinto"
 ],
-"score": 1110
+"score": 1108
 },
 {
 "id": "etSWOiRJAyM",
 "title": "From mobility to endurance and breath control, surfing puts your body to the test in every way",
 "channel": "Red Bull Surfing",
 "at": "2026-11-09T15:25+00:00",
-"views": 7260,
-"per_day": 674,
+"views": 7275,
+"per_day": 671,
 "short": true,
 "link": "https://www.youtube.com/shorts/etSWOiRJAyM",
 "surfers": [],
-"score": 1084
+"score": 1081
 },
 {
 "id": "_hUSO4AmzTA",
 "title": "Learn to backflip in 5 steps",
 "channel": "Red Bull Surfing",
 "at": "2026-11-06T22:01+00:00",
-"views": 7677,
-"per_day": 569,
+"views": 7700,
+"per_day": 568,
 "short": true,
 "link": "https://www.youtube.com/shorts/_hUSO4AmzTA",
 "surfers": [],
-"score": 957
+"score": 956
 },
 {
 "id": "ssS1ETzAxdk",
 "title": "Carissa Moore vs Sierra Kerr in the first round of the upcoming WSL Philippines Pro at Cloud 9 🤯",
 "channel": "Surfline",
 "at": "2026-10-27T21:44+00:00",
-"views": 10318,
-"per_day": 439,
+"views": 10327,
+"per_day": 438,
 "short": true,
 "link": "https://www.youtube.com/shorts/ssS1ETzAxdk",
 "surfers": [
 "carissa-moore",
 "sierra-kerr"
 ],
-"score": 825
+"score": 824
 },
 {
 "id": "za1eDLu0tyA",
 "title": "Photobomb of the year?! We had to verify the validity of this clip from our cam 😆",
 "channel": "Surfline",
 "at": "2026-10-21T17:03+00:00",
-"views": 11748,
-"per_day": 396,
+"views": 11757,
+"per_day": 395,
 "short": true,
 "link": "https://www.youtube.com/shorts/za1eDLu0tyA",
 "surfers": [],
-"score": 779
+"score": 778
 },
 {
 "id": "_r23U9BsWrw",
 "title": "Pre Final heat in cloud 9",
 "channel": "Jack Robinson",
 "at": "2026-11-13T21:54+00:00",
-"views": 3293,
-"per_day": 507,
+"views": 3304,
+"per_day": 503,
 "short": true,
 "link": "https://www.youtube.com/shorts/_r23U9BsWrw",
 "surfers": [],
-"score": 736
+"score": 733
 },
 {
 "id": "MBs1m_OJAoY",
 "title": "The waiting game is on.⁠",
 "channel": "Rip Curl",
 "at": "2026-11-18T09:30+00:00",
-"views": 1208,
-"per_day": 599,
+"views": 1221,
+"per_day": 585,
 "short": true,
 "link": "https://www.youtube.com/shorts/MBs1m_OJAoY",
 "surfers": [],
-"score": 689
+"score": 678
 },
 {
 "id": "rAAu-KveKU0",
 "title": "Lot of talent mentioned by Justine Dupont and Lucas Chumbo",
 "channel": "Red Bull Surfing",
 "at": "2026-11-04T15:45+00:00",
-"views": 6138,
-"per_day": 390,
+"views": 6143,
+"per_day": 388,
 "short": true,
 "link": "https://www.youtube.com/shorts/rAAu-KveKU0",
 "surfers": [
 "justine-dupont",
 "lucas-chumbo"
 ],
-"score": 676
+"score": 674
 },
 {
 "id": "NvrtiwIaq9k",
@@ -465,11 +465,11 @@
 "channel": "Surfline",
 "at": "2026-11-12T15:37+00:00",
 "views": 3468,
-"per_day": 447,
+"per_day": 443,
 "short": true,
 "link": "https://www.youtube.com/shorts/NvrtiwIaq9k",
 "surfers": [],
-"score": 673
+"score": 668
 },
 {
 "id": "JB-iYw7np6A",
@@ -477,23 +477,23 @@
 "channel": "Jack Robinson",
 "at": "2026-11-16T00:24+00:00",
 "views": 2028,
-"per_day": 461,
+"per_day": 454,
 "short": true,
 "link": "https://www.youtube.com/shorts/JB-iYw7np6A",
 "surfers": [],
-"score": 620
+"score": 613
 },
 {
 "id": "lPsKZf1rEWg",
 "title": "In 2022, @moana.17 made history at Pipeline 🏆 @lexususa #PipeMasters | Dec 8 - 20",
 "channel": "World Surf League",
 "at": "2026-11-18T18:00+00:00",
-"views": 871,
-"per_day": 523,
+"views": 894,
+"per_day": 516,
 "short": true,
 "link": "https://www.youtube.com/shorts/lPsKZf1rEWg",
 "surfers": [],
-"score": 579
+"score": 576
 },
 {
 "id": "Gt7rLTX9V6c",
@@ -501,13 +501,13 @@
 "channel": "Quiksilver",
 "at": "2026-10-29T09:00+00:00",
 "views": 6289,
-"per_day": 285,
+"per_day": 284,
 "short": true,
 "link": "https://www.youtube.com/shorts/Gt7rLTX9V6c",
 "surfers": [
 "marco-mignot"
 ],
-"score": 530
+"score": 528
 },
 {
 "id": "LKKizHq0lTU",
@@ -515,42 +515,54 @@
 "channel": "Jack Robinson",
 "at": "2026-11-04T12:21+00:00",
 "views": 4076,
-"per_day": 256,
+"per_day": 255,
 "short": true,
 "link": "https://www.youtube.com/shorts/LKKizHq0lTU",
 "surfers": [],
-"score": 446
+"score": 444
 },
 {
 "id": "_Es82WUs8QY",
 "title": "Everything you need to know about the Jet Stream and El Niño’s role in it for this winter 🌀🌊",
 "channel": "Surfline",
 "at": "2026-11-08T19:49+00:00",
-"views": 2930,
-"per_day": 253,
+"views": 2938,
+"per_day": 252,
 "short": true,
 "link": "https://www.youtube.com/shorts/_Es82WUs8QY",
 "surfers": [],
-"score": 413
+"score": 412
+},
+{
+"id": "EidDLEDj9Ck",
+"title": "In case you missed it...⁠",
+"channel": "Rip Curl",
+"at": "2026-11-20T09:25+00:00",
+"views": 76,
+"per_day": 608,
+"short": true,
+"link": "https://www.youtube.com/shorts/EidDLEDj9Ck",
+"surfers": [],
+"score": 347
 },
 {
 "id": "e3m1UzqkTMI",
 "title": "Struggling to navigate oncoming sections?",
 "channel": "Surf Simply",
 "at": "2026-10-21T18:01+00:00",
-"views": 2497,
-"per_day": 84,
+"views": 2524,
+"per_day": 85,
 "short": true,
 "link": "https://www.youtube.com/shorts/e3m1UzqkTMI",
 "surfers": [],
-"score": 166
+"score": 167
 },
 {
 "id": "eRP5qVE8BiY",
 "title": "Struggling to get past the waves?",
 "channel": "Surf Simply",
 "at": "2026-11-06T18:52+00:00",
-"views": 840,
+"views": 847,
 "per_day": 62,
 "short": true,
 "link": "https://www.youtube.com/shorts/eRP5qVE8BiY",
@@ -570,24 +582,12 @@
 "score": 57
 },
 {
-"id": "EidDLEDj9Ck",
-"title": "In case you missed it...⁠",
-"channel": "Rip Curl",
-"at": "2026-11-20T09:25+00:00",
-"views": 11,
-"per_day": 88,
-"short": true,
-"link": "https://www.youtube.com/shorts/EidDLEDj9Ck",
-"surfers": [],
-"score": 50
-},
-{
 "id": "VwurRtmxkyI",
 "title": "MASSIVE congratulations to team rider Griffin for winning the Rip Curl Pro Portugal!",
 "channel": "Quiksilver",
 "at": "2026-10-26T12:50+00:00",
 "views": 560,
-"per_day": 23,
+"per_day": 22,
 "short": true,
 "link": "https://www.youtube.com/shorts/VwurRtmxkyI",
 "surfers": [],
@@ -596,16 +596,28 @@
 ],
 "videos": [
 {
+"id": "x5IE6BMg3p4",
+"title": "Day 7 of the Taiwan Open of Surfing 2026",
+"channel": "World Surf League",
+"at": "2026-11-20T08:53+00:00",
+"views": 47213,
+"per_day": 377704,
+"short": false,
+"link": "https://www.youtube.com/watch?v=x5IE6BMg3p4",
+"surfers": [],
+"score": 215372
+},
+{
 "id": "Rm2N24cuEKU",
 "title": "Day 6 of the Taiwan Open of Surfing 2026",
 "channel": "World Surf League",
 "at": "2026-11-19T07:38+00:00",
-"views": 58893,
-"per_day": 53740,
+"views": 59115,
+"per_day": 50804,
 "short": false,
 "link": "https://www.youtube.com/watch?v=Rm2N24cuEKU",
 "surfers": [],
-"score": 54718
+"score": 52354
 },
 {
 "id": "uKNml334qKE",
@@ -613,59 +625,59 @@
 "channel": "World Surf League",
 "at": "2026-11-18T06:49+00:00",
 "views": 51385,
-"per_day": 24124,
+"per_day": 23381,
 "short": false,
 "link": "https://www.youtube.com/watch?v=uKNml334qKE",
 "surfers": [],
-"score": 28060
+"score": 27366
 },
 {
 "id": "Ci4EDzp3nM0",
 "title": "SURFING IN HOSSEGOR, FRANCE! ",
 "channel": "Nathan Florence",
 "at": "2026-10-24T21:22+00:00",
-"views": 270609,
-"per_day": 10203,
+"views": 270656,
+"per_day": 10178,
 "short": false,
 "link": "https://www.youtube.com/watch?v=Ci4EDzp3nM0",
 "surfers": [
 "nathan-florence"
 ],
-"score": 19653
+"score": 19616
 },
 {
 "id": "Pbhvs17DChE",
 "title": "THE STORM CLEARED AND THE WAVES ARRIVED! ",
 "channel": "Nathan Florence",
 "at": "2026-11-01T18:05+00:00",
-"views": 200756,
-"per_day": 10758,
+"views": 200922,
+"per_day": 10728,
 "short": false,
 "link": "https://www.youtube.com/watch?v=Pbhvs17DChE",
 "surfers": [
 "nathan-florence"
 ],
-"score": 19316
+"score": 19276
 },
 {
 "id": "75RsG0rioyQ",
 "title": "This is for EVERYTHING",
 "channel": "World Surf League",
 "at": "2026-11-19T19:07+00:00",
-"views": 3907,
-"per_day": 6330,
+"views": 4130,
+"per_day": 6030,
 "short": false,
 "link": "https://www.youtube.com/watch?v=75RsG0rioyQ",
 "surfers": [],
-"score": 5743
+"score": 5587
 },
 {
 "id": "ohJzp7fCqW4",
 "title": "SHORTYHEAD",
 "channel": "Mikey February",
 "at": "2026-11-10T16:00+00:00",
-"views": 30476,
-"per_day": 3127,
+"views": 30648,
+"per_day": 3122,
 "short": false,
 "link": "https://www.youtube.com/watch?v=ohJzp7fCqW4",
 "surfers": [],
@@ -677,23 +689,23 @@
 "channel": "Rip Curl",
 "at": "2026-11-11T23:24+00:00",
 "views": 13586,
-"per_day": 1610,
+"per_day": 1597,
 "short": false,
 "link": "https://www.youtube.com/watch?v=h17dE4Sr6nA",
 "surfers": [],
-"score": 2466
+"score": 2451
 },
 {
 "id": "0SNMGg7ZRpI",
 "title": "The World's Best Groms Take Over North Narrabeen | GromSearch 2026",
 "channel": "Rip Curl",
 "at": "2026-11-09T05:23+00:00",
-"views": 3141,
-"per_day": 281,
+"views": 3142,
+"per_day": 279,
 "short": false,
 "link": "https://www.youtube.com/watch?v=0SNMGg7ZRpI",
 "surfers": [],
-"score": 455
+"score": 453
 },
 {
 "id": "rPQ4r02jSto",
@@ -701,7 +713,7 @@
 "channel": "Rip Curl",
 "at": "2026-11-02T02:02+00:00",
 "views": 2474,
-"per_day": 135,
+"per_day": 134,
 "short": false,
 "link": "https://www.youtube.com/watch?v=rPQ4r02jSto",
 "surfers": [],
@@ -713,18 +725,30 @@
 "channel": "Rip Curl",
 "at": "2026-11-10T22:46+00:00",
 "views": 1341,
-"per_day": 142,
+"per_day": 141,
 "short": false,
 "link": "https://www.youtube.com/watch?v=JwTWE6oKKbU",
 "surfers": [],
-"score": 222
+"score": 221
+},
+{
+"id": "ejuNhSAuw5Q",
+"title": "THE UPS AND DOWNS OF PRO SURFING | With Jojo Ep.9",
+"channel": "Johanne Defay",
+"at": "2026-11-20T10:56+00:00",
+"views": 30,
+"per_day": 240,
+"short": false,
+"link": "https://www.youtube.com/watch?v=ejuNhSAuw5Q",
+"surfers": [],
+"score": 137
 },
 {
 "id": "Ph75-VKlepc",
 "title": "How To: Put On A Zip Free Wetsuit",
 "channel": "Rip Curl",
 "at": "2026-11-02T01:59+00:00",
-"views": 681,
+"views": 683,
 "per_day": 37,
 "short": false,
 "link": "https://www.youtube.com/watch?v=Ph75-VKlepc",
@@ -745,7 +769,7 @@
 "surfers": [
 "dane-henry"
 ],
-"score": 51
+"score": 50
 },
 {
 "id": "UnM8kzsl-X8",
@@ -766,7 +790,7 @@
 "title": "How To: Put On A Chest Zip Wetsuit",
 "channel": "Rip Curl",
 "at": "2026-11-02T01:56+00:00",
-"views": 387,
+"views": 388,
 "per_day": 21,
 "short": false,
 "link": "https://www.youtube.com/watch?v=iq2lqSUgUOU",
