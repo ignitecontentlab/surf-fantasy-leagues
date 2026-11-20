@@ -1,18 +1,48 @@
 {
-"updated_at": "2026-11-19T23:24:14+00:00",
+"updated_at": "2026-11-20T01:52:45+00:00",
 "sources": {
-"Surfer": 39,
+"Surfer": 40,
 "ISA": 5,
-"Stab": 16,
-"Surfline": 7,
-"The Inertia": 47,
-"BeachGrit": 16,
+"Stab": 14,
+"Surfline": 5,
+"The Inertia": 46,
+"BeachGrit": 15,
 "Tracks": 0,
-"World Surf League": 49,
+"World Surf League": 51,
 "Surfertoday": 4,
-"In the news": 20
+"In the news": 21
 },
 "items": [
+{
+"title": "Shaun Manners Behooves You To Fix Your Own Dings",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUp4M2g2eGpIU0RzODhERFQtdGRnLUNpZFFBbGtqSUIyMlJlYU5UUGxhY3ZCd0JUckNvaFVVMWhXa2FOanRVdi1OZjJYdTFNMjNRMTB2WUo1V29kY3B0ZGxpNkRxb1dORW1XSG1XVEc5a0M5Q1hJUlFlRjFYM0F3VlpDQVRDLVk?oc=5",
+"source": "Stab",
+"at": "2026-11-20T01:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
+"source": "The New York Times",
+"at": "2026-11-20T01:27+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Pipeline World Titles On The Line: Every Medina, Dora, Moore and Picklum Scenario Explained",
+"link": "https://www.surfer.com/news/pipeline-2026-world-title-scenarios",
+"source": "Surfer",
+"at": "2026-11-20T01:09+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDM1/lexus-pipe-pro-presented-by-yeti.jpg?profile=rss&x=47&y=59",
+"desc": "Six men and seven women can still claim the 2026 World Titles at Pipeline. Here’s how every possible Lexus Pipe Masters scenario shakes out.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Iconic Molokai 2 Oahu Open-Ocean Race Shutting Down Over Lawsuit",
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTnpUMERSdXRmaDNyYnh5ZFpzbTI0eGdKX2RUZ0stR1J1Wlh3Q25uT3liRm1RVFRuUGZlNUdOTkVXQ2FEV0RlenlOeVNCazdBckZWbGdpZGZIeGMwYm96U0Fkb0ptc2hOOFNtQ2hKYVF2bFEzaXFEdklza19MZFU0VjFZenhGbUlzSjZZdTE2MDJqRVdZdXQ1dDdqRDFBZw?oc=5",
@@ -54,16 +84,6 @@
 "kind": "outlet"
 },
 {
-"title": "King Tides, Explained.",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkREd2xyUHZ3aW15VzBHeFhRVFVlMzBCRnNDOFJGUWRMV0RqcW5FMGp3YklZVXEzdzlwSGhLZTYyd2lwOWFROHRlSjQxeVVodWNfczNDZHFqUjdfUG5wRjRJRzZ1R29HRGtNLVcwRGJteUFLQU1kTHg3dlgtY25maEtvUk0?oc=5",
-"source": "Surfline",
-"at": "2026-11-19T21:34+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Finn Bilous Shows Us What Living an Endless Winter Looks Like",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3EtZnhfRkJEdHhBTWxEVGR5cXBiQU1XbWg4TWFzelBPTzkxTS1SbTc0eXFKTnNZV1ZRZVczNVNqRU5sQ3JINWRyd3g0bGE3TDlvSEE4QmNpVlZqUXUzdDRLSDdxUjM5aEVZczRaX1ZLcWFVZWxTdkw4VXM2RDIwNEM2aWd3VFdYQU9yZ0xSS1IyOFJvcEV2NF9LQ1BrbU0?oc=5",
 "source": "The Inertia",
@@ -84,6 +104,16 @@
 "kind": "outlet"
 },
 {
+"title": "Daily Coverage - Pacifico Surf Open Cerritos: Day 1",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGRTTF9IQmo4c1gxWVlocjRlOUgwZXZfTU1VYjhhWWlrNC11cXQ1QWl0Z2x5UTF1a0hjWFA0WmVZZ2hVdDY4Nk9kV3JoQ296SEQxc1pSbTFfXzRqZ2oyM3pzMlV2WHBjZ3lEUEQ3dGdtVWM5NlZuSkp4Wl9QdG40dEFSTDBzOUNMSzc0MVNQSXU?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T20:53+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "What It's Like Getting Caught Inside At 20-Foot Maverick's According To Kai Lenny (Video)",
 "link": "https://www.surfer.com/news/caught-inside-20-foot-mavericks-kai-lenny-video",
 "source": "Surfer",
@@ -93,6 +123,16 @@
 "surfers": [
 "kai-lenny"
 ],
+"kind": "outlet"
+},
+{
+"title": "Pipeline to Crown 2026 World Champions as Title Races Head to the Lexus Pipe Masters",
+"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2Z1b3JxQ3FnVDZGWUJRYzlGVWFhVnRuYXNCVUlqMmxPM3oyU0RNSlVMNmVJeHQ5VGpCU1pibFk2TXJNYzRmRjEtWTlZVFFBb2owOG9CazZLME5jc2xvM21pbzNuazdzMmNaRVQtUVpraS1jdlZyS0FvQ2NMTUN1bmZXLXZJS180WFRaczdBUlJ6WFMwa0o4V3VKcS11c1J5ekYxdFk0WmQtNHZsNS14S3FKdmEzYWtsS0UxSFhZRExpQkxsdGZ4dA?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T20:39+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
 "kind": "outlet"
 },
 {
@@ -180,6 +220,16 @@
 "kind": "outlet"
 },
 {
+"title": "Meghan Maguire",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfTWdPT1hJYl9sSVhOdmJKSjVhTkd0eUVUcDRhdjZGbzN6ZEFJcWtNbkxuWVJ0VGZvODR1cjNJQjByanc5MVNvM25EQTNKRC1EUlNKbkwzMmFaWnktT2c?oc=5",
+"source": "The Inertia",
+"at": "2026-11-19T19:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "From The Inkwell To A Wave-A-Thon",
 "link": "https://www.surfer.com/news/from-the-inkwell-to-a-wave-a-thon",
 "source": "Surfer",
@@ -196,6 +246,16 @@
 "at": "2026-11-19T18:56+00:00",
 "img": null,
 "desc": "The world’s best Para Surfers will gather at DSRT Surf in Palm Desert, California, for the 2026 ISA World Para Surfing Championship (WPSC), held November 19–22, 2026. The post 10 Things to Know About the 2026 ISA World P",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "North Pacific Deja Vu?",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQTJqMC1HMHlNSEYyQlI1QXFjSnM1ODRlOTU1VUVBakpud0VLSlZuYmJYZURTSE5aTHBESFZLV1BxRFV3ZWQ4R2JQNV9IekdoaEljVGcyVDJqMk5Fd0FjTFBvZllEQnVmNklyWF9STXY3Qk8zaFU2a2RqMjZxcVFFbVhzUWg4dUh0M29nRzBUeUlMZGdsenA4YzdB?oc=5",
+"source": "Surfline",
+"at": "2026-11-19T18:49+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -250,6 +310,16 @@
 "kind": "outlet"
 },
 {
+"title": "Is This About to Be the Best-Selling Surfboard of the Year?",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUUpCQzR2RE85VkNkc0o4bmhNRVgxWlBUMXcyLTlqeXdONW5BU1lYRVdkUEc3b3NUYXhVUXk5aVlMQVlJdWV4TTRJa1Q1UW0xLXdVTnd6d3l0X0J4QjgxYmlkY3ItdXRra0xzV2s2VEYxRF9VbU1qLVpMWGQ1RDZydmJPcTZ4UUtDYkN6dy1lbw?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-19T13:15+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "The wild East Coast shores that draw surfers all year long",
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnVadUtkRW5lTE4zbW14MzVzdEFWdUZ1VUhIVk5EUEFhMHRnZVdkeTIxRVR5cTRfdkN0Ry1QWi15dm1XaGRLRUREMnhoLTl3UVJSellUbFlHZTNyRnVKaDQ1YkZGREc3RUdQTi1RT1hwWGJqV1gwenBmNFhoRjdCalBJT0tyTGZKTDZ3Mzlucmh4bFFwamx4LXFrUUhleDF5SFpPeXp3djI?oc=5",
 "source": "The Globe and Mail",
@@ -288,6 +358,16 @@
 "desc": "An atmospheric river is overwhelming the city's combined sewer system and flooding streets, homes, and the ocean with contaminated water.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Olympic Dreams, League Titles & Big Waves Up North",
+"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSThRRHJSUFhYWkFRSEJ2VUpkX1JsYnpQMWJZVXB3dUFJY2JnRHlBRF9sQmdQWVlSc2toaDhKbXBRTEo5YlZPRmhaLXNHc1V4bElOQnR1cmNaNGdFRVVPMGFfeTN1aHJlN3kzYWE5d3pYeXlFVmU5amh6ZHFMMUdfU2tsblJGSXpSVnFma1JMdmZOdWtPN25obWVfZ3VrZ01fdk9KbUplUXkzRWtsTEFUaGNwMUJfT2VxU0NBOGp1b2pLRHRJZnlSbUlGamVRVnNBLThjSGFCSVgxVVhHZk53Yk5ObHAxeXQzRjdR?oc=5",
+"source": "picketfencemedia.com",
+"at": "2026-11-19T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Cornwall surf life-saving club donated new lifeboat",
@@ -584,16 +664,6 @@
 "kind": "outlet"
 },
 {
-"title": "UK & Ireland Update - Brief Window of Cleaner Conditions for Some",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdjNqajN1Wk1zcW1VZHVERG1oZ2hQYjc1SndiYjRnNlp3Z2tzeEM0azVwV0hzMnhIcFI0dlo0VktvY3o5ZFVkQm5mWWtzS1lsazNBeW9yQ3ZFUmJCQXloZ19za3laczFTMnA0dUxrVjI1VnFPV3NUNWRjdERfcXBtTDRlWVFZMTYwaTdHQnNWSzhXZVRIZlBXa0RMNWRIUEhMTldsbGdfengzNEhRdTFRdmpmMzR5OE5uZWFEeFAzbXY?oc=5",
-"source": "Surfline",
-"at": "2026-11-18T16:42+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Results for Kei Kobayashi at Taiwan Open of Surfing 2026",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcS1LMTNBQ3RIcURIb0lJbWpCaGUxdXlqRHNxY3pMdmhmNXVVdk9rN2F1cGd2YTd5ME9WeU9DOEhjMkRZV3BYR0R2VkpKRWFyemN6NmJUeWNBb1ROQ1Q5UHhOZnJLSEJxaFNlUjM5aXdvQkpicjJ0LXVZZnAwRjhXdDNxZjRUNVB3ZDZ2RWVn?oc=5",
 "source": "World Surf League",
@@ -608,6 +678,16 @@
 "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WSFFSeWVSTDJMS18wd2Nvc2FTaXNGX0Z5b2Q3OVFTcGw3Tjc5Ml90WVRBcmd6QjBfYWVUaWF5QTNnN08wTHVSSUVkQUQtUjEwNEpGdENqUF83YVVvRE45Wg?oc=5",
 "source": "WavePoolMag",
 "at": "2026-11-18T14:38+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Get Your Low-Digit Surf Fishing Tag for the Holidays!",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTEpHWHB3TUJQY3NBb2xiZzhubjlqcXhFaFZfcXhWcmNBRndSTG04bHRMaVlUMHhvYU1yODJEcTVEQ2NNSUJMcnBBeE01eld2bmg2TF9iakFfNW84SEo1WWtfbVB4R0xQa0JuU0dOYjFud2NjSkxuU3FneDhVWm8zT2xIN1h5UTlLY19ZWkFMWXUxOU5vdEgzQ213?oc=5",
+"source": "State of Delaware News (.gov)",
+"at": "2026-11-18T14:33+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -690,6 +770,16 @@
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdk9ZblluRmZ3cGxnU2dyUnIwTEg1UjNtQU9kQk9UZ0N5SXZJMVc4WUF3aWFQb0hqdzFEMHFLcmZTNXROd0ZOemFUZUdNWFhaY1VSVk42WHFydk5oVWhzcWNQQUdyWlZCUEdXcUlqSGEyQVY2WFlJMVRzZEp0amNyU0pmamw0blRvZTFSMFc3X3drNFpaVHI1Z01QNnhJMGZI?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-18T04:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Training Day & Day 1",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHRfM28zWUVkcmdveGdWLTJGUW11ZlBHODJ5bGJ3Y2NkVEVwNmNqOWhPcWxhWHdOdzNSejZ5T0NPY3g1WEVrUHJKbmplY0YtYlBOT1ZDLUdQaTc1R0Z5VE1kekcyQkxGOVNVS2RodzRTU1dkRS1xUXBldlpYTEtoUHhJNDJ0NFp0WDc0LTZKbllMWTVTVEoyYWVObFFTTmc4Q2pET2ZJSHJOcXdtclFNSldfOGg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T03:11+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -966,16 +1056,6 @@
 "kind": "outlet"
 },
 {
-"title": "Mike's Florida Forecast Notes: When Will Conditions Improve?",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQUNNa1VBOHhlV0xpVTdUdXNKRUh1aUp5b2xNN29kYWROeGhBWWczUXRNT2VKdVp0R0hobzNIdUFDRjl2a3NpZWJjdy1OcHRxVHpydWdKaEljSWtmNzhPbm5FNkJ6YjBVT0llVlVYSGJzV1JsVDB2cWxLUkp0OTZUeHhyY0lwZVIzb1dfY25yNFl0SF9Za0NrajRVdjBnNG9hdlRha2tEc3prUTc1NW55T0sySTlPQQ?oc=5",
-"source": "Surfline",
-"at": "2026-11-17T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Surfing - Professional, Competitions, Waves",
 "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ub2VkaGN5aGJ5UjFHdkFwV2hjSDJWaklmM0VWRWFZUjFQcHJucVU3STI2YlBaVjY3OFpoQ1dGUjlDZmxqWFMyQ0N3UG5NZFhCMU93S0Z1blNta0tBVWh4b3Nkd0doQzdNR1Y1NDNPSQ?oc=5",
 "source": "Britannica",
@@ -1038,16 +1118,6 @@
 "kind": "outlet"
 },
 {
-"title": "California high surf washes engagement ring away minutes after proposal",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjluQW9GWnRuNkI4QjA3NVlCczlzYmQwRFVaS1had09zZGZkcjBJZUYxbnZoWVBXaG1IaFE0SlFnOEt1aURwYWlhT2FXWkVqWWk3OURZUWIxWDFlNFZuVXg0Z2wxN2V3NU4wUWhQSXZTamxBbzMxNnR6MGMyTENHZEc3bFpfb1UwaGdwRUJvbWpVTG1hUUl6a0xpNHNVNHBUdG9PWUdVckQwRkwtN3RMT0lPbkM?oc=5",
-"source": "CBS News",
-"at": "2026-11-17T01:27+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Twin Waterspouts Erupt Over San Francisco Bay As ‘Super’ El Niño Storms Pummel California (Video)",
 "link": "https://www.surfer.com/news/twin-waterspouts-san-francisco-bay-video",
 "source": "Surfer",
@@ -1056,16 +1126,6 @@
 "desc": "Two rare waterspouts spun up over San Francisco Bay as storms triggered marine alerts, flight delays, and massive surf along the California coast.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Photos | Big waves return to Santa Cruz Monday",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSTR6WDZNOFRvTFMweXZCLVJ1Y09rTFMwb0tVMFh0Nlo0V3JuWWFiQmNFanAwWFNtOGhWNDdxZkZaNXpFR3VOYVB4SHJlUWY4Qmsyd1dOWkZnNk1Ma1ZxVWQtMmxYZGlRZXpNMTlwc0ZiLVFLcGJIZ3lXUFdzbGpxc0xsRi1KVjQ3cE02OVVHNGhTQU5x?oc=5",
-"source": "Santa Cruz Sentinel",
-"at": "2026-11-16T23:24+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Gliding Barnacles 2026: Inside Portugal's Most Magical Surf, Art, and Music Festival",
@@ -1162,71 +1222,6 @@
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ29zbTlscFdwQUVENEJ5R1YtZVQ0eFlGNlFIREZQZ0MxZ2VYWWZucWUyMzd0SmVLY1RBT1psRmVadFRfbzAzX2NpS2R5eWQtWTYtRTNsTFNWaGVudjhuN240TzJBbzd3NmVHaUpxMDJwdDJaakFwQ3A1RDVPRDFzZEFOYV8?oc=5",
 "source": "The Inertia",
 "at": "2026-11-16T18:58+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "60-Foot Monster Surf Ushers in El Niño Winter at Maverick's (Photos)",
-"link": "https://www.surfer.com/news/60-foot-monster-surf-el-nino-winter-mavericks-photos",
-"source": "Surfer",
-"at": "2026-11-16T18:57+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNjM4/ryan_augenstien_074a1642.jpg?profile=rss&x=48&y=72",
-"desc": "Angry and tempestuous, the foreboding Northern California break pushed the world's best big-wave surfers to the limits.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "35-Foot El Niño ‘Perfect Storm’ Swell Annihilates Two-Story Seal Beach Sand Berms and Triggers SoCal Flooding Chaos (Video)",
-"link": "https://www.surfer.com/news/el-nino-perfect-storm-seal-beach-flooding-video",
-"source": "Surfer",
-"at": "2026-11-16T18:52+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNjYy/seal-beach.jpg?profile=rss",
-"desc": "Seal Beach spent weeks building sand defenses. Then a 35-foot El Niño swell roared in, sent water over the berms, and turned the streets into a flooded mess.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Kai Lenny Dominated Massive Maverick’s on a Super Charged Swell",
-"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbURmTGdtbjFRSmExd2R3UkV1YURQTldHSEhJYXQyX2Zoa0xnX3BiS1VVYlctN0hDM0dwOFBqa1FYWlNMZ1pKbEk1a3Jkb0NlRnZIWkxlWTBHRk5MTm8zQXZTZHBFNUlnX3ExbWhvSVQ3QU5JNDN2b0o1Q0FESG1nT1dxVXhEc0EyQ0Z6aDRPcnRCS2JmYWZZU1BaRQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T18:45+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"kai-lenny"
-],
-"kind": "outlet"
-},
-{
-"title": "Team USA Storms to Bronze at ISA World Surfing Games in Peru (Video)",
-"link": "https://www.surfer.com/news/team-usa-isa-bronze-peru-video",
-"source": "Surfer",
-"at": "2026-11-16T18:03+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNjQx/sawyer-isa.jpg?profile=rss&x=75&y=27",
-"desc": "A star-studded American squad featuring Carissa Moore, Griffin Colapinto and more delivered a podium finish at Punta Rocas, despite missing an additional LA28 Olympic spot.",
-"surfers": [
-"carissa-moore",
-"griffin-colapinto"
-],
-"kind": "outlet"
-},
-{
-"title": "Why you should stop grabbing your surfboard's rails when popping up",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwR1V6YWttclFwY3VwTFZqNzF6bll5Umw1bXNRcDFPU21ReVNfQ0MzNFZSVWVERUw2VjlMWm9pTmtfcHZ0SmsyQmtOZnVuOHdnNG1xZ2NCTm01NC1YX2FkbGtsN0lvWlprSVZVbzlQUQ?oc=5",
-"source": "Surfertoday",
-"at": "2026-11-16T17:23+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results for Ayla Stutzman at Super Girl Surf Festival Women's 2026",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMlpwbmNMamZpaVYydW5yQzhkX0FQU0w4azZOT1RjeFpaNi0wMUpTMkVpYnk2UlEyZ01qQkpKZ1ZqRnY0MGxiRUhscDV1M2VIbE5MS253MnFVTk1lZkZQdDU4YmZpVmpwZzBMY3FkOHdRTFJmNXRDQlNXTXpVMkZxT0J3bEZpSUZ0bWlzTUdMVQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-16T16:16+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
