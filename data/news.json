@@ -1,18 +1,60 @@
 {
-"updated_at": "2026-11-20T17:37:22+00:00",
+"updated_at": "2026-11-20T19:40:46+00:00",
 "sources": {
-"Surfer": 41,
+"Surfer": 40,
 "ISA": 5,
-"Stab": 10,
-"Surfline": 8,
-"The Inertia": 47,
-"BeachGrit": 16,
+"Stab": 9,
+"Surfline": 11,
+"The Inertia": 44,
+"BeachGrit": 15,
 "Tracks": 0,
-"World Surf League": 40,
+"World Surf League": 38,
 "Surfertoday": 3,
 "In the news": 15
 },
 "items": [
+{
+"title": "Custom Ski Boots: What’s the Process? And Are They Worth It?",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjRSVHZNQjdrdGVGWUNSeTlGd0VFMGIyTHd0anV6aUdUMjV3b0Y0R3lsenhGaUpiQ0s4WnVkZ01sdUFjUnF3LUZienM3TTh1d2d4ajlJNE0wV2p3UDJpcVNMbVZPTEpPUFVjMDVDOVlScklaa1E4NDJRbjM4SXN6Skk2YTg0S3ZEZzhhTWlGRFhVUGs?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T19:01+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Here We Go Again, California",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRUkyRlZ6SklfMmFTdlE0bWdDRXZqZkpQdHh1akxDYTkzQlhqYlpTUW16bEFleTJjUHowZjRHTjVKOVJISUN5UF9nX3VRQ0VTVzNGaDFfNEFibTR1WGozZjVQRHcxTDhQa19qbjRuQjh5TDhCU0N5dktQajNVeEtDVzBDbFpJTnRyV2NZTzZn?oc=5",
+"source": "Surfline",
+"at": "2026-11-20T18:27+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Kai Lenny Posts Terrifying POV Footage of Getting Caught Inside at Maverick’s",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNnNfemduc1dIdFJ5a2FNcnBWZkl1ellNUXk3cHNkQlFNZTF4bml6X1NQUjFVa1FtZGNwNXlTZk1DWVR1NmdsWWpISmFzWXZ6V3dHWG9GVFZLbHMyWkpuS0FMQkQwa25RTEFmcklfSTNsd3NRUk5ZWTFJYi1qUTEzN2tjazVERkw1bllJNUVpX1JyYnpJYkJyVW1WZEdfRUZ0bnA5UTNiSGZEY09aS0E?oc=5",
+"source": "The Inertia",
+"at": "2026-11-20T18:21+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"kai-lenny"
+],
+"kind": "outlet"
+},
+{
+"title": "North Pacific Cranks Out More Swell for Thanksgiving Week",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmVlem1ESHlpOWpNSTJPUWtKNS1QNFBqQnE2RmFUdTlfd3dmUlBBWVZFMVlnaDZYRThRQXd4NC1mOFZRTG5GSnpNeV9lQUJ4d0cwT1RrNGxFOVFBX3hBYTM4NGtmdXZaOEdoUmNpVUVFNGdZeWpnVjVXalFsSHNhQjJaOTNDMWZ4V0VNYkJuOXJZRnVVREFRRk9iU3pUU2JpeHVMTXUxZHFYaEtmVmZSWWEwVlo1QQ?oc=5",
+"source": "Surfline",
+"at": "2026-11-20T18:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Family of Surfer Kurt Van Dyke Was Suspicious of Girlfriend After Shocking Murder",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVjBmZi1SeGZIdmR1dW04S3o3aVZyNjgwc0pxZHBUODFHTDVMRUMxdFdSeF9aWmtxek1jRlRzT2d6aU93bEc4UmhuUFBvUlNHYnlESmJCN3k3VG1xU0xnOGp6VW4yN3R0ZmgxNDFyaTI4MnJYU1NRQ3NMbjRlOU9qdWJpUUdvWHFmNmIzREVuUExpS0k3TE8tX2x4S29OMlk?oc=5",
@@ -144,16 +186,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
-"source": "The New York Times",
-"at": "2026-11-20T01:27+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Pipeline World Titles On The Line: Every Medina, Dora, Moore and Picklum Scenario Explained",
@@ -422,26 +454,6 @@
 "kind": "outlet"
 },
 {
-"title": "Results - Pacifico Surf Open Cerritos 2026",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-19T15:20+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "What Is Surfing In Communist China Really Like?",
-"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWkJpTXBMTnRzNDhSM08zZkczSEMyQjdjQUE1XzJneXM4ZlNlWHJHU2c0RGFsUnRsUjE4Sm4wNHd0QXMyb1JOMThIT2w4S1c3QjgzNGJxNlNGUm5iUkg4YThwNThJVjZCYUJ0SzBZYXZLZGZEWkhqOFRrY2JFeW56M0RB?oc=5",
-"source": "Stab",
-"at": "2026-11-19T15:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "San Diego Lifeguard Department Rocked by Sexual Harassment Scandal as 18 Women Detail ‘Appalling’ Abuse (Video)",
 "link": "https://www.surfer.com/news/san-diego-lifeguard-sexual-harassment",
 "source": "Surfer",
@@ -460,6 +472,16 @@
 "desc": "Watch Mikey February trade his signature twin fins for a high-performance thruster in his new film and Channel Islands board launch.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Is This About to Be the Best-Selling Surfboard of the Year?",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUUpCQzR2RE85VkNkc0o4bmhNRVgxWlBUMXcyLTlqeXdONW5BU1lYRVdkUEc3b3NUYXhVUXk5aVlMQVlJdWV4TTRJa1Q1UW0xLXdVTnd6d3l0X0J4QjgxYmlkY3ItdXRra0xzV2s2VEYxRF9VbU1qLVpMWGQ1RDZydmJPcTZ4UUtDYkN6dy1lbw?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-19T13:15+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 6",
@@ -512,6 +534,26 @@
 "kind": "outlet"
 },
 {
+"title": "Mike's Florida Forecast Notes: Fun Surf For Many This Weekend",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUzgtUzhsTmUxeE1JVkxsZGZFMmRYdGUzN21hYnU3VlR2LW1uX1JhUXpGM2FMU1hZdDh0cFI5UjdoMHBNdV82YUMyTGpDeExxTmt6SDBKQlg3aW9aQzJjcWlSSVJHQ2I5ZHJ5VnBrZlZvOV9QSEp1Qm9RWmNWeDV5REIzT21lYUh2cjJRX3BDZDVWazRBQ2poQ1BYelBXaDdLa0dPZDBjTjdMNXlUVldqRGs2aGtnenRW?oc=5",
+"source": "Surfline",
+"at": "2026-11-19T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
+"source": "The New York Times",
+"at": "2026-11-19T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Olympic Dreams, League Titles & Big Waves Up North",
 "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSThRRHJSUFhYWkFRSEJ2VUpkX1JsYnpQMWJZVXB3dUFJY2JnRHlBRF9sQmdQWVlSc2toaDhKbXBRTEo5YlZPRmhaLXNHc1V4bElOQnR1cmNaNGdFRVVPMGFfeTN1aHJlN3kzYWE5d3pYeXlFVmU5amh6ZHFMMUdfU2tsblJGSXpSVnFma1JMdmZOdWtPN25obWVfZ3VrZ01fdk9KbUplUXkzRWtsTEFUaGNwMUJfT2VxU0NBOGp1b2pLRHRJZnlSbUlGamVRVnNBLThjSGFCSVgxVVhHZk53Yk5ObHAxeXQzRjdR?oc=5",
 "source": "picketfencemedia.com",
@@ -520,6 +562,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "What’s The Best Surfboard You’ve Ridden This Year?",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmtGUy16Mk1yOEEyLWJ0Ri02SlpjaTVuNkJuS1NLbmhSSnVUbWZjdU1GSWc0S1RJSjFfdmhVU3ZWdi12UjlsZy0tYUozTVFCc3Z4cEljLXYtZTRhNGRNNzZLOXVLQ25ZRTVMN1Z3MjMwek5yQThGYm1VZE92YWlMNG9B?oc=5",
+"source": "Stab",
+"at": "2026-11-19T05:20+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Watch: Laurie Towner In ‘Equilibrium’",
@@ -1172,56 +1224,6 @@
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTU1ZVpZVjZ1NDRVeUFwMlN6SmhaZjhlLWFkSldGY0FiQ1JibUNOQ255RXMzSy1FY21qTDZrcHpTazY3OU1Fd3poSjE2MTdVbHZDdUlCVGJoNFc5bG1YbllTV2ItV0t3OXpuTnBqR2NpbUdvWWhBS1BBYVkwZkllNkF0cUVmOGdWVDlrY24tRQ?oc=5",
 "source": "The Inertia",
 "at": "2026-11-16T21:59+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "How A 14-Year-Old Won The ISA World Games... And Earned Australia An Extra Olympic Spot",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaWIyRnlxalh4WTZRSVNqQ1VEVjV0RVk2SnoyRjlvVUl5SWxlYzRWaXBJWVN3R1JienM1b1p1ZjBRaGFSeVRkajRxa1Vmd0FsTUxiUDdORnQ3RmZyZzZXbzdQdUFZbTZ0OVRjd2dvanZqM1pHdElRNnlpclNLWDJycUlzcURnMm1yd3VhazBkU3JDSWlpUTlzdDRZTGQzTUNqUFoxSjN0c0hmYUI4TUsyMXBUQjh2RXdnUnRRVVR4UnBYVGs?oc=5",
-"source": "Stab",
-"at": "2026-11-16T20:46+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Jamie O’Brien and Izzi Gomez Tackled ‘Big, Nasty, and Gnarly’ Pipeline",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc28teVE4RGJ2bHVBWS16eWlXRnZuNE0wb3c2WnV4REhZV1UxNUstWXVvUW0yTlZzcVY4NVNWQ2ZkcEw2cklWRzAwZlc0UlRZc1poUlVlQnZUcmZVSGgzS0VYcHV6R2JNYk9jRUdxU0NycEtUejRpdU1rMjNyUHl3V2ZNLThXejc2WURiVXFwYUhnSkFibnVVdTMzaVB0NjA?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T20:19+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Windy Week for Florida May Turn Active for All East Coast Thanksgiving Week",
-"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLW5WeWJMM0trX1hnSGhEbWw5VFJoMThYdWhHUXBCVlJhMFZMc0ZRZVY2aXlfQjRjNU9CZWRGVzQ2cklwYTM1UWR5M3kwRW5haUtPZ0l1SFBZSjMyOHN2RmJsY1c1TGFWMzMtMDBkUlpFN2d3akRqaTRBRzE0NmtNeVRGUE1NXzNqN3JQNm9LMkVEV21pYlJwcVdVWmNZaTBUekVCNlBzMVRxcXlLTXo2dDh2Y2NnTTdyc0phR2FVcXBtdXAtRXpnaXRwUkcxZw?oc=5",
-"source": "Surfline",
-"at": "2026-11-16T20:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Pacifica’s Legendary Beachfront Taco Bell Shrugs Off 30-Foot California Bomb Swell (Video)",
-"link": "https://www.surfer.com/news/pacifica-taco-bell-30-foot-swell-video",
-"source": "Surfer",
-"at": "2026-11-16T19:58+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNjgy/taco-bell-pacifica.png?profile=rss&x=50&y=34",
-"desc": "While enormous surf flooded Pacifica's streets and battered its famous pier, customers at the oceanfront Taco Bell Cantina kept eating tacos and enjoying the show.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Surfing’s Olympic Leader Unfazed by 2032 Sports Cull",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzY2Y0dBQzN3OGJwSHpCcHJHU2FEYXJfSDdwUlVaVkVQa2FtTFUyVkZ6VEcxRmxRNTk3YUV4QjkxNkp4Z1E2elpXRDJzdVFiOEZvS2d6bi0tbG9HWGc3Vi1PM1JMNENkWm1taTNJOVI2WDVadjI2SFpteVJJaGNHSTJuWGw5Q0tw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T19:49+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
