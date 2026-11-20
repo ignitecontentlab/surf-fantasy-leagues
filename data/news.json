@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-20T11:34:05+00:00",
+"updated_at": "2026-11-20T13:55:02+00:00",
 "sources": {
-"Surfer": 39,
+"Surfer": 40,
 "ISA": 5,
-"Stab": 14,
+"Stab": 13,
 "Surfline": 8,
-"The Inertia": 46,
+"The Inertia": 47,
 "BeachGrit": 17,
 "Tracks": 0,
-"World Surf League": 59,
+"World Surf League": 47,
 "Surfertoday": 4,
 "In the news": 16
 },
 "items": [
+{
+"title": "Surfer Rides ‘Giant’ Easter Island Wave Beneath Ancient Stone Heads (Video)",
+"link": "https://www.surfer.com/news/easter-island-surf-moai-video",
+"source": "Surfer",
+"at": "2026-11-20T13:49+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDk1/rapa-nui-surf.png?profile=rss&x=50&y=32",
+"desc": "An unnamed surfer threads a solid Rapa Nui right while Easter Island’s moai stare from the headland in a surreal collision of modern surfing and ancient history.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "The art of taking things away in surfboard design",
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPenBpTVZuTmVXQnZYQjNwWk9TNktIckNVTmt0V0pqWTFPUGV2aGdOZ1c3aUV6UnNsZTVaY2E3X2JSMk05NVdtVzJhQ2ZNY0FxNnJBODhUckdYekFaTmVsYWhaU29jZHJEa2NDSEJlck9rdWdhMDRYcnNQNVM4N0xCX2pBdEc?oc=5",
@@ -424,6 +434,16 @@
 "kind": "outlet"
 },
 {
+"title": "Is This About to Be the Best-Selling Surfboard of the Year?",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUUpCQzR2RE85VkNkc0o4bmhNRVgxWlBUMXcyLTlqeXdONW5BU1lYRVdkUEc3b3NUYXhVUXk5aVlMQVlJdWV4TTRJa1Q1UW0xLXdVTnd6d3l0X0J4QjgxYmlkY3ItdXRra0xzV2s2VEYxRF9VbU1qLVpMWGQ1RDZydmJPcTZ4UUtDYkN6dy1lbw?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-19T13:15+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 6",
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVjFTVk9kZHBQMmVtRUpmbGhLNy1HMFFmajl5ZWRTMXN2TjBVeVNFczlXT2NoNnRQQzJ3a09PRC1qYlAxMkt6NXBqel80bm5oTGVYRzhnQXlVWmljd3loeGVNazBOZGJCRlo4SkVhRFJFLXNIT2FpWVBuYlJ2ODhudDZuZ3FaVkxGa3NQM2lrbzg0UDlZV3hIdm9nTzBRZw?oc=5",
 "source": "World Surf League",
@@ -458,16 +478,6 @@
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbjZtREdzeVYwdHlUbUthRkhGZTJsaG81N0otTnVZZDFiVXZSRjlQSHdDUVdGWDdWMUk5elNwT2lVeUtJMTJwZTRTM01Pay1tU1Y5cE5fTVEwVDdXZnBRcDZwaHBMeHA0ZzgtN1FtLTdCSm84aVlLb01NQTIxVEtNMXpCNW1qWkQ0YlB4WTlhYTBxX2c?oc=5",
 "source": "Newser",
 "at": "2026-11-19T11:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Latest Wave Pool Clip Comp Wants to See Your Backside",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NRjBOVXVoY2hNYUc3eVlIRGdQT3pXNjMySjdSSnN0ODVscnpDaGl2S2VsVnNhdVQ4NlhGNlhXNTg5NnVkeS1yTmp3NjNRcF84RWVDTXgxdHdyRV9GbVFNWjRSWWVkZDMtUzNtbmRIZlg?oc=5",
-"source": "WavePoolMag",
-"at": "2026-11-19T11:31+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -798,16 +808,6 @@
 "kind": "media"
 },
 {
-"title": "Results for Kaiwa Foster at Haleiwa Pro LQS1,000 2026",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlp1X0RrNWFGTk5zQjJEdkhIMUR1OFJxOVlid0UxQ25HWlZkWEpILTlrMjY5bGtlX2RxUG9TWUc2ZWluNjZwdHRUR2lxSzg5TWZ2LXNhX2JmM3Zrdklza3Z1UXlpQUVfc09VVnRnZDctaE9TMFJBWkF4SWZmSWMySk0wTVpTZ1g4NjRVUTlR?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T13:47+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFlTTVl5VExQUHROZGNwOE5SREJ6amVzcENMck9wX2tpUDFmYWkyYWNEdUVTUlFnZWVWTVhaMlJFYllidThMcGd2eDdJNUJwcVpLVjZsdjRPQXBjR1VRVDFvcXJLVVduSnN5LTRmZk9KLUpJc1VhV1E0anlkbXZlY0VMNEVFVWI2VlRLcnFVRFhlaU1BbEdJaDBaUndHaTZDQzlQQUVSUG0yX0p1eWY0MWVYd21FcUI10gG-AUFVX3lxTFBmWk1ndVJEVlBEOE54ZFVXb1BvTXphQ1ZqTW0tRHRHRnZtcGtQNDhHZVlaNk84eVBxbjFOOHJuRkRUMTNNVnBwd3dLaHVyMld5azlKNEV0Q1p6UkQzNTRhNlBzNV9ZMk1iNlQtTXAzTk9QcUFrLWpjemFKbUJLek9CNmczTTNhZVZnRERrU2J0SWgyTVJhN0RIZFVBLUlPakgtNHJvQ0JsMWFGY09MeEUzWExMN2FRc1M3dXRlS0E?oc=5",
 "source": "Fox News",
@@ -858,16 +858,6 @@
 "kind": "outlet"
 },
 {
-"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Day 2",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRjVsUlhzT3BWXzNJczhxNEJzXzNzWEZxM3U3alFyQWZkejZuZHctUFRkcUY1T1BsQkd1M201NHZJUXotTDkzTzhHbDAtMlpHeHlad054eHVqSTM5U3o1M3ZkdEpOWFF0ZmNwaVRqVWZtcml4RUxmS0FTejRJak5QLWFudzVLYlk3MTFWZkllU08tOUxXaWo4N05Wb1dHdw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T03:08+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Relive Top Moments: Pacifico Surf Open Cerritos Finals Day 2025",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZmRWZXozdnhUUWxraVJpWVZaWmhTbVZzcGJJakF4VWVTRDNucU81SURuWHpOT2stUUs3cDlLbllMeWRTSk5kUVhUZWQ0VXhSR2EtU0ZfMkl6blloVUNYbGYwaFRnbnd2Um1Lck5KNzdyVjdrUXJ4ZTZMWGVKT3A3ajJmSjVwYUVZaUo2aHpqRU1Wbm8xVlE?oc=5",
 "source": "World Surf League",
@@ -908,6 +898,16 @@
 "kind": "media"
 },
 {
+"title": "Waves and wind lash Juno Beach and Jupiter coast",
+"link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVTlhV2FtWnN1SzZ2MnVYdTJ2dFltU0dVZ2hPOUMwcXl1Y1hsRFNpQmpXTldnVXRWTU50dmY2Ni1WbUlLY2UwV0UxZXVaTk9nRWJyWVQ4bE1TQUR3NjQ2YW5rQUE0S0JsQ1BiQ0ZZZ2prbE5wajdLdHNiUHVWWHY1dWF0Z1pLRWMwS0R3dmp1NXpkMkNzTEd5Qk5JUVVTSElCNXdYQ1gwcERKRlE1VDdkeDFjM0dTdjZXUVctX0RmREY3d01uaE1jMVBaNU83aE5Ed0Z4b3cxc2EtVmQ5TGRzTnY4alZvLVNkdll4X285YkRSRFBXU3pvemZDZjk3UQ?oc=5",
+"source": "The Palm Beach Post",
+"at": "2026-11-17T23:48+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "‘Day After Tomorrow’ Climate Nightmare Looms as Critical Atlantic Current Weakens (Video)",
 "link": "https://www.surfer.com/news/day-after-tomorrow-amoc-real-life",
 "source": "Surfer",
@@ -922,6 +922,16 @@
 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYk1CZldlS2FpQ2JocGt0RXpEMlFiZ3ZXbl9IS2h1aks0RS1jY0NLblpJeHNFMk5Gems4VzBrc25obDVZWXVUc3YzVjhTd3FkQmFiaFhHVmZlZ3ZsU1lIN21LR1NzS1pLLTBSV3pVWmRoUGI1WVJMSFRpQXI2NndfUVZFamZscWxUdDBHR21iX3NiSVN2Ukw3YzNBemQ5SHZPeFVtZXhRSmxnUzlGZkZKYmlmV05mQQ?oc=5",
 "source": "World Surf League",
 "at": "2026-11-17T23:08+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The Royal Scam: Getting Paid to Just Surf",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcjA3RndSUFE0ZTRHeF9PMVU5Z1hOaU9EbU5LT2xUQXJoQnd6NjRnUjFnYlRzRWZPQURvUUY0al9sYlRiSDdIRWF2d1dzRmRCV1BOXzRaRld1MmNXWFAyRW1zWGtIV1BYUHVRVTk2Vm9GUWRjVXVKaldKYnR3ekRTUHk3aw?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T22:11+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1078,6 +1088,16 @@
 "kind": "media"
 },
 {
+"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Day 4",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNakExX1A4U2Z2MGU5YkhWVUVrQjl6ZzQxYWJsNGtuaHBCcXBXZ3F6TDBCTXpKdzIzV01WVEZmUlgzSG1fWUFTQXhjN2U5X2ItZGowWDhtQzdnMnJTMFh6SzhhRTZwTDVtcDFRQnBQZl9ZX3piN3dRWlc1UjNXZjJzX0t6dW5WRXI1T21BNEFjNU5IVkdCbE95ZGZWSV96QQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-17T12:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "58 Surf and Turf Archives",
 "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qLU5HY3kzTlZaaFNNM0w2RTlPdy12c1VUQkNiZnplZ2FoRXM5eGtjcXVEWmhKaldNY1duRlJ1M0JwbS1qWE5PWmQ0T3FFT3YwNUNJ?oc=5",
 "source": "Stab",
@@ -1204,26 +1224,6 @@
 "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLW5WeWJMM0trX1hnSGhEbWw5VFJoMThYdWhHUXBCVlJhMFZMc0ZRZVY2aXlfQjRjNU9CZWRGVzQ2cklwYTM1UWR5M3kwRW5haUtPZ0l1SFBZSjMyOHN2RmJsY1c1TGFWMzMtMDBkUlpFN2d3akRqaTRBRzE0NmtNeVRGUE1NXzNqN3JQNm9LMkVEV21pYlJwcVdVWmNZaTBUekVCNlBzMVRxcXlLTXo2dDh2Y2NnTTdyc0phR2FVcXBtdXAtRXpnaXRwUkcxZw?oc=5",
 "source": "Surfline",
 "at": "2026-11-16T20:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Pacifica’s Legendary Beachfront Taco Bell Shrugs Off 30-Foot California Bomb Swell (Video)",
-"link": "https://www.surfer.com/news/pacifica-taco-bell-30-foot-swell-video",
-"source": "Surfer",
-"at": "2026-11-16T19:58+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNjgy/taco-bell-pacifica.png?profile=rss&x=50&y=34",
-"desc": "While enormous surf flooded Pacifica's streets and battered its famous pier, customers at the oceanfront Taco Bell Cantina kept eating tacos and enjoying the show.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Surfing’s Olympic Leader Unfazed by 2032 Sports Cull",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYzY2Y0dBQzN3OGJwSHpCcHJHU2FEYXJfSDdwUlVaVkVQa2FtTFUyVkZ6VEcxRmxRNTk3YUV4QjkxNkp4Z1E2elpXRDJzdVFiOEZvS2d6bi0tbG9HWGc3Vi1PM1JMNENkWm1taTNJOVI2WDVadjI2SFpteVJJaGNHSTJuWGw5Q0tw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-16T19:49+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
