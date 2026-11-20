@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-20T16:16:10+00:00",
- "content_hash": "1f7e09a15c98",
+ "updated_at": "2026-11-20T17:17:57+00:00",
+ "content_hash": "848996995607",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-20T16:16:10+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     }
    ],
-   "news_at": "2026-11-20T16:16:10+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
     }
    ],
-   "news_at": "2026-11-20T16:16:10+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -136,16 +136,16 @@
    "status": "window",
    "headlines": [
     {
-     "title": "An XXL Swell Will Hit Nazaré This Week",
-     "date": "2026-11-17",
-     "source": "The Inertia",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ieU9UeU9DUVVoN3UtS3hpSEJKOGE3YUN5VWVJTGUtcE9RYko1RXFEckd1VEU1bnMzUmttNWdHQTViRG9rNHVESzFJdHFKR3MxWkZ1R0h3eFZ6OUU3ZUNucm9XVXhKU3QwS2JraWVyX1k?oc=5"
-    },
-    {
      "title": "The world of Big Wave is ever-evolving, and Team Von Rupp/Roseyro remains at the forefront",
      "date": "2026-11-13",
      "source": "World Surf League",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHp5UmlIWjE4RG5vOFp1M0Q5TWZXV3RVOURNSHNya1RvSWl1ZjJtY21sbnJMakhFd3BVSElNZzl4cWZJd09UY18wb21uS0NfNjVwOGl1NU1jZ2lHdXJPbEpGQzBKc0RWOEZock4zMjg4RURvWUpYZ3lRd0lnUXBEcldCNER0bF9MOUg2XzJ1bkxOM19maWptZkRNcGlrTEVoWGVUUjNwX1RfX3lLTEhVNDJxb3dRQQ?oc=5"
+    },
+    {
+     "title": "Inside the Science of Surviving the World's Biggest Waves",
+     "date": "2026-11-13",
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFNMUXNwQVdUMjVTQ2R3V2ktWER4el8tLVN6cGRxTVlKUzF1dnd3YkpKeXpFZHFwNXpJNVVDVS1QVEZZVGdsbzBJUUtXM0wtT1F3cnFZVUVLVUtZeWIwbDNXYVZDbkNoS1R0VnB2RUZxbllncWtPaGxoQkJsTUFBSkJxRHJ3NTVfS0RIOE5LYjZLR0RxbGZ6cl9EVQ?oc=5"
     },
     {
      "title": "What it takes to survive the world's biggest waves",
@@ -160,7 +160,7 @@
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZ3ByczdoQTZBcE4tdkFnZ204aXpsX1VvUF9mUzZIejU3RDUtTmwyM2FFQkVIeFNkaVpIMlZURDJBR2JKSmR4Q0pRd3M5ekNQTFRNRklUM1d2YlZnZ2U2NmxtRjdpTTl3RmRCMWJuemx3aTVB?oc=5"
     }
    ],
-   "news_at": "2026-11-20T13:38:39+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -205,7 +205,7 @@
      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUGxzN2VweDJnS0VJTm1XX0pCejVEQkVyZTVrcV9FOGRubk1kMTdWNGp5NllwV2NWY25ReDV4WmFJb0tRN3Z5LUVzYmdjNmJjM3QyZnM3R3ZlTFJaanBQVVhVMTVvOG56ajJXZ2Z2Q1lBYnpvRzBhQ2VwV3BUOHhIMDFMalJ0WGVockNkNWR5dEU5TW9VN2FseWl4eG50STk2YTkwVjdxU01BVzRrRVdGdDRMSV9JOTVB?oc=5"
     }
    ],
-   "news_at": "2026-11-20T13:38:39+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -571,7 +571,7 @@
    "watch_note": "",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-20T13:38:39+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "wsl-ct-2026-lexuspipemasters",
@@ -600,6 +600,12 @@
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WTlFvLXlFLUEzY3VtWWNuTno3Z24yY0Z2bzNBU2VPUFM0MmJ5VWE1YUdrNVJGRzk3d2dFQVlUNzVJTVB1NVV1VDdoVERuc0tRN1Z1UmVRQ1V4eFdpOGxzRHFCeUdTMkFDbVdGQU1SdHI?oc=5"
     },
     {
+     "title": "Pipeline to Crown 2026 World Champions as Title Races Head to the Lexus Pipe Masters",
+     "date": "2026-11-19",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2Z1b3JxQ3FnVDZGWUJRYzlGVWFhVnRuYXNCVUlqMmxPM3oyU0RNSlVMNmVJeHQ5VGpCU1pibFk2TXJNYzRmRjEtWTlZVFFBb2owOG9CazZLME5jc2xvM21pbzNuazdzMmNaRVQtUVpraS1jdlZyS0FvQ2NMTUN1bmZXLXZJS180WFRaczdBUlJ6WFMwa0o4V3VKcS11c1J5ekYxdFk0WmQtNHZsNS14S3FKdmEzYWtsS0UxSFhZRExpQkxsdGZ4dA?oc=5"
+    },
+    {
      "title": "Historic Pipe Masters Returns To North Shore For First Time In Five Years",
      "date": "2026-11-17",
      "source": "BeachGrit.com",
@@ -612,7 +618,7 @@
      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SZWZMMEJaSENWTHBiY3ZaM3p4M3liNjVONHlGMG0yeXBTWWRKVEFkdVhEOVN2OFR5TW5PX3h1OUtESTJoNWJwdFNScEJ6WlFUVnBLSUtjY0tVbnF5ODBWamREVTZrUG0taEFj?oc=5"
     }
    ],
-   "news_at": "2026-11-20T13:38:39+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "qs-pipe-2027",
@@ -631,7 +637,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-20T13:38:39+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -649,7 +655,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-20T13:38:39+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "la28-surfing",
@@ -1248,7 +1254,7 @@
      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OUjhNZGN1cjlkRmxpeGZuMzRqZkYzSjk5YUZ0SlJ5TWdONGEzdUpIR3hkMTctSGpoQ0VDMU9qT1lUanBQek5WUThSbmpTSGZHeFdIWXhxNUtUVGwtVUdmaXpZek9LSUJQdmlCbHhGRFhjTGRpZU1ORw?oc=5"
     }
    ],
-   "news_at": "2026-11-20T13:38:39+00:00"
+   "news_at": "2026-11-20T17:17:57+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1319,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-20T16:16:10+00:00"
+ "checked_at": "2026-11-20T17:17:57+00:00"
 }
