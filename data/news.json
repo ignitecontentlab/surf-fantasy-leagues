@@ -1,23 +1,33 @@
 {
-"updated_at": "2026-11-21T01:53:37+00:00",
+"updated_at": "2026-11-21T03:30:07+00:00",
 "sources": {
 "Surfer": 38,
-"ISA": 4,
-"Stab": 12,
-"Surfline": 10,
+"ISA": 5,
+"Stab": 13,
+"Surfline": 9,
 "The Inertia": 45,
 "BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 41,
+"World Surf League": 48,
 "Surfertoday": 3,
-"In the news": 14
+"In the news": 15
 },
 "items": [
+{
+"title": "Historic First Day at DSRT Surf Sets New Standard for 2026 ISA World Para Surfing Championship",
+"link": "https://isasurf.org/historic-first-day-at-dsrt-surf-sets-new-standard-for-2026-isa-world-para-surfing-championship/",
+"source": "ISA",
+"at": "2026-11-21T03:16+00:00",
+"img": null,
+"desc": "Alelí Medina (PUR) Finds Perfection as World Champions and Rising Stars Make Their Mark Sarah Almagro (ESP) and Jose Martinez (USA) Deliver Near-Perfection to Top Prone 2 Leaderboard Morgan Galeffi (ITA) Opens Strong in ",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Sam McIntosh",
 "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
 "source": "Stab",
-"at": "2026-11-21T01:40+00:00",
+"at": "2026-11-21T02:39+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -121,7 +131,7 @@
 "title": "John John Florence Confirms He Won’t Return To The CT In 2027",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVXdMbC0zNnRJV0RlS1FQbWdnZUtsTlktYzZ3aXVobW5ManI4cks1YXhYQmVEa0JocjN1VkU4Y2dtSlJZV3A3UXFnN1pFSGFXdjF2emRuT0NKZmhNT2VPdEd6aGM0VXRvRjJkeHZ6NXBvbExnZHotQ0EyUnJqN3hWSU9OT2hQZ0xtTmlycmk0eWZsRXVYRnc?oc=5",
 "source": "Stab",
-"at": "2026-11-20T20:03+00:00",
+"at": "2026-11-20T20:08+00:00",
 "img": null,
 "desc": "",
 "surfers": [
@@ -326,6 +336,26 @@
 "kind": "outlet"
 },
 {
+"title": "Leo Andrade Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PVHBpbl9pWm5yaVBObzdkSGlDdW9zblJGVVdpbmdKV05ScWhFRjllNVFpdTJ1cVJKX0dqd0dTWUQyT0JCQXdpMTNpZDZMbGxEZi1IZ3RpemNkN1NTZzdqQjZmUUJyZGFmV1E?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T10:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Romeo Cortallessa Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zY1gyLWtUX0tjNUJhb0F5MWZRMUprTVQ5V3JaUjdORTFFTTZNeHkyZnZvVWV0TzhBeGhzZjJWNlAyaUFtQUVET0JMdTM2RmRHczNORnlUdlFlMmNzYndaZVFZU2RKUEhaTU55cUJpM2kwZw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T10:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Miguel Nunez Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFeVlWV3lGenVtZ0dBX1ZYTWxuRzNlWDdGaGtEdER5X3NGdTJ3YWN6alRET09odnUxbk9KRERUVWdhcW81aUpqcXo0amRmTlRuMVZ1T0plLThPa01WOGlNSndqNER6b3NYLVAw?oc=5",
 "source": "World Surf League",
@@ -384,16 +414,6 @@
 "at": "2026-11-20T01:09+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDM1/lexus-pipe-pro-presented-by-yeti.jpg?profile=rss&x=47&y=59",
 "desc": "Six men and seven women can still claim the 2026 World Titles at Pipeline. Here’s how every possible Lexus Pipe Masters scenario shakes out.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "King Tides, Explained.",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkREd2xyUHZ3aW15VzBHeFhRVFVlMzBCRnNDOFJGUWRMV0RqcW5FMGp3YklZVXEzdzlwSGhLZTYyd2lwOWFROHRlSjQxeVVodWNfczNDZHFqUjdfUG5wRjRJRzZ1R29HRGtNLVcwRGJteUFLQU1kTHg3dlgtY25maEtvUk0?oc=5",
-"source": "Surfline",
-"at": "2026-11-20T00:35+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -1058,6 +1078,16 @@
 "kind": "media"
 },
 {
+"title": "Results for Kaiwa Foster at Haleiwa Pro LQS1,000 2026",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlp1X0RrNWFGTk5zQjJEdkhIMUR1OFJxOVlid0UxQ25HWlZkWEpILTlrMjY5bGtlX2RxUG9TWUc2ZWluNjZwdHRUR2lxSzg5TWZ2LXNhX2JmM3Zrdklza3Z1UXlpQUVfc09VVnRnZDctaE9TMFJBWkF4SWZmSWMySk0wTVpTZ1g4NjRVUTlR?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T13:47+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFlTTVl5VExQUHROZGNwOE5SREJ6amVzcENMck9wX2tpUDFmYWkyYWNEdUVTUlFnZWVWTVhaMlJFYllidThMcGd2eDdJNUJwcVpLVjZsdjRPQXBjR1VRVDFvcXJLVVduSnN5LTRmZk9KLUpJc1VhV1E0anlkbXZlY0VMNEVFVWI2VlRLcnFVRFhlaU1BbEdJaDBaUndHaTZDQzlQQUVSUG0yX0p1eWY0MWVYd21FcUI10gG-AUFVX3lxTFBmWk1ndVJEVlBEOE54ZFVXb1BvTXphQ1ZqTW0tRHRHRnZtcGtQNDhHZVlaNk84eVBxbjFOOHJuRkRUMTNNVnBwd3dLaHVyMld5azlKNEV0Q1p6UkQzNTRhNlBzNV9ZMk1iNlQtTXAzTk9QcUFrLWpjemFKbUJLek9CNmczTTNhZVZnRERrU2J0SWgyTVJhN0RIZFVBLUlPakgtNHJvQ0JsMWFGY09MeEUzWExMN2FRc1M3dXRlS0E?oc=5",
 "source": "Fox News",
@@ -1204,36 +1234,6 @@
 "at": "2026-11-17T19:57+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODAw/morro-beach-wave.png?profile=rss&x=47&y=55",
 "desc": "Towering El Niño-fueled surf sent 20-foot sets over Morro Bay’s breakwater, closing the harbor entrance and flooding California’s coast. Watch the chaos unfold.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "5 Epic Gift Ideas For The Female Surfers In Your Life",
-"link": "https://www.surfer.com/gear/5-gift-ideas-female-surfer",
-"source": "Surfer",
-"at": "2026-11-17T19:33+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzk2/woman-on-hill-with-surfboard-looking-to-the-sea.jpg?profile=rss",
-"desc": "From Earth-friendly wetsuits to swimsuits and sun protection, stoke out the holidays with the perfect gift for her.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Santa Monica Pier Fight Ends in Fatal 40-Foot Leap Caught on Video",
-"link": "https://www.surfer.com/news/man-dies-santa-monica-pier-video",
-"source": "Surfer",
-"at": "2026-11-17T18:19+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzcy/drowning-santa-monica.png?profile=rss&x=49&y=64",
-"desc": "Witnesses say a man hit a woman, then jumped from the world‑famous Santa Monica Pier as cameras rolled. Rescuers raced to save him but arrived too late.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Maverick’s Cleaned Up For an Epic Monday Paddle Session",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbXM2eTVLeWt2djRkdXdUTkoza01FdjBvalprVnowaTV4SndCcmNVNkQ2NTBMQWRXTXBQVEMzai1rSkxBSjVRazhON0c0ZGNPOUdxcEZaNkF2N2tGZ3RESldJYmY5b2htQnVHZ19XaF9MZk5Kc2UtX0pNVWhwS0NPLUczRXdWVmZmQjBOMVFBUHI?oc=5",
-"source": "The Inertia",
-"at": "2026-11-17T18:06+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 }
