@@ -1,23 +1,23 @@
 {
-"updated_at": "2026-11-21T15:25:34+00:00",
+"updated_at": "2026-11-21T17:24:13+00:00",
 "sources": {
 "Surfer": 43,
 "ISA": 5,
 "Stab": 13,
 "Surfline": 9,
-"The Inertia": 44,
-"BeachGrit": 16,
+"The Inertia": 45,
+"BeachGrit": 15,
 "Tracks": 0,
 "World Surf League": 36,
 "Surfertoday": 3,
-"In the news": 13
+"In the news": 12
 },
 "items": [
 {
 "title": "Sam McIntosh",
 "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
 "source": "Stab",
-"at": "2026-11-21T15:19+00:00",
+"at": "2026-11-21T17:17+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -314,16 +314,6 @@
 "kind": "outlet"
 },
 {
-"title": "Surfer Rides ‘Giant’ Easter Island Wave Beneath Ancient Stone Heads (Video)",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS1ItcXM1XzBFQXJaYWVNWUFEQUZDRVdCQXZzYmpHSzFLLVVsOEhXSEV2dm1VLTlxemxkellIbjZoam1KNnF2S1BFOFJwVFRZTS1USmwxZksweFFsTDk5elZiWVlCVEg1ZnhyZTQ2YTBIeURoWmpmNmlpbUJ2aUJLdlMtc2JIaTJ1?oc=5",
-"source": "Yahoo Sports",
-"at": "2026-11-20T17:12+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Family of Surfer Kurt Van Dyke Was Suspicious of Girlfriend After Shocking Murder",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVjBmZi1SeGZIdmR1dW04S3o3aVZyNjgwc0pxZHBUODFHTDVMRUMxdFdSeF9aWmtxek1jRlRzT2d6aU93bEc4UmhuUFBvUlNHYnlESmJCN3k3VG1xU0xnOGp6VW4yN3R0ZmgxNDFyaTI4MnJYU1NRQ3NMbjRlOU9qdWJpUUdvWHFmNmIzREVuUExpS0k3TE8tX2x4S29OMlk?oc=5",
 "source": "The Inertia",
@@ -332,6 +322,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "In Senegal, Black surfers want to reclaim the waves despite lack of resources",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZX1llNzZGREJTeFFZTDlUc2E0ejZzNDRuVVZEaHkyMUVUQTZzdFlxSXVLT3hMaEhpXzQzQ1pkN0dfSkZ1UjVnY0hySDdFV3loOXRaX0xaVWlmRU4za3BLaEwxYUMzb1AyQm4wX0xGWQ?oc=5",
+"source": "Boston Herald",
+"at": "2026-11-20T15:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "‘King of Salsa Brava’ Kurt Van Dyke Murder: Brother Slams ‘Orchestrated’ Robbery After Girlfriend’s Arrest (Video)",
@@ -360,6 +360,16 @@
 "at": "2026-11-20T14:27+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTEx/el-porto-flood.png?profile=rss&x=56&y=42",
 "desc": "Stormwater cascades down a staircase and into the Pacific Ocean as powerful El Niño storms inundate Southern California.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Surfer Rides ‘Giant’ Easter Island Wave Beneath Ancient Stone Heads (Video)",
+"link": "https://www.surfer.com/news/easter-island-surf-moai-video",
+"source": "Surfer",
+"at": "2026-11-20T13:49+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDk1/rapa-nui-surf.png?profile=rss&x=50&y=32",
+"desc": "An unnamed surfer threads a solid Rapa Nui right while Easter Island’s moai stare from the headland in a surreal collision of modern surfing and ancient history.",
 "surfers": [],
 "kind": "outlet"
 },
@@ -722,16 +732,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Body recovered 3 days after it was spotted in the surf near Newport",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRvOFpYWE9lYmx0THliWTYzSHVnenhPMExkR0RkYlV3U2Jramg3bVNyTGxyOGd5YzlDaGJDMTB4UjdscUR0Zk9mREdMcHdBS2xxc0RGLU02Z3poc1ExOEFkampHMzl3WWo0OUZmcXRaNHhON0ZON1ZEcU81S1J5XzhCOXdWLWtiNlpXd0xRWmhrOE85a1RWNTJLc3BIbWlQNFE0SXZ6RlE3NkwzSG8tOWoxUdIBxwFBVV95cUxPTUFWanZDamdXY2lFel9JV0pKd0lwWTJKUlFNSUhFaGdqd1lmZXhsQ3FONFF4bk41eXFqQlVFc3VLSkRYZnpjb29NaEFhdTVwSWNiNmRvMXpPMXpna3NFamNKQTNOaVE5SHFDaHgwMjBxdlJWNTJiN3NGXzA3Q0JpU0I5Szh6dkFPX21GbmlWVHlPdFhKeXpLT3YtQXR2VjJKU3NCUnM1TUpjbmFlT0dXTTRVSTdISHBxNlZIeTRSZ004bHMwcHRB?oc=5",
-"source": "OregonLive.com",
-"at": "2026-11-19T15:55+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Results - Pacifico Surf Open Cerritos 2026",
