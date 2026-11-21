@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-21T17:01:40+00:00",
- "content_hash": "b26b2f8a49f2",
+ "updated_at": "2026-11-21T17:56:59+00:00",
+ "content_hash": "11c243dcbdef",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-21T17:01:40+00:00"
+   "news_at": "2026-11-21T17:56:59+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -64,6 +64,12 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkRSeDBndjJHNldieWp4S1gyRUltcDVHaXNkWVN1QzQ1Nm4tb2hzNFpHNVRoZDNQWlRTMlNmRXhhWEwtZ2hVS1NPV1p1QjVMaDlYOWRsQ0tLOUxtU3ZDMWJuSmw3a0FjNUZwSHBaRy11SWxxeVJKX18wcVRrWlVFOVY1UnJscWJvd2Exc0ZHN3pjNWJFemJtd3ZEZmNQWXpjYmRWaHF6RExsZm1DWWZucFNB?oc=5"
     },
     {
+     "title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
+     "date": "2026-11-18",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5"
+    },
+    {
      "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
      "date": "2026-11-17",
      "source": "World Surf League",
@@ -74,15 +80,9 @@
      "date": "2026-11-17",
      "source": "World Surf League",
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5"
-    },
-    {
-     "title": "Competition Continues In Tricky Conditions at 2026 Taiwan Open of Surfing",
-     "date": "2026-11-17",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUhPYUpKdjNSQXVRMEVEdFk1bW1Ed0ZfQXllZ0xVT2Z3aURJTWc0SS1pZWltSnpqbU15d2s4ZDBXcDByR2ZQaDM5ZmRNMkNZTkt1ZjlUZnBaYXljQnd3bTB2WWg2TU44ci05dUltUWVIWmRGTEE5X1U0WlpnMDZFQU9YcHFXaHlTZ3doNTQyVkw2XzRfTzBMUTl3NlQ0aTRUeHBvZWpJT0hfdGdLVzVzekNYbVRXaG5nZ0E?oc=5"
     }
    ],
-   "news_at": "2026-11-21T16:00:10+00:00"
+   "news_at": "2026-11-21T17:56:59+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -109,9 +109,15 @@
      "date": "2026-11-17",
      "source": "Daily Dispatch",
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMWc5YnZrMmFiS2NGUl9pYWlTZE51a2M0SkUwR1VCZnpSM0JvUVZtMzJ1VUlNa0FvRDh3cWtsdi1EdWFZVkVMNUFzZWNweTZjNXprcnlwLTRXTXhiTVFiQ1ZUOXpVbUEycDlBcjVXNmU4amlfT01mdW01SGpIZFJhSlp0T0Q3YWFWYUFwSnhVdHBJa0JKdkhrY1ByNVpjdmNqSFZlV01PNnBEbnM2SFp2QTd0a01xV3ZCYzRHYnB1YVVnTUU?oc=5"
+    },
+    {
+     "title": "The key points of the WSL Junior World Championship taking place in La Bocana",
+     "date": "2026-11-17",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTmg5dlZEeXFwcHE1QlBqM1RSc3V2SXozakVXc1FuSU1zLVhfU0RUYXNDWXBKNWhmRTlIZU52RW1zU2NRaG5aTzJpRXo5Zy1oSl8wSFdLRUd4SGhpanJfMnBORkxtQmg0TllDQXFfVHRsdlpVbFNTMEIwSUVjOWF4VjdLU2tEMFhTcExkOUdmelRqOUVYX0VDazRFR1U0SXNYSUlRVkd2dG1USDdER0k4dlpsVDlSTzA?oc=5"
     }
    ],
-   "news_at": "2026-11-21T17:01:40+00:00"
+   "news_at": "2026-11-21T17:56:59+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1319,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-21T17:01:40+00:00"
+ "checked_at": "2026-11-21T17:56:59+00:00"
 }

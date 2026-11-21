@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-21T17:23:41+00:00",
+ "updated_at": "2026-11-21T17:57:30+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -229,139 +229,139 @@
      {
       "key": "molly-picklum",
       "name": "Molly Picklum",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 1
      },
      {
       "key": "carissa-moore",
       "name": "Carissa Moore",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 2
      },
      {
       "key": "caitlin-simmers",
       "name": "Caitlin Simmers",
-      "country": "United States",
+      "country": "USA",
       "rank": 3
      },
      {
       "key": "gabriela-bryan",
       "name": "Gabriela Bryan",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 4
      },
      {
       "key": "erin-brooks",
       "name": "Erin Brooks",
-      "country": "Canada",
+      "country": "CAN",
       "rank": 5
      },
      {
       "key": "sawyer-lindblad",
       "name": "Sawyer Lindblad",
-      "country": "United States",
+      "country": "USA",
       "rank": 6
      },
      {
       "key": "luana-silva",
       "name": "Luana Silva",
-      "country": "Brazil",
+      "country": "BRA",
       "rank": 7
      },
      {
       "key": "lakey-peterson",
       "name": "Lakey Peterson",
-      "country": "United States",
+      "country": "USA",
       "rank": 8
      },
      {
       "key": "isabella-nichols",
       "name": "Isabella Nichols",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 9
      },
      {
       "key": "bettylou-sakura-johnson",
       "name": "Bettylou Sakura Johnson",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 10
      },
      {
       "key": "nadia-erostarbe",
       "name": "Nadia Erostarbe",
-      "country": "Spain",
+      "country": "SPA",
       "rank": 11
      },
      {
       "key": "caroline-marks",
       "name": "Caroline Marks",
-      "country": "United States",
+      "country": "USA",
       "rank": 12
      },
      {
       "key": "tyler-wright",
       "name": "Tyler Wright",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 13
      },
      {
       "key": "yolanda-hopkins",
       "name": "Yolanda Hopkins",
-      "country": "Portugal",
+      "country": "POR",
       "rank": 14
      },
      {
       "key": "anat-lelior",
       "name": "Anat Lelior",
-      "country": "Israel",
+      "country": "",
       "rank": 15
      },
      {
       "key": "alyssa-spencer",
       "name": "Alyssa Spencer",
-      "country": "United States",
+      "country": "USA",
       "rank": 16
      },
      {
       "key": "stephanie-gilmore",
       "name": "Stephanie Gilmore",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 17
      },
      {
       "key": "brisa-hennessy",
       "name": "Brisa Hennessy",
-      "country": "Costa Rica",
+      "country": "CRC",
       "rank": 18
      },
      {
       "key": "tya-zebrowski",
       "name": "Tya Zebrowski",
-      "country": "France",
+      "country": "FRA",
       "rank": 19
      },
      {
       "key": "vahine-fierro",
       "name": "Vahine Fierro",
-      "country": "France",
+      "country": "FRA",
       "rank": 20
      },
      {
       "key": "sally-fitzgibbons",
       "name": "Sally Fitzgibbons",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 21
      },
      {
       "key": "bella-kenworthy",
       "name": "Bella Kenworthy",
-      "country": "United States",
+      "country": "USA",
       "rank": 22
      },
      {
       "key": "francisca-veselko",
       "name": "Francisca Veselko",
-      "country": "Portugal",
+      "country": "POR",
       "rank": 23
      }
     ]
@@ -773,139 +773,139 @@
      {
       "key": "molly-picklum",
       "name": "Molly Picklum",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 1
      },
      {
       "key": "carissa-moore",
       "name": "Carissa Moore",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 2
      },
      {
       "key": "caitlin-simmers",
       "name": "Caitlin Simmers",
-      "country": "United States",
+      "country": "USA",
       "rank": 3
      },
      {
       "key": "gabriela-bryan",
       "name": "Gabriela Bryan",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 4
      },
      {
       "key": "erin-brooks",
       "name": "Erin Brooks",
-      "country": "Canada",
+      "country": "CAN",
       "rank": 5
      },
      {
       "key": "sawyer-lindblad",
       "name": "Sawyer Lindblad",
-      "country": "United States",
+      "country": "USA",
       "rank": 6
      },
      {
       "key": "luana-silva",
       "name": "Luana Silva",
-      "country": "Brazil",
+      "country": "BRA",
       "rank": 7
      },
      {
       "key": "lakey-peterson",
       "name": "Lakey Peterson",
-      "country": "United States",
+      "country": "USA",
       "rank": 8
      },
      {
       "key": "isabella-nichols",
       "name": "Isabella Nichols",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 9
      },
      {
       "key": "bettylou-sakura-johnson",
       "name": "Bettylou Sakura Johnson",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 10
      },
      {
       "key": "nadia-erostarbe",
       "name": "Nadia Erostarbe",
-      "country": "Spain",
+      "country": "SPA",
       "rank": 11
      },
      {
       "key": "caroline-marks",
       "name": "Caroline Marks",
-      "country": "United States",
+      "country": "USA",
       "rank": 12
      },
      {
       "key": "tyler-wright",
       "name": "Tyler Wright",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 13
      },
      {
       "key": "yolanda-hopkins",
       "name": "Yolanda Hopkins",
-      "country": "Portugal",
+      "country": "POR",
       "rank": 14
      },
      {
       "key": "anat-lelior",
       "name": "Anat Lelior",
-      "country": "Israel",
+      "country": "",
       "rank": 15
      },
      {
       "key": "alyssa-spencer",
       "name": "Alyssa Spencer",
-      "country": "United States",
+      "country": "USA",
       "rank": 16
      },
      {
       "key": "stephanie-gilmore",
       "name": "Stephanie Gilmore",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 17
      },
      {
       "key": "brisa-hennessy",
       "name": "Brisa Hennessy",
-      "country": "Costa Rica",
+      "country": "CRC",
       "rank": 18
      },
      {
       "key": "tya-zebrowski",
       "name": "Tya Zebrowski",
-      "country": "France",
+      "country": "FRA",
       "rank": 19
      },
      {
       "key": "vahine-fierro",
       "name": "Vahine Fierro",
-      "country": "France",
+      "country": "FRA",
       "rank": 20
      },
      {
       "key": "sally-fitzgibbons",
       "name": "Sally Fitzgibbons",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 21
      },
      {
       "key": "bella-kenworthy",
       "name": "Bella Kenworthy",
-      "country": "United States",
+      "country": "USA",
       "rank": 22
      },
      {
       "key": "francisca-veselko",
       "name": "Francisca Veselko",
-      "country": "Portugal",
+      "country": "POR",
       "rank": 23
      }
     ]
@@ -6336,12 +6336,13 @@
    "start": "2026-11-25",
    "end": "2026-11-29",
    "status": "upcoming",
-   "official": "https://www.worldsurfleague.com/posts/557631/el-salvador-s-la-bocana-to-host-2026-wsl-world-junior-championships",
+   "official": "https://www.worldsurfleague.com/events/2026/jun/524/surf-city-el-salvador-world-junior-championships/main",
    "roster": null,
    "roster_source": null,
    "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
    "conflicts": [],
    "results": null,
+   "wsl_url": "https://www.worldsurfleague.com/events/2026/jun/524/surf-city-el-salvador-world-junior-championships",
    "draftable": false
   },
   {
@@ -6589,139 +6590,139 @@
      {
       "key": "molly-picklum",
       "name": "Molly Picklum",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 1
      },
      {
       "key": "carissa-moore",
       "name": "Carissa Moore",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 2
      },
      {
       "key": "caitlin-simmers",
       "name": "Caitlin Simmers",
-      "country": "United States",
+      "country": "USA",
       "rank": 3
      },
      {
       "key": "gabriela-bryan",
       "name": "Gabriela Bryan",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 4
      },
      {
       "key": "erin-brooks",
       "name": "Erin Brooks",
-      "country": "Canada",
+      "country": "CAN",
       "rank": 5
      },
      {
       "key": "sawyer-lindblad",
       "name": "Sawyer Lindblad",
-      "country": "United States",
+      "country": "USA",
       "rank": 6
      },
      {
       "key": "luana-silva",
       "name": "Luana Silva",
-      "country": "Brazil",
+      "country": "BRA",
       "rank": 7
      },
      {
       "key": "lakey-peterson",
       "name": "Lakey Peterson",
-      "country": "United States",
+      "country": "USA",
       "rank": 8
      },
      {
       "key": "isabella-nichols",
       "name": "Isabella Nichols",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 9
      },
      {
       "key": "bettylou-sakura-johnson",
       "name": "Bettylou Sakura Johnson",
-      "country": "Hawaii",
+      "country": "HAW",
       "rank": 10
      },
      {
       "key": "nadia-erostarbe",
       "name": "Nadia Erostarbe",
-      "country": "Spain",
+      "country": "SPA",
       "rank": 11
      },
      {
       "key": "caroline-marks",
       "name": "Caroline Marks",
-      "country": "United States",
+      "country": "USA",
       "rank": 12
      },
      {
       "key": "tyler-wright",
       "name": "Tyler Wright",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 13
      },
      {
       "key": "yolanda-hopkins",
       "name": "Yolanda Hopkins",
-      "country": "Portugal",
+      "country": "POR",
       "rank": 14
      },
      {
       "key": "anat-lelior",
       "name": "Anat Lelior",
-      "country": "Israel",
+      "country": "",
       "rank": 15
      },
      {
       "key": "alyssa-spencer",
       "name": "Alyssa Spencer",
-      "country": "United States",
+      "country": "USA",
       "rank": 16
      },
      {
       "key": "stephanie-gilmore",
       "name": "Stephanie Gilmore",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 17
      },
      {
       "key": "brisa-hennessy",
       "name": "Brisa Hennessy",
-      "country": "Costa Rica",
+      "country": "CRC",
       "rank": 18
      },
      {
       "key": "tya-zebrowski",
       "name": "Tya Zebrowski",
-      "country": "France",
+      "country": "FRA",
       "rank": 19
      },
      {
       "key": "vahine-fierro",
       "name": "Vahine Fierro",
-      "country": "France",
+      "country": "FRA",
       "rank": 20
      },
      {
       "key": "sally-fitzgibbons",
       "name": "Sally Fitzgibbons",
-      "country": "Australia",
+      "country": "AUS",
       "rank": 21
      },
      {
       "key": "bella-kenworthy",
       "name": "Bella Kenworthy",
-      "country": "United States",
+      "country": "USA",
       "rank": 22
      },
      {
       "key": "francisca-veselko",
       "name": "Francisca Veselko",
-      "country": "Portugal",
+      "country": "POR",
       "rank": 23
      }
     ]
