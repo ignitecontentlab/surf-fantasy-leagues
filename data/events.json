@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-21T13:17:23+00:00",
- "content_hash": "a4ab2e76e319",
+ "updated_at": "2026-11-21T15:03:29+00:00",
+ "content_hash": "8857fb96f464",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-21T13:17:23+00:00"
+   "news_at": "2026-11-21T15:03:29+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -76,13 +76,13 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5"
     },
     {
-     "title": "Taiwan International Surfing Open attracts 200 surfers from 30 countries",
-     "date": "2026-11-15",
-     "source": "Taiwan News",
-     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
+     "title": "Competition Continues In Tricky Conditions at 2026 Taiwan Open of Surfing",
+     "date": "2026-11-17",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUhPYUpKdjNSQXVRMEVEdFk1bW1Ed0ZfQXllZ0xVT2Z3aURJTWc0SS1pZWltSnpqbU15d2s4ZDBXcDByR2ZQaDM5ZmRNMkNZTkt1ZjlUZnBaYXljQnd3bTB2WWg2TU44ci05dUltUWVIWmRGTEE5X1U0WlpnMDZFQU9YcHFXaHlTZ3doNTQyVkw2XzRfTzBMUTl3NlQ0aTRUeHBvZWpJT0hfdGdLVzVzekNYbVRXaG5nZ0E?oc=5"
     }
    ],
-   "news_at": "2026-11-21T13:17:23+00:00"
+   "news_at": "2026-11-21T15:03:29+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMWc5YnZrMmFiS2NGUl9pYWlTZE51a2M0SkUwR1VCZnpSM0JvUVZtMzJ1VUlNa0FvRDh3cWtsdi1EdWFZVkVMNUFzZWNweTZjNXprcnlwLTRXTXhiTVFiQ1ZUOXpVbUEycDlBcjVXNmU4amlfT01mdW01SGpIZFJhSlp0T0Q3YWFWYUFwSnhVdHBJa0JKdkhrY1ByNVpjdmNqSFZlV01PNnBEbnM2SFp2QTd0a01xV3ZCYzRHYnB1YVVnTUU?oc=5"
     }
    ],
-   "news_at": "2026-11-21T13:17:23+00:00"
+   "news_at": "2026-11-21T15:03:29+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1313,5 +1313,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-21T13:17:23+00:00"
+ "checked_at": "2026-11-21T15:03:29+00:00"
 }
