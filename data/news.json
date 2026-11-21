@@ -1,23 +1,23 @@
 {
-"updated_at": "2026-11-21T09:28:18+00:00",
+"updated_at": "2026-11-21T09:45:02+00:00",
 "sources": {
 "Surfer": 40,
 "ISA": 5,
-"Stab": 12,
+"Stab": 13,
 "Surfline": 9,
 "The Inertia": 46,
 "BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 41,
+"World Surf League": 40,
 "Surfertoday": 3,
-"In the news": 27
+"In the news": 14
 },
 "items": [
 {
 "title": "Sam McIntosh",
 "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
 "source": "Stab",
-"at": "2026-11-21T08:31+00:00",
+"at": "2026-11-21T09:29+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -74,16 +74,6 @@
 "desc": "Alelí Medina (PUR) Finds Perfection as World Champions and Rising Stars Make Their Mark Sarah Almagro (ESP) and Jose Martinez (USA) Deliver Near-Perfection to Top Prone 2 Leaderboard Morgan Galeffi (ITA) Opens Strong in ",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Last wave at school",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rZWtSRGs4Ql9GaVpIbm9scGVPQ2NkOXFhTWlORUJFS2hTTVh2QTVnTW9MQkNMSjRfNHFCN3VkMlZ3VmZna01nbnoxUHAwSXJHMXZaZURFMmpZUzJxTllHUldFdl8wbEFKYTR0MTZvRQ?oc=5",
-"source": "Noosa Today",
-"at": "2026-11-21T03:02+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "- BeachGrit.com",
@@ -180,6 +170,16 @@
 "kind": "outlet"
 },
 {
+"title": "…Lost Extends Shaper Rankings Lead After Sportiest Weekend In Recent Memory",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVEhKelZQc2VnQUZtRVhFNmpnR3N6UEU0UlU2MmZqWHIzR2VlYUVma3Q4d0Q3UlRwQnBROWtEdUxnNTB1N2lsY0I1ajM1SlZIckpneXRXMXRDQ3BzOGQwOV9VUk5pX3pzbGxpd2RJTkdpSGNPVlRyMGl6VmtFNHR1X3BLM0xBdWFORThSdG1BUUhibkpSYnYwVkdPTWsxdXdFQ1RfUzhFMXJRWllQSXFodm8xZE5SRjQtTmVHSw?oc=5",
+"source": "Stab",
+"at": "2026-11-20T20:31+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "El Niño Essentials: Big Wave Guns, Step-Ups, and Paddle Power",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcy1td3NZMXNJZGJORHZfazk3NVJWS2pUNFRrX2tjeTBZMlB3bkhnSG1BZ3JLS054bVd3STk0VmVqQ2F3bm5HWU9FeHRhYmlEUnVwb1drUTBDdWtaUWFybHhkVVlWVXh5WGVpVEJrUEYxQlRtSnVHLUhKT3FPeDVjVmdtMmN5eExHT2U0LUNhdUhuOWFsWnc?oc=5",
 "source": "The Inertia",
@@ -200,16 +200,6 @@
 "john-john-florence"
 ],
 "kind": "outlet"
-},
-{
-"title": "Mavericks | Jeff Clark’s perspective on Biggest Surf in 15 Years from his Boat",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXRiWjlvU3pkaVY0eGZoeGVsY3FwS0d4M2s3ZDJaQ1lHc1ZodGtxdm82Smt6N0xNekNramtUSUpzUmVRMXFIZkNuYVRwR0Y5NVNvZFBhN3ZEcEJKZzRwVmRlY3htQnduT0s3ZlpOeEJocV84aEdFOGNMX3RhcFNtVUNVNVBNZEJ5Y2UzMDFSbHl5X3poLUlZR204ZHkta1YxUXNOYXk2bHB3VW04?oc=5",
-"source": "Surf News Network",
-"at": "2026-11-20T19:54+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "11-Foot Great White Stalks California Fisherman Before Drone Pilot’s Life-Saving Warning (Video)",
@@ -744,16 +734,6 @@
 "kind": "outlet"
 },
 {
-"title": "Weekend Nor’easter could send Great Surf to the East Coast",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa0Z2NzZxSVM3V3lyOWd0Y0VxcHFGSkhNQnM5UEl4SkwxSTlYRTR2S3MwQTl3aFJfNHpma1NzRE5nVzhTLU54S1dRdUNVNVRnMVFCM3htbzFjMnhsV1M3MXh2QXlmMjA2NjBFU0dQZ2lDVVVrc1ZtWWFveGpTVnJ4d2JzTENaV1RfamRUNjZvaXlCNWtMZlQ5b1pCWlV1Vmt2Um9USNIBpAFBVV95cUxQa0Z2NzZxSVM3V3lyOWd0Y0VxcHFGSkhNQnM5UEl4SkwxSTlYRTR2S3MwQTl3aFJfNHpma1NzRE5nVzhTLU54S1dRdUNVNVRnMVFCM3htbzFjMnhsV1M3MXh2QXlmMjA2NjBFU0dQZ2lDVVVrc1ZtWWFveGpTVnJ4d2JzTENaV1RfamRUNjZvaXlCNWtMZlQ5b1pCWlV1Vmt2Um9USA?oc=5",
-"source": "WAVY.com",
-"at": "2026-11-19T12:29+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "The wild East Coast shores that draw surfers all year long",
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnVadUtkRW5lTE4zbW14MzVzdEFWdUZ1VUhIVk5EUEFhMHRnZVdkeTIxRVR5cTRfdkN0Ry1QWi15dm1XaGRLRUREMnhoLTl3UVJSellUbFlHZTNyRnVKaDQ1YkZGREc3RUdQTi1RT1hwWGJqV1gwenBmNFhoRjdCalBJT0tyTGZKTDZ3Mzlucmh4bFFwamx4LXFrUUhleDF5SFpPeXp3djI?oc=5",
 "source": "The Globe and Mail",
@@ -778,16 +758,6 @@
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbjZtREdzeVYwdHlUbUthRkhGZTJsaG81N0otTnVZZDFiVXZSRjlQSHdDUVdGWDdWMUk5elNwT2lVeUtJMTJwZTRTM01Pay1tU1Y5cE5fTVEwVDdXZnBRcDZwaHBMeHA0ZzgtN1FtLTdCSm84aVlLb01NQTIxVEtNMXpCNW1qWkQ0YlB4WTlhYTBxX2c?oc=5",
 "source": "Newser",
 "at": "2026-11-19T11:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Latest Wave Pool Clip Comp Wants to See Your Backside",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NRjBOVXVoY2hNYUc3eVlIRGdQT3pXNjMySjdSSnN0ODVscnpDaGl2S2VsVnNhdVQ4NlhGNlhXNTg5NnVkeS1yTmp3NjNRcF84RWVDTXgxdHdyRV9GbVFNWjRSWWVkZDMtUzNtbmRIZlg?oc=5",
-"source": "WavePoolMag",
-"at": "2026-11-19T11:31+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1148,18 +1118,6 @@
 "kind": "media"
 },
 {
-"title": "XXL MAVERICKS GOES ROUGE _ BIG AND GNARLY _ KAI LENNY",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaFhpc1Q5YjVuR2djVXV6RDFXbk5UcmdaUDRURU9tLThvYUNPLTI4bFVGemluVV91UGc4dkhYLVdsMTlPU3V6blZCZ215T1h5LXlyUTBGcE1vcG9YTVU1aUk0QlRQZmRETDd0SFp4QWhSZmlaemQ4ck82TE1tajM3MjFxeUgzLWgwQVZkUmljWQ?oc=5",
-"source": "Surf News Network",
-"at": "2026-11-18T11:10+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"kai-lenny"
-],
-"kind": "media"
-},
-{
 "title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5",
 "source": "World Surf League",
@@ -1236,6 +1194,46 @@
 "at": "2026-11-17T22:11+00:00",
 "img": null,
 "desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "California November Water Temps Are In Record Territory",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeE5IdjMwZUpNZVRqdEllakxaT0VpR2lMN3hDOWdHR2g2UF8yNVVfdzFGbWU0dFh3SVRXakJNNGUweUFlV2JaUERxTFcySnZZQXFFcXBoVXM3cWdwTGY4a1ZXeW9ENmxBZlFsM0lBYXdjUW1UejRzZGQ1aVFLTnFITWxpZ1VON0ZsenhUdF9ZbTZ2dw?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T21:06+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "California Is Going to Get Hammered by a Massive Swell Again",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbnlyY0R1b3EwV2pUM3NVM3Q3b2t0cW56ZWdnZWlVd3I1b3Fmb0FhdG5kMktCMFdWQml1SE9PUTRWTHllRTdEdTdmTW1yNlI0MDRfeHFySU5LU05BcmhSN18yMFRpM216WkN1dVlfRkxYUUJyNnJuT1RYN3ZOWE1MQlp4MEw2VFBQRHRPa2h6UHlSelNIWUhBUWNPV29ockZFZFE?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T20:59+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Cause of Death Confirmed for Fin Whale Found on Cruise Ship Bow",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlFUVGxnV0w5Ym5DT2pSWUhzSGFnTk1zckdrY2N5a1FZbkxIUlh2ckxoYnZjSnFwZmhONVJfM09ZTXJ4emxBWGMyU3pGUlVnREw3NkpUaV9XOXY5QjRENV9sV1NUWXBJZzZoUURGMm5NTEtUZ2hYc1VpSFBEazRFcldKZ0Zic0xJd0ptYVB3ZHRsTzRlSnVyWU9vTE12eWZKMHhhM3Vn?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T20:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Save La Paloma: Surf Community Rallies to Protect Historic Encinitas Theater from Potential Sale",
+"link": "https://www.surfer.com/news/save-la-paloma-theater-encinitas-petition",
+"source": "Surfer",
+"at": "2026-11-17T19:59+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTY0Nzgy/solento_fest_25_night_3_la_paloma_high_res-40.jpg?profile=rss",
+"desc": "News of a sale to convert the historic theater into a church have sparked a community petition to preserve its century-old legacy.",
 "surfers": [],
 "kind": "outlet"
 }
