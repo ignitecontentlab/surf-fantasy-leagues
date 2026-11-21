@@ -1,14 +1,14 @@
 {
-"updated_at": "2026-11-21T09:45:02+00:00",
+"updated_at": "2026-11-21T11:26:11+00:00",
 "sources": {
 "Surfer": 40,
 "ISA": 5,
-"Stab": 13,
+"Stab": 11,
 "Surfline": 9,
 "The Inertia": 46,
 "BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 40,
+"World Surf League": 37,
 "Surfertoday": 3,
 "In the news": 14
 },
@@ -17,7 +17,7 @@
 "title": "Sam McIntosh",
 "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
 "source": "Stab",
-"at": "2026-11-21T09:29+00:00",
+"at": "2026-11-21T10:28+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -170,16 +170,6 @@
 "kind": "outlet"
 },
 {
-"title": "…Lost Extends Shaper Rankings Lead After Sportiest Weekend In Recent Memory",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVEhKelZQc2VnQUZtRVhFNmpnR3N6UEU0UlU2MmZqWHIzR2VlYUVma3Q4d0Q3UlRwQnBROWtEdUxnNTB1N2lsY0I1ajM1SlZIckpneXRXMXRDQ3BzOGQwOV9VUk5pX3pzbGxpd2RJTkdpSGNPVlRyMGl6VmtFNHR1X3BLM0xBdWFORThSdG1BUUhibkpSYnYwVkdPTWsxdXdFQ1RfUzhFMXJRWllQSXFodm8xZE5SRjQtTmVHSw?oc=5",
-"source": "Stab",
-"at": "2026-11-20T20:31+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "El Niño Essentials: Big Wave Guns, Step-Ups, and Paddle Power",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcy1td3NZMXNJZGJORHZfazk3NVJWS2pUNFRrX2tjeTBZMlB3bkhnSG1BZ3JLS054bVd3STk0VmVqQ2F3bm5HWU9FeHRhYmlEUnVwb1drUTBDdWtaUWFybHhkVVlWVXh5WGVpVEJrUEYxQlRtSnVHLUhKT3FPeDVjVmdtMmN5eExHT2U0LUNhdUhuOWFsWnc?oc=5",
 "source": "The Inertia",
@@ -284,16 +274,6 @@
 "kind": "outlet"
 },
 {
-"title": "In Senegal, Black surfers want to reclaim the waves despite lack of resources",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZX1llNzZGREJTeFFZTDlUc2E0ejZzNDRuVVZEaHkyMUVUQTZzdFlxSXVLT3hMaEhpXzQzQ1pkN0dfSkZ1UjVnY0hySDdFV3loOXRaX0xaVWlmRU4za3BLaEwxYUMzb1AyQm4wX0xGWQ?oc=5",
-"source": "Boston Herald",
-"at": "2026-11-20T15:40+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "‘King of Salsa Brava’ Kurt Van Dyke Murder: Brother Slams ‘Orchestrated’ Robbery After Girlfriend’s Arrest (Video)",
 "link": "https://www.surfer.com/news/kurt-van-dyke-girlfriend-arrest-costa-rica",
 "source": "Surfer",
@@ -374,6 +354,18 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Sligo surfer Gearoid McDaid turns focus to Europeans as key pathway to LA Olympic dream after disappointing World Surfing Games",
+"link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLUtLeWxwOVRwNGxuQldIWmRGUzNicUF6bVpra3ZpOXo2X0RWN2JWMkdYSTV3STlLcHNDc3hXb3NSS09QalYxZnFncG5TaEszXzlJU1lBeE9sWElmTmVhOGtUNnhjanZ0bC1PTDJ2b3VnOGd6d2FncS1qNXE5NldLcnM0X0tuX3EzMUJCNjE1bmRubkdSQ1p5bWY1czRzcGc2TUFjWDNpV3ZSbWNNQzJUeXNkNDRFZWszUE13N3U4TGFqMDNaMS1keXdhbW9Qak5SeUF5SGU2WXFTU09waG5KeFN6V2pqUmZnTzVVZ19sbUNNdlNkTkJqY2Z1d1dCcXRsZXptMi04VVdIZ2NZTW4xU1Jn?oc=5",
+"source": "Irish Independent",
+"at": "2026-11-20T10:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"gearoid-mcdaid"
+],
+"kind": "media"
 },
 {
 "title": "Oliver Hannas Surfer Bio | Age, Height, Videos & Results",
@@ -537,16 +529,6 @@
 "surfers": [
 "kai-lenny"
 ],
-"kind": "outlet"
-},
-{
-"title": "Pipeline to Crown 2026 World Champions as Title Races Head to the Lexus Pipe Masters",
-"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2Z1b3JxQ3FnVDZGWUJRYzlGVWFhVnRuYXNCVUlqMmxPM3oyU0RNSlVMNmVJeHQ5VGpCU1pibFk2TXJNYzRmRjEtWTlZVFFBb2owOG9CazZLME5jc2xvM21pbzNuazdzMmNaRVQtUVpraS1jdlZyS0FvQ2NMTUN1bmZXLXZJS180WFRaczdBUlJ6WFMwa0o4V3VKcS11c1J5ekYxdFk0WmQtNHZsNS14S3FKdmEzYWtsS0UxSFhZRExpQkxsdGZ4dA?oc=5",
-"source": "World Surf League",
-"at": "2026-11-19T20:39+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
 "kind": "outlet"
 },
 {
@@ -1108,6 +1090,16 @@
 "kind": "media"
 },
 {
+"title": "Results for Kaiwa Foster at Haleiwa Pro LQS1,000 2026",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlp1X0RrNWFGTk5zQjJEdkhIMUR1OFJxOVlid0UxQ25HWlZkWEpILTlrMjY5bGtlX2RxUG9TWUc2ZWluNjZwdHRUR2lxSzg5TWZ2LXNhX2JmM3Zrdklza3Z1UXlpQUVfc09VVnRnZDctaE9TMFJBWkF4SWZmSWMySk0wTVpTZ1g4NjRVUTlR?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T13:47+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFlTTVl5VExQUHROZGNwOE5SREJ6amVzcENMck9wX2tpUDFmYWkyYWNEdUVTUlFnZWVWTVhaMlJFYllidThMcGd2eDdJNUJwcVpLVjZsdjRPQXBjR1VRVDFvcXJLVVduSnN5LTRmZk9KLUpJc1VhV1E0anlkbXZlY0VMNEVFVWI2VlRLcnFVRFhlaU1BbEdJaDBaUndHaTZDQzlQQUVSUG0yX0p1eWY0MWVYd21FcUI10gG-AUFVX3lxTFBmWk1ndVJEVlBEOE54ZFVXb1BvTXphQ1ZqTW0tRHRHRnZtcGtQNDhHZVlaNk84eVBxbjFOOHJuRkRUMTNNVnBwd3dLaHVyMld5azlKNEV0Q1p6UkQzNTRhNlBzNV9ZMk1iNlQtTXAzTk9QcUFrLWpjemFKbUJLek9CNmczTTNhZVZnRERrU2J0SWgyTVJhN0RIZFVBLUlPakgtNHJvQ0JsMWFGY09MeEUzWExMN2FRc1M3dXRlS0E?oc=5",
 "source": "Fox News",
@@ -1234,6 +1226,16 @@
 "at": "2026-11-17T19:59+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTY0Nzgy/solento_fest_25_night_3_la_paloma_high_res-40.jpg?profile=rss",
 "desc": "News of a sale to convert the historic theater into a church have sparked a community petition to preserve its century-old legacy.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Last Winter Sucked: Parkin Costain Still Sent It Off With a Bang(er)",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT0tjanhxSnI1YkdGZHhDMFZjZnExQ05CSUI0Ukw2bTk4UTZEZGRobURwOTNESDhsLWFoWmdFZktJbTJnLUtoRnZTZEg0V29aZHFjamtrbmtlcmhUTUhqVmZMUkhGQjQ4UkVCMjJOVTlRcDJ2alNzdEFmY3hnM2xhc3JEbnhDaG5BUk5UcTZWR3JDRUNVdG5TOTBjSnNDbjIxZjRmZA?oc=5",
+"source": "The Inertia",
+"at": "2026-11-17T19:59+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 }
