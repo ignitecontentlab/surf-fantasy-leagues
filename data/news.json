@@ -1,43 +1,73 @@
 {
-"updated_at": "2026-11-21T19:28:40+00:00",
+"updated_at": "2026-11-21T21:19:36+00:00",
 "sources": {
 "Surfer": 42,
 "ISA": 5,
-"Stab": 13,
+"Stab": 14,
 "Surfline": 11,
-"The Inertia": 45,
-"BeachGrit": 15,
+"The Inertia": 43,
+"BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 33,
+"World Surf League": 35,
 "Surfertoday": 3,
-"In the news": 24
+"In the news": 12
 },
 "items": [
 {
-"title": "Sam McIntosh",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
+"title": "Did Twin Fins Suffer A Gross Injustice Back In 1981?",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ3dvWGs2T2Rjc3Y3N0VrLTdFaGhCNkhMblFzOF9IaFVVWW02YzNDcko5bHNpTEs1Qms3MGVjZWhwY1JkanVNZmR1UzZmS3R0NVhiWWRGUGViUzhuRU5JaXhYLU1tRkhPUy1lV0s5ZjRXcEpFZ2x3Z3R1Q214UUlSM251dzVDMVRX?oc=5",
 "source": "Stab",
-"at": "2026-11-21T18:15+00:00",
+"at": "2026-11-21T19:44+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
 "kind": "outlet"
 },
 {
-"title": "Wild moment beach ‘waterfall’ floods legendary SoCal surf spot as El Niño wreaks havoc",
-"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOGZseUNqZUpXcGVScmFncWFkbU01WFJURWhZZ0lCcVRYem9DMXpNRm9zd193LVVnRUk3T2d2VEtIa0t5MGpfajhPQWQxaXNmWWVFUElXVjltbEY2NnlwZXFhRHpROWlXeGJ6Z3M1U1JfeV9UZDNLYnlmNXdrT1B1Um5mYTNsOEt1QzlPRUliNUlmMzAyUjRyN19kaGwyMEpkWm5PZUdpdWlBNm1mMUoxTXFEVUs3aWticWZ6WUdxdTNCYVktMjJxcDBkTDc?oc=5",
-"source": "New York Post",
-"at": "2026-11-21T18:12+00:00",
+"title": "Horror Thanksgiving lurks for coastal Californians: “If the flooding hits after turkey time, folk’ll be too sedated to swim”",
+"link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV084eGhCVEc1NFdmQkZNQXkxYVZwdUdGRWhLLUF5bTNieGJPTndpZGVidFJXLU1FREdUVUtsRnJsN3pUOHVJZnk2elQ1Q2pRc1ltWm45TjZ4OTUzSGJEa1BhRU41UHhmN1MzWXNiQmhXLVZ4NS1TZzFJUV9WV1YyUmF5X3EyWHJIeU8zc0U2NGY0RTRvc3BlZXE0eS1xSVc4WVFYRzAyd3lDUFYzMEdMREtsR0tBRG9YdVlNTkFlejY5MnRLY0dSVHhuV3ZlclNqaF9iRUUzRGlWM2taOG9qVXM5a1o?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-21T19:40+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "media"
+"kind": "outlet"
+},
+{
+"title": "- World Surf League",
+"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzSzFQT3JvdlZoaUFhUi15NWtOMlJuVzI0ZWNQZ0ptOFNkRTFTN3ZWeGJBRFpyMFphbk5NMjYtTEs2bjROZzY3Rm1jaHFtWlNWV2hVUUNsZzhKTFBX?oc=5",
+"source": "World Surf League",
+"at": "2026-11-21T18:41+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Coral McDuffee",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zSmx5el91WGVLY19UR0JTODI5NDNFZUV5VmtnNFM3VE9adTVFcGgwbG43ZmZMbjVvMi1KeFQxNDU2OGtKT1A5VG5sOUdMTENWbmc?oc=5",
+"source": "Stab",
+"at": "2026-11-21T18:25+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Hawaii Winter Outlook",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHV2U3dRa0lPemtFYkM3Vl9DRG04bjJtOXNnbXRxTHYwN1hOVndNR1B6dEhtM040MXFXSnNhLVZkQ3hmbHBNZDhvLUM1LTIwV2VkQXpLQjQ2S0gtZEdGcl9QUGZsMWIzclBaNWJHVFNqRE9YZV9NdTVxdnYtQmZLdkMtQVFHMm9yZkFJTkNIbk81MXZONDlrZzRTVGNZSzg?oc=5",
 "source": "Surfline",
 "at": "2026-11-21T17:49+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
+"link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUTBKT1djR2psNHhWYUU1MC1rUXBoMnNsRU9NMkppNFBVV3NoaGZ2VUNZYzVMd3dWdE1vRlc4QlZMUDVfd0ZGWUpOb29ucE1VZnNHR0hhLW1GUVpDZkJMMk5LeGxVRmFyZ0RzMmpqZEhKZ0s2WTZZNC1RbmNQXzZCcnA4cVVzWUNlMFRsYm5RVUlqMnhveE9YVmdqMUhfR1hMM0YxblhCR0E0aDlvWl8wNHBZdVQ5bXp0czVLcmpCVDkyM19UTVBNWnhkYlNoUW92RVlTcmNZelRqUGtaOWtWZ2NscFA4dw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-21T17:37+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -54,16 +84,6 @@
 "kind": "outlet"
 },
 {
-"title": "Forecast calls for king tides, strong surf and potential flooding Thanksgiving week",
-"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPekJrNjg5X096QmcxVTRkVnIwcmFZdjNhZXpvaUJ2VnJEQTJYM2NvbUVodkNIUzNYdjdTOG1mbGs0aFV1NW8wYk9HMTFYbjZWMnBVNDEwMkVJVHVXQ3kzb3BVNm1Rb1hiWEpMVExHQWs4aFh0UkxTaGtXUTAxNUVRbXRTOWV5dUdjb2ZVRGgzWWRoZXUzXzNWOHpMbmZUUThwN1dJNE9iU1hVWEpLX3hGMzNRSG5tUWRfVzlJTm5n?oc=5",
-"source": "Orange County Register",
-"at": "2026-11-21T14:29+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Aussie Surf Fight Explodes After Angry Surfer Spears Brand-New Board (Video)",
 "link": "https://www.surfer.com/news/surf-fight-australia-duranbah-video",
 "source": "Surfer",
@@ -74,6 +94,16 @@
 "kind": "outlet"
 },
 {
+"title": "Surf Fight Takes Unexpected Turn After Angry Surfer Smashes Into Man's Brand-New Board (Video)",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JZ2RWcjFVWkFqcVJtM1V3UmtXSWtCbVoyNUdLNC1yS1VqR1VBekNMZ2ZRMlNHTmdvNzJfeUVKSGJSYkN1Y1ZjVkhSNnFiYlVNR3NodWVtd2hUS21zcEw2ZWN1R3pmeWpEM2d3Wm9ieHI?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-21T14:12+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Super El Niño Swell and King Tides Threaten to Pummel Southern California Coast Over Thanksgiving Week (Video)",
 "link": "https://www.surfer.com/news/king-tide-thanksgiving-california-video",
 "source": "Surfer",
@@ -82,26 +112,6 @@
 "desc": "Exceptionally high king tides, a powerful Super El Niño swell, and already elevated sea levels could combine to flood and erode Southern California beaches.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Why the world’s top surfers are heading to Nazaré",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMFdncVc0WU5OMk9Oc1BxUFBjZndNMEJkUWR4clJKMEdEa3hHek9JaXdkSG1qTWpzSWhpTXJacnYzZWN6LTBGdG90Z2xxbEQ3cWJ2YjVuUlpMSEJZMmRqdE1PSkU4Mlh2MUFQamFtdkptTWJKUWZ4SWFGa2RLREF1Qk9CampMclNhTVd5RzF0SkRYVVR0Qk9wbU5NdEJoM3QwaW9oNm1aUQ?oc=5",
-"source": "The Portugal News",
-"at": "2026-11-21T10:16+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "FBC to Broadcast Fiji Surf Pro Live from Cloudbreak",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNHlzWVp6OE9YMGtac2NWUmF0WWtXbEhvcnhWeGZqMVh2ODFoaG52VXlTTlE1M3NrOXFRVE92WVh4dHFYdTJKcEFhNWpoTFMwZ1MtX2xodnlIMVZTSnJtMmlrRWpiVzh6ejNtQzRuNl8tdEJPMFVUMDBtd01XcmUwV1k5V2wyNF9VelhTWDljMA?oc=5",
-"source": "FBC News",
-"at": "2026-11-21T09:13+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Stage Set for Finals Day at The 2026 Taiwan Open of Surfing International QS 6000",
@@ -310,16 +320,6 @@
 "john-john-florence"
 ],
 "kind": "outlet"
-},
-{
-"title": "Mavericks | Jeff Clark’s perspective on Biggest Surf in 15 Years from his Boat",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXRiWjlvU3pkaVY0eGZoeGVsY3FwS0d4M2s3ZDJaQ1lHc1ZodGtxdm82Smt6N0xNekNramtUSUpzUmVRMXFIZkNuYVRwR0Y5NVNvZFBhN3ZEcEJKZzRwVmRlY3htQnduT0s3ZlpOeEJocV84aEdFOGNMX3RhcFNtVUNVNVBNZEJ5Y2UzMDFSbHl5X3poLUlZR204ZHkta1YxUXNOYXk2bHB3VW04?oc=5",
-"source": "Surf News Network",
-"at": "2026-11-20T19:54+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "11-Foot Great White Stalks California Fisherman Before Drone Pilot’s Life-Saving Warning (Video)",
@@ -754,16 +754,6 @@
 "kind": "outlet"
 },
 {
-"title": "Meghan Maguire",
-"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfTWdPT1hJYl9sSVhOdmJKSjVhTkd0eUVUcDRhdjZGbzN6ZEFJcWtNbkxuWVJ0VGZvODR1cjNJQjByanc5MVNvM25EQTNKRC1EUlNKbkwzMmFaWnktT2c?oc=5",
-"source": "The Inertia",
-"at": "2026-11-19T19:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "From The Inkwell To A Wave-A-Thon",
 "link": "https://www.surfer.com/news/from-the-inkwell-to-a-wave-a-thon",
 "source": "Surfer",
@@ -844,16 +834,6 @@
 "kind": "media"
 },
 {
-"title": "Weekend Nor’easter could send Great Surf to the East Coast",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa0Z2NzZxSVM3V3lyOWd0Y0VxcHFGSkhNQnM5UEl4SkwxSTlYRTR2S3MwQTl3aFJfNHpma1NzRE5nVzhTLU54S1dRdUNVNVRnMVFCM3htbzFjMnhsV1M3MXh2QXlmMjA2NjBFU0dQZ2lDVVVrc1ZtWWFveGpTVnJ4d2JzTENaV1RfamRUNjZvaXlCNWtMZlQ5b1pCWlV1Vmt2Um9USNIBpAFBVV95cUxQa0Z2NzZxSVM3V3lyOWd0Y0VxcHFGSkhNQnM5UEl4SkwxSTlYRTR2S3MwQTl3aFJfNHpma1NzRE5nVzhTLU54S1dRdUNVNVRnMVFCM3htbzFjMnhsV1M3MXh2QXlmMjA2NjBFU0dQZ2lDVVVrc1ZtWWFveGpTVnJ4d2JzTENaV1RfamRUNjZvaXlCNWtMZlQ5b1pCWlV1Vmt2Um9USA?oc=5",
-"source": "WAVY.com",
-"at": "2026-11-19T12:29+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "The wild East Coast shores that draw surfers all year long",
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnVadUtkRW5lTE4zbW14MzVzdEFWdUZ1VUhIVk5EUEFhMHRnZVdkeTIxRVR5cTRfdkN0Ry1QWi15dm1XaGRLRUREMnhoLTl3UVJSellUbFlHZTNyRnVKaDQ1YkZGREc3RUdQTi1RT1hwWGJqV1gwenBmNFhoRjdCalBJT0tyTGZKTDZ3Mzlucmh4bFFwamx4LXFrUUhleDF5SFpPeXp3djI?oc=5",
 "source": "The Globe and Mail",
@@ -878,16 +858,6 @@
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbjZtREdzeVYwdHlUbUthRkhGZTJsaG81N0otTnVZZDFiVXZSRjlQSHdDUVdGWDdWMUk5elNwT2lVeUtJMTJwZTRTM01Pay1tU1Y5cE5fTVEwVDdXZnBRcDZwaHBMeHA0ZzgtN1FtLTdCSm84aVlLb01NQTIxVEtNMXpCNW1qWkQ0YlB4WTlhYTBxX2c?oc=5",
 "source": "Newser",
 "at": "2026-11-19T11:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Latest Wave Pool Clip Comp Wants to See Your Backside",
-"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NRjBOVXVoY2hNYUc3eVlIRGdQT3pXNjMySjdSSnN0ODVscnpDaGl2S2VsVnNhdVQ4NlhGNlhXNTg5NnVkeS1yTmp3NjNRcF84RWVDTXgxdHdyRV9GbVFNWjRSWWVkZDMtUzNtbmRIZlg?oc=5",
-"source": "WavePoolMag",
-"at": "2026-11-19T11:31+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1126,16 +1096,6 @@
 "kind": "outlet"
 },
 {
-"title": "The World’s Best Surf Hotels for Design Lovers",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXWXRCRWVCWHRUU2pBMFVWbTd5VFpVbzBFUUNmU185SVI1QWtfRFNoamQ5R0VBZzcyM3h1dGh0bGhpNFY4cUhrdGhXdUIzdE9NX1gyb3E0SS14MGZzZW9WcjFpTTZZcVlqc180aGFielFNRFdoLTFKdmdhYjZBYzA?oc=5",
-"source": "Galerie Magazine",
-"at": "2026-11-18T19:37+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Jerome Brouillet Took the Most-Viewed Surf Photo Ever and He Doesn’t Want the Money",
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOVcyUHRZbU9BbnpkUi13NmpwRTlVMk5faE9MWWlVVjlmOWF2bWxGbFBnb1pocHFDTk94UHhIbG83c0RyVlN3RGtjOWtpbmw1Tnl6eEZGaWcwSC1tTENPRmpYVGx6WEtwVkhwYllRQUpSdkh3eEhYNVhVRHpCTmsxajVTQQ?oc=5",
 "source": "The Inertia",
@@ -1232,6 +1192,46 @@
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdk9ZblluRmZ3cGxnU2dyUnIwTEg1UjNtQU9kQk9UZ0N5SXZJMVc4WUF3aWFQb0hqdzFEMHFLcmZTNXROd0ZOemFUZUdNWFhaY1VSVk42WHFydk5oVWhzcWNQQUdyWlZCUEdXcUlqSGEyQVY2WFlJMVRzZEp0amNyU0pmamw0blRvZTFSMFc3X3drNFpaVHI1Z01QNnhJMGZI?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-18T04:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Training Day & Day 1",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHRfM28zWUVkcmdveGdWLTJGUW11ZlBHODJ5bGJ3Y2NkVEVwNmNqOWhPcWxhWHdOdzNSejZ5T0NPY3g1WEVrUHJKbmplY0YtYlBOT1ZDLUdQaTc1R0Z5VE1kekcyQkxGOVNVS2RodzRTU1dkRS1xUXBldlpYTEtoUHhJNDJ0NFp0WDc0LTZKbllMWTVTVEoyYWVObFFTTmc4Q2pET2ZJSHJOcXdtclFNSldfOGg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T03:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Relive Top Moments: Pacifico Surf Open Cerritos Finals Day 2025",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZmRWZXozdnhUUWxraVJpWVZaWmhTbVZzcGJJakF4VWVTRDNucU81SURuWHpOT2stUUs3cDlLbllMeWRTSk5kUVhUZWQ0VXhSR2EtU0ZfMkl6blloVUNYbGYwaFRnbnd2Um1Lck5KNzdyVjdrUXJ4ZTZMWGVKT3A3ajJmSjVwYUVZaUo2aHpqRU1Wbm8xVlE?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T02:23+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "‘Day After Tomorrow’ Climate Nightmare Looms as Critical Atlantic Current Weakens (Video)",
+"link": "https://www.surfer.com/news/day-after-tomorrow-amoc-real-life",
+"source": "Surfer",
+"at": "2026-11-17T23:10+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODE4/day-after-tomorrow.png?profile=rss&x=50&y=32",
+"desc": "Research into the Atlantic Meridional Overturning Circulation (AMOC) reveals a potential climatological catastrophe ushering in Earth’s new Ice Age.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYk1CZldlS2FpQ2JocGt0RXpEMlFiZ3ZXbl9IS2h1aks0RS1jY0NLblpJeHNFMk5Gems4VzBrc25obDVZWXVUc3YzVjhTd3FkQmFiaFhHVmZlZ3ZsU1lIN21LR1NzS1pLLTBSV3pVWmRoUGI1WVJMSFRpQXI2NndfUVZFamZscWxUdDBHR21iX3NiSVN2Ukw3YzNBemQ5SHZPeFVtZXhRSmxnUzlGZkZKYmlmV05mQQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-17T23:08+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
