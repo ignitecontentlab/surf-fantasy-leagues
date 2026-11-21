@@ -1,18 +1,50 @@
 {
-"updated_at": "2026-11-20T23:26:50+00:00",
+"updated_at": "2026-11-21T01:53:37+00:00",
 "sources": {
-"Surfer": 39,
-"ISA": 5,
-"Stab": 10,
-"Surfline": 11,
-"The Inertia": 46,
+"Surfer": 38,
+"ISA": 4,
+"Stab": 12,
+"Surfline": 10,
+"The Inertia": 45,
 "BeachGrit": 16,
 "Tracks": 0,
 "World Surf League": 41,
 "Surfertoday": 3,
-"In the news": 17
+"In the news": 14
 },
 "items": [
+{
+"title": "Sam McIntosh",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
+"source": "Stab",
+"at": "2026-11-21T01:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "And The Winner Of Our Stab High Comment Section Is…",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGgzVUQ0OHZYRVh2bl9Bc0RqXzhkWGpzZ1pKYVdZVHZyX3AzSURsZGRqTW92RG1TSEZMMXhyU003aUcteEM5YW80WGZvQ0NLTFhkQ21wcGx1UjlEaVN4di1PZF81OHkxSEJia19Pamg2a3RUcndKQ3JCTTd5blJNNjVMNnZxdjZ6?oc=5",
+"source": "Stab",
+"at": "2026-11-21T00:56+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Jack Freestone On Career What-Ifs, Calling Out Kelly Slater, And His New Fiji Part | StabMic Ep. 39",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNXFPSzJ1akZYV2c2aUdhRk4ybjhLZUptTHJZem5ocGEyNEJ2R1ZINTNKMzRxZVRpQVIxdUk0ZmZmeEJkRTIzWE5reUFrRmQtUmhDUGZiRnRXOGJ2UHUweVRkR21FbnA3bWV6a3pxb1BkdGJxR0dMVkZrQ3lvQjFUXzVhaTB6NlR0RWxHTF95RQ?oc=5",
+"source": "Stab",
+"at": "2026-11-21T00:38+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"kelly-slater"
+],
+"kind": "outlet"
+},
 {
 "title": "Disgraced former Nvidia CEO Jensen Huang revealed to have ruled trillion dollar company like brutal surf enforcer",
 "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTjRRNk5teFp1bTFJckNRTmlWWTNXNFlIV1JQY3JnZTNpS0Z1MkZMZ2FnS1FnRkF2clVnRTBPcFB2MFpFZUdjc25iMFFRX0szMmR1VmhHZ1FwZWo3Y1YtUDFqLS1pZGwzazlYUGdFc0FYYUNMb1NpbEM2bGFJX2VRRmxzM2N5OEFqd2VCX2pDeTQwM2R1M3dIeEo4U3ZkUTVNOWNGVkdhZllMRlBqZ2djN2s0bi1Kd2xGUS0yN1o2aHlGR1dHc1ROV2c2eVhQNmkyQ053UG9xX0JUaU5r?oc=5",
@@ -118,6 +150,16 @@
 "kind": "outlet"
 },
 {
+"title": "Mike's Florida Forecast Notes: Fun Surf For Many This Weekend",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUzgtUzhsTmUxeE1JVkxsZGZFMmRYdGUzN21hYnU3VlR2LW1uX1JhUXpGM2FMU1hZdDh0cFI5UjdoMHBNdV82YUMyTGpDeExxTmt6SDBKQlg3aW9aQzJjcWlSSVJHQ2I5ZHJ5VnBrZlZvOV9QSEp1Qm9RWmNWeDV5REIzT21lYUh2cjJRX3BDZDVWazRBQ2poQ1BYelBXaDdLa0dPZDBjTjdMNXlUVldqRGs2aGtnenRW?oc=5",
+"source": "Surfline",
+"at": "2026-11-20T19:12+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Custom Ski Boots: What’s the Process? And Are They Worth It?",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjRSVHZNQjdrdGVGWUNSeTlGd0VFMGIyTHd0anV6aUdUMjV3b0Y0R3lsenhGaUpiQ0s4WnVkZ01sdUFjUnF3LUZienM3TTh1d2d4ajlJNE0wV2p3UDJpcVNMbVZPTEpPUFVjMDVDOVlScklaa1E4NDJRbjM4SXN6Skk2YTg0S3ZEZzhhTWlGRFhVUGs?oc=5",
 "source": "The Inertia",
@@ -153,7 +195,7 @@
 "title": "North Pacific Cranks Out More Swell for Thanksgiving Week",
 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmVlem1ESHlpOWpNSTJPUWtKNS1QNFBqQnE2RmFUdTlfd3dmUlBBWVZFMVlnaDZYRThRQXd4NC1mOFZRTG5GSnpNeV9lQUJ4d0cwT1RrNGxFOVFBX3hBYTM4NGtmdXZaOEdoUmNpVUVFNGdZeWpnVjVXalFsSHNhQjJaOTNDMWZ4V0VNYkJuOXJZRnVVREFRRk9iU3pUU2JpeHVMTXUxZHFYaEtmVmZSWWEwVlo1QQ?oc=5",
 "source": "Surfline",
-"at": "2026-11-20T18:10+00:00",
+"at": "2026-11-20T18:11+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -260,6 +302,18 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Sligo surfer Gearoid McDaid turns focus to Europeans as key pathway to LA Olympic dream after disappointing World Surfing Games",
+"link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLUtLeWxwOVRwNGxuQldIWmRGUzNicUF6bVpra3ZpOXo2X0RWN2JWMkdYSTV3STlLcHNDc3hXb3NSS09QalYxZnFncG5TaEszXzlJU1lBeE9sWElmTmVhOGtUNnhjanZ0bC1PTDJ2b3VnOGd6d2FncS1qNXE5NldLcnM0X0tuX3EzMUJCNjE1bmRubkdSQ1p5bWY1czRzcGc2TUFjWDNpV3ZSbWNNQzJUeXNkNDRFZWszUE13N3U4TGFqMDNaMS1keXdhbW9Qak5SeUF5SGU2WXFTU09waG5KeFN6V2pqUmZnTzVVZ19sbUNNdlNkTkJqY2Z1d1dCcXRsZXptMi04VVdIZ2NZTW4xU1Jn?oc=5",
+"source": "Irish Independent",
+"at": "2026-11-20T10:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"gearoid-mcdaid"
+],
+"kind": "media"
 },
 {
 "title": "Oliver Hannas Surfer Bio | Age, Height, Videos & Results",
@@ -590,6 +644,16 @@
 "kind": "outlet"
 },
 {
+"title": "Body recovered 3 days after it was spotted in the surf near Newport",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRvOFpYWE9lYmx0THliWTYzSHVnenhPMExkR0RkYlV3U2Jramg3bVNyTGxyOGd5YzlDaGJDMTB4UjdscUR0Zk9mREdMcHdBS2xxc0RGLU02Z3poc1ExOEFkampHMzl3WWo0OUZmcXRaNHhON0ZON1ZEcU81S1J5XzhCOXdWLWtiNlpXd0xRWmhrOE85a1RWNTJLc3BIbWlQNFE0SXZ6RlE3NkwzSG8tOWoxUdIBxwFBVV95cUxPTUFWanZDamdXY2lFel9JV0pKd0lwWTJKUlFNSUhFaGdqd1lmZXhsQ3FONFF4bk41eXFqQlVFc3VLSkRYZnpjb29NaEFhdTVwSWNiNmRvMXpPMXpna3NFamNKQTNOaVE5SHFDaHgwMjBxdlJWNTJiN3NGXzA3Q0JpU0I5Szh6dkFPX21GbmlWVHlPdFhKeXpLT3YtQXR2VjJKU3NCUnM1TUpjbmFlT0dXTTRVSTdISHBxNlZIeTRSZ004bHMwcHRB?oc=5",
+"source": "OregonLive.com",
+"at": "2026-11-19T15:55+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Results - Pacifico Surf Open Cerritos 2026",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
 "source": "World Surf League",
@@ -676,16 +740,6 @@
 "at": "2026-11-19T08:00+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTI1/atmospheric-river-hits-bay-area-as-el-nino-expected-to-pummel-california-with-storms-this-winter.jpg?profile=rss",
 "desc": "An atmospheric river is overwhelming the city's combined sewer system and flooding streets, homes, and the ocean with contaminated water.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Mike's Florida Forecast Notes: Fun Surf For Many This Weekend",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUzgtUzhsTmUxeE1JVkxsZGZFMmRYdGUzN21hYnU3VlR2LW1uX1JhUXpGM2FMU1hZdDh0cFI5UjdoMHBNdV82YUMyTGpDeExxTmt6SDBKQlg3aW9aQzJjcWlSSVJHQ2I5ZHJ5VnBrZlZvOV9QSEp1Qm9RWmNWeDV5REIzT21lYUh2cjJRX3BDZDVWazRBQ2poQ1BYelBXaDdLa0dPZDBjTjdMNXlUVldqRGs2aGtnenRW?oc=5",
-"source": "Surfline",
-"at": "2026-11-19T08:00+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -892,6 +946,16 @@
 "kind": "outlet"
 },
 {
+"title": "Action-Packed Week Awaits Opening Day at Pacifico Surf Open Cerritos",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVVYdklYTUx4T0NvclQ0RnVMenl6UjBqelVZcF9uYkhWU01mb3JMb2toTXVUTG1vZGlSQUdHeldaY2V5S3FRVFpfSDFEcm9KcER0cUhFd3lBcV9XM0lhR3ZjbUlpa0RqOUpZNUlLVDJUSjIxcDlKRzB3eUZMTXowWDdDOC1abWlZWUMtbFMwSGtSUGlKQUw5Zlp3cG1Wa0VKNVZOdmd5TllIZjByV0xWNF9uaw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T20:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "The World’s Best Surf Hotels for Design Lovers",
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXWXRCRWVCWHRUU2pBMFVWbTd5VFpVbzBFUUNmU185SVI1QWtfRFNoamQ5R0VBZzcyM3h1dGh0bGhpNFY4cUhrdGhXdUIzdE9NX1gyb3E0SS14MGZzZW9WcjFpTTZZcVlqc180aGFielFNRFdoLTFKdmdhYjZBYzA?oc=5",
 "source": "Galerie Magazine",
@@ -964,16 +1028,6 @@
 "kind": "outlet"
 },
 {
-"title": "UK & Ireland Update - Brief Window of Cleaner Conditions for Some",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdjNqajN1Wk1zcW1VZHVERG1oZ2hQYjc1SndiYjRnNlp3Z2tzeEM0azVwV0hzMnhIcFI0dlo0VktvY3o5ZFVkQm5mWWtzS1lsazNBeW9yQ3ZFUmJCQXloZ19za3laczFTMnA0dUxrVjI1VnFPV3NUNWRjdERfcXBtTDRlWVFZMTYwaTdHQnNWSzhXZVRIZlBXa0RMNWRIUEhMTldsbGdfengzNEhRdTFRdmpmMzR5OE5uZWFEeFAzbXY?oc=5",
-"source": "Surfline",
-"at": "2026-11-18T16:42+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Results for Kei Kobayashi at Taiwan Open of Surfing 2026",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcS1LMTNBQ3RIcURIb0lJbWpCaGUxdXlqRHNxY3pMdmhmNXVVdk9rN2F1cGd2YTd5ME9WeU9DOEhjMkRZV3BYR0R2VkpKRWFyemN6NmJUeWNBb1ROQ1Q5UHhOZnJLSEJxaFNlUjM5aXdvQkpicjJ0LXVZZnAwRjhXdDNxZjRUNVB3ZDZ2RWVn?oc=5",
 "source": "World Surf League",
@@ -1002,16 +1056,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "Results for Kaiwa Foster at Haleiwa Pro LQS1,000 2026",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlp1X0RrNWFGTk5zQjJEdkhIMUR1OFJxOVlid0UxQ25HWlZkWEpILTlrMjY5bGtlX2RxUG9TWUc2ZWluNjZwdHRUR2lxSzg5TWZ2LXNhX2JmM3Zrdklza3Z1UXlpQUVfc09VVnRnZDctaE9TMFJBWkF4SWZmSWMySk0wTVpTZ1g4NjRVUTlR?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T13:47+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
 },
 {
 "title": "Surfing legend found stabbed to death under bed – girlfriend accused of letting thugs in to wipe him out",
@@ -1072,46 +1116,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Big waves back in San Diego’s forecast after weekend flooding",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLUNEUFd2MEhvTGlPbTRFdkNKZ1NfeHVEam0waThGS2RieFhsa3ZmSzRfejZZSlhCUXlrSU9wckZOOE5HNTlGNldGX1pUNk16WURzdTZqSXZkYU1fQVFYTzVBQkVjX2J4SUt4bDRXUlJqNm14ek5ISS1EV0tuZXBSY19CTzRZaUx5V1JKRGlwRTdrdzZ1VmZ1ZUtoMDgtYjJvZ2xnUUlpZFhOUmQwaEE?oc=5",
-"source": "KPBS",
-"at": "2026-11-18T01:39+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "5 Epic Gift Ideas For The Female Surfers In Your Life",
-"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE95ZW1XMWxVN0FLOVk3SExUTWFERXNYR2otcHZ2ak5FdjRkclNScU9VTEN0NFBPdE9abnl6RHNIaUFDX0RsV2lzTkJ1TUFvWlU2eUhCdzdCNGdSY1FDV1EydHNnelQ?oc=5",
-"source": "SURFER Magazine",
-"at": "2026-11-18T01:34+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Giant November Waves Threaten Surfers, Swimmers, and Spectators Along California’s Coast",
-"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaHZTNlU2QVBkQmN1dEloR1FVUW5KOGxUOW1FNXFtN3ZTMXhaTklGelZXb0NnMk9jTjh2Q3hybmQwb1NlaVlWUlA3TS1ZcE1KWmQ4T21fOGRNcGl1RmtQLXFWSkMxTVU2MHZVZDE2WG5qMDI2OHhlUTRzeGVMRmEweUpXcmY1ZnZtcFhVV3k4NFZfeVpmMTZSNGctRzNJLWhzUGVOcWpRSEF5djlEQ081RTBn?oc=5",
-"source": "Outside Magazine",
-"at": "2026-11-18T00:23+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Waves and wind lash Juno Beach and Jupiter coast",
-"link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVTlhV2FtWnN1SzZ2MnVYdTJ2dFltU0dVZ2hPOUMwcXl1Y1hsRFNpQmpXTldnVXRWTU50dmY2Ni1WbUlLY2UwV0UxZXVaTk9nRWJyWVQ4bE1TQUR3NjQ2YW5rQUE0S0JsQ1BiQ0ZZZ2prbE5wajdLdHNiUHVWWHY1dWF0Z1pLRWMwS0R3dmp1NXpkMkNzTEd5Qk5JUVVTSElCNXdYQ1gwcERKRlE1VDdkeDFjM0dTdjZXUVctX0RmREY3d01uaE1jMVBaNU83aE5Ed0Z4b3cxc2EtVmQ5TGRzTnY4alZvLVNkdll4X285YkRSRFBXU3pvemZDZjk3UQ?oc=5",
-"source": "The Palm Beach Post",
-"at": "2026-11-17T23:48+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "‘Day After Tomorrow’ Climate Nightmare Looms as Critical Atlantic Current Weakens (Video)",
@@ -1204,6 +1208,16 @@
 "kind": "outlet"
 },
 {
+"title": "5 Epic Gift Ideas For The Female Surfers In Your Life",
+"link": "https://www.surfer.com/gear/5-gift-ideas-female-surfer",
+"source": "Surfer",
+"at": "2026-11-17T19:33+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzk2/woman-on-hill-with-surfboard-looking-to-the-sea.jpg?profile=rss",
+"desc": "From Earth-friendly wetsuits to swimsuits and sun protection, stoke out the holidays with the perfect gift for her.",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Santa Monica Pier Fight Ends in Fatal 40-Foot Leap Caught on Video",
 "link": "https://www.surfer.com/news/man-dies-santa-monica-pier-video",
 "source": "Surfer",
@@ -1220,16 +1234,6 @@
 "at": "2026-11-17T18:06+00:00",
 "img": null,
 "desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Tijuana River Pollution Is Traceable In Southern California Air",
-"link": "https://www.surfer.com/news/tijuana-river-pollution-is-traceable-in-southern-california-air",
-"source": "Surfer",
-"at": "2026-11-17T17:29+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyNzY0/mexico-us-environment-water-pollution.jpg?profile=rss",
-"desc": "It not only travels several miles in the water, but at least 20 miles in the air.",
 "surfers": [],
 "kind": "outlet"
 }
