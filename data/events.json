@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-21T11:03:00+00:00",
- "content_hash": "3ed0df244ef7",
+ "updated_at": "2026-11-21T11:59:23+00:00",
+ "content_hash": "dc9dc66a19ff",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-21T11:03:00+00:00"
+   "news_at": "2026-11-21T11:59:23+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     }
    ],
-   "news_at": "2026-11-21T11:03:00+00:00"
+   "news_at": "2026-11-21T11:59:23+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -109,9 +109,15 @@
      "date": "2026-11-17",
      "source": "Daily Dispatch",
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMWc5YnZrMmFiS2NGUl9pYWlTZE51a2M0SkUwR1VCZnpSM0JvUVZtMzJ1VUlNa0FvRDh3cWtsdi1EdWFZVkVMNUFzZWNweTZjNXprcnlwLTRXTXhiTVFiQ1ZUOXpVbUEycDlBcjVXNmU4amlfT01mdW01SGpIZFJhSlp0T0Q3YWFWYUFwSnhVdHBJa0JKdkhrY1ByNVpjdmNqSFZlV01PNnBEbnM2SFp2QTd0a01xV3ZCYzRHYnB1YVVnTUU?oc=5"
+    },
+    {
+     "title": "The key points of the WSL Junior World Championship taking place in La Bocana",
+     "date": "2026-11-17",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTmg5dlZEeXFwcHE1QlBqM1RSc3V2SXozakVXc1FuSU1zLVhfU0RUYXNDWXBKNWhmRTlIZU52RW1zU2NRaG5aTzJpRXo5Zy1oSl8wSFdLRUd4SGhpanJfMnBORkxtQmg0TllDQXFfVHRsdlpVbFNTMEIwSUVjOWF4VjdLU2tEMFhTcExkOUdmelRqOUVYX0VDazRFR1U0SXNYSUlRVkd2dG1USDdER0k4dlpsVDlSTzA?oc=5"
     }
    ],
-   "news_at": "2026-11-21T11:03:00+00:00"
+   "news_at": "2026-11-21T11:59:23+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1319,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-21T11:03:00+00:00"
+ "checked_at": "2026-11-21T11:59:23+00:00"
 }
