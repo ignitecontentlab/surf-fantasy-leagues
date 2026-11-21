@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-21T04:10:44+00:00",
+ "updated_at": "2026-11-21T04:40:09+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -4787,46 +4787,39 @@
       "rank": 2
      },
      {
-      "key": "bella-kenworthy",
-      "name": "Bella Kenworthy",
-      "country": "United States",
-      "wsl_id": "12652",
-      "rank": 3
-     },
-     {
       "key": "kana-nakashio",
       "name": "Kana Nakashio",
       "country": "Japan",
       "wsl_id": "10453",
-      "rank": 4
+      "rank": 3
      },
      {
       "key": "lucy-darragh",
       "name": "Lucy Darragh",
       "country": "Australia",
       "wsl_id": "16897",
-      "rank": 5
+      "rank": 4
      },
      {
       "key": "sanoa-dempfle-olin",
       "name": "Sanoa Dempfle-Olin",
       "country": "Canada",
       "wsl_id": "13303",
-      "rank": 6
+      "rank": 5
      },
      {
       "key": "sol-aguirre",
       "name": "Sol Aguirre",
       "country": "Peru",
       "wsl_id": "12590",
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "sophie-mcculloch",
       "name": "Sophie McCulloch",
       "country": "Australia",
       "wsl_id": "5181",
-      "rank": 8
+      "rank": 7
      },
      {
       "key": "alys-barton",
@@ -4834,7 +4827,7 @@
       "country": "United Kingdom",
       "wsl_id": "12676",
       "out": true,
-      "rank": 9
+      "rank": 8
      },
      {
       "key": "amuro-tsuzuki",
@@ -4842,7 +4835,7 @@
       "country": "Japan",
       "wsl_id": "8035",
       "out": true,
-      "rank": 10
+      "rank": 9
      },
      {
       "key": "anon-matsuoka",
@@ -4850,13 +4843,21 @@
       "country": "Japan",
       "wsl_id": "12584",
       "out": true,
-      "rank": 11
+      "rank": 10
      },
      {
       "key": "arena-rodriguez",
       "name": "Arena Rodriguez",
       "country": "Peru",
       "wsl_id": "8920",
+      "out": true,
+      "rank": 11
+     },
+     {
+      "key": "bella-kenworthy",
+      "name": "Bella Kenworthy",
+      "country": "United States",
+      "wsl_id": "12652",
       "out": true,
       "rank": 12
      },
@@ -5399,7 +5400,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (135 men, 71 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (135 men, 72 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "alister-reginato": {
@@ -5998,6 +5999,10 @@
      "place": 33,
      "points": 265
     },
+    "bella-kenworthy": {
+     "place": 8,
+     "points": 4745
+    },
     "brisa-hennessy": {
      "place": 33,
      "points": 265
@@ -6267,42 +6272,37 @@
      "points": 265
     },
     "alana-lopez": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "anat-lelior": {
-     "place": 8,
-     "points": 4745,
-     "live": true
-    },
-    "bella-kenworthy": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "kana-nakashio": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "lucy-darragh": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "sanoa-dempfle-olin": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "sol-aguirre": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "sophie-mcculloch": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     }
