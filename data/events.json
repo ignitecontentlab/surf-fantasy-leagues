@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-21T07:29:58+00:00",
- "content_hash": "0dd67bbf9d67",
+ "updated_at": "2026-11-21T09:03:30+00:00",
+ "content_hash": "91c5d271b1af",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-21T07:29:58+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OVGVfUHBMa2hvc1A4TUtpcU9PLWdaekRWdDhIS0J2WG45MUh3WFd0TmJnaWZuVE5SWkEwb0x6dnVXdVB6NVV2SExuY0MyN0czQ0VmOQ?oc=5"
     }
    ],
-   "news_at": "2026-11-21T07:29:58+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -103,15 +103,8 @@
    "facts": "Opening ceremony Nov 19 at DSRT Surf. Competition Nov 20-22. Live stream on isasurf.org.",
    "source": "https://isasurf.org/info-for-event-participants-2026-wpsc/",
    "status": "live",
-   "headlines": [
-    {
-     "title": "He lost his legs as a baby, but SA’s para surfing champ now flies our flag in the US",
-     "date": "2026-11-07",
-     "source": "News24",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeWM1LUFYWHFEb0tuU2FGNGVZWGNGU2xzdlJzeWNEQllkRWIxU0R5a1hUWEdzR2dRX1Jjd2FwdllldGNISWpQdS1qLWRCSU5WdFluRFhtcEZuVDE4VXhGUXhrRHdHV3RCaUpZQ3pScXBTNEVHb0pwYkJMbE04YmtpbDBNemRlYkMxeTlyRjFtMjRJVGNvZVo5Nk93RU9BRDVtOEMtN3FVVWpzYlFta3NPVnRVTHp0TjdzM196ZWRjS283TzhmUFE0V1JfSVZpQ0NlSU9aeEVhREM?oc=5"
-    }
-   ],
-   "news_at": "2026-11-21T07:29:58+00:00"
+   "headlines": [],
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -136,16 +129,16 @@
    "status": "window",
    "headlines": [
     {
+     "title": "An XXL Swell Will Hit Nazaré This Week",
+     "date": "2026-11-17",
+     "source": "The Inertia",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ieU9UeU9DUVVoN3UtS3hpSEJKOGE3YUN5VWVJTGUtcE9RYko1RXFEckd1VEU1bnMzUmttNWdHQTViRG9rNHVESzFJdHFKR3MxWkZ1R0h3eFZ6OUU3ZUNucm9XVXhKU3QwS2JraWVyX1k?oc=5"
+    },
+    {
      "title": "The world of Big Wave is ever-evolving, and Team Von Rupp/Roseyro remains at the forefront",
      "date": "2026-11-13",
      "source": "World Surf League",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHp5UmlIWjE4RG5vOFp1M0Q5TWZXV3RVOURNSHNya1RvSWl1ZjJtY21sbnJMakhFd3BVSElNZzl4cWZJd09UY18wb21uS0NfNjVwOGl1NU1jZ2lHdXJPbEpGQzBKc0RWOEZock4zMjg4RURvWUpYZ3lRd0lnUXBEcldCNER0bF9MOUg2XzJ1bkxOM19maWptZkRNcGlrTEVoWGVUUjNwX1RfX3lLTEhVNDJxb3dRQQ?oc=5"
-    },
-    {
-     "title": "Inside the Science of Surviving the World's Biggest Waves",
-     "date": "2026-11-13",
-     "source": "Sportzhub",
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFNMUXNwQVdUMjVTQ2R3V2ktWER4el8tLVN6cGRxTVlKUzF1dnd3YkpKeXpFZHFwNXpJNVVDVS1QVEZZVGdsbzBJUUtXM0wtT1F3cnFZVUVLVUtZeWIwbDNXYVZDbkNoS1R0VnB2RUZxbllncWtPaGxoQkJsTUFBSkJxRHJ3NTVfS0RIOE5LYjZLR0RxbGZ6cl9EVQ?oc=5"
     },
     {
      "title": "What it takes to survive the world's biggest waves",
@@ -160,7 +153,7 @@
      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JZ3ByczdoQTZBcE4tdkFnZ204aXpsX1VvUF9mUzZIejU3RDUtTmwyM2FFQkVIeFNkaVpIMlZURDJBR2JKSmR4Q0pRd3M5ekNQTFRNRklUM1d2YlZnZ2U2NmxtRjdpTTl3RmRCMWJuemx3aTVB?oc=5"
     }
    ],
-   "news_at": "2026-11-21T05:12:01+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -193,19 +186,19 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcUItMF84WDlMSW9fcUJqaGFNdWVPM1FmTUFxY0pWMVU5LTZodFVZTERpbHpoY1N3OF9zZXZOSU5NY283d3NhUjJxOThOWWNWMUFfNnQ1V0VQYy1weTYzYWY1eXFwdmJ4UDFEWGI0RnNoa294MU9FdDlMMjUwTXRnSUg1WERVYUN6T0dQcEE5N3FBZXBndmlpWGVnc1R5dGM4VEt1QXhnSWM2VmtFLVNr?oc=5"
     },
     {
+     "title": "All the activities surrounding the Surf City El Salvador WSL World Junior Championships",
+     "date": "2026-11-17",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRC1KbThJQnFQU3V5dktVS3hrb2UyUndSckxmQi1yQ3BTbXFOdmlucDViWDRkcTM2VWNTWXdpZXljV0lhd2VzeEVCOG9kLUtKS3NTT2JOcUFzTDM4aUlGY2cyN3FCNDNjQlVvQzFXZU9wTkhvUVdpRnVSRGpPMlU3MmFlRjJYdGc5MEloZ0xUcXBQMzJZYU83aFhDa3NsNFA5dm42MzNtU3hEYVJucE92enZ3?oc=5"
+    },
+    {
      "title": "Junior Pro Taghazout Bay Set To Kick Off Tomorrow",
      "date": "2026-11-10",
      "source": "World Surf League",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObmNnYUFRWUlEOWhMcS0taFlJVWlqU0E1SzBqbW85UUVpUmdndzZHQ3F2WXJsLTZZdTQxdjcxSEV4ZDl3NDJpOUxfeDFnNG5vaGh2aUhvMHQ1RHB0d3MyVU9sRjVSQjU4SFVFZndBTDlROXFBaGVWUWZaejZkTEZUc2ZpSUlnZFRxdmNHVS15U21zYy1HdXMtblNR?oc=5"
-    },
-    {
-     "title": "World Junior Surfing Qualification on the Line at Morocco's Famous Anchor Point",
-     "date": "2026-11-10",
-     "source": "Sportzhub",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUGxzN2VweDJnS0VJTm1XX0pCejVEQkVyZTVrcV9FOGRubk1kMTdWNGp5NllwV2NWY25ReDV4WmFJb0tRN3Z5LUVzYmdjNmJjM3QyZnM3R3ZlTFJaanBQVVhVMTVvOG56ajJXZ2Z2Q1lBYnpvRzBhQ2VwV3BUOHhIMDFMalJ0WGVockNkNWR5dEU5TW9VN2FseWl4eG50STk2YTkwVjdxU01BVzRrRVdGdDRMSV9JOTVB?oc=5"
     }
    ],
-   "news_at": "2026-11-21T05:12:01+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -571,7 +564,7 @@
    "watch_note": "",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-21T05:12:01+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "wsl-ct-2026-lexuspipemasters",
@@ -610,15 +603,9 @@
      "date": "2026-11-17",
      "source": "BeachGrit.com",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlpWXQwQ2s1QnN4ZExmSTl1ZHM1eXZGQ2JDVUlWY1pmQWZHX3BuZHhadDczV0Y5aUxUVFFWQTBBbjZlZTVNaDQwWm4wOGZpVV80V0JvS2Ewd2dDbHY4aTllek9tU0p2OHp5WUlqWVM4ekZjVVF6ZE01NzNnVURCUEJjQ3NIMVJtVlByVFVHRG4ydUV5RVRnTzZVMjFLeDVmVGl4R3Y4NA?oc=5"
-    },
-    {
-     "title": "Pipe Masters 2026 in Hawaii: Dates and How to Watch",
-     "date": "2026-11-07",
-     "source": "Pixidia",
-     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SZWZMMEJaSENWTHBiY3ZaM3p4M3liNjVONHlGMG0yeXBTWWRKVEFkdVhEOVN2OFR5TW5PX3h1OUtESTJoNWJwdFNScEJ6WlFUVnBLSUtjY0tVbnF5ODBWamREVTZrUG0taEFj?oc=5"
     }
    ],
-   "news_at": "2026-11-21T05:12:01+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "qs-pipe-2027",
@@ -637,7 +624,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-21T05:12:01+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -655,7 +642,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-21T05:12:01+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "la28-surfing",
@@ -1230,6 +1217,18 @@
    "status": "completed",
    "headlines": [
     {
+     "title": "Results for Yago Dora at Philippines Pro 2026",
+     "date": "2026-11-13",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYkdUNlkzV2kzYWt5d1U3TzZEVlJPSnFXcWRudkpzcjBDQi1lWlh3dWctaHpfNklwRUxybDdyYVRnVFV4QWFzWTB4bkZrWkRmQ2RYU2l0MGVHZFZxcjRFTFI3QjctNjdudXptTm9pUFNYUFI4SDJhQU1HSEFIb0JTbXQ3VDAyTmR2?oc=5"
+    },
+    {
+     "title": "Results for Marco Mignot at Philippines Pro 2026",
+     "date": "2026-11-12",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHdVVG5LaTJYdUVWMFpVUlhtdFR2dXlydkRfOVJLUWxjZkJvUUkzMDZzZXJ6RnFCRDN3elREOGFFaFBTYnUzV3RJUFpjTU16ekhhVnc2cko3eXgwODRVWnNmWGJLdjhMVFRZTzduLUQ0SGEyQlozNUd4azR5eDlEYUl4d2FERkJRTnkxOA?oc=5"
+    },
+    {
      "title": "Snaketales Philippines Pro presented by Philippine Sports Commission 2026",
      "date": "2026-11-11",
      "source": "World Surf League",
@@ -1240,21 +1239,9 @@
      "date": "2026-11-08",
      "source": "Facebook",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNemNPUjItTzgwTmM5c3RjU3h5M2tSWHRwTW1mS1U0dnVkclNZUThXdUhjSk5hU0dhUDVaQ2ZCOFF0ZE9LejRsMmwyN3ZvOHo4MUZzZmtTNE5CelI3U2xMWUlJQl9reUlyM2kyNFo3Njlpb0c5MlhvVVpjNlpJWFhBaWg2RkFQcVVUWFBGWXZabkw4UVVRRFVlUmgtX2NveXlUczBoODFCeVprLTRrZHluNGVaYmpvekF1eTNqVXFuWFJoVExQSjdMMFk2NlRDeGNQbWU5TWdRdVp3UkFF?oc=5"
-    },
-    {
-     "title": "Caity Simmers and Gabriel Medina Win Inaugural Philippines Pro Presented by the Philippine Sports Commission",
-     "date": "2026-11-07",
-     "source": "City Life Org",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSlhjeDYyNjdzSUtMNl9EalJDMmZqQmJJM3VtSVR3MEVnWVFBNzNxWnloandMQllxTUhLRFVtOVJ2ZDZfUkJuc2EtejNjTy16ZEVlUERBeEpyWWRuZDBYcVhtd041ZDgta3ZtMW4tQlJUZHY2U1VVT0VONzZmU3c4VlJPZ0FxRk1LN3IzSjlQdGlxaElVZElFckd2VmVfQThHZVM4a2NPYnpzUXJvOWM1X2Q1LXFLNmNlRk5IcXE0YUZ1T0k3emtXOE5fdWtkSXgyd1pCVlNZQzFNNzZk?oc=5"
-    },
-    {
-     "title": "Gabriel Medina and Caity Simmers Win Philippines Pro, Shake Up World Title Race",
-     "date": "2026-11-07",
-     "source": "Teton Gravity Research",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OUjhNZGN1cjlkRmxpeGZuMzRqZkYzSjk5YUZ0SlJ5TWdONGEzdUpIR3hkMTctSGpoQ0VDMU9qT1lUanBQek5WUThSbmpTSGZHeFdIWXhxNUtUVGwtVUdmaXpZek9LSUJQdmlCbHhGRFhjTGRpZU1ORw?oc=5"
     }
    ],
-   "news_at": "2026-11-21T05:12:01+00:00"
+   "news_at": "2026-11-21T09:03:30+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1325,5 +1312,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-21T07:29:58+00:00"
+ "checked_at": "2026-11-21T09:03:30+00:00"
 }
