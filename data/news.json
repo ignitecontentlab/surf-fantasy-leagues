@@ -1,18 +1,48 @@
 {
-"updated_at": "2026-11-21T05:35:37+00:00",
+"updated_at": "2026-11-21T07:51:33+00:00",
 "sources": {
-"Surfer": 38,
+"Surfer": 39,
 "ISA": 5,
 "Stab": 12,
 "Surfline": 10,
-"The Inertia": 45,
+"The Inertia": 46,
 "BeachGrit": 17,
 "Tracks": 0,
-"World Surf League": 42,
+"World Surf League": 40,
 "Surfertoday": 3,
 "In the news": 15
 },
 "items": [
+{
+"title": "Sam McIntosh",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
+"source": "Stab",
+"at": "2026-11-21T07:33+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Andy Jones on Cold-Water Surfing, Eco-Restoration, and His New Finisterre Film",
+"link": "https://www.surfer.com/culture/andy-jones-finisterre-skydiving-film-interview",
+"source": "Surfer",
+"at": "2026-11-21T07:03+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTY1/skydiving_point.jpg?profile=rss",
+"desc": "In an era dominated by surf cams and viral clips, Andy Jones finds joy and purpose by finding deeper connection to the coast he calls home.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Why This Canadian Cold-Water Surfer Is Searching for More Than Just Perfect Waves",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSkx5TndTVmpQdzR2Ml8zNXIzOFhsSWFyeWd6cGZOSV82S1huRWRpR0l3U2ZZQVBUckJoZHNNMFk4WHlEUWhaa216c1dXVl9ub0VkUmtvaTlHWjFHZWJGZ1dMb2VqTEJRQ3JzNVFha2gzWUVleUdHbU8zd1FucmNUQ0tVVQ?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-21T07:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "Did World Surf Champ Filipe Toledo Take Up Brazilian Jiujitsu To Humiliate His Online Bullies?",
 "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUHN4ZXR2UWxqUk1yMWV2NWQ5bTJXTm5nTVVtSWRXN3J3anZXUjhabkFHUzE4LXllcDduRnpqY296ZlNiZ0lCVUNGNFZBcmljYzdMV1lxdGlBYTJ6VDV1Z2ttVkVDN2xTa05Ld0I0bEt4MWhPUGNLSURCcVlRVmJ5RnVXMjJleWJ4Q3ZwYllDVnJkZmFJWmtMc3kyRW9JczBTSUo3bWhWclNqbWNSbUc4UkpFd3pQS2NmdzZXUEdvZ2t5dw?oc=5",
@@ -23,16 +53,6 @@
 "surfers": [
 "filipe-toledo"
 ],
-"kind": "outlet"
-},
-{
-"title": "Sam McIntosh",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
-"source": "Stab",
-"at": "2026-11-21T04:38+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
 "kind": "outlet"
 },
 {
@@ -310,6 +330,16 @@
 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNDk1aVR4alBjaEVHNzFxNC1WTkdEWUtDcjQ0UjhaS1V2NzRCQzg2WUNHbF92UC1ETEVGeFU4aUpjdmdMSGlfeHVXV3dGNjJEMXBoV1dMcXBmN0R2bVdra3JhNFZ1S1dhbHc1TWhWZ3N4RHBFSndoT0xvTy14QWRfMDR4Y21obDZKVFpMZVR5YXJLTGM5WGk4MWE2bDQtWjR5ODhkTnVfMWpnTTRRUnQ5VGxpV3ZjWlFWS05nTXFFdVczekh6Z0J4Yg?oc=5",
 "source": "World Surf League",
 "at": "2026-11-20T13:09+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 7",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTFpNUxqakVUeWpTNUtYNGJ4ZnkyNkNkc21ZcmJTNkJ5bS1DNG5TT0dmZUlBYlRxZnJlNFpuZ0h6M2dla2VBN0htVHB1V1FYUlB4dWtaSlZmZTE1ZmVYSmtnMkctdFAtckVGTFdfVjNJLV9oMjF1VEUxc1FES1Uybm13Z2o0SVdveXdMQlFMVG9NTmJhVGJ1c3RfM3JWUQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T12:20+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -654,16 +684,6 @@
 "kind": "outlet"
 },
 {
-"title": "Body recovered 3 days after it was spotted in the surf near Newport",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRvOFpYWE9lYmx0THliWTYzSHVnenhPMExkR0RkYlV3U2Jramg3bVNyTGxyOGd5YzlDaGJDMTB4UjdscUR0Zk9mREdMcHdBS2xxc0RGLU02Z3poc1ExOEFkampHMzl3WWo0OUZmcXRaNHhON0ZON1ZEcU81S1J5XzhCOXdWLWtiNlpXd0xRWmhrOE85a1RWNTJLc3BIbWlQNFE0SXZ6RlE3NkwzSG8tOWoxUdIBxwFBVV95cUxPTUFWanZDamdXY2lFel9JV0pKd0lwWTJKUlFNSUhFaGdqd1lmZXhsQ3FONFF4bk41eXFqQlVFc3VLSkRYZnpjb29NaEFhdTVwSWNiNmRvMXpPMXpna3NFamNKQTNOaVE5SHFDaHgwMjBxdlJWNTJiN3NGXzA3Q0JpU0I5Szh6dkFPX21GbmlWVHlPdFhKeXpLT3YtQXR2VjJKU3NCUnM1TUpjbmFlT0dXTTRVSTdISHBxNlZIeTRSZ004bHMwcHRB?oc=5",
-"source": "OregonLive.com",
-"at": "2026-11-19T15:55+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Results - Pacifico Surf Open Cerritos 2026",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
 "source": "World Surf League",
@@ -690,26 +710,6 @@
 "at": "2026-11-19T13:15+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTMx/shortyhead_by-wade-carroll29.jpg?profile=rss",
 "desc": "Watch Mikey February trade his signature twin fins for a high-performance thruster in his new film and Channel Islands board launch.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Is This About to Be the Best-Selling Surfboard of the Year?",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUUpCQzR2RE85VkNkc0o4bmhNRVgxWlBUMXcyLTlqeXdONW5BU1lYRVdkUEc3b3NUYXhVUXk5aVlMQVlJdWV4TTRJa1Q1UW0xLXdVTnd6d3l0X0J4QjgxYmlkY3ItdXRra0xzV2s2VEYxRF9VbU1qLVpMWGQ1RDZydmJPcTZ4UUtDYkN6dy1lbw?oc=5",
-"source": "SURFER Magazine",
-"at": "2026-11-19T13:15+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 6",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVjFTVk9kZHBQMmVtRUpmbGhLNy1HMFFmajl5ZWRTMXN2TjBVeVNFczlXT2NoNnRQQzJ3a09PRC1qYlAxMkt6NXBqel80bm5oTGVYRzhnQXlVWmljd3loeGVNazBOZGJCRlo4SkVhRFJFLXNIT2FpWVBuYlJ2ODhudDZuZ3FaVkxGa3NQM2lrbzg0UDlZV3hIdm9nTzBRZw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-19T12:30+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -824,18 +824,6 @@
 "kind": "media"
 },
 {
-"title": "On ‘psychotic' day of Mavericks big-wave surfing, Kai Lenny flies into another realm",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjBjNzEtcEFQcjM0aVI3cG5lZzBHN204MnF6TDNPbUhLakN5bkRDNTFoZ1FRcllnZ2RTT1EtVTJEZzJ4NWhrUU94RXZoQzBtR2VZU1V0OXJzTi1FVnhFeUxFLTVGS255Z25MZ3Y1STFIamRUSXBWcVFwX2tTTnNOLUNuc2xBTElh?oc=5",
-"source": "Yahoo Sports",
-"at": "2026-11-19T01:35+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"kai-lenny"
-],
-"kind": "media"
-},
-{
 "title": "Results for Inigo Madina at ABANCA Pantin Classic Galicia Pro 2026",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNczZqYTN4aEg2S0I5TnN2QXlMZzlTbW9McURBZ0M4WE1mckNZRjJJZ0RuQnUxalVBR29xVVFmdFRCeUI2aUxwSk5VbXVEaW9lTjlIa0ZncUZ1Vl9LektXVjBjeTJXN2ZtVTlrRTA2Y3prUjVNX3ZXaE1KeDhFbzVTYUJPRWlFc3B4N0VST3NB?oc=5",
 "source": "World Surf League",
@@ -844,6 +832,18 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "On ‘psychotic’ day of Mavericks big-wave surfing, Kai Lenny flies into another realm",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQamxQVktkS0xwQkU3bXVHemFGT3V2QWxFczdBTUgxUGdYQy1PdTJFWGs4VGIwMlkycjZpdUhMdG5aSExEdU1EZ3hVNENfN2I5X0dzeWp0LXlHMzlhRFFBRXVRNEZkRU1vNVhPZWVfUEp2bjQ2eEVHVUtnaWpGMVdTTFFWOHRfeXBhOTYzQWRUREZNSWFjZGpwdUVEU1hfc3lKd25lMm1EUzVEWFZRbEhV?oc=5",
+"source": "San Francisco Chronicle",
+"at": "2026-11-19T00:38+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"kai-lenny"
+],
+"kind": "media"
 },
 {
 "title": "How Red Bull’s big wave athletes train for Nazaré and the heaviest water in the world",
