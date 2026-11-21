@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-21T07:30:25+00:00",
+ "updated_at": "2026-11-21T07:59:40+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -3642,39 +3642,32 @@
       "rank": 1
      },
      {
-      "key": "joel-vaughan",
-      "name": "Joel Vaughan",
-      "country": "Australia",
-      "wsl_id": "10988",
-      "rank": 2
-     },
-     {
       "key": "mateus-herdy",
       "name": "Mateus Herdy",
       "country": "Brazil",
       "wsl_id": "7551",
-      "rank": 3
+      "rank": 2
      },
      {
       "key": "taj-lindblad",
       "name": "Taj Lindblad",
       "country": "United States",
       "wsl_id": "12595",
-      "rank": 4
+      "rank": 3
      },
      {
       "key": "dakoda-walters",
       "name": "Dakoda Walters",
       "country": "Australia",
       "wsl_id": "11363",
-      "rank": 5
+      "rank": 4
      },
      {
       "key": "lukas-skinner",
       "name": "Lukas Skinner",
       "country": "United Kingdom",
       "wsl_id": "13999",
-      "rank": 6
+      "rank": 5
      },
      {
       "key": "alister-reginato",
@@ -3682,7 +3675,7 @@
       "country": "Australia",
       "wsl_id": "10874",
       "out": true,
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "alonso-correa",
@@ -3690,7 +3683,7 @@
       "country": "Peru",
       "wsl_id": "1551",
       "out": true,
-      "rank": 8
+      "rank": 7
      },
      {
       "key": "caleb-tancred",
@@ -3698,7 +3691,7 @@
       "country": "Australia",
       "wsl_id": "8246",
       "out": true,
-      "rank": 9
+      "rank": 8
      },
      {
       "key": "charly-quivront",
@@ -3706,7 +3699,7 @@
       "country": "France",
       "wsl_id": "2650",
       "out": true,
-      "rank": 10
+      "rank": 9
      },
      {
       "key": "crosby-colapinto",
@@ -3714,7 +3707,7 @@
       "country": "United States",
       "wsl_id": "9853",
       "out": true,
-      "rank": 11
+      "rank": 10
      },
      {
       "key": "deivid-silva",
@@ -3722,7 +3715,7 @@
       "country": "Brazil",
       "wsl_id": "2760",
       "out": true,
-      "rank": 12
+      "rank": 11
      },
      {
       "key": "dimitri-poulos",
@@ -3730,7 +3723,7 @@
       "country": "United States",
       "wsl_id": "12717",
       "out": true,
-      "rank": 13
+      "rank": 12
      },
      {
       "key": "douglas-silva",
@@ -3738,7 +3731,7 @@
       "country": "Brazil",
       "wsl_id": "8902",
       "out": true,
-      "rank": 14
+      "rank": 13
      },
      {
       "key": "guilherme-ribeiro",
@@ -3746,7 +3739,7 @@
       "country": "Portugal",
       "wsl_id": "8895",
       "out": true,
-      "rank": 15
+      "rank": 14
      },
      {
       "key": "hayden-rodgers",
@@ -3754,7 +3747,7 @@
       "country": "United States",
       "wsl_id": "15082",
       "out": true,
-      "rank": 16
+      "rank": 15
      },
      {
       "key": "hiroto-ohhara",
@@ -3762,7 +3755,7 @@
       "country": "Japan",
       "wsl_id": "1484",
       "out": true,
-      "rank": 17
+      "rank": 16
      },
      {
       "key": "ian-gentil",
@@ -3770,7 +3763,7 @@
       "country": "Hawaii",
       "wsl_id": "2618",
       "out": true,
-      "rank": 18
+      "rank": 17
      },
      {
       "key": "ian-gouveia",
@@ -3778,13 +3771,21 @@
       "country": "Brazil",
       "wsl_id": "1089",
       "out": true,
-      "rank": 19
+      "rank": 18
      },
      {
       "key": "jett-schilling",
       "name": "Jett Schilling",
       "country": "United States",
       "wsl_id": "9448",
+      "out": true,
+      "rank": 19
+     },
+     {
+      "key": "joel-vaughan",
+      "name": "Joel Vaughan",
+      "country": "Australia",
+      "wsl_id": "10988",
       "out": true,
       "rank": 20
      },
@@ -5405,7 +5406,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (137 men, 75 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (138 men, 75 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "alister-reginato": {
@@ -5463,6 +5464,10 @@
     "jett-schilling": {
      "place": 9,
      "points": 3320
+    },
+    "joel-vaughan": {
+     "place": 6,
+     "points": 4745
     },
     "jordan-lawler": {
      "place": 33,
@@ -5617,7 +5622,7 @@
      "points": 1330
     },
     "reef-heazlewood": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "sam-piter": {
@@ -5657,7 +5662,7 @@
      "points": 265
     },
     "dom-thomas": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "dylan-groen": {
@@ -5957,32 +5962,27 @@
      "points": 265
     },
     "jarvis-earle": {
-     "place": 6,
-     "points": 4745,
-     "live": true
-    },
-    "joel-vaughan": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "mateus-herdy": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "taj-lindblad": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "dakoda-walters": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "lukas-skinner": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
