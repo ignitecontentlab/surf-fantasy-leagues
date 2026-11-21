@@ -1,25 +1,35 @@
 {
-"updated_at": "2026-11-21T07:51:33+00:00",
+"updated_at": "2026-11-21T09:28:18+00:00",
 "sources": {
-"Surfer": 39,
+"Surfer": 40,
 "ISA": 5,
 "Stab": 12,
-"Surfline": 10,
+"Surfline": 9,
 "The Inertia": 46,
-"BeachGrit": 17,
+"BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 40,
+"World Surf League": 41,
 "Surfertoday": 3,
-"In the news": 15
+"In the news": 27
 },
 "items": [
 {
 "title": "Sam McIntosh",
 "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
 "source": "Stab",
-"at": "2026-11-21T07:33+00:00",
+"at": "2026-11-21T08:31+00:00",
 "img": null,
 "desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Historic King Tides Threaten San Francisco with Unprecedented Thanksgiving Flooding",
+"link": "https://www.surfer.com/news/uncharted-territory-san-francisco-braces-for-record-king-tides-and-holiday-flooding",
+"source": "Surfer",
+"at": "2026-11-21T08:08+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTc0/atmospheric-river-hits-bay-area-as-el-nino-expected-to-pummel-california-with-storms-this-winter.jpg?profile=rss",
+"desc": "Just days after a historic storm overwhelmed the sewer system, the city is racing to prepare for a potentially chaotic Thanksgiving.",
 "surfers": [],
 "kind": "outlet"
 },
@@ -64,6 +74,16 @@
 "desc": "Alelí Medina (PUR) Finds Perfection as World Champions and Rising Stars Make Their Mark Sarah Almagro (ESP) and Jose Martinez (USA) Deliver Near-Perfection to Top Prone 2 Leaderboard Morgan Galeffi (ITA) Opens Strong in ",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Last wave at school",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rZWtSRGs4Ql9GaVpIbm9scGVPQ2NkOXFhTWlORUJFS2hTTVh2QTVnTW9MQkNMSjRfNHFCN3VkMlZ3VmZna01nbnoxUHAwSXJHMXZaZURFMmpZUzJxTllHUldFdl8wbEFKYTR0MTZvRQ?oc=5",
+"source": "Noosa Today",
+"at": "2026-11-21T03:02+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "- BeachGrit.com",
@@ -182,6 +202,16 @@
 "kind": "outlet"
 },
 {
+"title": "Mavericks | Jeff Clark’s perspective on Biggest Surf in 15 Years from his Boat",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXRiWjlvU3pkaVY0eGZoeGVsY3FwS0d4M2s3ZDJaQ1lHc1ZodGtxdm82Smt6N0xNekNramtUSUpzUmVRMXFIZkNuYVRwR0Y5NVNvZFBhN3ZEcEJKZzRwVmRlY3htQnduT0s3ZlpOeEJocV84aEdFOGNMX3RhcFNtVUNVNVBNZEJ5Y2UzMDFSbHl5X3poLUlZR204ZHkta1YxUXNOYXk2bHB3VW04?oc=5",
+"source": "Surf News Network",
+"at": "2026-11-20T19:54+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "11-Foot Great White Stalks California Fisherman Before Drone Pilot’s Life-Saving Warning (Video)",
 "link": "https://www.surfer.com/news/great-white-shark-hunts-fishermen-california-video",
 "source": "Surfer",
@@ -198,16 +228,6 @@
 "at": "2026-11-20T19:51+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTQy/marcos_pukas.jpg?profile=rss&x=49&y=15",
 "desc": "For the final episode of the Twin Fin Invitational, the crew gets creative at Europe's premiere surfboard factory.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Mike's Florida Forecast Notes: Fun Surf For Many This Weekend",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUzgtUzhsTmUxeE1JVkxsZGZFMmRYdGUzN21hYnU3VlR2LW1uX1JhUXpGM2FMU1hZdDh0cFI5UjdoMHBNdV82YUMyTGpDeExxTmt6SDBKQlg3aW9aQzJjcWlSSVJHQ2I5ZHJ5VnBrZlZvOV9QSEp1Qm9RWmNWeDV5REIzT21lYUh2cjJRX3BDZDVWazRBQ2poQ1BYelBXaDdLa0dPZDBjTjdMNXlUVldqRGs2aGtnenRW?oc=5",
-"source": "Surfline",
-"at": "2026-11-20T19:12+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -684,6 +704,16 @@
 "kind": "outlet"
 },
 {
+"title": "Body recovered 3 days after it was spotted in the surf near Newport",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRvOFpYWE9lYmx0THliWTYzSHVnenhPMExkR0RkYlV3U2Jramg3bVNyTGxyOGd5YzlDaGJDMTB4UjdscUR0Zk9mREdMcHdBS2xxc0RGLU02Z3poc1ExOEFkampHMzl3WWo0OUZmcXRaNHhON0ZON1ZEcU81S1J5XzhCOXdWLWtiNlpXd0xRWmhrOE85a1RWNTJLc3BIbWlQNFE0SXZ6RlE3NkwzSG8tOWoxUdIBxwFBVV95cUxPTUFWanZDamdXY2lFel9JV0pKd0lwWTJKUlFNSUhFaGdqd1lmZXhsQ3FONFF4bk41eXFqQlVFc3VLSkRYZnpjb29NaEFhdTVwSWNiNmRvMXpPMXpna3NFamNKQTNOaVE5SHFDaHgwMjBxdlJWNTJiN3NGXzA3Q0JpU0I5Szh6dkFPX21GbmlWVHlPdFhKeXpLT3YtQXR2VjJKU3NCUnM1TUpjbmFlT0dXTTRVSTdISHBxNlZIeTRSZ004bHMwcHRB?oc=5",
+"source": "OregonLive.com",
+"at": "2026-11-19T15:55+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Results - Pacifico Surf Open Cerritos 2026",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
 "source": "World Surf League",
@@ -712,6 +742,16 @@
 "desc": "Watch Mikey February trade his signature twin fins for a high-performance thruster in his new film and Channel Islands board launch.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Weekend Nor’easter could send Great Surf to the East Coast",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa0Z2NzZxSVM3V3lyOWd0Y0VxcHFGSkhNQnM5UEl4SkwxSTlYRTR2S3MwQTl3aFJfNHpma1NzRE5nVzhTLU54S1dRdUNVNVRnMVFCM3htbzFjMnhsV1M3MXh2QXlmMjA2NjBFU0dQZ2lDVVVrc1ZtWWFveGpTVnJ4d2JzTENaV1RfamRUNjZvaXlCNWtMZlQ5b1pCWlV1Vmt2Um9USNIBpAFBVV95cUxQa0Z2NzZxSVM3V3lyOWd0Y0VxcHFGSkhNQnM5UEl4SkwxSTlYRTR2S3MwQTl3aFJfNHpma1NzRE5nVzhTLU54S1dRdUNVNVRnMVFCM3htbzFjMnhsV1M3MXh2QXlmMjA2NjBFU0dQZ2lDVVVrc1ZtWWFveGpTVnJ4d2JzTENaV1RfamRUNjZvaXlCNWtMZlQ5b1pCWlV1Vmt2Um9USA?oc=5",
+"source": "WAVY.com",
+"at": "2026-11-19T12:29+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "The wild East Coast shores that draw surfers all year long",
@@ -744,12 +784,32 @@
 "kind": "media"
 },
 {
+"title": "Latest Wave Pool Clip Comp Wants to See Your Backside",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NRjBOVXVoY2hNYUc3eVlIRGdQT3pXNjMySjdSSnN0ODVscnpDaGl2S2VsVnNhdVQ4NlhGNlhXNTg5NnVkeS1yTmp3NjNRcF84RWVDTXgxdHdyRV9GbVFNWjRSWWVkZDMtUzNtbmRIZlg?oc=5",
+"source": "WavePoolMag",
+"at": "2026-11-19T11:31+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Record-Breaking Rain Floods San Francisco Streets with Raw Sewage",
 "link": "https://www.surfer.com/news/san-francisco-flooding-record-rain-sewage-overflow",
 "source": "Surfer",
 "at": "2026-11-19T08:00+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTI1/atmospheric-river-hits-bay-area-as-el-nino-expected-to-pummel-california-with-storms-this-winter.jpg?profile=rss",
 "desc": "An atmospheric river is overwhelming the city's combined sewer system and flooding streets, homes, and the ocean with contaminated water.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Mike's Florida Forecast Notes: Fun Surf For Many This Weekend",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUzgtUzhsTmUxeE1JVkxsZGZFMmRYdGUzN21hYnU3VlR2LW1uX1JhUXpGM2FMU1hZdDh0cFI5UjdoMHBNdV82YUMyTGpDeExxTmt6SDBKQlg3aW9aQzJjcWlSSVJHQ2I5ZHJ5VnBrZlZvOV9QSEp1Qm9RWmNWeDV5REIzT21lYUh2cjJRX3BDZDVWazRBQ2poQ1BYelBXaDdLa0dPZDBjTjdMNXlUVldqRGs2aGtnenRW?oc=5",
+"source": "Surfline",
+"at": "2026-11-19T08:00+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -1048,16 +1108,6 @@
 "kind": "outlet"
 },
 {
-"title": "UK & Ireland Update - Brief Window of Cleaner Conditions for Some",
-"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdjNqajN1Wk1zcW1VZHVERG1oZ2hQYjc1SndiYjRnNlp3Z2tzeEM0azVwV0hzMnhIcFI0dlo0VktvY3o5ZFVkQm5mWWtzS1lsazNBeW9yQ3ZFUmJCQXloZ19za3laczFTMnA0dUxrVjI1VnFPV3NUNWRjdERfcXBtTDRlWVFZMTYwaTdHQnNWSzhXZVRIZlBXa0RMNWRIUEhMTldsbGdfengzNEhRdTFRdmpmMzR5OE5uZWFEeFAzbXY?oc=5",
-"source": "Surfline",
-"at": "2026-11-18T16:42+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Results for Kei Kobayashi at Taiwan Open of Surfing 2026",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcS1LMTNBQ3RIcURIb0lJbWpCaGUxdXlqRHNxY3pMdmhmNXVVdk9rN2F1cGd2YTd5ME9WeU9DOEhjMkRZV3BYR0R2VkpKRWFyemN6NmJUeWNBb1ROQ1Q5UHhOZnJLSEJxaFNlUjM5aXdvQkpicjJ0LXVZZnAwRjhXdDNxZjRUNVB3ZDZ2RWVn?oc=5",
 "source": "World Surf League",
@@ -1095,6 +1145,18 @@
 "img": null,
 "desc": "",
 "surfers": [],
+"kind": "media"
+},
+{
+"title": "XXL MAVERICKS GOES ROUGE _ BIG AND GNARLY _ KAI LENNY",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaFhpc1Q5YjVuR2djVXV6RDFXbk5UcmdaUDRURU9tLThvYUNPLTI4bFVGemluVV91UGc4dkhYLVdsMTlPU3V6blZCZ215T1h5LXlyUTBGcE1vcG9YTVU1aUk0QlRQZmRETDd0SFp4QWhSZmlaemQ4ck82TE1tajM3MjFxeUgzLWgwQVZkUmljWQ?oc=5",
+"source": "Surf News Network",
+"at": "2026-11-18T11:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"kai-lenny"
+],
 "kind": "media"
 },
 {
@@ -1174,66 +1236,6 @@
 "at": "2026-11-17T22:11+00:00",
 "img": null,
 "desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "California November Water Temps Are In Record Territory",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeE5IdjMwZUpNZVRqdEllakxaT0VpR2lMN3hDOWdHR2g2UF8yNVVfdzFGbWU0dFh3SVRXakJNNGUweUFlV2JaUERxTFcySnZZQXFFcXBoVXM3cWdwTGY4a1ZXeW9ENmxBZlFsM0lBYXdjUW1UejRzZGQ1aVFLTnFITWxpZ1VON0ZsenhUdF9ZbTZ2dw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-17T21:06+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "California Is Going to Get Hammered by a Massive Swell Again",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbnlyY0R1b3EwV2pUM3NVM3Q3b2t0cW56ZWdnZWlVd3I1b3Fmb0FhdG5kMktCMFdWQml1SE9PUTRWTHllRTdEdTdmTW1yNlI0MDRfeHFySU5LU05BcmhSN18yMFRpM216WkN1dVlfRkxYUUJyNnJuT1RYN3ZOWE1MQlp4MEw2VFBQRHRPa2h6UHlSelNIWUhBUWNPV29ockZFZFE?oc=5",
-"source": "The Inertia",
-"at": "2026-11-17T20:59+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Cause of Death Confirmed for Fin Whale Found on Cruise Ship Bow",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlFUVGxnV0w5Ym5DT2pSWUhzSGFnTk1zckdrY2N5a1FZbkxIUlh2ckxoYnZjSnFwZmhONVJfM09ZTXJ4emxBWGMyU3pGUlVnREw3NkpUaV9XOXY5QjRENV9sV1NUWXBJZzZoUURGMm5NTEtUZ2hYc1VpSFBEazRFcldKZ0Zic0xJd0ptYVB3ZHRsTzRlSnVyWU9vTE12eWZKMHhhM3Vn?oc=5",
-"source": "The Inertia",
-"at": "2026-11-17T20:10+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Save La Paloma: Surf Community Rallies to Protect Historic Encinitas Theater from Potential Sale",
-"link": "https://www.surfer.com/news/save-la-paloma-theater-encinitas-petition",
-"source": "Surfer",
-"at": "2026-11-17T19:59+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTY0Nzgy/solento_fest_25_night_3_la_paloma_high_res-40.jpg?profile=rss",
-"desc": "News of a sale to convert the historic theater into a church have sparked a community petition to preserve its century-old legacy.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Last Winter Sucked: Parkin Costain Still Sent It Off With a Bang(er)",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT0tjanhxSnI1YkdGZHhDMFZjZnExQ05CSUI0Ukw2bTk4UTZEZGRobURwOTNESDhsLWFoWmdFZktJbTJnLUtoRnZTZEg0V29aZHFjamtrbmtlcmhUTUhqVmZMUkhGQjQ4UkVCMjJOVTlRcDJ2alNzdEFmY3hnM2xhc3JEbnhDaG5BUk5UcTZWR3JDRUNVdG5TOTBjSnNDbjIxZjRmZA?oc=5",
-"source": "The Inertia",
-"at": "2026-11-17T19:59+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "20-Foot El Niño Swell Hammers Morro Bay Breakwater and Sends Whitewater Roaring Into the Harbor (Video)",
-"link": "https://www.surfer.com/news/20-foot-el-nino-morro-bay-breakwater-video",
-"source": "Surfer",
-"at": "2026-11-17T19:57+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODAw/morro-beach-wave.png?profile=rss&x=47&y=55",
-"desc": "Towering El Niño-fueled surf sent 20-foot sets over Morro Bay’s breakwater, closing the harbor entrance and flooding California’s coast. Watch the chaos unfold.",
 "surfers": [],
 "kind": "outlet"
 }
