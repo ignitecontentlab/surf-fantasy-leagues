@@ -1,18 +1,48 @@
 {
-"updated_at": "2026-11-21T13:40:52+00:00",
+"updated_at": "2026-11-21T15:25:34+00:00",
 "sources": {
-"Surfer": 41,
+"Surfer": 43,
 "ISA": 5,
 "Stab": 13,
-"Surfline": 8,
+"Surfline": 9,
 "The Inertia": 44,
 "BeachGrit": 16,
 "Tracks": 0,
 "World Surf League": 36,
 "Surfertoday": 3,
-"In the news": 14
+"In the news": 13
 },
 "items": [
+{
+"title": "Sam McIntosh",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
+"source": "Stab",
+"at": "2026-11-21T15:19+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "554-Foot Cargo Ship Slams Into French Beach as 20-Foot Atlantic Swell Triggers Dramatic Helicopter Rescue (Video)",
+"link": "https://www.surfer.com/news/miro-g-cargo-ship-france-beach-rescue-video",
+"source": "Surfer",
+"at": "2026-11-21T14:37+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMjAz/cargo-ship-france.png?profile=rss&x=53&y=39",
+"desc": "A 554-foot bulk carrier is now stuck in the shorebreak on France’s Atlantic coast as storm surf hammers its hull and crews race to refloat it.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Aussie Surf Fight Explodes After Angry Surfer Spears Brand-New Board (Video)",
+"link": "https://www.surfer.com/news/surf-fight-australia-duranbah-video",
+"source": "Surfer",
+"at": "2026-11-21T14:12+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTkz/surf-fight-duranbah.png?profile=rss&x=53&y=39",
+"desc": "Footage from a popular New South Wales surf break captures a dispute that ends with damaged fiberglass, an apology, and cash.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Super El Niño Swell and King Tides Threaten to Pummel Southern California Coast Over Thanksgiving Week (Video)",
 "link": "https://www.surfer.com/news/king-tide-thanksgiving-california-video",
@@ -20,16 +50,6 @@
 "at": "2026-11-21T13:27+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTgw/king-tide-thanksgiving.jpg?profile=rss&x=47&y=42",
 "desc": "Exceptionally high king tides, a powerful Super El Niño swell, and already elevated sea levels could combine to flood and erode Southern California beaches.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Sam McIntosh",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ0lqYTVLTDFIaDdOV19ZT0Y5clhyeTluWDBlYy1udWRPQTJUSm10N19aSUFFdnFrNzU0WUhFdHVEMFJkWWpwc1QtNzJnaWNDbXc?oc=5",
-"source": "Stab",
-"at": "2026-11-21T13:22+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -684,6 +704,16 @@
 "kind": "outlet"
 },
 {
+"title": "North Pacific Deja Vu?",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQTJqMC1HMHlNSEYyQlI1QXFjSnM1ODRlOTU1VUVBakpud0VLSlZuYmJYZURTSE5aTHBESFZLV1BxRFV3ZWQ4R2JQNV9IekdoaEljVGcyVDJqMk5Fd0FjTFBvZllEQnVmNklyWF9STXY3Qk8zaFU2a2RqMjZxcVFFbVhzUWg4dUh0M29nRzBUeUlMZGdsenA4YzdB?oc=5",
+"source": "Surfline",
+"at": "2026-11-19T18:49+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "New Smyrna Beach man becomes patron saint of e-bikers after leading police on brave chase",
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWd6S3E1NlRMalZoRFR2UUFaYnpoNzVINkJJNl9iT3RsUXdsLS1LZjg4QnFnVkd0WVViUC1MaHRQcG42WEtfSDNFMUhmT2UyMXZlcTFnM1JwU2FSVUdiNWxMS29PbERVREZMcDdMVnB1U0llM2RlVFZRVEFBaUtUZnozRk1DQm1na3RUX3NJR3N3eWl6YWpYNUdtQzhTQ3p1QjNrYVY3dU13dTNDTkZHa0R3WDNNemkwRmN3Rg?oc=5",
 "source": "BeachGrit",
@@ -692,6 +722,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Body recovered 3 days after it was spotted in the surf near Newport",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRvOFpYWE9lYmx0THliWTYzSHVnenhPMExkR0RkYlV3U2Jramg3bVNyTGxyOGd5YzlDaGJDMTB4UjdscUR0Zk9mREdMcHdBS2xxc0RGLU02Z3poc1ExOEFkampHMzl3WWo0OUZmcXRaNHhON0ZON1ZEcU81S1J5XzhCOXdWLWtiNlpXd0xRWmhrOE85a1RWNTJLc3BIbWlQNFE0SXZ6RlE3NkwzSG8tOWoxUdIBxwFBVV95cUxPTUFWanZDamdXY2lFel9JV0pKd0lwWTJKUlFNSUhFaGdqd1lmZXhsQ3FONFF4bk41eXFqQlVFc3VLSkRYZnpjb29NaEFhdTVwSWNiNmRvMXpPMXpna3NFamNKQTNOaVE5SHFDaHgwMjBxdlJWNTJiN3NGXzA3Q0JpU0I5Szh6dkFPX21GbmlWVHlPdFhKeXpLT3YtQXR2VjJKU3NCUnM1TUpjbmFlT0dXTTRVSTdISHBxNlZIeTRSZ004bHMwcHRB?oc=5",
+"source": "OregonLive.com",
+"at": "2026-11-19T15:55+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Results - Pacifico Surf Open Cerritos 2026",
@@ -1078,26 +1118,6 @@
 "kind": "outlet"
 },
 {
-"title": "Wave Pool vs Ocean Surfing: Calculating Benefits, Flow & Safety",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WSFFSeWVSTDJMS18wd2Nvc2FTaXNGX0Z5b2Q3OVFTcGw3Tjc5Ml90WVRBcmd6QjBfYWVUaWF5QTNnN08wTHVSSUVkQUQtUjEwNEpGdENqUF83YVVvRE45Wg?oc=5",
-"source": "WavePoolMag",
-"at": "2026-11-18T14:38+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Inside Lost Shore: Surf Coaching with Jono Jones",
-"link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsSTJxVXVtT05UbTZLVU5XVGRHY1F3LXlmZHR1WWlESHlWS3FaeEt0OFdpOW83TG1icTNqcUNfWWtFSzlFeWdjcmthSzh2VVc2UmRxX280UnVlUnRSVl8tTkVoMVVrNVNscDVUdA?oc=5",
-"source": "WavePoolMag",
-"at": "2026-11-18T14:25+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Results for Kaiwa Foster at Haleiwa Pro LQS1,000 2026",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlp1X0RrNWFGTk5zQjJEdkhIMUR1OFJxOVlid0UxQ25HWlZkWEpILTlrMjY5bGtlX2RxUG9TWUc2ZWluNjZwdHRUR2lxSzg5TWZ2LXNhX2JmM3Zrdklza3Z1UXlpQUVfc09VVnRnZDctaE9TMFJBWkF4SWZmSWMySk0wTVpTZ1g4NjRVUTlR?oc=5",
 "source": "World Surf League",
@@ -1212,26 +1232,6 @@
 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlFUVGxnV0w5Ym5DT2pSWUhzSGFnTk1zckdrY2N5a1FZbkxIUlh2ckxoYnZjSnFwZmhONVJfM09ZTXJ4emxBWGMyU3pGUlVnREw3NkpUaV9XOXY5QjRENV9sV1NUWXBJZzZoUURGMm5NTEtUZ2hYc1VpSFBEazRFcldKZ0Zic0xJd0ptYVB3ZHRsTzRlSnVyWU9vTE12eWZKMHhhM3Vn?oc=5",
 "source": "The Inertia",
 "at": "2026-11-17T20:10+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Save La Paloma: Surf Community Rallies to Protect Historic Encinitas Theater from Potential Sale",
-"link": "https://www.surfer.com/news/save-la-paloma-theater-encinitas-petition",
-"source": "Surfer",
-"at": "2026-11-17T19:59+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTY0Nzgy/solento_fest_25_night_3_la_paloma_high_res-40.jpg?profile=rss",
-"desc": "News of a sale to convert the historic theater into a church have sparked a community petition to preserve its century-old legacy.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Last Winter Sucked: Parkin Costain Still Sent It Off With a Bang(er)",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT0tjanhxSnI1YkdGZHhDMFZjZnExQ05CSUI0Ukw2bTk4UTZEZGRobURwOTNESDhsLWFoWmdFZktJbTJnLUtoRnZTZEg0V29aZHFjamtrbmtlcmhUTUhqVmZMUkhGQjQ4UkVCMjJOVTlRcDJ2alNzdEFmY3hnM2xhc3JEbnhDaG5BUk5UcTZWR3JDRUNVdG5TOTBjSnNDbjIxZjRmZA?oc=5",
-"source": "The Inertia",
-"at": "2026-11-17T19:59+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
