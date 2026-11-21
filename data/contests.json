@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-21T05:12:21+00:00",
+ "updated_at": "2026-11-21T05:44:33+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -4780,39 +4780,32 @@
       "rank": 1
      },
      {
-      "key": "anat-lelior",
-      "name": "Anat Lelior",
-      "country": "Israel",
-      "wsl_id": "7491",
-      "rank": 2
-     },
-     {
       "key": "kana-nakashio",
       "name": "Kana Nakashio",
       "country": "Japan",
       "wsl_id": "10453",
-      "rank": 3
+      "rank": 2
      },
      {
       "key": "lucy-darragh",
       "name": "Lucy Darragh",
       "country": "Australia",
       "wsl_id": "16897",
-      "rank": 4
+      "rank": 3
      },
      {
       "key": "sanoa-dempfle-olin",
       "name": "Sanoa Dempfle-Olin",
       "country": "Canada",
       "wsl_id": "13303",
-      "rank": 5
+      "rank": 4
      },
      {
       "key": "sophie-mcculloch",
       "name": "Sophie McCulloch",
       "country": "Australia",
       "wsl_id": "5181",
-      "rank": 6
+      "rank": 5
      },
      {
       "key": "alys-barton",
@@ -4820,13 +4813,21 @@
       "country": "United Kingdom",
       "wsl_id": "12676",
       "out": true,
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "amuro-tsuzuki",
       "name": "Amuro Tsuzuki",
       "country": "Japan",
       "wsl_id": "8035",
+      "out": true,
+      "rank": 7
+     },
+     {
+      "key": "anat-lelior",
+      "name": "Anat Lelior",
+      "country": "Israel",
+      "wsl_id": "7491",
       "out": true,
       "rank": 8
      },
@@ -5401,7 +5402,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (135 men, 73 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (135 men, 74 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "alister-reginato": {
@@ -5992,6 +5993,10 @@
      "place": 33,
      "points": 265
     },
+    "anat-lelior": {
+     "place": 6,
+     "points": 4745
+    },
     "anon-matsuoka": {
      "place": 17,
      "points": 1330
@@ -6001,7 +6006,7 @@
      "points": 265
     },
     "bella-kenworthy": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "brisa-hennessy": {
@@ -6113,7 +6118,7 @@
      "points": 265
     },
     "sol-aguirre": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "sophia-medina": {
@@ -6277,32 +6282,27 @@
      "points": 265
     },
     "alana-lopez": {
-     "place": 6,
-     "points": 4745,
-     "live": true
-    },
-    "anat-lelior": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "kana-nakashio": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "lucy-darragh": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "sanoa-dempfle-olin": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "sophie-mcculloch": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     }
