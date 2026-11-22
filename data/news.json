@@ -1,25 +1,25 @@
 {
-"updated_at": "2026-11-22T03:31:42+00:00",
+"updated_at": "2026-11-22T05:36:26+00:00",
 "sources": {
-"Surfer": 42,
+"Surfer": 43,
 "ISA": 4,
-"Stab": 13,
+"Stab": 12,
 "Surfline": 11,
-"The Inertia": 43,
+"The Inertia": 42,
 "BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 38,
+"World Surf League": 37,
 "Surfertoday": 3,
-"In the news": 10
+"In the news": 12
 },
 "items": [
 {
-"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 8",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTUhpU1B1RUxjVmtIRXBSSklYWFlZNXI4TnB1bUw4UjBYSHVRS0stY1R1ajMxcG9xRjZhT1hCdG5lRjJNb1EtT0lhb1pDQXBpVGJCd2ZZYmxwbjhKejE3RVQ0aGFpQi1lNWtVNFRuM3oxaVo5OTVqbDhQRm8yaW85Uk5LcU9pTWctMFRGTS16dzRjYXdMRmNUNUFDUDhDZGEyYW1pb3Z5bExHX2JUUnRGcjBnUkozUQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-22T02:52+00:00",
-"img": null,
-"desc": "",
+"title": "20-Foot Great White Attacks California Surfer and Obliterates Board While He Escapes ‘Without a Scratch’ (Photos)",
+"link": "https://www.surfer.com/news/great-white-shark-attack-surfer-santa-barbara",
+"source": "Surfer",
+"at": "2026-11-22T05:02+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMjI4/jack-shark-attack.png?profile=rss&x=44&y=40",
+"desc": "A 15 to 20-foot great white launched from below, shredded Jack Canigiula’s board, and flung him from the water. The photos show the carnage. He walked away.",
 "surfers": [],
 "kind": "outlet"
 },
@@ -496,6 +496,16 @@
 "kind": "outlet"
 },
 {
+"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 7",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa0VVTHl6UUdvTmxFeEdNRnlmR0VIRWRoaHh0d3BJeFBSbVFBTFJzYzljSWttUXBwaWlnMXdoTzZJaUVmZW8ya00yWWdyN1V6blJzUUVJZjhyOWxySFp3TlZGc0JJRnNFZWU5MWRjaXpKb2RXdm1fMmRNRHlQTDl5Vll2ZmVDdmpYOWRvbUNwM3JQaTFfV1p2YTlVUFliZU02VVJianJBTW41Tkt4ekM2aHl3Uy1tQQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T12:20+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "The art of taking things away in surfboard design",
 "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPenBpTVZuTmVXQnZYQjNwWk9TNktIckNVTmt0V0pqWTFPUGV2aGdOZ1c3aUV6UnNsZTVaY2E3X2JSMk05NVdtVzJhQ2ZNY0FxNnJBODhUckdYekFaTmVsYWhaU29jZHJEa2NDSEJlck9rdWdhMDRYcnNQNVM4N0xCX2pBdEc?oc=5",
 "source": "Surfertoday",
@@ -752,16 +762,6 @@
 "at": "2026-11-19T19:46+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTEzMzU3/el-rastrial_ard00432ardiel.jpg?profile=rss",
 "desc": "From Central America to the Caribbean, the holiday season is the perfect time to plan your escape.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Mikey February Has Not Forgotten How to Surf a Thruster",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMEdoR3FPNUZyTUhBZjFYRWVmOHlRME5HcDRRMWp2OW5SVUo0SnJyY3k5OUszY0FJb0NZaWJfR1d1SDVSNlBZSzFqRE5SLWppaHlJTWJLeXR6d29LTExaSmRnd3RDRV9BYlQzUVdSVHZYRzY1YUNWN29SRWlORmUyc0xnYVlnVS1GZkJyMXllQ3YwZw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-19T19:38+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
