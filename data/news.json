@@ -1,18 +1,38 @@
 {
-"updated_at": "2026-11-22T13:39:39+00:00",
+"updated_at": "2026-11-22T15:25:35+00:00",
 "sources": {
-"Surfer": 43,
+"Surfer": 44,
 "ISA": 5,
 "Stab": 12,
-"Surfline": 9,
-"The Inertia": 41,
+"Surfline": 7,
+"The Inertia": 39,
 "BeachGrit": 18,
 "Tracks": 0,
-"World Surf League": 37,
+"World Surf League": 36,
 "Surfertoday": 3,
-"In the news": 11
+"In the news": 13
 },
 "items": [
+{
+"title": "‘Disturbing’ UCSC Video Maps Potential San Francisco King Tide Disaster as Record High Water Looms (Video)",
+"link": "https://www.surfer.com/news/king-tides-san-francisco-thanksgiving-video",
+"source": "Surfer",
+"at": "2026-11-22T14:34+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMjU1/flooding-san-francisco.png?profile=rss&x=46&y=48",
+"desc": "A new UCSC visualization shows how a 20-year storm, El Niño sea-level rise, and record king tides could flood San Francisco’s waterfront and bay communities.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "312-Foot Spray Detonates Off Oregon as 30-Foot Waves Pummel the Coast (Video)",
+"link": "https://www.surfer.com/news/king-tides-oregon-big-wave-video",
+"source": "Surfer",
+"at": "2026-11-22T14:07+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMjQz/big-wave-oregon.png?profile=rss&x=44&y=39",
+"desc": "A 300-plus-foot plume of whitewater erupts off the Oregon coast as El Niño-fueled swell, king tides, and looming storms set the stage for more coastal chaos.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Tianyu Huang Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NOFZZWmFOLUZWOHZfdC1rWWNJN1RmTlluRmljRE1Oc1BkZGp1QlV4LUJHZFp5MTZmWGZwOGp2dkFjUEE4aW1mYUlHQURyaUJUX2JRLVhGQzNWZ29wV2lqMjBiQkhjWThOemNn?oc=5",
@@ -101,6 +121,16 @@
 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
 "source": "KSBY News",
 "at": "2026-11-22T02:41+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "SA surfers make a splash in Peru",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzhiejdrNk5wWmhNN3YzN0IzQlRHWElncUNmcEg0eEdPeDl1bW4zRnZzT0tUdDlLUzBjVk1STmc3ZXBpSFhfODB6Sjd6bkVZR2pqazRPXzh4STF4SVhjMWdCeEwtOFQ1LWxJNDdYRWZQNG1MOWhJb2l1UDQwYTFQejVaeXMyLTNlS2s2MWtSR05Ua0ljcmxLejA3MWRCdmFYeDItM2RmbzB3ZVRFa01pNDFCM1Q?oc=5",
+"source": "The Citizen",
+"at": "2026-11-22T00:15+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -433,6 +463,16 @@
 "john-john-florence"
 ],
 "kind": "outlet"
+},
+{
+"title": "Mavericks | Jeff Clark’s perspective on Biggest Surf in 15 Years from his Boat",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXRiWjlvU3pkaVY0eGZoeGVsY3FwS0d4M2s3ZDJaQ1lHc1ZodGtxdm82Smt6N0xNekNramtUSUpzUmVRMXFIZkNuYVRwR0Y5NVNvZFBhN3ZEcEJKZzRwVmRlY3htQnduT0s3ZlpOeEJocV84aEdFOGNMX3RhcFNtVUNVNVBNZEJ5Y2UzMDFSbHl5X3poLUlZR204ZHkta1YxUXNOYXk2bHB3VW04?oc=5",
+"source": "Surf News Network",
+"at": "2026-11-20T19:54+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "11-Foot Great White Stalks California Fisherman Before Drone Pilot’s Life-Saving Warning (Video)",
@@ -987,16 +1027,6 @@
 "kind": "outlet"
 },
 {
-"title": "Mike's Florida Forecast Notes: Fun Surf For Many This Weekend",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUzgtUzhsTmUxeE1JVkxsZGZFMmRYdGUzN21hYnU3VlR2LW1uX1JhUXpGM2FMU1hZdDh0cFI5UjdoMHBNdV82YUMyTGpDeExxTmt6SDBKQlg3aW9aQzJjcWlSSVJHQ2I5ZHJ5VnBrZlZvOV9QSEp1Qm9RWmNWeDV5REIzT21lYUh2cjJRX3BDZDVWazRBQ2poQ1BYelBXaDdLa0dPZDBjTjdMNXlUVldqRGs2aGtnenRW?oc=5",
-"source": "Surfline",
-"at": "2026-11-19T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "What’s The Best Surfboard You’ve Ridden This Year?",
 "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmtGUy16Mk1yOEEyLWJ0Ri02SlpjaTVuNkJuS1NLbmhSSnVUbWZjdU1GSWc0S1RJSjFfdmhVU3ZWdi12UjlsZy0tYUozTVFCc3Z4cEljLXYtZTRhNGRNNzZLOXVLQ25ZRTVMN1Z3MjMwek5yQThGYm1VZE92YWlMNG9B?oc=5",
 "source": "Stab",
@@ -1203,36 +1233,6 @@
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcS1LMTNBQ3RIcURIb0lJbWpCaGUxdXlqRHNxY3pMdmhmNXVVdk9rN2F1cGd2YTd5ME9WeU9DOEhjMkRZV3BYR0R2VkpKRWFyemN6NmJUeWNBb1ROQ1Q5UHhOZnJLSEJxaFNlUjM5aXdvQkpicjJ0LXVZZnAwRjhXdDNxZjRUNVB3ZDZ2RWVn?oc=5",
 "source": "World Surf League",
 "at": "2026-11-18T14:46+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T10:21+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Real Life: Lesbians Tried To Steal My Red Bull Athlete Husband’s Sperm!",
-"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdk9ZblluRmZ3cGxnU2dyUnIwTEg1UjNtQU9kQk9UZ0N5SXZJMVc4WUF3aWFQb0hqdzFEMHFLcmZTNXROd0ZOemFUZUdNWFhaY1VSVk42WHFydk5oVWhzcWNQQUdyWlZCUEdXcUlqSGEyQVY2WFlJMVRzZEp0amNyU0pmamw0blRvZTFSMFc3X3drNFpaVHI1Z01QNnhJMGZI?oc=5",
-"source": "BeachGrit",
-"at": "2026-11-18T04:11+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Training Day & Day 1",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHRfM28zWUVkcmdveGdWLTJGUW11ZlBHODJ5bGJ3Y2NkVEVwNmNqOWhPcWxhWHdOdzNSejZ5T0NPY3g1WEVrUHJKbmplY0YtYlBOT1ZDLUdQaTc1R0Z5VE1kekcyQkxGOVNVS2RodzRTU1dkRS1xUXBldlpYTEtoUHhJNDJ0NFp0WDc0LTZKbllMWTVTVEoyYWVObFFTTmc4Q2pET2ZJSHJOcXdtclFNSldfOGg?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T03:11+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
