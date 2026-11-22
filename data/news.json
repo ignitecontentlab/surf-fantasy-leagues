@@ -1,14 +1,14 @@
 {
-"updated_at": "2026-11-22T17:24:51+00:00",
+"updated_at": "2026-11-22T19:31:51+00:00",
 "sources": {
-"Surfer": 45,
+"Surfer": 44,
 "ISA": 5,
 "Stab": 12,
 "Surfline": 7,
 "The Inertia": 40,
-"BeachGrit": 18,
+"BeachGrit": 17,
 "Tracks": 0,
-"World Surf League": 34,
+"World Surf League": 33,
 "Surfertoday": 3,
 "In the news": 13
 },
@@ -32,16 +32,6 @@
 "desc": "A new UCSC visualization shows how a 20-year storm, El Niño sea-level rise, and record king tides could flood San Francisco’s waterfront and bay communities.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
-"source": "KSBY News",
-"at": "2026-11-22T14:16+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "312-Foot Spray Detonates Off Oregon as 30-Foot Waves Pummel the Coast (Video)",
@@ -104,17 +94,14 @@
 "kind": "outlet"
 },
 {
-"title": "Jarvis Earle and Sophie McCulloch Win The 2026 Taiwan Open of Surfing International QS 6000",
-"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2FIUi0xRldveGdXRXVIT3F0dFFjQzFxSU5sWXM1LTRWLU5wWU1vSnJ5TVhGWnhjdXJ6eHpydFNlX1pLN2pqZkZaaHZ1WFJIelhMWmIxOUJNTzNrZTVmUjRxRHV6S2V3bE1ESGpHZXVZaEd2Z2ZlTWJ0Zkk1NW5LLVNLaUZPN1lsWENreHRXeHZzUXdFcGREZzdDOXNnWVpvTEJFbWVOLXdvaUhlSllSaHkxU2FLeFVWTTZqTmZoSkhGVnJVa3pyaG5Gb25RU1ZNRmc?oc=5",
-"source": "World Surf League",
-"at": "2026-11-22T05:54+00:00",
+"title": "SA surfers make a splash in Peru",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzhiejdrNk5wWmhNN3YzN0IzQlRHWElncUNmcEg0eEdPeDl1bW4zRnZzT0tUdDlLUzBjVk1STmc3ZXBpSFhfODB6Sjd6bkVZR2pqazRPXzh4STF4SVhjMWdCeEwtOFQ1LWxJNDdYRWZQNG1MOWhJb2l1UDQwYTFQejVaeXMyLTNlS2s2MWtSR05Ua0ljcmxLejA3MWRCdmFYeDItM2RmbzB3ZVRFa01pNDFCM1Q?oc=5",
+"source": "The Citizen",
+"at": "2026-11-22T06:15+00:00",
 "img": null,
 "desc": "",
-"surfers": [
-"jarvis-earle",
-"sophie-mcculloch"
-],
-"kind": "outlet"
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "20-Foot Great White Attacks California Surfer and Obliterates Board While He Escapes ‘Without a Scratch’ (Photos)",
@@ -137,10 +124,10 @@
 "kind": "outlet"
 },
 {
-"title": "SA surfers make a splash in Peru",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzhiejdrNk5wWmhNN3YzN0IzQlRHWElncUNmcEg0eEdPeDl1bW4zRnZzT0tUdDlLUzBjVk1STmc3ZXBpSFhfODB6Sjd6bkVZR2pqazRPXzh4STF4SVhjMWdCeEwtOFQ1LWxJNDdYRWZQNG1MOWhJb2l1UDQwYTFQejVaeXMyLTNlS2s2MWtSR05Ua0ljcmxLejA3MWRCdmFYeDItM2RmbzB3ZVRFa01pNDFCM1Q?oc=5",
-"source": "The Citizen",
-"at": "2026-11-22T00:15+00:00",
+"title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
+"source": "KSBY News",
+"at": "2026-11-22T02:41+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -185,6 +172,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Wild moment beach ‘waterfall’ floods legendary SoCal surf spot as El Niño wreaks havoc",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOGZseUNqZUpXcGVScmFncWFkbU01WFJURWhZZ0lCcVRYem9DMXpNRm9zd193LVVnRUk3T2d2VEtIa0t5MGpfajhPQWQxaXNmWWVFUElXVjltbEY2NnlwZXFhRHpROWlXeGJ6Z3M1U1JfeV9UZDNLYnlmNXdrT1B1Um5mYTNsOEt1QzlPRUliNUlmMzAyUjRyN19kaGwyMEpkWm5PZUdpdWlBNm1mMUoxTXFEVUs3aWticWZ6WUdxdTNCYVktMjJxcDBkTDc?oc=5",
+"source": "New York Post",
+"at": "2026-11-21T18:12+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Hawaii Winter Outlook",
@@ -495,6 +492,16 @@
 "kind": "outlet"
 },
 {
+"title": "What Happens When Tom Curren and Friends Take Over Europe's Premier Surf Factory?",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGJUdm5lQ0VpcGFMZnQ0TFk2RzlBeWo1cmNYczd6VmVsSFgtM05uU1pOVDFrdmlVa20zOTlRaFgxbG5SWU10ZWE0QmVpRkIxb2dQNmNYRU5UaG83bzIyekctbzM5Y3BXVXlMd0tRX2ZtZm5RSGczZFJfbXEtNVNuTUNIUGZSWjg3?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-20T19:51+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Custom Ski Boots: What’s the Process? And Are They Worth It?",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjRSVHZNQjdrdGVGWUNSeTlGd0VFMGIyTHd0anV6aUdUMjV3b0Y0R3lsenhGaUpiQ0s4WnVkZ01sdUFjUnF3LUZienM3TTh1d2d4ajlJNE0wV2p3UDJpcVNMbVZPTEpPUFVjMDVDOVlScklaa1E4NDJRbjM4SXN6Skk2YTg0S3ZEZzhhTWlGRFhVUGs?oc=5",
 "source": "The Inertia",
@@ -594,6 +601,18 @@
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDk1/rapa-nui-surf.png?profile=rss&x=50&y=32",
 "desc": "An unnamed surfer threads a solid Rapa Nui right while Easter Island’s moai stare from the headland in a surreal collision of modern surfing and ancient history.",
 "surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Taking mother power to whole new feats, Justine Dupont's incredible connection to Nazaré",
+"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpPQk9zT1FRaWZ1eENMOHdBc2ZUa2NkVVNhbXY2WVl2eWRvQlZZd1MzanpfaDYxS3hJRDdCUkJDN0hoeXNiVl8wZlB3NFFucGxndUstN24tcjRETS1wb2hQTXRQbFhickFTVVNKZGVsQWFsRjZfQnVTd0hwbFBYRUU3bzVmY3BaU3VBRFphV3BKNEtqUkdMSkVsUWdFWnVoVVRRYXg0VFlNbHQ4VnpoeUJESHFHRG93bURic2VDNWRreU1abXgyYlNDaw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T13:09+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"justine-dupont"
+],
 "kind": "outlet"
 },
 {
@@ -782,7 +801,7 @@
 },
 {
 "title": "Finn Bilous Shows Us What Living an Endless Winter Looks Like",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS2pwM3V4ODFNTEFMYTc0N3B2bG1tcGhxVlczb2NPYjlBa2JWdExkaTRMVmhOaFN0WnU4eTVHUVUwXy1HVUNJNTE2Y2pLN082R2VFbVFya1BIX3RtRW41eWxPeV9rYVkyOXB0S3BZbXc0ZHRVelRRU1FRNXMyQmFEcGc0ZHZRWHV5QXlwclBGYVNJRS1YUlBGZ2dvb2pNbVF1NGotR29n?oc=5",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3EtZnhfRkJEdHhBTWxEVGR5cXBiQU1XbWg4TWFzelBPTzkxTS1SbTc0eXFKTnNZV1ZRZVczNVNqRU5sQ3JINWRyd3g0bGE3TDlvSEE4QmNpVlZqUXUzdDRLSDdxUjM5aEVZczRaX1ZLcWFVZWxTdkw4VXM2RDIwNEM2aWd3VFdYQU9yZ0xSS1IyOFJvcEV2NF9LQ1BrbU0?oc=5",
 "source": "The Inertia",
 "at": "2026-11-19T21:05+00:00",
 "img": null,
@@ -1214,26 +1233,6 @@
 "surfers": [
 "ethan-ewing"
 ],
-"kind": "outlet"
-},
-{
-"title": "Results for Kei Kobayashi at Taiwan Open of Surfing 2026",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcS1LMTNBQ3RIcURIb0lJbWpCaGUxdXlqRHNxY3pMdmhmNXVVdk9rN2F1cGd2YTd5ME9WeU9DOEhjMkRZV3BYR0R2VkpKRWFyemN6NmJUeWNBb1ROQ1Q5UHhOZnJLSEJxaFNlUjM5aXdvQkpicjJ0LXVZZnAwRjhXdDNxZjRUNVB3ZDZ2RWVn?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T14:46+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T10:21+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
 "kind": "outlet"
 }
 ]
