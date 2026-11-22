@@ -1,16 +1,16 @@
 {
-"updated_at": "2026-11-22T07:52:59+00:00",
+"updated_at": "2026-11-22T09:27:37+00:00",
 "sources": {
 "Surfer": 43,
 "ISA": 5,
-"Stab": 12,
+"Stab": 13,
 "Surfline": 11,
 "The Inertia": 42,
 "BeachGrit": 16,
 "Tracks": 0,
-"World Surf League": 40,
+"World Surf League": 39,
 "Surfertoday": 3,
-"In the news": 15
+"In the news": 12
 },
 "items": [
 {
@@ -21,6 +21,19 @@
 "img": null,
 "desc": "Audrey Pascual (ESP) Extends Lead Over Victoria Feige (CAN) as Women’s Kneel Battle Intensifies Felipe \"Kizu\" Lima (BRA) Builds Commanding Lead as Record Seventh World Title Comes Into Focus Martín Martínez Rises Above t",
 "surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Jarvis Earle and Sophie McCulloch Win The 2026 Taiwan Open of Surfing International QS 6000",
+"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2FIUi0xRldveGdXRXVIT3F0dFFjQzFxSU5sWXM1LTRWLU5wWU1vSnJ5TVhGWnhjdXJ6eHpydFNlX1pLN2pqZkZaaHZ1WFJIelhMWmIxOUJNTzNrZTVmUjRxRHV6S2V3bE1ESGpHZXVZaEd2Z2ZlTWJ0Zkk1NW5LLVNLaUZPN1lsWENreHRXeHZzUXdFcGREZzdDOXNnWVpvTEJFbWVOLXdvaUhlSllSaHkxU2FLeFVWTTZqTmZoSkhGVnJVa3pyaG5Gb25RU1ZNRmc?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T05:54+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"jarvis-earle",
+"sophie-mcculloch"
+],
 "kind": "outlet"
 },
 {
@@ -47,7 +60,7 @@
 "title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
 "source": "KSBY News",
-"at": "2026-11-22T02:40+00:00",
+"at": "2026-11-22T02:41+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -104,16 +117,6 @@
 "kind": "outlet"
 },
 {
-"title": "Wild moment beach ‘waterfall’ floods legendary SoCal surf spot as El Niño wreaks havoc",
-"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOGZseUNqZUpXcGVScmFncWFkbU01WFJURWhZZ0lCcVRYem9DMXpNRm9zd193LVVnRUk3T2d2VEtIa0t5MGpfajhPQWQxaXNmWWVFUElXVjltbEY2NnlwZXFhRHpROWlXeGJ6Z3M1U1JfeV9UZDNLYnlmNXdrT1B1Um5mYTNsOEt1QzlPRUliNUlmMzAyUjRyN19kaGwyMEpkWm5PZUdpdWlBNm1mMUoxTXFEVUs3aWticWZ6WUdxdTNCYVktMjJxcDBkTDc?oc=5",
-"source": "New York Post",
-"at": "2026-11-21T18:12+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Hawaii Winter Outlook",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHV2U3dRa0lPemtFYkM3Vl9DRG04bjJtOXNnbXRxTHYwN1hOVndNR1B6dEhtM040MXFXSnNhLVZkQ3hmbHBNZDhvLUM1LTIwV2VkQXpLQjQ2S0gtZEdGcl9QUGZsMWIzclBaNWJHVFNqRE9YZV9NdTVxdnYtQmZLdkMtQVFHMm9yZkFJTkNIbk81MXZONDlrZzRTVGNZSzg?oc=5",
 "source": "Surfline",
@@ -122,6 +125,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Coupe espoir de surf - Deux jeunes « Reefers » surfent sur les vagues martiniquaises",
+"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMGIwT0NucDBqMnd0blh4cUN6Y0NhU25WT3MtTGpfeHJ4SWRfZS0yMVM5ekJ4MnRwbTZmSkFBZTFnbWh6bW9vZ05yLW9iYWlIVU5jR2tXS1NXRHVfbG83YUFxM1VFVTVMN25xMzgxYUR5SmlMa2h4MXJ5N3ZQQlI3Z3lGa29ITTV6RF9mcG1zeFN4aU4yR21PNFRMekxZaHphNDVINVRtX09LUDZ5NGtxRDN4bFB3eVNIVGc0aU5meXZUanBraDJJRmFhNi1yRzBtb2lfRXZ6dkNEVXRGOW5vend0THY0ZG8?oc=5",
+"source": "Le Journal de Saint-Barth",
+"at": "2026-11-21T17:43+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
@@ -234,16 +247,6 @@
 "filipe-toledo"
 ],
 "kind": "outlet"
-},
-{
-"title": "Spinal Cord Stroke After Mopping Prompts Calls to Rename Surfers Myelopathy",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNGd4MTVNeVNjb2tlc0JmaEFoYWlLRGNGXzFMTE1LVWJ5LU1XLVpueWd3enZ2SFJ4bUFpOE1ST2tBVmE1WGtOV2kxYlBkMktoTllIaW0zeVp4c0IzOTFxLUdrOFNMaWU0Q3V0UkZrT0FaMjFZMjNsWEhEdnQyeTRsQjRhN2tBWUh1WllubDJYRU1BLXBySzFDZTlDa3dQQms1dlE?oc=5",
-"source": "Bioengineer.org",
-"at": "2026-11-21T04:17+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Historic First Day at DSRT Surf Sets New Standard for 2026 ISA World Para Surfing Championship",
@@ -566,18 +569,6 @@
 "kind": "outlet"
 },
 {
-"title": "Sligo surfer Gearoid McDaid turns focus to Europeans as key pathway to LA Olympic dream after disappointing World Surfing Games",
-"link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLUtLeWxwOVRwNGxuQldIWmRGUzNicUF6bVpra3ZpOXo2X0RWN2JWMkdYSTV3STlLcHNDc3hXb3NSS09QalYxZnFncG5TaEszXzlJU1lBeE9sWElmTmVhOGtUNnhjanZ0bC1PTDJ2b3VnOGd6d2FncS1qNXE5NldLcnM0X0tuX3EzMUJCNjE1bmRubkdSQ1p5bWY1czRzcGc2TUFjWDNpV3ZSbWNNQzJUeXNkNDRFZWszUE13N3U4TGFqMDNaMS1keXdhbW9Qak5SeUF5SGU2WXFTU09waG5KeFN6V2pqUmZnTzVVZ19sbUNNdlNkTkJqY2Z1d1dCcXRsZXptMi04VVdIZ2NZTW4xU1Jn?oc=5",
-"source": "Irish Independent",
-"at": "2026-11-20T10:30+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"gearoid-mcdaid"
-],
-"kind": "media"
-},
-{
 "title": "Oliver Hannas Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05N0ctYXRqQUtka0hObXUxbF9NRC1DMHVfeWFhS2hsenZxdUlVYXNtbGlUREI1VUtCalFQdWV1Z21FXzZXUDF2RFp1dXJJWjV0ZFQtb0lHa0lKOEhleTc0VmxaQkdET2tHTmpmeA?oc=5",
 "source": "World Surf League",
@@ -711,7 +702,7 @@
 },
 {
 "title": "Finn Bilous Shows Us What Living an Endless Winter Looks Like",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3EtZnhfRkJEdHhBTWxEVGR5cXBiQU1XbWg4TWFzelBPTzkxTS1SbTc0eXFKTnNZV1ZRZVczNVNqRU5sQ3JINWRyd3g0bGE3TDlvSEE4QmNpVlZqUXUzdDRLSDdxUjM5aEVZczRaX1ZLcWFVZWxTdkw4VXM2RDIwNEM2aWd3VFdYQU9yZ0xSS1IyOFJvcEV2NF9LQ1BrbU0?oc=5",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS2pwM3V4ODFNTEFMYTc0N3B2bG1tcGhxVlczb2NPYjlBa2JWdExkaTRMVmhOaFN0WnU4eTVHUVUwXy1HVUNJNTE2Y2pLN082R2VFbVFya1BIX3RtRW41eWxPeV9rYVkyOXB0S3BZbXc0ZHRVelRRU1FRNXMyQmFEcGc0ZHZRWHV5QXlwclBGYVNJRS1YUlBGZ2dvb2pNbVF1NGotR29n?oc=5",
 "source": "The Inertia",
 "at": "2026-11-19T21:05+00:00",
 "img": null,
@@ -828,6 +819,16 @@
 {
 "title": "The French Village That Said No to Surf Camps",
 "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb0lDWV8xQXlXWkpPU3RTbDZVem5MeDRMSmg0UFZOelVtQ2RFYS1CajdMQzhtVmVleFN6a2E0NUVZNndFb0JQdWc5UkctXzktN2tzVldsc0FaUGVZcm9ueWx2REdfTml2V3Q2dXpUOE9tcmdiM2ltZFBVOHh4TnBmb0I4dG9XR2RJbEE?oc=5",
+"source": "The Inertia",
+"at": "2026-11-19T19:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Meghan Maguire",
+"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfTWdPT1hJYl9sSVhOdmJKSjVhTkd0eUVUcDRhdjZGbzN6ZEFJcWtNbkxuWVJ0VGZvODR1cjNJQjByanc5MVNvM25EQTNKRC1EUlNKbkwzMmFaWnktT2c?oc=5",
 "source": "The Inertia",
 "at": "2026-11-19T19:00+00:00",
 "img": null,
@@ -976,36 +977,6 @@
 "kind": "outlet"
 },
 {
-"title": "The Surf’s Way, Way Up as Huge Waves Pound the California Coast",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWENPZkdEZEVienRIMEVjQUg1X3hCZDYxZnRrdzNjVS1ySGV4VUJpc3ZnVUxpOUxqa0NYSFhMVVdDUGp4TkJyWU9YUlh6YVpSUkxCZ1locmI4NE1tVlhCT25TVXFPY1R3VFV2WENJMTVmVU5lWFVnMFRyWFlVUENPSjRDdVpQbWM?oc=5",
-"source": "The New York Times",
-"at": "2026-11-19T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Surfing - Professional, Competitions, Waves",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ub2VkaGN5aGJ5UjFHdkFwV2hjSDJWaklmM0VWRWFZUjFQcHJucVU3STI2YlBaVjY3OFpoQ1dGUjlDZmxqWFMyQ0N3UG5NZFhCMU93S0Z1blNta0tBVWh4b3Nkd0doQzdNR1Y1NDNPSQ?oc=5",
-"source": "Britannica",
-"at": "2026-11-19T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Olympic Dreams, League Titles & Big Waves Up North",
-"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQSThRRHJSUFhYWkFRSEJ2VUpkX1JsYnpQMWJZVXB3dUFJY2JnRHlBRF9sQmdQWVlSc2toaDhKbXBRTEo5YlZPRmhaLXNHc1V4bElOQnR1cmNaNGdFRVVPMGFfeTN1aHJlN3kzYWE5d3pYeXlFVmU5amh6ZHFMMUdfU2tsblJGSXpSVnFma1JMdmZOdWtPN25obWVfZ3VrZ01fdk9KbUplUXkzRWtsTEFUaGNwMUJfT2VxU0NBOGp1b2pLRHRJZnlSbUlGamVRVnNBLThjSGFCSVgxVVhHZk53Yk5ObHAxeXQzRjdR?oc=5",
-"source": "picketfencemedia.com",
-"at": "2026-11-19T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "What’s The Best Surfboard You’ve Ridden This Year?",
 "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmtGUy16Mk1yOEEyLWJ0Ri02SlpjaTVuNkJuS1NLbmhSSnVUbWZjdU1GSWc0S1RJSjFfdmhVU3ZWdi12UjlsZy0tYUozTVFCc3Z4cEljLXYtZTRhNGRNNzZLOXVLQ25ZRTVMN1Z3MjMwek5yQThGYm1VZE92YWlMNG9B?oc=5",
 "source": "Stab",
@@ -1070,16 +1041,6 @@
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ1A3NEt0aFlMVVRsR1Z0NFo4QnZLckI3c2dWWEMwN1dMZlBjdmVWMDJCZjkzWTQtQjJPZ0hJN2VkLVdJS2hET1VGcVg2NTlycFdYYk1fdlVVazB4eFZNeTQ2ZWt4b3QxekpsOUdTX3kzOWxDcUUzcjNBU01FRjVFSzRSTDRpc2o4T0RFX05DNm5kRzJ6?oc=5",
 "source": "The Inertia",
 "at": "2026-11-18T21:33+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Jacob Szekely and the El Niño-Fueled Swell in San Diego",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVVWX2V5UDhyb3JxYXZZcFNaVEtpUlVBTUJkLWNFQUVjUjlxbi1Mb0l4Vm4xaFpEQWt1M2dBWWJuMG5NLV8tSGREM1lobTB6eWZDajRlWTFuSTJGS2N6djQ2QmlxZkMzdGRxRS1WbHZ4VnV6Q29DX0dmUllEZlBjQmxtVjN1bDc4ZWxXdzV5QThRUQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T21:18+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1228,12 +1189,52 @@
 "kind": "outlet"
 },
 {
-"title": "Results for Kaiwa Foster at Haleiwa Pro LQS1,000 2026",
-"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlp1X0RrNWFGTk5zQjJEdkhIMUR1OFJxOVlid0UxQ25HWlZkWEpILTlrMjY5bGtlX2RxUG9TWUc2ZWluNjZwdHRUR2lxSzg5TWZ2LXNhX2JmM3Zrdklza3Z1UXlpQUVfc09VVnRnZDctaE9TMFJBWkF4SWZmSWMySk0wTVpTZ1g4NjRVUTlR?oc=5",
+"title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5",
 "source": "World Surf League",
-"at": "2026-11-18T13:47+00:00",
+"at": "2026-11-18T10:21+00:00",
 "img": null,
 "desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Real Life: Lesbians Tried To Steal My Red Bull Athlete Husband’s Sperm!",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdk9ZblluRmZ3cGxnU2dyUnIwTEg1UjNtQU9kQk9UZ0N5SXZJMVc4WUF3aWFQb0hqdzFEMHFLcmZTNXROd0ZOemFUZUdNWFhaY1VSVk42WHFydk5oVWhzcWNQQUdyWlZCUEdXcUlqSGEyQVY2WFlJMVRzZEp0amNyU0pmamw0blRvZTFSMFc3X3drNFpaVHI1Z01QNnhJMGZI?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-18T04:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Training Day & Day 1",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHRfM28zWUVkcmdveGdWLTJGUW11ZlBHODJ5bGJ3Y2NkVEVwNmNqOWhPcWxhWHdOdzNSejZ5T0NPY3g1WEVrUHJKbmplY0YtYlBOT1ZDLUdQaTc1R0Z5VE1kekcyQkxGOVNVS2RodzRTU1dkRS1xUXBldlpYTEtoUHhJNDJ0NFp0WDc0LTZKbllMWTVTVEoyYWVObFFTTmc4Q2pET2ZJSHJOcXdtclFNSldfOGg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T03:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Relive Top Moments: Pacifico Surf Open Cerritos Finals Day 2025",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZmRWZXozdnhUUWxraVJpWVZaWmhTbVZzcGJJakF4VWVTRDNucU81SURuWHpOT2stUUs3cDlLbllMeWRTSk5kUVhUZWQ0VXhSR2EtU0ZfMkl6blloVUNYbGYwaFRnbnd2Um1Lck5KNzdyVjdrUXJ4ZTZMWGVKT3A3ajJmSjVwYUVZaUo2aHpqRU1Wbm8xVlE?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T02:23+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "‘Day After Tomorrow’ Climate Nightmare Looms as Critical Atlantic Current Weakens (Video)",
+"link": "https://www.surfer.com/news/day-after-tomorrow-amoc-real-life",
+"source": "Surfer",
+"at": "2026-11-17T23:10+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODE4/day-after-tomorrow.png?profile=rss&x=50&y=32",
+"desc": "Research into the Atlantic Meridional Overturning Circulation (AMOC) reveals a potential climatological catastrophe ushering in Earth’s new Ice Age.",
 "surfers": [],
 "kind": "outlet"
 }
