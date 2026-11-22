@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-22T03:06:11+00:00",
+ "updated_at": "2026-11-22T03:40:51+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -4731,17 +4731,18 @@
     ],
     "women": [
      {
-      "key": "alana-lopez",
-      "name": "Alana Lopez",
-      "country": "United States",
-      "wsl_id": "17378",
-      "rank": 1
-     },
-     {
       "key": "sophie-mcculloch",
       "name": "Sophie McCulloch",
       "country": "Australia",
       "wsl_id": "5181",
+      "rank": 1
+     },
+     {
+      "key": "alana-lopez",
+      "name": "Alana Lopez",
+      "country": "United States",
+      "wsl_id": "17378",
+      "out": true,
       "rank": 2
      },
      {
@@ -5339,7 +5340,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (135 men, 74 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (135 men, 75 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "alister-reginato": {
@@ -5892,6 +5893,10 @@
      "points": 7800,
      "live": true
     },
+    "alana-lopez": {
+     "place": 2,
+     "points": 7800
+    },
     "alys-barton": {
      "place": 33,
      "points": 265
@@ -6188,14 +6193,9 @@
      "place": 33,
      "points": 265
     },
-    "alana-lopez": {
-     "place": 2,
-     "points": 7800,
-     "live": true
-    },
     "sophie-mcculloch": {
-     "place": 2,
-     "points": 7800,
+     "place": 1,
+     "points": 10000,
      "live": true
     }
    },
