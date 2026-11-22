@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-22T11:25:06+00:00",
+"updated_at": "2026-11-22T13:39:39+00:00",
 "sources": {
 "Surfer": 43,
 "ISA": 5,
 "Stab": 12,
-"Surfline": 11,
-"The Inertia": 42,
+"Surfline": 9,
+"The Inertia": 41,
 "BeachGrit": 18,
 "Tracks": 0,
-"World Surf League": 38,
+"World Surf League": 37,
 "Surfertoday": 3,
-"In the news": 12
+"In the news": 11
 },
 "items": [
+{
+"title": "Tianyu Huang Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NOFZZWmFOLUZWOHZfdC1rWWNJN1RmTlluRmljRE1Oc1BkZGp1QlV4LUJHZFp5MTZmWGZwOGp2dkFjUEE4aW1mYUlHQURyaUJUX2JRLVhGQzNWZ29wV2lqMjBiQkhjWThOemNn?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T12:26+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Fifteen-to-20-foot Great White Hits Californian Surfer Jack Canigiula, \"Welp, Pretty Rattled.\"",
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkl2TmRRMFlCb2hYU0M2LWdoMTZ3WFZjOEFuczBnNEFKMVgySVB2bWFhMWx5eHd6ZmVMSzdIOFdmTWVGZklLWTdHYTU0UWpxVE9LaG03d1BFYmVibmR3Q2hJTWNSVk9MTEpPaUM4VGplNF9tUGNjaXdWRXc4bjd4N2ZWRFRadDFtbFRmR1BTZXktZXV5RDFLOTNOVkw2cC1xVDZNMkFRcVkyODRwODd2MmZMZVI0aEo2NHR5cQ?oc=5",
@@ -599,6 +609,18 @@
 "kind": "outlet"
 },
 {
+"title": "Sligo surfer Gearoid McDaid turns focus to Europeans as key pathway to LA Olympic dream after disappointing World Surfing Games",
+"link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQLUtLeWxwOVRwNGxuQldIWmRGUzNicUF6bVpra3ZpOXo2X0RWN2JWMkdYSTV3STlLcHNDc3hXb3NSS09QalYxZnFncG5TaEszXzlJU1lBeE9sWElmTmVhOGtUNnhjanZ0bC1PTDJ2b3VnOGd6d2FncS1qNXE5NldLcnM0X0tuX3EzMUJCNjE1bmRubkdSQ1p5bWY1czRzcGc2TUFjWDNpV3ZSbWNNQzJUeXNkNDRFZWszUE13N3U4TGFqMDNaMS1keXdhbW9Qak5SeUF5SGU2WXFTU09waG5KeFN6V2pqUmZnTzVVZ19sbUNNdlNkTkJqY2Z1d1dCcXRsZXptMi04VVdIZ2NZTW4xU1Jn?oc=5",
+"source": "Irish Independent",
+"at": "2026-11-20T10:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"gearoid-mcdaid"
+],
+"kind": "media"
+},
+{
 "title": "Oliver Hannas Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05N0ctYXRqQUtka0hObXUxbF9NRC1DMHVfeWFhS2hsenZxdUlVYXNtbGlUREI1VUtCalFQdWV1Z21FXzZXUDF2RFp1dXJJWjV0ZFQtb0lHa0lKOEhleTc0VmxaQkdET2tHTmpmeA?oc=5",
 "source": "World Surf League",
@@ -795,18 +817,6 @@
 "kind": "outlet"
 },
 {
-"title": "Griffin Colapinto Has Been Busy Scoring at Home Before His Run for a Title at Pipe",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNkdUM0thXzh0dFB4U016VTVrUGUxUnczZmdsWlh1YldTRm15cEpEdDN5R1BiYnZmQjJqZ2NYNFdtbS1TUVJFODVWSGZjYlhlUU12WE1hSVRpcmFiZ1NSTjFXMlg3bm41Rk1zMEVtODB4MVpDY3I2WmR4enYxX3YzZXQ0NThvR2ZqbWd3amFZSDdieXRMR3l1ZWQzMTVFRUZqX1l2Xzl1c0cyenRnd0pJcjNZSmVtQQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-19T20:19+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"griffin-colapinto"
-],
-"kind": "outlet"
-},
-{
 "title": "This is for EVERYTHING.",
 "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YV0Q4TVZwUmw5R1RNY1BMY2lzUWVMMjM4V3Z3cWZFNFFQdGdEZ21oU1hYYzY5ZHFNbEFVLUZGd0N1WUJTeklRRFVwSC14WEY5Ql96U1pYZlNUbFlrcTBZLXBLZ0dyRHBzcFRwelNHRnNOblZIVXc?oc=5",
 "source": "World Surf League",
@@ -947,16 +957,6 @@
 "kind": "outlet"
 },
 {
-"title": "The wild East Coast shores that draw surfers all year long",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnVadUtkRW5lTE4zbW14MzVzdEFWdUZ1VUhIVk5EUEFhMHRnZVdkeTIxRVR5cTRfdkN0Ry1QWi15dm1XaGRLRUREMnhoLTl3UVJSellUbFlHZTNyRnVKaDQ1YkZGREc3RUdQTi1RT1hwWGJqV1gwenBmNFhoRjdCalBJT0tyTGZKTDZ3Mzlucmh4bFFwamx4LXFrUUhleDF5SFpPeXp3djI?oc=5",
-"source": "The Globe and Mail",
-"at": "2026-11-19T12:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Former Taiwan Open of Surfing Finalists Dominate Day 6 at Jinzun Harbor",
 "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdmpxRV9KSC12bGl2dWcwNjMyY0tvZFJmT3licUVDMFQxVzd6MXJXQXVxSUlGMElNMXhIZWlnNEdIaFgyWDl3N25KelY2QVE2RmczYmRPcjAtSXJ1NTllelFzZmR6dmVlclZCNVNWOWVsd2ZYTVIzT0VyX1hUV0N0Um1QMnBCVFBEOWVyeEI1TnZiRWNhNTIxNE9sYlBMZHZ0RG1xRGJrSU5HWmozMjZscjd4bHJmdDA?oc=5",
 "source": "World Surf League",
@@ -965,16 +965,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Surf Legend's Girlfriend Accused in His Tortuous Murder",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbjZtREdzeVYwdHlUbUthRkhGZTJsaG81N0otTnVZZDFiVXZSRjlQSHdDUVdGWDdWMUk5elNwT2lVeUtJMTJwZTRTM01Pay1tU1Y5cE5fTVEwVDdXZnBRcDZwaHBMeHA0ZzgtN1FtLTdCSm84aVlLb01NQTIxVEtNMXpCNW1qWkQ0YlB4WTlhYTBxX2c?oc=5",
-"source": "Newser",
-"at": "2026-11-19T11:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Watch: Laurie Towner In ‘Equilibrium’",
@@ -1233,6 +1223,16 @@
 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdk9ZblluRmZ3cGxnU2dyUnIwTEg1UjNtQU9kQk9UZ0N5SXZJMVc4WUF3aWFQb0hqdzFEMHFLcmZTNXROd0ZOemFUZUdNWFhaY1VSVk42WHFydk5oVWhzcWNQQUdyWlZCUEdXcUlqSGEyQVY2WFlJMVRzZEp0amNyU0pmamw0blRvZTFSMFc3X3drNFpaVHI1Z01QNnhJMGZI?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-18T04:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Highlights: Taiwan Open of Surfing Intl QS 2026 - Training Day & Day 1",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHRfM28zWUVkcmdveGdWLTJGUW11ZlBHODJ5bGJ3Y2NkVEVwNmNqOWhPcWxhWHdOdzNSejZ5T0NPY3g1WEVrUHJKbmplY0YtYlBOT1ZDLUdQaTc1R0Z5VE1kekcyQkxGOVNVS2RodzRTU1dkRS1xUXBldlpYTEtoUHhJNDJ0NFp0WDc0LTZKbllMWTVTVEoyYWVObFFTTmc4Q2pET2ZJSHJOcXdtclFNSldfOGg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T03:11+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
