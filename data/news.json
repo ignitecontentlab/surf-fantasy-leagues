@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-22T15:25:35+00:00",
+"updated_at": "2026-11-22T17:24:51+00:00",
 "sources": {
-"Surfer": 44,
+"Surfer": 45,
 "ISA": 5,
 "Stab": 12,
 "Surfline": 7,
-"The Inertia": 39,
+"The Inertia": 40,
 "BeachGrit": 18,
 "Tracks": 0,
-"World Surf League": 36,
+"World Surf League": 34,
 "Surfertoday": 3,
 "In the news": 13
 },
 "items": [
+{
+"title": "The XXL El Niño Swells That Rewrote Surfing History (Including the Day Earth Itself Shifted)",
+"link": "https://www.surfer.com/news/el-nino-biggest-waves-swells-surf-history",
+"source": "Surfer",
+"at": "2026-11-22T16:36+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDU4/abyss.jpg?profile=rss",
+"desc": "From Ken Bradshaw’s fabled 80-foot monster to a winter that literally altered Earth’s rotation, we revisit 5 defining El Niño mega swells.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "‘Disturbing’ UCSC Video Maps Potential San Francisco King Tide Disaster as Record High Water Looms (Video)",
 "link": "https://www.surfer.com/news/king-tides-san-francisco-thanksgiving-video",
@@ -22,6 +32,16 @@
 "desc": "A new UCSC visualization shows how a 20-year storm, El Niño sea-level rise, and record king tides could flood San Francisco’s waterfront and bay communities.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
+"source": "KSBY News",
+"at": "2026-11-22T14:16+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "312-Foot Spray Detonates Off Oregon as 30-Foot Waves Pummel the Coast (Video)",
@@ -117,16 +137,6 @@
 "kind": "outlet"
 },
 {
-"title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
-"source": "KSBY News",
-"at": "2026-11-22T02:41+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "SA surfers make a splash in Peru",
 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzhiejdrNk5wWmhNN3YzN0IzQlRHWElncUNmcEg0eEdPeDl1bW4zRnZzT0tUdDlLUzBjVk1STmc3ZXBpSFhfODB6Sjd6bkVZR2pqazRPXzh4STF4SVhjMWdCeEwtOFQ1LWxJNDdYRWZQNG1MOWhJb2l1UDQwYTFQejVaeXMyLTNlS2s2MWtSR05Ua0ljcmxLejA3MWRCdmFYeDItM2RmbzB3ZVRFa01pNDFCM1Q?oc=5",
 "source": "The Citizen",
@@ -151,16 +161,6 @@
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzSzFQT3JvdlZoaUFhUi15NWtOMlJuVzI0ZWNQZ0ptOFNkRTFTN3ZWeGJBRFpyMFphbk5NMjYtTEs2bjROZzY3Rm1jaHFtWlNWV2hVUUNsZzhKTFBX?oc=5",
 "source": "World Surf League",
 "at": "2026-11-21T20:55+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Pacifico Surf Open Cerritos 2026",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdGNWV0ROOG1nZVhkaktQekozRUYyYUNzcmJtUmJqaHhlNERSV2tGUkVOZVV2YkpzZzVlYmtDSGpnVDNSM0xWZGtMWFZoLVlPTE9Hd3dET2tVOWI5cWNfaWhPQjMxRU1ZdHJHRlkxT3NGcXVRTU9hVkNGT0FSSEtwUGZTemlXbWM?oc=5",
-"source": "World Surf League",
-"at": "2026-11-21T20:31+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -597,18 +597,6 @@
 "kind": "outlet"
 },
 {
-"title": "Taking mother power to whole new feats, Justine Dupont's incredible connection to Nazaré",
-"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpPQk9zT1FRaWZ1eENMOHdBc2ZUa2NkVVNhbXY2WVl2eWRvQlZZd1MzanpfaDYxS3hJRDdCUkJDN0hoeXNiVl8wZlB3NFFucGxndUstN24tcjRETS1wb2hQTXRQbFhickFTVVNKZGVsQWFsRjZfQnVTd0hwbFBYRUU3bzVmY3BaU3VBRFphV3BKNEtqUkdMSkVsUWdFWnVoVVRRYXg0VFlNbHQ4VnpoeUJESHFHRG93bURic2VDNWRreU1abXgyYlNDaw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-20T13:09+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"justine-dupont"
-],
-"kind": "outlet"
-},
-{
 "title": "The 2026 World Junior Championships Collection I A glimpse of what's in store at La Bocana",
 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNDk1aVR4alBjaEVHNzFxNC1WTkdEWUtDcjQ0UjhaS1V2NzRCQzg2WUNHbF92UC1ETEVGeFU4aUpjdmdMSGlfeHVXV3dGNjJEMXBoV1dMcXBmN0R2bVdra3JhNFZ1S1dhbHc1TWhWZ3N4RHBFSndoT0xvTy14QWRfMDR4Y21obDZKVFpMZVR5YXJLTGM5WGk4MWE2bDQtWjR5ODhkTnVfMWpnTTRRUnQ5VGxpV3ZjWlFWS05nTXFFdVczekh6Z0J4Yg?oc=5",
 "source": "World Surf League",
@@ -957,16 +945,6 @@
 "kind": "outlet"
 },
 {
-"title": "Body recovered 3 days after it was spotted in the surf near Newport",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkRvOFpYWE9lYmx0THliWTYzSHVnenhPMExkR0RkYlV3U2Jramg3bVNyTGxyOGd5YzlDaGJDMTB4UjdscUR0Zk9mREdMcHdBS2xxc0RGLU02Z3poc1ExOEFkampHMzl3WWo0OUZmcXRaNHhON0ZON1ZEcU81S1J5XzhCOXdWLWtiNlpXd0xRWmhrOE85a1RWNTJLc3BIbWlQNFE0SXZ6RlE3NkwzSG8tOWoxUdIBxwFBVV95cUxPTUFWanZDamdXY2lFel9JV0pKd0lwWTJKUlFNSUhFaGdqd1lmZXhsQ3FONFF4bk41eXFqQlVFc3VLSkRYZnpjb29NaEFhdTVwSWNiNmRvMXpPMXpna3NFamNKQTNOaVE5SHFDaHgwMjBxdlJWNTJiN3NGXzA3Q0JpU0I5Szh6dkFPX21GbmlWVHlPdFhKeXpLT3YtQXR2VjJKU3NCUnM1TUpjbmFlT0dXTTRVSTdISHBxNlZIeTRSZ004bHMwcHRB?oc=5",
-"source": "OregonLive.com",
-"at": "2026-11-19T15:55+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Results - Pacifico Surf Open Cerritos 2026",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
 "source": "World Surf League",
@@ -1027,16 +1005,6 @@
 "kind": "outlet"
 },
 {
-"title": "What’s The Best Surfboard You’ve Ridden This Year?",
-"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmtGUy16Mk1yOEEyLWJ0Ri02SlpjaTVuNkJuS1NLbmhSSnVUbWZjdU1GSWc0S1RJSjFfdmhVU3ZWdi12UjlsZy0tYUozTVFCc3Z4cEljLXYtZTRhNGRNNzZLOXVLQ25ZRTVMN1Z3MjMwek5yQThGYm1VZE92YWlMNG9B?oc=5",
-"source": "Stab",
-"at": "2026-11-19T05:20+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Quiz: What Are Your Best And Worst Surfing Moments?",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeWV6R2RVVVZhUlBEUlFJMXpEUDJJR2hTX2F0bXhuYWxGSHVWTlJUcnVrcngtU1V1RGVFRVZPb0JtRkZrQUxGMUtPWEYxLVBJME9Ia29lZ0ZQRnBxM01NR2J3VEhpTkJkTVVkaWFZaEltNFRtdVk3eXItS1R0RnRjeWJqQ1JBb1k?oc=5",
 "source": "BeachGrit",
@@ -1053,6 +1021,16 @@
 "at": "2026-11-19T02:49+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTA1/la-jolla-big-wave.jpg?profile=rss&x=36&y=48",
 "desc": "El Niño turns San Diego’s reefs into 20-foot mutant slabs as Jacob ‘Zeke’ Szekely and Skip McCullough flirt with disaster in a harrowing new clip.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The Best Surfboard Harry Bryant Has Ever Owned",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT2htbzBKc21yMmFLMVN3a3RMamp6NTlBdlFuSll6ZVlvMC11UFZ5emhMaVVESGRjT2NWT0k1NHozUFlaLXNSQWJMQ1puYVBtRDFLQlNrWGZTQUp4bHExcXFsemM2MTM3WUhfNlJWOU4zekw1eWcxWlI5MFdvUTJLdEtB?oc=5",
+"source": "Stab",
+"at": "2026-11-19T02:36+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -1091,6 +1069,16 @@
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ1A3NEt0aFlMVVRsR1Z0NFo4QnZLckI3c2dWWEMwN1dMZlBjdmVWMDJCZjkzWTQtQjJPZ0hJN2VkLVdJS2hET1VGcVg2NTlycFdYYk1fdlVVazB4eFZNeTQ2ZWt4b3QxekpsOUdTX3kzOWxDcUUzcjNBU01FRjVFSzRSTDRpc2o4T0RFX05DNm5kRzJ6?oc=5",
 "source": "The Inertia",
 "at": "2026-11-18T21:33+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Jacob Szekely and the El Niño-Fueled Swell in San Diego",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVVWX2V5UDhyb3JxYXZZcFNaVEtpUlVBTUJkLWNFQUVjUjlxbi1Mb0l4Vm4xaFpEQWt1M2dBWWJuMG5NLV8tSGREM1lobTB6eWZDajRlWTFuSTJGS2N6djQ2QmlxZkMzdGRxRS1WbHZ4VnV6Q29DX0dmUllEZlBjQmxtVjN1bDc4ZWxXdzV5QThRUQ?oc=5",
+"source": "The Inertia",
+"at": "2026-11-18T21:18+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1233,6 +1221,16 @@
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcS1LMTNBQ3RIcURIb0lJbWpCaGUxdXlqRHNxY3pMdmhmNXVVdk9rN2F1cGd2YTd5ME9WeU9DOEhjMkRZV3BYR0R2VkpKRWFyemN6NmJUeWNBb1ROQ1Q5UHhOZnJLSEJxaFNlUjM5aXdvQkpicjJ0LXVZZnAwRjhXdDNxZjRUNVB3ZDZ2RWVn?oc=5",
 "source": "World Surf League",
 "at": "2026-11-18T14:46+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5",
+"source": "World Surf League",
+"at": "2026-11-18T10:21+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
