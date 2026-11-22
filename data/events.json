@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-22T21:58:44+00:00",
- "content_hash": "ffbe92c00fd6",
+ "updated_at": "2026-11-22T22:58:32+00:00",
+ "content_hash": "7b310929e180",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-22T21:58:44+00:00"
+   "news_at": "2026-11-22T22:58:32+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -64,10 +64,10 @@
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRlRUeVhKRDBCN3NZaE9za3dmNzZ6Wm5OSjl5WjVLSUk4N3VacF9TVWVtOU42ZVBoMTY3UHJ1NGNETG1mTVo2R2RjT2pDX1BSUUYtaUJmQlJuLXRIQWdDbWVXTGZGZTlyU3F3a1ZjamFRMzlqZTBXZ2VPZHV6ODFmN1R4STk5eUdHTnJYUUxwaUFBWm5yZEZvclpMODZRQXl5X0FaM0Jn?oc=5"
     },
     {
-     "title": "Australians Dominate Taiwan Open as Vaughan, Thomas and Heazlewood Impress",
-     "date": "2026-11-19",
-     "source": "Sportzhub",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkRSeDBndjJHNldieWp4S1gyRUltcDVHaXNkWVN1QzQ1Nm4tb2hzNFpHNVRoZDNQWlRTMlNmRXhhWEwtZ2hVS1NPV1p1QjVMaDlYOWRsQ0tLOUxtU3ZDMWJuSmw3a0FjNUZwSHBaRy11SWxxeVJKX18wcVRrWlVFOVY1UnJscWJvd2Exc0ZHN3pjNWJFemJtd3ZEZmNQWXpjYmRWaHF6RExsZm1DWWZucFNB?oc=5"
+     "title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
+     "date": "2026-11-18",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5"
     },
     {
      "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5"
     }
    ],
-   "news_at": "2026-11-22T21:58:44+00:00"
+   "news_at": "2026-11-22T22:58:32+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTmg5dlZEeXFwcHE1QlBqM1RSc3V2SXozakVXc1FuSU1zLVhfU0RUYXNDWXBKNWhmRTlIZU52RW1zU2NRaG5aTzJpRXo5Zy1oSl8wSFdLRUd4SGhpanJfMnBORkxtQmg0TllDQXFfVHRsdlpVbFNTMEIwSUVjOWF4VjdLU2tEMFhTcExkOUdmelRqOUVYX0VDazRFR1U0SXNYSUlRVkd2dG1USDdER0k4dlpsVDlSTzA?oc=5"
     }
    ],
-   "news_at": "2026-11-22T21:58:44+00:00"
+   "news_at": "2026-11-22T22:58:32+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -559,13 +559,13 @@
      "title": "Invitees Announced for 2026/27 Rip Curl Eddie Aikau Big Wave Invitational",
      "date": "2026-10-29",
      "url": "https://www.ripcurl.com/blogs/events/invitees-announced-for-2026-27-rip-curl-eddie-aikau-big-wave-invitational",
-     "age": 23
+     "age": 24
     },
     {
      "title": "Stories from the Eddie: Jack Soren",
      "date": "2026-02-24",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-jack-soren",
-     "age": 270
+     "age": 271
     },
     {
      "title": "Stories From The Eddie: The Trophy",
@@ -1325,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-22T21:58:44+00:00"
+ "checked_at": "2026-11-22T22:58:32+00:00"
 }
