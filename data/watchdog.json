@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-22T14:04:52+00:00",
- "ok": true,
+ "checked_at": "2026-11-22T14:56:57+00:00",
+ "ok": false,
  "checks": {
   "site": {
    "ok": true,
@@ -20,19 +20,19 @@
   },
   "collector": {
    "ok": true,
-   "detail": "last success 20 min ago, 0 of last 3 failed"
+   "detail": "last success 26 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
-   "detail": "last success 48 min ago"
+   "detail": "last success 42 min ago"
   },
   "media": {
    "ok": true,
-   "detail": "news and videos last refreshed 25 min ago"
+   "detail": "news and videos last refreshed 77 min ago"
   },
   "pages": {
-   "ok": true,
-   "detail": "0 of last 3 deploys failed"
+   "ok": false,
+   "detail": "2 of last 3 deploys failed"
   },
   "event_sources": {
    "ok": true,
@@ -46,7 +46,7 @@
   "video_worker": 0,
   "data_files": 0,
   "collector": 0,
-  "pages": 0,
+  "pages": 1,
   "event_sources": 0,
   "events": 0,
   "media": 0
@@ -60,9 +60,10 @@
   "Re-ran the **pages** workflow because the last site deploys failed.",
   "Re-ran the **pages** workflow because the last site deploys failed.",
   "Re-ran the **pages** workflow because the last site deploys failed.",
+  "Re-ran the **pages** workflow because the last site deploys failed.",
   "Re-ran the **collect** workflow because its last successful run was 88 minutes ago.",
   "Re-ran the **collect** workflow because its last successful run was 119 minutes ago."
  ],
- "last_action_at": "2026-11-22T10:30:10+00:00",
+ "last_action_at": "2026-11-22T14:56:57+00:00",
  "heartbeat": ""
 }
