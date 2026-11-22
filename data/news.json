@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-22T09:27:37+00:00",
+"updated_at": "2026-11-22T09:45:02+00:00",
 "sources": {
 "Surfer": 43,
 "ISA": 5,
-"Stab": 13,
+"Stab": 12,
 "Surfline": 11,
 "The Inertia": 42,
-"BeachGrit": 16,
+"BeachGrit": 17,
 "Tracks": 0,
 "World Surf League": 39,
 "Surfertoday": 3,
 "In the news": 12
 },
 "items": [
+{
+"title": "Repentant Surf Bully Stiffed For $100 By Vulnerable Adult Learner",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX2NMU2l3THBTdWhvamluRHpNS3NCbF92RGZOM05SV2xZaEJwQ3RLT05VOXdlRVZJc2I3S3VXS2NIekRhYzBHRERxLWhsb0luZTR2SkdVbTlQSEtMS1FkR0ZRcjU0WGN1c0c5VmFzOGQ5SU9meC1JNWtZRGFjb1haNmVYU2hOQTNkWFQwOWJ3bUtFem1tdXYxOWRPYw?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-22T09:32+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Para Surfing’s Best Raise the Bar as Finals Day Takes Shape for 2026 ISA World Para Surfing Championship",
 "link": "https://isasurf.org/para-surfings-best-raise-the-bar-as-finals-day-takes-shape-for-2026-isa-world-para-surfing-championship/",
@@ -1225,16 +1235,6 @@
 "at": "2026-11-18T02:23+00:00",
 "img": null,
 "desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "‘Day After Tomorrow’ Climate Nightmare Looms as Critical Atlantic Current Weakens (Video)",
-"link": "https://www.surfer.com/news/day-after-tomorrow-amoc-real-life",
-"source": "Surfer",
-"at": "2026-11-17T23:10+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODE4/day-after-tomorrow.png?profile=rss&x=50&y=32",
-"desc": "Research into the Atlantic Meridional Overturning Circulation (AMOC) reveals a potential climatological catastrophe ushering in Earth’s new Ice Age.",
 "surfers": [],
 "kind": "outlet"
 }
