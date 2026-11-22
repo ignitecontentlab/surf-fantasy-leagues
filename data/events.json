@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-22T09:02:42+00:00",
- "content_hash": "9d8a70f18d22",
+ "updated_at": "2026-11-22T10:02:29+00:00",
+ "content_hash": "5a43636cfa8d",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-22T09:02:42+00:00"
+   "news_at": "2026-11-22T10:02:29+00:00"
   },
   {
    "id": "qs-taiwan-2026",
@@ -58,16 +58,16 @@
    "status": "live",
    "headlines": [
     {
-     "title": "Australian Double at Taiwan Open as Earle and McCulloch Boost World Tour Qualification Hopes",
-     "date": "2026-11-22",
-     "source": "Sportzhub",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMXM1QmYzb1ZpZ3FLS3NEUGc5aXRhRjBuaGFVcHdNRzhQNjlaMGpWeHlmZ2l0LXhoVVJoQnhnWU1zZU81NEhtakw0YVFLVkc0Z2pNWnVPMjJGaWEzOGtyU0xqdFZJNEdnVHR6VkFGYXFoTXFCdnA1TEpkU21MSGZFcGNIMG1iVXBDd0o2YllIaVRHWXQwMVVrbFR3V3lIV3Q4aTZaeE9YM1lFZWdYbzJuMG9xcmhaRXMyQXVrcVNlZnh2MmZEVmxrb1Ffbw?oc=5"
-    },
-    {
      "title": "Field Narrowed on Day 7 of The 2026 Taiwan Open of Surfing",
      "date": "2026-11-20",
      "source": "World Surf League",
      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRlRUeVhKRDBCN3NZaE9za3dmNzZ6Wm5OSjl5WjVLSUk4N3VacF9TVWVtOU42ZVBoMTY3UHJ1NGNETG1mTVo2R2RjT2pDX1BSUUYtaUJmQlJuLXRIQWdDbWVXTGZGZTlyU3F3a1ZjamFRMzlqZTBXZ2VPZHV6ODFmN1R4STk5eUdHTnJYUUxwaUFBWm5yZEZvclpMODZRQXl5X0FaM0Jn?oc=5"
+    },
+    {
+     "title": "Australians Dominate Taiwan Open as Vaughan, Thomas and Heazlewood Impress",
+     "date": "2026-11-19",
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkRSeDBndjJHNldieWp4S1gyRUltcDVHaXNkWVN1QzQ1Nm4tb2hzNFpHNVRoZDNQWlRTMlNmRXhhWEwtZ2hVS1NPV1p1QjVMaDlYOWRsQ0tLOUxtU3ZDMWJuSmw3a0FjNUZwSHBaRy11SWxxeVJKX18wcVRrWlVFOVY1UnJscWJvd2Exc0ZHN3pjNWJFemJtd3ZEZmNQWXpjYmRWaHF6RExsZm1DWWZucFNB?oc=5"
     },
     {
      "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
@@ -82,7 +82,7 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5"
     }
    ],
-   "news_at": "2026-11-22T09:02:42+00:00"
+   "news_at": "2026-11-22T10:02:29+00:00"
   },
   {
    "id": "isa-wpsc-2026",
@@ -111,7 +111,7 @@
      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTmg5dlZEeXFwcHE1QlBqM1RSc3V2SXozakVXc1FuSU1zLVhfU0RUYXNDWXBKNWhmRTlIZU52RW1zU2NRaG5aTzJpRXo5Zy1oSl8wSFdLRUd4SGhpanJfMnBORkxtQmg0TllDQXFfVHRsdlpVbFNTMEIwSUVjOWF4VjdLU2tEMFhTcExkOUdmelRqOUVYX0VDazRFR1U0SXNYSUlRVkd2dG1USDdER0k4dlpsVDlSTzA?oc=5"
     }
    ],
-   "news_at": "2026-11-22T09:02:42+00:00"
+   "news_at": "2026-11-22T10:02:29+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1319,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-22T09:02:42+00:00"
+ "checked_at": "2026-11-22T10:02:29+00:00"
 }
