@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-22T11:26:05+00:00",
+ "checked_at": "2026-11-22T13:04:09+00:00",
  "ok": true,
  "checks": {
   "site": {
@@ -20,19 +20,19 @@
   },
   "collector": {
    "ok": true,
-   "detail": "last success 40 min ago, 0 of last 3 failed"
+   "detail": "last success 11 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
-   "detail": "last success 26 min ago"
+   "detail": "last success 67 min ago"
   },
   "media": {
    "ok": true,
-   "detail": "news and videos last refreshed 1 min ago"
+   "detail": "news and videos last refreshed 99 min ago"
   },
   "pages": {
    "ok": true,
-   "detail": "0 of last 3 deploys failed"
+   "detail": "1 of last 3 deploys failed"
   },
   "event_sources": {
    "ok": true,
