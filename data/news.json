@@ -1,18 +1,78 @@
 {
-"updated_at": "2026-11-22T19:31:51+00:00",
+"updated_at": "2026-11-22T21:24:42+00:00",
 "sources": {
 "Surfer": 44,
 "ISA": 5,
 "Stab": 12,
 "Surfline": 7,
-"The Inertia": 40,
-"BeachGrit": 17,
-"Tracks": 0,
-"World Surf League": 33,
+"The Inertia": 44,
+"BeachGrit": 18,
+"Tracks": 1,
+"World Surf League": 38,
 "Surfertoday": 3,
-"In the news": 13
+"In the news": 11
 },
 "items": [
+{
+"title": "Significant Developments in Case Involving Alleged Sexual Assault of a Teenage Girl Linked to Tahiti Pro",
+"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOM2RmRFQtRUNZUFpSaDFmbGxDMUEwa2ZTUERwTDd3anNlM25vSUpsRzdrV0wxRXd2M2RkcUhLTTJubWhPM2hqOVQ2WUxWQlQ4aDhtd0RxeGswR19pWkt0a19PdlljRXk1UXNhUmRLdzI5d215MXRaTm1iQlBxeWRLNE9wcHk3ckszNFdabE9ScGl5Z1l5dVJHUTZLNnlGS1lHTGZzRjFZaG1BRlhISm9udjhGZFp1cnk1NFNpdmFjY2hNd1NkbWJvXw?oc=5",
+"source": "Tracks",
+"at": "2026-11-22T21:06+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Pacifico Surf Open Cerritos Top Moments 2026 - Finals Day",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWWNic1hic3hRLXliSUk1eXNadXZIVzloR2N3b0ZueXUxQlRmTFN5eHhUaG1MZkt0QVowY3dkV0J0OW90R1VJanZmcUF2azNFak4tTjlYZkFGOVJnVUZCSUJVdkNZWmRNMUtEbEFmbXY4X044czZlczJ1QXFpME9jR2ZiN1FhMEZlYmZUSDA1SFFRNnE5Rm1kbmJnU055S3diLXktTkxudW9DUUpTckRsYUJsTFZCakNndVE?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T21:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Final: Sam Reidy lights up Pacifico Surf Cerritos Open Final to claim maiden QS victory",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcW45TTJMZzdqdjVZRjVMQXdCYlNUcWJacE9kZkd1YUtzbzk1bkR4ZHV0TFFBY01wSEtrdDlZckFQLV80dFpxTllBMERBaFhLRldBZWpsZFRrYmk0ZWFua18zZE1JLWhyMk1ySFpEVjl2SDBzV29KUURqM1RUX2RpcDBNNllJNkNDMVE?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T21:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "With Robert Pattinson announced as new James Bond, surfers grow wistful remembering Pierce Brosnan",
+"link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUnMzZ3FISk44YlBqVk9TS1g5aEt1X3VZdFJWSUtJdDhsYzM2aWxtRnptMGh2STdreGtkVDBLVFNlQnpoRVJuRmN4TWtSY2dCVVlFalVtNUx0NmNBbC05U0dkVTJPR0Vjd2ZuOUNFZVJ2Z2taelpqVWdyNmdacVMweHlwYTZTREZfcUItbnRiOHFaNTdtX1dQclBSWlh4OGZJR1lnQm4zcUFvd2trTFlkajV4d3VxWkdDR0ExTXhKWURFUEhoc29r?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-22T20:24+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
+"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
+"source": "KSBY News",
+"at": "2026-11-22T20:21+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Indie App Spotlight: Gone Surfing points Apple Watch surfers back to the peak",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xc3plVEVkaFBsbWtIRXJoMFZhXzYyMFZXcGJBb0VYYms4QUtMal9tcXVFRi1JQTZxaGJTWElVWG5GRmI1M08yNS1pZTNUNmpTSFVheV9rMFdhbXZ5dDMwNGx2U0xaUzBvU2t6UWE2VjR2c1hkUHVWaw?oc=5",
+"source": "the5krunner",
+"at": "2026-11-22T18:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "The XXL El Niño Swells That Rewrote Surfing History (Including the Day Earth Itself Shifted)",
 "link": "https://www.surfer.com/news/el-nino-biggest-waves-swells-surf-history",
@@ -42,6 +102,16 @@
 "desc": "A 300-plus-foot plume of whitewater erupts off the Oregon coast as El Niño-fueled swell, king tides, and looming storms set the stage for more coastal chaos.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Durban North resident shines at longboard surf events",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWNEZ1JDRHpuOGdpODJMWGFtWmUxeXgtQkhWU0tCZXFCUTQ5TXZmX1pQQWVWYmYzeV9WQml6V0Nad0Q3czBYWGU0aVNHMUlXTS11Y3VFN2hMRkhBRVlFTFVUTHZVeU8zMXBmYUR2YnBLMGo4MWltQWtEdVZUMEttYkNYSXducHlUN0VzQkp5RUxKWTNoX0txTExsU1Rvd1p3WEFGaUJlTmdXSFk3RjFxVjZlRmd4YlBtWmwyWUh3ZzdKaEh2TTBHOVFnazZiUQ?oc=5",
+"source": "The Citizen",
+"at": "2026-11-22T12:32+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Tianyu Huang Surfer Bio | Age, Height, Videos & Results",
@@ -122,16 +192,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
-"source": "KSBY News",
-"at": "2026-11-22T02:41+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Pacifico Surf Open Cerritos Top Moments - Day 3",
@@ -842,6 +902,16 @@
 "kind": "outlet"
 },
 {
+"title": "Pipeline to Crown 2026 World Champions as Title Races Head to the Lexus Pipe Masters",
+"link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2Z1b3JxQ3FnVDZGWUJRYzlGVWFhVnRuYXNCVUlqMmxPM3oyU0RNSlVMNmVJeHQ5VGpCU1pibFk2TXJNYzRmRjEtWTlZVFFBb2owOG9CazZLME5jc2xvM21pbzNuazdzMmNaRVQtUVpraS1jdlZyS0FvQ2NMTUN1bmZXLXZJS180WFRaczdBUlJ6WFMwa0o4V3VKcS11c1J5ekYxdFk0WmQtNHZsNS14S3FKdmEzYWtsS0UxSFhZRExpQkxsdGZ4dA?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T20:39+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Kelly Slater and Tomo Made a Crazy New Sled: the Mindcraft X",
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQWIyMnFYd2diWmpUeFhsdmhyZlE3NTVFbVhFdUVxYXRNYkZZSUlYVG40VFV1aHByWE9nTW43M2tSUjZ4MUhwNF84MVBrZksxVGZJeGgxLTVIbEhyRlh6RzkyOEtOQV82VzRaUGVuanZ4V2tNTm5KbHFyUVZCNVF0bGhKaw?oc=5",
 "source": "The Inertia",
@@ -864,6 +934,18 @@
 "kind": "outlet"
 },
 {
+"title": "Griffin Colapinto Has Been Busy Scoring at Home Before His Run for a Title at Pipe",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNkdUM0thXzh0dFB4U016VTVrUGUxUnczZmdsWlh1YldTRm15cEpEdDN5R1BiYnZmQjJqZ2NYNFdtbS1TUVJFODVWSGZjYlhlUU12WE1hSVRpcmFiZ1NSTjFXMlg3bm41Rk1zMEVtODB4MVpDY3I2WmR4enYxX3YzZXQ0NThvR2ZqbWd3amFZSDdieXRMR3l1ZWQzMTVFRUZqX1l2Xzl1c0cyenRnd0pJcjNZSmVtQQ?oc=5",
+"source": "The Inertia",
+"at": "2026-11-19T20:19+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"griffin-colapinto"
+],
+"kind": "outlet"
+},
+{
 "title": "This is for EVERYTHING.",
 "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YV0Q4TVZwUmw5R1RNY1BMY2lzUWVMMjM4V3Z3cWZFNFFQdGdEZ21oU1hYYzY5ZHFNbEFVLUZGd0N1WUJTeklRRFVwSC14WEY5Ql96U1pYZlNUbFlrcTBZLXBLZ0dyRHBzcFRwelNHRnNOblZIVXc?oc=5",
 "source": "World Surf League",
@@ -874,22 +956,22 @@
 "kind": "outlet"
 },
 {
-"title": "Surfing Legend’s Brother Says Family ‘Had Our Suspicions’ About Girlfriend Who Claimed to Survive His Murder",
-"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMFI1aGk3SVYzOXpwMzBpbTVTMFRrcVg0X3FpMzVPYUYyQzB0X1A4Tmp0UUxnSlFvUlkwZHpyck9RWUxxMWRFZGxLMEg3eEtHNElzakR4UW83RHI4NEtPQVNockZIWG9XNEgwYzM4NnE5XzBpb1lLc3pOZHo5UFlpTC1saVh2aEFsekpfOFRvZmVPWTdlVjNJQ3ppaTZJTjRDU2FoTF9pa3A5SGxQenZnSTItaXpEbnRuenlUVjZsNDJKbGdIakExNmlLdGNtMmM?oc=5",
-"source": "People.com",
-"at": "2026-11-19T19:54+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Cold Turkey: 5 Spots To Score An Epic Holiday Surf Trip",
 "link": "https://www.surfer.com/culture/5-best-holiday-surf-trips",
 "source": "Surfer",
 "at": "2026-11-19T19:46+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTEzMzU3/el-rastrial_ard00432ardiel.jpg?profile=rss",
 "desc": "From Central America to the Caribbean, the holiday season is the perfect time to plan your escape.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Mikey February Has Not Forgotten How to Surf a Thruster",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMEdoR3FPNUZyTUhBZjFYRWVmOHlRME5HcDRRMWp2OW5SVUo0SnJyY3k5OUszY0FJb0NZaWJfR1d1SDVSNlBZSzFqRE5SLWppaHlJTWJLeXR6d29LTExaSmRnd3RDRV9BYlQzUVdSVHZYRzY1YUNWN29SRWlORmUyc0xnYVlnVS1GZkJyMXllQ3YwZw?oc=5",
+"source": "The Inertia",
+"at": "2026-11-19T19:38+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -1151,88 +1233,6 @@
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODc1/jojoroper_mavericks_pompermayer_5228.jpg?profile=rss",
 "desc": "After apocalyptic surf over the weekend, the Northern California big-wave break cleaned up for an all-star paddle session.",
 "surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Action-Packed Week Awaits Opening Day at Pacifico Surf Open Cerritos",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVVYdklYTUx4T0NvclQ0RnVMenl6UjBqelVZcF9uYkhWU01mb3JMb2toTXVUTG1vZGlSQUdHeldaY2V5S3FRVFpfSDFEcm9KcER0cUhFd3lBcV9XM0lhR3ZjbUlpa0RqOUpZNUlLVDJUSjIxcDlKRzB3eUZMTXowWDdDOC1abWlZWUMtbFMwSGtSUGlKQUw5Zlp3cG1Wa0VKNVZOdmd5TllIZjByV0xWNF9uaw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-18T20:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Jerome Brouillet Took the Most-Viewed Surf Photo Ever and He Doesn’t Want the Money",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOVcyUHRZbU9BbnpkUi13NmpwRTlVMk5faE9MWWlVVjlmOWF2bWxGbFBnb1pocHFDTk94UHhIbG83c0RyVlN3RGtjOWtpbmw1Tnl6eEZGaWcwSC1tTENPRmpYVGx6WEtwVkhwYllRQUpSdkh3eEhYNVhVRHpCTmsxajVTQQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T18:22+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Experts Warn of Potential $725 Billion ‘ARkStorm’ Catastrophe in California as Super El Niño Intensifies (Video)",
-"link": "https://www.surfer.com/news/arkstorm-in-california-super-el-nino",
-"source": "Surfer",
-"at": "2026-11-18T17:58+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODUw/hurricane-pacific.png?profile=rss&x=70&y=46",
-"desc": "A nearly mythical megastorm could unleash massive waves, hurricane-force winds, and biblical flooding across California.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Perfect marriage proposal turns into macabre nightmare as El Niño-fueled Pacific eats diamond ring",
-"link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOc21JcUdYMjFFQ1JKTkwwN21yelJBRUZKTWFkazlFM0hhc1liemljSVQ3TC1MckxFXzVPOHY3MUZFTlJtaE1QRlVuQm1JWG9PeEpiZmt3UkNSMHVzdlNhOWZjN1hXRXV4bm1MUlBtc2VEMVZrSFIyMWVaMkZ3VVNkbWtlcGZQaFhoWHFDeEM2LWJrSm9Ib01QaEh6c2djTGNjMlpVYXZ2V0V4WHEtemRXU1BVWU5pUlRHRFJUNjlrejh5TEd5X0Z0SV8zN1dqWjZVZ2JESHZ5M2hqQQ?oc=5",
-"source": "BeachGrit",
-"at": "2026-11-18T17:34+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Maverick’s Was Massive on Monday, and It Was a Massacre",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM0Z5OGt2ajZtVW53azRxSVo0SFE5RXZZMmpCYnZ1N1BVRm1mcmRUR2FrVXFXWjZ6VUFGWDliMTBkd0tQbkViUFdUNnFzcm9oWUVyVk8zU2J5S2VyWHZxWXpNUWpNV1NCQThxX2EyLUZvd2JuLWZ0Z3FkdXpFR0dXNHRac3dIeHpJWW9LbFdTRQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T17:32+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Sage Kotsenburg to Debut New Snowboarding Invitational in Jackson Hole",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbEdyb19KYTdxbUZBb1pORU5abWVUV3U2LTRfenJzMGtuT3BYSFVkc0NDM2hpQU1wS1FZa3l1Slp3Yi10eVZIV0w5NVhfUzh0bE81R1VNOXZWcHh6NmFKcXdjYnAtYWJUb0E4eDlLZGtUckNuV1QyOHQ0dGg1Z3VyUk5HRG1YUzRCdnE5S1QtVjdKbU1ucXZJQVQwZnlWOG1nemcteVlfQWhEd0E?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T17:22+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Watch the Heroic Lifeguard Rescue at La Jolla Cove During San Diego's XL Swell",
-"link": "https://www.surfer.com/news/san-diego-lifeguard-rescue-la-jolla-cove-el-nino",
-"source": "Surfer",
-"at": "2026-11-18T17:19+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyODQz/lajolla_rescue.jpg?profile=rss",
-"desc": "When a swimmer ignored high surf warnings and jumped into massive waves, San Diego lifeguard Griffin Houldin sprang into action to prevent a deadly tragedy.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Ethan Ewing Scored a Perfect 10 to Win the World Surfing Games",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3E1V0RiT1NyTWZyREgwdWs2TUNocmUyS3pjSWxoZG5TWGtSc01zTExaSXlnOFp0QlotODJLdkVxZ1dFQW9GZWIwTThqalBkdXFCQTVZQ1BrTkg1ZnJIazl1bEl0Umo0d1V6aU1LN2JZV0hDb0E2V3NhY25rNmg0T2RvVlZfNVNybUVXVXg2TQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T16:53+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"ethan-ewing"
-],
 "kind": "outlet"
 }
 ]
