@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "base": "2026-11-15",
  "note": "Surf words glossary. Add new words with an 'added' date; words added in the last 60 days show as New. Words added after 'base' count as new; a word added today becomes the word of the day.",
  "words": [
@@ -1052,6 +1052,36 @@
    "d": "Backup days after a contest's planned dates, used if the waves are too poor to finish on time. LA28 Olympic surfing has them.",
    "cat": "Contest",
    "added": "2026-11-16"
+  },
+  {
+   "w": "Green alert",
+   "d": "The WSL's final big wave call that the contest is on. It usually means the event runs within the next 24 hours.",
+   "cat": "Contest",
+   "added": "2026-11-23"
+  },
+  {
+   "w": "Seven Mile Miracle",
+   "d": "A nickname for the short stretch of Oahu's North Shore packed with famous breaks like Haleiwa, Sunset Beach and Pipeline.",
+   "cat": "Slang",
+   "added": "2026-11-23"
+  },
+  {
+   "w": "Specialty event",
+   "d": "A one-off WSL contest outside the main tour, such as a one-day tow-in big wave challenge. It has its own format and rules.",
+   "cat": "Contest",
+   "added": "2026-11-23"
+  },
+  {
+   "w": "Triple Crown",
+   "d": "A winter series of three contests on Oahu's North Shore at Haleiwa, Sunset Beach and Pipeline. The overall title goes to the surfer who performs best across all three.",
+   "cat": "Contest",
+   "added": "2026-11-23"
+  },
+  {
+   "w": "Yellow alert",
+   "d": "In WSL big wave contests, an early heads-up that a big swell may let the event run in the next few days. It can go out up to 72 hours ahead.",
+   "cat": "Contest",
+   "added": "2026-11-23"
   }
  ]
 }
