@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-23T22:08:43+00:00",
- "content_hash": "50ab92d3131e",
+ "updated_at": "2026-11-23T23:10:37+00:00",
+ "content_hash": "617eeb621ced",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-23T22:08:43+00:00"
+   "news_at": "2026-11-23T23:10:37+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -493,7 +493,7 @@
      "title": "Stories from the Eddie: Jack Soren",
      "date": "2026-02-24",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-jack-soren",
-     "age": 271
+     "age": 272
     },
     {
      "title": "Stories From The Eddie: The Trophy",
@@ -1325,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-23T22:08:43+00:00"
+ "checked_at": "2026-11-23T23:10:37+00:00"
 }
