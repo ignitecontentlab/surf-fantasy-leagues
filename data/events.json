@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-23T03:14:27+00:00",
- "content_hash": "b9dd2c6c769a",
+ "updated_at": "2026-11-23T04:32:51+00:00",
+ "content_hash": "d956632e3bd9",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-23T03:14:27+00:00"
+   "news_at": "2026-11-23T04:32:51+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1325,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-23T03:14:27+00:00"
+ "checked_at": "2026-11-23T04:32:51+00:00"
 }
