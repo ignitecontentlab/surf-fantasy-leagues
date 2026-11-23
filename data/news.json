@@ -1,18 +1,38 @@
 {
-"updated_at": "2026-11-23T03:37:35+00:00",
+"updated_at": "2026-11-23T05:44:46+00:00",
 "sources": {
 "Surfer": 43,
-"ISA": 4,
+"ISA": 5,
 "Stab": 14,
-"Surfline": 5,
-"The Inertia": 45,
+"Surfline": 7,
+"The Inertia": 44,
 "BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 41,
+"World Surf League": 38,
 "Surfertoday": 3,
-"In the news": 15
+"In the news": 13
 },
 "items": [
+{
+"title": "Roark Takes New Film ‘Solitary Refinement’ To The People",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaWtSM01pUGxyVnRldk1ZU2ZlaWlaNWRUWHBYeElaNzlkTC1kRXZ1SU9sNEQzT3oyc0N2TEZKekdxZEVUeEhuVElUV2RIZFlkV0x5WUNXRXBCbDVqZUc2akhnaFBIUWd6dExIdXN2U3ZKR1NydHNCTi10WHU5NmozUFNLdC1aZmc?oc=5",
+"source": "Stab",
+"at": "2026-11-23T05:26+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "France Claims Fourth Consecutive Team World Title at the 2026 ISA World Para Surfing Championship",
+"link": "https://isasurf.org/france-claims-fourth-consecutive-team-world-title-at-the-2026-isa-world-para-surfing-championship/",
+"source": "ISA",
+"at": "2026-11-23T04:27+00:00",
+"img": null,
+"desc": "USA Wins the Team Silver Medal, Brazil, Bronze, Spain, Copper Felipe “Kizu” Lima (BRA) and Victoria Feige (CAN) Make History With Record Seventh World Titles as Alana Nichols (USA) Posts Perfect 20 The post France Claims",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "A+ Footage From Jordy Smith’s Hard Drive",
 "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14clJhVlQyMDItendOSXM2Q25fblBFaTVlQzA5V3ZuNXI1UTF1ZjJhNE5wRS1MeDlqRTNjWW4wd2xseTh5dWg5WWV4RklIdm1TLWV0enhmTjdKN3h5cDdUXy1ERzE2MTVvZ3FfbHJDVFIyallWZTlPR05n?oc=5",
@@ -114,6 +134,16 @@
 "kind": "media"
 },
 {
+"title": "Durban North resident shines at longboard surf events",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWNEZ1JDRHpuOGdpODJMWGFtWmUxeXgtQkhWU0tCZXFCUTQ5TXZmX1pQQWVWYmYzeV9WQml6V0Nad0Q3czBYWGU0aVNHMUlXTS11Y3VFN2hMRkhBRVlFTFVUTHZVeU8zMXBmYUR2YnBLMGo4MWltQWtEdVZUMEttYkNYSXducHlUN0VzQkp5RUxKWTNoX0txTExsU1Rvd1p3WEFGaUJlTmdXSFk3RjFxVjZlRmd4YlBtWmwyWUh3ZzdKaEh2TTBHOVFnazZiUQ?oc=5",
+"source": "The Citizen",
+"at": "2026-11-22T17:14+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "The XXL El Niño Swells That Rewrote Surfing History (Including the Day Earth Itself Shifted)",
 "link": "https://www.surfer.com/news/el-nino-biggest-waves-swells-surf-history",
 "source": "Surfer",
@@ -152,16 +182,6 @@
 "desc": "A 300-plus-foot plume of whitewater erupts off the Oregon coast as El Niño-fueled swell, king tides, and looming storms set the stage for more coastal chaos.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Durban North resident shines at longboard surf events",
-"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWNEZ1JDRHpuOGdpODJMWGFtWmUxeXgtQkhWU0tCZXFCUTQ5TXZmX1pQQWVWYmYzeV9WQml6V0Nad0Q3czBYWGU0aVNHMUlXTS11Y3VFN2hMRkhBRVlFTFVUTHZVeU8zMXBmYUR2YnBLMGo4MWltQWtEdVZUMEttYkNYSXducHlUN0VzQkp5RUxKWTNoX0txTExsU1Rvd1p3WEFGaUJlTmdXSFk3RjFxVjZlRmd4YlBtWmwyWUh3ZzdKaEh2TTBHOVFnazZiUQ?oc=5",
-"source": "The Citizen",
-"at": "2026-11-22T13:08+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Tianyu Huang Surfer Bio | Age, Height, Videos & Results",
@@ -257,6 +277,16 @@
 "kind": "media"
 },
 {
+"title": "Surfing Articles: Latest Surf News, Videos, & Photos at Surfline",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wYzh1Mk9ocl9aTFVEN09XVG1EZkVFdDFBV0RYNWNDSHdmNGppU3V1YXRlc3RYLUE2cENHMnRqYXZnSTlfTUMxRjI2bzFUZWFYeVhySXZ5Z0hrQzNFWktZ?oc=5",
+"source": "Surfline",
+"at": "2026-11-22T03:49+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Pacifico Surf Open Cerritos Top Moments - Day 3",
 "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZEVzM2xsQy1FWWo5RV9jcjd2dzQ3UTNTQlZIYm11Z2lEREQ5OGZGVmhBUzMxUEk4cWtlZVN3NGF3X2JURzRBWjNjOTdWZGdYanIzdnJ1ckRTVW9mYWd1Y0hkdXJlODEwRDFDci1WUkNRcnl5NWd4TE1oYmZOeFQxQ0Z0NlR6aUFNNW5ONFp5a0VYSnJ1Z2drb25hSGtFZElZYzZrSko3cTJyYWtJYlE2akRlTQ?oc=5",
 "source": "World Surf League",
@@ -297,6 +327,16 @@
 "kind": "outlet"
 },
 {
+"title": "UPDATE: High surf advisory in place for Lowcountry until Saturday evening",
+"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oUElYNGVIbi1XcW8xTXhGT0RpMUFDYWtTcVlPWXRFMGJHbnhDLUstRk1BTFVNaGFCTEFuSlhVbHVWUC1lUVF3eTdLUmNUaDhnVlQ5cTI2VGo5WFFlSWJZbWYyZlkxOVJ5c0NKN3dsM1hvUQ?oc=5",
+"source": "The State",
+"at": "2026-11-21T18:45+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Wild moment beach ‘waterfall’ floods legendary SoCal surf spot as El Niño wreaks havoc",
 "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOGZseUNqZUpXcGVScmFncWFkbU01WFJURWhZZ0lCcVRYem9DMXpNRm9zd193LVVnRUk3T2d2VEtIa0t5MGpfajhPQWQxaXNmWWVFUElXVjltbEY2NnlwZXFhRHpROWlXeGJ6Z3M1U1JfeV9UZDNLYnlmNXdrT1B1Um5mYTNsOEt1QzlPRUliNUlmMzAyUjRyN19kaGwyMEpkWm5PZUdpdWlBNm1mMUoxTXFEVUs3aWticWZ6WUdxdTNCYVktMjJxcDBkTDc?oc=5",
 "source": "New York Post",
@@ -315,16 +355,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Coupe espoir de surf - Deux jeunes « Reefers » surfent sur les vagues martiniquaises",
-"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMGIwT0NucDBqMnd0blh4cUN6Y0NhU25WT3MtTGpfeHJ4SWRfZS0yMVM5ekJ4MnRwbTZmSkFBZTFnbWh6bW9vZ05yLW9iYWlIVU5jR2tXS1NXRHVfbG83YUFxM1VFVTVMN25xMzgxYUR5SmlMa2h4MXJ5N3ZQQlI3Z3lGa29ITTV6RF9mcG1zeFN4aU4yR21PNFRMekxZaHphNDVINVRtX09LUDZ5NGtxRDN4bFB3eVNIVGc0aU5meXZUanBraDJJRmFhNi1yRzBtb2lfRXZ6dkNEVXRGOW5vend0THY0ZG8?oc=5",
-"source": "Le Journal de Saint-Barth",
-"at": "2026-11-21T17:43+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
@@ -383,16 +413,6 @@
 "at": "2026-11-21T13:27+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTgw/king-tide-thanksgiving.jpg?profile=rss&x=47&y=42",
 "desc": "Exceptionally high king tides, a powerful Super El Niño swell, and already elevated sea levels could combine to flood and erode Southern California beaches.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Stage Set for Finals Day at The 2026 Taiwan Open of Surfing International QS 6000",
-"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR0ZsWUltcTROOW93X1BDZjVHakpQODg4Ym55TExYdzhfWXNLSWVhbTJ4VXdnNF9Ocm9kXzhMUzhvV2I2T2dyNFZ3WS11aE4tVWRrTDRnNWpWZUdSVEpXMUxxdnkxSzdNbzFUTWJIOGxyd0h6NE9qVkpHWDgwTkJ5SHRvYUVCY2o1OHBPZ0ZlYUJHdzRRbVE0ZC1pZ0M5SkZWT2xqWEpIN2piYXg3YVdfWEVHVjNqUUE5b0FyVW13aGJveG8z?oc=5",
-"source": "World Surf League",
-"at": "2026-11-21T09:10+00:00",
-"img": null,
-"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
@@ -1213,26 +1233,6 @@
 "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZXFvSFVNTVlxMElXV3Fvam5tVjEyQU5JOVd0VjZWZEh0OF96enFwcVo0M25LZmlCa0VUSi1JSDRRbVFTcGZSRU9KQjIzRlVWR2Q1WFNhWFR2bEQwMWVYZVVrR0xQVEd6Vlh1b1NoZVNjaTEzYkRmNVEwNUthQzNXUmx6MkhpRUdfVmc?oc=5",
 "source": "World Surf League",
 "at": "2026-11-18T21:51+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Cold Storms Will Bring Feet of Snow to Sierra Nevada Ski Resorts",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ1A3NEt0aFlMVVRsR1Z0NFo4QnZLckI3c2dWWEMwN1dMZlBjdmVWMDJCZjkzWTQtQjJPZ0hJN2VkLVdJS2hET1VGcVg2NTlycFdYYk1fdlVVazB4eFZNeTQ2ZWt4b3QxekpsOUdTX3kzOWxDcUUzcjNBU01FRjVFSzRSTDRpc2o4T0RFX05DNm5kRzJ6?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T21:33+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Doug Evans Has a Rad Streak Going: Skiing Year-Round For 23 Years",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLS1UZzhLUmJvU3MtbkNqMFZTV091b2VNUjZRX2d5dS1jUS1GTnhPYlpGNWxnemJRSGxSRWd4bkN2V2c4NEttUlpKR0R0UnBUdGVzX2JVTFNyNVB1VjZxMzVRdlNUOXFONVRScXQ3dHRaVzFSRnVjRmtTT190SFhseTlVM0x2RHRpYVJPLTNpeUVfb1FPTW1NV3oxNHpZSGQ2ZURF?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T21:26+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
