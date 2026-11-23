@@ -1,18 +1,38 @@
 {
-"updated_at": "2026-11-23T14:00:23+00:00",
+"updated_at": "2026-11-23T15:43:23+00:00",
 "sources": {
-"Surfer": 43,
+"Surfer": 42,
 "ISA": 5,
-"Stab": 15,
+"Stab": 16,
 "Surfline": 5,
 "The Inertia": 44,
 "BeachGrit": 16,
-"Tracks": 1,
-"World Surf League": 39,
+"Tracks": 3,
+"World Surf League": 38,
 "Surfertoday": 3,
-"In the news": 11
+"In the news": 18
 },
 "items": [
+{
+"title": "Tracks_Black_Friday_26_MREC",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WN0VsT2I1djFobGRLT0luQ1lnUUpWS3IwaGlneEgxSEJEOW9feVhPMV9BNzBrZkhCRWpFTXhlSVlKV1ZPR3Y2UHNPa1JzemtYTjlVbndaYmpOclM5RHFNZWFmekNNMTNSNk5XQnJLdkJiRXBXd0E?oc=5",
+"source": "Tracks",
+"at": "2026-11-23T15:17+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Keegan Palmer Archives",
+"link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZakJGbjZ2d0htWExCQ1pTTTg2Zkh2dUNOQUNLdVM3cWdBWVhBcGhsYlFpdVBPNVZyWXZmNEd3VkppZjM0d215NTlYbkpWQmM?oc=5",
+"source": "Stab",
+"at": "2026-11-23T15:08+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "‘The Dark Side Of Surfing’: BAFTA Winner Investigating Allegations Of Sexual Abuse In Global Surf Industry",
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUmlKYUpmWWNTRmRLT29NTlJIbkJpRjhNMWF6MmRYb05VTDdtYWpzbWJTSjJheTRjNFdpT1JEd3dpWm15NnlFd0I4d0FpRXVSVEhsblYtV2twZGxMZnJEcGVPdHdYdmtmNXJCTk5Pd1VabjNrQlVHLXlvcmxGRXZ1ZEkwZ1c2dHhuaXh0ZlRZTnhGVllhYXRSVnVZQWJpUQ?oc=5",
@@ -154,10 +174,30 @@
 "kind": "media"
 },
 {
+"title": "SA surfers make a splash in Peru",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzhiejdrNk5wWmhNN3YzN0IzQlRHWElncUNmcEg0eEdPeDl1bW4zRnZzT0tUdDlLUzBjVk1STmc3ZXBpSFhfODB6Sjd6bkVZR2pqazRPXzh4STF4SVhjMWdCeEwtOFQ1LWxJNDdYRWZQNG1MOWhJb2l1UDQwYTFQejVaeXMyLTNlS2s2MWtSR05Ua0ljcmxLejA3MWRCdmFYeDItM2RmbzB3ZVRFa01pNDFCM1Q?oc=5",
+"source": "The Citizen",
+"at": "2026-11-22T20:05+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Indie App Spotlight: Gone Surfing points Apple Watch surfers back to the peak",
 "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9xc3plVEVkaFBsbWtIRXJoMFZhXzYyMFZXcGJBb0VYYms4QUtMal9tcXVFRi1JQTZxaGJTWElVWG5GRmI1M08yNS1pZTNUNmpTSFVheV9rMFdhbXZ5dDMwNGx2U0xaUzBvU2t6UWE2VjR2c1hkUHVWaw?oc=5",
 "source": "the5krunner",
 "at": "2026-11-22T18:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Guardians of the surf: The jet ski heroes of Nazaré",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHA2VDNQQU96UDlhcjlnWmxDMWtYeEdEaWxSVllneG4xdEd2X25tSG9McDh0UWtGSzV6b2pocVJndjJxVFRvSUhrQjU0UlRVdGRFWFdOVTN3OF9QTlJzZ0hSVzJiYURLbndkVG1yTWxhUkVIRW8zMFJrcFRhWTQwUWppaXR4Z01JNTdkWVlibjRsQ2RIZFBoc2FnNVR4b0hGeXVpcmZoOW8?oc=5",
+"source": "The Portugal News",
+"at": "2026-11-22T16:41+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -204,16 +244,6 @@
 "kind": "outlet"
 },
 {
-"title": "SA surfers make a splash in Peru",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzhiejdrNk5wWmhNN3YzN0IzQlRHWElncUNmcEg0eEdPeDl1bW4zRnZzT0tUdDlLUzBjVk1STmc3ZXBpSFhfODB6Sjd6bkVZR2pqazRPXzh4STF4SVhjMWdCeEwtOFQ1LWxJNDdYRWZQNG1MOWhJb2l1UDQwYTFQejVaeXMyLTNlS2s2MWtSR05Ua0ljcmxLejA3MWRCdmFYeDItM2RmbzB3ZVRFa01pNDFCM1Q?oc=5",
-"source": "The Citizen",
-"at": "2026-11-22T13:05+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Tianyu Huang Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NOFZZWmFOLUZWOHZfdC1rWWNJN1RmTlluRmljRE1Oc1BkZGp1QlV4LUJHZFp5MTZmWGZwOGp2dkFjUEE4aW1mYUlHQURyaUJUX2JRLVhGQzNWZ29wV2lqMjBiQkhjWThOemNn?oc=5",
 "source": "World Surf League",
@@ -252,16 +282,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Photos from the third day of the Pacific Surf Open Cerritos",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0phU1A1RkhnSktzeUFyWktuUkpnTFJZMmxTeS1fYjlQdDJkZXA0bHRLcEpwR3pGaWR5Z0tNdXpfa2d5M0FtRTN1SHlBdkVHX0ppSllrX0lJbmxmd0o2NjQyV0dabU9sY1JBVU8zLV8xTnpiRXNkaHpkZ1RmRDE5TVVGZXZrN1FGM3FUVFpxc2Y?oc=5",
-"source": "dukesurf.com",
-"at": "2026-11-22T08:35+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Para Surfing’s Best Raise the Bar as Finals Day Takes Shape for 2026 ISA World Para Surfing Championship",
@@ -317,16 +337,6 @@
 "kind": "outlet"
 },
 {
-"title": "Florida surfers chase waves Saturday at Sebastian Inlet State Park",
-"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaFgzY2llY1FEX1VRRjFydXZtZmNsZ05vd2NxQ3hQRXZ3V3JzS3ozOFl2amhXdkU4eC00T3kwdTV1bmNpcVR3SGZ2a0Y4M3VldHZsRGc0VDMxN0RlOFNDXzZ5aS0wazFlVE42U3JWandQaGt4dlNqU3lFQmF1TmY2Mm15b01iUE9HeklkQl9JeGpkZW9qeTJpQnR3aE1EV1dsZkhMM08zblhzX3YxWnR6VHNBTmFtUjA0RFhHRmFZcWJyR2pwN1NPVWhkYVJhVDA?oc=5",
-"source": "Treasure Coast News",
-"at": "2026-11-22T03:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
 "source": "KSBY News",
@@ -345,16 +355,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Lennox-Ballina surfers charge into national boardriders final after impressive regional win",
-"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOHRkOXBJLS0zaThMUUVvakJhejhVR3pyenN1RU9OV3BTZzlQOW5NbDVOUXNlSG4wcFVRYnJzRXh6OGo3d2Jjd0Q1enhKZW1yY2l1d3ZSQWlwSlBqVnBLUi1oTHd1ZldVYUQtaGVScFROYzNoa3kwMHprS1B1RWtHUU5WUGNJSkZLYl9UZ1NPWjAycG1oMU5hSXJTWjdjNmEzMlFhNUJnS2hjd3NVdVNIS19ESjExSFBMQU5SQUZKTXd1dTRSdkl5MjNJdkdNZFRzeU5ZdDZZcEU?oc=5",
-"source": "Times News Group",
-"at": "2026-11-21T21:56+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Pacifico Wave of the Day - Day 3: Josh Burke claims a 9.00 for Finals Day in Cerritos",
@@ -417,16 +417,6 @@
 "kind": "media"
 },
 {
-"title": "Wealth of Aussie surf clubs and the millions they are missing out on",
-"link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMVlycEFmUXRsUVhZZ2tEeDdVRmNhWURRWjlHUzZ6QllzMEtpRW02d1NLQWE4azloekdxNUdFMVdlR2dsekdvenozVGtYS2I2NkE0TUFBcU10aUNiZ2daeHN2SlZwQkpHam1qNWNxOWxlVjdMOHZ0YS1PNW9HcWtvSFRvMVg0enI4T0Jpc1NQNTE2QVJRSk11dHhkcmVQemlJZWQwR3dKeXdGdzZ5VDlEY2dpOEZ0T0Q0cXpUcW5DdzVMLWpGUlRoNzZHTmZaRzVodGFhMXV6Yk8zWGh5ZzBXeDNzWm1WNnFzYW9fRDhqRlNQaGM?oc=5",
-"source": "The Courier Mail",
-"at": "2026-11-21T18:01+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Hawaii Winter Outlook",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHV2U3dRa0lPemtFYkM3Vl9DRG04bjJtOXNnbXRxTHYwN1hOVndNR1B6dEhtM040MXFXSnNhLVZkQ3hmbHBNZDhvLUM1LTIwV2VkQXpLQjQ2S0gtZEdGcl9QUGZsMWIzclBaNWJHVFNqRE9YZV9NdTVxdnYtQmZLdkMtQVFHMm9yZkFJTkNIbk81MXZONDlrZzRTVGNZSzg?oc=5",
 "source": "Surfline",
@@ -435,6 +425,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Coupe espoir de surf - Deux jeunes « Reefers » surfent sur les vagues martiniquaises",
+"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMGIwT0NucDBqMnd0blh4cUN6Y0NhU25WT3MtTGpfeHJ4SWRfZS0yMVM5ekJ4MnRwbTZmSkFBZTFnbWh6bW9vZ05yLW9iYWlIVU5jR2tXS1NXRHVfbG83YUFxM1VFVTVMN25xMzgxYUR5SmlMa2h4MXJ5N3ZQQlI3Z3lGa29ITTV6RF9mcG1zeFN4aU4yR21PNFRMekxZaHphNDVINVRtX09LUDZ5NGtxRDN4bFB3eVNIVGc0aU5meXZUanBraDJJRmFhNi1yRzBtb2lfRXZ6dkNEVXRGOW5vend0THY0ZG8?oc=5",
+"source": "Le Journal de Saint-Barth",
+"at": "2026-11-21T17:43+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
@@ -501,6 +501,16 @@
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGRTTF9IQmo4c1gxWVlocjRlOUgwZXZfTU1VYjhhWWlrNC11cXQ1QWl0Z2x5UTF1a0hjWFA0WmVZZ2hVdDY4Nk9kV3JoQ296SEQxc1pSbTFfXzRqZ2oyM3pzMlV2WHBjZ3lEUEQ3dGdtVWM5NlZuSkp4Wl9QdG40dEFSTDBzOUNMSzc0MVNQSXU?oc=5",
 "source": "World Surf League",
 "at": "2026-11-21T12:53+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Why the world’s top surfers are heading to Nazaré",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMFdncVc0WU5OMk9Oc1BxUFBjZndNMEJkUWR4clJKMEdEa3hHek9JaXdkSG1qTWpzSWhpTXJacnYzZWN6LTBGdG90Z2xxbEQ3cWJ2YjVuUlpMSEJZMmRqdE1PSkU4Mlh2MUFQamFtdkptTWJKUWZ4SWFGa2RLREF1Qk9CampMclNhTVd5RzF0SkRYVVR0Qk9wbU5NdEJoM3QwaW9oNm1aUQ?oc=5",
+"source": "The Portugal News",
+"at": "2026-11-21T10:16+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -579,16 +589,6 @@
 "kind": "outlet"
 },
 {
-"title": "Surf coach speaks out after rescuing father, daughter from rip current",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdnFtNmd6VURnWU5TTFUzZjQ0dVloT1RocFlhTFdSWVFBZWZGZXlnTWV3S08wLXFFM0cxMF9jM0NRV2pSUDJ5OU01dnRkcUdzbHBkT0tlTXlLVENQN3dOY2NMR3MtaTBCcm9Tbl9nNklNLWx6MnlSNWtCYk8xaXNwZ3Fxdnp2Mm1fcmZud0FsNUlmQTlDSlJPVFFBM0JrNFY2aG0zQdIBqgFBVV95cUxOM0MzcU0zOWY0VXM3RVpKWXVZSHhFeE56N1lQa09hWmFLekQ3N3RFdm9RWVNzZEdBcDI1cVlIMG1aM2lCZ0dvLUtwbG5ZbXhycnZkZlRUUTZGbzJiWFNObGRHYkhNeVFwb3pxOVVsTXBuMGZleDdxZHVyRDFmVFdRTmRGN1V0X3VYZEpLYURUaV8xVFE2dGtIdlh0dTJ2bURXYkNoZXllbGhOdw?oc=5",
-"source": "ABC News - Breaking News, Latest News and Videos",
-"at": "2026-11-21T04:24+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Historic First Day at DSRT Surf Sets New Standard for 2026 ISA World Para Surfing Championship",
 "link": "https://isasurf.org/historic-first-day-at-dsrt-surf-sets-new-standard-for-2026-isa-world-para-surfing-championship/",
 "source": "ISA",
@@ -597,6 +597,16 @@
 "desc": "Alelí Medina (PUR) Finds Perfection as World Champions and Rising Stars Make Their Mark Sarah Almagro (ESP) and Jose Martinez (USA) Deliver Near-Perfection to Top Prone 2 Leaderboard Morgan Galeffi (ITA) Opens Strong in ",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Last wave at school",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rZWtSRGs4Ql9GaVpIbm9scGVPQ2NkOXFhTWlORUJFS2hTTVh2QTVnTW9MQkNMSjRfNHFCN3VkMlZ3VmZna01nbnoxUHAwSXJHMXZaZURFMmpZUzJxTllHUldFdl8wbEFKYTR0MTZvRQ?oc=5",
+"source": "Noosa Today",
+"at": "2026-11-21T03:02+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "rhythm Archives",
@@ -747,16 +757,6 @@
 "kind": "outlet"
 },
 {
-"title": "UPDATE: High surf advisory issued for Coastal Pender and Coastal New Hanover",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KMjlCakw4eDNUaTdjSl9JV3o3S3JvczBTd2RxYjdGNDJNRXI4dDc3RERfWnBFVXpiV202MUpaal9Ya0tIRWxGNXJaTEVyLWFtT0hERzBLcVpMQ2lBXzZlQmpLVmF6TXVoaHJvcFhWeDBBUlBoTUxMcjNTcHRndw?oc=5",
-"source": "Charlotte Observer",
-"at": "2026-11-20T20:02+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Mavericks | Jeff Clark’s perspective on Biggest Surf in 15 Years from his Boat",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXRiWjlvU3pkaVY0eGZoeGVsY3FwS0d4M2s3ZDJaQ1lHc1ZodGtxdm82Smt6N0xNekNramtUSUpzUmVRMXFIZkNuYVRwR0Y5NVNvZFBhN3ZEcEJKZzRwVmRlY3htQnduT0s3ZlpOeEJocV84aEdFOGNMX3RhcFNtVUNVNVBNZEJ5Y2UzMDFSbHl5X3poLUlZR204ZHkta1YxUXNOYXk2bHB3VW04?oc=5",
 "source": "Surf News Network",
@@ -797,16 +797,6 @@
 "kind": "media"
 },
 {
-"title": "$2 billion gold mine: The richest surf clubs in NSW revealed",
-"link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOWmpiM0I3ZjZJUWZpR0JjdTRpQkMwcWRqeUJONjAwUmJIcmt6Um0wdzRBS3J5SDZCOGV1akpjNGg3aDBaTXVkYmZzWC1tTWhGcUtyaHR6RUVHamEyc0RWeVFLSHg4UEUzUDZjWUZXZ054X3pManZEMm9lZFBjd2xsUXlnYjJWNXRaUi1KckNzaExWdmNMN19xU1BFNFZJTEhqYTNvWFRCNDRKUThuZGRYV2o5cmRydWhPXzBaTVFLQkh1MkxOdGV6X3JfUnpTYjZnRDlNalEzcGNhSW1HSXFYRUVRVFFpa3dPQ194LW9ETUdtT2lSSTQySTNPOU92TXg0MlJfOQ?oc=5",
-"source": "The Daily Telegraph",
-"at": "2026-11-20T19:45+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Custom Ski Boots: What’s the Process? And Are They Worth It?",
 "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjRSVHZNQjdrdGVGWUNSeTlGd0VFMGIyTHd0anV6aUdUMjV3b0Y0R3lsenhGaUpiQ0s4WnVkZ01sdUFjUnF3LUZienM3TTh1d2d4ajlJNE0wV2p3UDJpcVNMbVZPTEpPUFVjMDVDOVlScklaa1E4NDJRbjM4SXN6Skk2YTg0S3ZEZzhhTWlGRFhVUGs?oc=5",
 "source": "The Inertia",
@@ -839,30 +829,10 @@
 "kind": "outlet"
 },
 {
-"title": "$2 billion gold mine: The richest surf clubs in Qld revealed",
-"link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQTBIU25BWUhIbF82bi1PbkJlaWxxYlhlQTFjWEZtSUppLVRRbUhrMldTd2RXUHo3LURPUGE4ZnNzXzN2TlhMaThjWDZCenNGel9TaHhMTmJLdGVxNFRWaDlFV2dVM291THI0TTVUTURTTjJhN0RmNEgwaTloZ3l5LTZOeWNwR3ZUWlBZODVvV2ZJa3JoRGhnMmFWV3Q5bXFlNUs0M2lkLXE1MkNSV2s3TjdERjN4M3kzMWVRZ085M3pKemowZHR4bzh2T0dwSHlrWXplVnNiQXNEc1pqM3FiaFhJZGdjRUJFbjM0QjhaS1Y2MXJpbDBvOXhR?oc=5",
-"source": "The Courier Mail",
-"at": "2026-11-20T18:05+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "$2 billion gold mine: Australia’s richest surf clubs revealed",
 "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZW9QMnVyMjFGS3V0RlEwV2hzdndEUEdSbkN4WnZQcTFwNmpZTFVMbE5Mb1MtY2FZYXQzdWllRzR3cXBxM0lEeGlIeEJXWFRseFpjTDNzNXhiZHg4ek1PUDNFWEFYT2JTdmNuREdYQVMxeDZDQzhEYzhMZmRSV3BjeFhVMzNFYlAxN251ZjBnanlVMGZGaDJqUUh3QWg1WXo5RjZYd2dMSnM0WjhhTDV0ekEyTnQydkgyWmljWHR1aWxrM1BnR3dtVFB6SWpHM3hKTmJRN2xaSVRhMnBzdVVHZXdENVRqaWZQcDBoRVJxVzRnX2JtREZrWXpxS3IteG8?oc=5",
 "source": "The Daily Telegraph",
 "at": "2026-11-20T18:03+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Watch: Philippines Pro Recap: Simmers and Medina’s Cloud 9 dream & the Road to Pipeline | The Lineup",
-"link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSzIwMlY4ZlNpQ1Ryb0liZ2ZhMWg5Z1pPZVFsTk1VWEVPYUxHMzRDU3lNeUlqbzZMYy1HM3lISzU1WkR4UFAtYVZ2RnJhc0R5S1hXaTdGVERKb3VPWUFERjJjamdfU2c2R3pXZFNMS000YU1KNTBoWkFXOUVGUHRUV0M0ZnF4SEpVTnl4MENnYl8td2hoeTZQbWZEWmNtY09xc3pacVNuUm9rWXJaMmF5eWlwbi1lbFF6U1NBUmwtR2hrWHJDT3dXYjFMNTlLS0hBODNlUnB6Q1BTRVhkSFV5ZHJjR1JsdXdxX2h3?oc=5",
-"source": "Yardbarker",
-"at": "2026-11-20T16:22+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1233,6 +1203,36 @@
 "at": "2026-11-19T18:56+00:00",
 "img": null,
 "desc": "The world’s best Para Surfers will gather at DSRT Surf in Palm Desert, California, for the 2026 ISA World Para Surfing Championship (WPSC), held November 19–22, 2026. The post 10 Things to Know About the 2026 ISA World P",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "New Smyrna Beach man becomes patron saint of e-bikers after leading police on brave chase",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWd6S3E1NlRMalZoRFR2UUFaYnpoNzVINkJJNl9iT3RsUXdsLS1LZjg4QnFnVkd0WVViUC1MaHRQcG42WEtfSDNFMUhmT2UyMXZlcTFnM1JwU2FSVUdiNWxMS29PbERVREZMcDdMVnB1U0llM2RlVFZRVEFBaUtUZnozRk1DQm1na3RUX3NJR3N3eWl6YWpYNUdtQzhTQ3p1QjNrYVY3dU13dTNDTkZHa0R3WDNNemkwRmN3Rg?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-19T16:27+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Results - Pacifico Surf Open Cerritos 2026",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWhaRnJ0aFBVU0NiSzNIem9zd2tPSkR1SEZIek1IbkFQVDJOWUpQY3RpbE9ZOVdSRzJpRi1Tb2JlTkdHTUlEWXJZQzFzbzJ1V2U2UjBHUDNhdzQ2dURMSW8tU2w5MS13YmVUcHB4Z3JzeUdWT0ZGdE9qbWZhLS1ORDJBa0VaRzJNT0x1QkQ2ZXlhdw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-19T15:20+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "San Diego Lifeguard Department Rocked by Sexual Harassment Scandal as 18 Women Detail ‘Appalling’ Abuse (Video)",
+"link": "https://www.surfer.com/news/san-diego-lifeguard-sexual-harassment",
+"source": "Surfer",
+"at": "2026-11-19T14:59+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcyOTM4/lifeguard-at-san-diego-beach.jpg?profile=rss&x=53&y=66",
+"desc": "Female lifeguards describe alleged groping, unwanted sexual advances, and a culture of intimidation inside the city's coastal rescue agency.",
 "surfers": [],
 "kind": "outlet"
 }
