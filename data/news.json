@@ -1,16 +1,16 @@
 {
-"updated_at": "2026-11-23T08:10:00+00:00",
+"updated_at": "2026-11-23T09:56:27+00:00",
 "sources": {
 "Surfer": 43,
 "ISA": 5,
 "Stab": 14,
 "Surfline": 7,
-"The Inertia": 45,
+"The Inertia": 44,
 "BeachGrit": 16,
 "Tracks": 1,
-"World Surf League": 38,
+"World Surf League": 39,
 "Surfertoday": 3,
-"In the news": 13
+"In the news": 12
 },
 "items": [
 {
@@ -164,6 +164,16 @@
 "kind": "outlet"
 },
 {
+"title": "Inside Pro Surfing: MEO Rip Curl Pro Portugal presented by Corona Cero 2026",
+"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbVZ0ck96Q1pleVEtZFhMblRjZWNMRVpHaFpoakF4a2RabG1USnBjeDVmMzhJLWh0Zy1ydkN0UzlyUURaRjVpalFKLVhwbHU0WG1nN1ZZUW9YXzVQcFF6ZlBMMHRMNTVwT3FPTWhTUzg1T0hZWHBfaXpOWjJZbUJXb3RVa3U4dTZjSDllbURnWl9oUEl1a2wxNnlyMU5iS2V0RDFWUENVaXU0THByTUhsc1Z2YmtZMTNoMThj?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T14:33+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "312-Foot Spray Detonates Off Oregon as 30-Foot Waves Pummel the Coast (Video)",
 "link": "https://www.surfer.com/news/king-tides-oregon-big-wave-video",
 "source": "Surfer",
@@ -232,16 +242,6 @@
 "desc": "Audrey Pascual (ESP) Extends Lead Over Victoria Feige (CAN) as Women’s Kneel Battle Intensifies Felipe \"Kizu\" Lima (BRA) Builds Commanding Lead as Record Seventh World Title Comes Into Focus Martín Martínez Rises Above t",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "UPDATE: High surf advisory issued for Hatteras Island until 1 a.m. Monday",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpUExjNkVaTllUUEtDWWtzU0hCM2ZsVWd6SEk3RVBDZXlHc3lHWjhVM19vV0hLQUd6TVdBRWktUTVhN2J3MkFUaTFZck5KYkUwU2dKN0plMEN1WjBGNTJoWjBQbzVUU3FsSG5wenBua0hWcDlVeHNSNDh1WkZhdw?oc=5",
-"source": "Charlotte Observer",
-"at": "2026-11-22T06:18+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Jarvis Earle and Sophie McCulloch Win The 2026 Taiwan Open of Surfing International QS 6000",
@@ -325,16 +325,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "UPDATE: High surf advisory in place for Lowcountry until Saturday evening",
-"link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oUElYNGVIbi1XcW8xTXhGT0RpMUFDYWtTcVlPWXRFMGJHbnhDLUstRk1BTFVNaGFCTEFuSlhVbHVWUC1lUVF3eTdLUmNUaDhnVlQ5cTI2VGo5WFFlSWJZbWYyZlkxOVJ5c0NKN3dsM1hvUQ?oc=5",
-"source": "The State",
-"at": "2026-11-21T18:45+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Wild moment beach ‘waterfall’ floods legendary SoCal surf spot as El Niño wreaks havoc",
@@ -433,6 +423,16 @@
 "at": "2026-11-21T08:08+00:00",
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTc0/atmospheric-river-hits-bay-area-as-el-nino-expected-to-pummel-california-with-storms-this-winter.jpg?profile=rss",
 "desc": "Just days after a historic storm overwhelmed the sewer system, the city is racing to prepare for a potentially chaotic Thanksgiving.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Taiwan Open of Surfing 2026",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2t6dGZCUmV2cTlCQWVUanZ3Rldqekhsa1piUXVFNm5VcGtsWEFEdW1UajZFSVpHamgwQ1BJTGFDMmp3NmFna2tORWpUWXpIRGRseXpGbko1NnJ3QV9KV2J6ZUFpVGNLRTlmdkw2b25xUjA0djZBNk1wX3lTeHZXRTVNYVg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-21T08:00+00:00",
+"img": null,
+"desc": "",
 "surfers": [],
 "kind": "outlet"
 },
