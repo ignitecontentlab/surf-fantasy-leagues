@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-22T23:56:40+00:00",
- "content_hash": "cde13e40c2b3",
+ "updated_at": "2026-11-23T01:35:24+00:00",
+ "content_hash": "eaa0d32bd768",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,79 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-22T23:56:40+00:00"
-  },
-  {
-   "id": "qs-taiwan-2026",
-   "name": "QS 6,000 Taiwan",
-   "org": "WSL",
-   "series": "Qualifying Series",
-   "start": "2026-11-14",
-   "end": "2026-11-22",
-   "location": "Jinzun Harbor, Taitung, Taiwan",
-   "kind": "contest",
-   "live": "link",
-   "pool": "",
-   "official": "https://www.worldsurfleague.com/",
-   "news": "Taiwan Open of Surfing",
-   "host": "WSL",
-   "status": "live",
-   "headlines": [
-    {
-     "title": "Field Narrowed on Day 7 of The 2026 Taiwan Open of Surfing",
-     "date": "2026-11-20",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRlRUeVhKRDBCN3NZaE9za3dmNzZ6Wm5OSjl5WjVLSUk4N3VacF9TVWVtOU42ZVBoMTY3UHJ1NGNETG1mTVo2R2RjT2pDX1BSUUYtaUJmQlJuLXRIQWdDbWVXTGZGZTlyU3F3a1ZjamFRMzlqZTBXZ2VPZHV6ODFmN1R4STk5eUdHTnJYUUxwaUFBWm5yZEZvclpMODZRQXl5X0FaM0Jn?oc=5"
-    },
-    {
-     "title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
-     "date": "2026-11-18",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5"
-    },
-    {
-     "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
-     "date": "2026-11-17",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYk1CZldlS2FpQ2JocGt0RXpEMlFiZ3ZXbl9IS2h1aks0RS1jY0NLblpJeHNFMk5Gems4VzBrc25obDVZWXVUc3YzVjhTd3FkQmFiaFhHVmZlZ3ZsU1lIN21LR1NzS1pLLTBSV3pVWmRoUGI1WVJMSFRpQXI2NndfUVZFamZscWxUdDBHR21iX3NiSVN2Ukw3YzNBemQ5SHZPeFVtZXhRSmxnUzlGZkZKYmlmV05mQQ?oc=5"
-    },
-    {
-     "title": "Taiwan Open of Surfing Welcomes International Field for Historic QS 6000 Event",
-     "date": "2026-11-17",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5"
-    }
-   ],
-   "news_at": "2026-11-22T23:56:40+00:00"
-  },
-  {
-   "id": "isa-wpsc-2026",
-   "name": "ISA World Para Surfing Championship",
-   "org": "ISA",
-   "host": "ISA",
-   "partner": "DSRT Surf",
-   "series": "ISA World Championships",
-   "start": "2026-11-19",
-   "end": "2026-11-22",
-   "location": "DSRT Surf, Palm Desert, California",
-   "kind": "contest",
-   "live": "link",
-   "pool": "",
-   "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
-   "watch": "https://isasurf.org/",
-   "news": "ISA World Para Surfing Championship",
-   "facts": "Opening ceremony Nov 19 at DSRT Surf. Competition Nov 20-22. Live stream on isasurf.org.",
-   "source": "https://isasurf.org/info-for-event-participants-2026-wpsc/",
-   "status": "live",
-   "headlines": [
-    {
-     "title": "The key points of the WSL Junior World Championship taking place in La Bocana",
-     "date": "2026-11-17",
-     "source": "dukesurf.com",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTmg5dlZEeXFwcHE1QlBqM1RSc3V2SXozakVXc1FuSU1zLVhfU0RUYXNDWXBKNWhmRTlIZU52RW1zU2NRaG5aTzJpRXo5Zy1oSl8wSFdLRUd4SGhpanJfMnBORkxtQmg0TllDQXFfVHRsdlpVbFNTMEIwSUVjOWF4VjdLU2tEMFhTcExkOUdmelRqOUVYX0VDazRFR1U0SXNYSUlRVkd2dG1USDdER0k4dlpsVDlSTzA?oc=5"
-    }
-   ],
-   "news_at": "2026-11-22T23:56:40+00:00"
+   "news_at": "2026-11-23T01:35:24+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -205,7 +133,7 @@
      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRC1KbThJQnFQU3V5dktVS3hrb2UyUndSckxmQi1yQ3BTbXFOdmlucDViWDRkcTM2VWNTWXdpZXljV0lhd2VzeEVCOG9kLUtKS3NTT2JOcUFzTDM4aUlGY2cyN3FCNDNjQlVvQzFXZU9wTkhvUVdpRnVSRGpPMlU3MmFlRjJYdGc5MEloZ0xUcXBQMzJZYU83aFhDa3NsNFA5dm42MzNtU3hEYVJucE92enZ3?oc=5"
     }
    ],
-   "news_at": "2026-11-22T20:59:08+00:00"
+   "news_at": "2026-11-23T01:35:24+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -618,7 +546,7 @@
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlpWXQwQ2s1QnN4ZExmSTl1ZHM1eXZGQ2JDVUlWY1pmQWZHX3BuZHhadDczV0Y5aUxUVFFWQTBBbjZlZTVNaDQwWm4wOGZpVV80V0JvS2Ewd2dDbHY4aTllek9tU0p2OHp5WUlqWVM4ekZjVVF6ZE01NzNnVURCUEJjQ3NIMVJtVlByVFVHRG4ydUV5RVRnTzZVMjFLeDVmVGl4R3Y4NA?oc=5"
     }
    ],
-   "news_at": "2026-11-22T20:59:08+00:00"
+   "news_at": "2026-11-23T01:35:24+00:00"
   },
   {
    "id": "qs-pipe-2027",
@@ -637,7 +565,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-22T20:59:08+00:00"
+   "news_at": "2026-11-23T01:35:24+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -1301,6 +1229,78 @@
    "news_at": "2026-11-15T23:57:57+00:00"
   },
   {
+   "id": "qs-taiwan-2026",
+   "name": "QS 6,000 Taiwan",
+   "org": "WSL",
+   "series": "Qualifying Series",
+   "start": "2026-11-14",
+   "end": "2026-11-22",
+   "location": "Jinzun Harbor, Taitung, Taiwan",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://www.worldsurfleague.com/",
+   "news": "Taiwan Open of Surfing",
+   "host": "WSL",
+   "status": "finished",
+   "headlines": [
+    {
+     "title": "Field Narrowed on Day 7 of The 2026 Taiwan Open of Surfing",
+     "date": "2026-11-20",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRlRUeVhKRDBCN3NZaE9za3dmNzZ6Wm5OSjl5WjVLSUk4N3VacF9TVWVtOU42ZVBoMTY3UHJ1NGNETG1mTVo2R2RjT2pDX1BSUUYtaUJmQlJuLXRIQWdDbWVXTGZGZTlyU3F3a1ZjamFRMzlqZTBXZ2VPZHV6ODFmN1R4STk5eUdHTnJYUUxwaUFBWm5yZEZvclpMODZRQXl5X0FaM0Jn?oc=5"
+    },
+    {
+     "title": "Women's Top Seeds Hit The Water at 2026 Taiwan Open of Surfing",
+     "date": "2026-11-18",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdy05eHE3bTJnOTBHWU1JRkRKcnlyZ3l2OFl5SFpYMDY5dlRqV25UaUNfemE2SmlFRl82U0tGYVVQOGpzbWtKVHI0SVE2cVlnWEhqSC10SkU0S3I4N0dFTW9aTFZHaEVjUnJKMk13Yk9vWnpWdEJRWHAxUUFzcFN3UWxxMFNYR1UxR29zRFMtdDJKdXVyRDczT3lNVE92T3ZnMWlTYU1UWDFMcGM?oc=5"
+    },
+    {
+     "title": "2026 Taiwan Open of Surfing Brings Star-Studded Field to Jinzun Harbor",
+     "date": "2026-11-17",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYk1CZldlS2FpQ2JocGt0RXpEMlFiZ3ZXbl9IS2h1aks0RS1jY0NLblpJeHNFMk5Gems4VzBrc25obDVZWXVUc3YzVjhTd3FkQmFiaFhHVmZlZ3ZsU1lIN21LR1NzS1pLLTBSV3pVWmRoUGI1WVJMSFRpQXI2NndfUVZFamZscWxUdDBHR21iX3NiSVN2Ukw3YzNBemQ5SHZPeFVtZXhRSmxnUzlGZkZKYmlmV05mQQ?oc=5"
+    },
+    {
+     "title": "Taiwan Open of Surfing Welcomes International Field for Historic QS 6000 Event",
+     "date": "2026-11-17",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdlVaTWhRaGQ4LXRvYVVteUtmcnJRRGl3TXpLZkRKMHMtMWpscHdYVFlZZnhVOS1EQUtzRkhSSGlIdWVMb0JOa0VKZXBta0FGbnJhcnFmekgyRnk2LTd0LVFESm1zb0FnRGo3VzQxb2F4MlFwRjY5clJrLVVncmRkcF95YzR1Qm9Gbm5xa2NrcER2UFUyZGkycFA3MlVnSUNjYVp1RElkMVdiNW5hZjRPLXB4RkhEckF6SUcwRTBDWmc?oc=5"
+    }
+   ],
+   "news_at": "2026-11-22T23:56:40+00:00"
+  },
+  {
+   "id": "isa-wpsc-2026",
+   "name": "ISA World Para Surfing Championship",
+   "org": "ISA",
+   "host": "ISA",
+   "partner": "DSRT Surf",
+   "series": "ISA World Championships",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "location": "DSRT Surf, Palm Desert, California",
+   "kind": "contest",
+   "live": "link",
+   "pool": "",
+   "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
+   "watch": "https://isasurf.org/",
+   "news": "ISA World Para Surfing Championship",
+   "facts": "Opening ceremony Nov 19 at DSRT Surf. Competition Nov 20-22. Live stream on isasurf.org.",
+   "source": "https://isasurf.org/info-for-event-participants-2026-wpsc/",
+   "status": "finished",
+   "headlines": [
+    {
+     "title": "The key points of the WSL Junior World Championship taking place in La Bocana",
+     "date": "2026-11-17",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTmg5dlZEeXFwcHE1QlBqM1RSc3V2SXozakVXc1FuSU1zLVhfU0RUYXNDWXBKNWhmRTlIZU52RW1zU2NRaG5aTzJpRXo5Zy1oSl8wSFdLRUd4SGhpanJfMnBORkxtQmg0TllDQXFfVHRsdlpVbFNTMEIwSUVjOWF4VjdLU2tEMFhTcExkOUdmelRqOUVYX0VDazRFR1U0SXNYSUlRVkd2dG1USDdER0k4dlpsVDlSTzA?oc=5"
+    }
+   ],
+   "news_at": "2026-11-22T23:56:40+00:00"
+  },
+  {
    "id": "wsl-ct-2026-surfabudhabi",
    "name": "Surf Abu Dhabi",
    "org": "WSL",
@@ -1325,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-22T23:56:40+00:00"
+ "checked_at": "2026-11-23T01:35:24+00:00"
 }

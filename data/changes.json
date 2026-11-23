@@ -1,6 +1,18 @@
 {
  "changes": [
   {
+   "at": "2026-11-23T01:35:24+00:00",
+   "event": "qs-taiwan-2026",
+   "text": "**QS 6,000 Taiwan**: status changed from `live` to `finished`",
+   "important": true
+  },
+  {
+   "at": "2026-11-23T01:35:24+00:00",
+   "event": "isa-wpsc-2026",
+   "text": "**ISA World Para Surfing Championship**: status changed from `live` to `finished`",
+   "important": true
+  },
+  {
    "at": "2026-11-19T00:04:07+00:00",
    "event": "isa-wpsc-2026",
    "text": "**ISA World Para Surfing Championship**: status changed from `upcoming` to `live`",
