@@ -34,11 +34,11 @@
 "languages": "Portuguese",
 "population": 214211951
 },
-"history": "Some of the earliest human remains found in the Americas, Luzia Woman, were found in the area of Pedro Leopoldo, Minas Gerais, and provide evidence of human habitation going back at least 11,000 years. The earliest pottery ever found in the Western Hemisphere was excavated in the Amazon basin of Brazil and radiocarbon dated to over 8,000 years ago (6000 BC). The pottery was found near Santarém and provides evidence that the region supported a complex prehistoric culture. The Marajoara culture flourished on Marajó in the Amazon delta from AD 400 to 1400, developing sophisticated pottery, social stratification, large populations, mound building, and complex social formations such as chiefdoms.",
+"history": "Some of the earliest human remains found in the Americas, Luzia Woman, were found in the area of Pedro Leopoldo, Minas Gerais, and provide evidence of human habitation going back at least 11,000 years. The earliest pottery found in the Western Hemisphere was excavated in the Amazon basin and radiocarbon dated to over 8,000 years ago (6000 BC). The pottery was found near Santarém and provides evidence that the region supported a complex prehistoric culture. The Marajoara culture flourished on Marajó in the Amazon Delta from AD 400 to 1400, developing sophisticated pottery, social stratification, large populations, mound building, and complex social formations such as chiefdoms. Around the time of the Portuguese arrival, the territory had an estimated Indigenous population of 7 million people, mostly semi-nomadic, who subsisted on hunting, fishing, gathering, and migrant agriculture.",
 "lat": -10,
 "lon": -52,
 "qid": "Q155",
-"summary": "Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 214 million people. Brazil is a federation composed of 26 states and a Federal District, which hosts the capital, Brasília. Its most populous city is São Paulo, followed by Rio de Janeiro. Brazil has the largest Lusophone population in the world and is the only Portuguese-speaking country in the Americas, where it is the official language. Bounded by the Atlantic Ocean on the east, Brazil has a coastline of 7,491 kilometers (4,655 mi), among the longest in the world. Covering roughly half of South America's land area, it borders all other countries and territories on the continent except Ecuador and Chile. Brazil encompasses a wide range of tropical and subtropical landscapes, as well as wetlands, savannas, plateaus, and low mountains. It contains most of the Amazon basin, including the world's largest river system and most extensive virgin tropical forest.",
+"summary": "Brazil, officially the Federative Republic of Brazil, is the largest country in South America, the world's fifth-largest country by area, and the seventh-largest country by population, with over 214 million people. Brazil is a federation composed of 26 states and a Federal District, which hosts the capital, Brasília. Its most populous city is São Paulo, followed by Rio de Janeiro. Brazil has the largest Lusophone population in the world and is the only Portuguese-speaking country in the Americas, where it is the official language. Bounded by the Atlantic Ocean on the east, Brazil has a coastline of 7,491 kilometers (4,655 mi), among the longest in the world. Covering roughly half of South America's land area, it borders all other countries and territories on the continent except Ecuador and Chile. Brazil encompasses a wide range of tropical and subtropical landscapes, as well as wetlands, savannas, plateaus, and low mountains. It contains most of the Amazon basin, including the world's largest river system and most extensive virgin tropical forest.",
 "surfing": {
 "desc": "",
 "lat": null,
@@ -64,7 +64,7 @@
 "lat": 13.68333333,
 "lon": -89.18333333,
 "qid": "Q792",
-"summary": "El Salvador, officially the Republic of El Salvador, is a sovereign nation in Central America. Situated along the Pacific coast, it is bounded by Guatemala to the northwest and Honduras to the northeast. The country's political, economic, and cultural center is its capital and largest municipality, San Salvador. As of 2024, El Salvador's population was estimated at approximately 6 million inhabitants. Historically, the territory comprising modern-day El Salvador was inhabited by various Mesoamerican civilizations, notably the Olmecs - whose presence around the first millennium BCE is attested by archeological monuments - followed by the Maya and later the Cuzcatlecs. In 1524, the region was conquered by the Spanish Empire and subsequently incorporated into the Viceroyalty of New Spain. Because the central administration in Mexico City exercised limited direct oversight over the Central American isthmus, Spain established the Captaincy General of Guatemala in 1609, an administrative division that included the territory of El Salvador throughout the colonial period.",
+"summary": "El Salvador, officially the Republic of El Salvador, is a sovereign nation in Central America. Situated along the Pacific coast, it is bounded by Guatemala to the northwest and Honduras to the northeast. The country's political, economic, and cultural center is its capital and largest city, San Salvador. As of 2024, El Salvador's population was estimated at approximately 6 million inhabitants. Historically, the territory comprising modern-day El Salvador was inhabited by various Mesoamerican civilizations, notably the Olmecs - whose presence around the first millennium BCE is attested by archeological monuments - followed by the Maya and later the Cuzcatlecs. In 1524, the region was conquered by the Spanish Empire and subsequently incorporated into the Viceroyalty of New Spain. Because the central administration in Mexico City exercised limited direct oversight over the Central American isthmus, Spain established the Captaincy General of Guatemala in 1609, an administrative division that included the territory of El Salvador throughout the colonial period.",
 "surfing": null,
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/960px-Flag_of_El_Salvador.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "El Salvador",
@@ -108,12 +108,7 @@
 },
 "New Zealand": {
 "desc": "Island country in the Pacific Ocean",
-"facts": {
-"capital": "Wellington",
-"currency": "New Zealand dollar",
-"languages": "English, Māori, New Zealand Sign Language",
-"population": 5307800
-},
+"facts": {},
 "history": "The first people to reach New Zealand were Polynesians in oceangoing waka, who are believed to have arrived in several waves between about 1280 and 1350. According to most Māori oral traditions, the islands were first discovered by the semi-legendary explorer Kupe while in pursuit of a giant octopus. These traditions hold that Kupe was followed by a great fleet of settlers, who set out from Hawaiki in eastern Polynesia around 1350. The existence of a single great fleet that settled New Zealand has since been superseded by the belief that the majority of settlement was a planned and deliberate event that occurred over several decades. The exact date of this settlement is unclear, with recent sources favouring settlement in the 14th century.",
 "lat": -42,
 "lon": 173,
@@ -188,7 +183,7 @@
 "lat": 39,
 "lon": -8,
 "qid": "Q45",
-"summary": "Portugal, officially the Portuguese Republic, is a country in Southwestern Europe. Mainland Portugal is located on the southwestern portion of the Iberian Peninsula, and bordered by Spain to the north and east. Portugal also includes the archipelagos of Madeira and the Azores in the Atlantic Ocean. The country has a population of 11.4 million, and Lisbon, its capital, is the largest city. Portugal's internal waters and territorial sea together account for two-fifths of its territory, and its exclusive economic zone is one of Europe's largest. The country's terrain contains a diverse range of landscapes and regional climates. The western Iberian Peninsula has been inhabited since prehistory, with the earliest signs of permanent settlement dating to between 5500 BC and 5300 BC. Muslims had occupied the Iberian Peninsula since 711. As a result of the Reconquista against them, Portugal was established as a county of the Kingdom of León in 868 and formally as a kingdom in 1179.",
+"summary": "Portugal, officially the Portuguese Republic, is a country in Southwestern Europe. Mainland Portugal is located on the southwestern portion of the Iberian Peninsula, and bordered by Spain to the north and east. Portugal also includes the archipelagos of Madeira and the Azores in the Atlantic Ocean. The country has a population of 11.4 million, and Lisbon, its capital, is the largest city. Portugal's internal waters and territorial sea together account for two-fifths of its territory, and its exclusive economic zone is one of Europe's largest. The country's terrain contains a diverse range of landscapes and regional climates. The western Iberian Peninsula has been inhabited since prehistory, with the earliest signs of permanent settlement dating to between 5500 BC and 5300 BC. Muslims had occupied the Iberian Peninsula from 711. As a result of the Reconquista against them, Portugal was established as a county of the Kingdom of León in 868 and formally as a kingdom in 1179.",
 "surfing": null,
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/960px-Flag_of_Portugal_%28official%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Portugal",
@@ -200,7 +195,7 @@
 "capital": "Taipei",
 "currency": "New Taiwan dollar",
 "languages": "Amis, Atayal, Bunun, Kanakanavu",
-"population": 23317031
+"population": 23262544
 },
 "history": "Taiwan was joined to the Asian mainland in the Late Pleistocene, until sea levels rose about 10,000 years ago. Human remains and Paleolithic artifacts dated 20,000 to 30,000 years ago have been found. Study of the human remains suggested they were Australo-Papuan people similar to Negrito populations in the Philippines. Paleolithic Taiwanese likely settled the Ryukyu Islands 30,000 years ago although other studies suggest no genetic contribution from the aborigines of Taiwan into Ryukyuans. Slash-and-burn agriculture practices started at least 11,000 years ago. Stone tools of the Changbin culture have been found in Taitung and Eluanbi. Archaeological remains suggest they were initially hunter-gatherers that slowly shifted to intensive fishing. The distinct Wangxing culture, found along the Jingshan River of Miaoli County, seemed to have initially been gatherers who shifted to hunting.",
 "lat": 24,
@@ -288,7 +283,7 @@
 },
 "places": {
 "bells-beach": {
-"checked_at": "2026-11-16T10:20:37+00:00",
+"checked_at": "2026-11-23T09:45:35+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -463,20 +458,20 @@
 "url": "https://en.wikipedia.org/wiki/Point_Addis_Marine_National_Park"
 },
 {
-"desc": "Beach in Anglesea, Victoria, Australia",
-"km": 7.6,
-"summary": "Urquharts Bluff is a coastal headland and beach located on the Great Ocean Road between Aireys Inlet and Anglesea in Victoria, Australia.",
-"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Urquhart_Bluff.jpg/330px-Urquhart_Bluff.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-"title": "Urquharts Bluff",
-"url": "https://en.wikipedia.org/wiki/Urquharts_Bluff"
-},
-{
 "desc": "Beach in Torquay, Victoria, Australia",
 "km": 7.6,
 "summary": "Whites Beach is a long sandy beach located between Torquay and Breamlea on Victoria's Surf Coast, Australia. Extending for approximately 4.5 kilometres, it is one of the longer beaches in the Torquay area and is known for its natural setting, walking…",
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Whites_Beach.jpg/330px-Whites_Beach.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Whites Beach (Torquay)",
 "url": "https://en.wikipedia.org/wiki/Whites_Beach_(Torquay)"
+},
+{
+"desc": "Beach in Anglesea, Victoria, Australia",
+"km": 7.6,
+"summary": "Urquharts Bluff is a coastal headland and beach located on the Great Ocean Road between Aireys Inlet and Anglesea in Victoria, Australia.",
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Urquhart_Bluff.jpg/330px-Urquhart_Bluff.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+"title": "Urquharts Bluff",
+"url": "https://en.wikipedia.org/wiki/Urquharts_Bluff"
 }
 ],
 "region": null,
@@ -501,7 +496,7 @@
 }
 },
 "cloud-9": {
-"checked_at": "2026-11-16T10:20:40+00:00",
+"checked_at": "2026-11-23T09:45:36+00:00",
 "country_name": "Philippines",
 "guessed": false,
 "guide": {
@@ -612,7 +607,7 @@
 }
 },
 "cloudbreak": {
-"checked_at": "2026-11-16T10:20:41+00:00",
+"checked_at": "2026-11-23T09:45:37+00:00",
 "country_name": "Fiji",
 "guessed": false,
 "guide": {
@@ -728,7 +723,7 @@
 "town": null
 },
 "dsrt-surf": {
-"checked_at": "2026-11-16T10:20:43+00:00",
+"checked_at": "2026-11-23T09:45:38+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -965,7 +960,7 @@
 }
 },
 "el-salvador-expected": {
-"checked_at": "2026-11-16T10:20:44+00:00",
+"checked_at": "2026-11-23T09:45:41+00:00",
 "country_name": "El Salvador",
 "guessed": true,
 "guide": {
@@ -1145,20 +1140,20 @@
 "url": "https://en.wikipedia.org/wiki/Teatro_Nacional_de_El_Salvador"
 },
 {
-"desc": "Capital of El Salvador",
-"km": 1.9,
-"summary": "San Salvador (Spanish pronunciation: [san salβaˈðoɾ]) is the capital and largest city of El Salvador and of its eponymous department. It is the country's largest agglomeration, serving as the country's political, cultural, educational and financial center.",
-"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Monumento_al_Salvador_del_Mundo_1.jpg/330px-Monumento_al_Salvador_del_Mundo_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-"title": "San Salvador",
-"url": "https://en.wikipedia.org/wiki/San_Salvador"
-},
-{
 "desc": "1811 revolt against Spanish rule in colonial El Salvador",
 "km": 1.9,
 "summary": "The 1811 Independence Movement (Spanish: Movimiento de Independencia de 1811), known in El Salvador as the First Shout of Independence (Primer Grito de Independencia), was the first of a series of revolts in Central America in modern-day El Salvador against…",
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg/330px-Proclama_de_libertad_%28indep._Centroam%C3%A9rica%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "1811 Independence Movement",
 "url": "https://en.wikipedia.org/wiki/1811_Independence_Movement"
+},
+{
+"desc": "Capital of El Salvador",
+"km": 1.9,
+"summary": "San Salvador (Spanish pronunciation: [san salβaˈðoɾ]) is the capital and largest city of El Salvador and of its eponymous department. It is the country's largest agglomeration, serving as the country's political, cultural, educational and financial center.",
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Monumento_al_Salvador_del_Mundo_1.jpg/330px-Monumento_al_Salvador_del_Mundo_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+"title": "San Salvador",
+"url": "https://en.wikipedia.org/wiki/San_Salvador"
 },
 {
 "desc": "Former country in Central America (1823–1839/1841)",
@@ -1199,14 +1194,14 @@
 "desc": "Country in Central America",
 "lat": 13.68333333,
 "lon": -89.18333333,
-"summary": "El Salvador, officially the Republic of El Salvador, is a sovereign nation in Central America. Situated along the Pacific coast, it is bounded by Guatemala to the northwest and Honduras to the northeast. The country's political, economic, and cultural center is its capital and largest municipality, San Salvador. As of 2024, El Salvador's population was estimated at approximately 6 million inhabitants. Historically, the territory comprising modern-day El Salvador was inhabited by various Mesoamerican civilizations, notably the Olmecs - whose presence around the first millennium BCE is attested by archeological monuments - followed by the Maya and later the Cuzcatlecs. In 1524, the region was conquered by the Spanish Empire and subsequently incorporated into the Viceroyalty of New Spain.",
+"summary": "El Salvador, officially the Republic of El Salvador, is a sovereign nation in Central America. Situated along the Pacific coast, it is bounded by Guatemala to the northwest and Honduras to the northeast. The country's political, economic, and cultural center is its capital and largest city, San Salvador. As of 2024, El Salvador's population was estimated at approximately 6 million inhabitants. Historically, the territory comprising modern-day El Salvador was inhabited by various Mesoamerican civilizations, notably the Olmecs - whose presence around the first millennium BCE is attested by archeological monuments - followed by the Maya and later the Cuzcatlecs. In 1524, the region was conquered by the Spanish Empire and subsequently incorporated into the Viceroyalty of New Spain.",
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/960px-Flag_of_El_Salvador.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "El Salvador",
 "url": "https://en.wikipedia.org/wiki/El_Salvador"
 }
 },
 "el-sunzal": {
-"checked_at": "2026-11-16T10:20:45+00:00",
+"checked_at": "2026-11-23T09:45:41+00:00",
 "country_name": "El Salvador",
 "guessed": false,
 "guide": {
@@ -1274,6 +1269,14 @@
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sunset_Park_en_El_Salvador.jpg/330px-Sunset_Park_en_El_Salvador.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Sunset Park, La Libertad",
 "url": "https://en.wikipedia.org/wiki/Sunset_Park,_La_Libertad"
+},
+{
+"desc": "Municipality in La Libertad Department, El Salvador",
+"km": 0.7,
+"summary": "Coastal La Libertad (Spanish: La Libertad Costa) is a municipality occupying the entire Pacific littoral of La Libertad Department in central El Salvador.",
+"thumb": null,
+"title": "Coastal La Libertad",
+"url": "https://en.wikipedia.org/wiki/Coastal_La_Libertad"
 }
 ],
 "region": null,
@@ -1308,7 +1311,7 @@
 }
 },
 "hudayriat": {
-"checked_at": "2026-11-16T10:20:45+00:00",
+"checked_at": "2026-11-23T09:45:43+00:00",
 "country_name": "United Arab Emirates",
 "guessed": false,
 "guide": {
@@ -1626,7 +1629,7 @@
 }
 },
 "jinzun": {
-"checked_at": "2026-11-16T10:20:46+00:00",
+"checked_at": "2026-11-23T09:45:44+00:00",
 "country_name": "Taiwan",
 "guessed": false,
 "guide": {
@@ -1802,7 +1805,7 @@
 }
 },
 "margaret-river": {
-"checked_at": "2026-11-16T10:20:49+00:00",
+"checked_at": "2026-11-23T09:45:46+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -2001,11 +2004,11 @@
 "town": null
 },
 "nazare": {
-"checked_at": "2026-11-16T10:20:50+00:00",
+"checked_at": "2026-11-23T09:45:47+00:00",
 "country_name": "Portugal",
 "guessed": false,
 "guide": {
-"desc": "municipality in Portugal",
+"desc": "municipality in Leiria District, Portugal",
 "guide": {
 "Do": [
 "Use the beach.",
@@ -2213,7 +2216,7 @@
 }
 },
 "newcastle": {
-"checked_at": "2026-11-16T10:20:52+00:00",
+"checked_at": "2026-11-23T09:45:49+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -2274,11 +2277,11 @@
 "Sydney's Central, Strathfield, Epping and Hornsby stations have regular trains to 1 Newcastle Interchange via the Central Coast. Travelling time varies between 2 and 3 hours. This line uses the Opal card (the same as in Sydney) and trips from Sydney are quite comfortable and cheap at $8.30 peak and $5.81 off-peak.",
 "Trains terminate at Newcastle Interchange, where you can transfer to light rail to go to the CBD or beach.",
 "There is also a train service from Newcastle Interchange to various Hunter towns such as Maitland.",
-"Check the Sydney Trains website for trackwork along the Central Coast & Newcastle Line (CCN); when these occur, buses replace trains between stations and can add an hour to the trip.",
+"Check the Sydney Trains website for trackwork along the Central Coast & Newcastle Line (CCN); when these occur, buses replace trains between stations and can sometimes add an hour to the trip if you're leaving from a smaller station.",
 "Several NSW TrainLink regional services pass through Newcastle's 2 Broadmeadow Station (approximately 5 km from the CBD) daily from Sydney and the Central Coast to the south and from the Northern Rivers and New England.",
-"There is also a daily service that runs from Brisbane's Roma Street, passing through Broadmeadow Station on its way to Sydney - the train departs at 6:00 AM and arrives at 5:52 PM, taking nearly 12 hours and costing $69. It's certainly not the fastest way to travel but can be cheaper than air fares.",
+"There is also a daily service that runs from Brisbane's Roma Street, passing through Broadmeadow Station on its way to Sydney - the train departs at 6:00 AM and arrives at 5:52 PM, taking nearly 12 hours and costing $69. It's certainly not the fastest way to travel but can be cheaper than airfares.",
 "Busways, 36-38 Stroud Street, Bulahdelah, ☏ +61 2 4997 4788, infoline@busways.com.au. Daily 8AM-5PM. Operates services that run to Newcastle from Taree and to Newcastle from Hawks Nest/Tea Gardens, north of Port Stephens.",
-"Greyhound, ☏ 1300 473 946 (local rate call)Country code missing, fax: +61 7 4638 2178. Mon-Fri 8AM-6PM, Sat Sun 8AM-4PM. Newcastle from Sydney direct twice daily, Newcastle from Brisbane three times daily with many stops along the Pacific Highway.",
+"Greyhound, ☏ 1300 473 946 (domestic)Country code missing, fax: +61 7 4638 2178. Mon-Fri 8AM-6PM, Sat Sun 8AM-4PM. Newcastle from Sydney direct twice daily, Newcastle from Brisbane three times daily with many stops along the Pacific Highway.",
 "Port Stephens Coaches, ☏ +61 2 4982 2940. Provides daily services from Port Stephens and Williamtown airport to Newcastle Railway Station.",
 "Newcastle Airport (Williamtown) (NTL IATA). Expanded in 2025, Newcastle Airport has flights from all major Australian cities and a solitary international link from Denpasar (Bali).",
 "Flying to Newcastle from Sydney is neither fast, cheap nor convenient, since there is only a handful of flights every day and the airport is not particularly central to Newcastle. However, the flight is particularly scenic, especially on a fine day, as there are stunning views of the northern beaches between Sydney and Newcastle."
@@ -2490,7 +2493,7 @@
 }
 },
 "north-shore-oahu": {
-"checked_at": "2026-11-16T10:20:53+00:00",
+"checked_at": "2026-11-23T09:45:52+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -2678,7 +2681,7 @@
 "desc": "U.S. state",
 "lat": 21.5,
 "lon": -158,
-"summary": "Hawaii ( hə-WY-ee; Hawaiian: Hawaiʻi [həˈvɐjʔi, həˈwɐjʔi]) is an island state of the United States, in the Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland. One of the two non-contiguous U.S. states (along with Alaska), it is the only state in Oceania, the only state that is an archipelago, the only state south of the Tropic of Cancer, one of only two states, along with Florida, with regions that have a tropical climate, and one of the two U.S. states, along with Texas, that were internationally recognized sovereign countries before becoming U.S. states.",
+"summary": "Hawaii ( hə-WY-ee; Hawaiian: Hawaiʻi [həˈʋɐjʔi, həˈwɐjʔi]) is an island state of the United States, in the Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland. One of the two non-contiguous U.S. states (along with Alaska), it is the only state in Oceania, the only state that is an archipelago, the only state south of the Tropic of Cancer, one of only two states, along with Florida, with regions that have a tropical climate, and one of the two U.S. states, along with Texas, that were internationally recognized sovereign countries before becoming U.S. states.",
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/960px-Flag_of_Hawaii.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Hawaii",
 "url": "https://en.wikipedia.org/wiki/Hawaii"
@@ -2704,7 +2707,7 @@
 }
 },
 "punta-roca-sv": {
-"checked_at": "2026-11-16T10:20:54+00:00",
+"checked_at": "2026-11-23T09:45:52+00:00",
 "country_name": "El Salvador",
 "guessed": false,
 "guide": {
@@ -2772,6 +2775,14 @@
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sunset_Park_en_El_Salvador.jpg/330px-Sunset_Park_en_El_Salvador.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Sunset Park, La Libertad",
 "url": "https://en.wikipedia.org/wiki/Sunset_Park,_La_Libertad"
+},
+{
+"desc": "Municipality in La Libertad Department, El Salvador",
+"km": 0.7,
+"summary": "Coastal La Libertad (Spanish: La Libertad Costa) is a municipality occupying the entire Pacific littoral of La Libertad Department in central El Salvador.",
+"thumb": null,
+"title": "Coastal La Libertad",
+"url": "https://en.wikipedia.org/wiki/Coastal_La_Libertad"
 }
 ],
 "region": null,
@@ -2810,7 +2821,7 @@
 }
 },
 "punta-rocas": {
-"checked_at": "2026-11-16T10:20:55+00:00",
+"checked_at": "2026-11-23T09:45:55+00:00",
 "country_name": "Peru",
 "guessed": false,
 "guide": {
@@ -3025,7 +3036,7 @@
 }
 },
 "raglan": {
-"checked_at": "2026-11-16T10:20:57+00:00",
+"checked_at": "2026-11-23T09:45:57+00:00",
 "country_name": "New Zealand",
 "guessed": false,
 "guide": null,
@@ -3112,7 +3123,7 @@
 "town": null
 },
 "saquarema": {
-"checked_at": "2026-11-16T10:20:57+00:00",
+"checked_at": "2026-11-23T09:45:58+00:00",
 "country_name": "Brazil",
 "guessed": false,
 "guide": {
@@ -3165,7 +3176,7 @@
 "town": null
 },
 "snapper-rocks": {
-"checked_at": "2026-11-16T10:20:58+00:00",
+"checked_at": "2026-11-23T09:46:00+00:00",
 "country_name": "Australia",
 "guessed": false,
 "guide": {
@@ -3456,11 +3467,11 @@
 }
 },
 "supertubos": {
-"checked_at": "2026-11-16T10:20:59+00:00",
+"checked_at": "2026-11-23T09:46:01+00:00",
 "country_name": "Portugal",
 "guessed": false,
 "guide": {
-"desc": "municipality in Portugal",
+"desc": "municipality in Leiria District, Portugal",
 "guide": {
 "Do": [
 "Peniche is known for its long beaches, which are popular for recreational activities and sports such as windsurfing, bodyboarding and kite surfing. These beaches are consistently windy and have good surf breaks with Supertubos, i.e., waves forming fast and powerful tubes, considered among the best in Europe.",
@@ -3652,7 +3663,7 @@
 }
 },
 "teahupoo": {
-"checked_at": "2026-11-16T10:21:00+00:00",
+"checked_at": "2026-11-23T09:46:02+00:00",
 "country_name": "French Polynesia",
 "guessed": false,
 "guide": {
@@ -3813,7 +3824,7 @@
 "town": null
 },
 "trestles": {
-"checked_at": "2026-11-16T10:21:02+00:00",
+"checked_at": "2026-11-23T09:46:04+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -4028,9 +4039,9 @@
 "desc": "Surfing breaks in San Clemente, California",
 "lat": 33.385,
 "lon": -117.595,
-"summary": "Trestles is a collection of surfing spots between northern San Onofre State Beach in San Diego County and southern San Clemente in Orange County in California. Trestles consists of, from north to south, Upper Trestles (Uppers), Lower Trestles (Lowers), and Middle Trestles (Middles). North of Upper Trestles is the surf spot called Cottons Point (Cottons). South of Middles is the surf spot called The Church (Church’s). The surf spot between Cottons and Uppers is called Barbed Wires and between Uppers and Lowers is called InBetweens. Middles gets its name because it was a middle area between Trestles (both Uppers and Lowers breaks) and The Church (sometimes just called \"Church\". It is named after Trestles Bridge, a wooden trestle bridge that carried the Surf Line that surfers must walk under to reach the beach, replaced in 2012 by a concrete viaduct. Lower Trestles consistently has the best waves of the group. For many years, the WSL World Tour surfing competition and the NSSA Nationals were annually held at Lowers. Uppers is less consistent, but it has the potential to be a good wave with a long ride. North of Uppers is Cotton's Point, the location of former president Richard Nixon's home, La Casa Pacifica, aka \"The Western White House\", and the associated surfing spot of Cottons. Trestles State Beach will host the surfing competition at the 2028 Summer Olympics.",
+"summary": "Trestles is a 1.5 mi (2.4 km) strand of surfing spots along the Pacific Ocean between northern San Onofre State Beach in San Diego County and southern San Clemente in Orange County in California. A seasonal watercourse, San Mateo Creek, runs through the center of Trestles and empties into the ocean. Trestles is named after Trestles Bridge, a wooden trestle bridge that carried the Surf Line that surfers must walk under to reach the beach, replaced in 2012 by a concrete viaduct. Trestles will host the surfing competition at the 2028 Summer Olympics.",
 "surf": "",
-"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Metrolink_Trestles_Beach_S.jpg/960px-Metrolink_Trestles_Beach_S.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+"thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Sunset_Surfers%2C_San_Clemente%2C_1990.jpg/960px-Sunset_Surfers%2C_San_Clemente%2C_1990.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Trestles (surfing)",
 "url": "https://en.wikipedia.org/wiki/Trestles_(surfing)"
 },
@@ -4045,7 +4056,7 @@
 }
 },
 "waimea-bay": {
-"checked_at": "2026-11-16T10:21:03+00:00",
+"checked_at": "2026-11-23T09:46:06+00:00",
 "country_name": "United States",
 "guessed": false,
 "guide": {
@@ -4233,7 +4244,7 @@
 "desc": "U.S. state",
 "lat": 21.5,
 "lon": -158,
-"summary": "Hawaii ( hə-WY-ee; Hawaiian: Hawaiʻi [həˈvɐjʔi, həˈwɐjʔi]) is an island state of the United States, in the Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland. One of the two non-contiguous U.S. states (along with Alaska), it is the only state in Oceania, the only state that is an archipelago, the only state south of the Tropic of Cancer, one of only two states, along with Florida, with regions that have a tropical climate, and one of the two U.S. states, along with Texas, that were internationally recognized sovereign countries before becoming U.S. states.",
+"summary": "Hawaii ( hə-WY-ee; Hawaiian: Hawaiʻi [həˈʋɐjʔi, həˈwɐjʔi]) is an island state of the United States, in the Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland. One of the two non-contiguous U.S. states (along with Alaska), it is the only state in Oceania, the only state that is an archipelago, the only state south of the Tropic of Cancer, one of only two states, along with Florida, with regions that have a tropical climate, and one of the two U.S. states, along with Texas, that were internationally recognized sovereign countries before becoming U.S. states.",
 "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/960px-Flag_of_Hawaii.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
 "title": "Hawaii",
 "url": "https://en.wikipedia.org/wiki/Hawaii"
@@ -4259,5 +4270,5 @@
 }
 }
 },
-"updated_at": "2026-11-23T08:49:44+00:00"
+"updated_at": "2026-11-23T09:46:14+00:00"
 }
