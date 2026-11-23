@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-22T23:57:00+00:00",
+ "updated_at": "2026-11-23T00:23:28+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -3630,7 +3630,7 @@
    "location": "Jinzun Harbor, Taitung, Taiwan",
    "start": "2026-11-14",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "official": "https://www.worldsurfleague.com/events/2026/qs/506/taiwan-open-of-surfing/main",
    "roster": {
     "men": [
@@ -5344,6 +5344,10 @@
    "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (136 men, 75 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
+    "jarvis-earle": {
+     "place": 1,
+     "points": 10000
+    },
     "alister-reginato": {
      "place": 17,
      "points": 1330
@@ -5888,10 +5892,9 @@
      "place": 125,
      "points": 265
     },
-    "jarvis-earle": {
+    "sophie-mcculloch": {
      "place": 1,
-     "points": 10000,
-     "live": true
+     "points": 10000
     },
     "alana-lopez": {
      "place": 2,
@@ -6192,15 +6195,10 @@
     "sumomo-sato": {
      "place": 33,
      "points": 265
-    },
-    "sophie-mcculloch": {
-     "place": 1,
-     "points": 10000,
-     "live": true
     }
    },
    "wsl_url": "https://www.worldsurfleague.com/events/2026/qs/506/taiwan-open-of-surfing",
-   "draftable": true
+   "draftable": false
   },
   {
    "id": "isa-wpsc-2026",
@@ -6210,7 +6208,7 @@
    "location": "DSRT Surf, Palm Desert, California",
    "start": "2026-11-19",
    "end": "2026-11-22",
-   "status": "live",
+   "status": "finished",
    "official": "https://isasurf.org/event/2026-isa-world-para-surfing-championship/",
    "roster": null,
    "roster_source": null,
