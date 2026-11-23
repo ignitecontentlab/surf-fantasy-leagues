@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-23T19:20:08+00:00",
- "content_hash": "373e3c93c3b8",
+ "updated_at": "2026-11-23T21:07:21+00:00",
+ "content_hash": "19169434cd00",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-23T19:20:08+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -88,7 +88,7 @@
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LQUZUaDhzaEN2V05UT3FTZWtyd1VEQ2NhVU5QRnp1Q1Z2aHNUcWw5TlozS3hDZ3lfaE5XZF9tUTAtNElKME1UdVBidENwMTNPejI2MTdmajNXcS1SajlaaHQxYWhaUi10dy1hbkdn?oc=5"
     }
    ],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -133,7 +133,7 @@
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObmNnYUFRWUlEOWhMcS0taFlJVWlqU0E1SzBqbW85UUVpUmdndzZHQ3F2WXJsLTZZdTQxdjcxSEV4ZDl3NDJpOUxfeDFnNG5vaGh2aUhvMHQ1RHB0d3MyVU9sRjVSQjU4SFVFZndBTDlROXFBaGVWUWZaejZkTEZUc2ZpSUlnZFRxdmNHVS15U21zYy1HdXMtblNR?oc=5"
     }
    ],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -172,7 +172,7 @@
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVW9yLWJ3ckJYM3ByQXB2blRibURCYVU5X2FibkRrV0VObnRCdXN1TmNBV1E1dGFhbXJtV3RRZEZ5NUlXdlRBQzk0Y3dkeVFETDZ6b2hERkxDTWUwZVlpVWQwd1VmQkhMQll1dW9TRFQwajJUcmNlVmVGcmVjdFcxZWt4eFVKRzdXZndjbXl3OHRsVnlzUkVvT2t2TDRWcUU?oc=5"
     }
    ],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "eddie-2026-27",
@@ -499,13 +499,13 @@
      "title": "Stories From The Eddie: The Trophy",
      "date": "2026-01-13",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-the-trophy",
-     "age": 313
+     "age": 314
     }
    ],
    "watch_note": "",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "wsl-ct-2026-lexuspipemasters",
@@ -528,6 +528,12 @@
    "status": "upcoming",
    "headlines": [
     {
+     "title": "Picklum Chases World Title as Australian Stars Prepare for Historic Pipe Masters Finale",
+     "date": "2026-11-23",
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOREZ0VUhDY0JaRXhqZ2IxUmVOYnJxekdrNTlLX2xScDh5LWE4ZFREVVA3MUJ2T2JwdVFxWS0zRGRJdWw3eTY4dXBSSzBRZzFaZWd4OW1vSF9XWmphQzJXblNaWE1nQmgxMUlMMnpTUkcyNVZjWkl5WU9abTFjZ1NHMUpoVTU1MExfTlgtNUdDUnhWZmZIZm91cmxtcXBNYnNYQ3o5SUNSOEhSVENuejRteFNFTEFlU1NEbzZrMGZoV1pvWmJZ?oc=5"
+    },
+    {
      "title": "Who Will Win the 2026 World Championship at Pipeline? Every Lexus Pipe Masters Scenario Explained",
      "date": "2026-11-20",
      "source": "SURFER Magazine",
@@ -546,7 +552,7 @@
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlpWXQwQ2s1QnN4ZExmSTl1ZHM1eXZGQ2JDVUlWY1pmQWZHX3BuZHhadDczV0Y5aUxUVFFWQTBBbjZlZTVNaDQwWm4wOGZpVV80V0JvS2Ewd2dDbHY4aTllek9tU0p2OHp5WUlqWVM4ekZjVVF6ZE01NzNnVURCUEJjQ3NIMVJtVlByVFVHRG4ydUV5RVRnTzZVMjFLeDVmVGl4R3Y4NA?oc=5"
     }
    ],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "qs-pipe-2027",
@@ -565,7 +571,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -583,7 +589,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "la28-surfing",
@@ -616,7 +622,7 @@
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSDgzQ2lGZnBUeWxKYVFQbzZJTWw0X3B6cDJSMjgtM2xZME0tMml1dVBGcTloRkZxdWU3dHFrNTlXVzFMaE4weWtLT3FPeThhVE5raUVoMWZjZmp0Zjh3bXBtVnZzMXk4YmpDWlQ5dlFtQk52VkFCNFl1MS0weDczQXVfVHFpRWRvdVQ5dEdHdjA1N3NOSVhlLUZ0MA?oc=5"
     }
    ],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "isa-wsg-2027",
@@ -1152,10 +1158,10 @@
    "status": "completed",
    "headlines": [
     {
-     "title": "Results for Filipe Toledo at Philippines Pro 2026",
-     "date": "2026-11-13",
+     "title": "Philippines Pro Recap: Simmers and Medina's Cloud 9 dream & the Road to Pipeline | The Lineup",
+     "date": "2026-11-20",
      "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVndiMnV5NXJpVHkwalRnNHVUUkxzdmZBS3RfNUxRTm04dXR6aEJMbGEzZDE2aWktejgyQVJ0WXlaQ1Ywcm1PYzFyQXBJc2FhWFdyYk1UcktfMWtOSzN6N2Jud0REanlyb09FWGxEcUVWVWRkanRCcVllUm1FNFliY2pHaHduMHVLeUVtblhn?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQzV5Z0tTSU9VSlg0Mm5HS1FxZG1kUlpvU090S3A3M0ZQWFBidkdlTHFUOGhUN2w4ZTVXajN3S2Q4RDBPeTZxNVQtWGRmQWZQX1ktTGdYYml3a0ZvQTlTejRpVUJmNXFPU3dlOGQ3TWd2UnhKemdSU1FKVlFKTUdwSVNZeW9rYnRpdmI0bk1zeVlTUkJneEdTU2xyNm42R2k5TzZ4dzc4bE5zOGR0THc?oc=5"
     },
     {
      "title": "Results for Marco Mignot at Philippines Pro 2026",
@@ -1176,7 +1182,7 @@
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORlNiNEdhZVF2UHhDejA1ZmN2QnM1NElxUmdFNkhDVmlEVXdGRVBzV1JmcWF2TmxNOVVZSkhVNmphcnV4YUhKVmFTLTNhekpBMFZmNmhaTURYb3dKTG9PR2hJa3lfRzRnckFNRHExalljN09NRlFoYjZDblVQcUFzTGFOZlJodjJrSU96d0gtcDZNNmhtUmc?oc=5"
     }
    ],
-   "news_at": "2026-11-23T17:20:32+00:00"
+   "news_at": "2026-11-23T21:07:21+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1319,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-23T19:20:08+00:00"
+ "checked_at": "2026-11-23T21:07:21+00:00"
 }
