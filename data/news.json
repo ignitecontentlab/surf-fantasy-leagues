@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-23T01:58:25+00:00",
+"updated_at": "2026-11-23T03:37:35+00:00",
 "sources": {
-"Surfer": 44,
+"Surfer": 43,
 "ISA": 4,
 "Stab": 14,
-"Surfline": 6,
+"Surfline": 5,
 "The Inertia": 45,
 "BeachGrit": 16,
 "Tracks": 1,
 "World Surf League": 41,
 "Surfertoday": 3,
-"In the news": 14
+"In the news": 15
 },
 "items": [
+{
+"title": "A+ Footage From Jordy Smith’s Hard Drive",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE14clJhVlQyMDItendOSXM2Q25fblBFaTVlQzA5V3ZuNXI1UTF1ZjJhNE5wRS1MeDlqRTNjWW4wd2xseTh5dWg5WWV4RklIdm1TLWV0enhmTjdKN3h5cDdUXy1ERzE2MTVvZ3FfbHJDVFIyallWZTlPR05n?oc=5",
+"source": "Stab",
+"at": "2026-11-23T02:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Review: Vampires Surf Probably Deserves A Sundance Nomination",
 "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd3YwcHR0dnB6RVpZbU5RaF9hMVA0bFpNQ1FNZGQzaDlsQzR5WDNYZzk2RDJ1aTZhekZBWjZzX09rUGhNckxUQ1JYWmQ3Ymt1WjdsOWRlcTA4UThqelQ3azhpdGYtSTZzZng1bnFYaTdHVzcyRm01WDFLSU9NNGRDMUdnVG9NVnNRamc?oc=5",
@@ -144,6 +154,16 @@
 "kind": "outlet"
 },
 {
+"title": "Durban North resident shines at longboard surf events",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWNEZ1JDRHpuOGdpODJMWGFtWmUxeXgtQkhWU0tCZXFCUTQ5TXZmX1pQQWVWYmYzeV9WQml6V0Nad0Q3czBYWGU0aVNHMUlXTS11Y3VFN2hMRkhBRVlFTFVUTHZVeU8zMXBmYUR2YnBLMGo4MWltQWtEdVZUMEttYkNYSXducHlUN0VzQkp5RUxKWTNoX0txTExsU1Rvd1p3WEFGaUJlTmdXSFk3RjFxVjZlRmd4YlBtWmwyWUh3ZzdKaEh2TTBHOVFnazZiUQ?oc=5",
+"source": "The Citizen",
+"at": "2026-11-22T13:08+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Tianyu Huang Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NOFZZWmFOLUZWOHZfdC1rWWNJN1RmTlluRmljRE1Oc1BkZGp1QlV4LUJHZFp5MTZmWGZwOGp2dkFjUEE4aW1mYUlHQURyaUJUX2JRLVhGQzNWZ29wV2lqMjBiQkhjWThOemNn?oc=5",
 "source": "World Surf League",
@@ -162,6 +182,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Surfers in Senegal seeking to reclaim the waves",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPanZFZklyMGFDMEhTdnA1YW9Kb0JBWmxvQ3N2MTFrMnBkZ1pzVmZEbllCRmJTeUFkb1lNV2FMNzBEdkdqdVE0QmVoTjZSYTlXSVlqVl9hLU55d0thWTJ4bjdMWDYtSjR0dmtybkVBWGhaU3RuS2VtMnpDY2U5ZVdqb0d5YmJvV0IxajM4c3F2RkFxYk1kc0pDTTVNRW0?oc=5",
+"source": "The Arkansas Democrat-Gazette",
+"at": "2026-11-22T10:09+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Repentant Surf Bully Stiffed For $100 By Vulnerable Adult Learner",
@@ -184,6 +214,29 @@
 "kind": "outlet"
 },
 {
+"title": "UPDATE: High surf advisory issued for Hatteras Island until 1 a.m. Monday",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpUExjNkVaTllUUEtDWWtzU0hCM2ZsVWd6SEk3RVBDZXlHc3lHWjhVM19vV0hLQUd6TVdBRWktUTVhN2J3MkFUaTFZck5KYkUwU2dKN0plMEN1WjBGNTJoWjBQbzVUU3FsSG5wenBua0hWcDlVeHNSNDh1WkZhdw?oc=5",
+"source": "Charlotte Observer",
+"at": "2026-11-22T06:18+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Jarvis Earle and Sophie McCulloch Win The 2026 Taiwan Open of Surfing International QS 6000",
+"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2FIUi0xRldveGdXRXVIT3F0dFFjQzFxSU5sWXM1LTRWLU5wWU1vSnJ5TVhGWnhjdXJ6eHpydFNlX1pLN2pqZkZaaHZ1WFJIelhMWmIxOUJNTzNrZTVmUjRxRHV6S2V3bE1ESGpHZXVZaEd2Z2ZlTWJ0Zkk1NW5LLVNLaUZPN1lsWENreHRXeHZzUXdFcGREZzdDOXNnWVpvTEJFbWVOLXdvaUhlSllSaHkxU2FLeFVWTTZqTmZoSkhGVnJVa3pyaG5Gb25RU1ZNRmc?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T05:54+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"jarvis-earle",
+"sophie-mcculloch"
+],
+"kind": "outlet"
+},
+{
 "title": "20-Foot Great White Attacks California Surfer and Obliterates Board While He Escapes ‘Without a Scratch’ (Photos)",
 "link": "https://www.surfer.com/news/great-white-shark-attack-surfer-santa-barbara",
 "source": "Surfer",
@@ -202,16 +255,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "Surfing Articles: Latest Surf News, Videos, & Photos at Surfline",
-"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wYzh1Mk9ocl9aTFVEN09XVG1EZkVFdDFBV0RYNWNDSHdmNGppU3V1YXRlc3RYLUE2cENHMnRqYXZnSTlfTUMxRjI2bzFUZWFYeVhySXZ5Z0hrQzNFWktZ?oc=5",
-"source": "Surfline",
-"at": "2026-11-22T02:49+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
 },
 {
 "title": "Pacifico Surf Open Cerritos Top Moments - Day 3",
@@ -248,16 +291,6 @@
 "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV084eGhCVEc1NFdmQkZNQXkxYVZwdUdGRWhLLUF5bTNieGJPTndpZGVidFJXLU1FREdUVUtsRnJsN3pUOHVJZnk2elQ1Q2pRc1ltWm45TjZ4OTUzSGJEa1BhRU41UHhmN1MzWXNiQmhXLVZ4NS1TZzFJUV9WV1YyUmF5X3EyWHJIeU8zc0U2NGY0RTRvc3BlZXE0eS1xSVc4WVFYRzAyd3lDUFYzMEdMREtsR0tBRG9YdVlNTkFlejY5MnRLY0dSVHhuV3ZlclNqaF9iRUUzRGlWM2taOG9qVXM5a1o?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-21T19:40+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Who Is The World’s Best Surfer/Skater?",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0tS1hVTEM1a29LRnEtaDRUWUx4NlJYMENsV1ljSlhHSDU2eHdtR1RmZ0MwVVlzbWZZNi1HTmZaQVJreHY5eGlQSE9QSFIzX1NOOUJhVlFQYUZIMU03V2tTaUhad05wNTFvY0llbkhaMmw4T3JD?oc=5",
-"source": "Stab",
-"at": "2026-11-21T19:05+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -437,12 +470,24 @@
 },
 {
 "title": "And The Winner Of Our Stab High Comment Section Is…",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGgzVUQ0OHZYRVh2bl9Bc0RqXzhkWGpzZ1pKYVdZVHZyX3AzSURsZGRqTW92RG1TSEZMMXhyU003aUcteEM5YW80WGZvQ0NLTFhkQ21wcGx1UjlEaVN4di1PZF81OHkxSEJia19Pamg2a3RUcndKQ3JCTTd5blJNNjVMNnZxdjZ6?oc=5",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ0dnSjZ2RGdreDdDQmV3cERGRWdRVDJQMnpBbGlqaEZydGdJUm9CV0tlZ1NEUjV1Q0szRUpSM3dYZVZPZWNmenZmbTZKSWNJRFJfaVA1ZnVMdGE5WlkzMS1XaDlybzFUTmV3OHBhM0EwcDE4RTRIVklGRkxWTFdjTjd3?oc=5",
 "source": "Stab",
-"at": "2026-11-21T00:56+00:00",
+"at": "2026-11-21T01:08+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Breaking: We Found The Source Of Gabriel Medina's Zebra-Adjacent, Thigh-Strangling Boardshorts",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUHlrNnVkZTk2dnlCbXZTSkhPTUZvUkNkb2N5T0l4U0tiUDllMjlwUV9YeXlVWXhpSmdsLVp2WVV6RWxab3BnaC1nZGZqNk9GRWF0T3RfVFB2Y09tQU9lVmNiY0ItUlJyZXJjQ2pPa2dpZjFfOGJJbVM4NkwxeVdYV3BYamZhWnhfWDZzVVR3NExmajBPUTNmVi1vYnh2MlVPX0JjZmF0bFQ2NTNaal9IU0tNNDBjdVJX?oc=5",
+"source": "Stab",
+"at": "2026-11-21T00:38+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"gabriel-medina"
+],
 "kind": "outlet"
 },
 {
@@ -654,16 +699,6 @@
 "kind": "outlet"
 },
 {
-"title": "In Senegal, Black surfers want to reclaim the waves despite lack of resources",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZX1llNzZGREJTeFFZTDlUc2E0ejZzNDRuVVZEaHkyMUVUQTZzdFlxSXVLT3hMaEhpXzQzQ1pkN0dfSkZ1UjVnY0hySDdFV3loOXRaX0xaVWlmRU4za3BLaEwxYUMzb1AyQm4wX0xGWQ?oc=5",
-"source": "Boston Herald",
-"at": "2026-11-20T15:40+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "‘King of Salsa Brava’ Kurt Van Dyke Murder: Brother Slams ‘Orchestrated’ Robbery After Girlfriend’s Arrest (Video)",
 "link": "https://www.surfer.com/news/kurt-van-dyke-girlfriend-arrest-costa-rica",
 "source": "Surfer",
@@ -701,18 +736,6 @@
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDk1/rapa-nui-surf.png?profile=rss&x=50&y=32",
 "desc": "An unnamed surfer threads a solid Rapa Nui right while Easter Island’s moai stare from the headland in a surreal collision of modern surfing and ancient history.",
 "surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Taking mother power to whole new feats, Justine Dupont's incredible connection to Nazaré",
-"link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZEpPQk9zT1FRaWZ1eENMOHdBc2ZUa2NkVVNhbXY2WVl2eWRvQlZZd1MzanpfaDYxS3hJRDdCUkJDN0hoeXNiVl8wZlB3NFFucGxndUstN24tcjRETS1wb2hQTXRQbFhickFTVVNKZGVsQWFsRjZfQnVTd0hwbFBYRUU3bzVmY3BaU3VBRFphV3BKNEtqUkdMSkVsUWdFWnVoVVRRYXg0VFlNbHQ4VnpoeUJESHFHRG93bURic2VDNWRreU1abXgyYlNDaw?oc=5",
-"source": "World Surf League",
-"at": "2026-11-20T13:09+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"justine-dupont"
-],
 "kind": "outlet"
 },
 {
@@ -1156,16 +1179,6 @@
 "kind": "outlet"
 },
 {
-"title": "The Best Surfboard Harry Bryant Has Ever Owned",
-"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT2htbzBKc21yMmFLMVN3a3RMamp6NTlBdlFuSll6ZVlvMC11UFZ5emhMaVVESGRjT2NWT0k1NHozUFlaLXNSQWJMQ1puYVBtRDFLQlNrWGZTQUp4bHExcXFsemM2MTM3WUhfNlJWOU4zekw1eWcxWlI5MFdvUTJLdEtB?oc=5",
-"source": "Stab",
-"at": "2026-11-19T02:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Results for Inigo Madina at ABANCA Pantin Classic Galicia Pro 2026",
 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNczZqYTN4aEg2S0I5TnN2QXlMZzlTbW9McURBZ0M4WE1mckNZRjJJZ0RuQnUxalVBR29xVVFmdFRCeUI2aUxwSk5VbXVEaW9lTjlIa0ZncUZ1Vl9LektXVjBjeTJXN2ZtVTlrRTA2Y3prUjVNX3ZXaE1KeDhFbzVTYUJPRWlFc3B4N0VST3NB?oc=5",
 "source": "World Surf League",
@@ -1220,16 +1233,6 @@
 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLS1UZzhLUmJvU3MtbkNqMFZTV091b2VNUjZRX2d5dS1jUS1GTnhPYlpGNWxnemJRSGxSRWd4bkN2V2c4NEttUlpKR0R0UnBUdGVzX2JVTFNyNVB1VjZxMzVRdlNUOXFONVRScXQ3dHRaVzFSRnVjRmtTT190SFhseTlVM0x2RHRpYVJPLTNpeUVfb1FPTW1NV3oxNHpZSGQ2ZURF?oc=5",
 "source": "The Inertia",
 "at": "2026-11-18T21:26+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Jacob Szekely and the El Niño-Fueled Swell in San Diego",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVVWX2V5UDhyb3JxYXZZcFNaVEtpUlVBTUJkLWNFQUVjUjlxbi1Mb0l4Vm4xaFpEQWt1M2dBWWJuMG5NLV8tSGREM1lobTB6eWZDajRlWTFuSTJGS2N6djQ2QmlxZkMzdGRxRS1WbHZ4VnV6Q29DX0dmUllEZlBjQmxtVjN1bDc4ZWxXdzV5QThRUQ?oc=5",
-"source": "The Inertia",
-"at": "2026-11-18T21:18+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
