@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-24T06:58:32+00:00",
+ "checked_at": "2026-11-24T08:28:38+00:00",
  "ok": false,
  "checks": {
   "site": {
@@ -20,7 +20,7 @@
   },
   "collector": {
    "ok": true,
-   "detail": "last success 37 min ago, 0 of last 3 failed"
+   "detail": "last success 44 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
@@ -28,25 +28,27 @@
   },
   "media": {
    "ok": true,
-   "detail": "news and videos last refreshed 80 min ago"
+   "detail": "news and videos last refreshed 26 min ago"
   },
   "pages": {
    "ok": false,
-   "detail": "2 of last 3 deploys failed"
+   "detail": "3 of last 3 deploys failed"
   },
   "event_sources": {
    "ok": true,
    "detail": "all sources answering"
   }
  },
- "open_issues": {},
+ "open_issues": {
+  "pages": "https://github.com/ignitecontentlab/surf-fantasy-leagues/issues/14"
+ },
  "fail_counts": {
   "site": 0,
   "data_worker": 0,
   "video_worker": 0,
   "data_files": 0,
   "collector": 0,
-  "pages": 1,
+  "pages": 2,
   "event_sources": 0,
   "events": 0,
   "media": 0
@@ -73,6 +75,6 @@
   "Re-ran the **pages** workflow because the last site deploys failed.",
   "Re-ran the **pages** workflow because the last site deploys failed."
  ],
- "last_action_at": "2026-11-24T06:58:32+00:00",
+ "last_action_at": "2026-11-24T08:28:38+00:00",
  "heartbeat": ""
 }
