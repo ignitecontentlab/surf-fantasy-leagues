@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-24T14:48:02+00:00",
+ "updated_at": "2026-11-24T15:22:53+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6227,13 +6227,340 @@
    "end": "2026-11-29",
    "status": "upcoming",
    "official": "https://www.worldsurfleague.com/events/2026/jun/524/surf-city-el-salvador-world-junior-championships/main",
-   "roster": null,
-   "roster_source": null,
-   "roster_note": "Roster not published yet. Drafts open here as soon as the entry list is posted or the admin adds it.",
+   "roster": {
+    "men": [
+     {
+      "key": "anuar-chiah",
+      "name": "Anuar Chiah",
+      "country": "Brazil",
+      "wsl_id": "19871",
+      "rank": 1
+     },
+     {
+      "key": "cannon-carr",
+      "name": "Cannon Carr",
+      "country": "United States",
+      "wsl_id": "16046",
+      "rank": 2
+     },
+     {
+      "key": "darcy-dwyer",
+      "name": "Darcy Dwyer",
+      "country": "Australia",
+      "wsl_id": "17802",
+      "rank": 3
+     },
+     {
+      "key": "dylan-wilcoxen",
+      "name": "Dylan Wilcoxen",
+      "country": "Indonesia",
+      "wsl_id": "16779",
+      "rank": 4
+     },
+     {
+      "key": "enzo-ackermann",
+      "name": "Enzo Ackermann",
+      "country": "Mexico",
+      "wsl_id": "16553",
+      "rank": 5
+     },
+     {
+      "key": "hans-odriozola",
+      "name": "Hans Odriozola",
+      "country": "Germany",
+      "wsl_id": "13924",
+      "rank": 6
+     },
+     {
+      "key": "harley-walters",
+      "name": "Harley Walters",
+      "country": "Australia",
+      "wsl_id": "17905",
+      "rank": 7
+     },
+     {
+      "key": "hugh-vaughan",
+      "name": "Hugh Vaughan",
+      "country": "Australia",
+      "wsl_id": "15521",
+      "rank": 8
+     },
+     {
+      "key": "ido-hagag",
+      "name": "Ido Hagag",
+      "country": "Israel",
+      "wsl_id": "15391",
+      "rank": 9
+     },
+     {
+      "key": "jaime-veselko",
+      "name": "Jaime Veselko",
+      "country": "Portugal",
+      "wsl_id": "16882",
+      "rank": 10
+     },
+     {
+      "key": "joshua-karbus",
+      "name": "Joshua Karbus",
+      "country": "Ireland",
+      "wsl_id": "18519",
+      "rank": 11
+     },
+     {
+      "key": "kaisei-adachi",
+      "name": "Kaisei Adachi",
+      "country": "Japan",
+      "wsl_id": "14590",
+      "rank": 12
+     },
+     {
+      "key": "levi-epenetos",
+      "name": "Levi Epenetos",
+      "country": "South Africa",
+      "wsl_id": "16399",
+      "rank": 13
+     },
+     {
+      "key": "lucas-cassity",
+      "name": "Lucas Cassity",
+      "country": "Mexico",
+      "wsl_id": "18811",
+      "rank": 14
+     },
+     {
+      "key": "lukas-skinner",
+      "name": "Lukas Skinner",
+      "country": "United Kingdom",
+      "wsl_id": "13999",
+      "rank": 15
+     },
+     {
+      "key": "luke-tema",
+      "name": "Luke Tema",
+      "country": "Hawaii",
+      "wsl_id": "12921",
+      "rank": 16
+     },
+     {
+      "key": "ocean-lancaster",
+      "name": "Ocean Lancaster",
+      "country": "Australia",
+      "wsl_id": "18070",
+      "rank": 17
+     },
+     {
+      "key": "rafael-barbosa",
+      "name": "Rafael Barbosa",
+      "country": "Brazil",
+      "wsl_id": "19701",
+      "rank": 18
+     },
+     {
+      "key": "ryan-kainalo",
+      "name": "Ryan Kainalo",
+      "country": "Brazil",
+      "wsl_id": "12789",
+      "rank": 19
+     },
+     {
+      "key": "rylan-beavers",
+      "name": "Rylan Beavers",
+      "country": "Hawaii",
+      "wsl_id": "14277",
+      "rank": 20
+     },
+     {
+      "key": "simon-winter",
+      "name": "Simon Winter",
+      "country": "South Africa",
+      "wsl_id": "16819",
+      "rank": 21
+     },
+     {
+      "key": "teo-gale-grani",
+      "name": "Teo Gale Grani",
+      "country": "Panama",
+      "wsl_id": "17957",
+      "rank": 22
+     },
+     {
+      "key": "yuma-nagasawa",
+      "name": "Yuma Nagasawa",
+      "country": "Japan",
+      "wsl_id": "16507",
+      "rank": 23
+     }
+    ],
+    "women": [
+     {
+      "key": "alana-lopez",
+      "name": "Alana Lopez",
+      "country": "United States",
+      "wsl_id": "17378",
+      "rank": 1
+     },
+     {
+      "key": "anastasia-venter",
+      "name": "Anastasia Venter",
+      "country": "South Africa",
+      "wsl_id": "14695",
+      "rank": 2
+     },
+     {
+      "key": "annette-gonzalez-etxabarri",
+      "name": "Annette Gonzalez Etxabarri",
+      "country": "Basque Country",
+      "wsl_id": "15615",
+      "rank": 3
+     },
+     {
+      "key": "bella-kenworthy",
+      "name": "Bella Kenworthy",
+      "country": "United States",
+      "wsl_id": "12652",
+      "rank": 4
+     },
+     {
+      "key": "catalina-zariquiey",
+      "name": "Catalina Zariquiey",
+      "country": "Peru",
+      "wsl_id": "14150",
+      "rank": 5
+     },
+     {
+      "key": "charli-hately",
+      "name": "Charli Hately",
+      "country": "Australia",
+      "wsl_id": "16832",
+      "rank": 6
+     },
+     {
+      "key": "eden-walla",
+      "name": "Eden Walla",
+      "country": "United States",
+      "wsl_id": "16875",
+      "rank": 7
+     },
+     {
+      "key": "hinata-shimizu",
+      "name": "Hinata Shimizu",
+      "country": "Japan",
+      "wsl_id": "16551",
+      "rank": 8
+     },
+     {
+      "key": "isla-huppatz",
+      "name": "Isla Huppatz",
+      "country": "Australia",
+      "wsl_id": "17904",
+      "rank": 9
+     },
+     {
+      "key": "laura-raupp",
+      "name": "Laura Raupp",
+      "country": "Brazil",
+      "wsl_id": "15050",
+      "rank": 10
+     },
+     {
+      "key": "louise-lepront",
+      "name": "Louise Lepront",
+      "country": "South Africa",
+      "wsl_id": "16313",
+      "rank": 11
+     },
+     {
+      "key": "lucy-darragh",
+      "name": "Lucy Darragh",
+      "country": "Australia",
+      "wsl_id": "16897",
+      "rank": 12
+     },
+     {
+      "key": "milla-coco-brown",
+      "name": "Milla Coco Brown",
+      "country": "Australia",
+      "wsl_id": "16841",
+      "rank": 13
+     },
+     {
+      "key": "mirai-ikeda",
+      "name": "Mirai Ikeda",
+      "country": "Japan",
+      "wsl_id": "15838",
+      "rank": 14
+     },
+     {
+      "key": "reid-van-wagoner",
+      "name": "Reid Van Wagoner",
+      "country": "United States",
+      "wsl_id": "17559",
+      "rank": 15
+     },
+     {
+      "key": "sierra-kerr",
+      "name": "Sierra Kerr",
+      "country": "Australia",
+      "wsl_id": "15916",
+      "rank": 16
+     },
+     {
+      "key": "sol-borelli",
+      "name": "Sol Borelli",
+      "country": "Spain",
+      "wsl_id": "19165",
+      "rank": 17
+     },
+     {
+      "key": "talia-swindal",
+      "name": "Talia Swindal",
+      "country": "United States",
+      "wsl_id": "16093",
+      "rank": 18
+     },
+     {
+      "key": "tiara-van-der-huls",
+      "name": "Tiara Van Der Huls",
+      "country": "Netherlands",
+      "wsl_id": "17560",
+      "rank": 19
+     },
+     {
+      "key": "vaihitimahana-inso",
+      "name": "Vaihitimahana Inso",
+      "country": "Hawaii",
+      "wsl_id": "14330",
+      "rank": 20
+     },
+     {
+      "key": "victoria-munoz-larreta",
+      "name": "Victoria Muñoz Larreta",
+      "country": "Argentina",
+      "wsl_id": "16955",
+      "rank": 21
+     },
+     {
+      "key": "willow-hardy",
+      "name": "Willow Hardy",
+      "country": "Australia",
+      "wsl_id": "15203",
+      "rank": 22
+     },
+     {
+      "key": "zoie-zietz",
+      "name": "Zoie Zietz",
+      "country": "Netherlands",
+      "wsl_id": "18772",
+      "rank": 23
+     }
+    ]
+   },
+   "roster_source": "WSL event page (official heat draw)",
+   "roster_note": "Every surfer in the official WSL heat draw. Seeded surfers who enter in later rounds are included.",
    "conflicts": [],
    "results": null,
    "wsl_url": "https://www.worldsurfleague.com/events/2026/jun/524/surf-city-el-salvador-world-junior-championships",
-   "draftable": false
+   "draftable": true
   },
   {
    "id": "wsl-lt-bells-2026",
