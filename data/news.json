@@ -1,18 +1,52 @@
 {
-"updated_at": "2026-11-24T01:56:52+00:00",
+"updated_at": "2026-11-24T03:35:15+00:00",
 "sources": {
 "Surfer": 44,
 "ISA": 5,
 "Stab": 14,
 "Surfline": 3,
-"The Inertia": 45,
+"The Inertia": 44,
 "BeachGrit": 16,
 "Tracks": 2,
-"World Surf League": 46,
+"World Surf League": 50,
 "Surfertoday": 3,
-"In the news": 11
+"In the news": 16
 },
 "items": [
+{
+"title": "Authentic Brands Group Acquires O’Neill Surf and Lifestyle Brand to Expand Action Sports Portfolio",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUpiRDFLeVlwOWo5QmFKaUE1WEVwSGlDU3RlNUl1RnIzVnF5dnVtYTl0aWRiUTV4aDlBQW5ESThydVdPamMxUzh3RUExWlBKckZYXzlsTFhZWWlsN3Vpcjhmb3J2cm9tM3hpSllIU25YTFhwUHlKSXVPX1V1ZThEVGR4dlFFbFFsYk9QTjRWU2piTzRWZ3FoR0NmRU1lbzM2T1U2YWF1NlBBdw?oc=5",
+"source": "WWD",
+"at": "2026-11-24T02:48+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Results for Alyssa Spencer at Lexus Pipe Masters Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcjlna2Q0OVd5VEZzWkl4RHhMZDFOY05BdVBlQ19LZ1o1UDdXUjZFUHFVcFhsdzlfR3NFZm82WEdvYTFvQThFbkVnY2N4VW42anFnZTFLcmVIbWk4ZXZ3QklvczFlZzlremppV24yc3RPLTdhNHE5WUp4MS1hOGJTb2Z1ZzJmMXJxWUpROThhaw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-24T02:19+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"alyssa-spencer"
+],
+"kind": "outlet"
+},
+{
+"title": "Results for Yolanda Hopkins at Lexus Pipe Masters Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEdSTTNZbE9jZk8tdHYySzNGNkRpTGJLUmQzcllRYVZENk1QdkNZYUJ4eWJ1b1pjZWUwSklKb3FrOGdiTDlVOWtRdHpaeWczSjZ5QV9hdDE1OEh6YXpxNXh1YjVLYWNSc2ZMMV9rY3VINWt0VFE2Q2JIRUJFYzUyMEZvMzQzZWhyVnVFRUl4N2w?oc=5",
+"source": "World Surf League",
+"at": "2026-11-24T01:33+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"yolanda-hopkins"
+],
+"kind": "outlet"
+},
 {
 "title": "Cal Poly student survives shark attack while surfing off California’s Central Coast",
 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95NXl1YlJVekJyektxOTJOLUhwd2NXcDVRUGdYblhFVGxhOEN1NjRzWnJLbFU5Ul9SQlBrSlMtd3VqbzRjblJXR19oaXQ2MlF6aldOQ3FhN2FyWXZ0NU1vRVV3SWhETUlnNEIwRTc2MkV6TF9PUU9qZUJHd2c4SkXSAX9BVV95cUxOa05tM3dxSDY0ZzJJX0gtNjY5QnJPTzZBX1NmZDIzSFAzMkUyZ3c5V1FzY19QTlptYjNRaTIwSEVpUzFaNXRBT21DdWFpSnIxWURvR0duUExhNWFPQ3RPVTdfTXhKODJ1c0E3VFJ3eU9JUlROVUhXWkF3ZDN4SUFZ?oc=5",
@@ -22,6 +56,18 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Results for Ramzi Boukhiam at Lexus Pipe Masters 2026",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOG10M3g2QmIxTVpsWEM0VUdXa0ROWFBRcG1iYjVra0lta0lJTlhMSUotRHBvTzRnWGZFTEpfb0Voa2RqM3c4WUhUVGQ1MFNKS1licEZxSEFHdEpfamFtTWNMNU1RdTI4SVdsWjFNUkhveTFqT1dGbGstTF9rdjV5NVU3NWJXX0llcjlld0xlSQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-24T00:38+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"ramzi-boukhiam"
+],
+"kind": "outlet"
 },
 {
 "title": "Results for Italo Ferreira at Lexus Pipe Masters 2026",
@@ -124,6 +170,16 @@
 "kind": "outlet"
 },
 {
+"title": "Terrifying images show surfboard mutilated by 20-foot great white shark that sent man, 21, flying ‘2ft out of the water’",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOS0thbXhDNWFlSlVud01vakpYYU1nTWVkeDRoakNpNjNSSl9GaWVFVUVKZ01sbTF1dkJ1ZjUzV0RPWVZUNjV3ZGFXOU9CN01kb3VtV29MbTBMalQxVmw4V0Vya1Q5V3l6a2N2aWJrbWZmV3dXZ2E2TTZMbko5QXk1TEV2Y016dVUtdlhiY2tR?oc=5",
+"source": "The Sun",
+"at": "2026-11-23T22:11+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Results for Liam O'Brien at Lexus Pipe Masters 2026",
 "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcG5Id3pnUUIxbVV3MTZUNEp6QUpFMU1kMTFGTGdZQU1xZkoyY01nS3FueGNRYUZxRDdEQlJITXJWUUc5LWJDZkxQcDlieEJISS16QUZNLWVPampuM0hhUC1HZTNFUzg5SUgwX0Q4dVQ0WUZFaEFxbVBqRDdlanJUakdpV2g3X3pVbnVN?oc=5",
 "source": "World Surf League",
@@ -201,18 +257,6 @@
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTcwNzQ2/s9s26_day2_action_tylerturner_brunozanin_010a3693_web.jpg?profile=rss&x=48&y=40",
 "desc": "After a skydiving crash left him a double amputee, Tyler Turner clawed through addiction and depression to chase joy again in waves, snow, and the sky.",
 "surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Results for Carissa Moore at Lexus Pipe Masters Women's 2026",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjl6OVI0QnZkVVhLRkhlTGk4VW1kcDY2cTQ2VXRxNXFxakY4bVdRSVRpR1VXTWFUdG9Yb1RxVVNrMDE3eGx5SEN2T2w2ZldKTVUtelQzN2RGRjVQTkxXS3N2VXlrdHhqZ1lkQ3VSVlVwM3BxOHJWemd0R0FnR0lFU2E5YnRWM21XRl9B?oc=5",
-"source": "World Surf League",
-"at": "2026-11-23T20:34+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"carissa-moore"
-],
 "kind": "outlet"
 },
 {
@@ -326,16 +370,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Authentic Brands Group Acquires O’Neill Surf and Lifestyle Brand to Expand Action Sports Portfolio",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUpiRDFLeVlwOWo5QmFKaUE1WEVwSGlDU3RlNUl1RnIzVnF5dnVtYTl0aWRiUTV4aDlBQW5ESThydVdPamMxUzh3RUExWlBKckZYXzlsTFhZWWlsN3Vpcjhmb3J2cm9tM3hpSllIU25YTFhwUHlKSXVPX1V1ZThEVGR4dlFFbFFsYk9QTjRWU2piTzRWZ3FoR0NmRU1lbzM2T1U2YWF1NlBBdw?oc=5",
-"source": "WWD",
-"at": "2026-11-23T17:05+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Confessions Of A Reluctant Longboarder: Risky Use",
@@ -518,6 +552,16 @@
 "kind": "media"
 },
 {
+"title": "Guardians of the surf: The jet ski heroes of Nazaré",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHA2VDNQQU96UDlhcjlnWmxDMWtYeEdEaWxSVllneG4xdEd2X25tSG9McDh0UWtGSzV6b2pocVJndjJxVFRvSUhrQjU0UlRVdGRFWFdOVTN3OF9QTlJzZ0hSVzJiYURLbndkVG1yTWxhUkVIRW8zMFJrcFRhWTQwUWppaXR4Z01JNTdkWVlibjRsQ2RIZFBoc2FnNVR4b0hGeXVpcmZoOW8?oc=5",
+"source": "The Portugal News",
+"at": "2026-11-22T16:41+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "The XXL El Niño Swells That Rewrote Surfing History (Including the Day Earth Itself Shifted)",
 "link": "https://www.surfer.com/news/el-nino-biggest-waves-swells-surf-history",
 "source": "Surfer",
@@ -606,19 +650,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "Jarvis Earle and Sophie McCulloch Win The 2026 Taiwan Open of Surfing International QS 6000",
-"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2FIUi0xRldveGdXRXVIT3F0dFFjQzFxSU5sWXM1LTRWLU5wWU1vSnJ5TVhGWnhjdXJ6eHpydFNlX1pLN2pqZkZaaHZ1WFJIelhMWmIxOUJNTzNrZTVmUjRxRHV6S2V3bE1ESGpHZXVZaEd2Z2ZlTWJ0Zkk1NW5LLVNLaUZPN1lsWENreHRXeHZzUXdFcGREZzdDOXNnWVpvTEJFbWVOLXdvaUhlSllSaHkxU2FLeFVWTTZqTmZoSkhGVnJVa3pyaG5Gb25RU1ZNRmc?oc=5",
-"source": "World Surf League",
-"at": "2026-11-22T05:54+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"jarvis-earle",
-"sophie-mcculloch"
-],
-"kind": "outlet"
 },
 {
 "title": "20-Foot Great White Attacks California Surfer and Obliterates Board While He Escapes ‘Without a Scratch’ (Photos)",
@@ -711,6 +742,16 @@
 "kind": "media"
 },
 {
+"title": "Coupe espoir de surf - Deux jeunes « Reefers » surfent sur les vagues martiniquaises",
+"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMGIwT0NucDBqMnd0blh4cUN6Y0NhU25WT3MtTGpfeHJ4SWRfZS0yMVM5ekJ4MnRwbTZmSkFBZTFnbWh6bW9vZ05yLW9iYWlIVU5jR2tXS1NXRHVfbG83YUFxM1VFVTVMN25xMzgxYUR5SmlMa2h4MXJ5N3ZQQlI3Z3lGa29ITTV6RF9mcG1zeFN4aU4yR21PNFRMekxZaHphNDVINVRtX09LUDZ5NGtxRDN4bFB3eVNIVGc0aU5meXZUanBraDJJRmFhNi1yRzBtb2lfRXZ6dkNEVXRGOW5vend0THY0ZG8?oc=5",
+"source": "Le Journal de Saint-Barth",
+"at": "2026-11-21T17:43+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
 "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUTBKT1djR2psNHhWYUU1MC1rUXBoMnNsRU9NMkppNFBVV3NoaGZ2VUNZYzVMd3dWdE1vRlc4QlZMUDVfd0ZGWUpOb29ucE1VZnNHR0hhLW1GUVpDZkJMMk5LeGxVRmFyZ0RzMmpqZEhKZ0s2WTZZNC1RbmNQXzZCcnA4cVVzWUNlMFRsYm5RVUlqMnhveE9YVmdqMUhfR1hMM0YxblhCR0E0aDlvWl8wNHBZdVQ5bXp0czVLcmpCVDkyM19UTVBNWnhkYlNoUW92RVlTcmNZelRqUGtaOWtWZ2NscFA4dw?oc=5",
 "source": "World Surf League",
@@ -775,6 +816,36 @@
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGRTTF9IQmo4c1gxWVlocjRlOUgwZXZfTU1VYjhhWWlrNC11cXQ1QWl0Z2x5UTF1a0hjWFA0WmVZZ2hVdDY4Nk9kV3JoQ296SEQxc1pSbTFfXzRqZ2oyM3pzMlV2WHBjZ3lEUEQ3dGdtVWM5NlZuSkp4Wl9QdG40dEFSTDBzOUNMSzc0MVNQSXU?oc=5",
 "source": "World Surf League",
 "at": "2026-11-21T12:53+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Why the world’s top surfers are heading to Nazaré",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMFdncVc0WU5OMk9Oc1BxUFBjZndNMEJkUWR4clJKMEdEa3hHek9JaXdkSG1qTWpzSWhpTXJacnYzZWN6LTBGdG90Z2xxbEQ3cWJ2YjVuUlpMSEJZMmRqdE1PSkU4Mlh2MUFQamFtdkptTWJKUWZ4SWFGa2RLREF1Qk9CampMclNhTVd5RzF0SkRYVVR0Qk9wbU5NdEJoM3QwaW9oNm1aUQ?oc=5",
+"source": "The Portugal News",
+"at": "2026-11-21T10:16+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "FBC to Broadcast Fiji Surf Pro Live from Cloudbreak",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNHlzWVp6OE9YMGtac2NWUmF0WWtXbEhvcnhWeGZqMVh2ODFoaG52VXlTTlE1M3NrOXFRVE92WVh4dHFYdTJKcEFhNWpoTFMwZ1MtX2xodnlIMVZTSnJtMmlrRWpiVzh6ejNtQzRuNl8tdEJPMFVUMDBtd01XcmUwV1k5V2wyNF9VelhTWDljMA?oc=5",
+"source": "FBC News",
+"at": "2026-11-21T09:13+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "Stage Set for Finals Day at The 2026 Taiwan Open of Surfing International QS 6000",
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR0ZsWUltcTROOW93X1BDZjVHakpQODg4Ym55TExYdzhfWXNLSWVhbTJ4VXdnNF9Ocm9kXzhMUzhvV2I2T2dyNFZ3WS11aE4tVWRrTDRnNWpWZUdSVEpXMUxxdnkxSzdNbzFUTWJIOGxyd0h6NE9qVkpHWDgwTkJ5SHRvYUVCY2o1OHBPZ0ZlYUJHdzRRbVE0ZC1pZ0M5SkZWT2xqWEpIN2piYXg3YVdfWEVHVjNqUUE5b0FyVW13aGJveG8z?oc=5",
+"source": "World Surf League",
+"at": "2026-11-21T09:10+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1143,6 +1214,16 @@
 "kind": "outlet"
 },
 {
+"title": "Leo Andrade Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PVHBpbl9pWm5yaVBObzdkSGlDdW9zblJGVVdpbmdKV05ScWhFRjllNVFpdTJ1cVJKX0dqd0dTWUQyT0JCQXdpMTNpZDZMbGxEZi1IZ3RpemNkN1NTZzdqQjZmUUJyZGFmV1E?oc=5",
+"source": "World Surf League",
+"at": "2026-11-20T10:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Romeo Cortallessa Surfer Bio | Age, Height, Videos & Results",
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zY1gyLWtUX0tjNUJhb0F5MWZRMUprTVQ5V3JaUjdORTFFTTZNeHkyZnZvVWV0TzhBeGhzZjJWNlAyaUFtQUVET0JMdTM2RmRHczNORnlUdlFlMmNzYndaZVFZU2RKUEhaTU55cUJpM2kwZw?oc=5",
 "source": "World Surf League",
@@ -1169,88 +1250,6 @@
 "at": "2026-11-20T05:32+00:00",
 "img": null,
 "desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Serial big-wave wipeout Jamie Mitchell flags concussion risk for surfers after latest near-death spill",
-"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM3ZLcGlVTE5lNm80TzZSSzBKa1o0QVhmUmI3clhFcnMyNF85aXBIQ0RCWTZyS1J1bDY1cHNaTnZQWFY5TUlJQXVUOFpUVkNvZ3ZJMVVtTHREUXd1UnJxSUljaE9HTjhmeTYtYUI4bmp5OWlNeHNTaWhyUEMwVm9KcFluZW1odFUtblBOc1ZmZHdtSzFLLVdRWG91LVo3OHc2c1NwWGphb2owSWZQY18zNGRyd2o1R2dSeUk1YUpObjlqaFJZMVlYNnpxbEZDZw?oc=5",
-"source": "BeachGrit",
-"at": "2026-11-20T04:17+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"jamie-mitchell"
-],
-"kind": "outlet"
-},
-{
-"title": "2026 Event Guide - Bioglan Bells Beach Longboard Classic presented by Bonsoy",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYThzRFZIUVU3d0wwdFBibC1TYTlnV3ZMRldTZ2k3R1VwcHI3YmFFMEtVRVhVQURWa3FySGNRd0p3dmtoQWZDY3pfVVVSXzItNGxfbC1kcDVIWDNqZTU5OHpHY3phWEszQWliRm1DZVo5bFJWVHNWcFAtM0U5Tko0OXBpTDBwLUtteUFqMGZtMV9fZ2c4amxmcXpxaGdWUlZSV1NfN0pRQkw4OTFBei0wSll2TG1BUWY1OXg4?oc=5",
-"source": "World Surf League",
-"at": "2026-11-20T03:52+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "DSRT Surf Welcomes the World as the 2026 ISA World Para Surfing Championship Opens in Palm Desert",
-"link": "https://isasurf.org/dsrt-surf-welcomes-the-world-as-the-2026-isa-world-para-surfing-championship-opens-in-palm-desert/",
-"source": "ISA",
-"at": "2026-11-20T03:21+00:00",
-"img": null,
-"desc": "First ISA World Championship Held in a Surf Lagoon The post DSRT Surf Welcomes the World as the 2026 ISA World Para Surfing Championship Opens in Palm Desert appeared first on International Surfing Association .",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Shaun Manners Behooves You To Fix Your Own Dings",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdUp4M2g2eGpIU0RzODhERFQtdGRnLUNpZFFBbGtqSUIyMlJlYU5UUGxhY3ZCd0JUckNvaFVVMWhXa2FOanRVdi1OZjJYdTFNMjNRMTB2WUo1V29kY3B0ZGxpNkRxb1dORW1XSG1XVEc5a0M5Q1hJUlFlRjFYM0F3VlpDQVRDLVk?oc=5",
-"source": "Stab",
-"at": "2026-11-20T01:33+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Pipeline World Titles On The Line: Every Medina, Dora, Moore and Picklum Scenario Explained",
-"link": "https://www.surfer.com/news/pipeline-2026-world-title-scenarios",
-"source": "Surfer",
-"at": "2026-11-20T01:09+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDM1/lexus-pipe-pro-presented-by-yeti.jpg?profile=rss&x=47&y=59",
-"desc": "Six men and seven women can still claim the 2026 World Titles at Pipeline. Here’s how every possible Lexus Pipe Masters scenario shakes out.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Iconic Molokai 2 Oahu Open-Ocean Race Shutting Down Over Lawsuit",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTnpUMERSdXRmaDNyYnh5ZFpzbTI0eGdKX2RUZ0stR1J1Wlh3Q25uT3liRm1RVFRuUGZlNUdOTkVXQ2FEV0RlenlOeVNCazdBckZWbGdpZGZIeGMwYm96U0Fkb0ptc2hOOFNtQ2hKYVF2bFEzaXFEdklza19MZFU0VjFZenhGbUlzSjZZdTE2MDJqRVdZdXQ1dDdqRDFBZw?oc=5",
-"source": "The Inertia",
-"at": "2026-11-19T23:03+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "The Other Side of the Swell: A Message From Surfline's CEO",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzN1a0YzX3BydGN4SHFtTl8tRFRXS2xmRVlrbnRHejFxeHNlUXNrbmJKTlJTLVFMREhpNjdaWS1KYkdQWVNoSF8xNU94UmNzd3p0MmZXemVkUTFyTUxSOTdhSmxQc09zRDJvLVBrOGVCcXJzLXU0QzFHQzlBYjc2U2k2OHRUWFNjSFE0TEtDNTZ6RWp2OWxXcG05X1RabEE1UWRxYU5aVTRwVmg2N1lzOEpFQQ?oc=5",
-"source": "Surfline",
-"at": "2026-11-19T22:50+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Defying the Trends: How the Floripa Film Fest is Fighting to Save Surf Culture",
-"link": "https://www.surfer.com/culture/floripa-brazil-surf-film-fest-2026",
-"source": "Surfer",
-"at": "2026-11-19T22:11+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDEw/floripasurffestival_dia3_foto_davicastrophotos-14.jpg?profile=rss",
-"desc": "As major brands pivot toward influencers, the festival is fighting back by bringing the global community to Brazil to celebrate surf cinema.",
 "surfers": [],
 "kind": "outlet"
 }
