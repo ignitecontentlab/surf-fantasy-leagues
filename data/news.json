@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-24T10:04:13+00:00",
+"updated_at": "2026-11-24T11:33:51+00:00",
 "sources": {
-"Surfer": 43,
+"Surfer": 44,
 "ISA": 5,
-"Stab": 17,
-"Surfline": 3,
-"The Inertia": 45,
+"Stab": 18,
+"Surfline": 5,
+"The Inertia": 44,
 "BeachGrit": 16,
-"Tracks": 1,
-"World Surf League": 44,
-"Surfertoday": 3,
-"In the news": 18
+"Tracks": 2,
+"World Surf League": 54,
+"Surfertoday": 2,
+"In the news": 15
 },
 "items": [
+{
+"title": "El Niño Unwrapped: Four Truths and Two Myths Every Surfer Should Know",
+"link": "https://www.surfer.com/news/el-nino-myths-truths-surfers",
+"source": "Surfer",
+"at": "2026-11-24T11:13+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMDgy/tornado-and-lightning.jpg?profile=rss",
+"desc": "As a powerful El Niño ramps up, we break down where it really sends giant surf, what it does not control and how long its fingerprints linger in the ocean.",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Watch: One Week Of Twin-Fin Evangelism In The Basque Country",
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMmM2ZWxHY1BmYU1IN0U1T3luTlVjS3VhX3NXYWMxblBzTVBoSkdXdWNXRnVTZGt6Q1A5cVNYb2ZjMnludUhKaW1sU0tzQ3lGMURUUzNCVjR1Um82M3FrQmczSVNaOGhfSlRnVDhvbkRRdDNRLXVaMEwzcDdtQ0NJbmFLc210MkJEb3UwVjJMU19JUUhLNkE?oc=5",
@@ -38,6 +48,16 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT1E1WWZpbGtwclpQaW82S2o4S3NTU2YtbFcta245Y0RuWnZLeFJDcmdPdkZseGh0N1ZMR2pCSVp6OVpCSVluR2JQR3RCRFFYVE11eXZMd1Jwdk1wNmYwTG1pQ3IwT21RM2VYYUJUaEp6Ulh0QzV4OS1Pc2JZN3AwZVU2WjNtWGZZZlNkdzY0NkprLXJ2Ml9lNzVobDBSLUNJdUxfTkdvMA?oc=5",
 "source": "BeachGrit",
 "at": "2026-11-24T09:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "PSA: Don’t Win The Pipe Trials",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBybVNlRkpncG5fRXJBcnFlaUVCMmxFSGI4aVdvZVRNWnNTRVN5ajFSaTNpZ295ZGp3bVdmNmVzWTA0VUxLaTVaR1dtOTE0VFZ0TmtDTnBpZlNvUUNKYXNKak80eXI?oc=5",
+"source": "Stab",
+"at": "2026-11-24T05:42+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -74,10 +94,30 @@
 "kind": "media"
 },
 {
+"title": "First Blood: Mavericks Opens the El Niño Winter",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JZjhCbWItbmJZV0tjUm0yWWxGaWVXcDJkc1BVQ0dzNVdmWkNMMUl0ZW0ya1Z4S0h2WnZsTW1KRTBVZDIzS0VMU3NOaHkyVFFoclB2eDJLY2psQTNiWml1U01qMjJZbHhIaVlOQ1dGWVhXUnNNTkpBRmxUcw?oc=5",
+"source": "Tracks",
+"at": "2026-11-24T04:57+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Hawaii’s OG Big-Wave Spot Has A New Contest With A Ridiculous Invite List",
 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUxqTV9ubXJnUm9IeFFaMlliS3hHa1lKMXM2ekZpQ0VXdTVCNHRfa1hpdGFVaktXQW5tWEpTNDZKdkRudG4zTEh1UVdnQzdzUEhHZzByVWc1SUJKcUFNQ29VNC0zMlZwUnRRRjNsTmZqMGYxZFZ5NHB0Qmo2cEhDZXUtWTlPRjdlX3FZN3dHZ0NSWmpaMGY3OVB0amlMZjQ?oc=5",
 "source": "Stab",
 "at": "2026-11-24T04:41+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Lexus Pipe Masters - Trials Specialty Event 2026",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNejBQeko5NnNqeHI3WnpjZ2dDVTVHaUZGRXJ0RDdkTG5pSnhsQUZWX1ZDNEtsRkN2ZllaR3I2VklnbzJteGFlc1Fpd3dBM2l4T2lWd0ZDNkYtS0oySUhjZFRfWnB1M2h3dEN6X1NVWkNlWVNNSEV1eXVYWm12Zm5nQjB5R2tWdw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-24T03:33+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -162,6 +202,18 @@
 "kind": "outlet"
 },
 {
+"title": "Results for Italo Ferreira at Lexus Pipe Masters 2026",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRVltMklQbWZuamJxcVlveUVFbHg1LVk4ZThQdTRhMHRGb0MweUR3QmFScW9yX3VWMVZEWVhMeWVYSmxqejFodE5HbGdSWGZuWDZvZnlJaEJsRl9UcWxmNHVicnlVMHdqeFRIWEpsbE5DZWQ3cjAyamNCWE5SVjRWRmFPQS1JUDc5SjQ2WmYyUQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-24T00:37+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"italo-ferreira"
+],
+"kind": "outlet"
+},
+{
 "title": "Beaver Supermoons, King Tides, Flooding XL Swell to Unleash Thanksgiving Coastal Chaos",
 "link": "https://www.surfer.com/news/beaver-supermoon-king-tides-flooding-big-swell-unleash-thanksgiving-chaos",
 "source": "Surfer",
@@ -169,6 +221,30 @@
 "img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMzM4/november-supermoon-beaver-moon.jpg?profile=rss",
 "desc": "El Niño's serving up a heavy helping of atmospheric and oceanic punishment this holiday.",
 "surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Results for Vahine Fierro at Lexus Pipe Masters Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZHRXdGVla21qbkVmY0MtMm9lRDRZV2ZZLWxuNXJtZ1pZNDRjUHNWOVl2NlpwVER5U1V5aG5lX1pqclFWQ0NSYlFHZFZfN0RzOVFTVUhXU3pNU015REhJMUZjWG83RXBzS2tIN0tJeVlNZFhwZFZ4UFBVNzZXMG1nQ2VXS1Q3SkhBSXZaSGxR?oc=5",
+"source": "World Surf League",
+"at": "2026-11-23T23:31+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"vahine-fierro"
+],
+"kind": "outlet"
+},
+{
+"title": "Results for Barron Mamiya at Lexus Pipe Masters 2026",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSHFtLXBUb18xMmZ6Nzh3R2h4NU9iWTl6TDh5Tk5qMDNmcnpxMldBMW9oOXgwYW9GeFVLSk1PN25STTh1b0kxbmdUUENNTTZVSmJIS05FLVc5cWktSEpMaTBmNDhEWndFRmZXZDFVZFF1bGozNnhKczNxUDZKblMxSGRHeG4zSWNQRl9pWnV3?oc=5",
+"source": "World Surf League",
+"at": "2026-11-23T23:30+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"barron-mamiya"
+],
 "kind": "outlet"
 },
 {
@@ -226,6 +302,16 @@
 "kind": "outlet"
 },
 {
+"title": "Swimmer missing after being pulled under by wave at San Francisco’s Ocean Beach",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSWEtTHJpQnZDYUhqR2JBb29hM0w4MTBEWDcxY0JBM290dktqVXBpdEI5OTUtVEl5YVpmNUZhMTJOZW9MTDFRMjlpdFhSVE5aV1AwdTc2WGcxM0dFZGVBVkU2QnhBUXpuYTAwRFBaZG5iMlp5eTZ0Wnh2VHlrRGRGdzJWekdsZw?oc=5",
+"source": "San Francisco Chronicle",
+"at": "2026-11-23T22:42+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "WSL Grants John John Florence a Spot in the Pipe Masters Trials",
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTzc3SEFKUmVmQmg5R241a20yZGllWkVFblBhZ2NrUHljcUNLeHcxMWFfMGRwcFA2X2swQm1QeEtfdGlZZzMzMG5La0dkUmFVVk41WEtEYXFhdXE4eE1KaTJnR3dweHRfZjJUcXF3b3N4QUNkUC1OR2l1ei1MXzNXV2JxZTZWaGg2NGpVaS1NejU?oc=5",
 "source": "The Inertia",
@@ -248,6 +334,18 @@
 "kind": "outlet"
 },
 {
+"title": "Results for Liam O'Brien at Lexus Pipe Masters 2026",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcG5Id3pnUUIxbVV3MTZUNEp6QUpFMU1kMTFGTGdZQU1xZkoyY01nS3FueGNRYUZxRDdEQlJITXJWUUc5LWJDZkxQcDlieEJISS16QUZNLWVPampuM0hhUC1HZTNFUzg5SUgwX0Q4dVQ0WUZFaEFxbVBqRDdlanJUakdpV2g3X3pVbnVN?oc=5",
+"source": "World Surf League",
+"at": "2026-11-23T21:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"liam-obrien"
+],
+"kind": "outlet"
+},
+{
 "title": "Results for Joao Chianca at Lexus Pipe Masters 2026",
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQV9jWkI5eTdnNmVBX0ZWZ0ZLbnVIb3o3S0ZDYXY4Ti1oS1FaMkdWRktOUjNBUzRxU2VFeHU1Z2hRa1RIMFBLV1RHdlowd2tWT3c4T1NWdzdkR1cwb2szVTJ4NWFUSF9QVld4UUZtZWR2UkVKLWNHNzM1dEFUcnloalJFc2R4UVpIZXg4Rw?oc=5",
 "source": "World Surf League",
@@ -256,6 +354,18 @@
 "desc": "",
 "surfers": [
 "joao-chianca"
+],
+"kind": "outlet"
+},
+{
+"title": "Results for Erin Brooks at Lexus Pipe Masters Women's 2026",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZ2VYeGFsejBsM2h2YmMzRmxCdmtvWDliSDhud0FhQlVxTEUxak1aYUtTekNqeWRzRkhZQjRCWC10SzQ4Y3FiZmpSQkdKQTgzblZraFVyTHk1M0EyMC1KZ3BYQjh2MmFKLVo1b2lQdVFQSWdjUm83bkkxMzA5MGhXSmRfdlV6ZncyM1pUVg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-23T21:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"erin-brooks"
 ],
 "kind": "outlet"
 },
@@ -279,6 +389,16 @@
 "surfers": [
 "eli-hanneman"
 ],
+"kind": "outlet"
+},
+{
+"title": "East Coast Gives Thanks for More Surf Over Thanksgiving Week",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONHU5cWI4SUpjRU9RcURKRmNVVTQwTGdrZXJiQ0YxS3h6alVsNWNQT3N6NWVDTUhFWTVxbDRIai12RW0wc2hCZkZ2d0V3bnhVLVVxWEpSVFdwdzJvemw2QTFSblcxdG93blVBaTFGSTV5SkxkRXFjWGltdFBVT21ZYmFSNU4ySUp1cGFlVk1VVEhCbkduYzZnbktGemZkTHZhMG1qcEVNZzkxVXpoeHUtVnpPWm5feGgwUlE?oc=5",
+"source": "Surfline",
+"at": "2026-11-23T21:07+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
 "kind": "outlet"
 },
 {
@@ -626,14 +746,14 @@
 "kind": "media"
 },
 {
-"title": "Guardians of the surf: The jet ski heroes of Nazaré",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHA2VDNQQU96UDlhcjlnWmxDMWtYeEdEaWxSVllneG4xdEd2X25tSG9McDh0UWtGSzV6b2pocVJndjJxVFRvSUhrQjU0UlRVdGRFWFdOVTN3OF9QTlJzZ0hSVzJiYURLbndkVG1yTWxhUkVIRW8zMFJrcFRhWTQwUWppaXR4Z01JNTdkWVlibjRsQ2RIZFBoc2FnNVR4b0hGeXVpcmZoOW8?oc=5",
-"source": "The Portugal News",
-"at": "2026-11-22T16:41+00:00",
+"title": "UPDATE: Thanksgiving Week on Track to Pump",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmVlem1ESHlpOWpNSTJPUWtKNS1QNFBqQnE2RmFUdTlfd3dmUlBBWVZFMVlnaDZYRThRQXd4NC1mOFZRTG5GSnpNeV9lQUJ4d0cwT1RrNGxFOVFBX3hBYTM4NGtmdXZaOEdoUmNpVUVFNGdZeWpnVjVXalFsSHNhQjJaOTNDMWZ4V0VNYkJuOXJZRnVVREFRRk9iU3pUU2JpeHVMTXUxZHFYaEtmVmZSWWEwVlo1QQ?oc=5",
+"source": "Surfline",
+"at": "2026-11-22T18:09+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "media"
+"kind": "outlet"
 },
 {
 "title": "The XXL El Niño Swells That Rewrote Surfing History (Including the Day Earth Itself Shifted)",
@@ -656,6 +776,16 @@
 "kind": "outlet"
 },
 {
+"title": "Inside Pro Surfing: MEO Rip Curl Pro Portugal presented by Corona Cero 2026",
+"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbVZ0ck96Q1pleVEtZFhMblRjZWNMRVpHaFpoakF4a2RabG1USnBjeDVmMzhJLWh0Zy1ydkN0UzlyUURaRjVpalFKLVhwbHU0WG1nN1ZZUW9YXzVQcFF6ZlBMMHRMNTVwT3FPTWhTUzg1T0hZWHBfaXpOWjJZbUJXb3RVa3U4dTZjSDllbURnWl9oUEl1a2wxNnlyMU5iS2V0RDFWUENVaXU0THByTUhsc1Z2YmtZMTNoMThj?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T14:33+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "312-Foot Spray Detonates Off Oregon as 30-Foot Waves Pummel the Coast (Video)",
 "link": "https://www.surfer.com/news/king-tides-oregon-big-wave-video",
 "source": "Surfer",
@@ -674,6 +804,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Tianyu Huang Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NOFZZWmFOLUZWOHZfdC1rWWNJN1RmTlluRmljRE1Oc1BkZGp1QlV4LUJHZFp5MTZmWGZwOGp2dkFjUEE4aW1mYUlHQURyaUJUX2JRLVhGQzNWZ29wV2lqMjBiQkhjWThOemNn?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T12:26+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Fifteen-to-20-foot Great White Hits Californian Surfer Jack Canigiula, \"Welp, Pretty Rattled.\"",
@@ -799,6 +939,16 @@
 "kind": "outlet"
 },
 {
+"title": "Lennox-Ballina surfers charge into national boardriders final after impressive regional win",
+"link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWDMtamdyUFZSSmlwN0JHcEp5ZWxwS2pqcTUyeGNRMl9kTTFvVzJ2R2NUUURWSEc4RTUxcE1uaWpxWVc4WTJkRFVieXV3bFRaNUJVU0hIYUp3VklSYko1b01OVHJJNVlwQkNseGhQYlRJdnU2MHVJVlRsbUQ1eDd1OGctdndhRkoteGtxMWN4dTM4VWVSay1hYjYxaEpaLWpqbWltaE5fdkVwa1FzelpwRktjN0VUZUQzeWhvMW5GbU4xNzlpRTdGd3RObllacGNoYzRFRG1aWF8?oc=5",
+"source": "Times News Group",
+"at": "2026-11-21T21:35+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "- World Surf League",
 "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzSzFQT3JvdlZoaUFhUi15NWtOMlJuVzI0ZWNQZ0ptOFNkRTFTN3ZWeGJBRFpyMFphbk5NMjYtTEs2bjROZzY3Rm1jaHFtWlNWV2hVUUNsZzhKTFBX?oc=5",
 "source": "World Surf League",
@@ -849,14 +999,14 @@
 "kind": "media"
 },
 {
-"title": "Coupe espoir de surf - Deux jeunes « Reefers » surfent sur les vagues martiniquaises",
-"link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMGIwT0NucDBqMnd0blh4cUN6Y0NhU25WT3MtTGpfeHJ4SWRfZS0yMVM5ekJ4MnRwbTZmSkFBZTFnbWh6bW9vZ05yLW9iYWlIVU5jR2tXS1NXRHVfbG83YUFxM1VFVTVMN25xMzgxYUR5SmlMa2h4MXJ5N3ZQQlI3Z3lGa29ITTV6RF9mcG1zeFN4aU4yR21PNFRMekxZaHphNDVINVRtX09LUDZ5NGtxRDN4bFB3eVNIVGc0aU5meXZUanBraDJJRmFhNi1yRzBtb2lfRXZ6dkNEVXRGOW5vend0THY0ZG8?oc=5",
-"source": "Le Journal de Saint-Barth",
-"at": "2026-11-21T17:43+00:00",
+"title": "Hawaii Winter Outlook",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaHV2U3dRa0lPemtFYkM3Vl9DRG04bjJtOXNnbXRxTHYwN1hOVndNR1B6dEhtM040MXFXSnNhLVZkQ3hmbHBNZDhvLUM1LTIwV2VkQXpLQjQ2S0gtZEdGcl9QUGZsMWIzclBaNWJHVFNqRE9YZV9NdTVxdnYtQmZLdkMtQVFHMm9yZkFJTkNIbk81MXZONDlrZzRTVGNZSzg?oc=5",
+"source": "Surfline",
+"at": "2026-11-21T17:49+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "media"
+"kind": "outlet"
 },
 {
 "title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
@@ -923,26 +1073,6 @@
 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGRTTF9IQmo4c1gxWVlocjRlOUgwZXZfTU1VYjhhWWlrNC11cXQ1QWl0Z2x5UTF1a0hjWFA0WmVZZ2hVdDY4Nk9kV3JoQ296SEQxc1pSbTFfXzRqZ2oyM3pzMlV2WHBjZ3lEUEQ3dGdtVWM5NlZuSkp4Wl9QdG40dEFSTDBzOUNMSzc0MVNQSXU?oc=5",
 "source": "World Surf League",
 "at": "2026-11-21T12:53+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 8",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZDVSVWxTR0tmdkFKUFFTVFVwY2JnQXlDdVlOdFVsR3ZpX2tlN29JUjFQR293YmtlVXBfRW9ibnBLdkh2WUZBX3lYMVB4cUZNOWtaaWg2MkthdXVsOHY2dUZsejBRanN3eGRfR2Y2X3M0ZEptbGNjRWllajFfcUNuZGQ0VWg3RzBHZWdOYWcxU1VVTHU2azZXNTU0N21XQQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-21T12:49+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Why the world’s top surfers are heading to Nazaré",
-"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMFdncVc0WU5OMk9Oc1BxUFBjZndNMEJkUWR4clJKMEdEa3hHek9JaXdkSG1qTWpzSWhpTXJacnYzZWN6LTBGdG90Z2xxbEQ3cWJ2YjVuUlpMSEJZMmRqdE1PSkU4Mlh2MUFQamFtdkptTWJKUWZ4SWFGa2RLREF1Qk9CampMclNhTVd5RzF0SkRYVVR0Qk9wbU5NdEJoM3QwaW9oNm1aUQ?oc=5",
-"source": "The Portugal News",
-"at": "2026-11-21T10:16+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1123,130 +1253,6 @@
 "at": "2026-11-20T21:05+00:00",
 "img": null,
 "desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "…Lost Extends Shaper Rankings Lead After Sportiest Weekend In Recent Memory",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVEhKelZQc2VnQUZtRVhFNmpnR3N6UEU0UlU2MmZqWHIzR2VlYUVma3Q4d0Q3UlRwQnBROWtEdUxnNTB1N2lsY0I1ajM1SlZIckpneXRXMXRDQ3BzOGQwOV9VUk5pX3pzbGxpd2RJTkdpSGNPVlRyMGl6VmtFNHR1X3BLM0xBdWFORThSdG1BUUhibkpSYnYwVkdPTWsxdXdFQ1RfUzhFMXJRWllQSXFodm8xZE5SRjQtTmVHSw?oc=5",
-"source": "Stab",
-"at": "2026-11-20T20:31+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "El Niño Essentials: Big Wave Guns, Step-Ups, and Paddle Power",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcy1td3NZMXNJZGJORHZfazk3NVJWS2pUNFRrX2tjeTBZMlB3bkhnSG1BZ3JLS054bVd3STk0VmVqQ2F3bm5HWU9FeHRhYmlEUnVwb1drUTBDdWtaUWFybHhkVVlWVXh5WGVpVEJrUEYxQlRtSnVHLUhKT3FPeDVjVmdtMmN5eExHT2U0LUNhdUhuOWFsWnc?oc=5",
-"source": "The Inertia",
-"at": "2026-11-20T20:22+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "John John Florence Confirms He Won’t Return To The CT In 2027",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVXdMbC0zNnRJV0RlS1FQbWdnZUtsTlktYzZ3aXVobW5ManI4cks1YXhYQmVEa0JocjN1VkU4Y2dtSlJZV3A3UXFnN1pFSGFXdjF2emRuT0NKZmhNT2VPdEd6aGM0VXRvRjJkeHZ6NXBvbExnZHotQ0EyUnJqN3hWSU9OT2hQZ0xtTmlycmk0eWZsRXVYRnc?oc=5",
-"source": "Stab",
-"at": "2026-11-20T20:08+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"john-john-florence"
-],
-"kind": "outlet"
-},
-{
-"title": "11-Foot Great White Stalks California Fisherman Before Drone Pilot’s Life-Saving Warning (Video)",
-"link": "https://www.surfer.com/news/great-white-shark-hunts-fishermen-california-video",
-"source": "Surfer",
-"at": "2026-11-20T19:53+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTQ5/shark-boat.png?profile=rss&x=58&y=45",
-"desc": "From nearly 2 miles away, drone filmmaker Carlos Gauna spots a juvenile great white closing in on a fisherman swimming beside his boat and decides to intervene.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Watch the Final Episode of the Twin Fin Invitational: The Pukas Factory Takeover",
-"link": "https://www.surfer.com/culture/twin-fin-invitational-episode-4-pukas-surf-factory",
-"source": "Surfer",
-"at": "2026-11-20T19:51+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTQy/marcos_pukas.jpg?profile=rss&x=49&y=15",
-"desc": "For the final episode of the Twin Fin Invitational, the crew gets creative at Europe's premiere surfboard factory.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Surfing Series Articles: Latest Surf Series News, Videos, & Photos at Surfline",
-"link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95NC1YQmFMX1F2MDZDblFIamIzVGdXTWV5Zm9Ib2poSTFxbHdHeHB4U1I3WEYzQng4RXVrUHJucDFFRVB3N0xvd1pFa2UzSFhaQ1FqRWQ3azFYRjZPb2c?oc=5",
-"source": "Surfline",
-"at": "2026-11-20T19:27+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Custom Ski Boots: What’s the Process? And Are They Worth It?",
-"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjRSVHZNQjdrdGVGWUNSeTlGd0VFMGIyTHd0anV6aUdUMjV3b0Y0R3lsenhGaUpiQ0s4WnVkZ01sdUFjUnF3LUZienM3TTh1d2d4ajlJNE0wV2p3UDJpcVNMbVZPTEpPUFVjMDVDOVlScklaa1E4NDJRbjM4SXN6Skk2YTg0S3ZEZzhhTWlGRFhVUGs?oc=5",
-"source": "The Inertia",
-"at": "2026-11-20T19:01+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Kai Lenny Posts Terrifying POV Footage of Getting Caught Inside at Maverick’s",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNnNfemduc1dIdFJ5a2FNcnBWZkl1ellNUXk3cHNkQlFNZTF4bml6X1NQUjFVa1FtZGNwNXlTZk1DWVR1NmdsWWpISmFzWXZ6V3dHWG9GVFZLbHMyWkpuS0FMQkQwa25RTEFmcklfSTNsd3NRUk5ZWTFJYi1qUTEzN2tjazVERkw1bllJNUVpX1JyYnpJYkJyVW1WZEdfRUZ0bnA5UTNiSGZEY09aS0E?oc=5",
-"source": "The Inertia",
-"at": "2026-11-20T18:21+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"kai-lenny"
-],
-"kind": "outlet"
-},
-{
-"title": "Family of Surfer Kurt Van Dyke Was Suspicious of Girlfriend After Shocking Murder",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVjBmZi1SeGZIdmR1dW04S3o3aVZyNjgwc0pxZHBUODFHTDVMRUMxdFdSeF9aWmtxek1jRlRzT2d6aU93bEc4UmhuUFBvUlNHYnlESmJCN3k3VG1xU0xnOGp6VW4yN3R0ZmgxNDFyaTI4MnJYU1NRQ3NMbjRlOU9qdWJpUUdvWHFmNmIzREVuUExpS0k3TE8tX2x4S29OMlk?oc=5",
-"source": "The Inertia",
-"at": "2026-11-20T15:49+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "‘King of Salsa Brava’ Kurt Van Dyke Murder: Brother Slams ‘Orchestrated’ Robbery After Girlfriend’s Arrest (Video)",
-"link": "https://www.surfer.com/news/kurt-van-dyke-girlfriend-arrest-costa-rica",
-"source": "Surfer",
-"at": "2026-11-20T15:11+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTI1/kurth-van-dyke.png?profile=rss&x=50&y=37",
-"desc": "Months after Kurt Van Dyke was found stabbed and strangled near Puerto Viejo, his brother opens up about the ‘King of Salsa Brava’ and a suspected staged robbery.",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Philippines Pro Recap: Simmers and Medina's Cloud 9 dream & the Road to Pipeline | The Lineup",
-"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQzV5Z0tTSU9VSlg0Mm5HS1FxZG1kUlpvU090S3A3M0ZQWFBidkdlTHFUOGhUN2w4ZTVXajN3S2Q4RDBPeTZxNVQtWGRmQWZQX1ktTGdYYml3a0ZvQTlTejRpVUJmNXFPU3dlOGQ3TWd2UnhKemdSU1FKVlFKTUdwSVNZeW9rYnRpdmI0bk1zeVlTUkJneEdTU2xyNm42R2k5TzZ4dzc4bE5zOGR0THc?oc=5",
-"source": "World Surf League",
-"at": "2026-11-20T14:46+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Atmospheric River Flooding Turns El Porto Into a Bizarre ‘Waterfall’ Surf Scene (Video)",
-"link": "https://www.surfer.com/news/atmospheric-river-manhattan-beach-waterfall-video",
-"source": "Surfer",
-"at": "2026-11-20T14:27+00:00",
-"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTEx/el-porto-flood.png?profile=rss&x=56&y=42",
-"desc": "Stormwater cascades down a staircase and into the Pacific Ocean as powerful El Niño storms inundate Southern California.",
 "surfers": [],
 "kind": "outlet"
 }
