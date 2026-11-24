@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-24T21:11:11+00:00",
- "content_hash": "cb9982ee0fee",
+ "updated_at": "2026-11-24T22:14:17+00:00",
+ "content_hash": "e9773355eca1",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-24T21:11:11+00:00"
+   "news_at": "2026-11-24T22:14:17+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -487,7 +487,7 @@
      "title": "Invitees Announced for 2026/27 Rip Curl Eddie Aikau Big Wave Invitational",
      "date": "2026-10-29",
      "url": "https://www.ripcurl.com/blogs/events/invitees-announced-for-2026-27-rip-curl-eddie-aikau-big-wave-invitational",
-     "age": 25
+     "age": 26
     },
     {
      "title": "Stories from the Eddie: Jack Soren",
@@ -571,7 +571,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-24T17:18:27+00:00"
+   "news_at": "2026-11-24T22:14:17+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -1319,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-24T21:11:11+00:00"
+ "checked_at": "2026-11-24T22:14:17+00:00"
 }
