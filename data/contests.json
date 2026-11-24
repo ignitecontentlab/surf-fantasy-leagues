@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-24T17:19:12+00:00",
+ "updated_at": "2026-11-24T17:59:00+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6342,53 +6342,60 @@
       "rank": 16
      },
      {
+      "key": "manuel-castellanos",
+      "name": "Manuel Castellanos",
+      "country": "El Salvador",
+      "wsl_id": "21754",
+      "rank": 17
+     },
+     {
       "key": "ocean-lancaster",
       "name": "Ocean Lancaster",
       "country": "Australia",
       "wsl_id": "18070",
-      "rank": 17
+      "rank": 18
      },
      {
       "key": "rafael-barbosa",
       "name": "Rafael Barbosa",
       "country": "Brazil",
       "wsl_id": "19701",
-      "rank": 18
+      "rank": 19
      },
      {
       "key": "ryan-kainalo",
       "name": "Ryan Kainalo",
       "country": "Brazil",
       "wsl_id": "12789",
-      "rank": 19
+      "rank": 20
      },
      {
       "key": "rylan-beavers",
       "name": "Rylan Beavers",
       "country": "Hawaii",
       "wsl_id": "14277",
-      "rank": 20
+      "rank": 21
      },
      {
       "key": "simon-winter",
       "name": "Simon Winter",
       "country": "South Africa",
       "wsl_id": "16819",
-      "rank": 21
+      "rank": 22
      },
      {
       "key": "teo-gale-grani",
       "name": "Teo Gale Grani",
       "country": "Panama",
       "wsl_id": "17957",
-      "rank": 22
+      "rank": 23
      },
      {
       "key": "yuma-nagasawa",
       "name": "Yuma Nagasawa",
       "country": "Japan",
       "wsl_id": "16507",
-      "rank": 23
+      "rank": 24
      }
     ],
     "women": [
@@ -6512,46 +6519,53 @@
       "rank": 17
      },
      {
+      "key": "sophia-ramos",
+      "name": "Sophia Ramos",
+      "country": "El Salvador",
+      "wsl_id": "21753",
+      "rank": 18
+     },
+     {
       "key": "talia-swindal",
       "name": "Talia Swindal",
       "country": "United States",
       "wsl_id": "16093",
-      "rank": 18
+      "rank": 19
      },
      {
       "key": "tiara-van-der-huls",
       "name": "Tiara Van Der Huls",
       "country": "Netherlands",
       "wsl_id": "17560",
-      "rank": 19
+      "rank": 20
      },
      {
       "key": "vaihitimahana-inso",
       "name": "Vaihitimahana Inso",
       "country": "Hawaii",
       "wsl_id": "14330",
-      "rank": 20
+      "rank": 21
      },
      {
       "key": "victoria-munoz-larreta",
       "name": "Victoria Muñoz Larreta",
       "country": "Argentina",
       "wsl_id": "16955",
-      "rank": 21
+      "rank": 22
      },
      {
       "key": "willow-hardy",
       "name": "Willow Hardy",
       "country": "Australia",
       "wsl_id": "15203",
-      "rank": 22
+      "rank": 23
      },
      {
       "key": "zoie-zietz",
       "name": "Zoie Zietz",
       "country": "Netherlands",
       "wsl_id": "18772",
-      "rank": 23
+      "rank": 24
      }
     ]
    },
