@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-25T03:05:56+00:00",
- "ok": false,
+ "checked_at": "2026-11-25T04:16:57+00:00",
+ "ok": true,
  "checks": {
   "site": {
    "ok": true,
@@ -20,35 +20,33 @@
   },
   "collector": {
    "ok": true,
-   "detail": "last success 22 min ago, 0 of last 3 failed"
+   "detail": "last success 35 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
-   "detail": "last success 86 min ago"
+   "detail": "last success 59 min ago"
   },
   "media": {
    "ok": true,
-   "detail": "news and videos last refreshed 66 min ago"
+   "detail": "news and videos last refreshed 37 min ago"
   },
   "pages": {
-   "ok": false,
-   "detail": "2 of last 3 deploys failed"
+   "ok": true,
+   "detail": "1 of last 3 deploys failed"
   },
   "event_sources": {
    "ok": true,
    "detail": "all sources answering"
   }
  },
- "open_issues": {
-  "pages": "https://github.com/ignitecontentlab/surf-fantasy-leagues/issues/19"
- },
+ "open_issues": {},
  "fail_counts": {
   "site": 0,
   "data_worker": 0,
   "video_worker": 0,
   "data_files": 0,
   "collector": 0,
-  "pages": 4,
+  "pages": 0,
   "event_sources": 0,
   "events": 0,
   "media": 0
