@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-25T09:33:35+00:00",
- "content_hash": "386b87d7bb6e",
+ "updated_at": "2026-11-25T11:16:04+00:00",
+ "content_hash": "7cbfd88e8047",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-25T09:33:35+00:00"
+   "news_at": "2026-11-25T11:16:04+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -84,7 +84,7 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcUItMF84WDlMSW9fcUJqaGFNdWVPM1FmTUFxY0pWMVU5LTZodFVZTERpbHpoY1N3OF9zZXZOSU5NY283d3NhUjJxOThOWWNWMUFfNnQ1V0VQYy1weTYzYWY1eXFwdmJ4UDFEWGI0RnNoa294MU9FdDlMMjUwTXRnSUg1WERVYUN6T0dQcEE5N3FBZXBndmlpWGVnc1R5dGM4VEt1QXhnSWM2VmtFLVNr?oc=5"
     }
    ],
-   "news_at": "2026-11-25T09:33:35+00:00"
+   "news_at": "2026-11-25T11:16:04+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -123,7 +123,7 @@
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVW9yLWJ3ckJYM3ByQXB2blRibURCYVU5X2FibkRrV0VObnRCdXN1TmNBV1E1dGFhbXJtV3RRZEZ5NUlXdlRBQzk0Y3dkeVFETDZ6b2hERkxDTWUwZVlpVWQwd1VmQkhMQll1dW9TRFQwajJUcmNlVmVGcmVjdFcxZWt4eFVKRzdXZndjbXl3OHRsVnlzUkVvT2t2TDRWcUU?oc=5"
     }
    ],
-   "news_at": "2026-11-25T09:33:35+00:00"
+   "news_at": "2026-11-25T11:16:04+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1313,5 +1313,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-25T09:33:35+00:00"
+ "checked_at": "2026-11-25T11:16:04+00:00"
 }
