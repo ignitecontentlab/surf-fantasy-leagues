@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-24T23:54:33+00:00",
+ "updated_at": "2026-11-25T00:03:28+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6225,7 +6225,7 @@
    "location": "La Bocana, La Libertad, El Salvador",
    "start": "2026-11-25",
    "end": "2026-11-29",
-   "status": "upcoming",
+   "status": "live",
    "official": "https://www.worldsurfleague.com/events/2026/jun/524/surf-city-el-salvador-world-junior-championships/main",
    "roster": {
     "men": [
@@ -6584,7 +6584,7 @@
    "location": "Bells Beach, Victoria, Australia",
    "start": "2026-11-25",
    "end": "2026-11-29",
-   "status": "upcoming",
+   "status": "live",
    "official": "https://www.worldsurfleague.com/events/2026/lt/481/bioglan-bells-beach-longboard-classic/main",
    "roster": null,
    "roster_source": null,

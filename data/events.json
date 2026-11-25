@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-24T23:13:31+00:00",
- "content_hash": "5e54dbe4c1f0",
+ "updated_at": "2026-11-25T00:02:48+00:00",
+ "content_hash": "e5e7be8e1568",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,91 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-24T23:13:31+00:00"
+   "news_at": "2026-11-25T00:02:48+00:00"
+  },
+  {
+   "id": "wsl-wjc-2026",
+   "name": "Surf City El Salvador World Junior Championships",
+   "org": "WSL",
+   "series": "WSL Junior Tour",
+   "start": "2026-11-25",
+   "end": "2026-11-29",
+   "location": "La Bocana, La Libertad, El Salvador",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft opens when WSL posts the heat draw",
+   "official": "https://www.worldsurfleague.com/posts/557631/el-salvador-s-la-bocana-to-host-2026-wsl-world-junior-championships",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "WSL World Junior Championships",
+   "host": "WSL",
+   "partner": "Surf City El Salvador",
+   "status": "live",
+   "headlines": [
+    {
+     "title": "La Bocana's High-Performance Platform Awaits Surf City El Salvador World Junior Championships Opening Day",
+     "date": "2026-11-24",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSldObUtudUlMOVVaUEM3SkVUdzZKWlZaUU5fQ1JPV3FxZlZpbTFwUHlCZ2xCQlM5dDZ3cm9OV0ZjVnhxa0s4MmRvNXJVT0h3SzJUZnNMaXNUSl9lTU00emUxZm5lOTdPOHpPRlY0SGgwZENveXEzN3pjNXNGNy1qSFlKTWZBTWpBTTQ4TklmTHJDZ29zQWxER21LRWtGbFh2WmQ2MHpfOGd6VjlXMkdKWHYxYmpiLVlGWFJFNDg0MzZQd2NYTTgxTkg3cGhDN1N6eHBaUzNkMFpHUGNLZ2N0NHo3Ynk?oc=5"
+    },
+    {
+     "title": "A swell arrives just in time for the start of the Surf City El Salvador WSL World Junior Championships",
+     "date": "2026-11-21",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNkw3c2t1QmdqQ0RDak1QYkN2ckk5dFlhaEwxLXZnYUpBYVBIdFhwbTNMN0txUU9SM01lUmUyemY3Q0lCVWczMHVYNTJaS2lTcWpUeHhrQ19LbzRiUTJ0bDJYS0N2T2FHSGJrcXY3UDF4R2xVeHZiZkFwTVF2M3FPSWl1QnBZU19iRkhVQkVTOHBwd2E0eGNya216TXJ6M0NrSzdidE1MWGtQX0pxRzBZRFVRN0loeVdBb3ZQUTZ3WkZYYVU3RGc?oc=5"
+    },
+    {
+     "title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
+     "date": "2026-11-21",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUTBKT1djR2psNHhWYUU1MC1rUXBoMnNsRU9NMkppNFBVV3NoaGZ2VUNZYzVMd3dWdE1vRlc4QlZMUDVfd0ZGWUpOb29ucE1VZnNHR0hhLW1GUVpDZkJMMk5LeGxVRmFyZ0RzMmpqZEhKZ0s2WTZZNC1RbmNQXzZCcnA4cVVzWUNlMFRsYm5RVUlqMnhveE9YVmdqMUhfR1hMM0YxblhCR0E0aDlvWl8wNHBZdVQ5bXp0czVLcmpCVDkyM19UTVBNWnhkYlNoUW92RVlTcmNZelRqUGtaOWtWZ2NscFA4dw?oc=5"
+    },
+    {
+     "title": "These are the competitors of the Surf City El Salvador WSL World Junior Championships",
+     "date": "2026-11-17",
+     "source": "dukesurf.com",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcUItMF84WDlMSW9fcUJqaGFNdWVPM1FmTUFxY0pWMVU5LTZodFVZTERpbHpoY1N3OF9zZXZOSU5NY283d3NhUjJxOThOWWNWMUFfNnQ1V0VQYy1weTYzYWY1eXFwdmJ4UDFEWGI0RnNoa294MU9FdDlMMjUwTXRnSUg1WERVYUN6T0dQcEE5N3FBZXBndmlpWGVnc1R5dGM4VEt1QXhnSWM2VmtFLVNr?oc=5"
+    }
+   ],
+   "news_at": "2026-11-25T00:02:48+00:00"
+  },
+  {
+   "id": "wsl-lt-bells-2026",
+   "name": "Bioglan Bells Beach Longboard Classic",
+   "org": "WSL",
+   "series": "WSL Longboard Tour",
+   "start": "2026-11-25",
+   "end": "2026-11-29",
+   "location": "Bells Beach, Victoria, Australia",
+   "kind": "contest",
+   "live": "link",
+   "pool": "Draft opens when WSL posts the heat draw",
+   "official": "https://www.worldsurfleague.com/events/2026/lt/481/bioglan-bells-beach-longboard-classic",
+   "watch": "https://www.youtube.com/@wsl/streams",
+   "news": "Bells Beach Longboard Classic",
+   "host": "WSL",
+   "partner": "Bioglan",
+   "status": "live",
+   "headlines": [
+    {
+     "title": "Great Ocean Road hosts longboard classic from 2 December - ad-hoc-news.de",
+     "date": "2026-11-21",
+     "source": "ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWVnSDR1TlIzQkljRjhqY3V5dWhXY2F1cnZYUUVlTzdrUnJzN2xreVBpQVd2TTlNVXk1NDl4dXhMU0RhbWlsV0JHRUotQzZzNW0xbUtvNEg2ek56UnNmQXd1dzZvU1ktU1BVVjJGdXB5TDQ3Skt4dC1YQzNlZDJ6OENEUVdTYXcyczFqMENmQ09qcjA3Zm13X3VFaFZwQzRxOHR1SmUtTmRubFlfdS10S0dB?oc=5"
+    },
+    {
+     "title": "2026 Event Guide - Bioglan Bells Beach Longboard Classic presented by Bonsoy",
+     "date": "2026-11-20",
+     "source": "World Surf League",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYThzRFZIUVU3d0wwdFBibC1TYTlnV3ZMRldTZ2k3R1VwcHI3YmFFMEtVRVhVQURWa3FySGNRd0p3dmtoQWZDY3pfVVVSXzItNGxfbC1kcDVIWDNqZTU5OHpHY3phWEszQWliRm1DZVo5bFJWVHNWcFAtM0U5Tko0OXBpTDBwLUtteUFqMGZtMV9fZ2c4amxmcXpxaGdWUlZSV1NfN0pRQkw4OTFBei0wSll2TG1BUWY1OXg4?oc=5"
+    },
+    {
+     "title": "Longboard heavyweights set sights on Bells",
+     "date": "2026-11-20",
+     "source": "Times News Group",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVW9yLWJ3ckJYM3ByQXB2blRibURCYVU5X2FibkRrV0VObnRCdXN1TmNBV1E1dGFhbXJtV3RRZEZ5NUlXdlRBQzk0Y3dkeVFETDZ6b2hERkxDTWUwZVlpVWQwd1VmQkhMQll1dW9TRFQwajJUcmNlVmVGcmVjdFcxZWt4eFVKRzdXZndjbXl3OHRsVnlzUkVvT2t2TDRWcUU?oc=5"
+    }
+   ],
+   "news_at": "2026-11-25T00:02:48+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -86,90 +170,6 @@
      "date": "2026-11-12",
      "source": "Surfertoday",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LQUZUaDhzaEN2V05UT3FTZWtyd1VEQ2NhVU5QRnp1Q1Z2aHNUcWw5TlozS3hDZ3lfaE5XZF9tUTAtNElKME1UdVBidENwMTNPejI2MTdmajNXcS1SajlaaHQxYWhaUi10dy1hbkdn?oc=5"
-    }
-   ],
-   "news_at": "2026-11-24T21:11:11+00:00"
-  },
-  {
-   "id": "wsl-wjc-2026",
-   "name": "Surf City El Salvador World Junior Championships",
-   "org": "WSL",
-   "series": "WSL Junior Tour",
-   "start": "2026-11-25",
-   "end": "2026-11-29",
-   "location": "La Bocana, La Libertad, El Salvador",
-   "kind": "contest",
-   "live": "link",
-   "pool": "Draft opens when WSL posts the heat draw",
-   "official": "https://www.worldsurfleague.com/posts/557631/el-salvador-s-la-bocana-to-host-2026-wsl-world-junior-championships",
-   "watch": "https://www.youtube.com/@wsl/streams",
-   "news": "WSL World Junior Championships",
-   "host": "WSL",
-   "partner": "Surf City El Salvador",
-   "status": "upcoming",
-   "headlines": [
-    {
-     "title": "The next generation of World Champions is heading for the Surf City El Salvador World Junior Championships",
-     "date": "2026-11-21",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUTBKT1djR2psNHhWYUU1MC1rUXBoMnNsRU9NMkppNFBVV3NoaGZ2VUNZYzVMd3dWdE1vRlc4QlZMUDVfd0ZGWUpOb29ucE1VZnNHR0hhLW1GUVpDZkJMMk5LeGxVRmFyZ0RzMmpqZEhKZ0s2WTZZNC1RbmNQXzZCcnA4cVVzWUNlMFRsYm5RVUlqMnhveE9YVmdqMUhfR1hMM0YxblhCR0E0aDlvWl8wNHBZdVQ5bXp0czVLcmpCVDkyM19UTVBNWnhkYlNoUW92RVlTcmNZelRqUGtaOWtWZ2NscFA4dw?oc=5"
-    },
-    {
-     "title": "A swell arrives just in time for the start of the Surf City El Salvador WSL World Junior Championships",
-     "date": "2026-11-21",
-     "source": "dukesurf.com",
-     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNkw3c2t1QmdqQ0RDak1QYkN2ckk5dFlhaEwxLXZnYUpBYVBIdFhwbTNMN0txUU9SM01lUmUyemY3Q0lCVWczMHVYNTJaS2lTcWpUeHhrQ19LbzRiUTJ0bDJYS0N2T2FHSGJrcXY3UDF4R2xVeHZiZkFwTVF2M3FPSWl1QnBZU19iRkhVQkVTOHBwd2E0eGNya216TXJ6M0NrSzdidE1MWGtQX0pxRzBZRFVRN0loeVdBb3ZQUTZ3WkZYYVU3RGc?oc=5"
-    },
-    {
-     "title": "These are the competitors of the Surf City El Salvador WSL World Junior Championships",
-     "date": "2026-11-17",
-     "source": "dukesurf.com",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcUItMF84WDlMSW9fcUJqaGFNdWVPM1FmTUFxY0pWMVU5LTZodFVZTERpbHpoY1N3OF9zZXZOSU5NY283d3NhUjJxOThOWWNWMUFfNnQ1V0VQYy1weTYzYWY1eXFwdmJ4UDFEWGI0RnNoa294MU9FdDlMMjUwTXRnSUg1WERVYUN6T0dQcEE5N3FBZXBndmlpWGVnc1R5dGM4VEt1QXhnSWM2VmtFLVNr?oc=5"
-    },
-    {
-     "title": "Jaime Veselko and Sol Borelli Win Junior Pro Taghazout Bay",
-     "date": "2026-11-14",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFphdGN3WHJsSjJIbWt2SWprbVlMVzIxSElPaHBHMm1GY2p5WlZVeGZ1Y2dFZ2JTbm9fS0hMdjlIdy02RV96cEhmLU5QdWZ1LXoxc1N1NUkwTUFIOWRGQzVFWmxzY0RwcVVObmx2NVRjekk0V0N6eXdKRk55UTNWc1I1VlBTQ2FaVDlDcXhENnJNQWZLcUtSOHlvYWhReXd0dWhGcFVB?oc=5"
-    }
-   ],
-   "news_at": "2026-11-24T21:11:11+00:00"
-  },
-  {
-   "id": "wsl-lt-bells-2026",
-   "name": "Bioglan Bells Beach Longboard Classic",
-   "org": "WSL",
-   "series": "WSL Longboard Tour",
-   "start": "2026-11-25",
-   "end": "2026-11-29",
-   "location": "Bells Beach, Victoria, Australia",
-   "kind": "contest",
-   "live": "link",
-   "pool": "Draft opens when WSL posts the heat draw",
-   "official": "https://www.worldsurfleague.com/events/2026/lt/481/bioglan-bells-beach-longboard-classic",
-   "watch": "https://www.youtube.com/@wsl/streams",
-   "news": "Bells Beach Longboard Classic",
-   "host": "WSL",
-   "partner": "Bioglan",
-   "status": "upcoming",
-   "headlines": [
-    {
-     "title": "Great Ocean Road hosts longboard classic from 2 December - ad-hoc-news.de",
-     "date": "2026-11-21",
-     "source": "ad-hoc-news.de",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWVnSDR1TlIzQkljRjhqY3V5dWhXY2F1cnZYUUVlTzdrUnJzN2xreVBpQVd2TTlNVXk1NDl4dXhMU0RhbWlsV0JHRUotQzZzNW0xbUtvNEg2ek56UnNmQXd1dzZvU1ktU1BVVjJGdXB5TDQ3Skt4dC1YQzNlZDJ6OENEUVdTYXcyczFqMENmQ09qcjA3Zm13X3VFaFZwQzRxOHR1SmUtTmRubFlfdS10S0dB?oc=5"
-    },
-    {
-     "title": "2026 Event Guide - Bioglan Bells Beach Longboard Classic presented by Bonsoy",
-     "date": "2026-11-20",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYThzRFZIUVU3d0wwdFBibC1TYTlnV3ZMRldTZ2k3R1VwcHI3YmFFMEtVRVhVQURWa3FySGNRd0p3dmtoQWZDY3pfVVVSXzItNGxfbC1kcDVIWDNqZTU5OHpHY3phWEszQWliRm1DZVo5bFJWVHNWcFAtM0U5Tko0OXBpTDBwLUtteUFqMGZtMV9fZ2c4amxmcXpxaGdWUlZSV1NfN0pRQkw4OTFBei0wSll2TG1BUWY1OXg4?oc=5"
-    },
-    {
-     "title": "Longboard heavyweights set sights on Bells",
-     "date": "2026-11-20",
-     "source": "Times News Group",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVW9yLWJ3ckJYM3ByQXB2blRibURCYVU5X2FibkRrV0VObnRCdXN1TmNBV1E1dGFhbXJtV3RRZEZ5NUlXdlRBQzk0Y3dkeVFETDZ6b2hERkxDTWUwZVlpVWQwd1VmQkhMQll1dW9TRFQwajJUcmNlVmVGcmVjdFcxZWt4eFVKRzdXZndjbXl3OHRsVnlzUkVvT2t2TDRWcUU?oc=5"
     }
    ],
    "news_at": "2026-11-24T21:11:11+00:00"
@@ -1319,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-24T23:13:31+00:00"
+ "checked_at": "2026-11-25T00:02:48+00:00"
 }

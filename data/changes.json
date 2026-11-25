@@ -1,6 +1,18 @@
 {
  "changes": [
   {
+   "at": "2026-11-25T00:02:48+00:00",
+   "event": "wsl-wjc-2026",
+   "text": "**Surf City El Salvador World Junior Championships**: status changed from `upcoming` to `live`",
+   "important": true
+  },
+  {
+   "at": "2026-11-25T00:02:48+00:00",
+   "event": "wsl-lt-bells-2026",
+   "text": "**Bioglan Bells Beach Longboard Classic**: status changed from `upcoming` to `live`",
+   "important": true
+  },
+  {
    "at": "2026-11-23T01:35:24+00:00",
    "event": "qs-taiwan-2026",
    "text": "**QS 6,000 Taiwan**: status changed from `live` to `finished`",
