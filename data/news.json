@@ -1,16 +1,16 @@
 {
-"updated_at": "2026-11-25T09:50:40+00:00",
+"updated_at": "2026-11-25T10:07:35+00:00",
 "sources": {
 "Surfer": 42,
 "ISA": 5,
 "Stab": 24,
-"Surfline": 8,
+"Surfline": 3,
 "The Inertia": 47,
 "BeachGrit": 15,
-"Tracks": 2,
+"Tracks": 3,
 "World Surf League": 48,
 "Surfertoday": 3,
-"In the news": 24
+"In the news": 18
 },
 "items": [
 {
@@ -124,16 +124,6 @@
 "kind": "media"
 },
 {
-"title": "As the Northern Hemi Tropics Settle, the South Starts Spinning",
-"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeTlibWVuSDY3M1M1Vmc1UkdxanRrM3JMTmZKeVo5Mjd6OHM5Zk1CVy1mNnZQUXdKLXhMN25SY2xzX2F1ODV2dW4yVTh6SXJibWJrM0YtUjRjblUtSmhfMTRYa3BaOWRhT3Z3UzFOQ0o1WFZJMHBySWtIRjhRaUFnY2ktOFNrc0hvRzMtdGd1TXQ2YmJKTktmOUdNOXk3QXBFRERRX0VGX3Z2cDFkQ09RakNYTURvUQ?oc=5",
-"source": "Surfline",
-"at": "2026-11-24T22:25+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Jamie O’Brien Walked Across His Backyard For This",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR05jajR5UkJ0QkR6M044eUtjX0ljVkNuNVlvZWF1QndtczVHcTd4czJvOWkyenZNTVhfbjRIenU5R1R6NFVfSEw4YU1pbWl3N3BfWGtGVjJCblV0UEU4TmVzUjhQOGdybEtWcTNDRGhYOVdSdk05VmpDUlpQU0hIME1PR1J5cW8?oc=5",
 "source": "Stab",
@@ -236,16 +226,6 @@
 "kind": "media"
 },
 {
-"title": "XL Surf, Shifty Conditions Lining up for Hawaii",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUGlMazBWVTk2T2Y2M3lqT0tzREJSY1YzNmJWUWR3clRRZ1B1T1JlS3ZKeElWaEZ4b09ocHZOREUwd2M2YjZJeDZ2eEpDQmJwdGNJbGlvWVVYUGp5WkpRTVZqNDJLWGZhNnRmMy1GRHpqNEhiNWh2VGZCcGNiLWRqbVFqc3lRU0NJNmc1QnhCVmxSNXZJRFFCVEsxVmt3VjU1Nl9KU3Rn?oc=5",
-"source": "Surfline",
-"at": "2026-11-24T20:21+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Kipp Caddy Versus a ‘Mythical’ Super-Shallow Slab",
 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWnJIcG1US29OMHE1amlBNU81NXViLTdoX3VYX1FWUzRTa2JkSU9rZUxWQ0FDdFRYeUN5bkozNnNWV1E0SVYxZzNPRDdhX210M2IxN09rSXBWbGhnNTNRSjhFWHY1NUowRmR6bkk4eHZyOFhWY1kyOEQxRDVfM29tQUJmTW5uNTA?oc=5",
 "source": "The Inertia",
@@ -292,16 +272,6 @@
 "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSldObUtudUlMOVVaUEM3SkVUdzZKWlZaUU5fQ1JPV3FxZlZpbTFwUHlCZ2xCQlM5dDZ3cm9OV0ZjVnhxa0s4MmRvNXJVT0h3SzJUZnNMaXNUSl9lTU00emUxZm5lOTdPOHpPRlY0SGgwZENveXEzN3pjNXNGNy1qSFlKTWZBTWpBTTQ4TklmTHJDZ29zQWxER21LRWtGbFh2WmQ2MHpfOGd6VjlXMkdKWHYxYmpiLVlGWFJFNDg0MzZQd2NYTTgxTkg3cGhDN1N6eHBaUzNkMFpHUGNLZ2N0NHo3Ynk?oc=5",
 "source": "World Surf League",
 "at": "2026-11-24T18:36+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Pleasant Surprises",
-"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaDVHYVk4OHZNLTVpT3E1eUdILTk4czU3Umw5aGJzVlFiTUVEbE0zaTJpT2pXQ2lkX3dEWlVJaTh6NnBOU3ZqRTVhXzdIaUVkM3QydnhKUU9VZTduSjdVaFVyTDRMSVBGYWNMWEZoeHNpaTdvTkgzczdoNk02REZ4V2FB?oc=5",
-"source": "Surfline",
-"at": "2026-11-24T18:35+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -810,16 +780,6 @@
 "kind": "outlet"
 },
 {
-"title": "East Coast Gives Thanks for More Surf Over Thanksgiving Week",
-"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONHU5cWI4SUpjRU9RcURKRmNVVTQwTGdrZXJiQ0YxS3h6alVsNWNQT3N6NWVDTUhFWTVxbDRIai12RW0wc2hCZkZ2d0V3bnhVLVVxWEpSVFdwdzJvemw2QTFSblcxdG93blVBaTFGSTV5SkxkRXFjWGltdFBVT21ZYmFSNU4ySUp1cGFlVk1VVEhCbkduYzZnbktGemZkTHZhMG1qcEVNZzkxVXpoeHUtVnpPWm5feGgwUlE?oc=5",
-"source": "Surfline",
-"at": "2026-11-23T21:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Results for Caitlin Simmers at Lexus Pipe Masters Women's 2026",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdkhmeG0yUmI0ekRhSmJzV3FVd202eVZSMFpZVWhwOEZTVGw4bmZjTkIwQUR3ak50bFcycW9HZmdhSllxbEFBTVBiT1ppTDhKa0QxSlNhTnpHWUNBbm1pTzdIQ0xRYWJLdVRqa1N4amRyMkRLdjZSVENybWtkMndzWGdjUnh2cV92aWtwRnAyMDU3Zw?oc=5",
 "source": "World Surf League",
@@ -964,16 +924,6 @@
 "kind": "outlet"
 },
 {
-"title": "South Carolina coast: The storm is gone. The waves are not.",
-"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMDRBWVNMVEhuOWIySnRvNU5tc3hIdkxqaGg1M2F3cXFUZEdsM3dmVFNka2hiYzFnQjE3OUljcXpEaTIxOEVIMzJkeG9KZkRNR1loakRoaW4yU1FUODhMcDdVU2xqTmFueVE2VFFHTC14NDYzTFd6YzgtQUphdFRxRXlqQWxPdHdXTWNaUERXNzl6SUQ0cnZRbjZB?oc=5",
-"source": "FOX Carolina News",
-"at": "2026-11-23T17:08+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Confessions Of A Reluctant Longboarder: Risky Use",
 "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOWJ3NVhHS3dXa2hIckxKV3RsTkNOeS1ZZVVmZ3pwZG9zZVpqQlZwbHdMVlpiTDFzclFkQjRfWXBNWlU0cS1IY0xpR3VKRnlDNWFyblc4aXA3ZzR2M05LbVNxWmJHTmFFMlUwTXFoR1FlRk5yQjR6a1cxd0VjalhZbGlmbHpidw?oc=5",
 "source": "BeachGrit",
@@ -992,6 +942,16 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Tracks_Black_Friday_26_MREC",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WN0VsT2I1djFobGRLT0luQ1lnUUpWS3IwaGlneEgxSEJEOW9feVhPMV9BNzBrZkhCRWpFTXhlSVlKV1ZPR3Y2UHNPa1JzemtYTjlVbndaYmpOclM5RHFNZWFmekNNMTNSNk5XQnJLdkJiRXBXd0E?oc=5",
+"source": "Tracks",
+"at": "2026-11-23T15:17+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 },
 {
 "title": "Keegan Palmer Archives",
@@ -1018,16 +978,6 @@
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSF9NME5mYXQwTHJCZm9Lc1pVZlRjVWs0bUw2elJtQlZYMXhLbnlfXzhMUGJpWWNRMTNlcTZaUkdnZmplakxuQjd0eE82bi05U2lMWUdkUlZ3STh1b25DNWw4TnVWQ2tNNXN1Zk9vcHFQcFRsejJPUTBYYXdFUWtxRURfbTJnalJHV2FLZjVJQ29neXpJNk5Jbg?oc=5",
 "source": "Stab",
 "at": "2026-11-23T11:41+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Rob's Florida Forecast Notes: Thanksgiving Surf",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUlViNHBkUXB3SjliQ2ZWcTlkaklEQVdhT1BvdFV6Xzk2LUVpdkt6RHN3Y2dLSDBzUGZ6MVNfZWdMRnBkb3ZLRWxnSjBjUW9LSUhFWmtXVmMzWUVGSkdPOFZtUWNkVS04cHpITmdhWDFpeDRVN29URUw0UnhSZnZ0RlhFMXBjZFZmMkl3WlYzMkI0QWRLV2dHeTFRa0QzeWh6Sl9mbWZR?oc=5",
-"source": "Surfline",
-"at": "2026-11-23T08:00+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1174,16 +1124,6 @@
 "kind": "outlet"
 },
 {
-"title": "Guardians of the surf: The jet ski heroes of Nazaré",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHA2VDNQQU96UDlhcjlnWmxDMWtYeEdEaWxSVllneG4xdEd2X25tSG9McDh0UWtGSzV6b2pocVJndjJxVFRvSUhrQjU0UlRVdGRFWFdOVTN3OF9QTlJzZ0hSVzJiYURLbndkVG1yTWxhUkVIRW8zMFJrcFRhWTQwUWppaXR4Z01JNTdkWVlibjRsQ2RIZFBoc2FnNVR4b0hGeXVpcmZoOW8?oc=5",
-"source": "The Portugal News",
-"at": "2026-11-22T16:41+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "The XXL El Niño Swells That Rewrote Surfing History (Including the Day Earth Itself Shifted)",
 "link": "https://www.surfer.com/news/el-nino-biggest-waves-swells-surf-history",
 "source": "Surfer",
@@ -1242,6 +1182,69 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
+},
+{
+"title": "Repentant Surf Bully Stiffed For $100 By Vulnerable Adult Learner",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX2NMU2l3THBTdWhvamluRHpNS3NCbF92RGZOM05SV2xZaEJwQ3RLT05VOXdlRVZJc2I3S3VXS2NIekRhYzBHRERxLWhsb0luZTR2SkdVbTlQSEtMS1FkR0ZRcjU0WGN1c0c5VmFzOGQ5SU9meC1JNWtZRGFjb1haNmVYU2hOQTNkWFQwOWJ3bUtFem1tdXYxOWRPYw?oc=5",
+"source": "BeachGrit",
+"at": "2026-11-22T09:32+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Taiwan Open of Surfing 2026",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT2t6dGZCUmV2cTlCQWVUanZ3Rldqekhsa1piUXVFNm5VcGtsWEFEdW1UajZFSVpHamgwQ1BJTGFDMmp3NmFna2tORWpUWXpIRGRseXpGbko1NnJ3QV9KV2J6ZUFpVGNLRTlmdkw2b25xUjA0djZBNk1wX3lTeHZXRTVNYVg?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T08:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Para Surfing’s Best Raise the Bar as Finals Day Takes Shape for 2026 ISA World Para Surfing Championship",
+"link": "https://isasurf.org/para-surfings-best-raise-the-bar-as-finals-day-takes-shape-for-2026-isa-world-para-surfing-championship/",
+"source": "ISA",
+"at": "2026-11-22T06:46+00:00",
+"img": null,
+"desc": "Audrey Pascual (ESP) Extends Lead Over Victoria Feige (CAN) as Women’s Kneel Battle Intensifies Felipe \"Kizu\" Lima (BRA) Builds Commanding Lead as Record Seventh World Title Comes Into Focus Martín Martínez Rises Above t",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Jarvis Earle and Sophie McCulloch Win The 2026 Taiwan Open of Surfing International QS 6000",
+"link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2FIUi0xRldveGdXRXVIT3F0dFFjQzFxSU5sWXM1LTRWLU5wWU1vSnJ5TVhGWnhjdXJ6eHpydFNlX1pLN2pqZkZaaHZ1WFJIelhMWmIxOUJNTzNrZTVmUjRxRHV6S2V3bE1ESGpHZXVZaEd2Z2ZlTWJ0Zkk1NW5LLVNLaUZPN1lsWENreHRXeHZzUXdFcGREZzdDOXNnWVpvTEJFbWVOLXdvaUhlSllSaHkxU2FLeFVWTTZqTmZoSkhGVnJVa3pyaG5Gb25RU1ZNRmc?oc=5",
+"source": "World Surf League",
+"at": "2026-11-22T05:54+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"jarvis-earle",
+"sophie-mcculloch"
+],
+"kind": "outlet"
+},
+{
+"title": "20-Foot Great White Attacks California Surfer and Obliterates Board While He Escapes ‘Without a Scratch’ (Photos)",
+"link": "https://www.surfer.com/news/great-white-shark-attack-surfer-santa-barbara",
+"source": "Surfer",
+"at": "2026-11-22T05:02+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMjI4/jack-shark-attack.png?profile=rss&x=44&y=40",
+"desc": "A 15 to 20-foot great white launched from below, shredded Jack Canigiula’s board, and flung him from the water. The photos show the carnage. He walked away.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Pacifico Surf Open Cerritos Top Moments - Day 3",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSUUtYnZsbkdrdEdQSVF0UXE0TEZObmM4ZTNqRVNMRDJHMmZLOW82N1BqZFpFSVZMM24yYmRObTNyaTFyYXJCUDRYSXZ0UXFaXzVhUFpNb0ZQamdRZFYyby05WmpTQzRpTUM5aVUzNFRNSnN5R2VKNTgwTHc2bF9Wbm5VN0xRbDJkOVBsblRVZUR3aUVxVXRSQ0pqVQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-21T22:16+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
 }
 ]
 }
