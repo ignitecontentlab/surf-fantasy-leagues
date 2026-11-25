@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-25T00:32:10+00:00",
+ "checked_at": "2026-11-25T02:01:57+00:00",
  "ok": false,
  "checks": {
   "site": {
@@ -20,15 +20,15 @@
   },
   "collector": {
    "ok": true,
-   "detail": "last success 8 min ago, 0 of last 3 failed"
+   "detail": "last success 15 min ago, 0 of last 3 failed"
   },
   "events": {
    "ok": true,
-   "detail": "last success 29 min ago"
+   "detail": "last success 22 min ago"
   },
   "media": {
    "ok": true,
-   "detail": "news and videos last refreshed 63 min ago"
+   "detail": "news and videos last refreshed 2 min ago"
   },
   "pages": {
    "ok": false,
@@ -48,7 +48,7 @@
   "video_worker": 0,
   "data_files": 0,
   "collector": 0,
-  "pages": 2,
+  "pages": 3,
   "event_sources": 0,
   "events": 0,
   "media": 0
@@ -75,6 +75,6 @@
   "Re-ran the **pages** workflow because the last site deploys failed.",
   "Re-ran the **pages** workflow because the last site deploys failed."
  ],
- "last_action_at": "2026-11-25T00:32:10+00:00",
+ "last_action_at": "2026-11-25T02:01:57+00:00",
  "heartbeat": ""
 }
