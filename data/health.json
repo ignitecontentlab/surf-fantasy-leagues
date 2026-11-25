@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-11-25T19:13:52.929243Z",
+ "run_utc": "2026-11-25T20:05:09.936279Z",
  "sources": {
   "men.php": {
    "status": 200,
@@ -18,5 +18,5 @@
   }
  },
  "warning": "men and women heat counts identical - verify parsing",
- "last_success_utc": "2026-11-25T19:13:52.929243Z"
+ "last_success_utc": "2026-11-25T20:05:09.936279Z"
 }
