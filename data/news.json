@@ -1,18 +1,28 @@
 {
-"updated_at": "2026-11-25T03:39:47+00:00",
+"updated_at": "2026-11-25T05:38:11+00:00",
 "sources": {
 "Surfer": 42,
 "ISA": 5,
 "Stab": 25,
-"Surfline": 3,
+"Surfline": 8,
 "The Inertia": 47,
-"BeachGrit": 16,
-"Tracks": 3,
-"World Surf League": 44,
+"BeachGrit": 15,
+"Tracks": 2,
+"World Surf League": 45,
 "Surfertoday": 3,
-"In the news": 18
+"In the news": 16
 },
 "items": [
+{
+"title": "Santa Barbara County Closes Beaches North of Point Conception Ahead of Big Wednesday Swell That Could See 20-Foot Waves",
+"link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQX3VJLTJJVmVyTjRrQ2pUV2VPclVSWGdUUVdLOW1PZXdibTI0YXY5VmRwdG1KbWVSeDZRM1UxWmxvcDE3YmFOTjBNRDVyZE8xVTBEQ19RbUdqUkVhQngzZ0JXbXpraVZxc0ZqZEc3cU9LYklEaTd2Z1VwMEkyLVcxd0F4MEQ5TXVsNjVCWlJsN3h2X0FBZ2RFWm1XLV9vdkdXNmxnbjlCMEpwVXYwNlBDR0dRWEZWQTZsemstc2dTa3pPTVpQWWEwWWhYMXBTMFNMaDlmZEt5Q3BrTUlicVVSak5JRkVDUURIeV9neGN1Vms?oc=5",
+"source": "The Santa Barbara Independent",
+"at": "2026-11-25T04:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
 {
 "title": "Stab Recommends: The Sanubari Sumba",
 "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iQjNfQ1AycFV1d0h0cWlvU0NneUFLTldzWTdsQ0Jab1IwRThncVVKZ2pnOGQtSmJnd1RsS25uOHAtQ3BiSjg4OWxtU2ZCamFQUXpnaVg1c0x5OGFYNmVhMlRESTJ4YXg3ZW0yblNNTmhNWG8?oc=5",
@@ -22,6 +32,16 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "WA’S RISING SURF STARS SET FOR NATIONAL SHOWDOWN ON HOME SOIL",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbjVzcS1MS1Q2dUJsclBiTFRFRjQ2NUZwaGVPNkxiU2lwei1wSllqZS1hVkF4ZXU0YnkzR0hoMjdZb1ItOER2d3FQR1N4MlpaUHhpbHZyMmUwUjhDcW1BTGc0bzh6bVo2V2doYWN4LU9FUjFhZ3pvN3gtTGVkbGR0Y3NySmx0bXlzZ2R4OG1Kbw?oc=5",
+"source": "Surfing WA",
+"at": "2026-11-25T02:00+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "'Scary' 40-foot waves forecast in SF as king tide peaks Wednesday",
@@ -34,20 +54,20 @@
 "kind": "media"
 },
 {
-"title": "Monterey County beaches to close Wednesday amid high surf, coastal flooding warnings",
-"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQanJMMWZURTU0VG51WWtCZ1RpNE1YMXk4c3YxWm9FQjVrZ1M2LVN5dHhCZXlrZGpIREwzUl9BMW1IUGRuTTcxWlRveHQ2NEljUHBUbUhIZ2x1Q2hwRGFvUmJMZEVVU0dxMVpwQ292RTJuOHlpX2lYc1dGeFRtNlZIYzF3ZVpFamcwOXdTd01WTmh2TF8tZGYzWDRHVURidGEtODhPZmhocjgybHlUQUo1MUNn?oc=5",
-"source": "The King City Rustler",
-"at": "2026-11-25T01:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "This is for the Title. This is for Everything",
 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkl3WDNZTURva2UyeS1KanNFWGFfSTNULUpaUkdYTXNGcWt2Y21SVVlTZDNNbHdTOVZwTjB5X3A4M216SVJsWGpubXNJUE9hSmRFVlFNdzhIdFAwdklrOWZXRHlHYjIxMVg0ZG5iamp4eVYxMWN6QWlSWWxYRWc3TDFwVXdIUGN6Y1BHUnU3cmFPNTBUOXlyYUVsU1ZwZU1WMW82X1B1MDNnR3Nq?oc=5",
 "source": "World Surf League",
 "at": "2026-11-24T23:52+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Is Pascuales The Birthplace Of The Step Off?",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPODlTUWE5YmpfaFlyUUtHNTRpUFloemg0LVV5VWtmTU5QR3VnWUVfTU80OGNVM2YtTkFhQVJicjBQMUl4N1h5eUFkcW9YZzY4UFROSEJOWmY1czl5WG9CbzFBdS1mdGJSZVJYcFU1STd4WmkyOGQ4dVBSUlo0ZnpUbA?oc=5",
+"source": "Stab",
+"at": "2026-11-24T22:47+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -74,24 +94,14 @@
 "kind": "media"
 },
 {
-"title": "Is Pascuales The Birthplace Of The Step Off?",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPODlTUWE5YmpfaFlyUUtHNTRpUFloemg0LVV5VWtmTU5QR3VnWUVfTU80OGNVM2YtTkFhQVJicjBQMUl4N1h5eUFkcW9YZzY4UFROSEJOWmY1czl5WG9CbzFBdS1mdGJSZVJYcFU1STd4WmkyOGQ4dVBSUlo0ZnpUbA?oc=5",
-"source": "Stab",
-"at": "2026-11-24T22:41+00:00",
+"title": "As the Northern Hemi Tropics Settle, the South Starts Spinning",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeTlibWVuSDY3M1M1Vmc1UkdxanRrM3JMTmZKeVo5Mjd6OHM5Zk1CVy1mNnZQUXdKLXhMN25SY2xzX2F1ODV2dW4yVTh6SXJibWJrM0YtUjRjblUtSmhfMTRYa3BaOWRhT3Z3UzFOQ0o1WFZJMHBySWtIRjhRaUFnY2ktOFNrc0hvRzMtdGd1TXQ2YmJKTktmOUdNOXk3QXBFRERRX0VGX3Z2cDFkQ09RakNYTURvUQ?oc=5",
+"source": "Surfline",
+"at": "2026-11-24T22:25+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Santa Barbara County Closes Beaches North of Point Conception Ahead of Big Wednesday Swell That Could See 20-Foot Waves",
-"link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQX3VJLTJJVmVyTjRrQ2pUV2VPclVSWGdUUVdLOW1PZXdibTI0YXY5VmRwdG1KbWVSeDZRM1UxWmxvcDE3YmFOTjBNRDVyZE8xVTBEQ19RbUdqUkVhQngzZ0JXbXpraVZxc0ZqZEc3cU9LYklEaTd2Z1VwMEkyLVcxd0F4MEQ5TXVsNjVCWlJsN3h2X0FBZ2RFWm1XLV9vdkdXNmxnbjlCMEpwVXYwNlBDR0dRWEZWQTZsemstc2dTa3pPTVpQWWEwWWhYMXBTMFNMaDlmZEt5Q3BrTUlicVVSak5JRkVDUURIeV9neGN1Vms?oc=5",
-"source": "The Santa Barbara Independent",
-"at": "2026-11-24T22:39+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Jamie O’Brien Walked Across His Backyard For This",
@@ -118,6 +128,16 @@
 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa1gtZmktZVg0c2d5cWpFR3BGazVFZGpJMzdpUW14R2c4TUt4TGNMYjdyQzF6U0gxZUtpRUc2VVNfcl9CZW8tcnRTengwZVZuMHpIT05fQXNET28xcHZxMDM4SjJhb0RuRFV0a0xmaHdvMEVUek5JMkhmVlp4dWhFRGdUbmtBQXItQmVfYTlWOE1Na2NtbFA1Uzh2dnp5TmhNdDA0X3p3?oc=5",
 "source": "The Inertia",
 "at": "2026-11-24T22:03+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Slater, Occy, Parko, And More Predict The 2026 World Champions",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVW9LUDRoMHRzbU9wMDdoblRkWkU4dzJLYXdYYkg0N3NXaW5Jb20xWV94c0RoSTBoWXFNdGcyV1lpcDhFdmJqWTlRNXRkQTFoQl9CQjRMSU82cC1EMm9aMEV3TW9Lb281MHRpeWZ4ODBPT0VKS3U0UF9HR0NIcnVrdktxNnV4TUNDbEFuLXRR?oc=5",
+"source": "Stab",
+"at": "2026-11-24T21:54+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -176,14 +196,14 @@
 "kind": "outlet"
 },
 {
-"title": "Flooding, Dangerous Surf and Rip Currents to Impact Los Angeles County Coastline During Thanksgiving Week",
-"link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWjVFMjYtd3pxMTF4a3YyQkRvai1qNXZVNWtuakgwS0lDbVZQdG1rNWNIbE5YTjVfalNpUElJeHJPMlBCMlRhdEhnVDl1TEZxSnFwd3owYmFaMFdLNjRycFgxdTZEby1LbTNKeURfTFVFYVdFV1BjSUp4UVRrRVJuN1hjZ3dwdXRPOUpUSmxQeUJWeEh6QUdfYk85VVVBQ1hhTWx6TWMwT0FTejhqZG16N3ZuZVF6SWthYWFOeEVMejRfbTRNR3lGczdHZGliTmdHQ2R3?oc=5",
-"source": "COUNTY OF LOS ANGELES (.gov)",
-"at": "2026-11-24T20:41+00:00",
+"title": "XL Surf, Shifty Conditions Lining up for Hawaii",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUGlMazBWVTk2T2Y2M3lqT0tzREJSY1YzNmJWUWR3clRRZ1B1T1JlS3ZKeElWaEZ4b09ocHZOREUwd2M2YjZJeDZ2eEpDQmJwdGNJbGlvWVVYUGp5WkpRTVZqNDJLWGZhNnRmMy1GRHpqNEhiNWh2VGZCcGNiLWRqbVFqc3lRU0NJNmc1QnhCVmxSNXZJRFFCVEsxVmt3VjU1Nl9KU3Rn?oc=5",
+"source": "Surfline",
+"at": "2026-11-24T20:21+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "media"
+"kind": "outlet"
 },
 {
 "title": "Kipp Caddy Versus a ‘Mythical’ Super-Shallow Slab",
@@ -196,16 +216,6 @@
 "kipp-caddy"
 ],
 "kind": "outlet"
-},
-{
-"title": "Authentic Brands Group Acquires O’Neill Surf and Lifestyle Brand to Expand Action Sports Portfolio",
-"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUpiRDFLeVlwOWo5QmFKaUE1WEVwSGlDU3RlNUl1RnIzVnF5dnVtYTl0aWRiUTV4aDlBQW5ESThydVdPamMxUzh3RUExWlBKckZYXzlsTFhZWWlsN3Vpcjhmb3J2cm9tM3hpSllIU25YTFhwUHlKSXVPX1V1ZThEVGR4dlFFbFFsYk9QTjRWU2piTzRWZ3FoR0NmRU1lbzM2T1U2YWF1NlBBdw?oc=5",
-"source": "WWD",
-"at": "2026-11-24T19:58+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "John Mel Broke His Arm on a Big Maverick’s Wipeout",
@@ -228,20 +238,20 @@
 "kind": "outlet"
 },
 {
-"title": "Photos: High surf, King Tides cause coastal flooding in Orange, San Diego counties",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hZ0w0c1UxWjhQZFVuREJLdFRzRmhEaEZwU3JFQ1JGeHNNa180NlFWYjBqQUZManhSNXZuckZlOWNXWFNmZnhUWFJwTTczMmkwN01IR3NuRF92Rk9OUDhYeUgzeUpzdzI3U0JONXFxdkEyQmtYODM0bllDenfSAYIBQVVfeXFMTnphRXdPNGVzcURrRU5yQS1GYWJpa1JDd2ZtOVlTUnNOVkJQUkNOdnFrY0FQdnFMa1Z2QjdfZ2g1MTVNN1AtVkFjT0VpaDZhaFF1TXR4QUlhNk9ZWWluQk4zU0JTdGI0RHBZdk85TEtrM0w1TGNISlpZSV9QbXB5TGFoUQ?oc=5",
-"source": "FOX 5 San Diego & KUSI News",
-"at": "2026-11-24T18:59+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "La Bocana's High-Performance Platform Awaits Surf City El Salvador World Junior Championships Opening Day",
 "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSldObUtudUlMOVVaUEM3SkVUdzZKWlZaUU5fQ1JPV3FxZlZpbTFwUHlCZ2xCQlM5dDZ3cm9OV0ZjVnhxa0s4MmRvNXJVT0h3SzJUZnNMaXNUSl9lTU00emUxZm5lOTdPOHpPRlY0SGgwZENveXEzN3pjNXNGNy1qSFlKTWZBTWpBTTQ4TklmTHJDZ29zQWxER21LRWtGbFh2WmQ2MHpfOGd6VjlXMkdKWHYxYmpiLVlGWFJFNDg0MzZQd2NYTTgxTkg3cGhDN1N6eHBaUzNkMFpHUGNLZ2N0NHo3Ynk?oc=5",
 "source": "World Surf League",
 "at": "2026-11-24T18:36+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Pleasant Surprises",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaDVHYVk4OHZNLTVpT3E1eUdILTk4czU3Umw5aGJzVlFiTUVEbE0zaTJpT2pXQ2lkX3dEWlVJaTh6NnBOU3ZqRTVhXzdIaUVkM3QydnhKUU9VZTduSjdVaFVyTDRMSVBGYWNMWEZoeHNpaTdvTkgzczdoNk02REZ4V2FB?oc=5",
+"source": "Surfline",
+"at": "2026-11-24T18:35+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -268,16 +278,6 @@
 "kind": "outlet"
 },
 {
-"title": "Ventura County issues evacuation warnings amid king tides, high surf",
-"link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcVluTHFMSmxuazVtMlVmNW9VSDJKS3BUN2FIdEhaanJnSS1IMU1VLUktbG1PbGZTcEZOVjNXSTh3QTNlVm5TM0d6REtKNG5Db0xqTmRkZWRUWjRCS3lfeG5hMDNCYnJuN3R4cXlBRmRHNFlHMGd3LVRBSTNLRU9Kc2VXQmxkakNNWkdURFFldm9mX0F3Rmh6TUd0VFJZeEd0N2llZDdReFM3UXp2c1p3SGNGYWxUWW9wVDlYbXR4c2VZUkhWc1Jv?oc=5",
-"source": "Ventura County Star",
-"at": "2026-11-24T17:55+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Maverick’s Pioneer Jeff Clark on Just How Crazy the Recent Swell Was",
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOXoxRDR0aEN5RlZ1VDRMVUNIbExKakNQU2QxdnA4MkVaZmFmbVI3OERlTXZoalJySWFIQUtaU2s0V0xmREJWbVlLZzI0VDBKMVlzQ2poTFpYVEhpR3dkcEUtUDFOajB2ekQxZkdYbE1ocUltaFBrajNRbW5FYk1XRGdwcV9JaDR5c2ZBdWRuX01NNkl5YmlaM1hRODJmQ1lCS1E?oc=5",
 "source": "The Inertia",
@@ -296,6 +296,16 @@
 "desc": "Satellite measurements confirm extraordinary North Pacific wave energy as forecasters warn of dangerous surf, beach erosion, and record-breaking tides.",
 "surfers": [],
 "kind": "outlet"
+},
+{
+"title": "Massive 40-Foot Swell and King Tides to Wreak Havoc on California Coast This Thanksgiving Week (Video)",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUkxaNjNOamJLWVNuMUVMa1pVcEZQZk9LelpLQzFxU2hrWGF6RU1jcEFnZ2FERTdBYUllSWNHRGRTYmxQQnc4YkFBWHJiZEFmNXlmRDkwVjJrWW5LbHlhOTZmTHFLZzF1djJtbkRicXEtdTN3Qi1nNUZ1T3VUQWVTSVBn?oc=5",
+"source": "SURFER Magazine",
+"at": "2026-11-24T17:17+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
 },
 {
 "title": "Surfer Gets Launched by ’15-20-Foot’ Shark, Back In the Water the Next Morning",
@@ -358,9 +368,19 @@
 "kind": "outlet"
 },
 {
+"title": "Samuel Weber Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54YmJMMzA3NGhXZnN3UW01alB6UTBLOW85SzhkSXhmZldnN201UDdCWGVRU2hBYW1VdE9RaTlxNHJEY1JPajNNWXVmLWpCYXJyeWthb25FLWJBTkxBV0tlR2xuZWFLbHlfOHFR?oc=5",
+"source": "World Surf League",
+"at": "2026-11-24T14:43+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Malaysian surfer Lucas Santiago Wehle eyes double medal bid at next year’s Asian Surfing Championships",
-"link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSWpZNTAxczRpdUVINkNYR3U2SU83bWlWS25tTWJ4V29oTnp3WWVNd2p4b1RxNDFVMUpBN2lYRHIxeTdYbzB6enBnaWJYU3RBeWNtRlExNlVIWXBfTEJfMzJaR1FUZWhkZjZSSFpsd0VtdGpveURqa1RqX01wTlpKZ3FDU00tS1FhcjEyNlhhWDZKRlJUQVItUElkR3hINTZ0a3RkLVQ5Ny1VQ19VZXBZNGJ2bVFKVGRMRHljLXh0OEdXVUVLRVctcWZmQTVVR2w1OFhrNDBkXzYxWTZWWkZXUjNmWUZKQ1U3c1RaZVN30gHzAUFVX3lxTE5HN05yZVZuUEJnRklCWGZaLTRXbjh5UnZxbDU1UHhzLThtUktsMlhYdnVvTmNTSDRtQlBIczBBVWZ4SWgtY2VReEhLSUozWTVGVDc4c2k3WWpDaUQzUklKUk03OEhYc3Rjc1dEa3BZRUdkTFZ3YTF2S3Z3clRpM3J6cVhHaVduX1FJSXBEYS1TcXlPLTNyNHhJUktpYnl2eUowZVpHekl3Wnc1NVV6WkhkQlAtNGh5RXNHSkVsc0NmYjVCR1RJYWktT0FZbUhRbl9ibXNkZGJVdTU4T2t2Xy1mZ21RZEtDYTY3V3dYX05DdTI2MA?oc=5",
-"source": "Malay Mail",
+"link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaklFQmI0b2lFanZnYzkxSm90OEZySkcya1YzeTNEcjlSUzlWRklKVXNjQTJZYjJ0LU1wVDdQLVE3UUhxTnpqUHZDdGd0NHNzZ2JxNlYxaVZDOVozRFl1dTJkNEVKWWNVVGFUdlpIUkduOVhXRXljN3Mxa2x2MzRQRGxtLUs0WnpTTWVSVDk2dFVqVHVsdEdFcGM5RUg4Q0lBWlYtZHdJUDZINW10Q3hwUDJHbHh6dw?oc=5",
+"source": "Newswav",
 "at": "2026-11-24T13:00+00:00",
 "img": null,
 "desc": "",
@@ -386,18 +406,6 @@
 "desc": "As a powerful El Niño ramps up, we break down where it really sends giant surf, what it does not control and how long its fingerprints linger in the ocean.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Surf one day, golf the next: Where Kelly Slater plays in Australia",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xbWZiTk1sdnBkSmZvRVA1QlR3MnBGYzhnVWVkb01ZSEItUHhIdXdQY0g5dlFLX1lzUDhCQXhmNlM3a2M5UE9CclF1UlJrRW4wa0NKZWdfWWR2eFlScnM2SVNNYTA3WmZkLU10MnNGc2g2VFI5V19MbVRIMF82TXc?oc=5",
-"source": "SEN",
-"at": "2026-11-24T09:31+00:00",
-"img": null,
-"desc": "",
-"surfers": [
-"kelly-slater"
-],
-"kind": "media"
 },
 {
 "title": "One Week Of Twin-Fin Evangelism In The Basque Country",
@@ -434,16 +442,6 @@
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV2dZUW9lLWFfcHJBQkRqWXVDd3Z4OGUxV2VEaUdFel9BQXEwdXZ0VjBiTkE0UlBOQUpWS0FQNHVnLTNqZHJNMXo2Z2tzaWZmbTlhTVlnNjVJSUJ0b2YzalVoc1FpeXdyRDNwamhMZFRTd1BJa0R0NDlCakVpMkFBNEdRbVM4WGkxaHh4c3pWdw?oc=5",
 "source": "Surfing WA",
 "at": "2026-11-24T07:44+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Disabled Surfing summer sessions return in December",
-"link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQVy10Q253b285WkdiZGxadkRDUTdWZXlHYU9tYkxTS1ZjVVBkdWZtSG1oR3lIMmNtaTVYNFp4TmpiT0pLMWhVbzVDOXJWNU5SU0kteDFKdXhsLWlnb0d1bklnNXRBMl83NTExSEZKMTJzTE42dU9fdlpLaWdmZ2RoSmxWRjBja0l2TEtNWmZucmtJUm0td3o3cFpqZTBHX29mZUdIblBLVzRzR3ZpWnVtTXBUS0lWeDBCMnFHNGw3LVRrdnM5T2d5c1lVc3JBNDliWWNWYXIzakloUG83djVRdjVtTDF3aHVlbkp5UUpKaXlHMjIyZHlSeVJxckIzWmlEaFE?oc=5",
-"source": "Busselton-Dunsborough Times",
-"at": "2026-11-24T07:21+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -500,26 +498,6 @@
 "kind": "outlet"
 },
 {
-"title": "GRIND celebrates surf culture in Siargao with Quiksilver, Roxy; brings 5 international athletes for meet and greet",
-"link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQYjh0TWxsVm11VGZTMmtmVVljSmdMdkNIUGZnM0ExRDl3MmVwMUNIX2V1ZFlpT1k3cGdZdl9DY1RCRlNLRVZpc3RrNjczM0tTeE1xQmstUUtJa21lUlRWM3VOdzNkLUlQcmxQN0hieVBqdG54VVpjaTJWUTRyR1ZoLWJ4UFRDc2pRb19hZWtST0JhcGFZQjNqc256RGV1RHlZZy1JZzM3eEYtZWRoUDJlLThmRXRnSmRhcEl1OGdodHROclAtNGo5c3RZdmI2SVVlN2tsQzNVaHJvVVR4SkNHLTBmcU83VzBvT091ZkZ2TlNHT1kycm9aYlNlMNIBggJBVV95cUxQM2VHS1hHemIzMTF3TUwxZU1IM0NEajlmckFkSTdzTThaVWR0ZVo1Sk5GZGNVaVdtN245SElKUjdXZHZvSDVka2lDSHZDQUttdVBsNU1WRHVVV3YwRlpWMEpRLW51TVI4TFl6SWU3aHJkYlpRSkZWYVA2RVk0ZllLb3R0TVJaQnlfSk9FeTJuVmxOSnZ1UDlmWU51cHp2NDVGRXZFZkZiQl9QVkJZdkp0d3QxNl9HdmJWVWpQd2Z2SmhMV1I1YjdaZEtFRzJ2NUN3Sk1wRHR2dFc0amI0cl9aNERBcWpHSDNxTWpESTRKTEs0TmhXeVA1QnJpb2o1VDdRN3c?oc=5",
-"source": "Philstar.com",
-"at": "2026-11-24T03:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "High surf warning issued for north-facing shores of Hawaiʻi Island",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ3JIVnBidGdHc1QyWGRDYzQydzZtbG5Ua0VhS2dVaV83NFVVZGlxRVpFSTdiZG9MMWxsVFlPcTRQNXNDbEpiUW93eXpLUnRjY3ZkMC1yOXlxZ1h1eGtpS1lJNkNLV1VYX1JGVzRSejJ2UzZZaDFGc0hVeXpxWWpDOXU5bmxacDNtS1RyVGMzMFNSWFh3NVh2eGxpMmRoSWtwbzlkRTZjU2RlVUZF?oc=5",
-"source": "Big Island Now",
-"at": "2026-11-24T02:54+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Results for Alyssa Spencer at Lexus Pipe Masters Women's 2026",
 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcjlna2Q0OVd5VEZzWkl4RHhMZDFOY05BdVBlQ19LZ1o1UDdXUjZFUHFVcFhsdzlfR3NFZm82WEdvYTFvQThFbkVnY2N4VW42anFnZTFLcmVIbWk4ZXZ3QklvczFlZzlremppV24yc3RPLTdhNHE5WUp4MS1hOGJTb2Z1ZzJmMXJxWUpROThhaw?oc=5",
 "source": "World Surf League",
@@ -574,6 +552,18 @@
 "desc": "",
 "surfers": [
 "ramzi-boukhiam"
+],
+"kind": "outlet"
+},
+{
+"title": "Results for Italo Ferreira at Lexus Pipe Masters 2026",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRVltMklQbWZuamJxcVlveUVFbHg1LVk4ZThQdTRhMHRGb0MweUR3QmFScW9yX3VWMVZEWVhMeWVYSmxqejFodE5HbGdSWGZuWDZvZnlJaEJsRl9UcWxmNHVicnlVMHdqeFRIWEpsbE5DZWQ3cjAyamNCWE5SVjRWRmFPQS1JUDc5SjQ2WmYyUQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-24T00:37+00:00",
+"img": null,
+"desc": "",
+"surfers": [
+"italo-ferreira"
 ],
 "kind": "outlet"
 },
@@ -698,6 +688,16 @@
 "kind": "outlet"
 },
 {
+"title": "East Coast Gives Thanks for More Surf Over Thanksgiving Week",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONHU5cWI4SUpjRU9RcURKRmNVVTQwTGdrZXJiQ0YxS3h6alVsNWNQT3N6NWVDTUhFWTVxbDRIai12RW0wc2hCZkZ2d0V3bnhVLVVxWEpSVFdwdzJvemw2QTFSblcxdG93blVBaTFGSTV5SkxkRXFjWGltdFBVT21ZYmFSNU4ySUp1cGFlVk1VVEhCbkduYzZnbktGemZkTHZhMG1qcEVNZzkxVXpoeHUtVnpPWm5feGgwUlE?oc=5",
+"source": "Surfline",
+"at": "2026-11-23T21:07+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Results for Caitlin Simmers at Lexus Pipe Masters Women's 2026",
 "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdkhmeG0yUmI0ekRhSmJzV3FVd202eVZSMFpZVWhwOEZTVGw4bmZjTkIwQUR3ak50bFcycW9HZmdhSllxbEFBTVBiT1ppTDhKa0QxSlNhTnpHWUNBbm1pTzdIQ0xRYWJLdVRqa1N4amRyMkRLdjZSVENybWtkMndzWGdjUnh2cV92aWtwRnAyMDU3Zw?oc=5",
 "source": "World Surf League",
@@ -718,16 +718,6 @@
 "desc": "After a skydiving crash left him a double amputee, Tyler Turner clawed through addiction and depression to chase joy again in waves, snow, and the sky.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Meet Tyler Turner: The Double-Amputee Surfer Who Refused to Let a Skydiving Accident End His Action Sports Career",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aM3pyMjR5VUxRcWdQMXBRZ0s0bFFEd081ZkNCUFA1UFZLaTdsYldsejlrTzc3aGFCSXpESkp0WVcyMm41OUs0X0x2SmxhNmhkcWNmZ2w4aUlSZmZxNDQzTnlTYlBidw?oc=5",
-"source": "SURFER Magazine",
-"at": "2026-11-23T20:37+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Killer Whales Swarm California Paddleboarder, Then Drop a Sea Lion ‘Gift’ on His Board (Video)",
@@ -852,26 +842,6 @@
 "kind": "outlet"
 },
 {
-"title": "Gnome Surf gets OK — moving from Adamsville to Westport",
-"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVUdQVDJ5VzJkZlBQYk4wOXFkN2ZteWxHNmtzUjNhT2FUZnU0emdsUWRuWkF1clJVTkIxdTQ2d3RUdXZFSzg4clZETE9MQm01X2xoUVNBRjYzV1Z5TWZBbHljTFh2UGNZMXZNMy1ta0JFZXBaSGc4WkRZTEsyT2pMamE1endqNENVaW1ETDFqb1hEbS1QQm1pQ0FR?oc=5",
-"source": "EastBayRI.com",
-"at": "2026-11-23T16:15+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Tracks_Black_Friday_26_MREC",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WN0VsT2I1djFobGRLT0luQ1lnUUpWS3IwaGlneEgxSEJEOW9feVhPMV9BNzBrZkhCRWpFTXhlSVlKV1ZPR3Y2UHNPa1JzemtYTjlVbndaYmpOclM5RHFNZWFmekNNMTNSNk5XQnJLdkJiRXBXd0E?oc=5",
-"source": "Tracks",
-"at": "2026-11-23T15:17+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
 "title": "Keegan Palmer Archives",
 "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZakJGbjZ2d0htWExCQ1pTTTg2Zkh2dUNOQUNLdVM3cWdBWVhBcGhsYlFpdVBPNVZyWXZmNEd3VkppZjM0d215NTlYbkpWQmM?oc=5",
 "source": "Stab",
@@ -896,6 +866,16 @@
 "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSF9NME5mYXQwTHJCZm9Lc1pVZlRjVWs0bUw2elJtQlZYMXhLbnlfXzhMUGJpWWNRMTNlcTZaUkdnZmplakxuQjd0eE82bi05U2lMWUdkUlZ3STh1b25DNWw4TnVWQ2tNNXN1Zk9vcHFQcFRsejJPUTBYYXdFUWtxRURfbTJnalJHV2FLZjVJQ29neXpJNk5Jbg?oc=5",
 "source": "Stab",
 "at": "2026-11-23T11:41+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Rob's Florida Forecast Notes: Thanksgiving Surf",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUlViNHBkUXB3SjliQ2ZWcTlkaklEQVdhT1BvdFV6Xzk2LUVpdkt6RHN3Y2dLSDBzUGZ6MVNfZWdMRnBkb3ZLRWxnSjBjUW9LSUhFWmtXVmMzWUVGSkdPOFZtUWNkVS04cHpITmdhWDFpeDRVN29URUw0UnhSZnZ0RlhFMXBjZFZmMkl3WlYzMkI0QWRLV2dHeTFRa0QzeWh6Sl9mbWZR?oc=5",
+"source": "Surfline",
+"at": "2026-11-23T08:00+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -962,30 +942,10 @@
 "kind": "outlet"
 },
 {
-"title": "Great White Shark Bites Surfboard Off Santa Barbara",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTUFXWjZLUDVxTnRpNGNFZEtGNHhVYjRsT1dveFF1bWhtLTJsYjZCV2xfWlpURnBRNDVDTjZ2R3U2bzFOQ3ZoNV9hM2I4TWI2RmVwTTRwUkktNHM4OVFudmNsa1A1Z1hOU0J2b2xGcENNZ0loREpqNS1ISWcwNkpRYS1hT184SW9IYktFNkg2akdpVUxhUkdR?oc=5",
-"source": "Wisevoter",
-"at": "2026-11-22T23:04+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "California surfer, 21, has chilling encounter with 20ft great white shark: ‘Got smoked’",
 "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWUdfRmdRaWpra19KT2lmS05sUGFzckpwYURNVkZhZjM5MFF0Z2Nqdnc4S2I0OG5IZGltdHFvZmJMUlBRSE5jVVJhaXY3Z1BpZ0NXQk1vSEU3TXh6Y2dYd3R1R28zVzJhMi1jZjJLUC15SHk2NXlLbng2X0JET09QYlBFdWZScy1iNjNjTDlRQ3FweGRwRUMzYUNiUHliWWtoaWhzWTFnUjJhQkdUN0VQakxsM0Z2TXphWGlNMXNFQQ?oc=5",
 "source": "New York Post",
 "at": "2026-11-22T22:31+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "LIVE: The final day of the Pacific Surf Open Cerritos",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVkEzRTVVa0Y4Z0dLLWdieGU3b2pNcDZ4ZU1udWRiSmthMGtNMURyY1JCYVd5UWVXQ1pjd0FwZXZVMkxwdDR1cDJndXNtVTV5c0lkOXdPdUtDeC1lbzQtZi1McjM0OEM0NDZFd3E3azlYQVFxbTUtaTRudDlMeHhUUThKRHBWZXNaZEo4TzRlQjB3ajd3U1Fz?oc=5",
-"source": "dukesurf.com",
-"at": "2026-11-22T22:18+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1032,7 +992,7 @@
 "kind": "outlet"
 },
 {
-"title": "UPDATE: Thanksgiving Week on Track to Pump",
+"title": "UPDATE: Thanksgiving Week on Track to Pump on West Coast",
 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmVlem1ESHlpOWpNSTJPUWtKNS1QNFBqQnE2RmFUdTlfd3dmUlBBWVZFMVlnaDZYRThRQXd4NC1mOFZRTG5GSnpNeV9lQUJ4d0cwT1RrNGxFOVFBX3hBYTM4NGtmdXZaOEdoUmNpVUVFNGdZeWpnVjVXalFsSHNhQjJaOTNDMWZ4V0VNYkJuOXJZRnVVREFRRk9iU3pUU2JpeHVMTXUxZHFYaEtmVmZSWWEwVlo1QQ?oc=5",
 "source": "Surfline",
 "at": "2026-11-22T18:09+00:00",
@@ -1072,6 +1032,16 @@
 "kind": "outlet"
 },
 {
+"title": "Durban North resident shines at longboard surf events",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWNEZ1JDRHpuOGdpODJMWGFtWmUxeXgtQkhWU0tCZXFCUTQ5TXZmX1pQQWVWYmYzeV9WQml6V0Nad0Q3czBYWGU0aVNHMUlXTS11Y3VFN2hMRkhBRVlFTFVUTHZVeU8zMXBmYUR2YnBLMGo4MWltQWtEdVZUMEttYkNYSXducHlUN0VzQkp5RUxKWTNoX0txTExsU1Rvd1p3WEFGaUJlTmdXSFk3RjFxVjZlRmd4YlBtWmwyWUh3ZzdKaEh2TTBHOVFnazZiUQ?oc=5",
+"source": "The Citizen",
+"at": "2026-11-22T13:07+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Fifteen-to-20-foot Great White Hits Californian Surfer Jack Canigiula, \"Welp, Pretty Rattled.\"",
 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkl2TmRRMFlCb2hYU0M2LWdoMTZ3WFZjOEFuczBnNEFKMVgySVB2bWFhMWx5eHd6ZmVMSzdIOFdmTWVGZklLWTdHYTU0UWpxVE9LaG03d1BFYmVibmR3Q2hJTWNSVk9MTEpPaUM4VGplNF9tUGNjaXdWRXc4bjd4N2ZWRFRadDFtbFRmR1BTZXktZXV5RDFLOTNOVkw2cC1xVDZNMkFRcVkyODRwODd2MmZMZVI0aEo2NHR5cQ?oc=5",
 "source": "BeachGrit",
@@ -1100,26 +1070,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Photos from the third day of the Pacific Surf Open Cerritos",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0phU1A1RkhnSktzeUFyWktuUkpnTFJZMmxTeS1fYjlQdDJkZXA0bHRLcEpwR3pGaWR5Z0tNdXpfa2d5M0FtRTN1SHlBdkVHX0ppSllrX0lJbmxmd0o2NjQyV0dabU9sY1JBVU8zLV8xTnpiRXNkaHpkZ1RmRDE5TVVGZXZrN1FGM3FUVFpxc2Y?oc=5",
-"source": "dukesurf.com",
-"at": "2026-11-22T08:35+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Flamingo Doubles WaveMasters Women's Pro Purse to $10,000",
-"link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBxbEtOd3lmYUVYX0t5em4wbVVQQzF4amlteHZCd053bnlTaUl4OW5Odk1jTllHc0xKbnYyMmNYZWJpQ01Eb2VZQzlSYjg?oc=5",
-"source": "Flamingo Magazine",
-"at": "2026-11-22T08:07+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Taiwan Open of Surfing 2026",
@@ -1163,16 +1113,6 @@
 "desc": "A 15 to 20-foot great white launched from below, shredded Jack Canigiula’s board, and flung him from the water. The photos show the carnage. He walked away.",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "USA Surfing Prime West Series brings emerging surfers to Pismo Beach",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0E4M3FQczFXaHVCRjFoZnVMMmM0U3NMUEpoenBOcFhBbVRhaDdmNERWRmRXU3R3R25LZE53OTluRHl6cndHX0kyNi03aEdfWU56ckMwR256ZmQxNEd2ckptY2pvLVJUQUlfcUM5YjdCa1JHd05aWTdiWi1wbUpJMGdRR2tZZFlsbjRBTHpIaUI1SDQwMDE4dHhmQ25wVDlzU0h3?oc=5",
-"source": "KSBY News",
-"at": "2026-11-22T04:44+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Pacifico Surf Open Cerritos Top Moments - Day 3",
@@ -1241,6 +1181,66 @@
 "at": "2026-11-21T17:37+00:00",
 "img": null,
 "desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "554-Foot Cargo Ship Slams Into French Beach as 20-Foot Atlantic Swell Triggers Dramatic Helicopter Rescue (Video)",
+"link": "https://www.surfer.com/news/miro-g-cargo-ship-france-beach-rescue-video",
+"source": "Surfer",
+"at": "2026-11-21T14:37+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMjAz/cargo-ship-france.png?profile=rss&x=53&y=39",
+"desc": "A 554-foot bulk carrier is now stuck in the shorebreak on France’s Atlantic coast as storm surf hammers its hull and crews race to refloat it.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Aussie Surf Fight Explodes After Angry Surfer Spears Brand-New Board (Video)",
+"link": "https://www.surfer.com/news/surf-fight-australia-duranbah-video",
+"source": "Surfer",
+"at": "2026-11-21T14:12+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTkz/surf-fight-duranbah.png?profile=rss&x=53&y=39",
+"desc": "Footage from a popular New South Wales surf break captures a dispute that ends with damaged fiberglass, an apology, and cash.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Super El Niño Swell and King Tides Threaten to Pummel Southern California Coast Over Thanksgiving Week (Video)",
+"link": "https://www.surfer.com/news/king-tide-thanksgiving-california-video",
+"source": "Surfer",
+"at": "2026-11-21T13:27+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTgw/king-tide-thanksgiving.jpg?profile=rss&x=47&y=42",
+"desc": "Exceptionally high king tides, a powerful Super El Niño swell, and already elevated sea levels could combine to flood and erode Southern California beaches.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Highlights: Taiwan Open of Surfing QS Intl 2026 - Day 8",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZDVSVWxTR0tmdkFKUFFTVFVwY2JnQXlDdVlOdFVsR3ZpX2tlN29JUjFQR293YmtlVXBfRW9ibnBLdkh2WUZBX3lYMVB4cUZNOWtaaWg2MkthdXVsOHY2dUZsejBRanN3eGRfR2Y2X3M0ZEptbGNjRWllajFfcUNuZGQ0VWg3RzBHZWdOYWcxU1VVTHU2azZXNTU0N21XQQ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-21T12:49+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Stage Set for Finals Day at The 2026 Taiwan Open of Surfing International QS 6000",
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR0ZsWUltcTROOW93X1BDZjVHakpQODg4Ym55TExYdzhfWXNLSWVhbTJ4VXdnNF9Ocm9kXzhMUzhvV2I2T2dyNFZ3WS11aE4tVWRrTDRnNWpWZUdSVEpXMUxxdnkxSzdNbzFUTWJIOGxyd0h6NE9qVkpHWDgwTkJ5SHRvYUVCY2o1OHBPZ0ZlYUJHdzRRbVE0ZC1pZ0M5SkZWT2xqWEpIN2piYXg3YVdfWEVHVjNqUUE5b0FyVW13aGJveG8z?oc=5",
+"source": "World Surf League",
+"at": "2026-11-21T09:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Historic King Tides Threaten San Francisco with Unprecedented Thanksgiving Flooding",
+"link": "https://www.surfer.com/news/uncharted-territory-san-francisco-braces-for-record-king-tides-and-holiday-flooding",
+"source": "Surfer",
+"at": "2026-11-21T08:08+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMTc0/atmospheric-river-hits-bay-area-as-el-nino-expected-to-pummel-california-with-storms-this-winter.jpg?profile=rss",
+"desc": "Just days after a historic storm overwhelmed the sewer system, the city is racing to prepare for a potentially chaotic Thanksgiving.",
 "surfers": [],
 "kind": "outlet"
 }
