@@ -1,5 +1,5 @@
 {
-"updated_at": "2026-11-26T09:46:25+00:00",
+"updated_at": "2026-11-26T10:06:07+00:00",
 "sources": {
 "Surfer": 39,
 "ISA": 5,
@@ -9,15 +9,15 @@
 "BeachGrit": 15,
 "Tracks": 2,
 "World Surf League": 53,
-"Surfertoday": 4,
-"In the news": 31
+"Surfertoday": 6,
+"In the news": 21
 },
 "items": [
 {
-"title": "Video Shows Surfers on Massive Mavericks Waves as Swell Pounds California",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMjdBd0x1WG1FaGFrRlRjUFN3SUpkdXA0bHFicW5VbUQxRVFiekJoYWk2MTUwT2I1R3FwT1A0T2ZVMl9HRnlpNTVCTXNmQUNlMXNrU3NTTkViaVVDbGFvUXF5YjY5YkFxazRqV080WE5PWlBFVXJaZGNKMUpKQmltZDJoN1BYWThkaE5keUZwRQ?oc=5",
-"source": "Yahoo",
-"at": "2026-11-26T05:25+00:00",
+"title": "All about Santa Catalina by local surfer Víctor Camarena",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWZZMGxWRHpLdmU4TDNRMlctVmxrdnU3M0pNbnh0ellOaWZTYXRzZzh1UWVqdU9qamtrZmdhbVRXTHd1Snh4bmJYSlk5UW9iN2JwQlJFdzFZSlBpSWhjS0NiUU04ZE9wUnNBZTR1eHBmVkYxdkdXVC10emdWYnUwdzZESU9VRzUx?oc=5",
+"source": "dukesurf.com",
+"at": "2026-11-26T08:26+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -78,16 +78,6 @@
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0tqTUIxdDIyd1RySlJIN2NOYnZ3UHF4QTdUUGJTaG5wSURndzNRUldkTVhIVHhPbnAzeXRWR1ByZGxmT0hSWTBwSGhkTzBmN2tNb2RuUkE1OV83YkFOZFU1Si1ldXlISDhuZU5nU2pYV3JkeWlHUnpQc1k4ckZMTWcwZTNCbXpWVnpLV1c2UTR6eFJnVEhGcnJHUGxJdw?oc=5",
 "source": "Big Island Video News",
 "at": "2026-11-26T01:34+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Big Waves Smash Records As King Tides Continue In Laguna Beach",
-"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWmZmc1ZZcDl0Z1NoR2JqOGZtbWZqSGZqWG5HUHBxd2o5M2psUHZ4R2dqdkl2Q0hoRnJpR3NJWE9neFRXTTcyY3Y3ZDVtWHo1cDIwcGlFVGxqUXVKRlFKWlRNaTlGbWw2RXBRTDZwNlg3ZGVfb01CMnVCakp2cXI1M1JXdnREUksxaVRWZkM3U2NSNk0tLTJ5dllZZUpFN3pwRlY2WXpiXzY0T0tfS2lrSUUybnd5VFXSAbcBQVVfeXFMUFpmZnNWWXA5dGdTaEdiajhmbW1makhmalhuR1BwcXdqOTNqbFB2eEdnanZJdkNIaEZyaUdzSVhPZ3hUV003MmN2N2Q1bVh6NXAyMHBpRVRsalF1SkZRSlpUTWk5Rm1sNkVwUUw2cDZYN2RlX29NQjJ1QmpKdnFyNTNSV3Z0RFJLMWlUVmZDN1NjUjZNLS0yeXZZWWVKRTd6cEZWNll6Yl82NE9LX0tpa0lFMm53eVRV?oc=5",
-"source": "Patch",
-"at": "2026-11-26T01:09+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -184,6 +174,16 @@
 "kind": "outlet"
 },
 {
+"title": "Video shows surfers on massive Mavericks waves as swell pounds California",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9HSWxnclVINzU0ZE1LdXdNQXVFa1ZTYWxsaVlCNm9HUmVvY2l3NWVjRW0xN0xYQ1dXQVh5VXZEV2t0Z2NOaDBjWGVZamRHOF84bWJMRTJWT2FLd3RzV3ZGVXVQU1VrZlFnMUpsRXlvX2pDXzctc2xueERvOA?oc=5",
+"source": "SFGATE",
+"at": "2026-11-25T22:10+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
 "title": "Sierra Kerr on CT Qualification and Overcoming a Disease That Could Have Ended Her Career",
 "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeHVzc09kcFZOMlR2N181X0FlemVGeGdOVWpQZy15NW42T0dFNDhZMjNMc2dIUjVwdTVaQUhmdE5lV0dzWHBCWkstSndrWEVfb1RXRjEwdTRZZGJ1QWdSN0gyN0RRMjlCR2lJckVwYUVoQ3J6QjdvbFpHZ2lralhFUHlLdTFTaGcyNVFCV0R4eTBtaHluT1FwVEowaEFITHJQZnZIWm9MQjhFQ1NyXy1QTWl0dHVBYjdaTnJoNUM2UEp5WEhY?oc=5",
 "source": "The Inertia",
@@ -196,10 +196,20 @@
 "kind": "outlet"
 },
 {
-"title": "Memory Game",
-"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zV09pTE1xTmRIeHZTc3Vucm05Y1YxYm1TbUl6UFVYNUpOQjI1ZjlnYUdQYXpiMHd4a3hyQmR0LV9BM0QyVXZub0p1WjBpQ3FzOXNxYnRaT1c3c0IwQjBvTFFpX2syWDFTaDk0UVF3?oc=5",
+"title": "Tower Balance",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ncl9ZTDR5Sk9xejlsUTNrMVlvRy05WXMxalBkN0JKdng1eVpLX1lKa0NpRk0zbFhJMWRwRUplRlBxYVhFSlNtRDRHMnNkZDJlVUdmYkE1azRIRUk?oc=5",
 "source": "Surfertoday",
-"at": "2026-11-25T21:53+00:00",
+"at": "2026-11-25T21:46+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Memory Match",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuUVBvVDRDOGlyYVpCWTZwNktTempMdThpYjZOVktHNUpnbzY5cE5YOE1jTjQ4RlV3dTg4dlFmS1FzV2g2RzdFNTd0TzFWNnFuQTQzdkoyMWpZUQ?oc=5",
+"source": "Surfertoday",
+"at": "2026-11-25T21:40+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -226,14 +236,14 @@
 "kind": "media"
 },
 {
-"title": "Parts of Pacifica pier crumble into the ocean in epic day of high tides, powerful waves",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXFKOF9Vbkw0T0J4Y3o1c1RESnlJbTRodWt0QmI4STRKM1RzNHJqR3lnNkpDOURGakRzWE9iNnlrWjcxd2x2aFhLT0l0bHdXSEZOUnNIaVVuM1Q5Qjh6elBwS2g0TFVSWGszWXNVTXlkeEZ0UUgtSWJHd0RRcGdMS0trd2w?oc=5",
-"source": "Los Angeles Times",
-"at": "2026-11-25T21:25+00:00",
+"title": "Reaction Time",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tbDIzc2xfcG9rdkl2NDR1UlNteVctLWEzWTZFX21RbW5ObHNtNThGY2Y1NXBzUURyamdINGxic19pcTNVRVNqZjNIdzVfTER1SW1kdTJsejBzYVE?oc=5",
+"source": "Surfertoday",
+"at": "2026-11-25T21:17+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
-"kind": "media"
+"kind": "outlet"
 },
 {
 "title": "Bogus Basin Ski Resort Sued by Parents of Teen Who Died After Snowboard Fall",
@@ -758,16 +768,6 @@
 "kind": "media"
 },
 {
-"title": "UPDATE: High surf advisory for East Carteret from Wednesday to Friday",
-"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1MbzZVaU9RaHBGeW52clg1LW9YZzZhTjdFXzdwc05GWjNRSDYtb3VZRGlfYkF6ZVlNMnF1N3pCOHppaWJoZFc2MlRTX0xua2pIQ3JsWEoxUV9pNnFSQnFmMW55amIxWXRtaE16Z2thdjNkNV9NRGF1MlRQUi1mZw?oc=5",
-"source": "Charlotte Observer",
-"at": "2026-11-24T21:45+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Kai Lenny on Whether the Recent Maverick’s Swell Was Overhyped",
 "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNajcxY3ZuRFhwYjhQZWF5LUlVWU94MzJ5QmVjVWh2STlLQkk3YW5oVWVTZm55UmhtYXpsdUhKREZGN0M0Y1loOFhma1phcWtwWHdJVmsyMlFJdFFFRFN3dlVHQjBVYi1jV2NIWUtMTUtIMDhBUlJIdklkZ0VHTHVGSS1lVlZ2WnYtSG4wMDhJYjhIOVFRN09Ub2J3?oc=5",
 "source": "The Inertia",
@@ -980,16 +980,6 @@
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "Hawaii High Surf: Road Closures Possible, Bigger Swell Nov. 26",
-"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTGd1T1hXQ2RhbXA2T2FRZGxDdkJIaHNaU1owanEtdjdWVzc2RElDWll4YXRtcXNpMmZza092YkNDZEE2aExsalJXcU41a1hpUWZ3ZERYOUdKV0NzdnYyRzJqQXpBa3B1NWg5SnZlRTRUM0kxTjRDaFhJRno0WUF3VHc5eFB0UjROUVNSVTh3UHdmVVE1N0hxY3MwWVcybGlE?oc=5",
-"source": "deeparrival.com",
-"at": "2026-11-24T15:05+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 },
 {
 "title": "Malaysian surfer Lucas Santiago Wehle eyes double medal bid at next year’s Asian Surfing Championships",
@@ -1233,6 +1223,16 @@
 "surfers": [
 "john-john-florence"
 ],
+"kind": "outlet"
+},
+{
+"title": "Hawaii Is Hiding a Mountain Taller Than Mount Everest Beneath the Pacific Ocean (Video)",
+"link": "https://www.surfer.com/news/hawaii-mauna-kea-worlds-tallest-mountain",
+"source": "Surfer",
+"at": "2026-11-23T22:23+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczMzE1/hawaii-drained.png?profile=rss&x=45&y=44",
+"desc": "Forget Everest. A fascinating simulation exposes a volcanic giant rising more than six miles from the ocean floor.",
+"surfers": [],
 "kind": "outlet"
 }
 ]
