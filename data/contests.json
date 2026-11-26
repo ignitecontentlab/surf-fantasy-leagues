@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-26T18:06:57+00:00",
+ "updated_at": "2026-11-26T18:29:17+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6342,59 +6342,60 @@
       "rank": 16
      },
      {
-      "key": "manuel-castellanos",
-      "name": "Manuel Castellanos",
-      "country": "El Salvador",
-      "wsl_id": "21754",
-      "rank": 17
-     },
-     {
       "key": "ocean-lancaster",
       "name": "Ocean Lancaster",
       "country": "Australia",
       "wsl_id": "18070",
-      "rank": 18
+      "rank": 17
      },
      {
       "key": "rafael-barbosa",
       "name": "Rafael Barbosa",
       "country": "Brazil",
       "wsl_id": "19701",
-      "rank": 19
+      "rank": 18
      },
      {
       "key": "ryan-kainalo",
       "name": "Ryan Kainalo",
       "country": "Brazil",
       "wsl_id": "12789",
-      "rank": 20
+      "rank": 19
      },
      {
       "key": "rylan-beavers",
       "name": "Rylan Beavers",
       "country": "Hawaii",
       "wsl_id": "14277",
-      "rank": 21
+      "rank": 20
      },
      {
       "key": "simon-winter",
       "name": "Simon Winter",
       "country": "South Africa",
       "wsl_id": "16819",
-      "rank": 22
+      "rank": 21
      },
      {
       "key": "teo-gale-grani",
       "name": "Teo Gale Grani",
       "country": "Panama",
       "wsl_id": "17957",
-      "rank": 23
+      "rank": 22
      },
      {
       "key": "yuma-nagasawa",
       "name": "Yuma Nagasawa",
       "country": "Japan",
       "wsl_id": "16507",
+      "rank": 23
+     },
+     {
+      "key": "manuel-castellanos",
+      "name": "Manuel Castellanos",
+      "country": "El Salvador",
+      "wsl_id": "21754",
+      "out": true,
       "rank": 24
      }
     ],
@@ -6578,9 +6579,128 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (0 men, 8 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (1 men, 8 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
+    "manuel-castellanos": {
+     "place": 24,
+     "points": 1330
+    },
+    "anuar-chiah": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "cannon-carr": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "darcy-dwyer": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "dylan-wilcoxen": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "enzo-ackermann": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "hans-odriozola": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "harley-walters": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "hugh-vaughan": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "ido-hagag": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "jaime-veselko": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "joshua-karbus": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "kaisei-adachi": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "levi-epenetos": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "lucas-cassity": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "lukas-skinner": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "luke-tema": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "ocean-lancaster": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "rafael-barbosa": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "ryan-kainalo": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "rylan-beavers": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "simon-winter": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "teo-gale-grani": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
+    "yuma-nagasawa": {
+     "place": 23,
+     "points": 1330,
+     "live": true
+    },
     "anastasia-venter": {
      "place": 17,
      "points": 1330
