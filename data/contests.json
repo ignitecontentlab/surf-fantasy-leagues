@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-27T13:41:03+00:00",
+ "updated_at": "2026-11-27T14:14:47+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6300,46 +6300,39 @@
       "rank": 10
      },
      {
-      "key": "luke-tema",
-      "name": "Luke Tema",
-      "country": "Hawaii",
-      "wsl_id": "12921",
-      "rank": 11
-     },
-     {
       "key": "ocean-lancaster",
       "name": "Ocean Lancaster",
       "country": "Australia",
       "wsl_id": "18070",
-      "rank": 12
+      "rank": 11
      },
      {
       "key": "ryan-kainalo",
       "name": "Ryan Kainalo",
       "country": "Brazil",
       "wsl_id": "12789",
-      "rank": 13
+      "rank": 12
      },
      {
       "key": "rylan-beavers",
       "name": "Rylan Beavers",
       "country": "Hawaii",
       "wsl_id": "14277",
-      "rank": 14
+      "rank": 13
      },
      {
       "key": "teo-gale-grani",
       "name": "Teo Gale Grani",
       "country": "Panama",
       "wsl_id": "17957",
-      "rank": 15
+      "rank": 14
      },
      {
       "key": "yuma-nagasawa",
       "name": "Yuma Nagasawa",
       "country": "Japan",
       "wsl_id": "16507",
-      "rank": 16
+      "rank": 15
      },
      {
       "key": "cannon-carr",
@@ -6347,7 +6340,7 @@
       "country": "United States",
       "wsl_id": "16046",
       "out": true,
-      "rank": 17
+      "rank": 16
      },
      {
       "key": "dylan-wilcoxen",
@@ -6355,7 +6348,7 @@
       "country": "Indonesia",
       "wsl_id": "16779",
       "out": true,
-      "rank": 18
+      "rank": 17
      },
      {
       "key": "enzo-ackermann",
@@ -6363,7 +6356,7 @@
       "country": "Mexico",
       "wsl_id": "16553",
       "out": true,
-      "rank": 19
+      "rank": 18
      },
      {
       "key": "jaime-veselko",
@@ -6371,13 +6364,21 @@
       "country": "Portugal",
       "wsl_id": "16882",
       "out": true,
-      "rank": 20
+      "rank": 19
      },
      {
       "key": "levi-epenetos",
       "name": "Levi Epenetos",
       "country": "South Africa",
       "wsl_id": "16399",
+      "out": true,
+      "rank": 20
+     },
+     {
+      "key": "luke-tema",
+      "name": "Luke Tema",
+      "country": "Hawaii",
+      "wsl_id": "12921",
       "out": true,
       "rank": 21
      },
@@ -6586,7 +6587,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (8 men, 8 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (9 men, 8 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
@@ -6609,6 +6610,10 @@
      "place": 17,
      "points": 1330
     },
+    "luke-tema": {
+     "place": 16,
+     "points": 3320
+    },
     "manuel-castellanos": {
      "place": 17,
      "points": 1330
@@ -6622,82 +6627,77 @@
      "points": 1330
     },
     "anuar-chiah": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "darcy-dwyer": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "hans-odriozola": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "harley-walters": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "hugh-vaughan": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "ido-hagag": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "joshua-karbus": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "kaisei-adachi": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "lucas-cassity": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "lukas-skinner": {
-     "place": 16,
-     "points": 3320,
-     "live": true
-    },
-    "luke-tema": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "ocean-lancaster": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "ryan-kainalo": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "rylan-beavers": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "teo-gale-grani": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
     "yuma-nagasawa": {
-     "place": 16,
+     "place": 15,
      "points": 3320,
      "live": true
     },
