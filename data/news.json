@@ -1,18 +1,58 @@
 {
-"updated_at": "2026-11-27T19:39:41+00:00",
+"updated_at": "2026-11-27T21:35:05+00:00",
 "sources": {
-"Surfer": 30,
+"Surfer": 29,
 "ISA": 3,
-"Stab": 28,
-"Surfline": 5,
+"Stab": 27,
+"Surfline": 11,
 "The Inertia": 35,
 "BeachGrit": 15,
 "Tracks": 2,
-"World Surf League": 86,
+"World Surf League": 98,
 "Surfertoday": 7,
 "In the news": 26
 },
 "items": [
+{
+"title": "Shark Glides Through San Francisco Marsh Beneath Golden Gate During Historic King Tides (Video)",
+"link": "https://www.surfer.com/news/shark-san-francisco-marsh-golden-gate-video",
+"source": "Surfer",
+"at": "2026-11-27T19:57+00:00",
+"img": "https://www.surfer.com/.image/MjowMDAwMDAwMDAwMTczNTA5/shark-golden-gate.png?profile=rss&x=55&y=60",
+"desc": "A dog walk near Crissy Field turned surreal when a shark’s dorsal fin cut through a shallow marsh as 30-foot surf and historic king tides battered San Francisco.",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "‘Sand Dancers’ Is the Best Surf Film You’ve Never Seen",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNTExVU16M0FibDNkYmlRVTl2Y2FacS1fZlZwSDN2V0pJTUJOVFNNVjAwd2htVUZzem1pTkVwSG1LS1JSbEl6eE00a2V5MG9NMVMyQ2hJWEhQMHhKM2hLMkRYRE9lTFRRN2QyOC1zRzVpaHBramxPUEYyVzhra0xMVDVZaVNHcFFkcjdEUko0cElvUQ?oc=5",
+"source": "The Inertia",
+"at": "2026-11-27T19:44+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Nasty Brawl Breaks Out in Killington Resort Lift Line",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRUprV0FtNWJGOTlCVXowbVdJaEltNW5qVVdMa091SFAyVXBqVE5WQ2c0OWNpMmNLWnNlOWdzN3VEa2dSZEo5S3c5UjJINmpsNl9kM2VWa1BZeFlEamxwMnlXWGl1ZV9OaDUzbGlHRUdYMk9GVkhacnozbkZiYzNnSmNLZXpjc3BTYVpnaXdlcHpSUDhx?oc=5",
+"source": "The Inertia",
+"at": "2026-11-27T19:39+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Body Washes Up in Newport Beach Amid King Tides",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQT1QtdU93VS14cjktcmdqWl83U3N2cEQ0dkJ1ekhEbGhHWGhqajRITVZYUVA2WWxzTl9rRmR1Ym42QllKVy1vSTNfRGJwUjZBTm5CdjZWc0Z2aXJWUzdHakIxYVc1SVdmbXVtQXBFcWlySmUxVTFndlg4Vk9BeUlwdkt0VQ?oc=5",
+"source": "The Inertia",
+"at": "2026-11-27T19:27+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
 {
 "title": "Round of 16: Alana Lopez's surging form takes her to World Junior Championships Quarterfinals at La Bocana",
 "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQ1RzTjVTWDdVZ01RNmpBdVE0emQwckRxaklwVXNtNVI4dGstaEJJbDdtTDVxWU1LZ2xibld3Skg1SlNKak1OSTZCQ29TQUdXTUlzV19sYlRFb0FHN1N3dlpkSlZKV3c5WG94SUF6di1QX2RXa29GNkRWd2lpUW93dDJac0ZvdEY5WlBGQnFNMU1YSWg5OW1HZ21EV3R4Zmp5WXg1MEtreXdPemMyR3psX0pYLTI2YW0wYjhjUFJOR0U3UDFvT0hMREtINk5uWjNRRmpZbWRtbnBQN1lGSzVFeU01VjNfWVNkOVN2Ri1PdFRMcFM2SXlV?oc=5",
@@ -95,7 +135,7 @@
 },
 {
 "title": "Round of 16: Ryan Kainalo delivers last-minute heroics in world-class matchup",
-"link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQWUgzanlCSGRvZnZqeGllZTFRSDFENWZGUG9OZy1DV3JQV2Fvb1NqeTlpeXhiYjV2dlEzNGlrZWMzQk05eXFnZDR4ZnQ5VlZYMkk0TlVac3kwZG14N25OU09DUDk3aGhJcVNCWTQyWS1LTTVyUHUyMjEzX2oxYU4yMERyM0Z1WFZ6ejN4YTZzUmxUem5sazNtRGJ1SmxqLTFzRTFrWjMxbTdkX1Q5aDk2T3U5SEJqMHhkNHEyVmpZS0hxOFlSdlpKdGNXc2REd1RuWE9RQUVWV1JMbjdWMnJXdnZHVV9yN1dldjkxREFTTHJobmh0RnA4cEx1TkxLczZySEVLLVRDNA?oc=5",
+"link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPREJza3JxbE5NQ3Jfc0dMX3QxYkZmQnQ1X1R5Y01iSG1OS0NVTUZpVU5EUDYxZ0pPeUVka2Foc1RjSkFyUHV4NHJwQmF5cUVtZ0FlcDJnckdtQnI0WnN1cEptUXh4cUVlMjNVSldDQzNtNnlmUWNzN1BBbFlSdWpJclJmeGs4Q3lTaVZtTHlQWlFWd0pjdk1ZTnR5cDNFZGpCTGYtZ0NIalFHbnlFdmxRVzR2US1yODI4ZGFCWnppVndYLW5MRmhsRXBTVWNETWlQOUlMYXJqRzJJY2lfWG1kaHJWNDk1QVhKNlIzNk05cw?oc=5",
 "source": "World Surf League",
 "at": "2026-11-27T16:40+00:00",
 "img": null,
@@ -142,26 +182,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "WSL World Junior Championships - Women's Opening Round heat 3 - Condensed",
-"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeGlOLWo3OTJXSlVmQVJXRVhLT2VhSjYyWDJkWWpaRC1reDh1UTkxUW1MR05vWDhNLUhwRTBaXzM2S2pOSEVyRExFd3dkM1V3a3RRUFBNVnJqY0ZRcFRPQ3B6aUdXQVRGVXBYT21xYjVCMG83SUNJY0xjT2FZNVo2R25tb2hjblZsbnBTdWZ1VG45ZG10THVGVzItWU1YYmoxNGw4X2s4bkJ1Q1FIRVU2WkIxUQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-27T08:29+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "WSL World Junior Championships - Women's Opening Round heat 5 - Full Heat Replay",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZHNhVXBhbjdRblJPLXBRX2RfeTdrT0V5b3JsOS11RkhMSU9XUnUtNzFad3Jsa2FfZGVEQ2VjWHZSWllrVmllWmpxVHBNWGItMWxWNVVpY1hOV2N1aTdVTm5td1F0c19sbjRCZFpEd2JiaUVvTWpzMElEZkxETmVkMlM5RURDR0RETDJrVXVkWDdBOHFnWmYwRThpVWhGdUhWc2FueE5lUzNrc1h2bDItQU11eXgxRUVxa3c5cQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-27T08:29+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
 },
 {
 "title": "Thanksgiving Treat: Bobby Martinez Stuffs Teepees On A CI Prototype",
@@ -222,16 +242,6 @@
 "desc": "",
 "surfers": [],
 "kind": "media"
-},
-{
-"title": "WSL World Junior Championships - Women's Elimination Round heat 7 - Full Heat Replay",
-"link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOX0Qwc0N5bjNIQkJqZGxjZ1hySGVuRGZGelpGOWl3em5qOFR3Z210ZkZCd3R4U0hOVjg0Z0pwSTEyQXR5UXFkYmRUNEdLOFBxZ1YwZWtmUGllTE9zc3JQakkyTm9TNUtzOC05LXZMQnFnYnlIaXJVV2lfWmFnRUxMQmpzVEV1LTlIS1QzdEhiZUo1bVZqODFKTU1fbW9LLU1teHRhSWVFbUxfMEptVkdaUk96WUhkcVFOaVMtQVp1VjVxNG96dm1CSDA4LU9QRHZkTHBCcnlhZmpmVFlmN1hncDdoM2hmRFQ3eWVDbVhXQ05UaDFiSGl4QkkwLVo4RGVfWVBtdjEwRWtfaTVzc1lTb0ZXR0M5SVp2RUN0Y3hSODdfbVRKSHZYUkNrM212ZkJCbjk3R1ZyclZnNmMyME16U3pscG1INV9fTnBqdUFxMTBUdnRvVlo0RFBfMlNvUFFMTTFyM01PWm1oTGJMWnoxMEhkdjA5UQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-27T01:44+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
 },
 {
 "title": "Evacuation warning issued as powerful waves threaten Central Coast beaches",
@@ -386,6 +396,46 @@
 "kind": "media"
 },
 {
+"title": "WSL World Junior Championships - Women's Elimination Round heat 7",
+"link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPZHMyVU9nZ1lqdEFPUEF6T1hoel85X2xFNTVtNS1PWmlwZmpMbTJES3FGLVJkcTVYcnozdGRxbkQtYVMxZ1lmdjFBc2o1N3pTZnV2Zi1UcVVUX1BCR2V6OXZNNGVRTUdybTVVVlUtMjZBYncwazBXeEFaakJqWTVxZkJkTUxwQ1E3Qldsd2JqSTJRdEJxUkt6MnM2Um9JWGRiWDVUZVhPT1lZeTF1dklENWVfbTFmWWpJUXBoaWQ3ZkVuSUhvNVdNd05NUDNfenZQMlpmMVVyQl9rRl82RW1EVEhjemFUYXUwejNqOEVUU0J2QUR2QXdOQjg2aVhLOFdET0hvdzdRaDllMGJKWVVFVGxrRDRqVFNzQVkydWktM1h6cWJQM05UM2E4aTBVbW1wQzFycERDeVNsN2dHOWJLRXpQLVVSMHVr?oc=5",
+"source": "World Surf League",
+"at": "2026-11-26T17:40+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Manuel Castellanos Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5b21rQkxrWXpTWkZLV2tDTHB4dlN4eWdhekV2Q0RWdjRTYkdxenZPOVYzWERGOFZwaWVfUVRyckgxbEI3b3pYc3RSNWZGQmxPSi1PZUNXUTJxajdBUmhnVnA4N2J4Yl9FX2xLREx6OGpRVWM?oc=5",
+"source": "World Surf League",
+"at": "2026-11-26T17:36+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Eduardo Antonio Sotto Mayor Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FYVh1U3JXLTgwQi15RlJWSW96dFBpNGhDd1k2VkozcGItOHU5WC0zRi1ZdnQ4RnhRM1U3Q254OWF0RXVKWkJ1WE9DbTFJSFdlaGh6bVliRlNpUE5BS2NKcUZhcFZxWHZtMHRRVVBvSjRaU2dZN3NfR3MtSDIxSFE?oc=5",
+"source": "World Surf League",
+"at": "2026-11-26T17:36+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "Sophia Ramos Surfer Bio | Age, Height, Videos & Results",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1uZU4xbzlzaDJ3STVXdjNkZWdUcTg4dTBMZTA1YU9Ha3c3OFlXZFUxUlZFR1NmbmFkNjZ4TU5CSlZ5RFhXR2lsM25ZUW1uSFp2LVV4WVp6UUVaSXNpcEJqaUhhVFloakJXYktZ?oc=5",
+"source": "World Surf League",
+"at": "2026-11-26T17:36+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Cerritos Beach, Mexico: Where to Surf, Stay, Eat, and Explore in Baja California Sur",
 "link": "https://www.surfer.com/culture/cerritos-baja-surf-guide",
 "source": "Surfer",
@@ -532,6 +582,16 @@
 "kind": "media"
 },
 {
+"title": "WSL World Junior Championships - Women's Opening Round heat 4 - Full Heat Replay",
+"link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQR2R1Y3BnRU9pcTZMSTduZk9USkRZLWtXaHhUaEtIOFVqejM3WUhsSFN3NlFkeWdqODljNGdELWphZ2l4VEtwOE4wcURMQUN4aERURWFvUnQ5eGtPZ2RPeHZUcnFrZmpmanZOU0xsVzRqeFVEQTMxUkI2bllfN2Vka1JqTUlDWlR5MTdqV3VFSzMtM0JUQTVXRzVxems1VDZ5ZklQZGVGbmVFSUY3THVOM1hTOEpGdkltQ3hvY2RRWFF6clRaRlh0QTcyZnEwMHR3MzhUaGp2TC1MdUc2UnFQSVJRTkh6UlJwRm1IWng1bEhCdFd2dHdNVVRROHRtMHhCcDBWUUx5RERrY0hIOURDeFZZRWs4RnVNQWc2WEFsUWM3QTI4YjlNcm8tN09INXM1a24wRGxOSFA3eENHUWVKQW80aWRrZVdUa2EyVmpzb1psSk5KZk9aT3lfM0NmZw?oc=5",
+"source": "World Surf League",
+"at": "2026-11-26T02:53+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
 "title": "Massive Waves Demolished the Pacifica Pier South of San Francisco",
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX0M4ejJRcXFNMkFJNWFkNjc2Z1B0cEtVVFdoX0lGZFpDMmt2c21qV0NXNTZSMU9RbXktVHd5NTNPUGZUNVU4Rl9tWjZLeGw0LUVDMlQ0NWMwNDhUWnJUUnVWcVQ2WlpMc0JYM3JnQTVuQTVtVUZOazJsd3B0aXctRkl1UjI5enloWWxsZTR3ZVJEVDFzS0N0VUpsdEhSZHkyMngzT3h2b2M?oc=5",
 "source": "The Inertia",
@@ -576,6 +636,16 @@
 "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWmZmc1ZZcDl0Z1NoR2JqOGZtbWZqSGZqWG5HUHBxd2o5M2psUHZ4R2dqdkl2Q0hoRnJpR3NJWE9neFRXTTcyY3Y3ZDVtWHo1cDIwcGlFVGxqUXVKRlFKWlRNaTlGbWw2RXBRTDZwNlg3ZGVfb01CMnVCakp2cXI1M1JXdnREUksxaVRWZkM3U2NSNk0tLTJ5dllZZUpFN3pwRlY2WXpiXzY0T0tfS2lrSUUybnd5VFXSAbcBQVVfeXFMUFpmZnNWWXA5dGdTaEdiajhmbW1makhmalhuR1BwcXdqOTNqbFB2eEdnanZJdkNIaEZyaUdzSVhPZ3hUV003MmN2N2Q1bVh6NXAyMHBpRVRsalF1SkZRSlpUTWk5Rm1sNkVwUUw2cDZYN2RlX29NQjJ1QmpKdnFyNTNSV3Z0RFJLMWlUVmZDN1NjUjZNLS0yeXZZWWVKRTd6cEZWNll6Yl82NE9LX0tpa0lFMm53eVRV?oc=5",
 "source": "Patch",
 "at": "2026-11-26T01:09+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "media"
+},
+{
+"title": "King tides bring big waves and damage to Carlsbad",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTVicXMwWG9TaXZtM3Fvamp5NUREVXVBQld2VG1Eakk3clFfSVF4S19VUl9wbHVybGxySWZ0S2hQclJZSkxxSlV5ZzdpY2NQX0FmY05MNnJvQUUxSWZfZ1Q3bFFqTFJNS2RUeWJkS29DMlExRzJtcnkwUGJUeHFBajNLUGFzczB3X2FOMnRXX0ZqUDE0TEZXS0VfNVVSZ3dZdmE3Rmx3R3LSAagBQVVfeXFMUFk1YnFzMFhvU2l2bTNxb2pqeTVERFV1QUJXdlRtRGpJN3JRX0lReEtfVVJfcGx1cmxscklmdEtoUHJSWUpMcUpVeWc3aWNjUF9BZmNOTDZyb0FFMUlmX2dUN2xRakxSTUtkVHliZEtvQzJRMUcybXJ5MFBiVHhxQWozS1Bhc3Mwd19hTjJ0V19GalAxNExGV0tFXzVVUmd3WXZhN0Zsd0dy?oc=5",
+"source": "NBC 7 San Diego",
+"at": "2026-11-26T01:08+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -764,16 +834,6 @@
 "kind": "media"
 },
 {
-"title": "Parts of Pacifica pier crumble into the ocean in epic day of high tides, powerful waves",
-"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXFKOF9Vbkw0T0J4Y3o1c1RESnlJbTRodWt0QmI4STRKM1RzNHJqR3lnNkpDOURGakRzWE9iNnlrWjcxd2x2aFhLT0l0bHdXSEZOUnNIaVVuM1Q5Qjh6elBwS2g0TFVSWGszWXNVTXlkeEZ0UUgtSWJHd0RRcGdMS0trd2w?oc=5",
-"source": "Los Angeles Times",
-"at": "2026-11-25T21:25+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
 "title": "Opening Round: Bella Kenworthy blasts 15.33 heat total to flex CT power at World Junior Championships",
 "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMUJtZUN0RjgyeXFKV19OVWxKaEtGVmU1X242YTAyYWVyS0RJNnVtSHE0X2w1VFI4aXJoSHZEUy1tUGNTdThKZHAzQTZsa0VLMEhxcVBmRVFaYlZZemh6M0U4cXJmc0s0eEhTYnpwbUpncjdGME1qU0RxUjcwTVlUTzEyNUtFLU5MOV9Dcmt6NUVMRWg5WEtMOTRhRTBoeldhUXB2ZE0yMEtkMG1jZmpfeTE4OXJHX21VU3BqbzZkTHhaQTZTdVFRbk51bXQ?oc=5",
 "source": "World Surf League",
@@ -952,6 +1012,16 @@
 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdVMxQlZxWXR6YW5iQ1JIeXJwN1g5NFM1UXJqS09sa0dDTmVvWXdMZS1lc0NaN0E3cXNDUVF1bUNya3FrSU9PUjd0Unpsam5IRE1jUkRNTXZ1ZG44YnYyZ2Q3bWtxOTFabDRvb0dGZVktWFJ2LVo0M3ktR3RvR0RNay1nMF9SOGl4OEdLLUpobG13dkVVa01FU3dabE9DTU4zNE5CRWFsOTg?oc=5",
 "source": "Surfline",
 "at": "2026-11-25T18:31+00:00",
+"img": null,
+"desc": "",
+"surfers": [],
+"kind": "outlet"
+},
+{
+"title": "The Florida Swell Kelly Came Home For",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0NheGdQdm5pelVrVjg2V2JFUHNDQ3RzM3dya1V0VHVGNEdOWXo3UVZNaVNUbmhkOXhuR0ZVaVByb2doREw0c2FPNlJ5WHRVSWd0Z2p6RFVKN3JrNWtjQkYwVU1CeEdBMHpsR1M3THlhYzhvcFI0Q05CMURDSWtiY0piN2ExRTkyUTMwVmFJU3BkZXkzT2k1anA0UQ?oc=5",
+"source": "Surfline",
+"at": "2026-11-25T18:26+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
@@ -1148,84 +1218,14 @@
 "kind": "outlet"
 },
 {
-"title": "WSL World Junior Championships - Women's Elimination Round heat 2",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZmIzV3FVMmM0c0I0anpVLUZlenBLVjhnWDhYSktQZTFtVmlhbktkN1VNR2lVUXlmNF9NS29QeWtCRUF4djNOYzdtVW9xRXB2cmxNUmxNcElDOGdfYmFpbXlxMzlWQ3p0MVJNa21SeXlCUDJLak1RdzNXLXhfc2JoTmU3bTZERnlpeHprYjh4UE5mUlNwY0N6b3pEdmwwYXBzdk5rNjlNdUZGUDg?oc=5",
+"title": "WSL World Junior Championships - Men's Elimination Round heat 1 - Full Heat Replay",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2dwbWJxSTdCREJBSllOeVhOVlBSbjhVYVpvTVFUaWtFTThzSk16cUFUUFR0aWtmX3JFbVpXbHhxdFR4bWVoMlFFRmFGVWZuSDJjN0ZOc2RHUjcwUFF2WFFrdVhsM0NjamItNTkyTGJLREJ5bi1tdmlCbk8tN2FCcS1hUi1BVWctLWlNZVpzc1BRVEVYNFNlMW1CMnhJSlQtbFZIOHJEcHB5SlhMT0hUSWp4MUpvMDRpWFRacmo3Yw?oc=5",
 "source": "World Surf League",
 "at": "2026-11-25T08:00+00:00",
 "img": null,
 "desc": "",
 "surfers": [],
 "kind": "outlet"
-},
-{
-"title": "WSL World Junior Championships - Men's Elimination Round heat 7 - Full Heat Replay",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTC1pa2gxZ1lsM1VfTG1SNkF0S1k4SmUwSWlyaGpkSTZDNko2cWpuZEQzNkRFdk95SExHUnY4SFh3YTRWQWZkLXVwVVVVSDcweEpqRTVfa0FuWTlUZjVHLWlQWEkwQTRNMU94eEJIM1lQUUdvSVRaUUpyWXhHcWpRS3hQVG9IZzhCSWtlWXp4WEFjX3EtS3VZYS0zdW9KanVuVXlNRWxxOFlLYVRieGN6RC16UTU4X0t0MmJXMlR2UQ?oc=5",
-"source": "World Surf League",
-"at": "2026-11-25T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "WSL World Junior Championships - Men's Elimination Round heat 1",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN2x2WDJ3Z1k2VGhBYk5iazFqSXRxVm1fVlgzalJ3S3pZRTVMYllpaXNhRmN5SDdnSDZDSHVXU2JKWlp4RmZPTFJ4YTlabFllaWM2UldZRXdXOUZSd290djRuUnNzbS12cFB5WnlwSlRGNmxkVHlqV3QtWm1nT2Fwb19jT1BtVmZVMmNDUV9JZ0gwcXdJSF8ydnZLMHlCcWNDNml3VEVvbjk?oc=5",
-"source": "World Surf League",
-"at": "2026-11-25T08:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "outlet"
-},
-{
-"title": "Santa Barbara County Closes Beaches North of Point Conception Ahead of Big Wednesday Swell That Could See 20-Foot Waves",
-"link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQX3VJLTJJVmVyTjRrQ2pUV2VPclVSWGdUUVdLOW1PZXdibTI0YXY5VmRwdG1KbWVSeDZRM1UxWmxvcDE3YmFOTjBNRDVyZE8xVTBEQ19RbUdqUkVhQngzZ0JXbXpraVZxc0ZqZEc3cU9LYklEaTd2Z1VwMEkyLVcxd0F4MEQ5TXVsNjVCWlJsN3h2X0FBZ2RFWm1XLV9vdkdXNmxnbjlCMEpwVXYwNlBDR0dRWEZWQTZsemstc2dTa3pPTVpQWWEwWWhYMXBTMFNMaDlmZEt5Q3BrTUlicVVSak5JRkVDUURIeV9neGN1Vms?oc=5",
-"source": "The Santa Barbara Independent",
-"at": "2026-11-25T04:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "UPDATE: High surf advisory issued for Ventura County Beaches until Wednesday morning",
-"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HN0hhakR6MkFfZE8xQzMxX09IVjRpWnZESWdLcHMwUkFzYWdNYXUwaUV2OExxTUh2bmMtQzhTOE9JQ1hPX2FNcEdyTzRtRW5vdUxCcEFDLUdDQTdrdEx4YzZIaU8yOEwxT1FjOXZYYw?oc=5",
-"source": "Sacramento Bee",
-"at": "2026-11-25T02:09+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "WA’S RISING SURF STARS SET FOR NATIONAL SHOWDOWN ON HOME SOIL",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbjVzcS1MS1Q2dUJsclBiTFRFRjQ2NUZwaGVPNkxiU2lwei1wSllqZS1hVkF4ZXU0YnkzR0hoMjdZb1ItOER2d3FQR1N4MlpaUHhpbHZyMmUwUjhDcW1BTGc0bzh6bVo2V2doYWN4LU9FUjFhZ3pvN3gtTGVkbGR0Y3NySmx0bXlzZ2R4OG1Kbw?oc=5",
-"source": "Surfing WA",
-"at": "2026-11-25T02:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "'Scary' 40-foot waves forecast in SF as king tide peaks Wednesday",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnU3FXWm84bkpsMy1DcldtN3VtWVdXVTBBOVRtd19JZEQ3dEdTbVU3SU1kNkJCSGp2RjZISHJ0R3FCdmZueGg1OHluNTIwbWsxY3RvWDFRQktJSFp6ZEhIT3Azd2ZiOC0teGJqdGo5TmswSUhSNThNRDdn?oc=5",
-"source": "SFGATE",
-"at": "2026-11-25T01:23+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
-},
-{
-"title": "Monterey County beaches to close Wednesday amid high surf, coastal flooding warnings",
-"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaDNFbktHdWhsRVY2ODRwdWhQM0djVlJPT1RWa3lqLXNRNEQyN3pXdkNEdTlSb29JWEFsamtBdkVvbFQ3NzFsRWp1c0F5bnQ4dU4tSG5Fa0lGd19WZmQ1YzhSSGZjV083Z2daNERSem5aV1RmMFU1bW1EaUwxVnByT0NFZ3I2aWdOVmxmejhHaTlDQWgtS3FFMlVRVlUzOENPQV83ZS1xUW5fQWVFZlpCQmc5enMyZUdF?oc=5",
-"source": "Salinas Valley Tribune",
-"at": "2026-11-25T01:00+00:00",
-"img": null,
-"desc": "",
-"surfers": [],
-"kind": "media"
 }
 ]
 }
