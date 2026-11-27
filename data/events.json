@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-27T13:40:19+00:00",
- "content_hash": "3345dd6b8a6d",
+ "updated_at": "2026-11-27T15:16:09+00:00",
+ "content_hash": "64e1c32a6722",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-27T13:40:19+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -60,22 +60,22 @@
    "status": "live",
    "headlines": [
     {
+     "title": "First Eliminations Dealt at Surf City El Salvador World Junior Championships",
+     "date": "2026-11-27",
+     "source": "Surf News Network",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMW5JQzExWEljOVQ2cW1sWG9ZTXJyU1dwdWVicm1vVDV0a2NFVU04Vy10TGxueEpnNks1VHJzSV9nVGtZUmZCN1FlUjJGZzV3eDFaRm9WWG1iVFFsZ09nWEF4dVlPRjU4QXhiSDBRQ3FHdlZJOXpRT3NZUEQ1amhrcHhLaUZXekt1WTZ2U0hhbHlGcmFuTDdSWmxkdzhnV2VURk5qMFVn?oc=5"
+    },
+    {
      "title": "Highlights: Surf City El Salvador World Junior Championships 2026 - Day 1",
      "date": "2026-11-26",
      "source": "World Surf League",
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcDh4TF92ODBIUUpKdW13UnMtMWdPS2hVSXdKWkdlMGsxNWtSUDhNc1U0YkxSemR2ek8tVG5TQzJBeC1JYnFETFUxTDVxcWhSeEFXNnlHSVM0VEVoVDl2RnFiUWF2R3B6bkVaMkdnV09DTHI2OFY2VXliSjBraWR1V2xFdVZ3dVBIQVR5cHRUc2U0b1Y0bXlCWUxtMHpKR2lkLWpmTDV2akVzSmVmbUoyVjN6R2NPZw?oc=5"
     },
     {
-     "title": "Highlights: Surf City El Salvador World Junior Championships 2026 - Day 2",
+     "title": "Australians Face Elimination Battles at World Junior Surfing Championships",
      "date": "2026-11-26",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMkZpMEgta290ajJTYzVBQ2RSSkFSSEpvZ3JXS09GQ2pYQ0ZseHlESm1fN2trQjhzLXlZVlYzVDM2VWJxaXVQUDZLSjNKcE9PQXQ3ZVhZSGk3cDJZUG1Mc2w3NmdIdjdXcmRCRk9QSFBUNDBPOWV6WE1TNEMtQ1VudFdVTll1QlhpVTVna1QwYy1mMk85a0plc2ExM283LTJKZHN3VnhfWkR0ZWxFdURQUEJDN2lJUQ?oc=5"
-    },
-    {
-     "title": "Opening Round: Lucy Darragh's defining debut resets the standard at Surf City El Salvador World Junior Championships",
-     "date": "2026-11-25",
-     "source": "World Surf League",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcktKb2l6d29STkxSTGpDVjFaNGNFeG53UGdlTUNSQWRKc3JxQXg3bDFwekYtaTZNUkxHYmdGMTd5aXNQQklEbWJxb1p0dmtfODRGSDF0enVZSk5jTDZiSVZKdGMxeGU0ZndCR2hIVXVpT1hDNF9HSXktN2Zvd1EwWkctY2F2T2hRaDA0QXdSWGpocUcyTGtpZDd1NEsxTk51NHA1WEVhVTVGYVBFbEdEaUNQVzZsUF84TUVHWW5VZ1h0eTMxV3hSdjl1aXA4ZlViWFJNblZpdWxjMFZIR2c?oc=5"
+     "source": "Sportzhub",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLTNqVGlyLUIyMkZkMnBYNFhJV2RqeHNqLWxBLVlmNWY1RUpacnpKMi1yOXkxLXJhM1JjbDRvdi1aeE56S1diSVlnMEFVR29GNkdlOXNHdG1wc1J4aExWQVJWbVpUNFZVckpjNElBZll2Y0puTnhOZG9GVUZSZHZtNEdqdk50Sng4d1VWN0QtWjJQMllzenRsZGRsenhiSThleHVBUmVTRTZaTnFkLW43LXl5OA?oc=5"
     },
     {
      "title": "Surf City El Salvador World Junior Championships 2026",
@@ -84,7 +84,7 @@
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXNqR1RqTlN4M3VYcFpENzJRN0NqdGhKbUZNdVBzQ0NMUmJHdTJjeTNqT1hkalY5Y0pMdTZjSWFYd2t1QVJoeEt1enJsc284R21Tb1JJV2RkWDd4M2NYbGtRRF9sQ2FQR0hzWWQwUzlUWkRDZkt2WWlDT25jOUE3NE51VTVHX0NsY2hjODg5Rlc5Y1NUV1ZlQW4yX1FaNVo4aEN4Qkt2c0w?oc=5"
     }
    ],
-   "news_at": "2026-11-27T13:40:19+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -129,7 +129,7 @@
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVW9yLWJ3ckJYM3ByQXB2blRibURCYVU5X2FibkRrV0VObnRCdXN1TmNBV1E1dGFhbXJtV3RRZEZ5NUlXdlRBQzk0Y3dkeVFETDZ6b2hERkxDTWUwZVlpVWQwd1VmQkhMQll1dW9TRFQwajJUcmNlVmVGcmVjdFcxZWt4eFVKRzdXZndjbXl3OHRsVnlzUkVvT2t2TDRWcUU?oc=5"
     }
    ],
-   "news_at": "2026-11-27T13:40:19+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -511,7 +511,7 @@
    "watch_note": "",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-27T11:09:52+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "wsl-ct-2026-lexuspipemasters",
@@ -558,7 +558,7 @@
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOFlpWXQwQ2s1QnN4ZExmSTl1ZHM1eXZGQ2JDVUlWY1pmQWZHX3BuZHhadDczV0Y5aUxUVFFWQTBBbjZlZTVNaDQwWm4wOGZpVV80V0JvS2Ewd2dDbHY4aTllek9tU0p2OHp5WUlqWVM4ekZjVVF6ZE01NzNnVURCUEJjQ3NIMVJtVlByVFVHRG4ydUV5RVRnTzZVMjFLeDVmVGl4R3Y4NA?oc=5"
     }
    ],
-   "news_at": "2026-11-27T11:09:52+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "qs-pipe-2027",
@@ -577,7 +577,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-27T11:09:52+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "cs-newcastle-2027",
@@ -595,7 +595,7 @@
    "host": "WSL",
    "status": "upcoming",
    "headlines": [],
-   "news_at": "2026-11-27T11:09:52+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "la28-surfing",
@@ -1188,7 +1188,7 @@
      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZXFETTR3R1ZqLUJuXzRqZ1NxQ2tFc005R0dWbnp0a1JwM2ZjZWtrYmtITkNLeWhJdzV5N3Vsd21scUhhdFJyZDlMLWxISl96ekJQQ3l5Qkw2U2dHTnNycHo4enliQy1UWUlIV0FhaElTYVVwS1pBODRWV3c3YnJjWkhSRWNzd1JRWnJ4QWtpX0cyUXRmanZOb2k4VkNrd1dmcktFcC1jc3VwcXhObFNhUzdKOUxrbGZLRHhnSXVuQ3k0ZFV2aktBeDBaNlpuNE9XRHk0cFVsQTh0SmZxdGU5dlVYS0MtSGU2VUJ4N0RiQUxiZVU1Vnc?oc=5"
     }
    ],
-   "news_at": "2026-11-27T11:09:52+00:00"
+   "news_at": "2026-11-27T15:16:09+00:00"
   },
   {
    "id": "isa-wsg-2026",
@@ -1331,5 +1331,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-27T13:40:19+00:00"
+ "checked_at": "2026-11-27T15:16:09+00:00"
 }
