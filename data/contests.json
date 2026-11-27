@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-27T20:43:16+00:00",
+ "updated_at": "2026-11-27T21:13:55+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6444,53 +6444,46 @@
       "rank": 4
      },
      {
-      "key": "louise-lepront",
-      "name": "Louise Lepront",
-      "country": "South Africa",
-      "wsl_id": "16313",
-      "rank": 5
-     },
-     {
       "key": "lucy-darragh",
       "name": "Lucy Darragh",
       "country": "Australia",
       "wsl_id": "16897",
-      "rank": 6
+      "rank": 5
      },
      {
       "key": "milla-coco-brown",
       "name": "Milla Coco Brown",
       "country": "Australia",
       "wsl_id": "16841",
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "talia-swindal",
       "name": "Talia Swindal",
       "country": "United States",
       "wsl_id": "16093",
-      "rank": 8
+      "rank": 7
      },
      {
       "key": "tiara-van-der-huls",
       "name": "Tiara Van Der Huls",
       "country": "Netherlands",
       "wsl_id": "17560",
-      "rank": 9
+      "rank": 8
      },
      {
       "key": "victoria-munoz-larreta",
       "name": "Victoria Muñoz Larreta",
       "country": "Argentina",
       "wsl_id": "16955",
-      "rank": 10
+      "rank": 9
      },
      {
       "key": "zoie-zietz",
       "name": "Zoie Zietz",
       "country": "Netherlands",
       "wsl_id": "18772",
-      "rank": 11
+      "rank": 10
      },
      {
       "key": "anastasia-venter",
@@ -6498,7 +6491,7 @@
       "country": "South Africa",
       "wsl_id": "14695",
       "out": true,
-      "rank": 12
+      "rank": 11
      },
      {
       "key": "annette-gonzalez-etxabarri",
@@ -6506,7 +6499,7 @@
       "country": "Basque Country",
       "wsl_id": "15615",
       "out": true,
-      "rank": 13
+      "rank": 12
      },
      {
       "key": "charli-hately",
@@ -6514,7 +6507,7 @@
       "country": "Australia",
       "wsl_id": "16832",
       "out": true,
-      "rank": 14
+      "rank": 13
      },
      {
       "key": "hinata-shimizu",
@@ -6522,7 +6515,7 @@
       "country": "Japan",
       "wsl_id": "16551",
       "out": true,
-      "rank": 15
+      "rank": 14
      },
      {
       "key": "isla-huppatz",
@@ -6530,13 +6523,21 @@
       "country": "Australia",
       "wsl_id": "17904",
       "out": true,
-      "rank": 16
+      "rank": 15
      },
      {
       "key": "laura-raupp",
       "name": "Laura Raupp",
       "country": "Brazil",
       "wsl_id": "15050",
+      "out": true,
+      "rank": 16
+     },
+     {
+      "key": "louise-lepront",
+      "name": "Louise Lepront",
+      "country": "South Africa",
+      "wsl_id": "16313",
       "out": true,
       "rank": 17
      },
@@ -6599,7 +6600,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (16 men, 13 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (16 men, 14 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
@@ -6715,7 +6716,7 @@
      "points": 1330
     },
     "charli-hately": {
-     "place": 12,
+     "place": 11,
      "points": 3320
     },
     "hinata-shimizu": {
@@ -6723,11 +6724,15 @@
      "points": 1330
     },
     "isla-huppatz": {
-     "place": 12,
+     "place": 11,
      "points": 3320
     },
     "laura-raupp": {
-     "place": 12,
+     "place": 11,
+     "points": 3320
+    },
+    "louise-lepront": {
+     "place": 11,
      "points": 3320
     },
     "mirai-ikeda": {
@@ -6735,11 +6740,11 @@
      "points": 1330
     },
     "reid-van-wagoner": {
-     "place": 12,
+     "place": 11,
      "points": 3320
     },
     "sierra-kerr": {
-     "place": 12,
+     "place": 11,
      "points": 3320
     },
     "sol-borelli": {
@@ -6759,57 +6764,52 @@
      "points": 1330
     },
     "alana-lopez": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "bella-kenworthy": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "catalina-zariquiey": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "eden-walla": {
-     "place": 11,
-     "points": 3320,
-     "live": true
-    },
-    "louise-lepront": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "lucy-darragh": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "milla-coco-brown": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "talia-swindal": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "tiara-van-der-huls": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "victoria-munoz-larreta": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     },
     "zoie-zietz": {
-     "place": 11,
+     "place": 10,
      "points": 3320,
      "live": true
     }
