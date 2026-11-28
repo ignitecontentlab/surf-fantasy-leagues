@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-28T11:05:37+00:00",
- "content_hash": "283761be4992",
+ "updated_at": "2026-11-28T12:02:14+00:00",
+ "content_hash": "60a0ecbbc7d1",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-28T11:05:37+00:00"
+   "news_at": "2026-11-28T12:02:14+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -84,7 +84,7 @@
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXNqR1RqTlN4M3VYcFpENzJRN0NqdGhKbUZNdVBzQ0NMUmJHdTJjeTNqT1hkalY5Y0pMdTZjSWFYd2t1QVJoeEt1enJsc284R21Tb1JJV2RkWDd4M2NYbGtRRF9sQ2FQR0hzWWQwUzlUWkRDZkt2WWlDT25jOUE3NE51VTVHX0NsY2hjODg5Rlc5Y1NUV1ZlQW4yX1FaNVo4aEN4Qkt2c0w?oc=5"
     }
    ],
-   "news_at": "2026-11-28T11:05:37+00:00"
+   "news_at": "2026-11-28T12:02:14+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -124,12 +124,12 @@
     },
     {
      "title": "Longboard heavyweights set sights on Bells",
-     "date": "2026-11-19",
+     "date": "2026-11-20",
      "source": "Times News Group",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdTU5cXlHNUxlUmxZNkVIWG41Q0RJUlRmNUMzMjF5ZEZrZVJmbXVPaE80UVJaU2FNUEYzWndSRUpjMTdSdTd1YnNQOWtIUy1TbW02cGQ5UDBtM1NUelhXR1BXVldwMTU5QV8yTm9adWJKeUI0NGRXaTl0SkZJXzJOU19PU3NudFhUVTNtNGp0eHJFUkpNZ3N4NQ?oc=5"
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVW9yLWJ3ckJYM3ByQXB2blRibURCYVU5X2FibkRrV0VObnRCdXN1TmNBV1E1dGFhbXJtV3RRZEZ5NUlXdlRBQzk0Y3dkeVFETDZ6b2hERkxDTWUwZVlpVWQwd1VmQkhMQll1dW9TRFQwajJUcmNlVmVGcmVjdFcxZWt4eFVKRzdXZndjbXl3OHRsVnlzUkVvT2t2TDRWcUU?oc=5"
     }
    ],
-   "news_at": "2026-11-28T11:05:37+00:00"
+   "news_at": "2026-11-28T12:02:14+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -1325,5 +1325,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-28T11:05:37+00:00"
+ "checked_at": "2026-11-28T12:02:14+00:00"
 }
