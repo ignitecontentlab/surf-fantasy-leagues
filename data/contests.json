@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-28T17:27:05+00:00",
+ "updated_at": "2026-11-28T17:59:43+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6244,25 +6244,18 @@
       "rank": 2
      },
      {
-      "key": "ido-hagag",
-      "name": "Ido Hagag",
-      "country": "Israel",
-      "wsl_id": "15391",
-      "rank": 3
-     },
-     {
       "key": "lucas-cassity",
       "name": "Lucas Cassity",
       "country": "Mexico",
       "wsl_id": "18811",
-      "rank": 4
+      "rank": 3
      },
      {
       "key": "ryan-kainalo",
       "name": "Ryan Kainalo",
       "country": "Brazil",
       "wsl_id": "12789",
-      "rank": 5
+      "rank": 4
      },
      {
       "key": "cannon-carr",
@@ -6270,7 +6263,7 @@
       "country": "United States",
       "wsl_id": "16046",
       "out": true,
-      "rank": 6
+      "rank": 5
      },
      {
       "key": "darcy-dwyer",
@@ -6278,7 +6271,7 @@
       "country": "Australia",
       "wsl_id": "17802",
       "out": true,
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "dylan-wilcoxen",
@@ -6286,7 +6279,7 @@
       "country": "Indonesia",
       "wsl_id": "16779",
       "out": true,
-      "rank": 8
+      "rank": 7
      },
      {
       "key": "enzo-ackermann",
@@ -6294,7 +6287,7 @@
       "country": "Mexico",
       "wsl_id": "16553",
       "out": true,
-      "rank": 9
+      "rank": 8
      },
      {
       "key": "harley-walters",
@@ -6302,13 +6295,21 @@
       "country": "Australia",
       "wsl_id": "17905",
       "out": true,
-      "rank": 10
+      "rank": 9
      },
      {
       "key": "hugh-vaughan",
       "name": "Hugh Vaughan",
       "country": "Australia",
       "wsl_id": "15521",
+      "out": true,
+      "rank": 10
+     },
+     {
+      "key": "ido-hagag",
+      "name": "Ido Hagag",
+      "country": "Israel",
+      "wsl_id": "15391",
       "out": true,
       "rank": 11
      },
@@ -6609,7 +6610,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (19 men, 20 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (20 men, 20 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
@@ -6617,7 +6618,7 @@
      "points": 1330
     },
     "darcy-dwyer": {
-     "place": 6,
+     "place": 5,
      "points": 4745
     },
     "dylan-wilcoxen": {
@@ -6635,6 +6636,10 @@
     "hugh-vaughan": {
      "place": 9,
      "points": 3320
+    },
+    "ido-hagag": {
+     "place": 5,
+     "points": 4745
     },
     "jaime-veselko": {
      "place": 17,
@@ -6673,7 +6678,7 @@
      "points": 1330
     },
     "rylan-beavers": {
-     "place": 6,
+     "place": 5,
      "points": 4745
     },
     "simon-winter": {
@@ -6685,32 +6690,27 @@
      "points": 3320
     },
     "yuma-nagasawa": {
-     "place": 6,
+     "place": 5,
      "points": 4745
     },
     "anuar-chiah": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "hans-odriozola": {
-     "place": 5,
-     "points": 4745,
-     "live": true
-    },
-    "ido-hagag": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "lucas-cassity": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "ryan-kainalo": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "anastasia-venter": {
