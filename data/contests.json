@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-28T15:27:22+00:00",
+ "updated_at": "2026-11-28T16:04:22+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6437,18 +6437,11 @@
       "rank": 3
      },
      {
-      "key": "eden-walla",
-      "name": "Eden Walla",
-      "country": "United States",
-      "wsl_id": "16875",
-      "rank": 4
-     },
-     {
       "key": "lucy-darragh",
       "name": "Lucy Darragh",
       "country": "Australia",
       "wsl_id": "16897",
-      "rank": 5
+      "rank": 4
      },
      {
       "key": "anastasia-venter",
@@ -6456,7 +6449,7 @@
       "country": "South Africa",
       "wsl_id": "14695",
       "out": true,
-      "rank": 6
+      "rank": 5
      },
      {
       "key": "annette-gonzalez-etxabarri",
@@ -6464,13 +6457,21 @@
       "country": "Basque Country",
       "wsl_id": "15615",
       "out": true,
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "charli-hately",
       "name": "Charli Hately",
       "country": "Australia",
       "wsl_id": "16832",
+      "out": true,
+      "rank": 7
+     },
+     {
+      "key": "eden-walla",
+      "name": "Eden Walla",
+      "country": "United States",
+      "wsl_id": "16875",
       "out": true,
       "rank": 8
      },
@@ -6605,7 +6606,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (16 men, 19 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (16 men, 20 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
@@ -6724,6 +6725,10 @@
      "place": 9,
      "points": 3320
     },
+    "eden-walla": {
+     "place": 5,
+     "points": 4745
+    },
     "hinata-shimizu": {
      "place": 17,
      "points": 1330
@@ -6765,7 +6770,7 @@
      "points": 1330
     },
     "talia-swindal": {
-     "place": 6,
+     "place": 5,
      "points": 4745
     },
     "tiara-van-der-huls": {
@@ -6777,7 +6782,7 @@
      "points": 1330
     },
     "victoria-munoz-larreta": {
-     "place": 6,
+     "place": 5,
      "points": 4745
     },
     "willow-hardy": {
@@ -6785,32 +6790,27 @@
      "points": 1330
     },
     "zoie-zietz": {
-     "place": 6,
+     "place": 5,
      "points": 4745
     },
     "alana-lopez": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "bella-kenworthy": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "catalina-zariquiey": {
-     "place": 5,
-     "points": 4745,
-     "live": true
-    },
-    "eden-walla": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     },
     "lucy-darragh": {
-     "place": 5,
-     "points": 4745,
+     "place": 4,
+     "points": 6085,
      "live": true
     }
    },
