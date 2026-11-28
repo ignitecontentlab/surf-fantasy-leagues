@@ -108,7 +108,7 @@ def news(tag, now):
                 if m: img = m.group(1)
             desc = clean(it.findtext("description"))[:220] if label not in ("In the news",) and "news.google" not in url else ""
             if label == "In the news" and not SURFY.search(title): continue
-            if re.search(r"surf report|surf forecast|surf cams?\b|tide chart", title, re.I): continue
+            if re.search(r"surf report|surf forecast|surf cams?\b|tide chart|surfer bio \| age|athlete profile", title, re.I): continue
             items.append({"title": title, "link": link, "source": src, "at": dt.isoformat(timespec="minutes"),
                           "img": img, "desc": desc, "surfers": tag(title + " " + desc),
                           "kind": "outlet" if label != "In the news" else "media"})
@@ -168,6 +168,11 @@ def main():
         m = re.search(r"/channel/(UC[\w-]{20,})", y)
         if m and m.group(1) not in CHANNELS: extra[m.group(1)] = S.get(sid, sid)
     N, nok = news(tag, now)
+    try:
+        from news_images import enrich
+        print("story images looked up:", enrich(N))
+    except Exception as e:
+        print("story images skipped:", e)
     sh, lo, vok = videos(tag, now, extra)
     old_n = load(os.path.join(D, "news.json"), {}); old_v = load(os.path.join(D, "videos.json"), {})
     ts = now.isoformat(timespec="seconds")
