@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-28T20:10:22+00:00",
- "content_hash": "c47db58cad09",
+ "updated_at": "2026-11-28T21:04:01+00:00",
+ "content_hash": "09005de28c8c",
  "sources": {
   "wikipedia_2026": {
    "ok": true,
@@ -39,7 +39,7 @@
    "partner": "Vans",
    "status": "live",
    "headlines": [],
-   "news_at": "2026-11-28T20:10:22+00:00"
+   "news_at": "2026-11-28T21:04:01+00:00"
   },
   {
    "id": "wsl-wjc-2026",
@@ -84,7 +84,7 @@
      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUTBKT1djR2psNHhWYUU1MC1rUXBoMnNsRU9NMkppNFBVV3NoaGZ2VUNZYzVMd3dWdE1vRlc4QlZMUDVfd0ZGWUpOb29ucE1VZnNHR0hhLW1GUVpDZkJMMk5LeGxVRmFyZ0RzMmpqZEhKZ0s2WTZZNC1RbmNQXzZCcnA4cVVzWUNlMFRsYm5RVUlqMnhveE9YVmdqMUhfR1hMM0YxblhCR0E0aDlvWl8wNHBZdVQ5bXp0czVLcmpCVDkyM19UTVBNWnhkYlNoUW92RVlTcmNZelRqUGtaOWtWZ2NscFA4dw?oc=5"
     }
    ],
-   "news_at": "2026-11-28T20:10:22+00:00"
+   "news_at": "2026-11-28T21:04:01+00:00"
   },
   {
    "id": "wsl-lt-bells-2026",
@@ -129,7 +129,7 @@
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdTU5cXlHNUxlUmxZNkVIWG41Q0RJUlRmNUMzMjF5ZEZrZVJmbXVPaE80UVJaU2FNUEYzWndSRUpjMTdSdTd1YnNQOWtIUy1TbW02cGQ5UDBtM1NUelhXR1BXVldwMTU5QV8yTm9adWJKeUI0NGRXaTl0SkZJXzJOU19PU3NudFhUVTNtNGp0eHJFUkpNZ3N4NQ?oc=5"
     }
    ],
-   "news_at": "2026-11-28T20:10:22+00:00"
+   "news_at": "2026-11-28T21:04:01+00:00"
   },
   {
    "id": "nazare-2026-27",
@@ -505,7 +505,7 @@
      "title": "Stories From The Eddie: The Trophy",
      "date": "2026-01-13",
      "url": "https://www.ripcurl.com/blogs/events/stories-from-the-eddie-the-trophy",
-     "age": 318
+     "age": 319
     }
    ],
    "watch_note": "",
@@ -1319,5 +1319,5 @@
   }
  ],
  "credits": "Schedules and results from Wikipedia (CC BY-SA), Rip Curl, nazarewaves.com and Google News headlines.",
- "checked_at": "2026-11-28T20:10:22+00:00"
+ "checked_at": "2026-11-28T21:04:01+00:00"
 }
