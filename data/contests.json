@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-28T15:04:16+00:00",
+ "updated_at": "2026-11-28T15:27:22+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6451,19 +6451,12 @@
       "rank": 5
      },
      {
-      "key": "talia-swindal",
-      "name": "Talia Swindal",
-      "country": "United States",
-      "wsl_id": "16093",
-      "rank": 6
-     },
-     {
       "key": "anastasia-venter",
       "name": "Anastasia Venter",
       "country": "South Africa",
       "wsl_id": "14695",
       "out": true,
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "annette-gonzalez-etxabarri",
@@ -6471,7 +6464,7 @@
       "country": "Basque Country",
       "wsl_id": "15615",
       "out": true,
-      "rank": 8
+      "rank": 7
      },
      {
       "key": "charli-hately",
@@ -6479,7 +6472,7 @@
       "country": "Australia",
       "wsl_id": "16832",
       "out": true,
-      "rank": 9
+      "rank": 8
      },
      {
       "key": "hinata-shimizu",
@@ -6487,7 +6480,7 @@
       "country": "Japan",
       "wsl_id": "16551",
       "out": true,
-      "rank": 10
+      "rank": 9
      },
      {
       "key": "isla-huppatz",
@@ -6495,7 +6488,7 @@
       "country": "Australia",
       "wsl_id": "17904",
       "out": true,
-      "rank": 11
+      "rank": 10
      },
      {
       "key": "laura-raupp",
@@ -6503,7 +6496,7 @@
       "country": "Brazil",
       "wsl_id": "15050",
       "out": true,
-      "rank": 12
+      "rank": 11
      },
      {
       "key": "louise-lepront",
@@ -6511,7 +6504,7 @@
       "country": "South Africa",
       "wsl_id": "16313",
       "out": true,
-      "rank": 13
+      "rank": 12
      },
      {
       "key": "milla-coco-brown",
@@ -6519,7 +6512,7 @@
       "country": "Australia",
       "wsl_id": "16841",
       "out": true,
-      "rank": 14
+      "rank": 13
      },
      {
       "key": "mirai-ikeda",
@@ -6527,7 +6520,7 @@
       "country": "Japan",
       "wsl_id": "15838",
       "out": true,
-      "rank": 15
+      "rank": 14
      },
      {
       "key": "reid-van-wagoner",
@@ -6535,7 +6528,7 @@
       "country": "United States",
       "wsl_id": "17559",
       "out": true,
-      "rank": 16
+      "rank": 15
      },
      {
       "key": "sierra-kerr",
@@ -6543,7 +6536,7 @@
       "country": "Australia",
       "wsl_id": "15916",
       "out": true,
-      "rank": 17
+      "rank": 16
      },
      {
       "key": "sol-borelli",
@@ -6551,13 +6544,21 @@
       "country": "Spain",
       "wsl_id": "19165",
       "out": true,
-      "rank": 18
+      "rank": 17
      },
      {
       "key": "sophia-ramos",
       "name": "Sophia Ramos",
       "country": "El Salvador",
       "wsl_id": "21753",
+      "out": true,
+      "rank": 18
+     },
+     {
+      "key": "talia-swindal",
+      "name": "Talia Swindal",
+      "country": "United States",
+      "wsl_id": "16093",
       "out": true,
       "rank": 19
      },
@@ -6604,7 +6605,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (16 men, 18 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (16 men, 19 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
@@ -6763,6 +6764,10 @@
      "place": 17,
      "points": 1330
     },
+    "talia-swindal": {
+     "place": 6,
+     "points": 4745
+    },
     "tiara-van-der-huls": {
      "place": 9,
      "points": 3320
@@ -6772,7 +6777,7 @@
      "points": 1330
     },
     "victoria-munoz-larreta": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "willow-hardy": {
@@ -6780,36 +6785,31 @@
      "points": 1330
     },
     "zoie-zietz": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "alana-lopez": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "bella-kenworthy": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "catalina-zariquiey": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "eden-walla": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "lucy-darragh": {
-     "place": 6,
-     "points": 4745,
-     "live": true
-    },
-    "talia-swindal": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     }
