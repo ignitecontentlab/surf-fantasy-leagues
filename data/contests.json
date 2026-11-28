@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-28T16:28:31+00:00",
+ "updated_at": "2026-11-28T17:06:15+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6237,52 +6237,53 @@
       "rank": 1
      },
      {
-      "key": "darcy-dwyer",
-      "name": "Darcy Dwyer",
-      "country": "Australia",
-      "wsl_id": "17802",
-      "rank": 2
-     },
-     {
       "key": "hans-odriozola",
       "name": "Hans Odriozola",
       "country": "Germany",
       "wsl_id": "13924",
-      "rank": 3
+      "rank": 2
      },
      {
       "key": "ido-hagag",
       "name": "Ido Hagag",
       "country": "Israel",
       "wsl_id": "15391",
-      "rank": 4
+      "rank": 3
      },
      {
       "key": "lucas-cassity",
       "name": "Lucas Cassity",
       "country": "Mexico",
       "wsl_id": "18811",
-      "rank": 5
+      "rank": 4
      },
      {
       "key": "ryan-kainalo",
       "name": "Ryan Kainalo",
       "country": "Brazil",
       "wsl_id": "12789",
-      "rank": 6
+      "rank": 5
      },
      {
       "key": "yuma-nagasawa",
       "name": "Yuma Nagasawa",
       "country": "Japan",
       "wsl_id": "16507",
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "cannon-carr",
       "name": "Cannon Carr",
       "country": "United States",
       "wsl_id": "16046",
+      "out": true,
+      "rank": 7
+     },
+     {
+      "key": "darcy-dwyer",
+      "name": "Darcy Dwyer",
+      "country": "Australia",
+      "wsl_id": "17802",
       "out": true,
       "rank": 8
      },
@@ -6607,12 +6608,16 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (17 men, 20 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (18 men, 20 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
      "place": 17,
      "points": 1330
+    },
+    "darcy-dwyer": {
+     "place": 7,
+     "points": 4745
     },
     "dylan-wilcoxen": {
      "place": 17,
@@ -6667,7 +6672,7 @@
      "points": 1330
     },
     "rylan-beavers": {
-     "place": 8,
+     "place": 7,
      "points": 4745
     },
     "simon-winter": {
@@ -6679,37 +6684,32 @@
      "points": 3320
     },
     "anuar-chiah": {
-     "place": 7,
-     "points": 4745,
-     "live": true
-    },
-    "darcy-dwyer": {
-     "place": 7,
+     "place": 6,
      "points": 4745,
      "live": true
     },
     "hans-odriozola": {
-     "place": 7,
+     "place": 6,
      "points": 4745,
      "live": true
     },
     "ido-hagag": {
-     "place": 7,
+     "place": 6,
      "points": 4745,
      "live": true
     },
     "lucas-cassity": {
-     "place": 7,
+     "place": 6,
      "points": 4745,
      "live": true
     },
     "ryan-kainalo": {
-     "place": 7,
+     "place": 6,
      "points": 4745,
      "live": true
     },
     "yuma-nagasawa": {
-     "place": 7,
+     "place": 6,
      "points": 4745,
      "live": true
     },
