@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-28T17:06:15+00:00",
+ "updated_at": "2026-11-28T17:27:05+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6265,19 +6265,12 @@
       "rank": 5
      },
      {
-      "key": "yuma-nagasawa",
-      "name": "Yuma Nagasawa",
-      "country": "Japan",
-      "wsl_id": "16507",
-      "rank": 6
-     },
-     {
       "key": "cannon-carr",
       "name": "Cannon Carr",
       "country": "United States",
       "wsl_id": "16046",
       "out": true,
-      "rank": 7
+      "rank": 6
      },
      {
       "key": "darcy-dwyer",
@@ -6285,7 +6278,7 @@
       "country": "Australia",
       "wsl_id": "17802",
       "out": true,
-      "rank": 8
+      "rank": 7
      },
      {
       "key": "dylan-wilcoxen",
@@ -6293,7 +6286,7 @@
       "country": "Indonesia",
       "wsl_id": "16779",
       "out": true,
-      "rank": 9
+      "rank": 8
      },
      {
       "key": "enzo-ackermann",
@@ -6301,7 +6294,7 @@
       "country": "Mexico",
       "wsl_id": "16553",
       "out": true,
-      "rank": 10
+      "rank": 9
      },
      {
       "key": "harley-walters",
@@ -6309,7 +6302,7 @@
       "country": "Australia",
       "wsl_id": "17905",
       "out": true,
-      "rank": 11
+      "rank": 10
      },
      {
       "key": "hugh-vaughan",
@@ -6317,7 +6310,7 @@
       "country": "Australia",
       "wsl_id": "15521",
       "out": true,
-      "rank": 12
+      "rank": 11
      },
      {
       "key": "jaime-veselko",
@@ -6325,7 +6318,7 @@
       "country": "Portugal",
       "wsl_id": "16882",
       "out": true,
-      "rank": 13
+      "rank": 12
      },
      {
       "key": "joshua-karbus",
@@ -6333,7 +6326,7 @@
       "country": "Ireland",
       "wsl_id": "18519",
       "out": true,
-      "rank": 14
+      "rank": 13
      },
      {
       "key": "kaisei-adachi",
@@ -6341,7 +6334,7 @@
       "country": "Japan",
       "wsl_id": "14590",
       "out": true,
-      "rank": 15
+      "rank": 14
      },
      {
       "key": "levi-epenetos",
@@ -6349,7 +6342,7 @@
       "country": "South Africa",
       "wsl_id": "16399",
       "out": true,
-      "rank": 16
+      "rank": 15
      },
      {
       "key": "lukas-skinner",
@@ -6357,7 +6350,7 @@
       "country": "United Kingdom",
       "wsl_id": "13999",
       "out": true,
-      "rank": 17
+      "rank": 16
      },
      {
       "key": "luke-tema",
@@ -6365,7 +6358,7 @@
       "country": "Hawaii",
       "wsl_id": "12921",
       "out": true,
-      "rank": 18
+      "rank": 17
      },
      {
       "key": "manuel-castellanos",
@@ -6373,7 +6366,7 @@
       "country": "El Salvador",
       "wsl_id": "21754",
       "out": true,
-      "rank": 19
+      "rank": 18
      },
      {
       "key": "ocean-lancaster",
@@ -6381,7 +6374,7 @@
       "country": "Australia",
       "wsl_id": "18070",
       "out": true,
-      "rank": 20
+      "rank": 19
      },
      {
       "key": "rafael-barbosa",
@@ -6389,7 +6382,7 @@
       "country": "Brazil",
       "wsl_id": "19701",
       "out": true,
-      "rank": 21
+      "rank": 20
      },
      {
       "key": "rylan-beavers",
@@ -6397,7 +6390,7 @@
       "country": "Hawaii",
       "wsl_id": "14277",
       "out": true,
-      "rank": 22
+      "rank": 21
      },
      {
       "key": "simon-winter",
@@ -6405,13 +6398,21 @@
       "country": "South Africa",
       "wsl_id": "16819",
       "out": true,
-      "rank": 23
+      "rank": 22
      },
      {
       "key": "teo-gale-grani",
       "name": "Teo Gale Grani",
       "country": "Panama",
       "wsl_id": "17957",
+      "out": true,
+      "rank": 23
+     },
+     {
+      "key": "yuma-nagasawa",
+      "name": "Yuma Nagasawa",
+      "country": "Japan",
+      "wsl_id": "16507",
       "out": true,
       "rank": 24
      }
@@ -6608,7 +6609,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (18 men, 20 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (19 men, 20 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
@@ -6616,7 +6617,7 @@
      "points": 1330
     },
     "darcy-dwyer": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "dylan-wilcoxen": {
@@ -6672,7 +6673,7 @@
      "points": 1330
     },
     "rylan-beavers": {
-     "place": 7,
+     "place": 6,
      "points": 4745
     },
     "simon-winter": {
@@ -6683,33 +6684,32 @@
      "place": 9,
      "points": 3320
     },
-    "anuar-chiah": {
+    "yuma-nagasawa": {
      "place": 6,
+     "points": 4745
+    },
+    "anuar-chiah": {
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "hans-odriozola": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "ido-hagag": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "lucas-cassity": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
     "ryan-kainalo": {
-     "place": 6,
-     "points": 4745,
-     "live": true
-    },
-    "yuma-nagasawa": {
-     "place": 6,
+     "place": 5,
      "points": 4745,
      "live": true
     },
