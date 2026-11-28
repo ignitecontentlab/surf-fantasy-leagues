@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-28T16:04:22+00:00",
+ "updated_at": "2026-11-28T16:28:31+00:00",
  "contests": [
   {
    "id": "wsl-ct-2026-meoripcurlproportugal",
@@ -6272,18 +6272,11 @@
       "rank": 6
      },
      {
-      "key": "rylan-beavers",
-      "name": "Rylan Beavers",
-      "country": "Hawaii",
-      "wsl_id": "14277",
-      "rank": 7
-     },
-     {
       "key": "yuma-nagasawa",
       "name": "Yuma Nagasawa",
       "country": "Japan",
       "wsl_id": "16507",
-      "rank": 8
+      "rank": 7
      },
      {
       "key": "cannon-carr",
@@ -6291,7 +6284,7 @@
       "country": "United States",
       "wsl_id": "16046",
       "out": true,
-      "rank": 9
+      "rank": 8
      },
      {
       "key": "dylan-wilcoxen",
@@ -6299,7 +6292,7 @@
       "country": "Indonesia",
       "wsl_id": "16779",
       "out": true,
-      "rank": 10
+      "rank": 9
      },
      {
       "key": "enzo-ackermann",
@@ -6307,7 +6300,7 @@
       "country": "Mexico",
       "wsl_id": "16553",
       "out": true,
-      "rank": 11
+      "rank": 10
      },
      {
       "key": "harley-walters",
@@ -6315,7 +6308,7 @@
       "country": "Australia",
       "wsl_id": "17905",
       "out": true,
-      "rank": 12
+      "rank": 11
      },
      {
       "key": "hugh-vaughan",
@@ -6323,7 +6316,7 @@
       "country": "Australia",
       "wsl_id": "15521",
       "out": true,
-      "rank": 13
+      "rank": 12
      },
      {
       "key": "jaime-veselko",
@@ -6331,7 +6324,7 @@
       "country": "Portugal",
       "wsl_id": "16882",
       "out": true,
-      "rank": 14
+      "rank": 13
      },
      {
       "key": "joshua-karbus",
@@ -6339,7 +6332,7 @@
       "country": "Ireland",
       "wsl_id": "18519",
       "out": true,
-      "rank": 15
+      "rank": 14
      },
      {
       "key": "kaisei-adachi",
@@ -6347,7 +6340,7 @@
       "country": "Japan",
       "wsl_id": "14590",
       "out": true,
-      "rank": 16
+      "rank": 15
      },
      {
       "key": "levi-epenetos",
@@ -6355,7 +6348,7 @@
       "country": "South Africa",
       "wsl_id": "16399",
       "out": true,
-      "rank": 17
+      "rank": 16
      },
      {
       "key": "lukas-skinner",
@@ -6363,7 +6356,7 @@
       "country": "United Kingdom",
       "wsl_id": "13999",
       "out": true,
-      "rank": 18
+      "rank": 17
      },
      {
       "key": "luke-tema",
@@ -6371,7 +6364,7 @@
       "country": "Hawaii",
       "wsl_id": "12921",
       "out": true,
-      "rank": 19
+      "rank": 18
      },
      {
       "key": "manuel-castellanos",
@@ -6379,7 +6372,7 @@
       "country": "El Salvador",
       "wsl_id": "21754",
       "out": true,
-      "rank": 20
+      "rank": 19
      },
      {
       "key": "ocean-lancaster",
@@ -6387,13 +6380,21 @@
       "country": "Australia",
       "wsl_id": "18070",
       "out": true,
-      "rank": 21
+      "rank": 20
      },
      {
       "key": "rafael-barbosa",
       "name": "Rafael Barbosa",
       "country": "Brazil",
       "wsl_id": "19701",
+      "out": true,
+      "rank": 21
+     },
+     {
+      "key": "rylan-beavers",
+      "name": "Rylan Beavers",
+      "country": "Hawaii",
+      "wsl_id": "14277",
       "out": true,
       "rank": 22
      },
@@ -6606,7 +6607,7 @@
     ]
    },
    "roster_source": "WSL event page (official heat draw)",
-   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (16 men, 20 women) stay listed but cannot be picked.",
+   "roster_note": "Every surfer in the official WSL heat draw. Surfers already eliminated (17 men, 20 women) stay listed but cannot be picked.",
    "conflicts": [],
    "results": {
     "cannon-carr": {
@@ -6665,6 +6666,10 @@
      "place": 17,
      "points": 1330
     },
+    "rylan-beavers": {
+     "place": 8,
+     "points": 4745
+    },
     "simon-winter": {
      "place": 17,
      "points": 1330
@@ -6674,42 +6679,37 @@
      "points": 3320
     },
     "anuar-chiah": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "darcy-dwyer": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "hans-odriozola": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "ido-hagag": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "lucas-cassity": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "ryan-kainalo": {
-     "place": 8,
-     "points": 4745,
-     "live": true
-    },
-    "rylan-beavers": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
     "yuma-nagasawa": {
-     "place": 8,
+     "place": 7,
      "points": 4745,
      "live": true
     },
